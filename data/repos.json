@@ -1,0 +1,76 @@
+[
+  {
+    "id": "github:noamseg/interview-coach-skill",
+    "url": "https://github.com/noamseg/interview-coach-skill",
+    "title": "noamseg/interview-coach-skill",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072081878312493139",
+    "fetched_at": "2026-06-30T22:17:45.764890Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "This is an AI-powered interview coach built on Claude Code, designed to guide users through the entire job search lifecycle, from resume optimization and mock interviews to post-offer negotiation. It offers adaptive coaching, detailed scoring, and personalized feedback to improve interview performance.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "interview-prep",
+      "career-development",
+      "coaching",
+      "developer-tool"
+    ],
+    "risk_notes": "The installation method is not explicitly stated, but it's a Claude Code-based tool, implying it likely requires a Claude API key. Users are prompted to share their resume, which contains sensitive personal data, and this data is processed and stored locally in a `coaching_state.md` file, raising privacy considerations. The listed creation and last push dates (2026) are in the future, which is highly unusual and could indicate an error in the repository metadata; assuming these are typos, the project appears comprehensive and well-described.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 12,
+      "created_at": "2026-01-31T01:09:32Z",
+      "homepage": ""
+    },
+    "added_at": "2026-06-30T22:17:59.359398Z",
+    "stars": 1474,
+    "language": null,
+    "pushed_at": "2026-05-29T20:32:20Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:caamer20/telegram-drive",
+    "url": "https://github.com/caamer20/telegram-drive",
+    "title": "caamer20/telegram-drive",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072074251025236309",
+    "fetched_at": "2026-06-30T22:17:45.765357Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Telegram Drive is an open-source desktop application that transforms your Telegram account into an unlimited, secure cloud storage solution, offering a file explorer interface for managing files on Telegram's servers.",
+    "category": "Cloud Storage",
+    "tags": [
+      "telegram",
+      "cloud storage",
+      "desktop app",
+      "file management",
+      "privacy",
+      "tauri"
+    ],
+    "risk_notes": "The desktop app (Windows, macOS, Linux) is built and signed automatically by GitHub CI and features auto-updates, which is a good sign for maintenance and trust. It requires Telegram API credentials, but states that API keys and data stay local with no third-party servers. A local REST API for AI integration is off by default and requires API key authentication. The Android version is an unsigned APK requiring 'Install from Unknown Sources' and contains Google AdMob banner ads, which introduces a higher risk profile for mobile users. The project is actively maintained with recent pushes.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-23T20:19:39Z",
+      "homepage": "https://www.cameronamer.com"
+    },
+    "added_at": "2026-06-30T22:18:14.898140Z",
+    "stars": 4042,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T21:13:28Z",
+    "license": null,
+    "topics": [
+      "open-source",
+      "react",
+      "rust",
+      "tauri",
+      "telegram",
+      "telegramapi",
+      "typescript"
+    ]
+  }
+]
