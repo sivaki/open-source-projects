@@ -4340,5 +4340,469 @@
       "restic",
       "self-hosted"
     ]
+  },
+  {
+    "id": "github:scstelz/security-investigator",
+    "url": "https://github.com/scstelz/security-investigator",
+    "title": "scstelz/security-investigator",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072786743741341937",
+    "fetched_at": "2026-07-02T21:05:22.360729Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An advanced security investigation framework that leverages GitHub Copilot, MCP servers, and KQL to automate threat hunting and incident analysis within Microsoft Sentinel and Defender environments.",
+    "category": "Security Automation",
+    "tags": [
+      "security",
+      "automation",
+      "ai",
+      "mcp",
+      "soc",
+      "kql"
+    ],
+    "risk_notes": "Requires local Python environment setup with pip dependencies. Accesses sensitive enterprise security data (Microsoft Sentinel, Defender XDR, Graph API) via user-provided API keys and tokens stored in a .env file. Requires GitHub PAT for MCP server communication. The tool performs automated queries against production security infrastructure, so it should be run with appropriate least-privilege service accounts.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-12-16T20:49:02Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T21:05:31.054420Z",
+    "stars": 215,
+    "language": "Python",
+    "pushed_at": "2026-07-02T20:39:02Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:simonoppowa/opennutritracker",
+    "url": "https://github.com/simonoppowa/opennutritracker",
+    "title": "simonoppowa/opennutritracker",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072782930380804572",
+    "fetched_at": "2026-07-02T21:05:22.360962Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A privacy-focused, open-source calorie and nutrition tracker for mobile devices that stores data locally and supports offline use.",
+    "category": "Health & Productivity",
+    "tags": [
+      "flutter",
+      "privacy",
+      "nutrition",
+      "mobile",
+      "self-hosted"
+    ],
+    "risk_notes": "Installed via official App Store or Google Play Store, or side-loaded via APK from GitHub releases. The app requires camera access for barcode scanning and local storage access for data persistence. It is privacy-focused with all data stored locally and encrypted, and it does not require external accounts or cloud sync.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 24,
+      "created_at": "2022-09-21T17:58:48Z",
+      "homepage": "https://simonoppowa.github.io/OpenNutriTracker-Website/"
+    },
+    "added_at": "2026-07-02T21:05:37.949518Z",
+    "stars": 2016,
+    "language": "Dart",
+    "pushed_at": "2026-06-30T12:04:52Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "android",
+      "calories-tracker",
+      "clean-architecture",
+      "dart",
+      "diet",
+      "fitness",
+      "flutter",
+      "health",
+      "ios",
+      "nutrition",
+      "open-source"
+    ]
+  },
+  {
+    "id": "github:raulbejarano/ultimate-toroidal-propeller-generator",
+    "url": "https://github.com/raulbejarano/ultimate-toroidal-propeller-generator",
+    "title": "raulbejarano/ultimate-toroidal-propeller-generator",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072779091892154713",
+    "fetched_at": "2026-07-02T21:05:22.361088Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "An OpenSCAD-based generator for creating custom 3D-printable toroidal drone propellers.",
+    "category": "3D Printing",
+    "tags": [
+      "openscad",
+      "3d-printing",
+      "drones",
+      "cad"
+    ],
+    "risk_notes": "Requires installing OpenSCAD locally. The project is a set of script files; it does not execute arbitrary code on your system, but you must trust the OpenSCAD software itself. No network access is required for operation.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2023-02-23T16:20:04Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T21:05:44.773272Z",
+    "stars": 176,
+    "language": "OpenSCAD",
+    "pushed_at": "2026-04-28T22:13:34Z",
+    "license": "GPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:iduspara/shadcn-builder",
+    "url": "https://github.com/iduspara/shadcn-builder",
+    "title": "iduspara/shadcn-builder",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072775284919501021",
+    "fetched_at": "2026-07-02T21:05:22.361211Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A visual drag-and-drop form builder for shadcn/ui that generates clean, production-ready React and Tailwind CSS code.",
+    "category": "Developer Tools",
+    "tags": [
+      "react",
+      "tailwind",
+      "shadcn",
+      "frontend",
+      "productivity"
+    ],
+    "risk_notes": "This is a web-based tool with no local installation required; it runs in the browser. It poses minimal security risk as it does not require filesystem access or elevated privileges. The project is actively maintained and relies on standard web technologies.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 25,
+      "created_at": "2024-03-05T16:07:28Z",
+      "homepage": "https://shadcn-builder-igor-dusparas-projects.vercel.app"
+    },
+    "added_at": "2026-07-02T21:05:51.467044Z",
+    "stars": 579,
+    "language": "TypeScript",
+    "pushed_at": "2026-05-12T07:52:47Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:xenitv1/claude-code-maestro",
+    "url": "https://github.com/xenitv1/claude-code-maestro",
+    "title": "xenitv1/claude-code-maestro",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072771450868551998",
+    "fetched_at": "2026-07-02T21:05:22.361328Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An orchestration framework for the Claude Code CLI that adds persistent memory, autonomous QA agents, and modular skill sets to enhance AI-driven development workflows.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "cli",
+      "claude",
+      "automation",
+      "developer-tools"
+    ],
+    "risk_notes": "Installed via npx or Claude Code plugin marketplace. As a plugin for Claude Code, it inherits the permissions of the CLI, meaning it has full read/write access to your local filesystem and can execute arbitrary shell commands on your machine. It uses a local 'brain.jsonl' file for persistent memory. Requires Node.js 18+ and an active Claude Code environment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-12-30T06:01:39Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T21:06:02.384507Z",
+    "stars": 214,
+    "language": "JavaScript",
+    "pushed_at": "2026-01-24T22:12:45Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:zju3dv/pgsr",
+    "url": "https://github.com/zju3dv/pgsr",
+    "title": "zju3dv/pgsr",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072767620076421579",
+    "fetched_at": "2026-07-02T21:05:22.361442Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "PGSR is a high-performance 3D reconstruction tool that uses planar-based Gaussian Splatting to generate high-fidelity meshes from multi-view images without requiring pre-trained depth models.",
+    "category": "Computer Vision / 3D Reconstruction",
+    "tags": [
+      "3dgs",
+      "computer-vision",
+      "3d-reconstruction",
+      "gaussian-splatting",
+      "research"
+    ],
+    "risk_notes": "Requires a Python environment (Conda) and compilation of custom CUDA kernels (submodules). It accesses local filesystem data for processing and requires a GPU with CUDA support. The project is research-oriented and relies on several external submodules, which should be audited for security if used in production pipelines.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 59,
+      "created_at": "2024-06-10T17:35:06Z",
+      "homepage": "https://zju3dv.github.io/pgsr/"
+    },
+    "added_at": "2026-07-02T21:06:09.648872Z",
+    "stars": 1049,
+    "language": "Python",
+    "pushed_at": "2024-12-25T07:54:39Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "3dgs",
+      "surface-reconstruction"
+    ]
+  },
+  {
+    "id": "github:mujocolab/mjlab",
+    "url": "https://github.com/mujocolab/mjlab",
+    "title": "mujocolab/mjlab",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072763810625061148",
+    "fetched_at": "2026-07-02T21:05:22.361561Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance, GPU-accelerated framework for robotics research and reinforcement learning that bridges Isaac Lab's API with MuJoCo-Warp.",
+    "category": "AI/Robotics",
+    "tags": [
+      "robotics",
+      "reinforcement-learning",
+      "mujoco",
+      "gpu-acceleration",
+      "simulation"
+    ],
+    "risk_notes": "Installs via pip or uv; requires an NVIDIA GPU and proprietary drivers. It is a research-focused library that executes arbitrary simulation code and interacts with Weights & Biases for experiment tracking, which may involve API keys. The project is actively maintained by reputable researchers in the field.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 38,
+      "created_at": "2025-06-10T02:34:09Z",
+      "homepage": "https://mujocolab.github.io/mjlab/"
+    },
+    "added_at": "2026-07-02T21:06:17.164021Z",
+    "stars": 2628,
+    "language": "Python",
+    "pushed_at": "2026-07-02T10:05:58Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "isaaclab",
+      "mujoco",
+      "mujoco-warp",
+      "reinforcement-learning",
+      "robotics-simulation"
+    ]
+  },
+  {
+    "id": "github:dovvnloading/graphite",
+    "url": "https://github.com/dovvnloading/graphite",
+    "title": "dovvnloading/graphite",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072759983729504397",
+    "fetched_at": "2026-07-02T21:05:22.361677Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A node-based, local-first visual workspace for LLM interactions that allows for non-linear conversation branching and data visualization.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "ai",
+      "pyside6",
+      "productivity",
+      "local-first"
+    ],
+    "risk_notes": "The application is a Python/PySide6 desktop GUI. It requires local installation of Python dependencies (likely via pip) and stores data in a local SQLite database. It requires API keys for external LLM providers (OpenAI, Anthropic, etc.) and network access to communicate with those APIs or a local Ollama instance. The repository points to a newer version (Graphlink), suggesting this specific repo might be deprecated or superseded.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-10-18T20:34:02Z",
+      "homepage": "https://github.com/dovvnloading/Graphlink"
+    },
+    "added_at": "2026-07-02T21:06:25.263933Z",
+    "stars": 116,
+    "language": "Python",
+    "pushed_at": "2026-04-02T16:45:16Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "ai-assistant",
+      "anthropic-claude",
+      "chatgpt",
+      "gpt",
+      "gui",
+      "language-model",
+      "llm",
+      "llm-tools",
+      "node-graph",
+      "ollama",
+      "open-source",
+      "openai",
+      "pyside6",
+      "ui"
+    ]
+  },
+  {
+    "id": "github:refactoringhq/portent",
+    "url": "https://github.com/refactoringhq/portent",
+    "title": "refactoringhq/portent",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072756159186980891",
+    "fetched_at": "2026-07-02T21:05:22.361791Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "Portent is an open specification for structuring personal knowledge bases, designed to be interoperable between human users and AI agents.",
+    "category": "knowledge management",
+    "tags": [
+      "knowledge-management",
+      "specification",
+      "ai-tooling",
+      "productivity",
+      "data-modeling"
+    ],
+    "risk_notes": "This is a specification rather than a software package, posing minimal security risk. The documentation site uses standard pnpm/VitePress workflows. No sensitive permissions or system access are required as it is intended for use within existing file-based note systems.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-05-16T13:26:41Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T21:06:45.267682Z",
+    "stars": 50,
+    "language": "CSS",
+    "pushed_at": "2026-05-19T15:45:41Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:jasonkneen/kiro",
+    "url": "https://github.com/jasonkneen/kiro",
+    "title": "jasonkneen/kiro",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072752319846813790",
+    "fetched_at": "2026-07-02T21:05:22.361903Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "This repository is a documentation guide for spec-driven development and AI prompting strategies, not a functional tool, CLI, or software package.",
+    "category": "Documentation",
+    "tags": [
+      "documentation",
+      "ai-prompting",
+      "methodology",
+      "software-engineering"
+    ],
+    "risk_notes": "This is a collection of markdown files and templates. There is no code to execute, install, or run, so there are no security risks associated with installation or system access.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-07-16T17:47:23Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T21:06:51.774445Z",
+    "stars": 691,
+    "language": "TypeScript",
+    "pushed_at": "2026-01-12T14:28:33Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:darkoperator/mimikatz-missing-manual",
+    "url": "https://github.com/darkoperator/mimikatz-missing-manual",
+    "title": "darkoperator/mimikatz-missing-manual",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072748508457676901",
+    "fetched_at": "2026-07-02T21:05:22.362016Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, high-quality educational manual on Windows security internals, Kerberos, and Mimikatz, authored by a well-regarded security researcher.",
+    "category": "Security Research",
+    "tags": [
+      "security",
+      "windows",
+      "kerberos",
+      "red-team",
+      "blue-team"
+    ],
+    "risk_notes": "This is documentation/educational material, not executable software. Local hosting requires Python and mkdocs-material via pip. No inherent security risk to the host system as it is static content.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-25T18:53:39Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T21:06:58.185054Z",
+    "stars": 448,
+    "language": null,
+    "pushed_at": "2026-02-05T23:51:42Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:agiresearch/a-mem",
+    "url": "https://github.com/agiresearch/a-mem",
+    "title": "agiresearch/a-mem",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072744700109271278",
+    "fetched_at": "2026-07-02T21:05:22.362137Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A-MEM is a Python-based framework that provides an agentic memory system for LLMs, utilizing Zettelkasten principles and ChromaDB for dynamic, evolving memory management.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "agent",
+      "memory",
+      "chromadb",
+      "zettelkasten"
+    ],
+    "risk_notes": "Standard pip installation. Requires external API keys (OpenAI) or local LLM access (Ollama). It persists data locally via ChromaDB and performs network calls to LLM providers. The project is relatively new (created 2025) but shows active development.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 16,
+      "created_at": "2025-02-25T20:13:43Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T21:07:06.537210Z",
+    "stars": 1076,
+    "language": "Python",
+    "pushed_at": "2025-12-12T21:15:29Z",
+    "license": "MIT",
+    "topics": [
+      "agent",
+      "llm",
+      "memory"
+    ]
+  },
+  {
+    "id": "github:scrut1ny/opsec-guide",
+    "url": "https://github.com/scrut1ny/opsec-guide",
+    "title": "scrut1ny/opsec-guide",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072740571764965492",
+    "fetched_at": "2026-07-02T21:05:22.362249Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A comprehensive, community-curated collection of privacy, anonymity, and operational security (OpSec) resources, tools, and best practices.",
+    "category": "Security & Privacy",
+    "tags": [
+      "opsec",
+      "privacy",
+      "security",
+      "anonymity",
+      "hardening"
+    ],
+    "risk_notes": "This is a documentation-only repository (Markdown files). There is no code to execute, so there are no installation risks. However, the guide links to various third-party tools and websites; users should exercise caution and perform their own due diligence before installing or using any external software or services recommended in the list.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2021-12-18T09:16:02Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T21:07:13.172982Z",
+    "stars": 462,
+    "language": null,
+    "pushed_at": "2026-04-17T21:03:54Z",
+    "license": null,
+    "topics": [
+      "anonymity",
+      "anonymous",
+      "government",
+      "guide",
+      "hacking",
+      "opsec",
+      "tools"
+    ]
   }
 ]
