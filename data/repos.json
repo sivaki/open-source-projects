@@ -2879,5 +2879,468 @@
       "javascript",
       "visitor-identifier"
     ]
+  },
+  {
+    "id": "github:feremabraz/bloomberg-terminal",
+    "url": "https://github.com/feremabraz/bloomberg-terminal",
+    "title": "feremabraz/bloomberg-terminal",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072628814740328837",
+    "fetched_at": "2026-07-02T10:38:20.494121Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-quality Next.js-based Bloomberg Terminal clone featuring real-time financial data visualization, AI integration, and a sophisticated UI built with shadcn/ui.",
+    "category": "Developer Tools",
+    "tags": [
+      "finance",
+      "react",
+      "nextjs",
+      "dashboard",
+      "ai"
+    ],
+    "risk_notes": "Requires Node.js and pnpm for local development. The application relies on external API keys (Upstash Redis, Alpha Vantage, OpenAI) which must be managed via environment variables. It includes built-in security measures like origin restriction and rate limiting, but users should be cautious when deploying to production to ensure API keys are not exposed to the client-side.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2025-05-06T02:46:26Z",
+      "homepage": "https://bloomberg-terminal-nine.vercel.app"
+    },
+    "added_at": "2026-07-02T10:38:26.596641Z",
+    "stars": 1399,
+    "language": "TypeScript",
+    "pushed_at": "2026-03-05T05:35:41Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:catchthetornado/text-extract-api",
+    "url": "https://github.com/catchthetornado/text-extract-api",
+    "title": "catchthetornado/text-extract-api",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072624829144998244",
+    "fetched_at": "2026-07-02T10:38:20.494369Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted, privacy-focused document extraction and PII anonymization API that leverages local OCR (EasyOCR) and LLMs (via Ollama) to convert PDFs and images into structured JSON or Markdown.",
+    "category": "automation",
+    "tags": [
+      "ocr",
+      "llm",
+      "self-hosted",
+      "pii",
+      "automation",
+      "document-processing"
+    ],
+    "risk_notes": "Requires Docker and Ollama. The application runs as a FastAPI service with Celery and Redis; it requires read/write access to the local filesystem for document processing. It is designed for local execution, which mitigates data privacy risks by keeping documents off external cloud services. Maintenance is active, though it relies on a complex stack (Celery/Redis/Ollama) which increases the attack surface if exposed to the network.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 47,
+      "created_at": "2024-10-23T09:27:19Z",
+      "homepage": "https://demo.doctractor.com"
+    },
+    "added_at": "2026-07-02T10:38:34.397505Z",
+    "stars": 3110,
+    "language": "Python",
+    "pushed_at": "2025-12-08T21:27:14Z",
+    "license": "MIT",
+    "topics": [
+      "anonymization",
+      "api",
+      "extract",
+      "json",
+      "llm",
+      "ocr",
+      "ocr-python",
+      "pdf",
+      "pii"
+    ]
+  },
+  {
+    "id": "github:ark0n/codeman",
+    "url": "https://github.com/ark0n/codeman",
+    "title": "ark0n/codeman",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072621015163641880",
+    "fetched_at": "2026-07-02T10:38:20.494491Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A web-based dashboard for managing AI coding agents like Claude Code and OpenCode within tmux sessions, featuring a mobile-optimized interface and secure QR-based authentication.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai",
+      "cli",
+      "tmux",
+      "automation",
+      "webui",
+      "self-hosted"
+    ],
+    "risk_notes": "Uses a curl-to-bash installation script which is a common but risky pattern; it requires Node.js and tmux. The application runs as a local web server and interacts directly with your terminal sessions and AI coding agents, meaning it has access to your filesystem and any API keys/credentials configured for those agents. It is actively maintained with recent commits.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-01-21T13:09:45Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T10:38:40.886279Z",
+    "stars": 438,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-01T07:09:48Z",
+    "license": "MIT",
+    "topics": [
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "claude-cli",
+      "claude-code",
+      "claude-code-plugin",
+      "claudecode",
+      "claudecode-monitoring",
+      "claudecodeing",
+      "local-echo",
+      "mosh",
+      "opencode",
+      "opencode-ai",
+      "opencode-plugin",
+      "ralph-loop",
+      "tmux",
+      "todowrite",
+      "xterm-zerolag-input"
+    ]
+  },
+  {
+    "id": "github:autonomous-ai/autonomous-computer",
+    "url": "https://github.com/autonomous-ai/autonomous-computer",
+    "title": "autonomous-ai/autonomous-computer",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072616897477034195",
+    "fetched_at": "2026-07-02T10:38:20.494612Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive open-source guide for building high-performance local AI hardware rigs, including bills of materials, 3D-printable housing files, and software configuration for running large language models.",
+    "category": "home-lab",
+    "tags": [
+      "ai",
+      "hardware",
+      "llm",
+      "homelab",
+      "self-hosting"
+    ],
+    "risk_notes": "This is a hardware documentation project, not a software package. Risks are limited to physical assembly and standard OS/driver installation (NVIDIA drivers, Linux/Windows). No automated scripts are provided that require root access or network permissions, but users should follow standard security practices when setting up local model-serving APIs like Ollama or vLLM.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-08-22T11:12:50Z",
+      "homepage": "https://autonomous.ai"
+    },
+    "added_at": "2026-07-02T10:38:47.793154Z",
+    "stars": 273,
+    "language": null,
+    "pushed_at": "2026-06-14T06:52:26Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:yashab-cyber/hackgpt",
+    "url": "https://github.com/yashab-cyber/hackgpt",
+    "title": "yashab-cyber/hackgpt",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072613051782643873",
+    "fetched_at": "2026-07-02T10:38:20.494731Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "An enterprise-focused AI penetration testing platform that uses a complex microservices architecture including Docker, Kubernetes, and various monitoring stacks.",
+    "category": "Security Tooling",
+    "tags": [
+      "ai",
+      "pentesting",
+      "cybersecurity",
+      "automation",
+      "devsecops"
+    ],
+    "risk_notes": "The project requires running an 'install.sh' script which typically carries risks of arbitrary code execution. It requires significant infrastructure (Docker, Kubernetes, PostgreSQL, Redis, ELK stack) and handles sensitive security assessment data, requiring careful configuration of API keys and network access to target environments.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-08-14T19:23:15Z",
+      "homepage": "https://zehrasec.com"
+    },
+    "added_at": "2026-07-02T10:38:54.211234Z",
+    "stars": 845,
+    "language": "Python",
+    "pushed_at": "2026-07-01T14:28:38Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai",
+      "cybersecurity",
+      "ethical-hacking",
+      "pentest-tool",
+      "pentesting",
+      "research"
+    ]
+  },
+  {
+    "id": "github:liam-hq/liam",
+    "url": "https://github.com/liam-hq/liam",
+    "title": "liam-hq/liam",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072609243736289528",
+    "fetched_at": "2026-07-02T10:38:20.494845Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Liam ERD is a developer tool that automatically generates interactive, visual entity-relationship diagrams from existing database schemas.",
+    "category": "Developer Tools",
+    "tags": [
+      "database",
+      "visualization",
+      "erd",
+      "cli",
+      "schema"
+    ],
+    "risk_notes": "Installed via npm (npx @liam-hq/cli init). Requires read access to database schema files or direct database connection strings to generate diagrams. As a CLI tool, it runs in the user's local environment; users should be cautious about sharing sensitive schema information with the hosted web-based visualization service.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 29,
+      "created_at": "2024-08-07T07:11:45Z",
+      "homepage": "https://liambx.com"
+    },
+    "added_at": "2026-07-02T10:39:00.972506Z",
+    "stars": 4869,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T00:09:25Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "data-visualization",
+      "database",
+      "database-schema",
+      "documentation",
+      "documentation-tool",
+      "entity-relationship-diagram",
+      "er-diagram",
+      "erd",
+      "nodejs",
+      "orm",
+      "postgresql",
+      "prisma",
+      "react-flow",
+      "reactjs",
+      "ruby-on-rails",
+      "sql",
+      "tbls",
+      "typescript",
+      "visualization",
+      "webassembly"
+    ]
+  },
+  {
+    "id": "github:2gt-media-group-llc/mikrotik-manager",
+    "url": "https://github.com/2gt-media-group-llc/mikrotik-manager",
+    "title": "2gt-media-group-llc/mikrotik-manager",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072605225991450689",
+    "fetched_at": "2026-07-02T10:38:20.494960Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A self-hosted, full-stack management platform for MikroTik network infrastructure that provides centralized monitoring, configuration, and security auditing.",
+    "category": "Networking",
+    "tags": [
+      "mikrotik",
+      "homelab",
+      "networking",
+      "self-hosted",
+      "automation"
+    ],
+    "risk_notes": "Deployed via Docker Compose. Requires administrative credentials for all managed MikroTik devices to function. It has full read/write access to your network infrastructure, so it should be isolated in a secure VLAN. The project is in beta (v0.16.2) and actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 11,
+      "created_at": "2026-04-14T01:05:01Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T10:39:07.862436Z",
+    "stars": 56,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-29T18:52:49Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "mikrotik",
+      "mikrotik-api",
+      "networking"
+    ]
+  },
+  {
+    "id": "github:hkuds/paper2slides",
+    "url": "https://github.com/hkuds/paper2slides",
+    "title": "hkuds/paper2slides",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072601420155490764",
+    "fetched_at": "2026-07-02T10:38:20.495076Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An AI-powered CLI tool that converts research papers and documents into professional slides or posters using RAG-based content extraction.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "automation",
+      "productivity",
+      "cli"
+    ],
+    "risk_notes": "Requires local Python environment setup via pip. Needs API keys (likely OpenAI or similar) stored in a .env file to function. Accesses local files for input/output and requires outbound network access to communicate with LLM APIs. Maintenance appears active.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 23,
+      "created_at": "2025-12-07T06:15:43Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-02T10:39:14.569558Z",
+    "stars": 3752,
+    "language": "Python",
+    "pushed_at": "2026-05-20T09:08:14Z",
+    "license": "MIT",
+    "topics": [
+      "agentic-ai",
+      "llm-agents",
+      "paper2poster",
+      "paper2slides"
+    ]
+  },
+  {
+    "id": "github:showlab/paper2video",
+    "url": "https://github.com/showlab/paper2video",
+    "title": "showlab/paper2video",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072597611698102642",
+    "fetched_at": "2026-07-02T10:38:20.495188Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An automated pipeline that converts scientific LaTeX papers into presentation videos, integrating slide generation, speech synthesis, and optional talking-head video rendering.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "automation",
+      "research",
+      "video-generation",
+      "llm"
+    ],
+    "risk_notes": "Requires significant local compute resources (recommended NVIDIA A6000 with 48GB VRAM). Installation involves multiple Conda environments and external dependencies like Hallo2. Requires API keys for OpenAI/Gemini, which will have access to any documents processed through the pipeline. The code executes complex pipelines, so reviewing the scripts before running on sensitive documents is advised.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2025-10-03T08:50:16Z",
+      "homepage": "https://showlab.github.io/Paper2Video/"
+    },
+    "added_at": "2026-07-02T10:39:27.017060Z",
+    "stars": 2324,
+    "language": "Python",
+    "pushed_at": "2026-03-05T09:05:41Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:inception3d/motion324",
+    "url": "https://github.com/inception3d/motion324",
+    "title": "inception3d/motion324",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072593767861821939",
+    "fetched_at": "2026-07-02T10:38:20.495300Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Motion324 is a research-oriented framework for 3D motion reconstruction and 4D synthesis, enabling the generation of animated 3D assets from video inputs.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "3d-reconstruction",
+      "computer-vision",
+      "generative-ai",
+      "research",
+      "animation"
+    ],
+    "risk_notes": "Requires a complex local environment setup using Conda and pip, including compiling custom CUDA-based rasterizers and renderers. It requires significant GPU resources (compute capability > 8.0) and external dependencies like Blender. It uses Wandb for telemetry, requiring an API key. As a research project, it may lack long-term maintenance and contains complex build steps that execute arbitrary code during compilation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-21T05:33:33Z",
+      "homepage": "https://motion3-to-4.github.io/"
+    },
+    "added_at": "2026-07-02T10:39:33.676070Z",
+    "stars": 160,
+    "language": "Python",
+    "pushed_at": "2026-04-07T12:05:11Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "3d-reconstruction",
+      "4d-reconstruction",
+      "motion-tracking"
+    ]
+  },
+  {
+    "id": "github:andymik90/aperant",
+    "url": "https://github.com/andymik90/aperant",
+    "title": "andymik90/aperant",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072589782736101617",
+    "fetched_at": "2026-07-02T10:38:20.495423Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Aperant is an autonomous multi-agent framework designed to plan, build, and validate software projects by leveraging Claude's coding capabilities.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "automation",
+      "coding-assistant",
+      "developer-tools",
+      "llm"
+    ],
+    "risk_notes": "The application requires a Claude Pro subscription and local access to your Git repositories. It is distributed as pre-compiled binaries (AppImage, .deb, .dmg, .exe), which requires trusting the maintainer's build pipeline. It operates as an autonomous agent with read/write access to your local filesystem and executes code, which carries inherent security risks; it is recommended to run this in a sandboxed or isolated environment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 81,
+      "created_at": "2025-12-04T22:10:37Z",
+      "homepage": "https://aperant.com"
+    },
+    "added_at": "2026-07-02T10:39:40.276783Z",
+    "stars": 14394,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-14T08:27:00Z",
+    "license": "AGPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:evolvinglmms-lab/lmms-lab-writer",
+    "url": "https://github.com/evolvinglmms-lab/lmms-lab-writer",
+    "title": "evolvinglmms-lab/lmms-lab-writer",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2072585969920860500",
+    "fetched_at": "2026-07-02T10:38:20.495538Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A local-first, AI-native LaTeX editor built with Tauri that integrates AI agents, Git version control, and automated LaTeX distribution management for academic writing.",
+    "category": "Developer Tools",
+    "tags": [
+      "latex",
+      "ai",
+      "editor",
+      "tauri",
+      "academic-writing",
+      "productivity"
+    ],
+    "risk_notes": "Distributed as a native binary (Homebrew/Installer). It requires user-provided API keys for AI features. As a local-first application, it has full access to the user's filesystem within the project directory. The project is actively maintained and uses the secure Tauri framework, which limits the attack surface compared to Electron-based apps.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-01-24T08:39:15Z",
+      "homepage": "https://writer.lmms-lab.com/"
+    },
+    "added_at": "2026-07-02T10:39:46.970000Z",
+    "stars": 238,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-01T14:57:34Z",
+    "license": "MIT",
+    "topics": [
+      "academic-writing",
+      "ai",
+      "editor",
+      "latex",
+      "writing"
+    ]
   }
 ]
