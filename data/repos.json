@@ -8794,5 +8794,736 @@
       "voice-cloning",
       "voice-synthesis"
     ]
+  },
+  {
+    "id": "github:basilysf1709/golos",
+    "url": "https://github.com/basilysf1709/golos",
+    "title": "basilysf1709/golos",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073237007392702931",
+    "fetched_at": "2026-07-04T02:48:07.256085Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A lightweight, Go-based macOS CLI tool that provides push-to-talk speech-to-text functionality by streaming audio to the Deepgram API and pasting the result into the active application.",
+    "category": "Developer Tools",
+    "tags": [
+      "cli",
+      "macos",
+      "speech-to-text",
+      "automation",
+      "go"
+    ],
+    "risk_notes": "Installs via a curl-to-bash script, which is a common but risky pattern. Requires macOS Accessibility permissions to monitor keystrokes and simulate input (pasting). It requires a third-party API key (Deepgram) to function, which is stored in a local config file. The project is very new (created Feb 2026), so it lacks long-term maintenance history.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-02-23T06:52:51Z",
+      "homepage": "https://golos.sh"
+    },
+    "added_at": "2026-07-04T02:48:13.417909Z",
+    "stars": 44,
+    "language": "Go",
+    "pushed_at": "2026-03-12T08:57:35Z",
+    "license": "MIT",
+    "topics": [
+      "go",
+      "open-source",
+      "speech-to-text",
+      "voice"
+    ]
+  },
+  {
+    "id": "github:flick9000/winscript",
+    "url": "https://github.com/flick9000/winscript",
+    "title": "flick9000/winscript",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073233698233651615",
+    "fetched_at": "2026-07-04T02:48:07.256372Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive Windows customization and debloating tool that allows users to generate custom scripts for privacy, performance, and automated software installation.",
+    "category": "System Administration",
+    "tags": [
+      "windows",
+      "debloat",
+      "privacy",
+      "automation",
+      "powershell"
+    ],
+    "risk_notes": "The tool requires administrative privileges to modify system settings, registry keys, and uninstall components. It offers an 'irm | iex' installation method, which is inherently risky as it executes remote code directly in memory. It is safer to use the provided Winget package or download the signed executable directly from the releases page. The project is actively maintained and uses code signing.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2024-05-29T19:55:23Z",
+      "homepage": "https://winscript.cc/"
+    },
+    "added_at": "2026-07-04T02:48:20.078649Z",
+    "stars": 2564,
+    "language": "CSS",
+    "pushed_at": "2026-07-02T21:00:34Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "bloatware",
+      "cleanup",
+      "debloat",
+      "debloater",
+      "install-script",
+      "optimize",
+      "performance",
+      "powershell",
+      "privacy",
+      "privacy-tools",
+      "ps1",
+      "script",
+      "security",
+      "telemetry",
+      "tweaks",
+      "windows",
+      "windows-11",
+      "windows11"
+    ]
+  },
+  {
+    "id": "github:garagesteve1155/powertrader_ai",
+    "url": "https://github.com/garagesteve1155/powertrader_ai",
+    "title": "garagesteve1155/powertrader_ai",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073230372171624851",
+    "fetched_at": "2026-07-04T02:48:07.256594Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Python-based automated crypto trading bot utilizing a custom kNN-style price prediction algorithm and a tiered DCA strategy.",
+    "category": "automation",
+    "tags": [
+      "crypto",
+      "trading",
+      "ai",
+      "python",
+      "finance"
+    ],
+    "risk_notes": "Requires full API key access to crypto exchange accounts, which poses a significant financial risk. The code is self-contained Python, but lacks standard security features like stop-losses, relying entirely on a DCA strategy that could lead to significant capital depletion. Maintenance is minimal and the project is explicitly labeled as an experimental foundation rather than a production-ready tool.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2025-12-27T15:27:54Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:48:26.549354Z",
+    "stars": 773,
+    "language": "Python",
+    "pushed_at": "2026-04-18T15:18:17Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:fastfire/deepdarkcti",
+    "url": "https://github.com/fastfire/deepdarkcti",
+    "title": "fastfire/deepdarkcti",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073227301458772344",
+    "fetched_at": "2026-07-04T02:48:07.256800Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, curated list of OSINT sources for Cyber Threat Intelligence (CTI) focused on the deep and dark web, including Telegram channels, forums, and ransomware sites.",
+    "category": "Security / OSINT",
+    "tags": [
+      "cti",
+      "osint",
+      "cybersecurity",
+      "threat-intelligence",
+      "darkweb"
+    ],
+    "risk_notes": "This is a static repository of links and documentation, not an executable tool. It carries no inherent risk as it does not require installation or execution. It is actively maintained and serves as a reference guide for security researchers.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 85,
+      "created_at": "2021-05-29T19:18:51Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:48:32.758343Z",
+    "stars": 7004,
+    "language": null,
+    "pushed_at": "2026-07-02T16:31:05Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "cti",
+      "cyberhunter",
+      "darkweb",
+      "deepweb",
+      "threat-intelligence"
+    ]
+  },
+  {
+    "id": "github:londek/ipadecrypt",
+    "url": "https://github.com/londek/ipadecrypt",
+    "title": "londek/ipadecrypt",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073224224513073483",
+    "fetched_at": "2026-07-04T02:48:07.257001Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Go-based CLI tool that automates the downloading and decryption of iOS App Store applications by leveraging a jailbroken device over SSH.",
+    "category": "Developer Tools",
+    "tags": [
+      "ios",
+      "jailbreak",
+      "cli",
+      "automation",
+      "security"
+    ],
+    "risk_notes": "Requires a jailbroken iOS device with SSH access, which inherently increases the attack surface of the device. The tool stores App Store credentials locally in a config file (~/.ipadecrypt/config.json). Installation is via Go or prebuilt binaries, which is standard, but users should be aware that it executes code on the jailbroken device via SSH.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-04-17T22:42:33Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:48:39.127092Z",
+    "stars": 402,
+    "language": "Go",
+    "pushed_at": "2026-06-23T20:39:34Z",
+    "license": "MIT",
+    "topics": [
+      "decryption",
+      "dopamine",
+      "fairplay",
+      "ios",
+      "ipa",
+      "jailbreaking",
+      "palera1n"
+    ]
+  },
+  {
+    "id": "github:hkuds/futureshow",
+    "url": "https://github.com/hkuds/futureshow",
+    "title": "hkuds/futureshow",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073221170082500808",
+    "fetched_at": "2026-07-04T02:48:07.257208Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "FutureShow is an open-source benchmarking platform that evaluates the predictive capabilities of AI models against real-world prediction market consensus.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "benchmarking",
+      "forecasting",
+      "data-science",
+      "llm"
+    ],
+    "risk_notes": "The project is in early stages (created Jan 2026). It requires Python 3.10+ and likely interacts with external prediction market APIs. Users should review the codebase for potential API key handling and network egress requirements before running automated forecasting agents.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-25T05:38:39Z",
+      "homepage": "https://futureshow.org/"
+    },
+    "added_at": "2026-07-04T02:48:45.553233Z",
+    "stars": 161,
+    "language": "Python",
+    "pushed_at": "2026-01-26T13:07:06Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:mmmlllnnn/resumecollection",
+    "url": "https://github.com/mmmlllnnn/resumecollection",
+    "title": "mmmlllnnn/resumecollection",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073218097889079475",
+    "fetched_at": "2026-07-04T02:48:07.257417Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A large collection of static resume templates in Word/Docx format, primarily focused on the Chinese job market.",
+    "category": "Resources",
+    "tags": [
+      "resume",
+      "templates",
+      "career",
+      "docs"
+    ],
+    "risk_notes": "This is a static repository of document files. There is no code to execute, so there are no security risks related to installation or system access. However, it is not a developer tool or automation project.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2024-04-12T10:22:36Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:48:51.750889Z",
+    "stars": 700,
+    "language": null,
+    "pushed_at": "2026-04-11T05:48:18Z",
+    "license": "MIT",
+    "topics": [
+      "resume",
+      "resume-template"
+    ]
+  },
+  {
+    "id": "github:0xjs/redteaming_cheatsheet",
+    "url": "https://github.com/0xjs/redteaming_cheatsheet",
+    "title": "0xjs/redteaming_cheatsheet",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073215021950075361",
+    "fetched_at": "2026-07-04T02:48:07.257607Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, well-organized collection of red teaming and penetration testing techniques, commands, and methodologies covering Windows AD, cloud, infrastructure, and defense evasion.",
+    "category": "Security Tooling",
+    "tags": [
+      "pentesting",
+      "redteaming",
+      "security",
+      "cheatsheet",
+      "infosec"
+    ],
+    "risk_notes": "This is a documentation-only repository containing markdown files. There is no code to execute or install, posing no inherent security risk to your system. It serves as a reference guide for security professionals.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2021-12-27T17:14:00Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:48:57.870847Z",
+    "stars": 1538,
+    "language": "C++",
+    "pushed_at": "2025-11-21T05:55:00Z",
+    "license": "GPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:alltechdev/gplay-apk-downloader",
+    "url": "https://github.com/alltechdev/gplay-apk-downloader",
+    "title": "alltechdev/gplay-apk-downloader",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073211947554623597",
+    "fetched_at": "2026-07-04T02:48:07.257796Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A self-hosted tool for downloading and managing Google Play Store APKs, featuring split APK merging, ADB integration, and a web-based UI.",
+    "category": "automation",
+    "tags": [
+      "android",
+      "self-hosting",
+      "automation",
+      "cli",
+      "privacy"
+    ],
+    "risk_notes": "Requires Java 17, apksigner, and Python dependencies. Installation involves running a shell script that sets up a virtual environment and downloads external binaries (APKEditor). It requires a user-provided 'dispenser' URL to function. It performs file system operations to store APKs and interacts with connected Android devices via ADB, which carries inherent risks if malicious APKs are installed.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-11-30T16:40:56Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:49:04.361957Z",
+    "stars": 228,
+    "language": "Python",
+    "pushed_at": "2026-05-28T16:41:51Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "apkdownload",
+      "aurora-store",
+      "degoogle",
+      "gplay",
+      "gplayapi",
+      "gplaycli"
+    ]
+  },
+  {
+    "id": "github:waydroid/waydroid",
+    "url": "https://github.com/waydroid/waydroid",
+    "title": "waydroid/waydroid",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073208707312210275",
+    "fetched_at": "2026-07-04T02:48:07.257979Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Waydroid provides a container-based environment to run full Android systems and applications directly on GNU/Linux distributions.",
+    "category": "Linux Utilities",
+    "tags": [
+      "android",
+      "linux",
+      "container",
+      "virtualization",
+      "mobile"
+    ],
+    "risk_notes": "Requires root privileges for installation and container management. It integrates deeply with the host kernel and hardware, which carries inherent security implications for running Android apps on a desktop environment. Installation typically involves adding external repositories and running system-level commands.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 904,
+      "created_at": "2021-04-16T02:02:14Z",
+      "homepage": "https://waydro.id"
+    },
+    "added_at": "2026-07-04T02:49:10.641017Z",
+    "stars": 11637,
+    "language": "Python",
+    "pushed_at": "2026-07-01T20:26:40Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "android",
+      "linux"
+    ]
+  },
+  {
+    "id": "github:gmag11/metatrader5-docker",
+    "url": "https://github.com/gmag11/metatrader5-docker",
+    "title": "gmag11/metatrader5-docker",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073205638268633227",
+    "fetched_at": "2026-07-04T02:48:07.258165Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Docker container that runs the MetaTrader 5 trading platform via a web-based VNC interface, allowing for headless automation and remote Python integration.",
+    "category": "automation",
+    "tags": [
+      "docker",
+      "trading",
+      "metatrader",
+      "automation",
+      "vnc"
+    ],
+    "risk_notes": "Runs via Docker image from Docker Hub. Requires exposing ports 3000 and 8001. The container runs Wine to emulate Windows, which increases the attack surface. It requires persistent volume mapping for configuration and credentials. Maintenance is active, but users should be aware that running financial trading software in a container requires careful monitoring of network access and credentials.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 12,
+      "created_at": "2023-10-15T09:41:51Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:49:17.080711Z",
+    "stars": 349,
+    "language": "Shell",
+    "pushed_at": "2025-12-20T20:30:07Z",
+    "license": "MIT",
+    "topics": [
+      "metaquotes",
+      "metatrader",
+      "metatrader5",
+      "mql5",
+      "mt5",
+      "mt5-api",
+      "mt5-python",
+      "trading"
+    ]
+  },
+  {
+    "id": "github:charonviz/text2geo",
+    "url": "https://github.com/charonviz/text2geo",
+    "title": "charonviz/text2geo",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073202060380557481",
+    "fetched_at": "2026-07-04T02:48:07.258360Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An offline, fuzzy-matching geocoding library that converts place names to coordinates using local datasets, eliminating the need for external API calls or rate limits.",
+    "category": "Data Processing",
+    "tags": [
+      "geocoding",
+      "offline",
+      "python",
+      "data-pipeline",
+      "nlp"
+    ],
+    "risk_notes": "Installed via pip. It performs an initial network request to download datasets (stored in ~/.text2geo/data) but operates entirely offline thereafter. It requires standard user-level filesystem access to read/write the data directory. No sensitive credentials or API keys are required.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-02-26T22:06:56Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:49:23.641646Z",
+    "stars": 38,
+    "language": "Python",
+    "pushed_at": "2026-02-26T22:47:25Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:muriloventuroso/pdftricks",
+    "url": "https://github.com/muriloventuroso/pdftricks",
+    "title": "muriloventuroso/pdftricks",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073198733114610063",
+    "fetched_at": "2026-07-04T02:48:07.258544Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A GUI-based utility for elementary OS that provides simple PDF manipulation tasks like merging, splitting, and compressing using Ghostscript.",
+    "category": "Developer Tools",
+    "tags": [
+      "pdf",
+      "ghostscript",
+      "gui",
+      "linux",
+      "utilities"
+    ],
+    "risk_notes": "The project is primarily distributed via Flatpak, which provides a sandboxed environment. Building from source requires system-level dependencies and `sudo ninja install`, which carries standard risks of executing arbitrary code with elevated privileges. It relies on Ghostscript and ImageMagick, the latter of which may require manual security policy modifications to function, potentially weakening system-wide PDF handling security.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 30,
+      "created_at": "2018-12-24T19:55:56Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:49:29.989530Z",
+    "stars": 115,
+    "language": "Vala",
+    "pushed_at": "2026-01-25T06:50:02Z",
+    "license": null,
+    "topics": [
+      "appcenter",
+      "elementaryos",
+      "ghostscript",
+      "pdf",
+      "pdf-files"
+    ]
+  },
+  {
+    "id": "github:cporter202/vibe-coding-for-dummies",
+    "url": "https://github.com/cporter202/vibe-coding-for-dummies",
+    "title": "cporter202/vibe-coding-for-dummies",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073195018026652051",
+    "fetched_at": "2026-07-04T02:48:07.258728Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A beginner-focused educational repository that provides a curriculum for building web applications using AI tools like Cursor and Firebase.",
+    "category": "Education",
+    "tags": [
+      "ai-coding",
+      "cursor",
+      "firebase",
+      "tutorial",
+      "web-development"
+    ],
+    "risk_notes": "This is an educational guide rather than a software tool. It requires setting up accounts with third-party services (Google AI Studio, Firebase, GitHub, Cursor). The primary risk is the potential for recurring costs if users scale their Firebase projects beyond the free tier or subscribe to the author's paid community.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-13T02:54:59Z",
+      "homepage": "https://www.skool.com/vibe-coding-with-chris-7196"
+    },
+    "added_at": "2026-07-04T02:49:36.395519Z",
+    "stars": 569,
+    "language": null,
+    "pushed_at": "2026-04-07T15:39:50Z",
+    "license": null,
+    "topics": [
+      "ai-coding",
+      "cursor",
+      "cursor-ai",
+      "firebase",
+      "firebase-studio",
+      "shipping-software",
+      "vibe-coded",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "github:sgharlow/claude-code-recipes",
+    "url": "https://github.com/sgharlow/claude-code-recipes",
+    "title": "sgharlow/claude-code-recipes",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073191679675244845",
+    "fetched_at": "2026-07-04T02:48:07.258910Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A collection of prompt engineering recipes for Claude Code, primarily serving as a lead magnet for a paid $80 premium product.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "prompt-engineering",
+      "productivity",
+      "automation"
+    ],
+    "risk_notes": "The repository itself is just documentation/markdown files, so it carries no inherent technical risk. However, it heavily promotes a paid third-party product via external links. Users should be cautious of the 'Premium Collection' upsell.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-11-28T05:04:46Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:49:42.787578Z",
+    "stars": 269,
+    "language": null,
+    "pushed_at": "2025-12-10T04:41:07Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:rexglue/rexglue-sdk",
+    "url": "https://github.com/rexglue/rexglue-sdk",
+    "title": "rexglue/rexglue-sdk",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073188370973360202",
+    "fetched_at": "2026-07-04T02:48:07.259093Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A static recompilation toolkit designed to convert Xbox 360 PowerPC code into native C++.",
+    "category": "Emulation/Reverse Engineering",
+    "tags": [
+      "emulation",
+      "reverse-engineering",
+      "c++",
+      "xbox360",
+      "recompilation"
+    ],
+    "risk_notes": "Distributed as binary releases via GitHub. Requires local execution of potentially complex machine code translation logic. Early-stage development with significant breaking changes; no specific security audit or sandbox guarantees provided.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 17,
+      "created_at": "2026-01-22T21:41:25Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:49:49.224685Z",
+    "stars": 668,
+    "language": "C",
+    "pushed_at": "2026-06-28T22:09:51Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:seun-novodev/android-tv-debloat-toolkit",
+    "url": "https://github.com/seun-novodev/android-tv-debloat-toolkit",
+    "title": "seun-novodev/android-tv-debloat-toolkit",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073185063349436710",
+    "fetched_at": "2026-07-04T02:48:07.259278Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A lightweight Python-based GUI toolkit for debloating Android TV devices and managing APKs via ADB.",
+    "category": "Developer Tools",
+    "tags": [
+      "android",
+      "adb",
+      "automation",
+      "debloat",
+      "python"
+    ],
+    "risk_notes": "Requires running Python scripts locally on Windows. It interacts with your TV via ADB (Android Debug Bridge), which grants significant control over system packages and settings. The project has moved away from pre-compiled binaries to source-only execution to mitigate false-positive antivirus flags. It is currently in maintenance mode, meaning updates are infrequent.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-04-27T21:47:40Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:49:55.676368Z",
+    "stars": 507,
+    "language": "Python",
+    "pushed_at": "2026-06-28T19:33:46Z",
+    "license": "MIT",
+    "topics": [
+      "adb",
+      "android-tv",
+      "apk",
+      "custom-launcher",
+      "debloat",
+      "minimalist",
+      "opensource",
+      "tcl-tv",
+      "windows-app"
+    ]
+  },
+  {
+    "id": "github:brkgng/zappdf",
+    "url": "https://github.com/brkgng/zappdf",
+    "title": "brkgng/zappdf",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073181828672782351",
+    "fetched_at": "2026-07-04T02:48:07.259461Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A privacy-focused, local-first PDF utility for Apple platforms that handles merging, splitting, and editing documents entirely on-device.",
+    "category": "Developer tools",
+    "tags": [
+      "pdf",
+      "swift",
+      "macos",
+      "ios",
+      "privacy",
+      "productivity"
+    ],
+    "risk_notes": "The project is built via Xcode and distributed via the App Store. It is local-first, meaning no data is sent to external servers for processing. It uses RevenueCat for monetization, which involves network calls for subscription validation. The code is open-source and follows standard Apple development patterns.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-03-17T13:45:49Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:50:02.342114Z",
+    "stars": 10,
+    "language": "Swift",
+    "pushed_at": "2026-03-17T13:46:17Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:bendobrown/dark-light-viewer",
+    "url": "https://github.com/bendobrown/dark-light-viewer",
+    "title": "bendobrown/dark-light-viewer",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073178591009845737",
+    "fetched_at": "2026-07-04T02:48:07.259669Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A web-based OSINT and analytical tool that visualizes global nighttime light changes using NASA VIIRS satellite data via Google Earth Engine.",
+    "category": "OSINT/Data Analysis",
+    "tags": [
+      "osint",
+      "geospatial",
+      "data-analysis",
+      "satellite-imagery",
+      "visualization"
+    ],
+    "risk_notes": "This is a web-based application hosted on Google Earth Engine infrastructure. It requires no local installation, does not request local filesystem access, and does not require local API keys or credentials to function. It is a client-side interface for public satellite data.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-03-03T09:42:01Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-04T02:50:08.726468Z",
+    "stars": 48,
+    "language": "JavaScript",
+    "pushed_at": "2026-03-03T09:47:19Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:marketcalls/openalgo-pinets",
+    "url": "https://github.com/marketcalls/openalgo-pinets",
+    "title": "marketcalls/openalgo-pinets",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2073175306727243785",
+    "fetched_at": "2026-07-04T02:48:07.259857Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A lightweight Flask-based charting application that integrates OpenAlgo market data with TradingView Lightweight Charts to visualize the Williams VIX Fix indicator.",
+    "category": "trading-tools",
+    "tags": [
+      "trading",
+      "flask",
+      "data-visualization",
+      "finance",
+      "technical-analysis"
+    ],
+    "risk_notes": "Requires Python virtual environment and pip dependencies. The application handles sensitive API keys via a .env file; users must ensure this file is not exposed. It runs a local web server (Flask) which binds to the local network, and it requires an active connection to an OpenAlgo server instance.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-08-20T07:26:55Z",
+      "homepage": "https://docs.openalgo.in"
+    },
+    "added_at": "2026-07-04T02:50:15.245089Z",
+    "stars": 26,
+    "language": "HTML",
+    "pushed_at": "2025-08-20T07:43:31Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "charting",
+      "lightweight-charts",
+      "openalgo",
+      "pinets",
+      "technical-indicators",
+      "tradingview"
+    ]
   }
 ]
