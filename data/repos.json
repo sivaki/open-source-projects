@@ -19158,5 +19158,535 @@
       "prediction",
       "trading"
     ]
+  },
+  {
+    "id": "github:androidmalware/openclaw_termux",
+    "url": "https://github.com/androidmalware/openclaw_termux",
+    "title": "androidmalware/openclaw_termux",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074684002695270771",
+    "fetched_at": "2026-07-08T02:56:23.237999Z",
+    "verdict": "skip",
+    "score": 1,
+    "summary": "A script designed to install OpenClaw on Android via Termux to enable remote control of device functions like SMS, camera, and notifications via messaging apps.",
+    "category": "security/automation",
+    "tags": [
+      "android",
+      "termux",
+      "automation",
+      "security"
+    ],
+    "risk_notes": "The repository promotes the installation of tools that grant remote control over sensitive device functions (SMS, camera, notifications). The installation method involves running a shell script from a third-party source, and the project name ('androidmalware') and use case suggest high security risks regarding privacy and device integrity. It lacks a clear license and appears to be a personal wrapper script rather than a maintained professional tool.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-02-11T08:47:25Z",
+      "homepage": "https://www.mobile-hacker.com/2026/02/11/how-to-install-openclaw-on-an-android-phone-and-control-it-via-whatsapp/"
+    },
+    "added_at": "2026-07-08T02:56:29.602630Z",
+    "stars": 306,
+    "language": "Shell",
+    "pushed_at": "2026-02-11T09:38:48Z",
+    "license": null,
+    "topics": [
+      "android",
+      "openclaw",
+      "termux"
+    ]
+  },
+  {
+    "id": "github:kurtgokhan/tegaki",
+    "url": "https://github.com/kurtgokhan/tegaki",
+    "title": "kurtgokhan/tegaki",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074675632135377275",
+    "fetched_at": "2026-07-08T02:56:23.238165Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A library for generating handwriting animations for web fonts, usable via React components or a CLI tool.",
+    "category": "frontend-tooling",
+    "tags": [
+      "web-animation",
+      "typography",
+      "svg",
+      "frontend",
+      "cli"
+    ],
+    "risk_notes": "Installed via npm or run via npx. It is a client-side library with no special system permissions or network access requirements beyond standard web asset loading. It is well-maintained but falls outside the user's core interest in developer tools, home-lab, or data pipelines.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-03-28T18:58:26Z",
+      "homepage": "http://gkurt.com/tegaki"
+    },
+    "added_at": "2026-07-08T02:56:36.383805Z",
+    "stars": 2963,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-30T14:17:16Z",
+    "license": "MIT",
+    "topics": [
+      "animation",
+      "calligraphy",
+      "cursive",
+      "font",
+      "handwriting",
+      "react",
+      "stroke-order",
+      "text-animation"
+    ]
+  },
+  {
+    "id": "github:zvtvz/zvt",
+    "url": "https://github.com/zvtvz/zvt",
+    "title": "zvtvz/zvt",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074667358342217970",
+    "fetched_at": "2026-07-08T02:56:23.238288Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A modular, Python-based quantitative trading framework that supports data ingestion, backtesting, machine learning, and real-time trading via a REST API and UI.",
+    "category": "Fintech/Quant",
+    "tags": [
+      "algorithmic-trading",
+      "python",
+      "machine-learning",
+      "backtesting",
+      "quant"
+    ],
+    "risk_notes": "Installed via pip. Requires network access to fetch financial data from external providers. The framework handles sensitive trading logic and potentially API keys for brokerages; users should audit the code before connecting to live trading accounts. The project explicitly states it does not guarantee backward compatibility.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2019-04-04T08:06:57Z",
+      "homepage": "https://zvt.readthedocs.io/en/latest/"
+    },
+    "added_at": "2026-07-08T02:56:43.132405Z",
+    "stars": 4201,
+    "language": "Python",
+    "pushed_at": "2026-07-01T09:42:05Z",
+    "license": "MIT",
+    "topics": [
+      "algorithmic-trading",
+      "backtesting",
+      "cryptocurrency",
+      "fintech",
+      "fundamental-analysis",
+      "machine-learning",
+      "ml",
+      "python",
+      "quant",
+      "quantitative-finance",
+      "quantitative-trading",
+      "stock",
+      "stock-market",
+      "technical-analysis",
+      "trading-bot",
+      "trading-platform",
+      "trading-strategies",
+      "zvt"
+    ]
+  },
+  {
+    "id": "github:techjarves/portable-ai-usb",
+    "url": "https://github.com/techjarves/portable-ai-usb",
+    "title": "techjarves/portable-ai-usb",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074656059554197593",
+    "fetched_at": "2026-07-08T02:56:23.238407Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A portable, offline AI environment designed to run from a USB drive using Ollama and AnythingLLM, now deprecated in favor of a successor project.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ollama",
+      "portable",
+      "privacy",
+      "llm",
+      "usb"
+    ],
+    "risk_notes": "The repository is archived and deprecated. It requires executing batch/shell scripts from a USB drive, which can execute arbitrary code on the host machine. It involves downloading and running local LLM binaries, which requires significant disk space and system resources.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 55,
+      "created_at": "2026-04-01T13:45:13Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T02:56:49.577168Z",
+    "stars": 2138,
+    "language": "Shell",
+    "pushed_at": "2026-07-04T12:25:23Z",
+    "license": "MIT",
+    "topics": [
+      "ollama",
+      "portable-ai",
+      "usb-drive"
+    ]
+  },
+  {
+    "id": "github:boredos/boredos",
+    "url": "https://github.com/boredos/boredos",
+    "title": "boredos/boredos",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074645407087374368",
+    "fetched_at": "2026-07-08T02:56:23.238524Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A hobbyist x86_64 operating system kernel written in C, designed for educational purposes and OS development experimentation.",
+    "category": "Operating Systems",
+    "tags": [
+      "osdev",
+      "kernel",
+      "c",
+      "hobbyos",
+      "x86_64"
+    ],
+    "risk_notes": "This is a low-level hobbyist OS kernel. Running it requires setting up a cross-compilation toolchain and executing it within an emulator like QEMU or on bare metal hardware. It does not pose a standard software supply chain risk (like npm/pip packages) but requires significant technical expertise to build and run safely. It is not intended for production or daily use.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-02-04T20:03:04Z",
+      "homepage": "https://boredos.dev"
+    },
+    "added_at": "2026-07-08T02:56:56.075124Z",
+    "stars": 216,
+    "language": "C",
+    "pushed_at": "2026-07-07T14:04:47Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "assembly",
+      "c",
+      "hobbyos",
+      "monolithickernel",
+      "osdev"
+    ]
+  },
+  {
+    "id": "github:wolfpld/tracy",
+    "url": "https://github.com/wolfpld/tracy",
+    "title": "wolfpld/tracy",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074635098423513515",
+    "fetched_at": "2026-07-08T02:56:23.238649Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, real-time telemetry and frame profiler for C++ and other languages, widely considered the industry standard for game engine and systems performance analysis.",
+    "category": "Developer Tools",
+    "tags": [
+      "profiler",
+      "performance",
+      "c++",
+      "telemetry",
+      "debugging"
+    ],
+    "risk_notes": "Requires integrating the library into your source code and running a separate GUI profiler application. It communicates over network sockets for remote profiling, which requires firewall awareness. No dangerous install scripts; build from source or use provided binaries.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 247,
+      "created_at": "2020-03-17T19:43:04Z",
+      "homepage": "https://tracy.nereid.pl/"
+    },
+    "added_at": "2026-07-08T02:57:02.368853Z",
+    "stars": 16298,
+    "language": "C++",
+    "pushed_at": "2026-07-07T16:03:14Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "gamedev",
+      "gamedev-library",
+      "gamedevelopment",
+      "library",
+      "performance",
+      "performance-analysis",
+      "profiler",
+      "profiling",
+      "profiling-library"
+    ]
+  },
+  {
+    "id": "github:troubadour000/awesome-agentic-time-series",
+    "url": "https://github.com/troubadour000/awesome-agentic-time-series",
+    "title": "troubadour000/awesome-agentic-time-series",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074624954172109072",
+    "fetched_at": "2026-07-08T02:56:23.238764Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, curated list of research papers and benchmarks focused on the intersection of Large Language Models and time series analysis, specifically agentic systems.",
+    "category": "AI/LLM Research",
+    "tags": [
+      "llm",
+      "time-series",
+      "research",
+      "agents",
+      "data-science"
+    ],
+    "risk_notes": "This is a documentation-only repository containing links to academic papers. There is no code to execute, so there are no security risks regarding installation, filesystem access, or credentials.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-06-01T06:13:03Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T02:57:08.652925Z",
+    "stars": 113,
+    "language": null,
+    "pushed_at": "2026-06-19T15:18:39Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:tsinghua-fib-lab/omniscientist",
+    "url": "https://github.com/tsinghua-fib-lab/omniscientist",
+    "title": "tsinghua-fib-lab/omniscientist",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074614877155414211",
+    "fetched_at": "2026-07-08T02:56:23.238878Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A collection of research papers and conceptual blueprints from Tsinghua University regarding AI-driven scientific discovery agents.",
+    "category": "AI Research",
+    "tags": [
+      "ai4science",
+      "llm",
+      "research",
+      "agents"
+    ],
+    "risk_notes": "This repository is a collection of academic papers and documentation rather than a functional software tool or CLI. There is no installation path, code to execute, or security footprint, as it serves as a bibliography for the OmniScientist research project.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2025-11-20T15:03:23Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T02:57:15.191472Z",
+    "stars": 138,
+    "language": null,
+    "pushed_at": "2026-01-28T07:46:15Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:elder-plinius/v3sp3r",
+    "url": "https://github.com/elder-plinius/v3sp3r",
+    "title": "elder-plinius/v3sp3r",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074604814688735305",
+    "fetched_at": "2026-07-08T02:56:23.238992Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "V3SP3R is an AI-powered command center for the Flipper Zero, enabling natural language control over hardware subsystems, signal synthesis, and payload management via Bluetooth.",
+    "category": "Hardware Hacking / AI Tooling",
+    "tags": [
+      "flipperzero",
+      "ai",
+      "automation",
+      "security",
+      "hardware"
+    ],
+    "risk_notes": "Requires an OpenRouter API key for LLM integration. The application runs on Android and communicates with the Flipper Zero via Bluetooth/RPC. It includes a 'Risk & Permissions Engine' to gate destructive operations, but users should be aware that granting AI control over hardware (SubGHz, BadUSB) carries inherent security risks if the model is compromised or misinterprets commands.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-03-07T01:12:04Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T02:57:21.698269Z",
+    "stars": 1156,
+    "language": "Java",
+    "pushed_at": "2026-03-24T18:42:38Z",
+    "license": "AGPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:kavishdevar/librepods",
+    "url": "https://github.com/kavishdevar/librepods",
+    "title": "kavishdevar/librepods",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074594984121008594",
+    "fetched_at": "2026-07-08T02:56:23.239107Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source project that reverse-engineers proprietary Apple protocols to enable advanced AirPods features like ear detection, battery monitoring, and noise control on Linux and Android.",
+    "category": "Hardware Integration",
+    "tags": [
+      "bluetooth",
+      "reverse-engineering",
+      "linux",
+      "android",
+      "hardware"
+    ],
+    "risk_notes": "Requires Bluetooth access and potentially root permissions on Android for advanced features like Find My or high-quality audio. The project involves reverse-engineering proprietary protocols, which carries inherent stability risks. Installation is typically via APK for Android or standard package builds for Linux; users should verify the source from the official GitHub repository to avoid phishing sites mentioned in the README warning.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 210,
+      "created_at": "2024-09-26T19:31:11Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T02:57:28.631653Z",
+    "stars": 28611,
+    "language": "Kotlin",
+    "pushed_at": "2026-06-24T16:10:30Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "accessiblity",
+      "airpods",
+      "android",
+      "battery-monitor",
+      "conversational-awareness",
+      "ear-detection",
+      "hearing-aid",
+      "hearing-aids",
+      "linux",
+      "reverse-engineering"
+    ]
+  },
+  {
+    "id": "github:psiinon/open-source-web-scanners",
+    "url": "https://github.com/psiinon/open-source-web-scanners",
+    "title": "psiinon/open-source-web-scanners",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074585635399041365",
+    "fetched_at": "2026-07-08T02:56:23.239218Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A curated, dynamically updated list of open-source web security scanners, categorized by function and sorted by popularity.",
+    "category": "Security Tooling",
+    "tags": [
+      "security",
+      "web-security",
+      "pentesting",
+      "vulnerability-scanning",
+      "curated-list"
+    ],
+    "risk_notes": "This is a documentation repository, not a tool itself, so it carries no direct execution risk. However, the tools listed within it vary significantly in maintenance status and security posture; users should exercise caution when installing third-party security scanners, as they often require network access and elevated privileges to perform vulnerability assessments.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2022-01-17T09:16:25Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T02:57:35.074549Z",
+    "stars": 1554,
+    "language": null,
+    "pushed_at": "2025-04-29T08:24:39Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:lak7/devildev",
+    "url": "https://github.com/lak7/devildev",
+    "title": "lak7/devildev",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074576366180209137",
+    "fetched_at": "2026-07-08T02:56:23.239330Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An experimental spec-driven architecture workspace that helps developers design, visualize, and iterate on software systems using natural language before writing code.",
+    "category": "Developer Tools",
+    "tags": [
+      "architecture",
+      "ai-tooling",
+      "typescript",
+      "nextjs",
+      "software-design"
+    ],
+    "risk_notes": "Requires local installation via npm/yarn/pnpm/bun. The application is complex, requiring a PostgreSQL database, Clerk for authentication, and active GitHub App integration. It necessitates public tunneling (e.g., ngrok) for webhooks, which exposes local services to the internet. It is currently in an experimental state (v0.5.1).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 10,
+      "created_at": "2025-06-03T13:11:02Z",
+      "homepage": "https://www.devildev.com"
+    },
+    "added_at": "2026-07-08T02:57:41.649645Z",
+    "stars": 488,
+    "language": "TypeScript",
+    "pushed_at": "2026-03-26T09:36:43Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:evoagentx/awesome-self-evolving-agents",
+    "url": "https://github.com/evoagentx/awesome-self-evolving-agents",
+    "title": "evoagentx/awesome-self-evolving-agents",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074567338242846969",
+    "fetched_at": "2026-07-08T02:56:23.239444Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A curated, comprehensive collection of research papers and open-source frameworks focused on self-evolving AI agents and autonomous LLM optimization techniques.",
+    "category": "AI/LLM Research",
+    "tags": [
+      "ai",
+      "llm",
+      "agents",
+      "research",
+      "automation"
+    ],
+    "risk_notes": "This is a documentation/curation repository and does not contain executable code itself. It links to various external research projects; users should exercise caution when running third-party AI agent frameworks, as they often require API keys (OpenAI, Anthropic, etc.) and may execute arbitrary code on the host system.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 45,
+      "created_at": "2025-05-08T14:38:46Z",
+      "homepage": "https://arxiv.org/abs/2508.07407"
+    },
+    "added_at": "2026-07-08T02:57:48.155387Z",
+    "stars": 2320,
+    "language": null,
+    "pushed_at": "2026-05-16T14:49:18Z",
+    "license": "MIT",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "llms",
+      "multi-agent-systems",
+      "natural-language-processing",
+      "self-evolving"
+    ]
+  },
+  {
+    "id": "github:akamrnagar/mindful",
+    "url": "https://github.com/akamrnagar/mindful",
+    "title": "akamrnagar/mindful",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074558355750740215",
+    "fetched_at": "2026-07-08T02:56:23.239554Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Mindful is an open-source Android application that provides screen time management, app blocking, and internet filtering using a local VPN approach to enhance digital well-being.",
+    "category": "Privacy & Productivity",
+    "tags": [
+      "android",
+      "privacy",
+      "productivity",
+      "foss",
+      "wellbeing"
+    ],
+    "risk_notes": "Installed via APK or Google Play. It requires extensive Android permissions, including Accessibility Services and VPN service (to block internet traffic locally). While the code is open-source and claims to be offline-first, the use of a local VPN and accessibility permissions grants the app significant control over device traffic and UI interaction.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 86,
+      "created_at": "2024-12-13T19:02:00Z",
+      "homepage": "https://bemindful.vercel.app/"
+    },
+    "added_at": "2026-07-08T02:57:54.594534Z",
+    "stars": 742,
+    "language": "Dart",
+    "pushed_at": "2025-08-27T18:02:14Z",
+    "license": "GPL-2.0",
+    "topics": [
+      "android-app",
+      "datausage",
+      "flutter-app",
+      "focus",
+      "foss",
+      "internet-blocker",
+      "mindfulness",
+      "open-source",
+      "screentime",
+      "shorts-blocking",
+      "usage-widget",
+      "wellbeing"
+    ]
   }
 ]
