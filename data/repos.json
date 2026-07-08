@@ -20102,5 +20102,472 @@
       "langgraph",
       "reflection"
     ]
+  },
+  {
+    "id": "github:kartiklabhshetwar/better-shot",
+    "url": "https://github.com/kartiklabhshetwar/better-shot",
+    "title": "kartiklabhshetwar/better-shot",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074907839387062464",
+    "fetched_at": "2026-07-08T17:40:17.924938Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-quality, open-source macOS utility that serves as a privacy-focused alternative to CleanShot X, offering screenshot capture, screen recording, OCR, and annotation tools.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "productivity",
+      "screenshot",
+      "utility",
+      "swift"
+    ],
+    "risk_notes": "Installed via Homebrew cask or DMG. Requires elevated macOS permissions: Screen Recording and Accessibility, which are necessary for its functionality but grant the app significant control over input and screen content. The project is local-first with no telemetry, which is a positive privacy signal.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 20,
+      "created_at": "2026-01-11T09:39:37Z",
+      "homepage": "https://bettershot.site"
+    },
+    "added_at": "2026-07-08T17:40:24.429107Z",
+    "stars": 2074,
+    "language": "Swift",
+    "pushed_at": "2026-06-07T11:29:17Z",
+    "license": "BSD-3-Clause",
+    "topics": [
+      "desktop-application",
+      "macos-app",
+      "macos-application",
+      "tauri",
+      "vitejs"
+    ]
+  },
+  {
+    "id": "github:toolsai/notebooklm-studio-skill",
+    "url": "https://github.com/toolsai/notebooklm-studio-skill",
+    "title": "toolsai/notebooklm-studio-skill",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074903994397229133",
+    "fetched_at": "2026-07-08T17:40:17.925102Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An automation layer for NotebookLM that enables batch source management, automated artifact generation, and integration with AI agents like Codex for research workflows.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "automation",
+      "research",
+      "llm",
+      "workflow",
+      "productivity"
+    ],
+    "risk_notes": "Installs via npx or git clone into agent-specific directories (~/.codex or ~/.claude). Requires Google account authentication to access NotebookLM. Operates by reading/writing local files and interacting with external cloud services, which may expose sensitive research data to the underlying AI agent.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-05-17T10:37:26Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T17:40:30.956958Z",
+    "stars": 72,
+    "language": "Python",
+    "pushed_at": "2026-05-17T11:11:39Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:flybirdxx/comfyui-qwen-tts",
+    "url": "https://github.com/flybirdxx/comfyui-qwen-tts",
+    "title": "flybirdxx/comfyui-qwen-tts",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074895908034978102",
+    "fetched_at": "2026-07-08T17:40:17.925226Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A set of ComfyUI custom nodes for high-quality text-to-speech, voice cloning, and multi-role dialogue generation using the Qwen3-TTS model.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "comfyui",
+      "tts",
+      "voice-cloning",
+      "ai",
+      "generative-audio"
+    ],
+    "risk_notes": "Installs as a custom node extension within ComfyUI (typically via git clone into the custom_nodes directory). Requires pinning specific versions of transformers (4.57.3) which may conflict with other AI tools in the same environment. Runs arbitrary model weights locally; requires significant GPU VRAM and standard filesystem access for model loading and audio output.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 57,
+      "created_at": "2026-01-22T18:38:52Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T17:40:37.426392Z",
+    "stars": 1728,
+    "language": "Python",
+    "pushed_at": "2026-06-03T09:21:44Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:pynesys/pynecore",
+    "url": "https://github.com/pynesys/pynecore",
+    "title": "pynesys/pynecore",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074891906144686511",
+    "fetched_at": "2026-07-08T17:40:17.925342Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Python framework that uses AST transformations to allow developers to write and execute trading strategies using Pine Script-like semantics within the Python ecosystem.",
+    "category": "Developer tools",
+    "tags": [
+      "python",
+      "trading",
+      "backtesting",
+      "ast",
+      "finance"
+    ],
+    "risk_notes": "Installed via pip. Uses import hooks to modify code at runtime, which is a powerful but non-standard technique. Requires an external API key from PyneSys for direct Pine Script compilation, which introduces a third-party dependency and potential privacy considerations for proprietary trading logic.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-01-02T23:42:43Z",
+      "homepage": "https://pynecore.org"
+    },
+    "added_at": "2026-07-08T17:40:44.093820Z",
+    "stars": 163,
+    "language": "Python",
+    "pushed_at": "2026-07-08T15:59:04Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "backtesting-engine",
+      "compiler",
+      "financial-data",
+      "framework",
+      "library",
+      "open-source",
+      "pine-script",
+      "pinescript",
+      "python",
+      "technical-analysis",
+      "trading-indicators",
+      "trading-strategies",
+      "tradingvew"
+    ]
+  },
+  {
+    "id": "github:adrianhajdin/figma_clone",
+    "url": "https://github.com/adrianhajdin/figma_clone",
+    "title": "adrianhajdin/figma_clone",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074888318244765983",
+    "fetched_at": "2026-07-08T17:40:17.925460Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A tutorial-based project demonstrating how to build a collaborative design tool using Next.js, Fabric.js, and Liveblocks.",
+    "category": "web-development",
+    "tags": [
+      "nextjs",
+      "typescript",
+      "collaboration",
+      "tutorial",
+      "frontend"
+    ],
+    "risk_notes": "This is an educational project rather than a production-ready tool. It requires an external API key for Liveblocks to function. Installation is standard via npm, but the code is intended for learning purposes and lacks robust security hardening for real-world deployment.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 16,
+      "created_at": "2024-02-02T10:30:04Z",
+      "homepage": "https://jsmastery.pro"
+    },
+    "added_at": "2026-07-08T17:40:50.425968Z",
+    "stars": 1223,
+    "language": "TypeScript",
+    "pushed_at": "2024-04-04T08:16:22Z",
+    "license": null,
+    "topics": [
+      "figma",
+      "liveblocks",
+      "nextjs14"
+    ]
+  },
+  {
+    "id": "github:joaquinbejar/orderbook-rs",
+    "url": "https://github.com/joaquinbejar/orderbook-rs",
+    "title": "joaquinbejar/orderbook-rs",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074884574664863972",
+    "fetched_at": "2026-07-08T17:40:17.925584Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance, thread-safe limit order book engine written in Rust, designed for low-latency trading systems and market simulations.",
+    "category": "Financial Engineering",
+    "tags": [
+      "rust",
+      "trading",
+      "hft",
+      "concurrency",
+      "finance"
+    ],
+    "risk_notes": "This is a library (crate) rather than a standalone application, so it does not require elevated permissions or network access by default. It is installed via Cargo (Rust's package manager). The code is actively maintained with clear versioning and test coverage, posing low security risk as it runs within the user's process space.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-03-30T07:38:45Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T17:40:57.074590Z",
+    "stars": 486,
+    "language": "Rust",
+    "pushed_at": "2026-07-08T10:30:22Z",
+    "license": "MIT",
+    "topics": [
+      "high-frequency-trading",
+      "orderbook",
+      "orderbook-tick-data",
+      "price",
+      "rust",
+      "rust-lang",
+      "trading",
+      "tradingbot"
+    ]
+  },
+  {
+    "id": "github:pwnsat/flatsat",
+    "url": "https://github.com/pwnsat/flatsat",
+    "title": "pwnsat/flatsat",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074880773186842836",
+    "fetched_at": "2026-07-08T17:40:17.925696Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "FlatSat is an open-source, hardware-based training platform designed for aerospace cybersecurity research, featuring a vulnerable-by-design architecture for learning satellite hacking and protocol exploitation.",
+    "category": "Security Research",
+    "tags": [
+      "aerospace",
+      "cybersecurity",
+      "hardware-hacking",
+      "embedded",
+      "rp2040"
+    ],
+    "risk_notes": "This is a hardware project requiring physical assembly or purchase of a PCB. Firmware is flashed to an RP2040 microcontroller via standard USB/SWD interfaces. As a 'vulnerable-by-design' platform, it is intended for isolated lab environments; it should not be connected to production networks or critical infrastructure. Maintenance is active and supported by Electronic Cats.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2025-03-27T20:58:01Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T17:41:03.759786Z",
+    "stars": 417,
+    "language": null,
+    "pushed_at": "2026-07-04T22:19:35Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "cubesat",
+      "flatsat"
+    ]
+  },
+  {
+    "id": "github:steam3d/magicpods-windows",
+    "url": "https://github.com/steam3d/magicpods-windows",
+    "title": "steam3d/magicpods-windows",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074867462097519009",
+    "fetched_at": "2026-07-08T17:40:17.925811Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Windows utility that brings iOS-like features to AirPods and other Bluetooth headphones, including battery monitoring, ear detection, and noise control management.",
+    "category": "Desktop Utilities",
+    "tags": [
+      "windows",
+      "bluetooth",
+      "audio",
+      "automation",
+      "peripherals"
+    ],
+    "risk_notes": "Distributed via the Microsoft Store, which provides a safer, sandboxed installation path compared to manual binaries. It requires Bluetooth access and runs as a background process to monitor device state. It is actively maintained, though it is a proprietary-style utility rather than an open-source developer tool.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 40,
+      "created_at": "2020-02-23T09:45:02Z",
+      "homepage": "https://magicpods.app"
+    },
+    "added_at": "2026-07-08T17:41:10.422731Z",
+    "stars": 833,
+    "language": null,
+    "pushed_at": "2025-07-06T17:47:41Z",
+    "license": null,
+    "topics": [
+      "airpods",
+      "airpods-battery",
+      "battery",
+      "battery-monitor",
+      "beats",
+      "bluetooth",
+      "galaxy-buds",
+      "sony",
+      "windows"
+    ]
+  },
+  {
+    "id": "github:ln-dev7/icons-animated",
+    "url": "https://github.com/ln-dev7/icons-animated",
+    "title": "ln-dev7/icons-animated",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074853870077882817",
+    "fetched_at": "2026-07-08T17:40:17.925936Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A collection of animated SVG icons for web development, compatible with the shadcn CLI and based on the lucide-animated framework.",
+    "category": "frontend-tooling",
+    "tags": [
+      "icons",
+      "web-development",
+      "ui-components",
+      "typescript",
+      "animation"
+    ],
+    "risk_notes": "Installed via pnpm dlx shadcn, which executes code from the registry. Requires standard web development dependencies. No sensitive system access or credentials required. Project is relatively new and niche.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-12-19T11:31:08Z",
+      "homepage": "https://icons.lndev.me"
+    },
+    "added_at": "2026-07-08T17:41:16.718639Z",
+    "stars": 82,
+    "language": "TypeScript",
+    "pushed_at": "2026-04-18T20:31:41Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "animated",
+      "hugeicons",
+      "icons",
+      "phosphoricons",
+      "tabler-icons"
+    ]
+  },
+  {
+    "id": "github:sleekdotdesign/agent-skills",
+    "url": "https://github.com/sleekdotdesign/agent-skills",
+    "title": "sleekdotdesign/agent-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074840822235738363",
+    "fetched_at": "2026-07-08T17:40:17.926061Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A collection of agent skills for the proprietary Sleek AI-powered mobile app design platform.",
+    "category": "AI Tooling",
+    "tags": [
+      "ai",
+      "automation",
+      "mobile-design",
+      "agent-framework"
+    ],
+    "risk_notes": "Requires an npx execution which pulls and runs code from the registry. It necessitates a paid Sleek Pro account and an API key stored in environment variables, granting the agent access to your Sleek project data.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-02-25T14:49:02Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T17:41:22.909623Z",
+    "stars": 443,
+    "language": null,
+    "pushed_at": "2026-07-03T14:52:33Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:iamcheyan/fudoki",
+    "url": "https://github.com/iamcheyan/fudoki",
+    "title": "iamcheyan/fudoki",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074828267383562389",
+    "fetched_at": "2026-07-08T17:40:17.926182Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A browser-based Japanese text analysis and speech synthesis tool that provides morphological analysis, POS tagging, and Markdown editing capabilities.",
+    "category": "Education/Linguistics",
+    "tags": [
+      "japanese",
+      "nlp",
+      "markdown",
+      "web-app",
+      "text-analysis"
+    ],
+    "risk_notes": "The project is a static web application that can be run locally using a simple Python HTTP server. It relies on client-side JavaScript (Kuromoji.js) and browser Web Speech APIs. It stores user data locally in the browser's localStorage. No external API keys or elevated system permissions are required.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-09-04T09:33:37Z",
+      "homepage": "https://fudoki.iamcheyan.com/"
+    },
+    "added_at": "2026-07-08T17:41:29.564814Z",
+    "stars": 882,
+    "language": "JavaScript",
+    "pushed_at": "2026-05-04T13:44:03Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:open-space-sdr/main",
+    "url": "https://github.com/open-space-sdr/main",
+    "title": "open-space-sdr/main",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074816163419210226",
+    "fetched_at": "2026-07-08T17:40:17.926301Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "QuadRF is a modular 4x4 MIMO software-defined radio platform powered by a Raspberry Pi 5 and Lattice ECP5 FPGA, designed for spatial RF mapping and phased array experimentation.",
+    "category": "SDR / Hardware",
+    "tags": [
+      "sdr",
+      "raspberry-pi",
+      "fpga",
+      "rf",
+      "automation"
+    ],
+    "risk_notes": "Requires physical hardware (QuadRF kit). Software stack is open-source (GPLv2/v3) and integrates with standard SDR frameworks like GNU Radio and SoapySDR. As it runs on a Raspberry Pi, it has full access to the host filesystem and network; users should follow standard Linux security practices when deploying custom RF signal processing code.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-08-13T19:06:34Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T17:41:36.362684Z",
+    "stars": 360,
+    "language": "C",
+    "pushed_at": "2026-06-23T09:19:21Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:ardoviniandrea/viniplay",
+    "url": "https://github.com/ardoviniandrea/viniplay",
+    "title": "ardoviniandrea/viniplay",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2074804216057471365",
+    "fetched_at": "2026-07-08T17:40:17.926421Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A feature-rich, self-hosted IPTV player that supports M3U/EPG playlists, multi-user management, DVR recording, and GPU-accelerated transcoding via FFMPEG.",
+    "category": "Home-lab / Media",
+    "tags": [
+      "iptv",
+      "docker",
+      "self-hosted",
+      "ffmpeg",
+      "media-server"
+    ],
+    "risk_notes": "Deployed via Docker, which isolates the application process. Requires mounting a local volume for data persistence. The application handles network streams and requires a SESSION_SECRET for security. As it uses FFMPEG for transcoding, it may consume significant CPU/GPU resources if not configured correctly.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 35,
+      "created_at": "2025-07-06T10:21:53Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-08T17:41:42.857308Z",
+    "stars": 540,
+    "language": "JavaScript",
+    "pushed_at": "2026-01-07T11:12:16Z",
+    "license": null,
+    "topics": []
   }
 ]
