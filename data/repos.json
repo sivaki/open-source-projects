@@ -22008,5 +22008,435 @@
       "raspberry-pi-pico-2",
       "rp2350"
     ]
+  },
+  {
+    "id": "github:jkawamoto/mcp-youtube-transcript",
+    "url": "https://github.com/jkawamoto/mcp-youtube-transcript",
+    "title": "jkawamoto/mcp-youtube-transcript",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075271623532229118",
+    "fetched_at": "2026-07-09T17:58:56.331403Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An MCP server that allows LLMs to fetch YouTube video transcripts and metadata, supporting pagination and proxy configuration.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "youtube",
+      "llm",
+      "automation",
+      "python"
+    ],
+    "risk_notes": "Installed via uvx (Python package runner) or Docker. It requires network access to YouTube and potentially proxy credentials. It does not require root access or local filesystem permissions, making it a relatively low-risk integration for LLM environments.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2025-02-08T02:49:22Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-09T17:59:02.664099Z",
+    "stars": 422,
+    "language": "Python",
+    "pushed_at": "2026-07-09T01:27:10Z",
+    "license": "MIT",
+    "topics": [
+      "mcp-server",
+      "python",
+      "youtube"
+    ]
+  },
+  {
+    "id": "github:markuman/sms",
+    "url": "https://github.com/markuman/sms",
+    "title": "markuman/sms",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075261121569722447",
+    "fetched_at": "2026-07-09T17:58:56.331559Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A lightweight, containerized MBTiles server for self-hosting OpenStreetMap vector tiles, perfect for home-lab mapping or private tile serving.",
+    "category": "self-hosting",
+    "tags": [
+      "maps",
+      "osm",
+      "docker",
+      "geospatial",
+      "self-hosted"
+    ],
+    "risk_notes": "Distributed as a Docker/Podman container, which is a standard and secure deployment method. It requires significant local storage (100GB+) for map data. It does not require root privileges if run via rootless Podman/Docker. The project is actively maintained and provides a clear path for integration with reverse proxies like Caddy or Nginx.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2024-08-06T11:43:50Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-09T17:59:09.177529Z",
+    "stars": 247,
+    "language": "Python",
+    "pushed_at": "2026-05-29T12:45:51Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:brannondorsey/wifi-cracking",
+    "url": "https://github.com/brannondorsey/wifi-cracking",
+    "title": "brannondorsey/wifi-cracking",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075250968011125239",
+    "fetched_at": "2026-07-09T17:58:56.331681Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, well-documented tutorial and command-line guide for auditing WPA/WPA2 Wi-Fi network security using standard tools like Aircrack-ng and Hashcat.",
+    "category": "Security Tooling",
+    "tags": [
+      "security",
+      "wifi",
+      "pentesting",
+      "networking",
+      "tutorial"
+    ],
+    "risk_notes": "This is a documentation/tutorial repository, not a software package. It requires installing standard security tools (aircrack-ng, hashcat) via system package managers (apt). It requires hardware with monitor mode support and root/sudo privileges to manipulate network interfaces. It is intended for educational security auditing.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 75,
+      "created_at": "2017-07-23T23:54:11Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-09T17:59:15.659098Z",
+    "stars": 12446,
+    "language": null,
+    "pushed_at": "2024-12-26T23:13:13Z",
+    "license": "MIT",
+    "topics": [
+      "aircrack-ng",
+      "cracking",
+      "hacking",
+      "hashcat",
+      "password-cracking",
+      "tutorial",
+      "wifi",
+      "wpa2-cracking"
+    ]
+  },
+  {
+    "id": "github:dreddnafious/thereisnospoon",
+    "url": "https://github.com/dreddnafious/thereisnospoon",
+    "title": "dreddnafious/thereisnospoon",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075241065854939344",
+    "fetched_at": "2026-07-09T17:58:56.331799Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-quality, conceptual primer on machine learning fundamentals designed specifically for software engineers to build mental models of ML systems.",
+    "category": "AI/LLM Learning Resources",
+    "tags": [
+      "machine-learning",
+      "ai",
+      "engineering",
+      "transformers",
+      "education"
+    ],
+    "risk_notes": "This is a documentation-focused repository. It contains Python scripts for generating visualizations which require standard data science libraries (matplotlib, numpy). There are no sensitive permissions, network requirements, or complex installation processes; it is safe to run locally.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-03-29T19:59:07Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-09T17:59:22.023381Z",
+    "stars": 1160,
+    "language": "Python",
+    "pushed_at": "2026-03-29T21:33:57Z",
+    "license": "MIT",
+    "topics": [
+      "deep-learning",
+      "engineering",
+      "fundamentals",
+      "machine-learning",
+      "neural-networks",
+      "primer",
+      "transformers",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "github:jay-sahnan/signal",
+    "url": "https://github.com/jay-sahnan/signal",
+    "title": "jay-sahnan/signal",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075231418829946893",
+    "fetched_at": "2026-07-09T17:58:56.331974Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source, self-hosted AI sales intelligence and outreach automation platform that serves as an alternative to tools like Clay or Apollo.",
+    "category": "Automation",
+    "tags": [
+      "ai",
+      "automation",
+      "sales",
+      "self-hosted",
+      "typescript",
+      "crm"
+    ],
+    "risk_notes": "Requires multiple third-party API keys (Anthropic, Supabase, Clerk, Browserbase, Upstash) to function. Installation involves cloning the repo and running pnpm setup or Docker compose. It handles sensitive customer data and email credentials, so it requires careful management of environment variables and database security.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 10,
+      "created_at": "2026-04-21T02:05:39Z",
+      "homepage": "https://getsignal.sh"
+    },
+    "added_at": "2026-07-09T17:59:28.322800Z",
+    "stars": 275,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-01T18:27:06Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:braedonsaunders/codeflow",
+    "url": "https://github.com/braedonsaunders/codeflow",
+    "title": "braedonsaunders/codeflow",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075222027988775210",
+    "fetched_at": "2026-07-09T17:58:56.332092Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A browser-based, client-side codebase visualization and analysis tool that generates dependency graphs, security scans, and architecture health reports without uploading code to a server.",
+    "category": "Developer Tools",
+    "tags": [
+      "visualization",
+      "code-analysis",
+      "security",
+      "browser-based",
+      "developer-tools"
+    ],
+    "risk_notes": "The tool runs entirely in the browser using client-side processing. It requires no installation. If used with private repositories, it requests a GitHub Personal Access Token, which is stored only in browser memory. It has no server-side component, making it highly secure for sensitive codebases.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-12-16T03:42:56Z",
+      "homepage": "https://codeflow-five.vercel.app"
+    },
+    "added_at": "2026-07-09T17:59:34.836478Z",
+    "stars": 3779,
+    "language": "HTML",
+    "pushed_at": "2026-07-06T18:16:03Z",
+    "license": null,
+    "topics": [
+      "architecture",
+      "browser-based",
+      "code-analysis",
+      "codebase-visualization",
+      "d3js",
+      "dependency-graph",
+      "developer-tools",
+      "github-api",
+      "single-file",
+      "visualization"
+    ]
+  },
+  {
+    "id": "github:sendwithses/drag-and-drop-email-designer",
+    "url": "https://github.com/sendwithses/drag-and-drop-email-designer",
+    "title": "sendwithses/drag-and-drop-email-designer",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075212789921042478",
+    "fetched_at": "2026-07-09T17:58:56.332206Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A lightweight, open-source drag-and-drop email template designer provided as an Angular library, suitable for integrating into custom applications or self-hosted marketing tools.",
+    "category": "Developer Tools",
+    "tags": [
+      "email-marketing",
+      "angular",
+      "html-editor",
+      "no-code",
+      "web-development"
+    ],
+    "risk_notes": "Installed via standard npm/yarn packages. It is a frontend library, so it does not inherently require system-level permissions; however, it requires the developer to implement custom logic for image uploads (e.g., S3/GCP integration) and template storage, which introduces potential security surface area in the implementation phase.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2024-01-01T07:14:18Z",
+      "homepage": "https://designer.sendune.com"
+    },
+    "added_at": "2026-07-09T17:59:41.425351Z",
+    "stars": 2123,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-08T10:45:14Z",
+    "license": "MIT",
+    "topics": [
+      "aws-ses-template-editor",
+      "free-html-email-editor",
+      "free-open-source-email-editor-and-designer",
+      "no-code-email-editor",
+      "open-source-email-template-creator",
+      "open-source-free-wysiwig-email-editor",
+      "open-source-html-email-designer"
+    ]
+  },
+  {
+    "id": "github:sethgammon/citadel",
+    "url": "https://github.com/sethgammon/citadel",
+    "title": "sethgammon/citadel",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075203894183882931",
+    "fetched_at": "2026-07-09T17:58:56.332317Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Citadel is an orchestration layer for AI coding agents like Claude Code and OpenAI Codex, providing persistent memory, intent routing, and safety hooks to turn ephemeral chat sessions into structured engineering workflows.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "developer-tools",
+      "automation",
+      "workflow-orchestration",
+      "claude-code"
+    ],
+    "risk_notes": "Requires Node.js 18+ and integration with Claude Code or OpenAI Codex. The tool executes scripts within your project directory and modifies local files (creating a .planning/ directory). It requires access to your local filesystem and git repository. Installation involves running a local node script, which is safer than piping curl to bash, but it effectively grants the AI agent deeper control over your project's lifecycle and file system.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-03-20T05:42:54Z",
+      "homepage": "https://sethgammon.github.io/Citadel/"
+    },
+    "added_at": "2026-07-09T17:59:47.870445Z",
+    "stars": 643,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-03T20:11:48Z",
+    "license": "MIT",
+    "topics": [
+      "agent-orchestration",
+      "agent-workflow",
+      "ai-agents",
+      "claude-code-plugin",
+      "claude-plugins",
+      "codex-plugin",
+      "developer-tools",
+      "mcp"
+    ]
+  },
+  {
+    "id": "github:chmarax/forensix",
+    "url": "https://github.com/chmarax/forensix",
+    "title": "chmarax/forensix",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075195296498278510",
+    "fetched_at": "2026-07-09T17:58:56.332434Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "ForensiX is a comprehensive forensic analysis tool for Google Chrome and Brave browser data, offering visualization, ML-based URL classification, and artifact extraction.",
+    "category": "security-tooling",
+    "tags": [
+      "forensics",
+      "browser-security",
+      "data-analysis",
+      "docker",
+      "privacy"
+    ],
+    "risk_notes": "The tool requires manual copying of sensitive browser data (history, login data, cookies) into a local directory for processing. It uses Docker/Docker Compose for deployment, which is a standard and safe isolation method. It requires a significant download (ML model) and runs a local MongoDB instance. Users should exercise caution when handling sensitive browser artifacts and ensure the local environment is secure.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 100,
+      "created_at": "2020-02-03T23:49:24Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-09T17:59:54.336613Z",
+    "stars": 265,
+    "language": "JavaScript",
+    "pushed_at": "2025-12-30T10:48:51Z",
+    "license": "MIT",
+    "topics": [
+      "browsing-activity",
+      "browsing-history",
+      "cache",
+      "forensic-analysis",
+      "forensics",
+      "google-chrome",
+      "google-chrome-history",
+      "metadata"
+    ]
+  },
+  {
+    "id": "github:34306/vphone-aio",
+    "url": "https://github.com/34306/vphone-aio",
+    "title": "34306/vphone-aio",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075186513206227244",
+    "fetched_at": "2026-07-09T17:58:56.332585Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A script to automate the deployment of a virtualized iOS environment (vphone) using QEMU/KVM-based virtualization techniques.",
+    "category": "virtualization",
+    "tags": [
+      "ios",
+      "virtualization",
+      "qemu",
+      "jailbreak",
+      "automation"
+    ],
+    "risk_notes": "High risk. Requires disabling System Integrity Protection (SIP) and modifying kernel boot arguments (amfi_get_out_of_my_way=1) on the host machine. The project lacks a formal license, has no clear provenance for the binary blobs being downloaded, and involves running complex shell scripts that manipulate system-level virtualization settings.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 27,
+      "created_at": "2026-02-28T10:20:47Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-09T18:00:00.584192Z",
+    "stars": 3919,
+    "language": "Shell",
+    "pushed_at": "2026-03-03T04:19:20Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:lum1104/understand-anything",
+    "url": "https://github.com/lum1104/understand-anything",
+    "title": "lum1104/understand-anything",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2075178416286863668",
+    "fetched_at": "2026-07-09T17:58:56.332705Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An advanced AI-powered knowledge graph tool that maps codebases and documentation into interactive, searchable visual structures to help developers understand complex systems.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai-agent",
+      "knowledge-graph",
+      "code-analysis",
+      "developer-tools",
+      "visualization"
+    ],
+    "risk_notes": "Requires integration with LLM providers (Claude, Gemini, etc.) via API keys, which grants the tool access to your codebase content. Installation typically involves standard npm/package manager workflows. As it performs deep analysis of local files, ensure you are comfortable with the tool processing sensitive proprietary codebases before running it on private repositories.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 264,
+      "created_at": "2026-03-15T02:30:51Z",
+      "homepage": "https://understand-anything.com"
+    },
+    "added_at": "2026-07-09T18:00:07.811073Z",
+    "stars": 72304,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-09T10:24:52Z",
+    "license": "MIT",
+    "topics": [
+      "antigravity-skills",
+      "business-knowledge",
+      "claude-code",
+      "claude-skills",
+      "codebase-analysis",
+      "codex",
+      "codex-skills",
+      "developer-tools-ai-agent",
+      "gemini-cli-skills",
+      "karpathy-llm-wiki",
+      "knowledge-base",
+      "knowledge-graph",
+      "memory",
+      "opencode-skills",
+      "pi-agent",
+      "understandcode",
+      "vibe-coding"
+    ]
   }
 ]
