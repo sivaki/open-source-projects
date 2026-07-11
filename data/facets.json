@@ -10649,5 +10649,246 @@
       "pdf form filler",
       "automated document processing"
     ]
+  },
+  "github:katanemo/plano": {
+    "capability_summary": "An AI-native proxy and data plane built on Envoy for LLM routing, orchestration, and observability.",
+    "problem_solved": "Managing and monitoring LLM traffic and guardrails in agentic applications.",
+    "use_cases": [
+      "llm-routing",
+      "ai-observability",
+      "llm-guardrails"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-gateway",
+      "llm-proxy"
+    ]
+  },
+  "github:dnschanger/dnschanger-desktop": {
+    "capability_summary": "A cross-platform desktop app to simplify switching DNS server configurations.",
+    "problem_solved": "Manually changing DNS settings on desktop operating systems.",
+    "use_cases": [
+      "dns-management",
+      "network-privacy"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dns-switcher"
+    ]
+  },
+  "github:vudovn/antigravity-kit": {
+    "capability_summary": "A framework of AI agent templates and workflows to improve developer productivity.",
+    "problem_solved": "Standardizing AI agent orchestration and context management.",
+    "use_cases": [
+      "ai-automation",
+      "developer-productivity",
+      "agentic-workflows"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-framework"
+    ]
+  },
+  "github:onikan27/claude-code-monitor": {
+    "capability_summary": "A macOS utility for monitoring and controlling Claude Code sessions via TUI and mobile web.",
+    "problem_solved": "Managing multiple remote Claude Code terminal sessions.",
+    "use_cases": [
+      "claude-code-management",
+      "remote-terminal-monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-tui"
+    ]
+  },
+  "github:ministackorg/ministack": {
+    "capability_summary": "A lightweight AWS service emulator for local development and testing.",
+    "problem_solved": "Testing AWS infrastructure locally without incurring cloud costs.",
+    "use_cases": [
+      "aws-emulation",
+      "local-testing",
+      "devops-tooling"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "localstack-alternative"
+    ]
+  },
+  "github:roryclear/clearcam": {
+    "capability_summary": "A self-hosted NVR and AI-powered object detection system for RTSP cameras.",
+    "problem_solved": "Monitoring and recording security camera feeds with AI alerts.",
+    "use_cases": [
+      "nvr",
+      "cctv",
+      "object-detection",
+      "self-hosted-security"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "frigate-alternative"
+    ]
+  },
+  "github:khcrysalis/feather": {
+    "capability_summary": "An on-device iOS application manager for signing and installing IPA files.",
+    "problem_solved": "Sideloading and signing apps on iOS devices.",
+    "use_cases": [
+      "ios-sideloading",
+      "ipa-signing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "esign",
+      "ios-signer"
+    ]
+  },
+  "github:frappe/builder": {
+    "capability_summary": "A low-code visual website builder with AI-powered page generation.",
+    "problem_solved": "Building responsive websites quickly without extensive coding.",
+    "use_cases": [
+      "cms",
+      "low-code-development",
+      "website-builder"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "wordpress-alternative",
+      "framer-alternative"
+    ]
+  },
+  "github:291-group/lan-orangutan": {
+    "capability_summary": "A lightweight network scanner with a web dashboard for tracking devices.",
+    "problem_solved": "Monitoring and labeling devices on a local network.",
+    "use_cases": [
+      "network-scanning",
+      "homelab-monitoring",
+      "iot-management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network-scanner"
+    ]
+  },
+  "github:lihaoyun6/topit": {
+    "capability_summary": "A macOS utility to pin application windows to the top of the screen.",
+    "problem_solved": "Keeping specific windows visible while multitasking.",
+    "use_cases": [
+      "window-management",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "always-on-top"
+    ]
+  },
+  "github:nexmoe/vidbee": {
+    "capability_summary": "A video downloader with a web interface and RSS automation for home-lab users. It simplifies downloading media from various platforms.",
+    "problem_solved": "Automating the collection of media from video platforms.",
+    "use_cases": [
+      "video downloading",
+      "rss automation",
+      "media server management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "cross-platform"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "yt-dlp gui"
+    ]
+  },
+  "github:khanhduytran0/livecontainer": {
+    "capability_summary": "An iOS app launcher that runs multiple apps in a single container. It is designed for power users needing to bypass installation limits.",
+    "problem_solved": "Bypassing iOS app installation limits and enabling advanced multitasking.",
+    "use_cases": [
+      "app sideloading",
+      "jit execution",
+      "ios productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ios app launcher"
+    ]
+  },
+  "github:midudev/autoskills": {
+    "capability_summary": "A CLI tool for developers that automatically detects and installs AI agent skills based on project configuration.",
+    "problem_solved": "Manually configuring and installing AI agent capabilities.",
+    "use_cases": [
+      "ai agent setup",
+      "developer workflow automation",
+      "dependency management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai agent manager"
+    ]
   }
 }
