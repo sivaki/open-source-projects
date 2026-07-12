@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 586 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 590 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [david-crty/databasement](https://github.com/david-crty/databasement) ⭐ | self-hosting | `backup` `database` `automation` `docker` `self-hosted` | A comprehensive, self-hosted database backup and management platform with a web UI that supports multiple engines, SSH tunneling, and remote agents. | 926 | 2026-07-12 |
+| [ahs12/thoth-blueprint](https://github.com/ahs12/thoth-blueprint) ⭐ | Developer Tools | `database` `modeling` `pwa` `sql` `productivity` | A visual, offline-first database design tool that supports DBML, SQL export, and migration generation for frameworks like Laravel and Django. | 480 | 2026-07-12 |
+| [rmbell09-lang/tradesight](https://github.com/rmbell09-lang/tradesight) ⭐ | Fintech / Automation | `algorithmic-trading` `python` `self-hosted` `ai` `backtesting` `finance` | A self-hosted Python-based algorithmic trading lab that features AI-driven strategy tournaments, backtesting, and paper trading via Alpaca. | 101 | 2026-07-12 |
+| [koutto/pi-pwnbox-rogueap](https://github.com/koutto/pi-pwnbox-rogueap) ⭐ | Security Tooling | `raspberry-pi` `wifi-security` `red-team` `rogue-ap` `kali-linux` | A comprehensive framework for turning a Raspberry Pi into a portable, headless WiFi hacking and rogue access point platform, complete with extensive documentation and cheatsheets. | 2056 | 2026-07-12 |
 | [carlcastanas/cybersecurity-roadmap](https://github.com/carlcastanas/cybersecurity-roadmap) ⭐ | Education | `cybersecurity` `career` `learning` `roadmap` `infosec` | A comprehensive, well-structured, and up-to-date roadmap for individuals pursuing a career in cybersecurity, covering foundational skills, certifications, and emerging trends like AI security. | 952 | 2026-07-12 |
 | [hackunderway/searchphone](https://github.com/hackunderway/searchphone) ⭐ | Security Tooling | `osint` `python` `cybersecurity` `automation` `infosec` | A Python-based OSINT toolkit that aggregates data from multiple APIs to perform phone number validation, carrier lookup, and social media/code repository searches. | 660 | 2026-07-12 |
 | [iamsanmith/metasort](https://github.com/iamsanmith/metasort) ⭐ | Data Management | `rust` `cli` `automation` `media-management` `google-photos` | A high-performance Rust-based utility designed to organize messy Google Photos Takeout exports by cleaning filenames, extracting metadata, and sorting media into structured folders. | 263 | 2026-07-12 |
