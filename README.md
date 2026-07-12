@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 580 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 586 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [carlcastanas/cybersecurity-roadmap](https://github.com/carlcastanas/cybersecurity-roadmap) ⭐ | Education | `cybersecurity` `career` `learning` `roadmap` `infosec` | A comprehensive, well-structured, and up-to-date roadmap for individuals pursuing a career in cybersecurity, covering foundational skills, certifications, and emerging trends like AI security. | 952 | 2026-07-12 |
+| [hackunderway/searchphone](https://github.com/hackunderway/searchphone) ⭐ | Security Tooling | `osint` `python` `cybersecurity` `automation` `infosec` | A Python-based OSINT toolkit that aggregates data from multiple APIs to perform phone number validation, carrier lookup, and social media/code repository searches. | 660 | 2026-07-12 |
+| [iamsanmith/metasort](https://github.com/iamsanmith/metasort) ⭐ | Data Management | `rust` `cli` `automation` `media-management` `google-photos` | A high-performance Rust-based utility designed to organize messy Google Photos Takeout exports by cleaning filenames, extracting metadata, and sorting media into structured folders. | 263 | 2026-07-12 |
+| [etinaude/lock-picking-robot](https://github.com/etinaude/lock-picking-robot) ⭐ | hardware-security | `robotics` `security` `lockpicking` `automation` `hardware` | An open-source hardware project for a robotic lock-picking device that uses brute-force pin manipulation to open pin-tumbler locks. | 353 | 2026-07-12 |
+| [seanzhang414/openadserver](https://github.com/seanzhang414/openadserver) ⭐ | AdTech / Infrastructure | `ad-server` `fastapi` `pytorch` `self-hosted` `machine-learning` | A modern, self-hosted ad serving platform built with FastAPI and PyTorch, featuring ML-based CTR prediction and real-time bidding capabilities. | 203 | 2026-07-12 |
+| [camenduru/tostui](https://github.com/camenduru/tostui) ⭐ | AI/LLM Tooling | `docker` `generative-ai` `llm` `self-hosting` `gpu` | A collection of Docker-based templates for deploying state-of-the-art generative AI models locally with pre-configured web interfaces. | 468 | 2026-07-12 |
 | [yelabb/phantomloop](https://github.com/yelabb/phantomloop) ⭐ | Neuroscience / BCI Tooling | `bci` `eeg` `visualization` `tensorflowjs` `homelab` | A browser-based platform for real-time BCI (Brain-Computer Interface) decoder visualization and validation, supporting a wide range of hardware via a WebSocket bridge. | 16 | 2026-07-12 |
 | [sqshq/sampler](https://github.com/sqshq/sampler) ⭐ | Developer Tools | `cli` `monitoring` `dashboard` `terminal` `visualization` | A powerful terminal-based dashboard that visualizes the output of any shell command in real-time, perfect for lightweight monitoring without heavy infrastructure. | 14593 | 2026-07-12 |
 | [hyperfield/ai-file-sorter](https://github.com/hyperfield/ai-file-sorter) ⭐ | automation | `ai` `llm` `file-management` `automation` `privacy` | A cross-platform desktop application that uses local or remote LLMs to intelligently categorize and rename files based on content analysis and metadata. | 1156 | 2026-07-12 |
