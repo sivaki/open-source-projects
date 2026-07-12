@@ -10890,5 +10890,115 @@
     "aliases": [
       "ai agent manager"
     ]
+  },
+  "github:umuterturk/email-verifier": {
+    "capability_summary": "A high-performance API for validating email addresses by checking syntax, MX records, and disposable status. Designed for developers needing privacy-focused email verification.",
+    "problem_solved": "Validating email addresses without storing user data.",
+    "use_cases": [
+      "email validation",
+      "spam prevention",
+      "disposable email detection"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "email-validator"
+    ]
+  },
+  "github:kostard/esp32s3-usb-keyboard-to-ble": {
+    "capability_summary": "Firmware for ESP32-S3 hardware that bridges wired USB keyboards to Bluetooth Low Energy. Ideal for users wanting to make legacy peripherals wireless.",
+    "problem_solved": "Converting wired USB keyboards to wireless Bluetooth devices.",
+    "use_cases": [
+      "hardware bridge",
+      "keyboard conversion",
+      "bluetooth HID"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "usb-to-ble-adapter"
+    ]
+  },
+  "github:zcaceres/markdownify-mcp": {
+    "capability_summary": "An MCP server that converts diverse file formats and web content into Markdown for LLM processing. Built for AI developers integrating external data into context windows.",
+    "problem_solved": "Converting complex file formats into LLM-readable Markdown.",
+    "use_cases": [
+      "document parsing",
+      "OCR",
+      "LLM data pipeline"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server",
+      "llm-data-converter"
+    ]
+  },
+  "github:hyperfield/ai-file-sorter": {
+    "capability_summary": "A desktop application that uses LLMs to automatically categorize and rename files based on their content. Designed for users needing automated file organization.",
+    "problem_solved": "Automating the organization and renaming of messy file directories.",
+    "use_cases": [
+      "file management",
+      "automated sorting",
+      "metadata analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "file-organizer"
+    ]
+  },
+  "github:sqshq/sampler": {
+    "capability_summary": "A terminal-based dashboard that visualizes shell command outputs in real-time. Built for developers and sysadmins requiring lightweight system monitoring.",
+    "problem_solved": "Visualizing real-time system metrics directly in the terminal.",
+    "use_cases": [
+      "system monitoring",
+      "terminal dashboard",
+      "data visualization"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "terminal-dashboard",
+      "monitoring-tool"
+    ]
+  },
+  "github:yelabb/phantomloop": {
+    "capability_summary": "A browser-based platform for visualizing and validating BCI decoder data in real-time. Designed for neuroscience researchers and BCI developers.",
+    "problem_solved": "Visualizing real-time Brain-Computer Interface decoder data.",
+    "use_cases": [
+      "BCI visualization",
+      "neuroscience research",
+      "decoder validation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "bci-tooling"
+    ]
   }
 }
