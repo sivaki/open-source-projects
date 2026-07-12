@@ -11108,5 +11108,90 @@
     "aliases": [
       "infosec career guide"
     ]
+  },
+  "github:koutto/pi-pwnbox-rogueap": {
+    "capability_summary": "A framework to transform a Raspberry Pi into a portable, headless WiFi hacking and rogue access point device. Designed for security professionals and red teamers.",
+    "problem_solved": "Need for a portable, automated hardware platform for WiFi penetration testing.",
+    "use_cases": [
+      "wifi-security testing",
+      "rogue access point deployment",
+      "red team operations",
+      "mitm attacks"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wifi-hacking-tool",
+      "pwnbox"
+    ]
+  },
+  "github:rmbell09-lang/tradesight": {
+    "capability_summary": "A Python-based algorithmic trading laboratory for backtesting and paper trading. Built for quantitative traders seeking self-hosted AI strategy automation.",
+    "problem_solved": "Need for a local, automated environment to test and execute trading strategies.",
+    "use_cases": [
+      "algorithmic trading",
+      "backtesting strategies",
+      "paper trading",
+      "ai-driven finance"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "trading-bot",
+      "algo-trading-lab"
+    ]
+  },
+  "github:ahs12/thoth-blueprint": {
+    "capability_summary": "A visual, offline-first database design tool for developers. It supports DBML, SQL export, and migration generation for modern web frameworks.",
+    "problem_solved": "Need for a visual tool to design database schemas and generate migrations without an internet connection.",
+    "use_cases": [
+      "database modeling",
+      "sql schema design",
+      "migration generation",
+      "database visualization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "db-designer",
+      "sql-modeler"
+    ]
+  },
+  "github:david-crty/databasement": {
+    "capability_summary": "A self-hosted platform providing a web UI for database backup, management, and automation across multiple SQL engines. Ideal for sysadmins managing remote databases.",
+    "problem_solved": "Need for centralized, automated database backups and management across diverse environments.",
+    "use_cases": [
+      "database backup",
+      "database management",
+      "ssh tunneling",
+      "automated database maintenance"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "db-backup-tool",
+      "database-manager"
+    ]
   }
 }
