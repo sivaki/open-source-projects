@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 574 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 580 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [yelabb/phantomloop](https://github.com/yelabb/phantomloop) ⭐ | Neuroscience / BCI Tooling | `bci` `eeg` `visualization` `tensorflowjs` `homelab` | A browser-based platform for real-time BCI (Brain-Computer Interface) decoder visualization and validation, supporting a wide range of hardware via a WebSocket bridge. | 16 | 2026-07-12 |
+| [sqshq/sampler](https://github.com/sqshq/sampler) ⭐ | Developer Tools | `cli` `monitoring` `dashboard` `terminal` `visualization` | A powerful terminal-based dashboard that visualizes the output of any shell command in real-time, perfect for lightweight monitoring without heavy infrastructure. | 14593 | 2026-07-12 |
+| [hyperfield/ai-file-sorter](https://github.com/hyperfield/ai-file-sorter) ⭐ | automation | `ai` `llm` `file-management` `automation` `privacy` | A cross-platform desktop application that uses local or remote LLMs to intelligently categorize and rename files based on content analysis and metadata. | 1156 | 2026-07-12 |
+| [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) ⭐ | AI/LLM Tooling | `mcp` `llm` `markdown` `automation` `data-pipeline` | A Model Context Protocol (MCP) server that provides tools to convert various file formats (PDF, DOCX, audio, images) and web content into Markdown for LLM consumption. | 2780 | 2026-07-12 |
+| [kostard/esp32s3-usb-keyboard-to-ble](https://github.com/kostard/esp32s3-usb-keyboard-to-ble) ⭐ | hardware-automation | `esp32` `hid` `bluetooth` `keyboard` `embedded` `homelab` | A firmware project for the ESP32-S3 that acts as a hardware bridge to convert wired USB keyboards into Bluetooth Low Energy (BLE) wireless devices. | 169 | 2026-07-12 |
+| [umuterturk/email-verifier](https://github.com/umuterturk/email-verifier) ⭐ | developer tools | `api` `email` `go` `privacy` `automation` | A high-performance, open-source email validation API that checks syntax, MX records, and disposable email status without storing user data. | 477 | 2026-07-12 |
 | [midudev/autoskills](https://github.com/midudev/autoskills) ⭐ | AI/LLM Tooling | `cli` `ai-agents` `automation` `developer-tools` `node` | A CLI tool that scans project configuration files to automatically detect and install curated AI agent skills, using a verified manifest-based security model. | 6259 | 2026-07-11 |
 | [khanhduytran0/livecontainer](https://github.com/khanhduytran0/livecontainer) ⭐ | Developer Tools | `ios` `mobile` `automation` `sideloading` `productivity` | LiveContainer is an iOS app launcher that allows users to run multiple iOS applications within a single container, bypassing standard installation limits and enabling advanced features like multitasking and JIT-based execution. | 10017 | 2026-07-11 |
 | [nexmoe/vidbee](https://github.com/nexmoe/vidbee) ⭐ | automation | `downloader` `yt-dlp` `automation` `self-hosted` `media` | A modern, cross-platform video downloader built on Electron and yt-dlp, featuring a clean UI, RSS automation, and a Docker-ready API/web interface for home-lab deployment. | 9813 | 2026-07-11 |
