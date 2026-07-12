@@ -11000,5 +11000,113 @@
     "aliases": [
       "bci-tooling"
     ]
+  },
+  "github:camenduru/tostui": {
+    "capability_summary": "A collection of Docker templates for deploying generative AI models with web interfaces locally.",
+    "problem_solved": "Simplifies local deployment of complex AI models.",
+    "use_cases": [
+      "local ai hosting",
+      "generative ai deployment",
+      "model testing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai model runner"
+    ]
+  },
+  "github:seanzhang414/openadserver": {
+    "capability_summary": "A self-hosted ad serving platform with ML-based CTR prediction and real-time bidding.",
+    "problem_solved": "Provides an open-source alternative for programmatic advertising infrastructure.",
+    "use_cases": [
+      "ad serving",
+      "real-time bidding",
+      "ctr prediction"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "adtech platform"
+    ]
+  },
+  "github:etinaude/lock-picking-robot": {
+    "capability_summary": "An open-source hardware project for a robotic device that automates pin-tumbler lock picking.",
+    "problem_solved": "Automates physical security testing of pin-tumbler locks.",
+    "use_cases": [
+      "security research",
+      "hardware automation",
+      "lockpicking"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "robotic lock picker"
+    ]
+  },
+  "github:iamsanmith/metasort": {
+    "capability_summary": "A Rust utility to organize and clean Google Photos Takeout exports based on metadata.",
+    "problem_solved": "Organizes messy photo exports into structured folders.",
+    "use_cases": [
+      "photo organization",
+      "metadata management",
+      "google photos backup"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cross-platform",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "photo sorter"
+    ]
+  },
+  "github:hackunderway/searchphone": {
+    "capability_summary": "An OSINT toolkit for phone number validation, carrier lookup, and social media searching.",
+    "problem_solved": "Automates phone-based OSINT investigations.",
+    "use_cases": [
+      "osint",
+      "phone number lookup",
+      "cybersecurity investigation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "phone osint tool"
+    ]
+  },
+  "github:carlcastanas/cybersecurity-roadmap": {
+    "capability_summary": "A structured learning path for individuals pursuing a career in cybersecurity.",
+    "problem_solved": "Provides a clear guide for cybersecurity skill acquisition and certification.",
+    "use_cases": [
+      "career planning",
+      "cybersecurity education",
+      "learning path"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "infosec career guide"
+    ]
   }
 }
