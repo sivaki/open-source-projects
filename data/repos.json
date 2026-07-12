@@ -25670,5 +25670,242 @@
       "video-processing",
       "visual-effects"
     ]
+  },
+  {
+    "id": "github:camenduru/tostui",
+    "url": "https://github.com/camenduru/tostui",
+    "title": "camenduru/tostui",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076232646397403582",
+    "fetched_at": "2026-07-12T09:53:17.302780Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of Docker-based templates for deploying state-of-the-art generative AI models locally with pre-configured web interfaces.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "docker",
+      "generative-ai",
+      "llm",
+      "self-hosting",
+      "gpu"
+    ],
+    "risk_notes": "Requires Docker and NVIDIA GPU drivers/container toolkit. Containers run with --gpus all, granting them access to hardware. Users should be aware that these are third-party images; running arbitrary AI model containers can involve significant resource usage and potential security risks if the container images are not audited. No specific API keys mentioned for local runs, but requires significant VRAM (14GB-24GB).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 15,
+      "created_at": "2025-12-03T17:58:10Z",
+      "homepage": "http://localhost:3000"
+    },
+    "added_at": "2026-07-12T09:53:23.707954Z",
+    "stars": 468,
+    "language": "TypeScript",
+    "pushed_at": "2026-01-19T02:12:28Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:seanzhang414/openadserver",
+    "url": "https://github.com/seanzhang414/openadserver",
+    "title": "seanzhang414/openadserver",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076214343230722056",
+    "fetched_at": "2026-07-12T09:53:17.302943Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A modern, self-hosted ad serving platform built with FastAPI and PyTorch, featuring ML-based CTR prediction and real-time bidding capabilities.",
+    "category": "AdTech / Infrastructure",
+    "tags": [
+      "ad-server",
+      "fastapi",
+      "pytorch",
+      "self-hosted",
+      "machine-learning"
+    ],
+    "risk_notes": "Uses Docker Compose for deployment, which is standard and relatively safe. Requires PostgreSQL and Redis as dependencies. As an ad-serving platform, it will handle user request data and potentially sensitive campaign/creative assets; it should be deployed behind a reverse proxy with proper TLS termination and authentication.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-11-30T02:07:43Z",
+      "homepage": "https://github.com/seanZhang414/openadserver"
+    },
+    "added_at": "2026-07-12T09:53:30.056588Z",
+    "stars": 203,
+    "language": "Python",
+    "pushed_at": "2025-12-21T13:17:51Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ad-network",
+      "ad-server",
+      "ad-tech",
+      "advertising",
+      "ctr-prediction",
+      "deepfm",
+      "digital-advertising",
+      "dsp",
+      "fastapi",
+      "machine-learning",
+      "open-source",
+      "programmatic-advertising",
+      "python",
+      "pytorch",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github:etinaude/lock-picking-robot",
+    "url": "https://github.com/etinaude/lock-picking-robot",
+    "title": "etinaude/lock-picking-robot",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076196856674066593",
+    "fetched_at": "2026-07-12T09:53:17.303066Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "An open-source hardware project for a robotic lock-picking device that uses brute-force pin manipulation to open pin-tumbler locks.",
+    "category": "hardware-security",
+    "tags": [
+      "robotics",
+      "security",
+      "lockpicking",
+      "automation",
+      "hardware"
+    ],
+    "risk_notes": "This is a physical hardware project requiring 3D printing and custom electronics (Dynamixel servos, OpenRB-150 board). Software is C++ firmware for Arduino IDE; it does not interact with network or OS filesystems, posing no digital security risk, but the physical device is designed to bypass security mechanisms.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2024-06-03T21:41:22Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-12T09:53:36.380067Z",
+    "stars": 353,
+    "language": "C++",
+    "pushed_at": "2026-01-17T10:19:14Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "lock",
+      "lock-picking",
+      "security"
+    ]
+  },
+  {
+    "id": "github:iamsanmith/metasort",
+    "url": "https://github.com/iamsanmith/metasort",
+    "title": "iamsanmith/metasort",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076180114979590329",
+    "fetched_at": "2026-07-12T09:53:17.303186Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance Rust-based utility designed to organize messy Google Photos Takeout exports by cleaning filenames, extracting metadata, and sorting media into structured folders.",
+    "category": "Data Management",
+    "tags": [
+      "rust",
+      "cli",
+      "automation",
+      "media-management",
+      "google-photos"
+    ],
+    "risk_notes": "Requires local filesystem access to read/write media files. Installation involves running shell scripts that execute curl commands and install system-level dependencies (ExifTool). It is a local-first tool and does not appear to require cloud API keys, but users should review the installation scripts before execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 19,
+      "created_at": "2025-07-02T14:08:41Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-12T09:53:42.701212Z",
+    "stars": 263,
+    "language": "Rust",
+    "pushed_at": "2026-05-17T12:19:55Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "automation",
+      "backup",
+      "cli",
+      "cross-platform",
+      "exif",
+      "google-photos",
+      "google-takeout",
+      "macos",
+      "metadata-management",
+      "photos",
+      "rust",
+      "windows"
+    ]
+  },
+  {
+    "id": "github:hackunderway/searchphone",
+    "url": "https://github.com/hackunderway/searchphone",
+    "title": "hackunderway/searchphone",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076164145943048523",
+    "fetched_at": "2026-07-12T09:53:17.303313Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Python-based OSINT toolkit that aggregates data from multiple APIs to perform phone number validation, carrier lookup, and social media/code repository searches.",
+    "category": "Security Tooling",
+    "tags": [
+      "osint",
+      "python",
+      "cybersecurity",
+      "automation",
+      "infosec"
+    ],
+    "risk_notes": "Requires local installation via pip and manual configuration of multiple third-party API keys (Numverify, SerpAPI, GitHub). The tool performs network requests to external services and requires a GitHub token, which grants access to your account's search capabilities. It is actively maintained and follows standard Python project structure.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2024-11-12T04:06:55Z",
+      "homepage": "https://toolkit.hackunderway.com/"
+    },
+    "added_at": "2026-07-12T09:53:49.024601Z",
+    "stars": 660,
+    "language": "Python",
+    "pushed_at": "2026-07-05T05:30:59Z",
+    "license": "MIT",
+    "topics": [
+      "api-scraping",
+      "cybersecurity",
+      "github-search",
+      "hackunderway",
+      "infosec",
+      "osint",
+      "osint-tool",
+      "phone-number",
+      "phoneosint",
+      "python",
+      "searchphone"
+    ]
+  },
+  {
+    "id": "github:carlcastanas/cybersecurity-roadmap",
+    "url": "https://github.com/carlcastanas/cybersecurity-roadmap",
+    "title": "carlcastanas/cybersecurity-roadmap",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076148937841398159",
+    "fetched_at": "2026-07-12T09:53:17.303434Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, well-structured, and up-to-date roadmap for individuals pursuing a career in cybersecurity, covering foundational skills, certifications, and emerging trends like AI security.",
+    "category": "Education",
+    "tags": [
+      "cybersecurity",
+      "career",
+      "learning",
+      "roadmap",
+      "infosec"
+    ],
+    "risk_notes": "This is a documentation-only repository. There is no code to execute, so there are no installation risks, system access requirements, or security vulnerabilities associated with the repository itself.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2023-08-26T04:06:23Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-12T09:53:55.361960Z",
+    "stars": 952,
+    "language": null,
+    "pushed_at": "2026-07-06T10:52:50Z",
+    "license": null,
+    "topics": []
   }
 ]
