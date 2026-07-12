@@ -25395,5 +25395,280 @@
     "pushed_at": "2026-07-05T19:54:08Z",
     "license": "NOASSERTION",
     "topics": []
+  },
+  {
+    "id": "github:umuterturk/email-verifier",
+    "url": "https://github.com/umuterturk/email-verifier",
+    "title": "umuterturk/email-verifier",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076134286336401506",
+    "fetched_at": "2026-07-12T03:16:21.701245Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance, open-source email validation API that checks syntax, MX records, and disposable email status without storing user data.",
+    "category": "developer tools",
+    "tags": [
+      "api",
+      "email",
+      "go",
+      "privacy",
+      "automation"
+    ],
+    "risk_notes": "The project provides a Docker image for self-hosting, which is the recommended secure deployment method. It requires network access to perform DNS lookups for MX records. As a self-hosted service, it does not require external API keys or credentials, and the code claims to be stateless with no data persistence.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2025-02-14T15:47:03Z",
+      "homepage": "https://rapid-email-verifier.fly.dev/"
+    },
+    "added_at": "2026-07-12T03:16:28.392169Z",
+    "stars": 477,
+    "language": "Go",
+    "pushed_at": "2026-04-08T07:44:40Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:kostard/esp32s3-usb-keyboard-to-ble",
+    "url": "https://github.com/kostard/esp32s3-usb-keyboard-to-ble",
+    "title": "kostard/esp32s3-usb-keyboard-to-ble",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076120093243691187",
+    "fetched_at": "2026-07-12T03:16:21.701405Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A firmware project for the ESP32-S3 that acts as a hardware bridge to convert wired USB keyboards into Bluetooth Low Energy (BLE) wireless devices.",
+    "category": "hardware-automation",
+    "tags": [
+      "esp32",
+      "hid",
+      "bluetooth",
+      "keyboard",
+      "embedded",
+      "homelab"
+    ],
+    "risk_notes": "Requires flashing custom firmware onto an ESP32-S3 microcontroller using PlatformIO. The device acts as a HID bridge, meaning it has full access to all keystrokes typed on the connected keyboard. It does not require network access or sensitive credentials, but hardware modification (soldering or external power injection) is often required to provide 5V power to the keyboard.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-01-01T21:56:49Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-12T03:16:34.667141Z",
+    "stars": 169,
+    "language": "C++",
+    "pushed_at": "2026-01-05T15:24:47Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:zcaceres/markdownify-mcp",
+    "url": "https://github.com/zcaceres/markdownify-mcp",
+    "title": "zcaceres/markdownify-mcp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076106483280871786",
+    "fetched_at": "2026-07-12T03:16:21.701532Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A Model Context Protocol (MCP) server that provides tools to convert various file formats (PDF, DOCX, audio, images) and web content into Markdown for LLM consumption.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "llm",
+      "markdown",
+      "automation",
+      "data-pipeline"
+    ],
+    "risk_notes": "Requires Bun for installation. It interacts with the local filesystem; users should utilize the MD_ALLOWED_PATHS environment variable to restrict access to specific directories. The Docker installation method is recommended for better isolation. It relies on Microsoft's 'markitdown' library, which may require additional system dependencies for full functionality (OCR/audio).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2024-12-18T21:14:52Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-12T03:16:40.998948Z",
+    "stars": 2780,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-09T05:23:59Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-claude",
+      "markdown",
+      "mcp",
+      "model-context-protocol",
+      "ocr",
+      "tools"
+    ]
+  },
+  {
+    "id": "github:hyperfield/ai-file-sorter",
+    "url": "https://github.com/hyperfield/ai-file-sorter",
+    "title": "hyperfield/ai-file-sorter",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076093396662296877",
+    "fetched_at": "2026-07-12T03:16:21.701657Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A cross-platform desktop application that uses local or remote LLMs to intelligently categorize and rename files based on content analysis and metadata.",
+    "category": "automation",
+    "tags": [
+      "ai",
+      "llm",
+      "file-management",
+      "automation",
+      "privacy"
+    ],
+    "risk_notes": "The application requires full read/write access to the directories you choose to organize. It supports local GGUF models (privacy-focused) or optional remote API keys (OpenAI/Gemini). Installation is via standard platform-specific binaries (MS Store, SourceForge), which is safer than script-based installs. The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 20,
+      "created_at": "2025-01-30T09:52:51Z",
+      "homepage": "https://filesorter.app"
+    },
+    "added_at": "2026-07-12T03:16:47.235672Z",
+    "stars": 1156,
+    "language": "C++",
+    "pushed_at": "2026-07-10T20:53:52Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai",
+      "file-management",
+      "file-manager",
+      "llm",
+      "organizer"
+    ]
+  },
+  {
+    "id": "github:sqshq/sampler",
+    "url": "https://github.com/sqshq/sampler",
+    "title": "sqshq/sampler",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076080795865756104",
+    "fetched_at": "2026-07-12T03:16:21.701774Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful terminal-based dashboard that visualizes the output of any shell command in real-time, perfect for lightweight monitoring without heavy infrastructure.",
+    "category": "Developer Tools",
+    "tags": [
+      "cli",
+      "monitoring",
+      "dashboard",
+      "terminal",
+      "visualization"
+    ],
+    "risk_notes": "The tool executes arbitrary shell commands defined in a YAML configuration file, meaning it has the same permissions as the user running it. It can be installed via package managers (brew, apt, choco) or direct binary download. Because it can execute SSH commands or local scripts, users should be cautious about the contents of their configuration files. The project is well-established but has a moderate number of open issues.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 62,
+      "created_at": "2019-01-25T04:10:21Z",
+      "homepage": "https://sampler.dev"
+    },
+    "added_at": "2026-07-12T03:16:53.542530Z",
+    "stars": 14593,
+    "language": "Go",
+    "pushed_at": "2024-02-22T10:21:15Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "alerting",
+      "charts",
+      "cmd",
+      "command-line",
+      "command-line-tool",
+      "dashbord",
+      "golang",
+      "monitoring",
+      "sampler",
+      "shell",
+      "terminal",
+      "visualization"
+    ]
+  },
+  {
+    "id": "github:yelabb/phantomloop",
+    "url": "https://github.com/yelabb/phantomloop",
+    "title": "yelabb/phantomloop",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076068509189079063",
+    "fetched_at": "2026-07-12T03:16:21.701888Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A browser-based platform for real-time BCI (Brain-Computer Interface) decoder visualization and validation, supporting a wide range of hardware via a WebSocket bridge.",
+    "category": "Neuroscience / BCI Tooling",
+    "tags": [
+      "bci",
+      "eeg",
+      "visualization",
+      "tensorflowjs",
+      "homelab"
+    ],
+    "risk_notes": "Requires running a local Python-based WebSocket bridge to interface with hardware (Serial/BLE/TCP), which introduces potential local network and hardware access risks. The project is in active development (beta), so APIs and security postures are subject to change. Requires standard Node.js/npm environment for the frontend.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-01-13T23:45:22Z",
+      "homepage": "https://phantomloop.elabbassi.com"
+    },
+    "added_at": "2026-07-12T03:17:00.244101Z",
+    "stars": 16,
+    "language": "TypeScript",
+    "pushed_at": "2026-03-19T13:25:07Z",
+    "license": null,
+    "topics": [
+      "bci",
+      "closed-loop-validation",
+      "decoders",
+      "web"
+    ]
+  },
+  {
+    "id": "github:visiondepth/visiondepth3d",
+    "url": "https://github.com/visiondepth/visiondepth3d",
+    "title": "visiondepth/visiondepth3d",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076056669059010907",
+    "fetched_at": "2026-07-12T03:16:21.702011Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A proprietary AI-powered 3D video conversion suite that has moved its source code to a closed-source model, distributing only via binary installers.",
+    "category": "Multimedia Tools",
+    "tags": [
+      "ai",
+      "video-processing",
+      "3d-conversion",
+      "computer-vision"
+    ],
+    "risk_notes": "The project is closed-source and distributed as a binary installer. This poses significant security risks as the code cannot be audited for malicious behavior, data exfiltration, or hidden dependencies. It requires installation of proprietary executables on the host system.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2025-01-18T02:24:08Z",
+      "homepage": "https://visiondepth.github.io/VisionDepth3D/"
+    },
+    "added_at": "2026-07-12T03:17:06.579417Z",
+    "stars": 276,
+    "language": null,
+    "pushed_at": "2026-07-10T05:51:31Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "2d-3d",
+      "3d-conversion",
+      "3d-rendering",
+      "3d-video",
+      "computer-vision",
+      "cuda",
+      "depth-estimation",
+      "fps-inference",
+      "image-processing",
+      "onnx",
+      "pytorch",
+      "stereo-vision",
+      "stereoscopic-videos",
+      "upscale",
+      "video-processing",
+      "visual-effects"
+    ]
   }
 ]
