@@ -11193,5 +11193,75 @@
       "db-backup-tool",
       "database-manager"
     ]
+  },
+  "github:joeycastillo/sensor-watch": {
+    "capability_summary": "A replacement circuit board for the Casio F-91W watch that enables custom firmware and sensor expansion. Designed for embedded systems hobbyists.",
+    "problem_solved": "Enables custom software and hardware modifications on a classic digital watch.",
+    "use_cases": [
+      "embedded development",
+      "wearable hardware",
+      "custom watch firmware"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Casio F-91W mod"
+    ]
+  },
+  "github:datlechin/tablepro": {
+    "capability_summary": "A native macOS database management client with AI integration and support for multiple SQL and NoSQL engines. Built for developers needing a high-performance GUI.",
+    "problem_solved": "Provides a native, open-source alternative for managing various database types on macOS.",
+    "use_cases": [
+      "database management",
+      "sql editing",
+      "database administration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "TablePlus alternative"
+    ]
+  },
+  "github:rasbt/llm-architecture-gallery": {
+    "capability_summary": "A structured YAML-based dataset containing metadata and architectural details of various Large Language Models. Designed for AI researchers and developers.",
+    "problem_solved": "Centralizes fragmented information about LLM architectures into a machine-readable format.",
+    "use_cases": [
+      "ai research",
+      "llm benchmarking",
+      "model architecture reference"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LLM database"
+    ]
+  },
+  "github:nasa-gibs/worldview": {
+    "capability_summary": "A web-based interactive map interface for exploring global satellite imagery from NASA's GIBS. Built for researchers and the general public.",
+    "problem_solved": "Provides easy access to high-resolution, full-resolution satellite imagery through a browser.",
+    "use_cases": [
+      "satellite imagery browsing",
+      "earth science visualization",
+      "gis data exploration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "NASA GIBS viewer"
+    ]
   }
 }
