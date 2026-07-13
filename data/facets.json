@@ -11537,5 +11537,229 @@
       "strava alternative",
       "fitness data aggregator"
     ]
+  },
+  "github:seemoo-lab/cellguard": {
+    "capability_summary": "An iOS tool for detecting rogue base stations and cellular surveillance by monitoring baseband traffic. Designed for security researchers and privacy-conscious users.",
+    "problem_solved": "Detecting cellular network surveillance and rogue base stations.",
+    "use_cases": [
+      "cellular security monitoring",
+      "baseband analysis",
+      "privacy protection"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "baseband monitor"
+    ]
+  },
+  "github:requie/ai-red-teaming-guide": {
+    "capability_summary": "A comprehensive knowledge base and methodology for adversarial testing and security evaluation of AI systems. Intended for security professionals and AI engineers.",
+    "problem_solved": "Lack of standardized methodology for testing AI system security.",
+    "use_cases": [
+      "AI security auditing",
+      "adversarial testing",
+      "LLM risk assessment"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "AI security guide",
+      "LLM red teaming"
+    ]
+  },
+  "github:yorkeccak/history": {
+    "capability_summary": "An interactive 3D globe application that uses AI to generate detailed historical reports for any location. Built for researchers and history enthusiasts.",
+    "problem_solved": "Accessing synthesized historical data for specific geographic locations.",
+    "use_cases": [
+      "historical research",
+      "geographical education",
+      "AI-driven data visualization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "AI history globe"
+    ]
+  },
+  "github:xob0t/google-photos-toolkit": {
+    "capability_summary": "A browser userscript providing a GUI and API for bulk-managing and deleting media in Google Photos. Designed for users needing better library organization.",
+    "problem_solved": "Difficulty in bulk-managing or deleting photos via the standard Google Photos interface.",
+    "use_cases": [
+      "bulk photo deletion",
+      "media library organization",
+      "Google Photos automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Google Photos cleaner"
+    ]
+  },
+  "github:jsdelivr/globalping-probe": {
+    "capability_summary": "A containerized network probe that allows users to contribute hardware to a distributed network testing community. Useful for network benchmarking and latency analysis.",
+    "problem_solved": "Need for distributed network testing and latency monitoring.",
+    "use_cases": [
+      "network benchmarking",
+      "latency testing",
+      "distributed network monitoring"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Globalping probe",
+      "network monitor"
+    ]
+  },
+  "github:akvise/trends-checker": {
+    "capability_summary": "A Python CLI tool for querying Google Trends and DataForSEO with advanced rate-limiting and automated data export. Built for SEO and market researchers.",
+    "problem_solved": "Automating keyword research and market trend analysis.",
+    "use_cases": [
+      "SEO keyword research",
+      "market validation",
+      "competitor analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Google Trends scraper",
+      "SEO automation tool"
+    ]
+  },
+  "github:ahekot/comfyui_vnccs": {
+    "capability_summary": "A ComfyUI extension for generating consistent character sprites for visual novels. Designed for creators managing character poses and emotions.",
+    "problem_solved": "Maintaining character consistency across multiple AI-generated images.",
+    "use_cases": [
+      "visual novel development",
+      "AI character generation",
+      "sprite sheet creation"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ComfyUI sprite generator"
+    ]
+  },
+  "github:biplobsd/running_services_monitor": {
+    "capability_summary": "An Android utility for monitoring system and user services using root or Shizuku. Designed for power users and privacy-focused Android management.",
+    "problem_solved": "Lack of visibility into background services on Android.",
+    "use_cases": [
+      "system monitoring",
+      "privacy management",
+      "process analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Android service manager"
+    ]
+  },
+  "github:gvcoder09/nodpi": {
+    "capability_summary": "A Python utility that bypasses Deep Packet Inspection by fragmenting TLS packets. Designed for users in restricted network environments.",
+    "problem_solved": "Accessing restricted web resources blocked by DPI.",
+    "use_cases": [
+      "censorship circumvention",
+      "DPI bypassing",
+      "privacy protection"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "DPI bypass tool",
+      "anti-censorship proxy"
+    ]
+  },
+  "github:andreknieriem/headunit-revived": {
+    "capability_summary": "An Android application that turns tablets or phones into Android Auto head units. Supports wired and wireless connections.",
+    "problem_solved": "Using an Android device as a secondary display for Android Auto.",
+    "use_cases": [
+      "Android Auto integration",
+      "in-car entertainment",
+      "mobile automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Android Auto headunit"
+    ]
+  },
+  "github:yangtiming/fast-sam-3d-body": {
+    "capability_summary": "A high-performance framework for real-time 3D human mesh recovery. It is designed for robotics engineers and researchers working on teleoperation and humanoid control.",
+    "problem_solved": "Enables low-latency 3D human pose estimation for real-time robotic control.",
+    "use_cases": [
+      "robotics teleoperation",
+      "humanoid control",
+      "3D pose estimation",
+      "real-time computer vision"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "human-mesh-recovery",
+      "fast-sam"
+    ]
+  },
+  "github:fareedkhan-dev/all-agentic-architectures": {
+    "capability_summary": "A collection of 35 production-grade agentic AI architectures using LangGraph. It serves as an educational resource and implementation guide for AI developers.",
+    "problem_solved": "Provides ready-to-use patterns for building complex agentic AI workflows.",
+    "use_cases": [
+      "ai agent development",
+      "llm automation",
+      "workflow orchestration",
+      "educational resource"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "langgraph-patterns",
+      "ai-agent-blueprints"
+    ]
   }
 }
