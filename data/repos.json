@@ -26352,5 +26352,597 @@
       "satellite-imagery",
       "web-mapping"
     ]
+  },
+  {
+    "id": "github:butterski/homelab-builder",
+    "url": "https://github.com/butterski/homelab-builder",
+    "title": "butterski/homelab-builder",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076620998875484276",
+    "fetched_at": "2026-07-13T11:15:16.186694Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An interactive web-based planning tool for designing home lab network topologies, managing IP addresses, and generating hardware shopping lists.",
+    "category": "Home-lab / Infrastructure",
+    "tags": [
+      "homelab",
+      "network-planning",
+      "docker",
+      "self-hosted",
+      "infrastructure-as-code"
+    ],
+    "risk_notes": "Deployed via Docker Compose using official images. Requires a PostgreSQL database container. Supports an 'auth-disabled' mode for local-only access, which is ideal for private home labs but should not be exposed to the public internet. The application requires network access to manage IPAM and hardware inventory data.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2026-02-17T16:20:37Z",
+      "homepage": "https://hlbldr.com"
+    },
+    "added_at": "2026-07-13T11:15:25.172406Z",
+    "stars": 130,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-08T21:48:41Z",
+    "license": "AGPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:666os/clashmac",
+    "url": "https://github.com/666os/clashmac",
+    "title": "666os/clashmac",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076613069979972086",
+    "fetched_at": "2026-07-13T11:15:16.187054Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A native macOS proxy client built with SwiftUI that provides a visual interface for managing network traffic, rules, and system-wide TUN integration.",
+    "category": "Networking",
+    "tags": [
+      "macos",
+      "proxy",
+      "networking",
+      "swiftui",
+      "clash"
+    ],
+    "risk_notes": "Distributed as a proprietary binary DMG. Requires administrative privileges to install a system helper tool for network traffic interception (TUN mode). Bypassing Gatekeeper via xattr is often required for non-App Store software. As a closed-source binary, it has full visibility into all network traffic on the host machine.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 161,
+      "created_at": "2025-11-28T04:41:02Z",
+      "homepage": "https://clashmac.app"
+    },
+    "added_at": "2026-07-13T11:15:31.800544Z",
+    "stars": 6031,
+    "language": null,
+    "pushed_at": "2026-06-21T03:58:36Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "clash",
+      "clash-meta",
+      "macos",
+      "mihomo",
+      "network",
+      "proxy",
+      "swiftui"
+    ]
+  },
+  {
+    "id": "github:usesend/usesend",
+    "url": "https://github.com/usesend/usesend",
+    "title": "usesend/usesend",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076605528256508408",
+    "fetched_at": "2026-07-13T11:15:16.187361Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source email infrastructure platform that acts as a dashboard and API wrapper for Amazon SES, providing transactional and marketing email capabilities.",
+    "category": "self-hosting",
+    "tags": [
+      "email",
+      "automation",
+      "self-hosting",
+      "api",
+      "marketing"
+    ],
+    "risk_notes": "Distributed as a Docker container, which is the recommended and safest deployment method. Requires sensitive environment variables including AWS SES credentials, database connection strings (PostgreSQL), and Redis access. As it handles email sending, it requires outbound network access to AWS and potentially other SMTP relays. The project is currently in beta, so production stability should be monitored.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 30,
+      "created_at": "2024-03-14T22:16:24Z",
+      "homepage": "https://useSend.com"
+    },
+    "added_at": "2026-07-13T11:15:38.463369Z",
+    "stars": 4449,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-13T05:16:56Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "email",
+      "hacktoberfest",
+      "postmark",
+      "resend",
+      "sendgrid",
+      "ses",
+      "ses-dashboard",
+      "ses-monitoring"
+    ]
+  },
+  {
+    "id": "github:brianrwagner/ai-marketing-claude-code-skills",
+    "url": "https://github.com/brianrwagner/ai-marketing-claude-code-skills",
+    "title": "brianrwagner/ai-marketing-claude-code-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076598200249573734",
+    "fetched_at": "2026-07-13T11:15:16.187664Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of structured prompt-based 'skills' designed for Claude Code and similar AI agents to automate marketing, research, and content creation tasks.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "automation",
+      "marketing",
+      "productivity"
+    ],
+    "risk_notes": "Installation involves cloning the repository and copying files into a local ~/.claude/skills directory. The skills are essentially text-based instructions that the AI agent reads; they do not execute arbitrary code themselves, but they instruct the agent to perform tasks that may involve web searching or file manipulation. No sensitive credentials are required by the repo itself, but the agent using these skills will inherit your existing API keys and system permissions.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-02-01T03:40:36Z",
+      "homepage": "https://www.brianrwagner.com/"
+    },
+    "added_at": "2026-07-13T11:15:45.061877Z",
+    "stars": 356,
+    "language": "Shell",
+    "pushed_at": "2026-03-19T12:37:28Z",
+    "license": null,
+    "topics": [
+      "ai",
+      "ai-agents",
+      "branding",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "marketing"
+    ]
+  },
+  {
+    "id": "github:eoao/cloud-mail",
+    "url": "https://github.com/eoao/cloud-mail",
+    "title": "eoao/cloud-mail",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076591059476382112",
+    "fetched_at": "2026-07-13T11:15:16.188030Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A full-featured, serverless email service built on the Cloudflare stack (Workers, D1, R2, KV) that supports sending, receiving, and managing attachments.",
+    "category": "self-hosting",
+    "tags": [
+      "cloudflare",
+      "email",
+      "serverless",
+      "automation",
+      "homelab"
+    ],
+    "risk_notes": "Requires deployment to Cloudflare infrastructure via Wrangler. It integrates with third-party services like Resend for sending, which requires API keys. As a mail handler, it processes incoming email data, so security configuration (Turnstile, RABC) is critical to prevent abuse.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 64,
+      "created_at": "2025-04-24T11:36:56Z",
+      "homepage": "https://skymail.ink"
+    },
+    "added_at": "2026-07-13T11:15:52.035267Z",
+    "stars": 12226,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-03T13:04:03Z",
+    "license": "MIT",
+    "topics": [
+      "cloudflare",
+      "cloudflare-email",
+      "cloudflare-workers",
+      "email",
+      "mail"
+    ]
+  },
+  {
+    "id": "github:okalachev/flix",
+    "url": "https://github.com/okalachev/flix",
+    "title": "okalachev/flix",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076584013444043186",
+    "fetched_at": "2026-07-13T11:15:16.188336Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source, ESP32-based quadcopter project that provides firmware, simulation tools, and hardware assembly guides for educational drone development.",
+    "category": "robotics",
+    "tags": [
+      "esp32",
+      "drone",
+      "robotics",
+      "embedded",
+      "mavlink"
+    ],
+    "risk_notes": "This is embedded firmware for microcontrollers. It requires manual compilation and flashing via Arduino IDE or PlatformIO. It does not run on host systems, so it poses no risk to your PC's filesystem or credentials, but it does involve physical hardware interaction and potential safety risks associated with drone flight.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2020-09-06T21:33:57Z",
+      "homepage": "https://t.me/opensourcequadcopter"
+    },
+    "added_at": "2026-07-13T11:15:58.568709Z",
+    "stars": 990,
+    "language": "C++",
+    "pushed_at": "2026-07-08T19:29:40Z",
+    "license": null,
+    "topics": [
+      "arduino",
+      "autopilot",
+      "control-theory",
+      "drone",
+      "esp32",
+      "flight-control",
+      "flight-controller",
+      "mavlink",
+      "quadcopter",
+      "quadcopter-firmware",
+      "uav"
+    ]
+  },
+  {
+    "id": "github:jeantimex/flight-path",
+    "url": "https://github.com/jeantimex/flight-path",
+    "title": "jeantimex/flight-path",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076576943680446678",
+    "fetched_at": "2026-07-13T11:15:16.188630Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Three.js-based 3D flight path visualization tool that renders simulated flight data on a photorealistic Earth model.",
+    "category": "Visualization",
+    "tags": [
+      "threejs",
+      "visualization",
+      "webgl",
+      "simulation"
+    ],
+    "risk_notes": "Standard Node.js/npm project. Requires local installation of dependencies via npm. No sensitive permissions required as it runs entirely in the browser/client-side. Maintenance is active, but the project is a niche visualization tool rather than a developer utility or infrastructure tool.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-10-05T02:08:28Z",
+      "homepage": "https://jeantimex.github.io/flight-path/"
+    },
+    "added_at": "2026-07-13T11:16:05.100714Z",
+    "stars": 297,
+    "language": "TypeScript",
+    "pushed_at": "2026-04-22T16:03:08Z",
+    "license": "MIT",
+    "topics": [
+      "flight-tracker",
+      "simulation",
+      "threejs"
+    ]
+  },
+  {
+    "id": "github:espressif/esp-drone",
+    "url": "https://github.com/espressif/esp-drone",
+    "title": "espressif/esp-drone",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076570138636161345",
+    "fetched_at": "2026-07-13T11:15:16.188920Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source firmware project for building and controlling quadcopters using Espressif ESP32 series SoCs, based on the Crazyflie architecture.",
+    "category": "Embedded Systems",
+    "tags": [
+      "esp32",
+      "robotics",
+      "drone",
+      "firmware",
+      "iot"
+    ],
+    "risk_notes": "Requires flashing firmware onto physical hardware using the ESP-IDF development environment. No inherent network risk beyond standard Wi-Fi connectivity for drone control. Maintenance is limited as per the official support policy, though the repository remains active.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 32,
+      "created_at": "2020-06-22T07:14:49Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-13T11:16:11.490034Z",
+    "stars": 1926,
+    "language": "C",
+    "pushed_at": "2026-06-04T08:42:47Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "drone",
+      "esp32",
+      "quadcopter"
+    ]
+  },
+  {
+    "id": "github:shadcnstore/shadcn-dashboard-landing-template",
+    "url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template",
+    "title": "shadcnstore/shadcn-dashboard-landing-template",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076563304407834840",
+    "fetched_at": "2026-07-13T11:15:16.189206Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, production-ready admin dashboard and landing page template supporting both Vite and Next.js, built with shadcn/ui and Tailwind CSS.",
+    "category": "Developer Tools",
+    "tags": [
+      "dashboard",
+      "nextjs",
+      "react",
+      "typescript",
+      "shadcn",
+      "boilerplate"
+    ],
+    "risk_notes": "Standard npm/pnpm/yarn installation process. As a frontend template, it does not inherently require elevated system privileges, but it will pull in numerous third-party dependencies via package.json which should be audited for supply chain security. The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2025-09-16T10:42:53Z",
+      "homepage": "https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/dashboard"
+    },
+    "added_at": "2026-07-13T11:16:18.138269Z",
+    "stars": 848,
+    "language": "TypeScript",
+    "pushed_at": "2026-02-17T07:16:26Z",
+    "license": "MIT",
+    "topics": [
+      "admin-dashboard",
+      "admin-panel",
+      "dark-mode",
+      "dashboard",
+      "landing-page",
+      "nextjs",
+      "shadcn",
+      "shadcn-admin",
+      "shadcn-ui",
+      "shadcn-ui-blocks",
+      "shadcn-ui-boilerplate",
+      "shadcn-ui-starter",
+      "shadcn-ui-template",
+      "tailwindcss",
+      "tweakcn",
+      "typescript",
+      "vite-react"
+    ]
+  },
+  {
+    "id": "github:hugo-dz/spritefusion-pixel-snapper",
+    "url": "https://github.com/hugo-dz/spritefusion-pixel-snapper",
+    "title": "hugo-dz/spritefusion-pixel-snapper",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076556761197126060",
+    "fetched_at": "2026-07-13T11:15:16.189485Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Rust-based CLI and WASM tool designed to snap inconsistent AI-generated pixel art to a perfect grid and quantize colors.",
+    "category": "Developer Tools",
+    "tags": [
+      "rust",
+      "image-processing",
+      "cli",
+      "pixel-art",
+      "automation"
+    ],
+    "risk_notes": "The tool is written in Rust and can be built from source using cargo, which is a standard and secure practice. It operates locally on the filesystem for batch processing images. No network access is required for the CLI version, and it does not require elevated privileges.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-11-24T13:56:05Z",
+      "homepage": "https://www.spritefusion.com/pixel-snapper"
+    },
+    "added_at": "2026-07-13T11:16:24.606592Z",
+    "stars": 2261,
+    "language": "Rust",
+    "pushed_at": "2026-07-06T08:15:09Z",
+    "license": "MIT",
+    "topics": [
+      "game-development",
+      "gamedev",
+      "image-processing",
+      "pixel-art"
+    ]
+  },
+  {
+    "id": "github:marcomorosi06/wifiaudiostreaming-desktop",
+    "url": "https://github.com/marcomorosi06/wifiaudiostreaming-desktop",
+    "title": "marcomorosi06/wifiaudiostreaming-desktop",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076550228442796318",
+    "fetched_at": "2026-07-13T11:15:16.189771Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A cross-platform desktop application for low-latency local network audio streaming, featuring native audio capture, encryption, and support for multiple protocols like RTP and Opus.",
+    "category": "Multimedia/Networking",
+    "tags": [
+      "audio",
+      "streaming",
+      "networking",
+      "kotlin",
+      "cross-platform"
+    ],
+    "risk_notes": "Requires audio and network permissions; on macOS, it requests screen recording permissions for audio capture. Distributed via binary releases or AUR; does not require root/sudo for standard operation. Security posture is strong, utilizing ChaCha20-Poly1305 for encryption and HMAC-SHA256 for authentication.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2025-08-30T16:03:32Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-13T11:16:31.235788Z",
+    "stars": 255,
+    "language": "Kotlin",
+    "pushed_at": "2026-06-30T23:00:08Z",
+    "license": "EUPL-1.2",
+    "topics": []
+  },
+  {
+    "id": "github:gnmyt/nexterm",
+    "url": "https://github.com/gnmyt/nexterm",
+    "title": "gnmyt/nexterm",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076543941793534213",
+    "fetched_at": "2026-07-13T11:15:16.190021Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Nexterm is a comprehensive, self-hosted server management platform that provides a unified web interface for SSH, VNC, RDP, SFTP, and Docker management, including support for Proxmox.",
+    "category": "Server Management",
+    "tags": [
+      "self-hosting",
+      "devops",
+      "ssh",
+      "docker",
+      "homelab"
+    ],
+    "risk_notes": "Requires Docker or Node.js runtime. As a central management tool, it handles sensitive credentials (SSH keys, passwords) and requires an encryption key for storage. It acts as a gateway to your infrastructure, so it should be deployed behind a secure reverse proxy with strict firewall rules and MFA enabled.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 165,
+      "created_at": "2024-08-13T17:14:38Z",
+      "homepage": "https://nexterm.dev"
+    },
+    "added_at": "2026-07-13T11:16:37.639616Z",
+    "stars": 4483,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-13T07:15:09Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:zubair-trabzada/ai-legal-claude",
+    "url": "https://github.com/zubair-trabzada/ai-legal-claude",
+    "title": "zubair-trabzada/ai-legal-claude",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076537665462108454",
+    "fetched_at": "2026-07-13T11:15:16.190344Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A collection of AI-powered legal document analysis and generation tools designed to integrate with Claude Code.",
+    "category": "AI Tooling",
+    "tags": [
+      "ai",
+      "legal",
+      "automation",
+      "claude-code"
+    ],
+    "risk_notes": "The installation uses a 'curl | bash' script which is a significant security risk as it executes arbitrary code from the internet with the user's current permissions. The tool handles sensitive legal documents and likely requires API keys for Claude/Anthropic, posing a privacy risk if data is processed through third-party LLMs. The project lacks a license and appears to be a marketing funnel for a paid 'Skool' community.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-03-26T06:32:13Z",
+      "homepage": "https://www.skool.com/aiworkshop"
+    },
+    "added_at": "2026-07-13T11:16:44.342348Z",
+    "stars": 1538,
+    "language": "Python",
+    "pushed_at": "2026-03-27T02:55:19Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:hugecatlab/chattutor",
+    "url": "https://github.com/hugecatlab/chattutor",
+    "title": "hugecatlab/chattutor",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076531381396504888",
+    "fetched_at": "2026-07-13T11:15:16.190626Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "ChatTutor is an interactive AI-powered educational platform that integrates tools like GeoGebra and mind-mapping to provide a visual learning experience beyond standard text-based LLM chats.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "education",
+      "llm",
+      "self-hosting",
+      "vue"
+    ],
+    "risk_notes": "Requires Docker/Docker Compose for deployment. Needs external API keys (OpenAI, Anthropic, or DeepSeek) and a PostgreSQL database. Optional configuration for Object Storage (OSS) is required for image upload functionality. The application runs as a web service and handles user-provided API keys.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2025-11-05T07:41:44Z",
+      "homepage": "https://chattutor.app"
+    },
+    "added_at": "2026-07-13T11:16:50.569326Z",
+    "stars": 1259,
+    "language": "Vue",
+    "pushed_at": "2026-01-09T00:36:45Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai",
+      "ai-education",
+      "education",
+      "llm",
+      "stem"
+    ]
+  },
+  {
+    "id": "github:wh1te4ever/super-tart-vphone-writeup",
+    "url": "https://github.com/wh1te4ever/super-tart-vphone-writeup",
+    "title": "wh1te4ever/super-tart-vphone-writeup",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076525350687846709",
+    "fetched_at": "2026-07-13T11:15:16.190904Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A technical write-up and proof-of-concept for running a virtualized iPhone environment using Apple's Private Cloud Compute (PCC) firmware components and the Virtualization.framework.",
+    "category": "Security Research",
+    "tags": [
+      "ios",
+      "virtualization",
+      "security",
+      "apple",
+      "research"
+    ],
+    "risk_notes": "This is a research-level project involving low-level system modifications and the use of private Apple APIs. It requires a macOS environment and significant manual configuration of system files. It does not have a standard installer, but carries inherent risks associated with running experimental, undocumented virtualization configurations on a host machine.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2026-02-25T05:23:33Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-13T11:16:56.988342Z",
+    "stars": 1151,
+    "language": "Swift",
+    "pushed_at": "2026-02-25T16:02:55Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:endurain-project/endurain",
+    "url": "https://github.com/endurain-project/endurain",
+    "title": "endurain-project/endurain",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076507729913323842",
+    "fetched_at": "2026-07-13T11:15:16.191182Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted, privacy-focused fitness tracking platform that aggregates data from Strava, Garmin Connect, and manual file uploads (GPX, TCX, FIT).",
+    "category": "Self-hosting",
+    "tags": [
+      "fitness",
+      "self-hosted",
+      "docker",
+      "privacy",
+      "data-pipeline"
+    ],
+    "risk_notes": "Deployed via Docker/docker-compose, which is a standard and secure practice. Requires PostgreSQL for data storage and environment variables for configuration. The application handles sensitive personal fitness data and requires API credentials for third-party integrations (Strava/Garmin). The project is actively maintained on Codeberg, though the GitHub mirror is read-only.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 107,
+      "created_at": "2023-10-26T22:01:52Z",
+      "homepage": "https://docs.endurain.com"
+    },
+    "added_at": "2026-07-13T11:17:03.340876Z",
+    "stars": 2072,
+    "language": "Python",
+    "pushed_at": "2026-07-13T03:37:16Z",
+    "license": "AGPL-3.0",
+    "topics": []
   }
 ]
