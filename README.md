@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 590 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 594 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [nasa-gibs/worldview](https://github.com/nasa-gibs/worldview) ⭐ | Data Visualization | `nasa` `satellite-imagery` `web-mapping` `gis` `earth-science` | An interactive web-based interface for browsing global, full-resolution satellite imagery provided by NASA's Global Imagery Browse Services (GIBS). | 1176 | 2026-07-13 |
+| [rasbt/llm-architecture-gallery](https://github.com/rasbt/llm-architecture-gallery) ⭐ | AI/LLM Tooling | `ai` `llm` `data` `machine-learning` `architecture` | A curated, structured dataset of LLM architectures and metadata, providing a clean YAML-based reference for AI researchers and developers. | 1356 | 2026-07-13 |
+| [datlechin/tablepro](https://github.com/datlechin/tablepro) ⭐ | Developer Tools | `database` `macos` `swift` `ai` `sql` `productivity` | A high-performance, native database client for macOS that serves as an open-source alternative to TablePlus, featuring built-in AI integration and an MCP server. | 4946 | 2026-07-13 |
+| [joeycastillo/sensor-watch](https://github.com/joeycastillo/sensor-watch) ⭐ | Hardware / Embedded | `embedded` `hardware` `wearables` `c` `microcontroller` | A hardware replacement board for the Casio F-91W wristwatch that allows for custom firmware, sensor expansion, and embedded development. | 2002 | 2026-07-13 |
 | [david-crty/databasement](https://github.com/david-crty/databasement) ⭐ | self-hosting | `backup` `database` `automation` `docker` `self-hosted` | A comprehensive, self-hosted database backup and management platform with a web UI that supports multiple engines, SSH tunneling, and remote agents. | 926 | 2026-07-12 |
 | [ahs12/thoth-blueprint](https://github.com/ahs12/thoth-blueprint) ⭐ | Developer Tools | `database` `modeling` `pwa` `sql` `productivity` | A visual, offline-first database design tool that supports DBML, SQL export, and migration generation for frameworks like Laravel and Django. | 480 | 2026-07-12 |
 | [rmbell09-lang/tradesight](https://github.com/rmbell09-lang/tradesight) ⭐ | Fintech / Automation | `algorithmic-trading` `python` `self-hosted` `ai` `backtesting` `finance` | A self-hosted Python-based algorithmic trading lab that features AI-driven strategy tournaments, backtesting, and paper trading via Alpaca. | 101 | 2026-07-12 |
