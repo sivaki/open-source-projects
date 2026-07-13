@@ -11263,5 +11263,279 @@
     "aliases": [
       "NASA GIBS viewer"
     ]
+  },
+  "github:butterski/homelab-builder": {
+    "capability_summary": "An interactive web tool for designing home lab network topologies and managing IP addresses. It is for home lab enthusiasts and network administrators.",
+    "problem_solved": "Simplifies planning and documentation of complex home network infrastructures.",
+    "use_cases": [
+      "network topology design",
+      "ip address management",
+      "hardware inventory tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "network planner",
+      "homelab dashboard"
+    ]
+  },
+  "github:666os/clashmac": {
+    "capability_summary": "A native macOS proxy client with a visual interface for managing network traffic and rules. It is designed for macOS users needing advanced proxy control.",
+    "problem_solved": "Provides a user-friendly GUI for managing complex network proxy configurations on macOS.",
+    "use_cases": [
+      "network traffic routing",
+      "proxy management",
+      "system-wide tun integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "clash client",
+      "mihomo gui"
+    ]
+  },
+  "github:usesend/usesend": {
+    "capability_summary": "An open-source email infrastructure platform acting as a dashboard and API wrapper for Amazon SES. It is for developers and marketers managing transactional emails.",
+    "problem_solved": "Simplifies the management and monitoring of Amazon SES email campaigns and transactional mail.",
+    "use_cases": [
+      "transactional email management",
+      "marketing email automation",
+      "ses monitoring"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ses dashboard",
+      "email infrastructure"
+    ]
+  },
+  "github:brianrwagner/ai-marketing-claude-code-skills": {
+    "capability_summary": "A collection of prompt-based skills for AI agents like Claude Code to automate marketing and content tasks. It is for productivity-focused marketers and developers.",
+    "problem_solved": "Automates repetitive marketing and research workflows using AI agents.",
+    "use_cases": [
+      "content creation automation",
+      "marketing research",
+      "ai agent productivity"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude code skills",
+      "ai marketing automation"
+    ]
+  },
+  "github:eoao/cloud-mail": {
+    "capability_summary": "A serverless email service built on Cloudflare infrastructure for sending and receiving mail. It is for developers looking for low-cost, scalable email hosting.",
+    "problem_solved": "Provides a full-featured, serverless email backend without traditional server maintenance.",
+    "use_cases": [
+      "email hosting",
+      "serverless email processing",
+      "attachment management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "cloudflare email",
+      "serverless mail"
+    ]
+  },
+  "github:okalachev/flix": {
+    "capability_summary": "An ESP32-based quadcopter firmware project including simulation and assembly guides. It is for robotics students and hobbyists.",
+    "problem_solved": "Provides a complete open-source ecosystem for building and flying custom drones.",
+    "use_cases": [
+      "drone flight control",
+      "robotics education",
+      "mavlink communication"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "drone firmware",
+      "esp32 quadcopter"
+    ]
+  },
+  "github:espressif/esp-drone": {
+    "capability_summary": "Official firmware for building quadcopters using ESP32 SoCs. It is for embedded systems engineers and drone developers.",
+    "problem_solved": "Enables quadcopter flight control using low-cost ESP32 hardware.",
+    "use_cases": [
+      "quadcopter firmware",
+      "embedded robotics",
+      "iot drone control"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "esp32 drone",
+      "flight controller firmware"
+    ]
+  },
+  "github:shadcnstore/shadcn-dashboard-landing-template": {
+    "capability_summary": "A production-ready dashboard and landing page template using shadcn/ui and Tailwind CSS. It is for web developers building admin panels.",
+    "problem_solved": "Reduces boilerplate for building modern, responsive admin dashboards and landing pages.",
+    "use_cases": [
+      "admin dashboard development",
+      "landing page creation",
+      "react boilerplate"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "shadcn template",
+      "nextjs dashboard"
+    ]
+  },
+  "github:hugo-dz/spritefusion-pixel-snapper": {
+    "capability_summary": "A CLI and WASM tool to snap AI-generated pixel art to grids and quantize colors. It is for game developers and pixel artists.",
+    "problem_solved": "Fixes inconsistent pixel art generated by AI models to make it usable in games.",
+    "use_cases": [
+      "pixel art processing",
+      "game asset optimization",
+      "ai art cleanup"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pixel art tool",
+      "sprite processor"
+    ]
+  },
+  "github:marcomorosi06/wifiaudiostreaming-desktop": {
+    "capability_summary": "A cross-platform desktop app for low-latency local network audio streaming. It is for users needing to stream audio between devices.",
+    "problem_solved": "Enables low-latency audio transmission over local networks using standard protocols.",
+    "use_cases": [
+      "audio streaming",
+      "local network audio",
+      "rtp audio transmission"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "audio streamer",
+      "network audio"
+    ]
+  },
+  "github:gnmyt/nexterm": {
+    "capability_summary": "A unified web-based dashboard for managing servers via SSH, VNC, RDP, and Docker. Designed for sysadmins and homelab enthusiasts.",
+    "problem_solved": "Centralizing remote server management and container orchestration in one interface.",
+    "use_cases": [
+      "ssh management",
+      "docker container control",
+      "remote desktop access",
+      "proxmox management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "web-based ssh client",
+      "server management dashboard"
+    ]
+  },
+  "github:hugecatlab/chattutor": {
+    "capability_summary": "An AI-powered educational platform that combines LLM chat with interactive tools like GeoGebra and mind-mapping. Built for students and educators.",
+    "problem_solved": "Providing a visual and interactive learning experience for AI-assisted education.",
+    "use_cases": [
+      "ai tutoring",
+      "stem education",
+      "visual learning",
+      "mind mapping"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai education platform",
+      "interactive learning tool"
+    ]
+  },
+  "github:wh1te4ever/super-tart-vphone-writeup": {
+    "capability_summary": "A security research project documenting the virtualization of iPhone environments using Apple's proprietary frameworks. Intended for security researchers.",
+    "problem_solved": "Understanding and replicating virtualized iOS environments for security analysis.",
+    "use_cases": [
+      "security research",
+      "ios virtualization",
+      "firmware analysis"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ios security research",
+      "virtual iphone"
+    ]
+  },
+  "github:endurain-project/endurain": {
+    "capability_summary": "A privacy-focused fitness tracking platform that aggregates data from multiple sources like Strava and Garmin. Designed for users who want to own their health data.",
+    "problem_solved": "Consolidating fitness data from multiple services into a private, self-hosted repository.",
+    "use_cases": [
+      "fitness tracking",
+      "data aggregation",
+      "privacy-focused analytics"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "strava alternative",
+      "fitness data aggregator"
+    ]
   }
 }
