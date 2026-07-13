@@ -26149,5 +26149,208 @@
       "ssh-tunnel",
       "webui"
     ]
+  },
+  {
+    "id": "github:joeycastillo/sensor-watch",
+    "url": "https://github.com/joeycastillo/sensor-watch",
+    "title": "joeycastillo/sensor-watch",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076474735479689295",
+    "fetched_at": "2026-07-13T03:19:05.769899Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A hardware replacement board for the Casio F-91W wristwatch that allows for custom firmware, sensor expansion, and embedded development.",
+    "category": "Hardware / Embedded",
+    "tags": [
+      "embedded",
+      "hardware",
+      "wearables",
+      "c",
+      "microcontroller"
+    ],
+    "risk_notes": "Requires physical hardware modification of a watch. Software development involves installing the GNU Arm Embedded Toolchain (gcc-arm-none-eabi) and using makefiles. Firmware is flashed via USB UF2 bootloader, which is a standard, low-risk method for microcontrollers. No network access or sensitive system permissions required.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 92,
+      "created_at": "2021-04-10T20:39:10Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-13T03:19:12.292687Z",
+    "stars": 2002,
+    "language": "C",
+    "pushed_at": "2026-04-08T04:16:51Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:madi-s/lead-generation",
+    "url": "https://github.com/madi-s/lead-generation",
+    "title": "madi-s/lead-generation",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076444421931892823",
+    "fetched_at": "2026-07-13T03:19:05.770070Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Python library for scraping business contact data from Google Maps and Yelp, currently undergoing a transition from a collection of scripts to a structured package.",
+    "category": "automation",
+    "tags": [
+      "scraping",
+      "automation",
+      "lead-generation",
+      "python",
+      "playwright"
+    ],
+    "risk_notes": "Installs via pip. The tool performs web scraping which may violate the Terms of Service of platforms like Google Maps and Yelp. It requires network access and potentially handling sensitive contact data. The project is currently in a state of flux with many 'TODO' items, suggesting it may be unstable for production use.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2020-12-14T11:41:39Z",
+      "homepage": "https://pypi.org/project/py-lead-generation/"
+    },
+    "added_at": "2026-07-13T03:19:18.569678Z",
+    "stars": 263,
+    "language": "Python",
+    "pushed_at": "2026-06-26T12:39:06Z",
+    "license": "MIT",
+    "topics": [
+      "chromedriver",
+      "lead-generation",
+      "leads",
+      "leadscanner",
+      "parser",
+      "playwright",
+      "python",
+      "scraper",
+      "web-crawler"
+    ]
+  },
+  {
+    "id": "github:datlechin/tablepro",
+    "url": "https://github.com/datlechin/tablepro",
+    "title": "datlechin/tablepro",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076416447526412482",
+    "fetched_at": "2026-07-13T03:19:05.770194Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, native database client for macOS that serves as an open-source alternative to TablePlus, featuring built-in AI integration and an MCP server.",
+    "category": "Developer Tools",
+    "tags": [
+      "database",
+      "macos",
+      "swift",
+      "ai",
+      "sql",
+      "productivity"
+    ],
+    "risk_notes": "Installed via Homebrew cask or direct binary download. As a database client, it requires network access to your database servers and local filesystem access for configuration/SSH keys. It supports AI features which require providing your own API keys. The project is actively maintained and open source (AGPL-3.0).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 29,
+      "created_at": "2025-12-17T01:01:38Z",
+      "homepage": "https://tablepro.app"
+    },
+    "added_at": "2026-07-13T03:19:25.435815Z",
+    "stars": 4946,
+    "language": "Swift",
+    "pushed_at": "2026-07-13T02:12:16Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "appkit",
+      "database",
+      "database-client",
+      "database-gui",
+      "database-management",
+      "macos",
+      "macos-app",
+      "mongodb",
+      "mssql",
+      "mysql",
+      "mysql-client",
+      "native",
+      "postgresql",
+      "redis",
+      "sql",
+      "sql-editor",
+      "sqlite",
+      "swift",
+      "swiftui",
+      "tableplus"
+    ]
+  },
+  {
+    "id": "github:rasbt/llm-architecture-gallery",
+    "url": "https://github.com/rasbt/llm-architecture-gallery",
+    "title": "rasbt/llm-architecture-gallery",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076390429486965073",
+    "fetched_at": "2026-07-13T03:19:05.770315Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A curated, structured dataset of LLM architectures and metadata, providing a clean YAML-based reference for AI researchers and developers.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "data",
+      "machine-learning",
+      "architecture"
+    ],
+    "risk_notes": "This is a static data repository containing YAML files. There is no executable code, installation script, or network access required. It is safe to clone and use as a reference or data source for local projects.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-03-15T22:50:46Z",
+      "homepage": "https://sebastianraschka.com/llm-architecture-gallery/"
+    },
+    "added_at": "2026-07-13T03:19:31.572353Z",
+    "stars": 1356,
+    "language": null,
+    "pushed_at": "2026-06-28T15:16:07Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai",
+      "llms"
+    ]
+  },
+  {
+    "id": "github:nasa-gibs/worldview",
+    "url": "https://github.com/nasa-gibs/worldview",
+    "title": "nasa-gibs/worldview",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076364481471418416",
+    "fetched_at": "2026-07-13T03:19:05.770431Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An interactive web-based interface for browsing global, full-resolution satellite imagery provided by NASA's Global Imagery Browse Services (GIBS).",
+    "category": "Data Visualization",
+    "tags": [
+      "nasa",
+      "satellite-imagery",
+      "web-mapping",
+      "gis",
+      "earth-science"
+    ],
+    "risk_notes": "Standard Node.js application installed via npm. It runs locally on port 3000 and primarily fetches public imagery data from NASA's GIBS API. No sensitive local credentials or root access required. Maintained by NASA with active CI/CD.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 15,
+      "created_at": "2014-04-22T12:37:53Z",
+      "homepage": "https://worldview.earthdata.nasa.gov/"
+    },
+    "added_at": "2026-07-13T03:19:37.860180Z",
+    "stars": 1176,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-10T15:37:06Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "data-visualization",
+      "earth-science",
+      "hacktoberfest",
+      "nasa",
+      "nasa-gibs",
+      "satellite-imagery",
+      "web-mapping"
+    ]
   }
 ]
