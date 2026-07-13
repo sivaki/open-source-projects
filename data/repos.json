@@ -26944,5 +26944,479 @@
     "pushed_at": "2026-07-13T03:37:16Z",
     "license": "AGPL-3.0",
     "topics": []
+  },
+  {
+    "id": "github:seemoo-lab/cellguard",
+    "url": "https://github.com/seemoo-lab/cellguard",
+    "title": "seemoo-lab/cellguard",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076727232517534097",
+    "fetched_at": "2026-07-13T17:57:06.801663Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "CellGuard is a research-oriented iOS tool designed to detect rogue base stations and cellular network surveillance by monitoring baseband packets.",
+    "category": "security",
+    "tags": [
+      "ios",
+      "security",
+      "privacy",
+      "cellular",
+      "baseband"
+    ],
+    "risk_notes": "Requires a jailbroken iOS device to inject the packet capture tweak. It operates at a low level, accessing baseband communication data. Installation is via TestFlight or manual compilation, which is standard for iOS research tools but requires significant trust in the binary/source. Maintained by a reputable academic lab (Seemoo).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2024-06-14T13:49:15Z",
+      "homepage": "https://cellguard.seemoo.de"
+    },
+    "added_at": "2026-07-13T17:57:13.695490Z",
+    "stars": 397,
+    "language": "Swift",
+    "pushed_at": "2026-05-26T12:28:03Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "baseband",
+      "ios"
+    ]
+  },
+  {
+    "id": "github:requie/ai-red-teaming-guide",
+    "url": "https://github.com/requie/ai-red-teaming-guide",
+    "title": "requie/ai-red-teaming-guide",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076717856457200102",
+    "fetched_at": "2026-07-13T17:57:06.802028Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, high-quality knowledge base and methodology guide for adversarial testing and security evaluation of AI systems, covering modern frameworks like MITRE ATLAS and OWASP.",
+    "category": "Security / AI",
+    "tags": [
+      "ai",
+      "security",
+      "red-teaming",
+      "llm",
+      "cybersecurity"
+    ],
+    "risk_notes": "This is a documentation-only repository (markdown files). There is no code to execute, so it poses no direct security risk to your local environment. It does not require installation, API keys, or system permissions.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-10-30T03:21:01Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-13T17:57:20.359143Z",
+    "stars": 505,
+    "language": null,
+    "pushed_at": "2026-07-10T23:25:05Z",
+    "license": null,
+    "topics": [
+      "ai",
+      "ai-red-team",
+      "ai-red-teaming",
+      "llm-red-teaming",
+      "readteaming-guide",
+      "redteam-guide",
+      "redteam-tools",
+      "redteaming",
+      "redteaming-tools",
+      "security-red-team"
+    ]
+  },
+  {
+    "id": "github:yorkeccak/history",
+    "url": "https://github.com/yorkeccak/history",
+    "title": "yorkeccak/history",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076707967085236595",
+    "fetched_at": "2026-07-13T17:57:06.802340Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An interactive 3D globe application that uses AI-driven deep research to provide detailed historical reports for any location on Earth.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "geography",
+      "research",
+      "nextjs",
+      "self-hosting"
+    ],
+    "risk_notes": "Requires external API keys (Valyu DeepResearch and Mapbox) to function. Installation is via standard Node.js/pnpm workflow. The application performs network requests to external research APIs and map providers. It is actively maintained and uses modern, standard web stacks (Next.js, Supabase/SQLite).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2025-11-18T13:15:43Z",
+      "homepage": "https://history.valyu.ai"
+    },
+    "added_at": "2026-07-13T17:57:26.760028Z",
+    "stars": 373,
+    "language": "TypeScript",
+    "pushed_at": "2026-03-16T11:28:55Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:xob0t/google-photos-toolkit",
+    "url": "https://github.com/xob0t/google-photos-toolkit",
+    "title": "xob0t/google-photos-toolkit",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076698158113952220",
+    "fetched_at": "2026-07-13T17:57:06.802644Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A powerful browser userscript that provides a GUI and API for bulk-managing, filtering, and deleting media in Google Photos via undocumented web APIs.",
+    "category": "automation",
+    "tags": [
+      "google-photos",
+      "userscript",
+      "automation",
+      "bulk-management",
+      "web-api"
+    ],
+    "risk_notes": "Installed via Tampermonkey userscript manager. It runs directly in the browser context while logged into Google Photos, meaning it inherits your active session cookies and has full read/write access to your photo library. It relies on undocumented Google APIs which could break at any time.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2024-01-07T05:03:58Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-13T17:57:32.885544Z",
+    "stars": 973,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-08T16:40:06Z",
+    "license": "MIT",
+    "topics": [
+      "bulk-operation",
+      "google-photos",
+      "javascipt",
+      "mass-delete",
+      "organize",
+      "userscript"
+    ]
+  },
+  {
+    "id": "github:jsdelivr/globalping-probe",
+    "url": "https://github.com/jsdelivr/globalping-probe",
+    "title": "jsdelivr/globalping-probe",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076688788777058490",
+    "fetched_at": "2026-07-13T17:57:06.802942Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A lightweight, containerized network probe that allows you to contribute your hardware to the Globalping community network for running distributed network tests like ping and traceroute.",
+    "category": "Networking",
+    "tags": [
+      "networking",
+      "self-hosted",
+      "docker",
+      "raspberry-pi",
+      "devops"
+    ],
+    "risk_notes": "Installed via Docker; requires --network host and --cap-add=NET_RAW for network diagnostics. It does not open inbound ports but performs outbound network measurements. The project is actively maintained by jsDelivr. Security posture is good as it blocks private IP targets and uses malware filtering at the API level.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2022-03-07T14:38:48Z",
+      "homepage": "https://globalping.io"
+    },
+    "added_at": "2026-07-13T17:57:39.552963Z",
+    "stars": 194,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-07T15:54:22Z",
+    "license": null,
+    "topics": [
+      "benchmark",
+      "devops",
+      "globalping",
+      "latency",
+      "network",
+      "network-analysis",
+      "networking",
+      "self-hosted",
+      "selfhosted"
+    ]
+  },
+  {
+    "id": "github:akvise/trends-checker",
+    "url": "https://github.com/akvise/trends-checker",
+    "title": "akvise/trends-checker",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076679477191487572",
+    "fetched_at": "2026-07-13T17:57:06.803251Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A robust Python CLI tool for querying Google Trends and DataForSEO, featuring advanced rate-limiting, cookie-based authentication, and automated data export capabilities.",
+    "category": "Developer Tools",
+    "tags": [
+      "cli",
+      "automation",
+      "data-pipeline",
+      "seo",
+      "python"
+    ],
+    "risk_notes": "Installed via pip. Requires network access to Google Trends and optional third-party API (DataForSEO). Security risks include handling sensitive browser cookies or API credentials via environment variables or files. The tool is actively maintained and follows standard Python packaging practices.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2025-08-28T21:03:21Z",
+      "homepage": "https://trendproof.dev"
+    },
+    "added_at": "2026-07-13T17:57:46.017426Z",
+    "stars": 228,
+    "language": "Python",
+    "pushed_at": "2026-04-08T11:09:17Z",
+    "license": "MIT",
+    "topics": [
+      "analytics",
+      "ascii-charts",
+      "business-intelligence",
+      "cli-tool",
+      "competitive-analysis",
+      "csv-export",
+      "data-analysis",
+      "data-visualization",
+      "google-trends",
+      "keyword-research",
+      "market-research",
+      "market-validation",
+      "python",
+      "pytrends",
+      "search-trends",
+      "seo-tools",
+      "startup-tools",
+      "trends-analysis",
+      "web-scraping",
+      "youtube-trends"
+    ]
+  },
+  {
+    "id": "github:ahekot/comfyui_vnccs",
+    "url": "https://github.com/ahekot/comfyui_vnccs",
+    "title": "ahekot/comfyui_vnccs",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076670624513073659",
+    "fetched_at": "2026-07-13T17:57:06.803540Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized ComfyUI extension designed to streamline the creation of consistent character sprites for visual novels, managing poses, emotions, and clothing across generations.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "comfyui",
+      "generative-ai",
+      "stable-diffusion",
+      "automation",
+      "visual-novel"
+    ],
+    "risk_notes": "Installs as a custom node within ComfyUI via git clone or Comfy Manager. Requires local execution of Python scripts and model weights, which can execute arbitrary code on your machine. It accesses your local filesystem to save/load character assets and requires significant GPU resources. Standard ComfyUI security posture applies; ensure you trust the custom node code before running.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2025-09-27T22:45:45Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-13T17:57:52.512226Z",
+    "stars": 1159,
+    "language": "Python",
+    "pushed_at": "2026-07-11T15:03:24Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:biplobsd/running_services_monitor",
+    "url": "https://github.com/biplobsd/running_services_monitor",
+    "title": "biplobsd/running_services_monitor",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076661983609290924",
+    "fetched_at": "2026-07-13T17:57:06.803836Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An Android utility that provides a clean interface for monitoring running system and user services using root or Shizuku for elevated privileges.",
+    "category": "Android Utility",
+    "tags": [
+      "android",
+      "shizuku",
+      "root",
+      "privacy",
+      "system-monitoring"
+    ],
+    "risk_notes": "Requires either root access or the Shizuku app to function. It requests QUERY_ALL_PACKAGES permission to list installed apps and executes dumpsys commands. It is actively maintained and available via reputable sources like F-Droid and Google Play.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-11-21T20:48:32Z",
+      "homepage": "https://biplobsd.github.io/apps/rsm"
+    },
+    "added_at": "2026-07-13T17:57:58.915442Z",
+    "stars": 326,
+    "language": "Dart",
+    "pushed_at": "2026-07-12T12:40:22Z",
+    "license": "MIT",
+    "topics": [
+      "android",
+      "f-droid",
+      "fdroid",
+      "flutter",
+      "foss",
+      "hacking",
+      "offline-app",
+      "privacy-protection",
+      "process",
+      "root",
+      "running",
+      "service",
+      "shizuku",
+      "system"
+    ]
+  },
+  {
+    "id": "github:gvcoder09/nodpi",
+    "url": "https://github.com/gvcoder09/nodpi",
+    "title": "gvcoder09/nodpi",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076653347092705656",
+    "fetched_at": "2026-07-13T17:57:06.804231Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A lightweight, Python-based utility designed to bypass Deep Packet Inspection (DPI) by fragmenting TLS ClientHello packets, effectively allowing access to restricted web resources.",
+    "category": "Networking",
+    "tags": [
+      "anticensorship",
+      "privacy",
+      "networking",
+      "python",
+      "proxy"
+    ],
+    "risk_notes": "The tool runs as a local proxy server. It does not require administrator privileges and uses only the Python standard library, which reduces supply chain risk. However, as a proxy, it handles all traffic routed through it; users should be aware that they are essentially routing their web traffic through a local process. It is actively maintained and provides a Docker option for isolated execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2024-12-29T14:51:15Z",
+      "homepage": "https://gvcoder09.github.io/nodpi_site/"
+    },
+    "added_at": "2026-07-13T17:58:05.392989Z",
+    "stars": 1529,
+    "language": "Python",
+    "pushed_at": "2026-06-01T10:42:23Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "anticensorship",
+      "censorship-circumvention",
+      "deep-packet-inspection",
+      "dpi",
+      "dpi-bypassing",
+      "proxy",
+      "python"
+    ]
+  },
+  {
+    "id": "github:andreknieriem/headunit-revived",
+    "url": "https://github.com/andreknieriem/headunit-revived",
+    "title": "andreknieriem/headunit-revived",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076645042274349436",
+    "fetched_at": "2026-07-13T17:57:06.804525Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An Android application that transforms tablets or phones into Android Auto head units, supporting both wired USB and wireless connections.",
+    "category": "Mobile Automation",
+    "tags": [
+      "android",
+      "androidauto",
+      "automation",
+      "mobile",
+      "hardware"
+    ],
+    "risk_notes": "Installed via Google Play or Amazon Appstore. Requires extensive permissions including USB host access, network access for wireless projection, and Bluetooth/Wi-Fi management. The project is actively maintained and open-source, but requires careful configuration of Android system settings (like DPI and battery optimization) to function reliably.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 34,
+      "created_at": "2025-10-28T07:25:39Z",
+      "homepage": "https://headunit.andrerinas.com/"
+    },
+    "added_at": "2026-07-13T17:58:11.757451Z",
+    "stars": 1804,
+    "language": "Kotlin",
+    "pushed_at": "2026-07-13T12:19:55Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "android",
+      "androidauto",
+      "headunit"
+    ]
+  },
+  {
+    "id": "github:yangtiming/fast-sam-3d-body",
+    "url": "https://github.com/yangtiming/fast-sam-3d-body",
+    "title": "yangtiming/fast-sam-3d-body",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076636986924732805",
+    "fetched_at": "2026-07-13T17:57:06.804820Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance framework for real-time 3D human mesh recovery, optimized for robotics teleoperation and humanoid control using TensorRT and model pruning.",
+    "category": "AI/Robotics",
+    "tags": [
+      "computer-vision",
+      "robotics",
+      "human-mesh-recovery",
+      "tensorrt",
+      "ai-tooling"
+    ],
+    "risk_notes": "Requires significant GPU resources (NVIDIA RTX 5090 recommended for real-time performance). Installation involves running custom shell scripts (setup_env.sh) and downloading pre-trained weights from external sources (HuggingFace). Standard Python environment management via Conda is used, but users should review the setup scripts for potential system-level dependencies.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-03-09T09:53:04Z",
+      "homepage": "https://yangtiming.github.io/Fast-SAM-3D-Body-Page/"
+    },
+    "added_at": "2026-07-13T17:58:18.337375Z",
+    "stars": 308,
+    "language": "Python",
+    "pushed_at": "2026-06-18T07:20:33Z",
+    "license": "MIT",
+    "topics": [
+      "human-mesh-recovery",
+      "real-time",
+      "sam-3d-body"
+    ]
+  },
+  {
+    "id": "github:fareedkhan-dev/all-agentic-architectures",
+    "url": "https://github.com/fareedkhan-dev/all-agentic-architectures",
+    "title": "fareedkhan-dev/all-agentic-architectures",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2076628874918560153",
+    "fetched_at": "2026-07-13T17:57:06.805111Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive library and educational resource providing 35 production-grade agentic AI architectures with a unified interface, built on LangGraph and supporting multiple LLM providers.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "langgraph",
+      "llm",
+      "automation",
+      "python"
+    ],
+    "risk_notes": "Installed via standard pip. Requires various third-party API keys (OpenAI, Anthropic, etc.) to function. The library executes LLM-driven logic, which can lead to significant API costs if not monitored. It is actively maintained and follows standard Python packaging practices.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2025-09-24T11:47:58Z",
+      "homepage": "https://fareedkhan-dev.github.io/all-agentic-architectures/"
+    },
+    "added_at": "2026-07-13T17:58:24.795827Z",
+    "stars": 3773,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-06-22T06:16:53Z",
+    "license": "MIT",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "langchain",
+      "langgraph",
+      "langsmith",
+      "llm"
+    ]
   }
 ]
