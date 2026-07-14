@@ -11926,5 +11926,238 @@
     "aliases": [
       "tensorflowjs-vision"
     ]
+  },
+  "github:nvidia-nemo/labs-molt": {
+    "capability_summary": "A high-performance reinforcement learning framework for training large-scale agentic AI models.",
+    "problem_solved": "Scaling reinforcement learning training for frontier models.",
+    "use_cases": [
+      "reinforcement learning",
+      "agentic AI training",
+      "distributed computing"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "NeMo",
+      "RL framework"
+    ]
+  },
+  "github:tablecruncher/tablecruncher": {
+    "capability_summary": "A high-performance cross-platform CSV editor with support for massive datasets and JavaScript macros.",
+    "problem_solved": "Editing and viewing extremely large CSV files efficiently.",
+    "use_cases": [
+      "data processing",
+      "CSV editing",
+      "large dataset analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "CSV viewer",
+      "data editor"
+    ]
+  },
+  "github:ilya-zlobintsev/lact": {
+    "capability_summary": "A unified Linux GPU control and monitoring tool for AMD, Nvidia, and Intel hardware.",
+    "problem_solved": "Managing GPU settings like overclocking and fan curves on Linux.",
+    "use_cases": [
+      "GPU monitoring",
+      "overclocking",
+      "fan control"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "GPU controller",
+      "Linux overclocking"
+    ]
+  },
+  "github:jjang-ai/mlxstudio": {
+    "capability_summary": "A native macOS application and CLI for running local LLMs and image generation models via Apple's MLX.",
+    "problem_solved": "Running local AI models on Apple Silicon hardware.",
+    "use_cases": [
+      "local LLM inference",
+      "image generation",
+      "VLM inference"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LM Studio alternative",
+      "MLX runner"
+    ]
+  },
+  "github:microck/ordinary-claude-skills": {
+    "capability_summary": "A curated collection of Claude Skills and MCP-compatible prompt packages for local automation.",
+    "problem_solved": "Finding and organizing useful skills for Claude AI.",
+    "use_cases": [
+      "AI automation",
+      "Claude productivity",
+      "MCP integration"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude MCP",
+      "AI prompt collection"
+    ]
+  },
+  "github:khcrysalis/impactor": {
+    "capability_summary": "A cross-platform tool for signing and installing IPA files on iOS devices.",
+    "problem_solved": "Sideloading apps and managing tweaks on iOS.",
+    "use_cases": [
+      "iOS sideloading",
+      "IPA signing",
+      "mobile development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AltStore",
+      "iOS sideloader"
+    ]
+  },
+  "github:confident-ai/deepteam": {
+    "capability_summary": "A local-first red teaming framework for testing LLM security and implementing guardrails.",
+    "problem_solved": "Identifying vulnerabilities like prompt injection in LLM applications.",
+    "use_cases": [
+      "AI red teaming",
+      "LLM security",
+      "AI safety testing"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LLM guardrails",
+      "AI security tool"
+    ]
+  },
+  "github:ai4finance-foundation/finrl-trading": {
+    "capability_summary": "A modular infrastructure for quantitative trading, including data pipelines and backtesting.",
+    "problem_solved": "Automating stock trading strategies using reinforcement learning.",
+    "use_cases": [
+      "algorithmic trading",
+      "financial data processing",
+      "portfolio management"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "FinRL",
+      "trading bot"
+    ]
+  },
+  "github:maarifamaarifa/series-troxide": {
+    "capability_summary": "A cross-platform desktop app for tracking TV series progress and statistics.",
+    "problem_solved": "Keeping track of watched TV shows and upcoming releases.",
+    "use_cases": [
+      "media tracking",
+      "TV show management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "TV tracker",
+      "media manager"
+    ]
+  },
+  "github:instaloader/instaloader": {
+    "capability_summary": "A Python CLI tool for downloading media, captions, and metadata from Instagram.",
+    "problem_solved": "Scraping and archiving Instagram content.",
+    "use_cases": [
+      "media downloading",
+      "OSINT",
+      "Instagram scraping"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Instagram downloader",
+      "Instagram scraper"
+    ]
+  },
+  "github:denizsafak/abogen": {
+    "capability_summary": "A CLI tool that converts documents like EPUB and PDF into audiobooks with synchronized subtitles using the Kokoro-82M TTS model. Designed for content creators and readers.",
+    "problem_solved": "Automating the conversion of text documents into high-quality narrated audiobooks.",
+    "use_cases": [
+      "text-to-speech",
+      "audiobook creation",
+      "epub to audio conversion",
+      "subtitle generation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "text-to-audio",
+      "kokoro-tts"
+    ]
+  },
+  "github:op7418/logo-generator-skill": {
+    "capability_summary": "A Claude Code skill that automates the creation of professional SVG logos and showcase presentations using the Gemini API. Built for developers using Claude Code.",
+    "problem_solved": "Automating logo design and presentation generation within a coding workflow.",
+    "use_cases": [
+      "svg logo generation",
+      "automated design",
+      "presentation creation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skill",
+      "ai-logo-generator"
+    ]
   }
 }
