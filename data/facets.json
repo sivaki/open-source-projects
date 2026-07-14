@@ -12159,5 +12159,260 @@
       "claude-code-skill",
       "ai-logo-generator"
     ]
+  },
+  "github:agrinman/tunnelto": {
+    "capability_summary": "A CLI tool for exposing local web servers to the internet via secure tunnels. Designed for developers needing to share local services.",
+    "problem_solved": "Exposing local development servers to the public internet",
+    "use_cases": [
+      "web development",
+      "webhook testing",
+      "remote access"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ngrok",
+      "localtunnel"
+    ]
+  },
+  "github:atarity/deploy-your-own-saas": {
+    "capability_summary": "A curated list of self-hostable alternatives to popular proprietary cloud services. For users seeking privacy and control over their data.",
+    "problem_solved": "Finding open-source alternatives to proprietary software",
+    "use_cases": [
+      "homelab setup",
+      "privacy-focused computing",
+      "de-googling"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-selfhosted"
+    ]
+  },
+  "github:getclawe/clawe": {
+    "capability_summary": "A multi-agent coordination system using Kanban-style interfaces to manage AI agents. Designed for developers automating complex workflows.",
+    "problem_solved": "Managing and coordinating multiple AI agents for tasks",
+    "use_cases": [
+      "ai automation",
+      "task management",
+      "agentic workflows"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-manager"
+    ]
+  },
+  "github:adminsyspro/proxcenter-ui": {
+    "capability_summary": "A management platform for Proxmox VE and Proxmox Backup Server. Built for sysadmins managing virtualized clusters.",
+    "problem_solved": "Centralized management of Proxmox clusters",
+    "use_cases": [
+      "virtualization management",
+      "cluster orchestration",
+      "backup monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "proxmox-manager"
+    ]
+  },
+  "github:serial-studio/serial-studio": {
+    "capability_summary": "A cross-platform telemetry dashboard for visualizing hardware data. Ideal for embedded systems engineers and IoT developers.",
+    "problem_solved": "Visualizing real-time data from hardware devices",
+    "use_cases": [
+      "iot telemetry",
+      "embedded debugging",
+      "ground station control"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "telemetry-dashboard"
+    ]
+  },
+  "github:winapps-org/winapps": {
+    "capability_summary": "A tool for running Windows applications seamlessly on Linux. Designed for Linux users who require specific Windows-only software.",
+    "problem_solved": "Running Windows apps natively on Linux",
+    "use_cases": [
+      "office productivity",
+      "adobe creative cloud",
+      "desktop integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wine",
+      "virtualization"
+    ]
+  },
+  "github:spacehuhntech/wifiduck": {
+    "capability_summary": "A wireless keystroke injection platform for remote payload execution. Used by security professionals for penetration testing.",
+    "problem_solved": "Remote execution of Ducky Script payloads",
+    "use_cases": [
+      "pentesting",
+      "security research",
+      "badusb testing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "rubber-ducky",
+      "hid-injector"
+    ]
+  },
+  "github:safishamsi/graphify": {
+    "capability_summary": "A CLI tool that generates interactive knowledge graphs from codebases. Helps developers understand project structure through semantic querying.",
+    "problem_solved": "Navigating complex codebases via knowledge graphs",
+    "use_cases": [
+      "code analysis",
+      "documentation generation",
+      "semantic search"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graphrag",
+      "code-mapper"
+    ]
+  },
+  "github:pucherot/pi.alert": {
+    "capability_summary": "A network monitoring and intrusion detection tool for home labs. Designed to track connected devices and alert on unauthorized access.",
+    "problem_solved": "Detecting unauthorized devices on a home network",
+    "use_cases": [
+      "network security",
+      "homelab monitoring",
+      "intrusion detection"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "network-scanner",
+      "ids"
+    ]
+  },
+  "github:gobackup/gobackup": {
+    "capability_summary": "A dependency-free CLI tool for automating database and file backups. Built for sysadmins and developers managing data persistence.",
+    "problem_solved": "Automating database and file system backups",
+    "use_cases": [
+      "database backup",
+      "cloud storage sync",
+      "automated scheduling"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "backup-manager"
+    ]
+  },
+  "github:ramonvermeulen/whosthere": {
+    "capability_summary": "A high-performance LAN discovery tool that scans networks for active devices. It provides both a terminal interface and a daemon mode with an HTTP API.",
+    "problem_solved": "Identifying active devices on a local network without requiring root privileges.",
+    "use_cases": [
+      "network discovery",
+      "home lab monitoring",
+      "lan scanning"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network scanner",
+      "lan scanner"
+    ]
+  },
+  "github:iamtomshaw/f1-race-replay": {
+    "capability_summary": "A Python-based visualization tool that replays Formula 1 race telemetry data. It leverages the FastF1 library to render race events.",
+    "problem_solved": "Visualizing and analyzing complex Formula 1 race telemetry data.",
+    "use_cases": [
+      "data visualization",
+      "f1 telemetry analysis",
+      "race replay"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "f1 data analysis",
+      "telemetry viewer"
+    ]
+  },
+  "github:potatameister/paperknife": {
+    "capability_summary": "A privacy-focused PDF utility that performs all manipulations locally in the browser or via an Android app. It uses WebAssembly to ensure no data leaves the device.",
+    "problem_solved": "Editing or manipulating PDF files securely without uploading them to a server.",
+    "use_cases": [
+      "pdf manipulation",
+      "privacy-focused document editing",
+      "offline pdf tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "offline pdf editor",
+      "secure pdf tools"
+    ]
   }
 }
