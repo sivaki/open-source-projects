@@ -11761,5 +11761,170 @@
       "langgraph-patterns",
       "ai-agent-blueprints"
     ]
+  },
+  "github:199-biotechnologies/claude-deep-research-skill": {
+    "capability_summary": "An automation skill for Claude Code that generates citation-backed research reports using multi-persona red teaming.",
+    "problem_solved": "Automating complex research and report generation tasks.",
+    "use_cases": [
+      "automated research",
+      "report generation",
+      "red teaming"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-plugin"
+    ]
+  },
+  "github:prateek-chaubey/ytpro": {
+    "capability_summary": "An Android YouTube client that integrates Gemini for summarization and includes ad-blocking and background playback.",
+    "problem_solved": "Enhancing the YouTube mobile experience with AI features and ad-blocking.",
+    "use_cases": [
+      "video summarization",
+      "ad-blocking",
+      "background playback"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "youtube-vanced-alternative",
+      "yt-dlp-client"
+    ]
+  },
+  "github:orange-cyberdefense/awesome-industrial-protocols": {
+    "capability_summary": "A reference repository documenting industrial network protocols, specifications, and security tools.",
+    "problem_solved": "Lack of centralized security documentation for industrial control systems.",
+    "use_cases": [
+      "security research",
+      "network protocol analysis",
+      "ics-scada security"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ics-security-reference"
+    ]
+  },
+  "github:stratcraftsai/nexusfix": {
+    "capability_summary": "A high-performance, header-only C++23 FIX protocol engine for low-latency trading.",
+    "problem_solved": "High-latency overhead in financial trading systems.",
+    "use_cases": [
+      "high-frequency trading",
+      "financial systems",
+      "low-latency networking"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "fix-protocol-engine"
+    ]
+  },
+  "github:jaechang-hits/sciagent-skills": {
+    "capability_summary": "A library of bioinformatics and life science skills for AI coding agents like Claude Code.",
+    "problem_solved": "Enabling AI agents to perform complex scientific and computational biology tasks.",
+    "use_cases": [
+      "bioinformatics",
+      "genomics",
+      "scientific computing",
+      "drug discovery"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-skills-library"
+    ]
+  },
+  "github:mjunaidca/polymarket-skills": {
+    "capability_summary": "Modular skills for AI agents to interact with Polymarket for market analysis and trading.",
+    "problem_solved": "Automating market scanning and trading on Polymarket.",
+    "use_cases": [
+      "market analysis",
+      "automated trading",
+      "paper trading"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "polymarket-bot"
+    ]
+  },
+  "github:paniclock/paniclock": {
+    "capability_summary": "A macOS utility that instantly disables Touch ID and locks the screen for physical security.",
+    "problem_solved": "Preventing forced biometric unlocking of macOS devices.",
+    "use_cases": [
+      "physical security",
+      "privacy protection",
+      "screen locking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "macos-security-tool"
+    ]
+  },
+  "github:code-chat-br/whatsapp-api": {
+    "capability_summary": "A REST API wrapper for WhatsApp enabling programmatic messaging and session control.",
+    "problem_solved": "Lack of a simple REST interface for WhatsApp automation.",
+    "use_cases": [
+      "whatsapp-bot",
+      "messaging automation",
+      "customer support integration"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "whatsapp-rest-api"
+    ]
+  },
+  "github:vladmandic/human": {
+    "capability_summary": "A browser and Node.js library for computer vision tasks like face, body, and hand tracking using TensorFlow.js.",
+    "problem_solved": "Implementing complex computer vision features in web applications.",
+    "use_cases": [
+      "face detection",
+      "gesture recognition",
+      "body tracking",
+      "emotion detection"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tensorflowjs-vision"
+    ]
   }
 }
