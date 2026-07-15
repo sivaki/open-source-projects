@@ -12414,5 +12414,339 @@
       "offline pdf editor",
       "secure pdf tools"
     ]
+  },
+  "github:patoles/agent-flow": {
+    "capability_summary": "A visualization tool for debugging and monitoring AI agent orchestration in real-time.",
+    "problem_solved": "Debugging complex AI agent workflows",
+    "use_cases": [
+      "node-graph visualization",
+      "agent debugging",
+      "workflow monitoring"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-debugger"
+    ]
+  },
+  "github:bastillion-io/bastillion": {
+    "capability_summary": "A web-based SSH bastion host for managing remote server access with centralized key management and 2FA.",
+    "problem_solved": "Secure remote server fleet management",
+    "use_cases": [
+      "ssh key management",
+      "terminal broadcasting",
+      "2fa access control"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ssh-bastion",
+      "web-ssh-client"
+    ]
+  },
+  "github:nvidia/audio2face-3d": {
+    "capability_summary": "An SDK and plugin suite for generating high-fidelity facial animations from audio input.",
+    "problem_solved": "Automating 3D character facial animation",
+    "use_cases": [
+      "3d-animation",
+      "facial-animation",
+      "ai-driven-rendering"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "nvidia-audio2face"
+    ]
+  },
+  "github:ierror/synaps-cad": {
+    "capability_summary": "An AI-integrated 3D CAD IDE that combines code-based modeling with a visual viewport.",
+    "problem_solved": "Streamlining 3D design with generative AI",
+    "use_cases": [
+      "3d-modeling",
+      "cad-design",
+      "3d-printing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "openscad-ai"
+    ]
+  },
+  "github:eylandoo/openvpn_webpanel_manager": {
+    "capability_summary": "A self-hosted management panel for multiple VPN protocols including OpenVPN and WireGuard.",
+    "problem_solved": "Managing complex VPN server infrastructure",
+    "use_cases": [
+      "vpn-management",
+      "user-administration",
+      "multi-node-vpn"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "vpn-ui",
+      "wireguard-manager"
+    ]
+  },
+  "github:buildermethods/design-os": {
+    "capability_summary": "A framework for creating formal product specifications to improve AI-assisted code generation.",
+    "problem_solved": "Reducing hallucinations in AI-generated code",
+    "use_cases": [
+      "product-planning",
+      "spec-generation",
+      "ai-workflow-optimization"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-spec-framework"
+    ]
+  },
+  "github:yuezk/globalprotect-openconnect": {
+    "capability_summary": "A cross-platform VPN client for Linux supporting modern authentication like SSO and MFA.",
+    "problem_solved": "Connecting to GlobalProtect VPNs on Linux",
+    "use_cases": [
+      "vpn-client",
+      "sso-authentication",
+      "mfa-support"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "openconnect-gui"
+    ]
+  },
+  "github:ui-layouts/ui-tools": {
+    "capability_summary": "A collection of web-based design utilities for generating UI components like gradients and shadows.",
+    "problem_solved": "Rapid UI component generation for web development",
+    "use_cases": [
+      "css-generation",
+      "svg-editing",
+      "ui-design-tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "css-generators"
+    ]
+  },
+  "github:tiger-ai-lab/openresearcher": {
+    "capability_summary": "An agentic framework for performing long-horizon deep research tasks using LLMs.",
+    "problem_solved": "Automating complex research data collection",
+    "use_cases": [
+      "deep-research",
+      "data-pipeline",
+      "llm-agent-research"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-research-agent"
+    ]
+  },
+  "github:russellenvy/three-man-team": {
+    "capability_summary": "A multi-agent workflow for Claude Code that assigns roles to improve coding output quality.",
+    "problem_solved": "Improving AI coding task accuracy",
+    "use_cases": [
+      "ai-coding-workflow",
+      "prompt-engineering",
+      "agent-automation"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-agent-workflow"
+    ]
+  },
+  "github:sozercan/kaset": {
+    "capability_summary": "A native macOS client for YouTube and YouTube Music with system integration and Apple Intelligence support.",
+    "problem_solved": "Provides a dedicated, native desktop experience for YouTube and YouTube Music.",
+    "use_cases": [
+      "music streaming",
+      "video playback",
+      "desktop automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "YouTube Music client",
+      "macOS media player"
+    ]
+  },
+  "github:seemoo-lab/openhaystack": {
+    "capability_summary": "A framework for tracking custom Bluetooth devices using Apple's Find My network.",
+    "problem_solved": "Enables tracking of non-Apple hardware via the Find My ecosystem.",
+    "use_cases": [
+      "iot tracking",
+      "reverse engineering",
+      "bluetooth device management"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Find My tracker",
+      "AirTag alternative"
+    ]
+  },
+  "github:insidegui/virtualbuddy": {
+    "capability_summary": "A GUI for managing macOS and Linux virtual machines on Apple Silicon hardware.",
+    "problem_solved": "Simplifies the creation and management of high-performance virtual machines on Apple Silicon.",
+    "use_cases": [
+      "software testing",
+      "virtualization",
+      "cross-platform development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "VM manager",
+      "Apple Silicon virtualization"
+    ]
+  },
+  "github:tickernelz/opencode-mem": {
+    "capability_summary": "A persistent memory plugin for AI coding agents using local SQLite and vector databases.",
+    "problem_solved": "Provides long-term context retention for AI coding agents across multiple sessions.",
+    "use_cases": [
+      "ai coding assistance",
+      "context management",
+      "vector database storage"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI memory",
+      "LLM context manager"
+    ]
+  },
+  "github:dchristl/macless-haystack": {
+    "capability_summary": "A self-hosted solution for creating FindMy-compatible trackers using ESP32 or NRF5x hardware.",
+    "problem_solved": "Allows building FindMy trackers without needing an Apple Mac for setup.",
+    "use_cases": [
+      "iot tracking",
+      "self-hosted hardware",
+      "FindMy integration"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "raspberry-pi",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "FindMy tracker",
+      "ESP32 FindMy"
+    ]
+  },
+  "github:anomalyco/openauth": {
+    "capability_summary": "A standards-based, self-hostable OAuth 2.0 identity provider for serverless environments.",
+    "problem_solved": "Simplifies implementing authentication and identity management in serverless applications.",
+    "use_cases": [
+      "identity provider",
+      "oauth2 server",
+      "authentication service"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "auth server",
+      "identity provider"
+    ]
+  },
+  "github:opendronemap/odm": {
+    "capability_summary": "A command-line toolkit for photogrammetry that generates 3D models and maps from aerial imagery.",
+    "problem_solved": "Automates the processing of drone imagery into 3D models and orthophotos.",
+    "use_cases": [
+      "3d modeling",
+      "gis mapping",
+      "photogrammetry"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OpenDroneMap",
+      "photogrammetry toolkit"
+    ]
+  },
+  "github:firaslatrech/reqlog": {
+    "capability_summary": "A zero-config dashboard for real-time HTTP request inspection and replay.",
+    "problem_solved": "Simplifies debugging and observability of HTTP requests in web applications.",
+    "use_cases": [
+      "api debugging",
+      "http request logging",
+      "web development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "request inspector",
+      "http debugger"
+    ]
   }
 }
