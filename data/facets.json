@@ -12983,5 +12983,213 @@
       "claude code monitor",
       "llm observability"
     ]
+  },
+  "github:eracle/openoutreach": {
+    "capability_summary": "An agentic platform that automates lead discovery and personalized cold-email campaigns using LLMs.",
+    "problem_solved": "Automating cold email outreach and lead qualification.",
+    "use_cases": [
+      "cold-email automation",
+      "lead generation",
+      "marketing automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "email-marketing-bot"
+    ]
+  },
+  "github:brucedevices/firmware": {
+    "capability_summary": "Offensive security firmware for ESP32 hardware enabling red teaming and wireless auditing.",
+    "problem_solved": "Performing wireless security audits and red team operations on ESP32 devices.",
+    "use_cases": [
+      "red-teaming",
+      "nfc-auditing",
+      "rf-manipulation",
+      "iot-security"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "flipper-zero-alternative"
+    ]
+  },
+  "github:hwdsl2/setup-ipsec-vpn": {
+    "capability_summary": "An automation script to deploy secure IPsec/L2TP and IKEv2 VPN servers on Linux.",
+    "problem_solved": "Setting up a private, secure VPN server quickly.",
+    "use_cases": [
+      "vpn-server",
+      "network-privacy",
+      "secure-remote-access"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vpn-installer"
+    ]
+  },
+  "github:krauseler/muxcard": {
+    "capability_summary": "A credit-card-sized computer project featuring an ESP32, e-paper display, and NFC.",
+    "problem_solved": "Developing a portable, custom hardware device for IoT and pentesting.",
+    "use_cases": [
+      "nfc-hacking",
+      "iot-development",
+      "pentest-tool"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "esp32-nfc-card"
+    ]
+  },
+  "github:youmind-openlab/ai-image-prompts-skill": {
+    "capability_summary": "An AI agent skill for managing and searching a library of image generation prompts.",
+    "problem_solved": "Organizing and retrieving high-quality AI image generation prompts.",
+    "use_cases": [
+      "prompt-engineering",
+      "ai-assistant-integration",
+      "image-generation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "prompt-manager"
+    ]
+  },
+  "github:faster3ck/converseen": {
+    "capability_summary": "A cross-platform GUI application for batch image processing and conversion.",
+    "problem_solved": "Converting and resizing images in bulk with a graphical interface.",
+    "use_cases": [
+      "batch-image-conversion",
+      "image-resizing",
+      "pdf-to-image"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "imagemagick-gui"
+    ]
+  },
+  "github:zerolu/awesome-gemini-ai": {
+    "capability_summary": "A curated collection of prompt engineering templates optimized for Google Gemini models.",
+    "problem_solved": "Finding effective prompts for Gemini AI models.",
+    "use_cases": [
+      "prompt-engineering",
+      "gemini-optimization"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "gemini-prompt-library"
+    ]
+  },
+  "github:joelhooks/pdf-brain": {
+    "capability_summary": "A local-first CLI tool for indexing documents into a searchable knowledge base using vector embeddings.",
+    "problem_solved": "Searching through local PDF and Markdown files using AI.",
+    "use_cases": [
+      "knowledge-management",
+      "vector-search",
+      "local-llm-indexing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "rag-tool"
+    ]
+  },
+  "github:timothymiller/cloudflare-ddns": {
+    "capability_summary": "A lightweight, Rust-based dynamic DNS client for Cloudflare.",
+    "problem_solved": "Updating DNS records automatically for home labs with dynamic IPs.",
+    "use_cases": [
+      "dynamic-dns",
+      "homelab-networking",
+      "cloudflare-integration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "docker",
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ddns-client"
+    ]
+  },
+  "github:xlite-dev/leetcuda": {
+    "capability_summary": "An educational repository containing CUDA kernels for learning high-performance GPU programming.",
+    "problem_solved": "Learning how to write and optimize CUDA kernels.",
+    "use_cases": [
+      "gpu-programming",
+      "cuda-learning",
+      "performance-optimization"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cuda-tutorial"
+    ]
+  },
+  "github:outray-tunnel/outray": {
+    "capability_summary": "A self-hosted tunneling solution that exposes local services to the internet via HTTP, TCP, and UDP. It is designed for developers needing secure remote access to local development environments.",
+    "problem_solved": "Exposing local services to the internet without complex firewall configuration.",
+    "use_cases": [
+      "local development testing",
+      "webhook testing",
+      "remote service access",
+      "self-hosted tunneling"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ngrok alternative",
+      "localtunnel alternative",
+      "cloudflared alternative"
+    ]
   }
 }
