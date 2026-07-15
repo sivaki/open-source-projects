@@ -12748,5 +12748,240 @@
       "request inspector",
       "http debugger"
     ]
+  },
+  "github:kylan02/face_looker": {
+    "capability_summary": "Generates grids of face images with varying gaze directions for interactive UI components. Designed for developers building cursor-tracking interfaces.",
+    "problem_solved": "Need for gaze-aware UI assets",
+    "use_cases": [
+      "generative-art",
+      "cursor-tracking-ui",
+      "ai-automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "ai-face-generator"
+    ]
+  },
+  "github:psimaker/vaultsync": {
+    "capability_summary": "Enables peer-to-peer synchronization of Obsidian vaults on iOS using Syncthing. Built for privacy-conscious users who self-host their data.",
+    "problem_solved": "Syncing Obsidian vaults on iOS without cloud providers",
+    "use_cases": [
+      "obsidian-sync",
+      "p2p-file-sync",
+      "privacy-tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-ios-sync"
+    ]
+  },
+  "github:openhd/openhd": {
+    "capability_summary": "Provides low-latency digital video and telemetry transmission for UAVs and robotics. Designed for hobbyists and professionals using standard Wi-Fi hardware.",
+    "problem_solved": "High-latency video transmission in robotics",
+    "use_cases": [
+      "fpv-streaming",
+      "uav-telemetry",
+      "robotics-control"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wifibroadcast"
+    ]
+  },
+  "github:rampstackco/claude-skills": {
+    "capability_summary": "A collection of modular skills for Claude AI agents to standardize web development and product management workflows. Built for AI engineers and developers.",
+    "problem_solved": "Inconsistent agentic workflows",
+    "use_cases": [
+      "ai-agent-automation",
+      "web-development",
+      "product-management"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-mcp-skills"
+    ]
+  },
+  "github:xpavle00/habo": {
+    "capability_summary": "A privacy-focused habit tracker with end-to-end encrypted sync and self-hosting support. Designed for users wanting data ownership.",
+    "problem_solved": "Tracking habits without data privacy concerns",
+    "use_cases": [
+      "habit-tracking",
+      "e2e-encryption",
+      "self-hosted-productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "habit-tracker"
+    ]
+  },
+  "github:honeyhoneyteam/esp32-marauder-double-barrel-5g": {
+    "capability_summary": "Hardware expansion board for Flipper Zero adding dual-band Wi-Fi, GPS, and Sub-GHz capabilities. Designed for security researchers.",
+    "problem_solved": "Adding advanced wireless capabilities to Flipper Zero",
+    "use_cases": [
+      "security-research",
+      "wifi-testing",
+      "hardware-hacking"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "paid",
+    "human_languages": [],
+    "aliases": [
+      "flipper-zero-expansion"
+    ]
+  },
+  "github:jerbouma/financedatabase": {
+    "capability_summary": "A comprehensive database of over 300,000 financial symbols for data analysis. Designed for data scientists and financial analysts.",
+    "problem_solved": "Lack of centralized financial market data",
+    "use_cases": [
+      "financial-analysis",
+      "stock-market-data",
+      "data-science"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "financial-data-api"
+    ]
+  },
+  "github:stengo/deskpad": {
+    "capability_summary": "Creates a virtual display on macOS to share specific workspaces. Designed for presenters and remote workers.",
+    "problem_solved": "Sharing full screen instead of specific windows",
+    "use_cases": [
+      "screen-sharing",
+      "virtual-display",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "virtual-monitor"
+    ]
+  },
+  "github:ashishps1/awesome-engineering-articles": {
+    "capability_summary": "A curated list of high-quality engineering blog posts from major tech companies. Designed for software engineers and architects.",
+    "problem_solved": "Finding high-quality engineering resources",
+    "use_cases": [
+      "system-design-learning",
+      "architecture-research",
+      "best-practices"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "engineering-reading-list"
+    ]
+  },
+  "github:dnscrypt/encrypted-dns-server": {
+    "capability_summary": "A high-performance proxy for running encrypted DNS servers. Designed for privacy-conscious users and network administrators.",
+    "problem_solved": "Unencrypted DNS traffic",
+    "use_cases": [
+      "dns-privacy",
+      "network-proxy",
+      "self-hosted-dns"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "dnscrypt-server"
+    ]
+  },
+  "github:mhss1/mybrain": {
+    "capability_summary": "A privacy-focused Android productivity app that combines AI assistants with local task, note, and calendar management.",
+    "problem_solved": "Centralizing personal data and AI assistance on Android without sacrificing privacy.",
+    "use_cases": [
+      "task management",
+      "note taking",
+      "ai chatbot",
+      "calendar management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "personal knowledge base",
+      "ai assistant"
+    ]
+  },
+  "github:fer0n/unwatched": {
+    "capability_summary": "A privacy-focused YouTube client for Apple devices that uses RSS to bypass algorithmic feeds.",
+    "problem_solved": "Eliminating algorithmic distractions and autoplay on YouTube.",
+    "use_cases": [
+      "rss feed reader",
+      "youtube client",
+      "media consumption"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "youtube rss client",
+      "distraction-free youtube"
+    ]
+  },
+  "github:jayantdevkar/claude-code-karma": {
+    "capability_summary": "A local dashboard for monitoring and analyzing Claude Code session activity and token usage.",
+    "problem_solved": "Lack of visibility into agent activity and resource consumption in Claude Code sessions.",
+    "use_cases": [
+      "observability",
+      "token usage analysis",
+      "agent monitoring",
+      "mcp dashboard"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude code monitor",
+      "llm observability"
+    ]
   }
 }
