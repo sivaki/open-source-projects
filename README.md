@@ -1,11 +1,20 @@
 # Curated Repos
 
-Auto-generated list of 67 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 76 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [shadcnspace/shadcnspace](https://github.com/shadcnspace/shadcnspace) ⭐ | Developer Tools | `react` `ui-components` `shadcn` `tailwindcss` `frontend` | A curated collection of UI components, blocks, and dashboard templates built on top of shadcn/ui and Base UI, designed for rapid React application development. | 653 | 2026-07-16 |
+| [zksha/alma](https://github.com/zksha/alma) ⭐ | AI/LLM Tooling | `llm` `agents` `meta-learning` `research` `automation` | ALMA is a research-oriented framework for meta-learning memory designs for agentic systems, allowing LLM agents to autonomously program their own memory retrieval and update mechanisms. | 236 | 2026-07-16 |
+| [pmorissette/bt](https://github.com/pmorissette/bt) ⭐ | Finance/Data Science | `python` `finance` `backtesting` `trading` `data-analysis` | A flexible Python framework for backtesting quantitative trading strategies, designed to be modular and reusable for strategy development. | 2924 | 2026-07-16 |
+| [the-ora/browser](https://github.com/the-ora/browser) ⭐ | Developer Tools | `macos` `browser` `swift` `webkit` `privacy` | A native, WebKit-based macOS browser built with SwiftUI, focusing on a minimalist, low-friction browsing experience. | 2136 | 2026-07-16 |
+| [dronebridge/esp32](https://github.com/dronebridge/esp32) ⭐ | IoT / Robotics | `esp32` `drone` `telemetry` `mavlink` `robotics` `firmware` | A robust, encrypted firmware for ESP32 modules that enables low-latency, long-range telemetry links for drones and UAVs using MAVLink, MSP, or transparent serial protocols. | 841 | 2026-07-16 |
+| [wisher567/portpal](https://github.com/wisher567/portpal) ⭐ | Developer Tools | `cli` `developer-tools` `networking` `tauri` `productivity` | A Tauri-based desktop dashboard that visualizes active network ports, identifies running development frameworks, and provides one-click process management. | 236 | 2026-07-16 |
+| [franklioxygen/mytube](https://github.com/franklioxygen/mytube) ⭐ | Self-hosting / Media Automation | `self-hosted` `yt-dlp` `docker` `media-server` `automation` | A comprehensive, self-hosted media management platform that integrates yt-dlp for downloading, TMDB for metadata, and includes advanced features like AI-powered live translation and Cloudflare Tunnel support. | 1052 | 2026-07-16 |
+| [kartiklabhshetwar/oneurl](https://github.com/kartiklabhshetwar/oneurl) ⭐ | self-hosting | `nextjs` `self-hosted` `typescript` `link-management` `postgresql` | A modern, self-hostable Linktree alternative built with Next.js 16, TypeScript, and PostgreSQL, featuring analytics and custom profile pages. | 408 | 2026-07-16 |
+| [gainsec/autoprober](https://github.com/gainsec/autoprober) ⭐ | Hardware Hacking / Automation | `hardware-hacking` `ai-agents` `robotics` `pcb-probing` `automation` | An advanced hardware-hacking automation stack that uses AI agents to control CNC hardware, microscopes, and oscilloscopes for automated PCB probing and reverse engineering. | 306 | 2026-07-16 |
 | [outray-tunnel/outray](https://github.com/outray-tunnel/outray) ⭐ | Developer Tools | `tunneling` `networking` `cli` `self-hosting` `proxy` | An open-source alternative to ngrok that provides HTTP, TCP, and UDP tunneling capabilities with a dashboard and team management features. | 1103 | 2026-07-15 |
 | [xlite-dev/leetcuda](https://github.com/xlite-dev/leetcuda) ⭐ | AI/LLM Tooling | `cuda` `gpu` `llm` `performance` `pytorch` `cpp` | A comprehensive educational repository providing over 200 CUDA kernels, including high-performance implementations of HGEMM and FlashAttention, designed for learning modern GPU programming. | 11542 | 2026-07-15 |
 | [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) ⭐ | automation | `ddns` `cloudflare` `rust` `docker` `homelab` `networking` | A highly efficient, Rust-based dynamic DNS client for Cloudflare that is exceptionally lightweight and feature-rich, perfect for home-lab and Raspberry Pi environments. | 4257 | 2026-07-15 |
