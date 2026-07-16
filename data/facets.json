@@ -13469,5 +13469,154 @@
       "youtube-dl",
       "yt-dlp"
     ]
+  },
+  "github:maxvfischer/diy-cnc-machine": {
+    "capability_summary": "A comprehensive guide for building a custom CNC machine from scratch. Designed for makers and DIY enthusiasts.",
+    "problem_solved": "Building a custom CNC machine without expensive commercial hardware.",
+    "use_cases": [
+      "cnc machine construction",
+      "diy robotics",
+      "3d printing parts"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "diy cnc",
+      "cnc build guide"
+    ]
+  },
+  "github:techjarves/openclaude-portable": {
+    "capability_summary": "A portable AI coding agent that runs directly from a USB drive. Designed for developers needing AI assistance on the go.",
+    "problem_solved": "Running AI coding agents without installing software on host machines.",
+    "use_cases": [
+      "ai coding assistance",
+      "portable development tools",
+      "llm automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "portable ai agent",
+      "usb ai tool"
+    ]
+  },
+  "github:ad-si/awesome-3d-printing": {
+    "capability_summary": "A curated collection of resources for 3D printing, including hardware, CAD software, and automation tools. For hobbyists and professionals.",
+    "problem_solved": "Finding reliable 3D printing software and hardware resources.",
+    "use_cases": [
+      "3d printing research",
+      "cad software discovery",
+      "home-lab automation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "3d printing resources"
+    ]
+  },
+  "github:k06a/macpow": {
+    "capability_summary": "A high-performance TUI for monitoring power consumption on Apple Silicon Macs. Designed for power users and developers.",
+    "problem_solved": "Monitoring hardware power usage without root access.",
+    "use_cases": [
+      "hardware telemetry",
+      "power consumption monitoring",
+      "system performance analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "macos",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mac power monitor",
+      "tui hardware monitor"
+    ]
+  },
+  "github:paperclipai/companies": {
+    "capability_summary": "A library of pre-configured AI agent teams for the Paperclip platform. Designed for rapid deployment of automated workflows.",
+    "problem_solved": "Setting up complex AI agent team structures from scratch.",
+    "use_cases": [
+      "ai workflow automation",
+      "agent team deployment",
+      "llm organizational structures"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai agent catalog",
+      "paperclip agents"
+    ]
+  },
+  "github:safing/portmaster": {
+    "capability_summary": "An open-source application firewall providing network traffic control and DNS filtering. Designed for privacy-conscious users.",
+    "problem_solved": "Managing network privacy and blocking unwanted connections.",
+    "use_cases": [
+      "application firewall",
+      "dns filtering",
+      "network privacy protection"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "privacy firewall",
+      "network monitor"
+    ]
+  },
+  "github:zacharyfmarion/openscad-studio": {
+    "capability_summary": "A modern IDE for OpenSCAD featuring an AI copilot and live 3D preview. Designed for 3D designers and engineers.",
+    "problem_solved": "Improving the OpenSCAD development experience with modern tooling.",
+    "use_cases": [
+      "3d modeling",
+      "cad development",
+      "ai-assisted design"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "openscad ide",
+      "3d cad editor"
+    ]
+  },
+  "github:alibaba-flyai/flyai-skill": {
+    "capability_summary": "A CLI tool and agent skill for integrating real-time travel search data into AI coding agents. Designed for travel automation.",
+    "problem_solved": "Connecting AI agents to real-time travel booking data.",
+    "use_cases": [
+      "travel search automation",
+      "ai agent integration",
+      "flight and hotel lookup"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "travel ai tool",
+      "fliggy integration"
+    ]
   }
 }
