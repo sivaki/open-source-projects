@@ -13353,5 +13353,121 @@
     "aliases": [
       "shadcn ui library"
     ]
+  },
+  "github:lance0/ttl": {
+    "capability_summary": "A high-performance network diagnostic tool providing real-time path analysis and monitoring. It is designed for network engineers and system administrators.",
+    "problem_solved": "Replaces mtr with a modern, feature-rich terminal-based network diagnostic tool.",
+    "use_cases": [
+      "network latency testing",
+      "traceroute visualization",
+      "real-time network monitoring"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mtr",
+      "traceroute"
+    ]
+  },
+  "github:0din-ai/ai-scanner": {
+    "capability_summary": "A web application for performing security assessments on LLMs against the OWASP Top 10. It is intended for security researchers and DevSecOps teams.",
+    "problem_solved": "Automates vulnerability scanning for LLM-based applications.",
+    "use_cases": [
+      "LLM security auditing",
+      "OWASP vulnerability testing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "garak",
+      "llm-security-scanner"
+    ]
+  },
+  "github:zubair-trabzada/ai-marketing-claude": {
+    "capability_summary": "A collection of marketing automation skills for the Claude Code CLI. It is built for marketers and content strategists.",
+    "problem_solved": "Automates SEO audits, content generation, and competitive analysis within a CLI workflow.",
+    "use_cases": [
+      "website auditing",
+      "content generation",
+      "competitive analysis",
+      "marketing automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skills"
+    ]
+  },
+  "github:apirrone/open_duck_mini": {
+    "capability_summary": "An open-source hardware and software project for building a bipedal robot. It is designed for robotics hobbyists and researchers.",
+    "problem_solved": "Provides a blueprint and control software for a miniature bipedal robot using reinforcement learning.",
+    "use_cases": [
+      "robotics",
+      "reinforcement learning",
+      "hardware prototyping"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "BDX-robot",
+      "bipedal-robot"
+    ]
+  },
+  "github:papra-hq/papra": {
+    "capability_summary": "A self-hosted document management system that handles archiving, OCR, and email ingestion. It is for users needing private document control.",
+    "problem_solved": "Provides a minimalistic, self-hosted solution for digitizing and organizing physical or digital documents.",
+    "use_cases": [
+      "document management",
+      "OCR processing",
+      "document archiving"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "paperless-ngx"
+    ]
+  },
+  "github:jdepoix/youtube-transcript-api": {
+    "capability_summary": "A Python library and CLI tool for extracting YouTube transcripts and subtitles without API keys. It is for developers building data pipelines.",
+    "problem_solved": "Simplifies the extraction of video transcripts for analysis or data processing.",
+    "use_cases": [
+      "subtitle extraction",
+      "data pipeline integration",
+      "video transcription"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "youtube-dl",
+      "yt-dlp"
+    ]
   }
 }
