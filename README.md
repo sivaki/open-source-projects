@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 76 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 82 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [jdepoix/youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api) ⭐ | Developer Tools | `python` `youtube` `automation` `data-pipeline` `cli` | A lightweight, robust Python library and CLI tool for extracting transcripts and subtitles from YouTube videos without requiring an API key or headless browser. | 7899 | 2026-07-16 |
+| [papra-hq/papra](https://github.com/papra-hq/papra) ⭐ | self-hosting | `document-management` `self-hosted` `automation` `ocr` `typescript` | Papra is a self-hosted, minimalistic document management and archiving platform that supports OCR, email ingestion, and CLI-based document control. | 5002 | 2026-07-16 |
+| [apirrone/open_duck_mini](https://github.com/apirrone/open_duck_mini) ⭐ | Robotics | `robotics` `raspberrypi` `reinforcement-learning` `hardware` `mujoco` | An open-source hardware and software project for building a miniature BDX-style bipedal robot, utilizing reinforcement learning and Raspberry Pi for control. | 3352 | 2026-07-16 |
+| [zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude) ⭐ | AI/LLM Tooling | `claude` `marketing` `automation` `cli` `seo` | A suite of marketing automation tools designed to run as skills within the Claude Code CLI, enabling automated website audits, content generation, and competitive analysis. | 2121 | 2026-07-16 |
+| [0din-ai/ai-scanner](https://github.com/0din-ai/ai-scanner) ⭐ | AI Security | `ai` `security` `llm` `vulnerability-scanning` `devsecops` | An open-source web application for performing security assessments on LLMs, leveraging NVIDIA's garak to test against the OWASP LLM Top 10 vulnerabilities. | 574 | 2026-07-16 |
+| [lance0/ttl](https://github.com/lance0/ttl) ⭐ | Networking | `networking` `cli` `rust` `tui` `monitoring` `diagnostics` | A modern, high-performance network diagnostic tool written in Rust that serves as a feature-rich alternative to mtr, offering real-time TUI, Prometheus integration, and advanced path analysis. | 1262 | 2026-07-16 |
 | [shadcnspace/shadcnspace](https://github.com/shadcnspace/shadcnspace) ⭐ | Developer Tools | `react` `ui-components` `shadcn` `tailwindcss` `frontend` | A curated collection of UI components, blocks, and dashboard templates built on top of shadcn/ui and Base UI, designed for rapid React application development. | 653 | 2026-07-16 |
 | [zksha/alma](https://github.com/zksha/alma) ⭐ | AI/LLM Tooling | `llm` `agents` `meta-learning` `research` `automation` | ALMA is a research-oriented framework for meta-learning memory designs for agentic systems, allowing LLM agents to autonomously program their own memory retrieval and update mechanisms. | 236 | 2026-07-16 |
 | [pmorissette/bt](https://github.com/pmorissette/bt) ⭐ | Finance/Data Science | `python` `finance` `backtesting` `trading` `data-analysis` | A flexible Python framework for backtesting quantitative trading strategies, designed to be modular and reusable for strategy development. | 2924 | 2026-07-16 |
