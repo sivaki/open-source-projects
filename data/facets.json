@@ -13191,5 +13191,167 @@
       "localtunnel alternative",
       "cloudflared alternative"
     ]
+  },
+  "github:gainsec/autoprober": {
+    "capability_summary": "An automation stack using AI agents to control hardware for PCB probing and reverse engineering. Designed for security researchers and hardware engineers.",
+    "problem_solved": "Automating complex hardware reverse engineering and PCB probing tasks.",
+    "use_cases": [
+      "pcb reverse engineering",
+      "hardware security research",
+      "automated hardware probing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "hardware hacking automation"
+    ]
+  },
+  "github:kartiklabhshetwar/oneurl": {
+    "capability_summary": "A self-hostable link management platform similar to Linktree. Designed for individuals wanting custom profile pages with analytics.",
+    "problem_solved": "Managing and hosting custom link landing pages.",
+    "use_cases": [
+      "link management",
+      "personal profile pages",
+      "linktree alternative"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "linktree alternative"
+    ]
+  },
+  "github:franklioxygen/mytube": {
+    "capability_summary": "A self-hosted media management platform that downloads and organizes video content. Designed for users who want automated media libraries with AI translation.",
+    "problem_solved": "Automating video downloads and media library management.",
+    "use_cases": [
+      "media server",
+      "video downloader",
+      "live translation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "media server",
+      "yt-dlp gui"
+    ]
+  },
+  "github:wisher567/portpal": {
+    "capability_summary": "A desktop dashboard for visualizing network ports and managing development processes. Designed for developers to monitor their local environment.",
+    "problem_solved": "Identifying and managing active network ports and development processes.",
+    "use_cases": [
+      "network monitoring",
+      "process management",
+      "developer productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "port manager"
+    ]
+  },
+  "github:dronebridge/esp32": {
+    "capability_summary": "Encrypted firmware for ESP32 modules providing long-range telemetry for drones. Designed for UAV operators and robotics enthusiasts.",
+    "problem_solved": "Establishing secure, low-latency telemetry links for drones.",
+    "use_cases": [
+      "drone telemetry",
+      "uav communication",
+      "robotics"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "drone telemetry firmware"
+    ]
+  },
+  "github:the-ora/browser": {
+    "capability_summary": "A native, minimalist web browser for macOS built with SwiftUI. Designed for users seeking a low-friction browsing experience.",
+    "problem_solved": "Providing a native, lightweight browsing experience on macOS.",
+    "use_cases": [
+      "web browsing",
+      "macos productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "macos browser"
+    ]
+  },
+  "github:pmorissette/bt": {
+    "capability_summary": "A Python framework for backtesting quantitative trading strategies. Designed for data scientists and financial analysts.",
+    "problem_solved": "Testing and validating quantitative trading strategies.",
+    "use_cases": [
+      "financial backtesting",
+      "trading strategy development",
+      "data analysis"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "backtesting framework"
+    ]
+  },
+  "github:zksha/alma": {
+    "capability_summary": "A research framework for meta-learning memory designs in agentic systems. Designed for AI researchers building autonomous LLM agents.",
+    "problem_solved": "Enabling LLM agents to autonomously manage their own memory retrieval.",
+    "use_cases": [
+      "llm research",
+      "agentic memory design",
+      "meta-learning"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm agent framework"
+    ]
+  },
+  "github:shadcnspace/shadcnspace": {
+    "capability_summary": "A collection of UI components and dashboard templates for React. Designed for developers building rapid web applications.",
+    "problem_solved": "Accelerating React UI development with pre-built components.",
+    "use_cases": [
+      "ui component library",
+      "dashboard templates",
+      "frontend development"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "shadcn ui library"
+    ]
   }
 }
