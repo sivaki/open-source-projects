@@ -1,11 +1,19 @@
 # Curated Repos
 
-Auto-generated list of 82 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 90 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [alibaba-flyai/flyai-skill](https://github.com/alibaba-flyai/flyai-skill) ⭐ | AI/LLM Tooling | `ai-agent` `cli` `travel` `automation` `llm-tools` | A specialized CLI and agent skill for integrating real-time travel search (flights, hotels, attractions) from Fliggy directly into AI coding agents like Claude Code and OpenClaw. | 827 | 2026-07-16 |
+| [zacharyfmarion/openscad-studio](https://github.com/zacharyfmarion/openscad-studio) ⭐ | Developer Tools | `openscad` `3d-printing` `ai` `ide` `tauri` `cad` | A modern, feature-rich IDE for OpenSCAD that includes an AI copilot, live 3D preview, and multi-file project support, available as both a web app and a native macOS desktop application. | 177 | 2026-07-16 |
+| [safing/portmaster](https://github.com/safing/portmaster) ⭐ | security | `firewall` `privacy` `networking` `dns` `security` | Portmaster is a robust, open-source application firewall for Windows and Linux that provides granular control over network traffic, DNS filtering, and privacy protection. | 13156 | 2026-07-16 |
+| [paperclipai/companies](https://github.com/paperclipai/companies) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `llm` `workflow-automation` `developer-tools` | A catalog of pre-configured AI agent teams and organizational structures designed for the Paperclip platform, enabling rapid deployment of specialized workflows. | 782 | 2026-07-16 |
+| [k06a/macpow](https://github.com/k06a/macpow) ⭐ | Developer Tools | `tui` `macos` `hardware` `monitoring` `rust` | A high-performance, real-time TUI power consumption monitor for Apple Silicon Macs that provides granular hardware telemetry without requiring root privileges. | 924 | 2026-07-16 |
+| [ad-si/awesome-3d-printing](https://github.com/ad-si/awesome-3d-printing) ⭐ | 3D Printing / Home-lab | `3d-printing` `cad` `automation` `home-lab` `awesome-list` | A comprehensive curated list of 3D printing resources, ranging from hardware brands and CAD software to self-hosted control tools and automation platforms. | 1824 | 2026-07-16 |
+| [techjarves/openclaude-portable](https://github.com/techjarves/openclaude-portable) ⭐ | Developer Tools | `ai` `cli` `portable` `automation` `llm` | A portable, zero-footprint AI coding agent that runs from a USB drive, supporting multiple AI providers and local models via Ollama or LM Studio. | 1045 | 2026-07-16 |
+| [maxvfischer/diy-cnc-machine](https://github.com/maxvfischer/diy-cnc-machine) ⭐ | Hardware/Maker | `cnc` `diy` `robotics` `3d-printing` `hardware` | A comprehensive, well-documented guide for building a DIY CNC machine from scratch, including 3D-printable parts, a bill of materials, and assembly instructions. | 1892 | 2026-07-16 |
 | [jdepoix/youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api) ⭐ | Developer Tools | `python` `youtube` `automation` `data-pipeline` `cli` | A lightweight, robust Python library and CLI tool for extracting transcripts and subtitles from YouTube videos without requiring an API key or headless browser. | 7899 | 2026-07-16 |
 | [papra-hq/papra](https://github.com/papra-hq/papra) ⭐ | self-hosting | `document-management` `self-hosted` `automation` `ocr` `typescript` | Papra is a self-hosted, minimalistic document management and archiving platform that supports OCR, email ingestion, and CLI-based document control. | 5002 | 2026-07-16 |
 | [apirrone/open_duck_mini](https://github.com/apirrone/open_duck_mini) ⭐ | Robotics | `robotics` `raspberrypi` `reinforcement-learning` `hardware` `mujoco` | An open-source hardware and software project for building a miniature BDX-style bipedal robot, utilizing reinforcement learning and Raspberry Pi for control. | 3352 | 2026-07-16 |
