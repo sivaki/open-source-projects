@@ -13834,5 +13834,121 @@
       "playwright-automation",
       "browser-agent"
     ]
+  },
+  "github:lmcache/lmcache": {
+    "capability_summary": "A high-performance KV cache management layer for LLM inference. It enables persistent and reusable cache storage to boost throughput.",
+    "problem_solved": "High latency and redundant computation in LLM inference.",
+    "use_cases": [
+      "llm inference optimization",
+      "kv-cache management",
+      "distributed llm serving"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vllm-cache",
+      "llm-performance-tool"
+    ]
+  },
+  "github:evertramos/nginx-proxy-automation": {
+    "capability_summary": "An automation suite for deploying Nginx as a reverse proxy with integrated Let's Encrypt SSL management.",
+    "problem_solved": "Manual configuration of reverse proxies and SSL certificates.",
+    "use_cases": [
+      "self-hosted reverse proxy",
+      "automated ssl certificates",
+      "docker container networking"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "nginx-proxy",
+      "letsencrypt-automation"
+    ]
+  },
+  "github:cyberman54/esp32-paxcounter": {
+    "capability_summary": "ESP32 firmware that counts mobile devices via Wi-Fi and Bluetooth signals for passenger flow metering.",
+    "problem_solved": "Privacy-conscious physical presence tracking and environmental sensing.",
+    "use_cases": [
+      "passenger flow metering",
+      "environmental sensing",
+      "iot device tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wifi-tracker",
+      "bluetooth-counter"
+    ]
+  },
+  "github:spel987/polyuploader": {
+    "capability_summary": "A cross-platform desktop application that automates uploading files to over 100 different file-hosting services.",
+    "problem_solved": "Tedious manual file uploads to multiple hosting providers.",
+    "use_cases": [
+      "bulk file sharing",
+      "file hosting automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "file-uploader",
+      "multi-host-uploader"
+    ]
+  },
+  "github:rtunazzz/hidemyemail-generator": {
+    "capability_summary": "A CLI tool for managing Apple's Hide My Email service, including automated generation and verification code retrieval.",
+    "problem_solved": "Managing and verifying multiple Apple Hide My Email addresses.",
+    "use_cases": [
+      "email privacy",
+      "apple account automation",
+      "verification code management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "apple-email-generator",
+      "icloud-privacy-tool"
+    ]
+  },
+  "github:abubakarsiddik31/claude-skills-collection": {
+    "capability_summary": "A curated directory of modular skills to extend Anthropic's Claude AI with new capabilities.",
+    "problem_solved": "Finding and implementing extensions for Claude AI workflows.",
+    "use_cases": [
+      "ai agent development",
+      "claude skill integration",
+      "workflow automation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-plugins",
+      "ai-agent-skills"
+    ]
   }
 }
