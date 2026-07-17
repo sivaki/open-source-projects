@@ -13618,5 +13618,221 @@
       "travel ai tool",
       "fliggy integration"
     ]
+  },
+  "github:jstudner/jcorp-nomad": {
+    "capability_summary": "A portable, offline media server running on ESP32 hardware that creates a local Wi-Fi hotspot for accessing media and documents.",
+    "problem_solved": "Accessing media and archives in locations without internet or power infrastructure.",
+    "use_cases": [
+      "offline media server",
+      "portable file sharing",
+      "ZIM archive reader"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "portable media server",
+      "ESP32 media server"
+    ]
+  },
+  "github:flodlol/pdf-slides-to-handouts-converter": {
+    "capability_summary": "A client-side web tool that converts presentation PDF slides into printable handouts with custom layouts.",
+    "problem_solved": "Creating printable lecture handouts from slide decks without uploading files to a server.",
+    "use_cases": [
+      "lecture notes",
+      "presentation printing",
+      "PDF layout conversion"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "PDF handout generator",
+      "slide to handout converter"
+    ]
+  },
+  "github:sms2email/sms2email": {
+    "capability_summary": "An Android application that automatically forwards incoming SMS messages to an SMTP email server.",
+    "problem_solved": "Accessing SMS messages remotely via email.",
+    "use_cases": [
+      "SMS automation",
+      "remote SMS access",
+      "notification forwarding"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "SMS to email forwarder"
+    ]
+  },
+  "github:kimmknight/raweb": {
+    "capability_summary": "A web-based management interface for Windows RemoteApps and desktops, serving as an alternative to standard RDP tools.",
+    "problem_solved": "Managing Windows remote access sessions through a modern web browser.",
+    "use_cases": [
+      "remote desktop management",
+      "RDP web interface"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "RDP web portal",
+      "RemoteApp manager"
+    ]
+  },
+  "github:nofxaios/nofx": {
+    "capability_summary": "An AI-driven trading terminal that uses LLMs to analyze market data and execute trades with enforced risk management.",
+    "problem_solved": "Automating complex trading strategies using AI while maintaining strict risk controls.",
+    "use_cases": [
+      "algorithmic trading",
+      "AI trading agent",
+      "fintech automation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "AI trading bot",
+      "crypto trading terminal"
+    ]
+  },
+  "github:httpie/desktop": {
+    "capability_summary": "A cross-platform GUI client for testing and interacting with REST, GraphQL, and HTTP APIs.",
+    "problem_solved": "Testing and debugging APIs with a visual interface.",
+    "use_cases": [
+      "API testing",
+      "REST client",
+      "GraphQL debugging"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Postman alternative",
+      "API client"
+    ]
+  },
+  "github:martin-olivier/airgorah": {
+    "capability_summary": "A Rust-based GUI wrapper for the aircrack-ng suite designed for WiFi security auditing and traffic capture.",
+    "problem_solved": "Performing wireless network security audits without relying solely on command-line tools.",
+    "use_cases": [
+      "WiFi security audit",
+      "network penetration testing",
+      "traffic capture"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "WiFi auditor",
+      "aircrack-ng GUI"
+    ]
+  },
+  "github:timelinize/timelinize": {
+    "capability_summary": "A self-hosted platform that aggregates personal digital archives into a unified, searchable timeline.",
+    "problem_solved": "Fragmented personal data across multiple services and devices.",
+    "use_cases": [
+      "personal knowledge management",
+      "data archival",
+      "family history tracking"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "personal data aggregator",
+      "digital life timeline"
+    ]
+  },
+  "github:karna14314/pdf_tools": {
+    "capability_summary": "An offline-first Android utility for merging, splitting, OCR, and annotating PDF files.",
+    "problem_solved": "Performing common PDF editing tasks on mobile without internet access.",
+    "use_cases": [
+      "PDF editing",
+      "OCR",
+      "document annotation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "PDF editor",
+      "mobile PDF tools"
+    ]
+  },
+  "github:labarba/sciwrite": {
+    "capability_summary": "An AI agent skill file that guides LLMs in performing editorial reviews for scientific and engineering manuscripts.",
+    "problem_solved": "Standardizing AI-assisted academic writing and manuscript review.",
+    "use_cases": [
+      "academic writing",
+      "scientific manuscript review",
+      "AI agent skill"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI writing assistant",
+      "academic editor"
+    ]
+  },
+  "github:zk1tty/rebrowse-app": {
+    "capability_summary": "A self-hosted platform for recording user browser actions to create deterministic, high-speed automation workflows. It is designed for developers and power users looking for reliable alternatives to LLM-based browser agents.",
+    "problem_solved": "Creating reliable, deterministic browser automation without relying solely on LLM-based agents.",
+    "use_cases": [
+      "browser automation",
+      "workflow recording",
+      "agentic AI development",
+      "test automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "browser-use",
+      "playwright-automation",
+      "browser-agent"
+    ]
   }
 }
