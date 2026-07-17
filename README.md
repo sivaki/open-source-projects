@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 101 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 107 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [abubakarsiddik31/claude-skills-collection](https://github.com/abubakarsiddik31/claude-skills-collection) ⭐ | AI/LLM Tooling | `claude` `ai-agents` `automation` `llm` `productivity` | A comprehensive, curated directory of Claude Skills that extend Anthropic's Claude with modular capabilities for coding, automation, and data workflows. | 820 | 2026-07-17 |
+| [rtunazzz/hidemyemail-generator](https://github.com/rtunazzz/hidemyemail-generator) ⭐ | automation | `cli` `automation` `privacy` `apple` `productivity` | A powerful CLI tool for managing Apple's Hide My Email service, featuring automated generation, local IMAP inbox integration for verification codes, and cookie-based authentication. | 622 | 2026-07-17 |
+| [spel987/polyuploader](https://github.com/spel987/polyuploader) ⭐ | automation | `automation` `file-sharing` `rust` `tauri` `cli` | A cross-platform desktop application built with Tauri and Rust that automates uploading files to over 100 different file-hosting services simultaneously. | 314 | 2026-07-17 |
+| [cyberman54/esp32-paxcounter](https://github.com/cyberman54/esp32-paxcounter) ⭐ | IoT / Home-lab | `esp32` `iot` `lorawan` `privacy` `automation` | An ESP32-based firmware for counting mobile devices via Wi-Fi and Bluetooth signals, designed for privacy-conscious passenger flow metering and environmental sensing. | 2034 | 2026-07-17 |
+| [evertramos/nginx-proxy-automation](https://github.com/evertramos/nginx-proxy-automation) ⭐ | self-hosting | `docker` `nginx` `reverse-proxy` `letsencrypt` `automation` `homelab` | A comprehensive automation suite for deploying Nginx as a reverse proxy with automated Let's Encrypt SSL certificate management using Docker Compose. | 2778 | 2026-07-17 |
+| [lmcache/lmcache](https://github.com/lmcache/lmcache) ⭐ | AI/LLM Infrastructure | `llm` `inference` `kv-cache` `performance` `infrastructure` | LMCache is a high-performance KV cache management layer that enables persistent, reusable, and multi-engine KV cache storage for LLM inference, significantly improving TTFT and throughput. | 10600 | 2026-07-17 |
 | [zk1tty/rebrowse-app](https://github.com/zk1tty/rebrowse-app) ⭐ | automation | `browser-automation` `agentic-ai` `self-hosting` `playwright` `typescript` | A self-hosted browser automation platform that records user actions to generate deterministic, high-speed agentic workflows, serving as an alternative to standard LLM-based browser agents. | 146 | 2026-07-17 |
 | [labarba/sciwrite](https://github.com/labarba/sciwrite) ⭐ | AI/LLM Tooling | `ai` `writing` `academic` `productivity` `agentskills` | An Agent Skill file designed to guide AI models in performing systematic editorial reviews of scientific and engineering manuscripts based on established academic writing methodologies. | 763 | 2026-07-17 |
 | [karna14314/pdf_tools](https://github.com/karna14314/pdf_tools) ⭐ | Mobile Utilities | `android` `pdf` `privacy` `kotlin` `offline` | A privacy-focused, offline-first Android PDF utility that supports merging, splitting, OCR, and annotation without requiring internet access. | 379 | 2026-07-17 |
