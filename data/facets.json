@@ -13950,5 +13950,199 @@
       "claude-plugins",
       "ai-agent-skills"
     ]
+  },
+  "github:0xemmkty/quantmuse": {
+    "capability_summary": "A quantitative trading framework that combines a high-performance C++ core with Python-based AI/ML for strategy development.",
+    "problem_solved": "Automating financial trading strategies and backtesting.",
+    "use_cases": [
+      "algorithmic trading",
+      "financial backtesting",
+      "market data analysis"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "trading bot",
+      "quant platform"
+    ]
+  },
+  "github:dietrichmax/colota": {
+    "capability_summary": "A privacy-focused Android app for tracking GPS location and syncing with self-hosted backends.",
+    "problem_solved": "Tracking location history without relying on big tech cloud services.",
+    "use_cases": [
+      "gps tracking",
+      "location logging",
+      "privacy-focused tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "location tracker",
+      "google timeline alternative"
+    ]
+  },
+  "github:alpkeskin/rota": {
+    "capability_summary": "A high-performance proxy management and rotation platform for web scraping and networking tasks.",
+    "problem_solved": "Managing and rotating proxy IPs to avoid rate limiting during scraping.",
+    "use_cases": [
+      "web scraping",
+      "proxy rotation",
+      "rate limiting bypass"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "proxy rotator",
+      "scraping proxy"
+    ]
+  },
+  "github:headwaymaps/headway": {
+    "capability_summary": "An all-in-one self-hosted stack for map rendering, geocoding, and routing using OpenStreetMap data.",
+    "problem_solved": "Hosting custom map services without external API dependencies.",
+    "use_cases": [
+      "geocoding",
+      "route planning",
+      "map rendering"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "openstreetmap server",
+      "map stack"
+    ]
+  },
+  "github:skyworkai/matrix-3d": {
+    "capability_summary": "A generative AI framework that creates explorable 3D scenes from text or image prompts.",
+    "problem_solved": "Generating 3D environments from 2D inputs.",
+    "use_cases": [
+      "3d scene generation",
+      "text-to-3d",
+      "image-to-3d"
+    ],
+    "project_type": "model",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "generative 3d",
+      "aigc"
+    ]
+  },
+  "github:scrapfly/antibot-detector": {
+    "capability_summary": "A browser extension that detects anti-bot systems, CAPTCHAs, and fingerprinting in real-time.",
+    "problem_solved": "Identifying why web scrapers are being blocked by security systems.",
+    "use_cases": [
+      "web scraping",
+      "security research",
+      "bot detection"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "captcha detector",
+      "bot blocker"
+    ]
+  },
+  "github:jordan-gibbs/hyperresearch": {
+    "capability_summary": "An agent-driven framework that uses Claude Code to perform deep, multi-step research and knowledge management.",
+    "problem_solved": "Automating complex research workflows and maintaining persistent knowledge.",
+    "use_cases": [
+      "ai research",
+      "knowledge management",
+      "agentic workflows"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "research agent",
+      "claude agent"
+    ]
+  },
+  "github:elektrostudios/dolphin_emulator_rvz_iso_gamecube_wii_conversion_scripts": {
+    "capability_summary": "PowerShell scripts that automate the conversion of GameCube and Wii game files to the space-saving RVZ format.",
+    "problem_solved": "Reducing storage space for game backups.",
+    "use_cases": [
+      "game emulation",
+      "file conversion",
+      "rom management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dolphin emulator tools",
+      "rom converter"
+    ]
+  },
+  "github:njengah/claude-code-cheat-sheet": {
+    "capability_summary": "A documentation collection and cheat sheet for mastering the Claude Code CLI tool.",
+    "problem_solved": "Learning how to effectively use Claude Code for development tasks.",
+    "use_cases": [
+      "ai coding",
+      "developer productivity",
+      "cli documentation"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude code guide",
+      "ai coding assistant"
+    ]
+  },
+  "github:sakanaai/ai-scientist-v2": {
+    "capability_summary": "An agentic system that automates the scientific research process from hypothesis to manuscript.",
+    "problem_solved": "Scaling and automating scientific experimentation and writing.",
+    "use_cases": [
+      "scientific research",
+      "automated experimentation",
+      "ai writing"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai researcher",
+      "agentic scientist"
+    ]
   }
 }
