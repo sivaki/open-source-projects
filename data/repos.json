@@ -4477,5 +4477,290 @@
       "browser-use",
       "playwright"
     ]
+  },
+  {
+    "id": "github:lmcache/lmcache",
+    "url": "https://github.com/lmcache/lmcache",
+    "title": "lmcache/lmcache",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2078055094399201324",
+    "fetched_at": "2026-07-17T10:00:46.043002Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "LMCache is a high-performance KV cache management layer that enables persistent, reusable, and multi-engine KV cache storage for LLM inference, significantly improving TTFT and throughput.",
+    "category": "AI/LLM Infrastructure",
+    "tags": [
+      "llm",
+      "inference",
+      "kv-cache",
+      "performance",
+      "infrastructure"
+    ],
+    "risk_notes": "Installed via standard pip packages. Operates as a daemon process; requires network access for remote storage backends (e.g., Redis) and significant memory/storage resources. It is a production-grade tool with active maintenance and strong ecosystem integration.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 409,
+      "created_at": "2024-05-28T21:06:04Z",
+      "homepage": "https://lmcache.ai/"
+    },
+    "added_at": "2026-07-17T10:18:54.420786Z",
+    "stars": 10600,
+    "language": "Python",
+    "pushed_at": "2026-07-17T08:57:51Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "amd",
+      "cuda",
+      "fast",
+      "inference",
+      "kv-cache",
+      "llm",
+      "pytorch",
+      "rocm",
+      "speed",
+      "vllm"
+    ]
+  },
+  {
+    "id": "github:evertramos/nginx-proxy-automation",
+    "url": "https://github.com/evertramos/nginx-proxy-automation",
+    "title": "evertramos/nginx-proxy-automation",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078043672247980293",
+    "fetched_at": "2026-07-17T10:00:48.989747Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive automation suite for deploying Nginx as a reverse proxy with automated Let's Encrypt SSL certificate management using Docker Compose.",
+    "category": "self-hosting",
+    "tags": [
+      "docker",
+      "nginx",
+      "reverse-proxy",
+      "letsencrypt",
+      "automation",
+      "homelab"
+    ],
+    "risk_notes": "Requires execution of a shell script (fresh-start.sh) which automates Docker and Nginx configuration. It requires Docker access and binds to ports 80/443, effectively controlling network traffic for your host. It is actively maintained, but users should review the shell script before execution as it modifies system configurations and manages SSL certificates.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2017-06-29T16:30:23Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-17T10:37:02.042185Z",
+    "stars": 2778,
+    "language": "Shell",
+    "pushed_at": "2026-05-24T01:19:51Z",
+    "license": "MIT",
+    "topics": [
+      "certificate",
+      "docker",
+      "docker-compose",
+      "letsencrypt",
+      "letsencrypt-certificates",
+      "nginx",
+      "nginx-proxy"
+    ]
+  },
+  {
+    "id": "github:cyberman54/esp32-paxcounter",
+    "url": "https://github.com/cyberman54/esp32-paxcounter",
+    "title": "cyberman54/esp32-paxcounter",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078027045422973244",
+    "fetched_at": "2026-07-17T10:00:48.990159Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An ESP32-based firmware for counting mobile devices via Wi-Fi and Bluetooth signals, designed for privacy-conscious passenger flow metering and environmental sensing.",
+    "category": "IoT / Home-lab",
+    "tags": [
+      "esp32",
+      "iot",
+      "lorawan",
+      "privacy",
+      "automation"
+    ],
+    "risk_notes": "Requires flashing firmware onto ESP32 hardware using PlatformIO or Arduino IDE. The device operates as a network node (Wi-Fi/LoRaWAN) and can transmit data to MQTT brokers or cloud services. It is a hardware-level project, so it does not pose a risk to your host computer's OS, but requires careful configuration of network credentials and sensor integration.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 18,
+      "created_at": "2018-03-18T18:40:47Z",
+      "homepage": "https://cyberman54.github.io/ESP32-Paxcounter/"
+    },
+    "added_at": "2026-07-17T10:55:09.783462Z",
+    "stars": 2034,
+    "language": "C++",
+    "pushed_at": "2026-06-01T12:32:10Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "arduino",
+      "bme680",
+      "dcf77",
+      "esp32",
+      "gps",
+      "gps-tracker",
+      "helium-network",
+      "heltec",
+      "iot",
+      "lopy",
+      "lora",
+      "lorawan",
+      "macaddr",
+      "mqtt",
+      "platformio",
+      "pycom",
+      "thethingsnetwork",
+      "ttgo",
+      "ttn",
+      "wifi"
+    ]
+  },
+  {
+    "id": "github:spel987/polyuploader",
+    "url": "https://github.com/spel987/polyuploader",
+    "title": "spel987/polyuploader",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078008888394195435",
+    "fetched_at": "2026-07-17T10:00:48.990517Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A cross-platform desktop application built with Tauri and Rust that automates uploading files to over 100 different file-hosting services simultaneously.",
+    "category": "automation",
+    "tags": [
+      "automation",
+      "file-sharing",
+      "rust",
+      "tauri",
+      "cli"
+    ],
+    "risk_notes": "The application is installed via pre-built binaries (AppImage, .deb, .rpm, .dmg, .exe) or by compiling from source using Cargo/NPM. It requires network access to communicate with various third-party file hosts and may store API keys locally in the user's AppData/local configuration folder. As a desktop application, it has access to the user's filesystem to select files for upload.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 12,
+      "created_at": "2023-09-01T13:29:05Z",
+      "homepage": "https://polyuploader.vercel.app"
+    },
+    "added_at": "2026-07-17T11:13:17.086639Z",
+    "stars": 314,
+    "language": "JavaScript",
+    "pushed_at": "2026-06-14T20:22:23Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "file-hosting",
+      "file-sharing",
+      "file-upload"
+    ]
+  },
+  {
+    "id": "github:0x0be/yesitsme",
+    "url": "https://github.com/0x0be/yesitsme",
+    "title": "0x0be/yesitsme",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2077991413409591448",
+    "fetched_at": "2026-07-17T10:00:48.990987Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Python-based OSINT tool designed to identify Instagram profiles by matching partial email or phone number data against account information.",
+    "category": "security",
+    "tags": [
+      "osint",
+      "instagram",
+      "automation",
+      "privacy",
+      "python"
+    ],
+    "risk_notes": "Requires a valid Instagram 'sessionid' cookie, which grants the script full access to your account's data and actions. Using a personal account for this is high-risk; it requires a 'sockpuppet' account. The tool relies on third-party scrapers (dumpor.com) and is subject to breaking if Instagram changes its API or security measures. Installation is via pip requirements, which is standard but requires manual dependency management.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 25,
+      "created_at": "2021-12-23T21:20:31Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-17T11:31:25.021485Z",
+    "stars": 2888,
+    "language": "Python",
+    "pushed_at": "2024-08-17T18:35:46Z",
+    "license": null,
+    "topics": [
+      "instagram",
+      "open-source-intelligence",
+      "osint",
+      "osint-tools",
+      "python",
+      "social-media-analysis",
+      "social-media-intelligence",
+      "socmint"
+    ]
+  },
+  {
+    "id": "github:rtunazzz/hidemyemail-generator",
+    "url": "https://github.com/rtunazzz/hidemyemail-generator",
+    "title": "rtunazzz/hidemyemail-generator",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2077974794830483865",
+    "fetched_at": "2026-07-17T10:00:48.991353Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A powerful CLI tool for managing Apple's Hide My Email service, featuring automated generation, local IMAP inbox integration for verification codes, and cookie-based authentication.",
+    "category": "automation",
+    "tags": [
+      "cli",
+      "automation",
+      "privacy",
+      "apple",
+      "productivity"
+    ],
+    "risk_notes": "Requires handling iCloud session cookies, which grant full access to the associated iCloud account's Hide My Email service. Installation via prebuilt binaries or source (uv/python). The tool interacts with external Apple APIs and your personal email via IMAP, necessitating caution with the stored cookie files and IMAP credentials.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 10,
+      "created_at": "2022-03-05T11:41:12Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-17T11:49:31.980269Z",
+    "stars": 622,
+    "language": "Python",
+    "pushed_at": "2026-07-01T08:42:21Z",
+    "license": "MIT",
+    "topics": [
+      "apple",
+      "email-generator",
+      "hidemyemail",
+      "icloud-generator",
+      "rafflebots",
+      "sneakers"
+    ]
+  },
+  {
+    "id": "github:abubakarsiddik31/claude-skills-collection",
+    "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
+    "title": "abubakarsiddik31/claude-skills-collection",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2077958932836864155",
+    "fetched_at": "2026-07-17T10:00:48.991792Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, curated directory of Claude Skills that extend Anthropic's Claude with modular capabilities for coding, automation, and data workflows.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "ai-agents",
+      "automation",
+      "llm",
+      "productivity"
+    ],
+    "risk_notes": "This is a documentation/curation repository and does not contain executable code itself. The skills listed require Claude Pro/Team/Enterprise accounts. Users should exercise caution when installing third-party skills, as they may involve granting Claude access to local files, codebases, or external APIs depending on the specific skill's implementation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 15,
+      "created_at": "2025-10-18T16:24:12Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-17T12:07:39.434200Z",
+    "stars": 820,
+    "language": null,
+    "pushed_at": "2026-07-12T10:31:30Z",
+    "license": null,
+    "topics": []
   }
 ]
