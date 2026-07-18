@@ -5652,5 +5652,209 @@
       "yt-dlp-wrapper",
       "ytconverter"
     ]
+  },
+  {
+    "id": "github:blinkospace/blinko",
+    "url": "https://github.com/blinkospace/blinko",
+    "title": "blinkospace/blinko",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078390116947554527",
+    "fetched_at": "2026-07-18T09:36:55.166442Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Blinko is a self-hosted, AI-powered note-taking application that utilizes RAG for intelligent retrieval and supports Markdown for efficient idea capture.",
+    "category": "Self-hosted Productivity",
+    "tags": [
+      "ai",
+      "self-hosted",
+      "markdown",
+      "rag",
+      "productivity"
+    ],
+    "risk_notes": "Installation uses a curl-to-bash script, which carries inherent security risks; it is recommended to inspect the script before execution. The application requires external API keys (e.g., OpenAI) for AI features and manages a local database, requiring standard self-hosting security practices like reverse proxying and proper port management.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 402,
+      "created_at": "2024-10-23T10:04:59Z",
+      "homepage": "https://blinko.space"
+    },
+    "added_at": "2026-07-18T09:55:01.954898Z",
+    "stars": 10726,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-06T13:08:20Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "markdown",
+      "memos",
+      "nextjs",
+      "notebook",
+      "openai",
+      "postgres",
+      "react",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github:outworked/outworked",
+    "url": "https://github.com/outworked/outworked",
+    "title": "outworked/outworked",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078369933671497741",
+    "fetched_at": "2026-07-18T09:36:55.166818Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A desktop-based agent orchestration platform that visualizes AI agents as office workers, allowing them to perform complex tasks like coding, web browsing, and messaging via MCP servers.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "agentic-ai",
+      "automation",
+      "developer-tools",
+      "mcp",
+      "electron"
+    ],
+    "risk_notes": "Distributed as a macOS DMG file. Requires significant permissions to function as an autonomous agent, including filesystem access, network access for web browsing, and integration with sensitive accounts (Slack, iMessage, GitHub) via MCP servers. Users must provide their own API keys (e.g., Anthropic). As an Electron app, it runs with the privileges of the user account.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-03-11T20:02:40Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-18T10:13:09.531856Z",
+    "stars": 315,
+    "language": "TypeScript",
+    "pushed_at": "2026-04-01T03:04:18Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "agent-orchestration",
+      "agentic-ai",
+      "agents",
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "developer-productivity",
+      "developer-tools",
+      "developer-tools-ai-agent",
+      "electron",
+      "open-source"
+    ]
+  },
+  {
+    "id": "github:hascheksolutions/opentrashmail",
+    "url": "https://github.com/hascheksolutions/opentrashmail",
+    "title": "hascheksolutions/opentrashmail",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078350655140327746",
+    "fetched_at": "2026-07-18T09:36:55.167132Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A self-hosted, file-based temporary email server that provides a web UI, JSON API, and RSS feeds for managing incoming mail, useful for automation and 2FA testing.",
+    "category": "self-hosting",
+    "tags": [
+      "self-hosted",
+      "email",
+      "automation",
+      "api",
+      "docker"
+    ],
+    "risk_notes": "Distributed via Docker, which is the recommended and safest installation method. It requires opening port 25 (SMTP) to the internet to receive mail, which carries inherent security risks if not properly firewalled or isolated. It is file-based, so it requires persistent volume access to the host filesystem. The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 14,
+      "created_at": "2019-08-13T20:27:23Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-18T10:31:16.840493Z",
+    "stars": 877,
+    "language": "PHP",
+    "pushed_at": "2025-08-28T06:05:53Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "docker",
+      "email-as-api",
+      "email-as-rss",
+      "php",
+      "python",
+      "selfhosted",
+      "trashmail"
+    ]
+  },
+  {
+    "id": "github:drsexo/frosty",
+    "url": "https://github.com/drsexo/frosty",
+    "title": "drsexo/frosty",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078332409100046473",
+    "fetched_at": "2026-07-18T09:36:55.167430Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive Android root module (Magisk/KSU/APatch) designed to optimize battery life by managing Google Play Services, aggressive Doze settings, and system-level kernel/RAM tweaks.",
+    "category": "Android Optimization",
+    "tags": [
+      "android",
+      "root",
+      "battery-saver",
+      "privacy",
+      "optimization"
+    ],
+    "risk_notes": "Requires root access via Magisk, KernelSU, or APatch. Modifies system-level properties, kernel parameters, and background service permissions. It has the potential to break system functionality if misconfigured. Installation is via a zip file flashed through a root manager, which is standard for this ecosystem but carries high privilege risks.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-02-02T08:29:39Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-18T10:49:24.421578Z",
+    "stars": 153,
+    "language": "Shell",
+    "pushed_at": "2026-07-04T20:56:59Z",
+    "license": "GPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:xang1234/stock-screener",
+    "url": "https://github.com/xang1234/stock-screener",
+    "title": "xang1234/stock-screener",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078314997973692873",
+    "fetched_at": "2026-07-18T09:36:55.167733Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, self-hosted multi-market stock screening platform featuring technical/fundamental analysis, market breadth indicators, and AI-driven theme discovery.",
+    "category": "finance-automation",
+    "tags": [
+      "trading",
+      "automation",
+      "self-hosting",
+      "docker",
+      "finance",
+      "llm"
+    ],
+    "risk_notes": "Deploys via Docker Compose using GHCR images. Requires environment variables for API keys (Groq, Gemini, etc.) if AI features are enabled. The application handles financial data and requires network access to fetch market data and interact with LLM APIs. It runs as a multi-container stack (PostgreSQL, Redis, Nginx), which is standard for self-hosted services.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2026-01-12T15:06:06Z",
+      "homepage": "https://xang1234.github.io/stock-screener/"
+    },
+    "added_at": "2026-07-18T11:07:31.943129Z",
+    "stars": 220,
+    "language": "Python",
+    "pushed_at": "2026-07-18T07:23:13Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "canslim",
+      "finance",
+      "investment",
+      "market-breadth",
+      "minervini",
+      "nasdaq-stocks",
+      "nyse-stocks",
+      "stock-analysis",
+      "stock-screener",
+      "trading",
+      "trading-automation"
+    ]
   }
 ]
