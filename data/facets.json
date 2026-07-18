@@ -14144,5 +14144,154 @@
       "ai researcher",
       "agentic scientist"
     ]
+  },
+  "github:markpdfdown/markpdfdown": {
+    "capability_summary": "A CLI tool that uses multimodal LLMs to convert PDF documents and images into structured Markdown. Designed for developers and researchers needing document automation.",
+    "problem_solved": "Converting complex PDFs into clean, structured Markdown format.",
+    "use_cases": [
+      "pdf-to-markdown",
+      "document-automation",
+      "data-extraction"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pdf2md",
+      "pdf2markdown"
+    ]
+  },
+  "github:jensnesten/rust_bt": {
+    "capability_summary": "A high-performance, modular backtesting and live trading engine built in Rust. It is intended for quantitative finance professionals and algorithmic traders.",
+    "problem_solved": "Developing and testing high-frequency trading strategies with low latency.",
+    "use_cases": [
+      "algorithmic-trading",
+      "backtesting",
+      "quantitative-finance"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "backtesting-engine",
+      "quant-trading-framework"
+    ]
+  },
+  "github:msasanmh/dnsveil": {
+    "capability_summary": "A Windows DNS client and DPI bypass tool that supports secure protocols like DNSCrypt and DoH. It is designed for users seeking privacy and censorship circumvention.",
+    "problem_solved": "Bypassing internet censorship and securing DNS queries on Windows.",
+    "use_cases": [
+      "censorship-circumvention",
+      "privacy-protection",
+      "dns-security"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "goodbyedpi-wrapper",
+      "anti-censorship-tool"
+    ]
+  },
+  "github:huytieu/cog-second-brain": {
+    "capability_summary": "A framework for a self-evolving knowledge management system using AI agents. It is built for productivity enthusiasts and teams managing markdown-based knowledge.",
+    "problem_solved": "Automating knowledge management and task tracking via AI agents.",
+    "use_cases": [
+      "knowledge-management",
+      "ai-agent-automation",
+      "productivity-tools"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "second-brain",
+      "ai-agent-framework"
+    ]
+  },
+  "github:lihaoyun6/airbattery": {
+    "capability_summary": "A macOS utility that monitors and displays battery status for connected Apple devices. Designed for Apple ecosystem users.",
+    "problem_solved": "Tracking battery levels of multiple Apple devices from a single Mac interface.",
+    "use_cases": [
+      "battery-monitoring",
+      "hardware-utility"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "battery-monitor",
+      "apple-device-utility"
+    ]
+  },
+  "github:mthcht/awesome-lists": {
+    "capability_summary": "A curated collection of threat hunting lists, IOCs, and detection engineering resources. Intended for SOC and DFIR security professionals.",
+    "problem_solved": "Finding reliable threat intelligence and detection engineering resources.",
+    "use_cases": [
+      "threat-hunting",
+      "incident-response",
+      "security-detection"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-security-list",
+      "threat-intel-resources"
+    ]
+  },
+  "github:danielsaidi/systemnotification": {
+    "capability_summary": "A SwiftUI library for implementing native-style system notifications in iOS apps. Designed for mobile developers.",
+    "problem_solved": "Adding consistent, native-looking toast notifications to iOS applications.",
+    "use_cases": [
+      "ios-ui-components",
+      "mobile-development"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "ios"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "swiftui-toast",
+      "ios-notification-library"
+    ]
+  },
+  "github:kaifcodec/ytconverter": {
+    "capability_summary": "A Python-based CLI wrapper for yt-dlp that provides an interactive menu for downloading and converting YouTube media. Built for power users.",
+    "problem_solved": "Simplifying the process of downloading and converting YouTube videos via CLI.",
+    "use_cases": [
+      "youtube-downloader",
+      "media-conversion",
+      "cli-automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "yt-dlp-wrapper",
+      "youtube-downloader"
+    ]
   }
 }
