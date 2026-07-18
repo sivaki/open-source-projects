@@ -14293,5 +14293,105 @@
       "yt-dlp-wrapper",
       "youtube-downloader"
     ]
+  },
+  "github:blinkospace/blinko": {
+    "capability_summary": "A self-hosted note-taking app that uses AI and RAG to help users capture and retrieve information efficiently.",
+    "problem_solved": "Managing personal knowledge with AI-assisted retrieval.",
+    "use_cases": [
+      "markdown note-taking",
+      "AI knowledge retrieval",
+      "personal knowledge management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "obsidian alternative",
+      "self-hosted notion"
+    ]
+  },
+  "github:outworked/outworked": {
+    "capability_summary": "A desktop platform that orchestrates AI agents to perform complex tasks like coding and web browsing.",
+    "problem_solved": "Automating multi-step workflows using AI agents.",
+    "use_cases": [
+      "agent orchestration",
+      "automated coding",
+      "web automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent platform",
+      "MCP client"
+    ]
+  },
+  "github:hascheksolutions/opentrashmail": {
+    "capability_summary": "A self-hosted temporary email server providing web, API, and RSS access for disposable mail.",
+    "problem_solved": "Managing temporary email addresses for automation and testing.",
+    "use_cases": [
+      "disposable email",
+      "2FA testing",
+      "email automation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "temp mail server",
+      "disposable email service"
+    ]
+  },
+  "github:drsexo/frosty": {
+    "capability_summary": "An Android root module that optimizes battery life and system performance through kernel and service tweaks.",
+    "problem_solved": "Poor battery life and system bloat on rooted Android devices.",
+    "use_cases": [
+      "battery optimization",
+      "android performance tuning",
+      "system bloat removal"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "magisk module",
+      "android battery saver"
+    ]
+  },
+  "github:xang1234/stock-screener": {
+    "capability_summary": "A self-hosted stock screening platform for technical and fundamental analysis with AI-driven market insights.",
+    "problem_solved": "Automating stock market analysis and discovery.",
+    "use_cases": [
+      "stock screening",
+      "financial analysis",
+      "market breadth tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "trading automation",
+      "financial dashboard"
+    ]
   }
 }
