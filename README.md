@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 125 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 130 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [xang1234/stock-screener](https://github.com/xang1234/stock-screener) ⭐ | finance-automation | `trading` `automation` `self-hosting` `docker` `finance` `llm` | A comprehensive, self-hosted multi-market stock screening platform featuring technical/fundamental analysis, market breadth indicators, and AI-driven theme discovery. | 220 | 2026-07-18 |
+| [drsexo/frosty](https://github.com/drsexo/frosty) ⭐ | Android Optimization | `android` `root` `battery-saver` `privacy` `optimization` | A comprehensive Android root module (Magisk/KSU/APatch) designed to optimize battery life by managing Google Play Services, aggressive Doze settings, and system-level kernel/RAM tweaks. | 153 | 2026-07-18 |
+| [hascheksolutions/opentrashmail](https://github.com/hascheksolutions/opentrashmail) ⭐ | self-hosting | `self-hosted` `email` `automation` `api` `docker` | A self-hosted, file-based temporary email server that provides a web UI, JSON API, and RSS feeds for managing incoming mail, useful for automation and 2FA testing. | 877 | 2026-07-18 |
+| [outworked/outworked](https://github.com/outworked/outworked) ⭐ | AI/LLM Tooling | `agentic-ai` `automation` `developer-tools` `mcp` `electron` | A desktop-based agent orchestration platform that visualizes AI agents as office workers, allowing them to perform complex tasks like coding, web browsing, and messaging via MCP servers. | 315 | 2026-07-18 |
+| [blinkospace/blinko](https://github.com/blinkospace/blinko) ⭐ | Self-hosted Productivity | `ai` `self-hosted` `markdown` `rag` `productivity` | Blinko is a self-hosted, AI-powered note-taking application that utilizes RAG for intelligent retrieval and supports Markdown for efficient idea capture. | 10726 | 2026-07-18 |
 | [kaifcodec/ytconverter](https://github.com/kaifcodec/ytconverter) ⭐ | Developer Tools | `cli` `youtube-dl` `ffmpeg` `automation` `python` | A Python-based CLI wrapper around yt-dlp that provides an interactive menu for downloading and converting YouTube media. | 514 | 2026-07-18 |
 | [danielsaidi/systemnotification](https://github.com/danielsaidi/systemnotification) ⭐ | Developer Tools | `swift` `swiftui` `ios` `ui-components` `mobile-development` | A SwiftUI library that allows developers to easily implement native-style system notifications within their iOS applications. | 929 | 2026-07-18 |
 | [mthcht/awesome-lists](https://github.com/mthcht/awesome-lists) ⭐ | Security & Threat Intelligence | `threat-hunting` `soc` `dfir` `detection-engineering` `security` | A comprehensive collection of curated threat hunting lists, indicators of compromise (IOCs), and detection engineering resources for SOC and DFIR teams. | 1702 | 2026-07-18 |
