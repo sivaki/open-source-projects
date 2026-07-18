@@ -14393,5 +14393,290 @@
       "trading automation",
       "financial dashboard"
     ]
+  },
+  "github:itskovacs/wingfit": {
+    "capability_summary": "A minimalist, self-hosted fitness and workout tracker for privacy-conscious users.",
+    "problem_solved": "Tracking workouts while maintaining full ownership of health data.",
+    "use_cases": [
+      "workout tracking",
+      "fitness logging",
+      "self-hosted health dashboard"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "fitness tracker",
+      "workout log"
+    ]
+  },
+  "github:aandrew-me/ytdownloader": {
+    "capability_summary": "A cross-platform GUI wrapper for yt-dlp to simplify media downloads and compression.",
+    "problem_solved": "Downloading media from various websites without using command-line tools.",
+    "use_cases": [
+      "video downloading",
+      "media compression",
+      "youtube downloader"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "yt-dlp gui",
+      "video downloader"
+    ]
+  },
+  "github:cristianolivera1/openvid": {
+    "capability_summary": "A browser-based video editor and mockup generator using FFmpeg.wasm and Three.js.",
+    "problem_solved": "Creating professional product demos and mockups directly in the browser.",
+    "use_cases": [
+      "video editing",
+      "mockup generation",
+      "product demo creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "browser video editor",
+      "mockup tool"
+    ]
+  },
+  "github:gridex/gridex": {
+    "capability_summary": "A high-performance database IDE with AI integration and MCP support.",
+    "problem_solved": "Managing multiple SQL and NoSQL databases with AI-assisted workflows.",
+    "use_cases": [
+      "database management",
+      "sql development",
+      "ai-assisted querying"
+    ],
+    "project_type": "app",
+    "platforms": [],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "database ide",
+      "sql client"
+    ]
+  },
+  "github:likec4/likec4": {
+    "capability_summary": "An architecture-as-code tool for defining software architecture and generating interactive diagrams.",
+    "problem_solved": "Maintaining up-to-date software architecture documentation.",
+    "use_cases": [
+      "architecture diagramming",
+      "documentation as code",
+      "c4 model generation"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "architecture-as-code",
+      "diagram tool"
+    ]
+  },
+  "github:the-pocket/pocketflow-tutorial-codebase-knowledge": {
+    "capability_summary": "An AI-powered tool that crawls GitHub repositories to generate tutorials and documentation.",
+    "problem_solved": "Understanding complex codebases through automated, beginner-friendly explanations.",
+    "use_cases": [
+      "codebase documentation",
+      "tutorial generation",
+      "ai-assisted learning"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "ai documentation tool",
+      "codebase explainer"
+    ]
+  },
+  "github:xullexer/pydns-scanner": {
+    "capability_summary": "A high-performance, asynchronous DNS scanner for identifying network characteristics.",
+    "problem_solved": "Finding working DNS servers and analyzing network security configurations.",
+    "use_cases": [
+      "dns scanning",
+      "network diagnostics",
+      "proxy tunnel testing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dns scanner",
+      "network tool"
+    ]
+  },
+  "github:techxartisanstudio/openterface_mini-kvm_hardware": {
+    "capability_summary": "An open-source hardware project for a compact USB/HDMI KVM device.",
+    "problem_solved": "Controlling headless computers remotely from a laptop.",
+    "use_cases": [
+      "kvm",
+      "remote hardware control",
+      "homelab management"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "usb kvm",
+      "hardware kvm"
+    ]
+  },
+  "github:supermemoryai/claude-supermemory": {
+    "capability_summary": "A plugin for Claude Code that enables persistent, cross-session memory.",
+    "problem_solved": "Losing project context between different AI chat sessions.",
+    "use_cases": [
+      "ai memory",
+      "context management",
+      "productivity plugin"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "claude memory",
+      "ai context tool"
+    ]
+  },
+  "github:evidence-dev/evidence": {
+    "capability_summary": "A business intelligence framework for building interactive data dashboards using SQL and Markdown.",
+    "problem_solved": "Creating data reports and dashboards using a code-first approach.",
+    "use_cases": [
+      "data visualization",
+      "business intelligence",
+      "dashboarding"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "bi tool",
+      "data dashboarding"
+    ]
+  },
+  "github:sylearn/aiusage": {
+    "capability_summary": "A macOS native dashboard and proxy manager for AI development tools. It helps developers track usage, monitor costs, and proxy requests across multiple AI providers.",
+    "problem_solved": "Centralizing and monitoring AI API usage and costs for CLI tools.",
+    "use_cases": [
+      "cost monitoring",
+      "AI proxy management",
+      "usage tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "cli"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "AI proxy",
+      "LLM usage tracker"
+    ]
+  },
+  "github:cassandra/home-information": {
+    "capability_summary": "A spatial, visual home management hub that integrates with home-lab tools. It centralizes maintenance records, manuals, and device controls.",
+    "problem_solved": "Fragmented home-lab documentation and device management.",
+    "use_cases": [
+      "home automation",
+      "maintenance tracking",
+      "device management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "home dashboard",
+      "home-lab hub"
+    ]
+  },
+  "github:braedonsaunders/homerun": {
+    "capability_summary": "A Python-based platform for building, backtesting, and executing automated trading strategies. It focuses on prediction markets like Polymarket and Kalshi.",
+    "problem_solved": "Automating trading strategies on prediction markets.",
+    "use_cases": [
+      "algorithmic trading",
+      "backtesting",
+      "crypto trading",
+      "prediction markets"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading bot",
+      "quant finance platform"
+    ]
+  },
+  "github:drivebase/drivebase": {
+    "capability_summary": "A cloud-agnostic file management platform that unifies multiple storage providers under a single web interface. It acts as a self-hosted alternative to cloud storage services.",
+    "problem_solved": "Managing files across fragmented cloud storage providers.",
+    "use_cases": [
+      "file management",
+      "cloud storage aggregation",
+      "self-hosted storage"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "cloud storage manager",
+      "self-hosted dropbox"
+    ]
+  },
+  "github:aaronjmars/miroshark": {
+    "capability_summary": "A swarm intelligence engine that simulates complex scenarios using hundreds of autonomous agents. It models interactions via simulated social media and prediction markets.",
+    "problem_solved": "Simulating complex social and financial scenarios using agent swarms.",
+    "use_cases": [
+      "AI simulation",
+      "financial forecasting",
+      "swarm intelligence"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "agent swarm",
+      "AI simulation engine"
+    ]
   }
 }
