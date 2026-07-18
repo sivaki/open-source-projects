@@ -1,11 +1,19 @@
 # Curated Repos
 
-Auto-generated list of 117 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 125 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [kaifcodec/ytconverter](https://github.com/kaifcodec/ytconverter) ⭐ | Developer Tools | `cli` `youtube-dl` `ffmpeg` `automation` `python` | A Python-based CLI wrapper around yt-dlp that provides an interactive menu for downloading and converting YouTube media. | 514 | 2026-07-18 |
+| [danielsaidi/systemnotification](https://github.com/danielsaidi/systemnotification) ⭐ | Developer Tools | `swift` `swiftui` `ios` `ui-components` `mobile-development` | A SwiftUI library that allows developers to easily implement native-style system notifications within their iOS applications. | 929 | 2026-07-18 |
+| [mthcht/awesome-lists](https://github.com/mthcht/awesome-lists) ⭐ | Security & Threat Intelligence | `threat-hunting` `soc` `dfir` `detection-engineering` `security` | A comprehensive collection of curated threat hunting lists, indicators of compromise (IOCs), and detection engineering resources for SOC and DFIR teams. | 1702 | 2026-07-18 |
+| [lihaoyun6/airbattery](https://github.com/lihaoyun6/airbattery) ⭐ | Developer Tools | `macos` `utility` `hardware` `monitoring` `apple` | A macOS utility that aggregates battery status for connected Apple devices (iPhone, iPad, Watch) and displays them in the Dock, menu bar, or widgets. | 2881 | 2026-07-18 |
+| [huytieu/cog-second-brain](https://github.com/huytieu/cog-second-brain) ⭐ | AI/LLM Tooling | `ai-agents` `knowledge-management` `automation` `productivity` `markdown` | A framework for a self-evolving 'second brain' that uses AI agents to manage markdown-based knowledge, task tracking, and team intelligence workflows. | 624 | 2026-07-18 |
+| [msasanmh/dnsveil](https://github.com/msasanmh/dnsveil) ⭐ | security and privacy tooling | `dns` `privacy` `censorship-circumvention` `windows` `networking` | A Windows-based DNS client and DPI bypass tool that supports multiple secure protocols like DNSCrypt, DoH, and DoT, while integrating GoodbyeDPI for censorship circumvention. | 1298 | 2026-07-18 |
+| [jensnesten/rust_bt](https://github.com/jensnesten/rust_bt) ⭐ | quantitative-finance | `rust` `trading` `backtesting` `quant` `finance` | A high-performance, modular backtesting and live trading engine written in Rust, designed for quantitative finance strategies. | 79 | 2026-07-18 |
+| [markpdfdown/markpdfdown](https://github.com/markpdfdown/markpdfdown) ⭐ | AI/LLM Tooling | `llm` `pdf` `markdown` `cli` `automation` `multimodal` | A high-quality CLI tool that leverages multimodal LLMs via LiteLLM to convert complex PDF documents and images into structured Markdown. | 1781 | 2026-07-18 |
 | [sakanaai/ai-scientist-v2](https://github.com/sakanaai/ai-scientist-v2) ⭐ | AI/LLM Tooling | `ai` `automation` `research` `llm` `agentic` | An advanced agentic system designed to automate scientific research, including hypothesis generation, experiment execution, and manuscript writing using LLMs. | 6852 | 2026-07-17 |
 | [njengah/claude-code-cheat-sheet](https://github.com/njengah/claude-code-cheat-sheet) ⭐ | Developer Tools | `claude` `cli` `ai` `llm` `productivity` | A comprehensive, well-organized cheat sheet and documentation collection for Anthropic's Claude Code CLI tool, covering everything from basic commands to advanced agentic workflows. | 1841 | 2026-07-17 |
 | [elektrostudios/dolphin_emulator_rvz_iso_gamecube_wii_conversion_scripts](https://github.com/elektrostudios/dolphin_emulator_rvz_iso_gamecube_wii_conversion_scripts) ⭐ | Automation | `powershell` `emulation` `automation` `windows` `dolphin` | A collection of PowerShell scripts that automate the conversion of GameCube and Wii ISO files to the space-efficient RVZ format using the official DolphinTool utility. | 83 | 2026-07-17 |
