@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 176 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 180 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [sharpai/deepcamera](https://github.com/sharpai/deepcamera) ⭐ | Home Automation / AI | `ai` `nvr` `computer-vision` `home-lab` `surveillance` `llm` | A comprehensive, modular AI-powered NVR and camera surveillance platform that supports local VLM/LLM analysis, object detection, and agentic automation for home security. | 2919 | 2026-07-19 |
+| [xinyuan-lilygo/t5s3-4.7-e-paper-pro](https://github.com/xinyuan-lilygo/t5s3-4.7-e-paper-pro) ⭐ | Embedded Systems | `esp32` `e-paper` `iot` `hardware` `platformio` | Firmware and UI source code for the LilyGo T5 E-Paper S3 Pro development board, featuring ESP32-S3, LoRa, and GPS capabilities. | 89 | 2026-07-19 |
+| [k-dense-ai/claude-scientific-skills](https://github.com/k-dense-ai/claude-scientific-skills) ⭐ | AI/LLM Tooling | `ai-agents` `bioinformatics` `scientific-computing` `automation` `research` | A comprehensive library of 148 specialized scientific and research skills designed to extend the capabilities of AI agents in fields like bioinformatics, chemistry, and clinical research. | 31214 | 2026-07-19 |
+| [tjboudreaux/cc-thinking-skills](https://github.com/tjboudreaux/cc-thinking-skills) ⭐ | AI/LLM Tooling | `claude-code` `ai-agents` `mental-models` `reasoning` `developer-tools` | A library of 39 structured mental-model and critical-thinking frameworks designed as plugins for Claude Code to improve AI reasoning and decision-making. | 702 | 2026-07-19 |
 | [huridocs/pdf-document-layout-analysis](https://github.com/huridocs/pdf-document-layout-analysis) ⭐ | Developer Tool | `pdf` `ocr` `docker` `automation` `ai` | A Docker-powered microservice for intelligent PDF document layout analysis, OCR, and content extraction, offering both a web UI and a REST API. | 1175 | 2026-07-19 |
 | [ognjengt/founder-skills](https://github.com/ognjengt/founder-skills) ⭐ | AI Tooling | `ai` `claude` `marketing` `copywriting` `founder tools` | A collection of Claude AI skills designed to assist founders with marketing, copywriting, and product development tasks. It offers installation via npx or manual cloning and can be customized with a project-specific context file. | 230 | 2026-07-19 |
 | [automata/aicodeguide](https://github.com/automata/aicodeguide) ⭐ | AI/LLM Tooling | `ai` `coding` `llm` `roadmap` `developer-tools` | A comprehensive roadmap and guide to understanding and utilizing AI for coding, covering concepts like AI coding, vibe coding, and agentic coding. | 2648 | 2026-07-19 |
