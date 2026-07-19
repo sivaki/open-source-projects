@@ -15426,5 +15426,27 @@
       "home-assistant-camera",
       "local-surveillance"
     ]
+  },
+  "github:breferrari/obsidian-mind": {
+    "capability_summary": "An Obsidian vault template that enables persistent memory for AI coding agents. It helps developers maintain context across sessions by integrating AI workflows with local knowledge management.",
+    "problem_solved": "AI coding agents losing context or memory between sessions.",
+    "use_cases": [
+      "AI agent memory management",
+      "knowledge base automation",
+      "developer workflow optimization",
+      "Obsidian vault organization"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Obsidian AI template",
+      "AI agent persistent memory"
+    ]
   }
 }
