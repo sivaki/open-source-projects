@@ -8046,5 +8046,48 @@
       "video-surveillance",
       "vlm"
     ]
+  },
+  {
+    "id": "github:breferrari/obsidian-mind",
+    "url": "https://github.com/breferrari/obsidian-mind",
+    "title": "breferrari/obsidian-mind",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078942883290190067",
+    "fetched_at": "2026-07-19T21:13:23.521137Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An Obsidian vault template that provides persistent memory for AI coding agents like Claude Code, Codex, and Gemini by integrating with local knowledge management workflows.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "obsidian",
+      "ai-agents",
+      "knowledge-management",
+      "automation",
+      "developer-tools"
+    ],
+    "risk_notes": "Installs via npm global package 'shardmind' or git clone. Requires local filesystem access to your Obsidian vault. It integrates with AI CLI tools, meaning it will likely require your personal API keys (Anthropic/OpenAI/Google) to function. The project is additive and non-load-bearing, allowing for easy removal of the sidecar files if needed.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-02-28T21:41:41Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-19T21:13:29.516108Z",
+    "stars": 3379,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-19T13:17:12Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "codex-cli",
+      "gemini-cli",
+      "knowledge-management",
+      "obsidian",
+      "obsidian-vault",
+      "persistent-memory",
+      "second-brain",
+      "template"
+    ]
   }
 ]
