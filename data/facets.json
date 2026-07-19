@@ -15057,5 +15057,291 @@
     "cost": "free-selfhost",
     "human_languages": [],
     "aliases": []
+  },
+  "github:superlinked/sie": {
+    "capability_summary": "An open-source inference server and production cluster for serving AI models in agent tasks like search and document processing. It provides an OpenAI-compatible API for developers and ML engineers.",
+    "problem_solved": "Serving AI models for agent tasks in production",
+    "use_cases": [
+      "llm inference",
+      "rag",
+      "mlops",
+      "semantic search",
+      "agent tasks"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "like OpenAI API"
+    ]
+  },
+  "github:godsscion/auto_job_applier_linkedin": {
+    "capability_summary": "Automates the LinkedIn job application process by scraping job postings, customizing resumes with AI, and submitting applications. It's for job seekers looking to save time.",
+    "problem_solved": "Automating LinkedIn job applications",
+    "use_cases": [
+      "job search automation",
+      "linkedin scraping",
+      "resume customization",
+      "auto-apply"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "linkedin job scraper"
+    ]
+  },
+  "github:apify/agent-skills": {
+    "capability_summary": "A collection of Apify Agent Skills that give AI coding agents web scraping and automation capabilities on the Apify platform. Useful for developers building AI agents.",
+    "problem_solved": "Adding web scraping and automation to AI agents",
+    "use_cases": [
+      "ai agent development",
+      "web scraping",
+      "automation",
+      "developer tools"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:evan361425/flutter-pos-system": {
+    "capability_summary": "An open-source Flutter-based Point of Sale (POS) system for small businesses, offering inventory and customer management with offline capabilities. Suitable for retail and service businesses.",
+    "problem_solved": "Managing sales, inventory, and customers for small businesses",
+    "use_cases": [
+      "point of sale",
+      "inventory management",
+      "customer tracking",
+      "offline business operations"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android",
+      "ios",
+      "web",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "flutter pos"
+    ]
+  },
+  "github:agentichealthai/awesome-ai-agents-for-healthcare": {
+    "capability_summary": "A curated list of resources on Agentic AI and AI agents applied to healthcare. It's for researchers and developers interested in AI in the medical field.",
+    "problem_solved": "Discovering AI agent applications in healthcare",
+    "use_cases": [
+      "ai in healthcare",
+      "medical ai agents",
+      "research survey",
+      "llm for medicine"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list"
+    ]
+  },
+  "github:maxmiksa/auto-company": {
+    "capability_summary": "An autonomous AI company simulation that ideates, codes, deploys, and markets products 24/7 using multiple AI agents. For developers and researchers exploring autonomous AI systems.",
+    "problem_solved": "Simulating an autonomous AI company",
+    "use_cases": [
+      "autonomous agents",
+      "ai company simulation",
+      "automated product development",
+      "llm agents"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "autonomous ai"
+    ]
+  },
+  "github:nagix/mini-tokyo-3d": {
+    "capability_summary": "A real-time 3D digital map of Tokyo's public transport system using JavaScript. It's for visualizing transportation data and offers multi-language support.",
+    "problem_solved": "Visualizing Tokyo's public transport in real-time 3D",
+    "use_cases": [
+      "transportation visualization",
+      "3d map",
+      "real-time data",
+      "tokyo transit"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english",
+      "japanese"
+    ],
+    "aliases": [
+      "tokyo subway map 3d"
+    ]
+  },
+  "github:knightnemo/awesome-world-models": {
+    "capability_summary": "A curated list of resources on world modeling, covering applications in embodied AI, autonomous driving, and NLP. For AI researchers and practitioners.",
+    "problem_solved": "Discovering resources on AI world models",
+    "use_cases": [
+      "world models",
+      "embodied ai",
+      "autonomous driving",
+      "nlp research"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "like world models"
+    ]
+  },
+  "github:rayenghanmi/rytunex": {
+    "capability_summary": "A Windows optimization tool built with WinUI 3 and .NET 10 to enhance system performance, privacy, and usability. It's for Windows users seeking to debloat and optimize their system.",
+    "problem_solved": "Optimizing Windows system performance and privacy",
+    "use_cases": [
+      "windows optimization",
+      "system debloat",
+      "performance tuning",
+      "privacy enhancement"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "windows debloater",
+      "system optimizer"
+    ]
+  },
+  "github:bluewave-labs/checkmate": {
+    "capability_summary": "An open-source, self-hosted tool for monitoring server hardware, uptime, and response times with real-time visualizations. It's for system administrators and DevOps engineers.",
+    "problem_solved": "Self-hosted server and uptime monitoring",
+    "use_cases": [
+      "server monitoring",
+      "uptime monitoring",
+      "incident management",
+      "infrastructure monitoring",
+      "raspberry pi"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "docker",
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "like UptimeRobot"
+    ]
+  },
+  "github:andronixapp/andronixorigin": {
+    "capability_summary": "Andronix enables users to install and run Linux distributions on Android devices via Termux and PRoot. It's for Android users who want a full Linux environment on their mobile devices.",
+    "problem_solved": "Running Linux distributions on Android devices.",
+    "use_cases": [
+      "linux on android",
+      "termux",
+      "self-hosting",
+      "mobile development environment"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:automata/aicodeguide": {
+    "capability_summary": "This is a roadmap and guide for understanding and using AI in coding, including concepts like AI coding, vibe coding, and agentic coding. It's for developers and students interested in AI-assisted software development.",
+    "problem_solved": "Learning how to use AI for coding.",
+    "use_cases": [
+      "ai coding roadmap",
+      "llm for developers",
+      "agentic coding",
+      "vibe coding"
+    ],
+    "project_type": "dataset",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "like aicoding"
+    ]
+  },
+  "github:ognjengt/founder-skills": {
+    "capability_summary": "A collection of Claude AI skills to help founders with marketing, copywriting, and product development. It's for founders and marketers looking to leverage AI for content creation and business tasks.",
+    "problem_solved": "AI-powered marketing and copywriting for founders.",
+    "use_cases": [
+      "ai copywriting",
+      "founder marketing tools",
+      "claude ai skills",
+      "product development assistance"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "like claude ai"
+    ]
+  },
+  "github:huridocs/pdf-document-layout-analysis": {
+    "capability_summary": "A Dockerized microservice for analyzing PDF layouts, performing OCR, and extracting content using AI. It provides a web UI and REST API for automated document processing. Suitable for developers and businesses needing to process PDF documents.",
+    "problem_solved": "Automated intelligent analysis and extraction from PDF documents.",
+    "use_cases": [
+      "pdf analysis",
+      "ocr",
+      "document content extraction",
+      "ai document processing",
+      "docker service"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "web",
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "like pdf ocr"
+    ]
   }
 }
