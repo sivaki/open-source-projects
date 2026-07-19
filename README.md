@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 180 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 181 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [breferrari/obsidian-mind](https://github.com/breferrari/obsidian-mind) ⭐ | AI/LLM Tooling | `obsidian` `ai-agents` `knowledge-management` `automation` `developer-tools` | An Obsidian vault template that provides persistent memory for AI coding agents like Claude Code, Codex, and Gemini by integrating with local knowledge management workflows. | 3379 | 2026-07-19 |
 | [sharpai/deepcamera](https://github.com/sharpai/deepcamera) ⭐ | Home Automation / AI | `ai` `nvr` `computer-vision` `home-lab` `surveillance` `llm` | A comprehensive, modular AI-powered NVR and camera surveillance platform that supports local VLM/LLM analysis, object detection, and agentic automation for home security. | 2919 | 2026-07-19 |
 | [xinyuan-lilygo/t5s3-4.7-e-paper-pro](https://github.com/xinyuan-lilygo/t5s3-4.7-e-paper-pro) ⭐ | Embedded Systems | `esp32` `e-paper` `iot` `hardware` `platformio` | Firmware and UI source code for the LilyGo T5 E-Paper S3 Pro development board, featuring ESP32-S3, LoRa, and GPS capabilities. | 89 | 2026-07-19 |
 | [k-dense-ai/claude-scientific-skills](https://github.com/k-dense-ai/claude-scientific-skills) ⭐ | AI/LLM Tooling | `ai-agents` `bioinformatics` `scientific-computing` `automation` `research` | A comprehensive library of 148 specialized scientific and research skills designed to extend the capabilities of AI agents in fields like bioinformatics, chemistry, and clinical research. | 31214 | 2026-07-19 |
