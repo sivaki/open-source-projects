@@ -14678,5 +14678,384 @@
       "agent swarm",
       "AI simulation engine"
     ]
+  },
+  "github:funnywolf/viper": {
+    "capability_summary": "VIPER is an open-source red teaming and adversary simulation platform. It's for cybersecurity professionals and red teams looking to automate attacks and simulate adversary behavior.",
+    "problem_solved": "Automating red teaming and adversary simulation.",
+    "use_cases": [
+      "red teaming",
+      "cybersecurity automation",
+      "adversary simulation",
+      "post-exploitation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cobalt-strike alternative",
+      "llm-driven automation"
+    ]
+  },
+  "github:blockrunai/awesome-finance-mcp": {
+    "capability_summary": "This is a curated list of Model Context Protocol (MCP) servers focused on financial data and trading. It's for developers and traders in the crypto and DeFi space.",
+    "problem_solved": "Finding MCP servers for financial applications.",
+    "use_cases": [
+      "finance AI agents",
+      "crypto trading",
+      "DeFi analysis",
+      "web3 development"
+    ],
+    "project_type": "dataset",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "finance AI",
+      "trading bots"
+    ]
+  },
+  "github:infoslack/awesome-web-hacking": {
+    "capability_summary": "A long-standing curated list of resources for web application security. It's for security professionals, pentesters, and developers learning about web security.",
+    "problem_solved": "Discovering web application security resources.",
+    "use_cases": [
+      "web security",
+      "penetration testing",
+      "OWASP resources",
+      "hacking tools"
+    ],
+    "project_type": "dataset",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "pentesting resources",
+      "appsec"
+    ]
+  },
+  "github:opendronemap/webodm": {
+    "capability_summary": "WebODM is a self-hosted platform for processing drone imagery into maps and 3D models. It's for drone operators, surveyors, and GIS professionals.",
+    "problem_solved": "Processing aerial drone imagery into geospatial data.",
+    "use_cases": [
+      "photogrammetry",
+      "drone mapping",
+      "3D modeling",
+      "GIS",
+      "self-hosted"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "drone processing",
+      "geospatial automation"
+    ]
+  },
+  "github:tugcantopaloglu/openclaw-dashboard": {
+    "capability_summary": "A self-hosted dashboard for managing OpenClaw AI agents. It's for developers and DevOps engineers monitoring AI agent performance and costs.",
+    "problem_solved": "Monitoring and managing AI agents.",
+    "use_cases": [
+      "AI agent dashboard",
+      "self-hosted monitoring",
+      "DevOps",
+      "cost tracking",
+      "Raspberry Pi"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "raspberry-pi",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OpenClaw AI",
+      "real-time analytics"
+    ]
+  },
+  "github:batear-io/batear": {
+    "capability_summary": "An edge-computing acoustic drone detection system for ESP32. It integrates with Home Assistant for home lab and IoT security applications.",
+    "problem_solved": "Detecting drones using acoustic sensors.",
+    "use_cases": [
+      "drone detection",
+      "IoT security",
+      "ESP32",
+      "Home Assistant integration",
+      "acoustic sensing"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "raspberry-pi",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "acoustic drone detection",
+      "lora"
+    ]
+  },
+  "github:jtenniswood/espcontrol": {
+    "capability_summary": "A firmware for ESP32 touchscreens that provides a drag-and-drop control panel for Home Assistant. It's for smart home enthusiasts and DIY automation users.",
+    "problem_solved": "Creating a simple Home Assistant control panel.",
+    "use_cases": [
+      "Home Assistant",
+      "ESP32",
+      "smart home automation",
+      "DIY control panel",
+      "IoT"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ESP32 dashboard",
+      "drag and drop Home Assistant"
+    ]
+  },
+  "github:vincelwt/gloomberb": {
+    "capability_summary": "A keyboard-driven finance terminal (TUI) and desktop app for market data and portfolio tracking. It's for traders, investors, and finance professionals.",
+    "problem_solved": "Accessing financial market data in the terminal.",
+    "use_cases": [
+      "finance terminal",
+      "market data",
+      "portfolio tracking",
+      "TUI",
+      "AI research tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Bloomberg Terminal alternative",
+      "open-source finance"
+    ]
+  },
+  "github:saynaai/sayna": {
+    "capability_summary": "A high-performance Rust server for voice processing (STT/TTS) with real-time streaming. It's for developers building voice-enabled applications.",
+    "problem_solved": "Integrating speech-to-text and text-to-speech in applications.",
+    "use_cases": [
+      "speech-to-text",
+      "text-to-speech",
+      "voice AI",
+      "real-time streaming",
+      "websocket"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "voice processing server",
+      "Rust STT TTS"
+    ]
+  },
+  "github:homelab-00/transcriptionsuite": {
+    "capability_summary": "A local-first GUI application for managing various speech-to-text backends. It's for users prioritizing privacy and local processing for transcriptions.",
+    "problem_solved": "Managing local speech-to-text transcriptions.",
+    "use_cases": [
+      "speech-to-text",
+      "local-first transcription",
+      "Whisper",
+      "privacy",
+      "diarization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "transcription dashboard",
+      "local STT"
+    ]
+  },
+  "github:khast3x/h8mail": {
+    "capability_summary": "An OSINT tool for finding email breaches and gathering reconnaissance data by integrating with public and premium data breach APIs. It's for security researchers and professionals.",
+    "problem_solved": "Finding email addresses linked to data breaches.",
+    "use_cases": [
+      "osint",
+      "email breach hunting",
+      "reconnaissance",
+      "infosec"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "like haveibeenpwned",
+      "like theharvester"
+    ]
+  },
+  "github:caido/caido": {
+    "capability_summary": "A modern, lightweight web security auditing and intercepting proxy tool. It's designed for penetration testers and bug bounty hunters as a faster alternative to Burp Suite.",
+    "problem_solved": "Intercepting and auditing web traffic for security vulnerabilities.",
+    "use_cases": [
+      "pentesting",
+      "web security",
+      "proxy",
+      "bug bounty"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "like burp suite"
+    ]
+  },
+  "github:techunrestricted/windiskwriter": {
+    "capability_summary": "A macOS utility for creating bootable Windows USB installers. It supports UEFI/Legacy modes and can bypass Windows 11 hardware requirements, aimed at users needing to install Windows.",
+    "problem_solved": "Creating bootable Windows USB drives on macOS.",
+    "use_cases": [
+      "bootable usb",
+      "windows installer",
+      "macos utility",
+      "windows 11 bypass"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:dongdongbh/mindwtr": {
+    "capability_summary": "A local-first, privacy-focused GTD task management application for desktop and mobile. It includes an MCP server for AI integration, for individuals managing tasks and personal information.",
+    "problem_solved": "Managing tasks and personal information with a focus on privacy and local control.",
+    "use_cases": [
+      "gtd",
+      "task management",
+      "local-first",
+      "productivity",
+      "personal management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "android",
+      "ios",
+      "cross-platform"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "like second brain"
+    ]
+  },
+  "github:kolapsis/maintenant": {
+    "capability_summary": "A self-hosted monitoring solution for stacks, combining container discovery, uptime checks, SSL tracking, and resource metrics. It's for users managing homelabs or self-hosted services.",
+    "problem_solved": "Unified monitoring for self-hosted applications and infrastructure.",
+    "use_cases": [
+      "monitoring",
+      "docker",
+      "homelab",
+      "observability",
+      "uptime"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "like uptime kuma"
+    ]
+  },
+  "github:dominostars/playtranslate": {
+    "capability_summary": "An Android utility for real-time screen translation and OCR, with dictionary lookups and Anki/Yomitan integration. It's for language learners and users interacting with foreign language content on Android.",
+    "problem_solved": "Real-time screen translation and OCR on Android.",
+    "use_cases": [
+      "android",
+      "ocr",
+      "translation",
+      "language learning",
+      "automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "like yomitan"
+    ]
+  },
+  "github:portabase/portabase": {
+    "capability_summary": "A self-hosted platform for managing database backups and restores across various SQL and NoSQL engines. It provides a centralized dashboard and distributed agents for DevOps and system administrators.",
+    "problem_solved": "Centralized management of database backups for self-hosted environments.",
+    "use_cases": [
+      "backup",
+      "self-hosted",
+      "database",
+      "docker",
+      "automation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": []
   }
 }
