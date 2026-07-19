@@ -15343,5 +15343,88 @@
     "aliases": [
       "like pdf ocr"
     ]
+  },
+  "github:tjboudreaux/cc-thinking-skills": {
+    "capability_summary": "A collection of mental-model frameworks designed as plugins for Claude Code to enhance AI reasoning. It helps developers improve the decision-making and problem-solving capabilities of their AI agents.",
+    "problem_solved": "Improving AI reasoning and critical thinking in Claude Code agents.",
+    "use_cases": [
+      "ai-agent reasoning",
+      "decision-making frameworks",
+      "systems-thinking",
+      "first-principles analysis"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-plugins",
+      "ai-reasoning-tools"
+    ]
+  },
+  "github:k-dense-ai/claude-scientific-skills": {
+    "capability_summary": "A library of 148 specialized scientific research skills for AI agents. It enables AI to perform complex tasks in bioinformatics, chemistry, and clinical research.",
+    "problem_solved": "Extending AI agent capabilities for scientific research and data analysis.",
+    "use_cases": [
+      "bioinformatics",
+      "drug-discovery",
+      "genomics",
+      "scientific-visualization"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-scientific-tools",
+      "ai-research-assistant"
+    ]
+  },
+  "github:xinyuan-lilygo/t5s3-4.7-e-paper-pro": {
+    "capability_summary": "Firmware and UI source code for the LilyGo T5 E-Paper S3 Pro development board. It provides the necessary drivers and interface logic for ESP32-S3 based e-paper displays.",
+    "problem_solved": "Developing software for LilyGo T5 E-Paper hardware.",
+    "use_cases": [
+      "iot-development",
+      "e-paper-displays",
+      "embedded-firmware",
+      "lora-gps-projects"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "lilygo-firmware",
+      "esp32-e-paper"
+    ]
+  },
+  "github:sharpai/deepcamera": {
+    "capability_summary": "A modular AI-powered NVR and surveillance platform that runs locally. It uses computer vision and LLMs to provide object detection and security automation.",
+    "problem_solved": "Building a private, AI-enhanced home security and surveillance system.",
+    "use_cases": [
+      "home-security",
+      "object-detection",
+      "video-surveillance",
+      "local-ai-analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi",
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-nvr",
+      "home-assistant-camera",
+      "local-surveillance"
+    ]
   }
 }
