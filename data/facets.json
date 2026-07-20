@@ -15448,5 +15448,136 @@
       "Obsidian AI template",
       "AI agent persistent memory"
     ]
+  },
+  "github:valhalla/valhalla": {
+    "capability_summary": "A high-performance routing engine for OpenStreetMap data supporting multi-modal directions and isochrones.",
+    "problem_solved": "Need for custom, self-hosted geospatial routing and navigation services.",
+    "use_cases": [
+      "multi-modal routing",
+      "isochrone generation",
+      "matrix calculations"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OSRM",
+      "GraphHopper"
+    ]
+  },
+  "github:alexeygrigorev/ai-engineering-field-guide": {
+    "capability_summary": "A data-driven career guide for AI engineers covering interview prep, skills, and market trends.",
+    "problem_solved": "Navigating the AI engineering job market and career progression.",
+    "use_cases": [
+      "interview preparation",
+      "career planning",
+      "skill analysis"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "AI career guide"
+    ]
+  },
+  "github:0xk3vin/megamemory": {
+    "capability_summary": "An MCP server providing persistent, graph-based knowledge storage for AI coding agents.",
+    "problem_solved": "AI agents losing context across coding sessions.",
+    "use_cases": [
+      "persistent memory for LLMs",
+      "knowledge graph storage",
+      "agentic coding context"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "MCP server",
+      "AI memory"
+    ]
+  },
+  "github:meisnerdan/mission-control": {
+    "capability_summary": "An agent-first task management command center for orchestrating autonomous AI agents.",
+    "problem_solved": "Managing and tracking autonomous AI agent workflows and costs.",
+    "use_cases": [
+      "task orchestration",
+      "AI agent management",
+      "workflow automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "AI agent dashboard"
+    ]
+  },
+  "github:corbell-ai/corbell": {
+    "capability_summary": "An AI tool that builds a local knowledge graph from codebases for automated documentation and analysis.",
+    "problem_solved": "Understanding complex multi-repo codebases and generating design documentation.",
+    "use_cases": [
+      "code analysis",
+      "design documentation",
+      "spec generation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "code intelligence",
+      "MCP tool"
+    ]
+  },
+  "github:rkiding/awesome-finance-skills": {
+    "capability_summary": "A library of modular skills for AI agents to perform financial analysis and data retrieval.",
+    "problem_solved": "Equipping AI agents with specific financial analysis capabilities.",
+    "use_cases": [
+      "financial analysis",
+      "stock data retrieval",
+      "sentiment analysis"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "fintech AI agents"
+    ]
+  },
+  "github:nerdyslacker/desktop-web-browsers": {
+    "capability_summary": "A curated list of desktop web browsers across various platforms and rendering engines.",
+    "problem_solved": "Finding and comparing different desktop web browsers.",
+    "use_cases": [
+      "browser comparison",
+      "software discovery"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list"
+    ]
   }
 }
