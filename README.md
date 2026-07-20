@@ -1,11 +1,18 @@
 # Curated Repos
 
-Auto-generated list of 181 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 188 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [nerdyslacker/desktop-web-browsers](https://github.com/nerdyslacker/desktop-web-browsers) ⭐ | Awesome List | `browsers` `web` `desktop` `curated-list` | A comprehensive, curated list of desktop web browsers across various platforms and engines. | 581 | 2026-07-20 |
+| [rkiding/awesome-finance-skills](https://github.com/rkiding/awesome-finance-skills) ⭐ | AI Agent Tooling | `ai-agents` `fintech` `automation` `llm` `data-pipeline` | A collection of modular 'skills' for AI agents designed to perform financial analysis, including real-time news aggregation, stock data retrieval, sentiment analysis, and report generation. | 2709 | 2026-07-20 |
+| [corbell-ai/corbell](https://github.com/corbell-ai/corbell) ⭐ | Developer Tools | `ai` `architecture` `cli` `knowledge-graph` `mcp` | Corbell is an AI-powered architecture intelligence tool that builds a local knowledge graph from multi-repo codebases to automate design documentation, spec generation, and task decomposition. | 238 | 2026-07-20 |
+| [meisnerdan/mission-control](https://github.com/meisnerdan/mission-control) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `productivity` `self-hosted` `typescript` | An agent-first task management command center designed to orchestrate autonomous AI agents with approval workflows, cost tracking, and local execution capabilities. | 520 | 2026-07-20 |
+| [0xk3vin/megamemory](https://github.com/0xk3vin/megamemory) ⭐ | AI/LLM Tooling | `mcp` `ai-agents` `knowledge-graph` `sqlite` `developer-tools` | An MCP server that provides persistent, graph-based knowledge storage for coding agents, allowing them to maintain context across sessions using a local SQLite database. | 185 | 2026-07-20 |
+| [alexeygrigorev/ai-engineering-field-guide](https://github.com/alexeygrigorev/ai-engineering-field-guide) ⭐ | career development | `ai` `career` `engineering` `data-science` `hiring` | A comprehensive, data-driven guide to the AI engineering career path, including interview preparation, skill analysis, and job market trends based on thousands of real job descriptions. | 4532 | 2026-07-20 |
+| [valhalla/valhalla](https://github.com/valhalla/valhalla) ⭐ | Developer Tools | `routing` `openstreetmap` `geospatial` `api` `c++` | A high-performance, open-source routing engine for OpenStreetMap data that supports multi-modal routing, isochrones, and matrix calculations. | 5954 | 2026-07-20 |
 | [breferrari/obsidian-mind](https://github.com/breferrari/obsidian-mind) ⭐ | AI/LLM Tooling | `obsidian` `ai-agents` `knowledge-management` `automation` `developer-tools` | An Obsidian vault template that provides persistent memory for AI coding agents like Claude Code, Codex, and Gemini by integrating with local knowledge management workflows. | 3379 | 2026-07-19 |
 | [sharpai/deepcamera](https://github.com/sharpai/deepcamera) ⭐ | Home Automation / AI | `ai` `nvr` `computer-vision` `home-lab` `surveillance` `llm` | A comprehensive, modular AI-powered NVR and camera surveillance platform that supports local VLM/LLM analysis, object detection, and agentic automation for home security. | 2919 | 2026-07-19 |
 | [xinyuan-lilygo/t5s3-4.7-e-paper-pro](https://github.com/xinyuan-lilygo/t5s3-4.7-e-paper-pro) ⭐ | Embedded Systems | `esp32` `e-paper` `iot` `hardware` `platformio` | Firmware and UI source code for the LilyGo T5 E-Paper S3 Pro development board, featuring ESP32-S3, LoRa, and GPS capabilities. | 89 | 2026-07-19 |
