@@ -8089,5 +8089,281 @@
       "second-brain",
       "template"
     ]
+  },
+  {
+    "id": "github:valhalla/valhalla",
+    "url": "https://github.com/valhalla/valhalla",
+    "title": "valhalla/valhalla",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079042024263536977",
+    "fetched_at": "2026-07-20T03:26:56.989714Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, open-source routing engine for OpenStreetMap data that supports multi-modal routing, isochrones, and matrix calculations.",
+    "category": "Developer Tools",
+    "tags": [
+      "routing",
+      "openstreetmap",
+      "geospatial",
+      "api",
+      "c++"
+    ],
+    "risk_notes": "Requires significant system resources and complex compilation from source or Docker deployment. It processes large OSM datasets, requiring substantial disk and memory. It is a mature, actively maintained project, but running a production instance requires careful configuration of network access and data ingestion pipelines.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 916,
+      "created_at": "2016-01-19T19:42:29Z",
+      "homepage": "https://valhalla.github.io/valhalla/"
+    },
+    "added_at": "2026-07-20T03:27:02.876609Z",
+    "stars": 5954,
+    "language": "C++",
+    "pushed_at": "2026-07-19T02:31:57Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "astar",
+      "dijkstra",
+      "directions",
+      "isochrones",
+      "multi-modal",
+      "openstreetmap",
+      "routing",
+      "routing-engine",
+      "tiled",
+      "traveling-salesman"
+    ]
+  },
+  {
+    "id": "github:alexeygrigorev/ai-engineering-field-guide",
+    "url": "https://github.com/alexeygrigorev/ai-engineering-field-guide",
+    "title": "alexeygrigorev/ai-engineering-field-guide",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079026080510300398",
+    "fetched_at": "2026-07-20T03:26:56.990122Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, data-driven guide to the AI engineering career path, including interview preparation, skill analysis, and job market trends based on thousands of real job descriptions.",
+    "category": "career development",
+    "tags": [
+      "ai",
+      "career",
+      "engineering",
+      "data-science",
+      "hiring"
+    ],
+    "risk_notes": "This is a documentation-only repository with no executable code, installation scripts, or binary dependencies. It poses no security risk to your local environment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-02-04T14:17:07Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-20T03:27:08.952542Z",
+    "stars": 4532,
+    "language": "HTML",
+    "pushed_at": "2026-06-29T14:59:03Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:0xk3vin/megamemory",
+    "url": "https://github.com/0xk3vin/megamemory",
+    "title": "0xk3vin/megamemory",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079010955216748562",
+    "fetched_at": "2026-07-20T03:26:56.990470Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An MCP server that provides persistent, graph-based knowledge storage for coding agents, allowing them to maintain context across sessions using a local SQLite database.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "ai-agents",
+      "knowledge-graph",
+      "sqlite",
+      "developer-tools"
+    ],
+    "risk_notes": "Installed via npm (-g). It runs as a local MCP server, meaning it has read/write access to your project files and creates a .megamemory directory in your workspace. It downloads an embedding model (~23MB) on first use. It is actively maintained and follows standard local-first patterns.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-02-06T07:40:49Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-20T03:27:15.370289Z",
+    "stars": 185,
+    "language": "TypeScript",
+    "pushed_at": "2026-05-03T00:22:07Z",
+    "license": "MIT",
+    "topics": [
+      "agentic-coding",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "code-context",
+      "coding-agent",
+      "embeddings",
+      "knowledge-graph",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "opencode",
+      "persistent-memory",
+      "sqlite",
+      "typescript"
+    ]
+  },
+  {
+    "id": "github:meisnerdan/mission-control",
+    "url": "https://github.com/meisnerdan/mission-control",
+    "title": "meisnerdan/mission-control",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078996330312028186",
+    "fetched_at": "2026-07-20T03:26:56.990825Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An agent-first task management command center designed to orchestrate autonomous AI agents with approval workflows, cost tracking, and local execution capabilities.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "productivity",
+      "self-hosted",
+      "typescript"
+    ],
+    "risk_notes": "Requires careful handling of API keys (e.g., Anthropic/Claude) and potentially sensitive environment credentials. As an agentic tool that executes real-world actions (API calls, web interactions), it should be run in a containerized or isolated environment to prevent unauthorized system access. The project is actively maintained, but users should review the codebase for security implications regarding how it handles local file system access and external API execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 14,
+      "created_at": "2026-02-24T00:21:15Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-20T03:27:21.988984Z",
+    "stars": 520,
+    "language": "TypeScript",
+    "pushed_at": "2026-04-01T15:41:26Z",
+    "license": "AGPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:corbell-ai/corbell",
+    "url": "https://github.com/corbell-ai/corbell",
+    "title": "corbell-ai/corbell",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078982183054709207",
+    "fetched_at": "2026-07-20T03:26:56.991174Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Corbell is an AI-powered architecture intelligence tool that builds a local knowledge graph from multi-repo codebases to automate design documentation, spec generation, and task decomposition.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai",
+      "architecture",
+      "cli",
+      "knowledge-graph",
+      "mcp"
+    ],
+    "risk_notes": "Installed via pip. Requires local access to your source code repositories and sensitive API keys (OpenAI/Anthropic/Jira/Linear) to function. It runs locally without a cloud backend, which is a positive security signal, but it does perform semantic indexing of your codebase, so ensure your environment is secure.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-03-08T01:36:52Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-20T03:27:28.593707Z",
+    "stars": 238,
+    "language": "Python",
+    "pushed_at": "2026-05-23T20:34:13Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "code-analysis",
+      "code-embedding",
+      "code-intelligence-mcp",
+      "knowledge-graph",
+      "mcp-server",
+      "python",
+      "static-analysis-plugin",
+      "tree-sitter"
+    ]
+  },
+  {
+    "id": "github:rkiding/awesome-finance-skills",
+    "url": "https://github.com/rkiding/awesome-finance-skills",
+    "title": "rkiding/awesome-finance-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078969026668036481",
+    "fetched_at": "2026-07-20T03:26:56.991513Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of modular 'skills' for AI agents designed to perform financial analysis, including real-time news aggregation, stock data retrieval, sentiment analysis, and report generation.",
+    "category": "AI Agent Tooling",
+    "tags": [
+      "ai-agents",
+      "fintech",
+      "automation",
+      "llm",
+      "data-pipeline"
+    ],
+    "risk_notes": "Installation via 'npx skills' executes remote code from the registry. The skills require access to financial data APIs and potentially local filesystem paths (e.g., ~/.config/opencode/skills/). Users should review the individual skill code for API key handling and network requests before granting agents access to sensitive environments.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-01-31T06:04:45Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-20T03:27:35.121965Z",
+    "stars": 2709,
+    "language": "Python",
+    "pushed_at": "2026-03-29T05:03:47Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "finances",
+      "fintech"
+    ]
+  },
+  {
+    "id": "github:nerdyslacker/desktop-web-browsers",
+    "url": "https://github.com/nerdyslacker/desktop-web-browsers",
+    "title": "nerdyslacker/desktop-web-browsers",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2078955650852233583",
+    "fetched_at": "2026-07-20T03:26:56.991844Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A comprehensive, curated list of desktop web browsers across various platforms and engines.",
+    "category": "Awesome List",
+    "tags": [
+      "browsers",
+      "web",
+      "desktop",
+      "curated-list"
+    ],
+    "risk_notes": "This is a documentation-only repository (HTML/Markdown). There is no code to execute, so there are no security risks associated with the repository itself. However, the external links provided lead to third-party software; users should exercise caution when downloading and installing any browser from the list, as some may contain telemetry or proprietary code.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2023-05-24T11:03:54Z",
+      "homepage": "https://nerdyslacker.github.io/desktop-web-browsers/"
+    },
+    "added_at": "2026-07-20T03:27:41.467403Z",
+    "stars": 581,
+    "language": "HTML",
+    "pushed_at": "2026-07-08T08:30:23Z",
+    "license": null,
+    "topics": [
+      "awesome-list",
+      "blink",
+      "browsers",
+      "chromium",
+      "desktop",
+      "gecko",
+      "linux",
+      "mac",
+      "web",
+      "webkit",
+      "windows"
+    ]
   }
 ]
