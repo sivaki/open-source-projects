@@ -15579,5 +15579,98 @@
     "aliases": [
       "awesome list"
     ]
+  },
+  "github:korroai/mue-x": {
+    "capability_summary": "An experimental AI agent that autonomously rewrites its own source code to learn patterns from repositories. Designed for developers interested in self-evolving systems.",
+    "problem_solved": "Automating software evolution and code pattern absorption.",
+    "use_cases": [
+      "autonomous code generation",
+      "self-modifying software research"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "self-evolving agent",
+      "autonomous coder"
+    ]
+  },
+  "github:indranilbanerjee/digital-marketing-pro": {
+    "capability_summary": "A suite of AI agents and skills for marketing automation that integrates with IDEs and CLI tools. Built for marketing professionals and developers.",
+    "problem_solved": "Automating digital marketing tasks within existing developer workflows.",
+    "use_cases": [
+      "marketing automation",
+      "seo optimization",
+      "content marketing"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "marketing-automation-agent",
+      "claude-marketing-plugin"
+    ]
+  },
+  "github:matthart1983/netwatch": {
+    "capability_summary": "A high-performance terminal tool for real-time network traffic analysis and process mapping. Built for network administrators and security professionals.",
+    "problem_solved": "Monitoring network traffic and process activity without proxy overhead.",
+    "use_cases": [
+      "network monitoring",
+      "security analysis",
+      "tls decryption"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network-monitor",
+      "ebpf-network-tool"
+    ]
+  },
+  "github:mudler/localrecall": {
+    "capability_summary": "A lightweight, self-hosted RESTful API for managing vector memory and RAG knowledge bases. Designed for developers building local AI applications.",
+    "problem_solved": "Providing persistent vector memory for local LLM stacks.",
+    "use_cases": [
+      "rag knowledge base",
+      "vector database management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "rag-server",
+      "vector-memory-api"
+    ]
+  },
+  "github:rahulnyk/graph_maker": {
+    "capability_summary": "A Python library that converts unstructured text into structured knowledge graphs using LLMs. Designed for data scientists and NLP researchers.",
+    "problem_solved": "Extracting structured knowledge from text for Graph RAG applications.",
+    "use_cases": [
+      "knowledge graph construction",
+      "graph-rag",
+      "nlp data processing"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graph-rag-tool",
+      "knowledge-graph-builder"
+    ]
   }
 }
