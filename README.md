@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 193 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 197 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [aws-samples/sample-geospatial-agent-on-aws](https://github.com/aws-samples/sample-geospatial-agent-on-aws) ⭐ | AI/LLM Tooling | `aws` `geospatial` `llm` `ai-agent` `satellite-imagery` | A sophisticated AI agent framework for analyzing satellite imagery using natural language queries, leveraging AWS Bedrock, TiTiler, and React. | 73 | 2026-07-20 |
+| [zilliztech/memsearch](https://github.com/zilliztech/memsearch) ⭐ | AI/LLM Tooling | `ai-agents` `rag` `memory` `developer-tools` `semantic-search` | A persistent, cross-platform semantic memory layer for AI coding agents that uses Markdown as the source of truth and Milvus for vector indexing. | 2261 | 2026-07-20 |
+| [fujiapple852/trippy](https://github.com/fujiapple852/trippy) ⭐ | Networking | `cli` `networking` `rust` `tui` `diagnostics` | A modern, high-performance network diagnostic tool that combines the functionality of traceroute and ping into a single TUI-based CLI application. | 7073 | 2026-07-20 |
+| [goekdeniz-guelmez/local-notebooklm](https://github.com/goekdeniz-guelmez/local-notebooklm) ⭐ | AI/LLM Tooling | `llm` `tts` `automation` `pdf` `self-hosted` `productivity` | A powerful tool that converts PDF documents into audio content like podcasts or interviews using local or cloud-based LLMs and TTS engines. | 931 | 2026-07-20 |
 | [rahulnyk/graph_maker](https://github.com/rahulnyk/graph_maker) ⭐ | AI/LLM Tooling | `llm` `knowledge-graph` `rag` `nlp` `python` | A Python library and example notebook for converting unstructured text into structured knowledge graphs using LLMs, designed for Graph Retrieval Augmented Generation (GRAG). | 650 | 2026-07-20 |
 | [mudler/localrecall](https://github.com/mudler/localrecall) ⭐ | AI/LLM Tooling | `rag` `vector-database` `self-hosted` `ai-agents` `golang` | A lightweight, self-hosted RESTful API for managing RAG knowledge bases and vector memory, designed to integrate seamlessly with local AI stacks like LocalAI. | 861 | 2026-07-20 |
 | [matthart1983/netwatch](https://github.com/matthart1983/netwatch) ⭐ | Network Security Tooling | `networking` `rust` `security` `cli` `monitoring` `ebpf` | A high-performance, Rust-based terminal network monitor that provides real-time traffic analysis, process mapping, and TLS/QUIC decryption without requiring a proxy. | 2215 | 2026-07-20 |
