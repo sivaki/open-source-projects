@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 188 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 193 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [rahulnyk/graph_maker](https://github.com/rahulnyk/graph_maker) ⭐ | AI/LLM Tooling | `llm` `knowledge-graph` `rag` `nlp` `python` | A Python library and example notebook for converting unstructured text into structured knowledge graphs using LLMs, designed for Graph Retrieval Augmented Generation (GRAG). | 650 | 2026-07-20 |
+| [mudler/localrecall](https://github.com/mudler/localrecall) ⭐ | AI/LLM Tooling | `rag` `vector-database` `self-hosted` `ai-agents` `golang` | A lightweight, self-hosted RESTful API for managing RAG knowledge bases and vector memory, designed to integrate seamlessly with local AI stacks like LocalAI. | 861 | 2026-07-20 |
+| [matthart1983/netwatch](https://github.com/matthart1983/netwatch) ⭐ | Network Security Tooling | `networking` `rust` `security` `cli` `monitoring` `ebpf` | A high-performance, Rust-based terminal network monitor that provides real-time traffic analysis, process mapping, and TLS/QUIC decryption without requiring a proxy. | 2215 | 2026-07-20 |
+| [indranilbanerjee/digital-marketing-pro](https://github.com/indranilbanerjee/digital-marketing-pro) ⭐ | AI/LLM Tooling | `ai-agents` `marketing-automation` `cli` `mcp` `compliance` | A comprehensive suite of AI-driven marketing automation agents and skills designed to integrate with major LLM-based CLI and IDE environments like Claude Code, Cursor, and Copilot. | 245 | 2026-07-20 |
+| [korroai/mue-x](https://github.com/korroai/mue-x) ⭐ | AI/LLM Tooling | `ai-agent` `self-modifying` `python` `developer-tools` `automation` | An experimental, self-evolving AI agent that uses AST mutation strategies to rewrite its own source code and autonomously absorb patterns from GitHub repositories. | 66 | 2026-07-20 |
 | [nerdyslacker/desktop-web-browsers](https://github.com/nerdyslacker/desktop-web-browsers) ⭐ | Awesome List | `browsers` `web` `desktop` `curated-list` | A comprehensive, curated list of desktop web browsers across various platforms and engines. | 581 | 2026-07-20 |
 | [rkiding/awesome-finance-skills](https://github.com/rkiding/awesome-finance-skills) ⭐ | AI Agent Tooling | `ai-agents` `fintech` `automation` `llm` `data-pipeline` | A collection of modular 'skills' for AI agents designed to perform financial analysis, including real-time news aggregation, stock data retrieval, sentiment analysis, and report generation. | 2709 | 2026-07-20 |
 | [corbell-ai/corbell](https://github.com/corbell-ai/corbell) ⭐ | Developer Tools | `ai` `architecture` `cli` `knowledge-graph` `mcp` | Corbell is an AI-powered architecture intelligence tool that builds a local knowledge graph from multi-repo codebases to automate design documentation, spec generation, and task decomposition. | 238 | 2026-07-20 |
