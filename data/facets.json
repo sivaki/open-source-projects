@@ -15672,5 +15672,87 @@
       "graph-rag-tool",
       "knowledge-graph-builder"
     ]
+  },
+  "github:goekdeniz-guelmez/local-notebooklm": {
+    "capability_summary": "Converts PDF documents into audio podcasts or interviews using LLMs and TTS engines. Designed for users who want to automate content consumption from documents.",
+    "problem_solved": "Turning static PDF documents into engaging audio content.",
+    "use_cases": [
+      "pdf-to-audio",
+      "automated-podcasts",
+      "document-summarization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "notebooklm-alternative",
+      "ai-podcast-generator"
+    ]
+  },
+  "github:fujiapple852/trippy": {
+    "capability_summary": "A high-performance network diagnostic tool that merges traceroute and ping functionality into a single terminal interface. Built for network engineers and system administrators.",
+    "problem_solved": "Troubleshooting network connectivity and latency issues.",
+    "use_cases": [
+      "network-diagnostics",
+      "latency-monitoring",
+      "traceroute-replacement"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mtr-alternative",
+      "network-tracer"
+    ]
+  },
+  "github:zilliztech/memsearch": {
+    "capability_summary": "Provides a persistent semantic memory layer for AI coding agents using Markdown and Milvus. Targeted at developers building autonomous coding assistants.",
+    "problem_solved": "Giving AI agents long-term memory and context awareness.",
+    "use_cases": [
+      "ai-agent-memory",
+      "semantic-search",
+      "rag-implementation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-memory-layer",
+      "rag-framework"
+    ]
+  },
+  "github:aws-samples/sample-geospatial-agent-on-aws": {
+    "capability_summary": "An AI agent framework for analyzing satellite imagery via natural language queries. Built for geospatial analysts and developers working with AWS infrastructure.",
+    "problem_solved": "Querying and analyzing complex satellite imagery with natural language.",
+    "use_cases": [
+      "geospatial-analysis",
+      "satellite-imagery-processing",
+      "ai-agent-framework"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "geospatial-ai",
+      "aws-bedrock-agent"
+    ]
   }
 }
