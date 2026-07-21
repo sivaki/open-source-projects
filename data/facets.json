@@ -15754,5 +15754,96 @@
       "geospatial-ai",
       "aws-bedrock-agent"
     ]
+  },
+  "github:archistico/shadeofcolor2": {
+    "capability_summary": "A C# utility that hides arbitrary files inside PNG images. Designed for users needing data obfuscation or secure storage.",
+    "problem_solved": "Hiding sensitive data within image files for privacy.",
+    "use_cases": [
+      "steganography",
+      "data obfuscation",
+      "file storage"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "steganography tool"
+    ]
+  },
+  "github:opengeos/segment-geospatial": {
+    "capability_summary": "A Python library that applies Meta's Segment Anything Model to satellite and aerial imagery. Built for geospatial analysts and AI researchers.",
+    "problem_solved": "Automating the segmentation of large-scale geospatial imagery.",
+    "use_cases": [
+      "remote sensing",
+      "satellite image analysis",
+      "computer vision"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "sam-geospatial",
+      "geospatial segmentation"
+    ]
+  },
+  "github:ekwek1/soprano": {
+    "capability_summary": "A lightweight, high-performance text-to-speech engine for on-device inference. Designed for developers needing local speech synthesis.",
+    "problem_solved": "Generating speech from text locally without relying on cloud APIs.",
+    "use_cases": [
+      "text-to-speech",
+      "speech synthesis",
+      "on-device inference"
+    ],
+    "project_type": "cli",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tts engine",
+      "speech synthesis tool"
+    ]
+  },
+  "github:cdcsgit/lognote": {
+    "capability_summary": "A cross-platform log viewer optimized for Android logcat and general file analysis. Built for developers and system administrators.",
+    "problem_solved": "Analyzing and filtering complex log files efficiently.",
+    "use_cases": [
+      "android debugging",
+      "log analysis",
+      "logcat viewer"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "log viewer",
+      "logcat analyzer"
+    ]
+  },
+  "github:clucraft/priceghost": {
+    "capability_summary": "A self-hosted price tracking application using scraping and AI to monitor product costs. Designed for consumers and researchers.",
+    "problem_solved": "Tracking product price changes across multiple websites automatically.",
+    "use_cases": [
+      "price monitoring",
+      "web scraping",
+      "automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "price tracker",
+      "price monitor"
+    ]
   }
 }
