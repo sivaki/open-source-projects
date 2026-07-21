@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 205 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 208 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) ⭐ | Learning Resources | `architecture` `system-design` `awesome-list` `software-engineering` `patterns` | A comprehensive, well-maintained curated list of resources covering software architecture, design patterns, and distributed systems. | 11390 | 2026-07-21 |
+| [suislanchez/polymarket-kalshi-weather-bot](https://github.com/suislanchez/polymarket-kalshi-weather-bot) ⭐ | automation | `trading-bot` `fastapi` `prediction-markets` `data-pipeline` `python` | A sophisticated multi-strategy trading bot for prediction markets (Polymarket/Kalshi) that utilizes ensemble weather forecasting and BTC microstructure analysis. | 500 | 2026-07-21 |
+| [jason8745/llm-agent-trader](https://github.com/jason8745/llm-agent-trader) ⭐ | AI/LLM Tooling | `trading` `backtesting` `llm` `fastapi` `nextjs` | An AI-powered stock trading backtesting framework that integrates LLMs for decision analysis, featuring a FastAPI backend and Next.js frontend. | 382 | 2026-07-21 |
 | [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) ⭐ | AI/LLM Tooling | `claude` `llm` `automation` `developer-tools` `productivity` | An intelligent plugin for Claude Code that optimizes prompts and workflows by injecting context, planning tasks, and asking clarifying questions to reduce LLM correction cycles. | 1693 | 2026-07-21 |
 | [jhaals/yopass](https://github.com/jhaals/yopass) ⭐ | security | `security` `encryption` `self-hosting` `privacy` `golang` | A secure, self-hostable platform for sharing secrets and files via end-to-end encrypted, one-time-use links. | 2929 | 2026-07-21 |
 | [danish296/codevibes](https://github.com/danish296/codevibes) ⭐ | AI/LLM Tooling | `ai` `security` `code-analysis` `developer-tools` `typescript` | An AI-powered code analysis tool that scans GitHub repositories for security vulnerabilities, bugs, and performance issues using the DeepSeek API. | 74 | 2026-07-21 |
