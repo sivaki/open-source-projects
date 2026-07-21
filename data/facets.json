@@ -15845,5 +15845,63 @@
       "price tracker",
       "price monitor"
     ]
+  },
+  "github:danish296/codevibes": {
+    "capability_summary": "An AI-powered tool that scans GitHub repositories to identify security vulnerabilities, bugs, and performance issues. It is designed for developers looking to automate code quality checks.",
+    "problem_solved": "Automated detection of security flaws and code quality issues in repositories.",
+    "use_cases": [
+      "security auditing",
+      "automated code review",
+      "performance optimization"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "code-analysis",
+      "ai-security-scanner"
+    ]
+  },
+  "github:jhaals/yopass": {
+    "capability_summary": "A secure platform for sharing secrets and files through end-to-end encrypted, one-time-use links. It is intended for users who need to share sensitive information safely.",
+    "problem_solved": "Securely sharing passwords or sensitive files without leaving permanent traces.",
+    "use_cases": [
+      "password sharing",
+      "secure file transfer",
+      "one-time secret sharing"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "onetimesecret",
+      "secure-sharing"
+    ]
+  },
+  "github:severity1/claude-code-prompt-improver": {
+    "capability_summary": "An intelligent plugin for Claude Code that optimizes prompts by adding context and planning tasks. It helps developers reduce iteration cycles when working with LLMs.",
+    "problem_solved": "Inefficient LLM prompting and excessive correction cycles.",
+    "use_cases": [
+      "prompt engineering",
+      "workflow automation",
+      "ai-assisted coding"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-tool",
+      "prompt-optimizer"
+    ]
   }
 }
