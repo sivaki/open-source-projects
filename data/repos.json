@@ -8824,5 +8824,230 @@
     "pushed_at": "2026-07-16T20:27:29Z",
     "license": "MIT-0",
     "topics": []
+  },
+  {
+    "id": "github:boona13/mykonos-island-voxels",
+    "url": "https://github.com/boona13/mykonos-island-voxels",
+    "title": "boona13/mykonos-island-voxels",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079388665814319496",
+    "fetched_at": "2026-07-21T02:53:57.397379Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A browser-based isometric island-building toy built with vanilla JavaScript and no external dependencies.",
+    "category": "Creative Tool",
+    "tags": [
+      "html5",
+      "game-dev",
+      "isometric",
+      "vanilla-js",
+      "browser-game"
+    ],
+    "risk_notes": "The project is a static web application with no server-side components. It runs entirely in the browser and uses localStorage for persistence. It is safe to run locally using a simple HTTP server, but it does not align with the user's interest in developer tools, automation, or infrastructure.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-05-14T05:35:33Z",
+      "homepage": "https://mykonos-island-voxels.netlify.app"
+    },
+    "added_at": "2026-07-21T02:54:03.441063Z",
+    "stars": 817,
+    "language": "JavaScript",
+    "pushed_at": "2026-05-14T05:39:00Z",
+    "license": "MIT",
+    "topics": [
+      "canvas2d",
+      "city-builder",
+      "html5-game",
+      "isometric-game",
+      "mobile-friendly",
+      "open-source",
+      "vanilla-js"
+    ]
+  },
+  {
+    "id": "github:archistico/shadeofcolor2",
+    "url": "https://github.com/archistico/shadeofcolor2",
+    "title": "archistico/shadeofcolor2",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079364405418918287",
+    "fetched_at": "2026-07-21T02:53:57.397546Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A cross-platform C# utility that embeds arbitrary files into PNG images for obfuscation or storage purposes.",
+    "category": "security",
+    "tags": [
+      "steganography",
+      "privacy",
+      "cli",
+      "data-hiding",
+      "csharp"
+    ],
+    "risk_notes": "The tool is a standalone executable or dotnet project. It requires read/write access to the local filesystem to process files. It does not currently implement encryption, meaning the embedded data is easily recoverable by anyone with the tool. It is a very new project (created Aug 2025) with limited history, so it should be treated as experimental.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2025-08-29T10:35:16Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-21T02:54:09.604292Z",
+    "stars": 728,
+    "language": "C#",
+    "pushed_at": "2025-08-29T20:16:51Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:opengeos/segment-geospatial",
+    "url": "https://github.com/opengeos/segment-geospatial",
+    "title": "opengeos/segment-geospatial",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079341689311801577",
+    "fetched_at": "2026-07-21T02:53:57.397667Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful Python library for applying Meta's Segment Anything Model (SAM) to geospatial imagery, enabling automated segmentation of satellite and aerial data.",
+    "category": "AI/Geospatial",
+    "tags": [
+      "geospatial",
+      "computer-vision",
+      "ai",
+      "python",
+      "remote-sensing"
+    ],
+    "risk_notes": "Installable via pip or pixi. Requires significant system resources (GPU/CUDA recommended) and heavy dependencies (PyTorch). Accesses local filesystem for GeoTIFF processing and network for map tile downloads. No elevated privileges required, but requires careful dependency management due to complex ML library requirements.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2023-04-19T03:03:52Z",
+      "homepage": "https://samgeo.gishub.org"
+    },
+    "added_at": "2026-07-21T02:54:16.008784Z",
+    "stars": 4051,
+    "language": "Python",
+    "pushed_at": "2026-07-20T20:29:19Z",
+    "license": "MIT",
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "geopython",
+      "geospatial",
+      "machine-learning",
+      "segment-anything",
+      "segmentation"
+    ]
+  },
+  {
+    "id": "github:ekwek1/soprano",
+    "url": "https://github.com/ekwek1/soprano",
+    "title": "ekwek1/soprano",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079320392313819361",
+    "fetched_at": "2026-07-21T02:53:57.397787Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Soprano is a high-performance, lightweight text-to-speech engine designed for on-device inference with support for streaming, CLI, and OpenAI-compatible API endpoints.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "tts",
+      "ai",
+      "speech-synthesis",
+      "on-device",
+      "cli"
+    ],
+    "risk_notes": "Installed via standard pip packages. Requires local execution of model weights (typically downloaded from HuggingFace). The server mode (uvicorn) exposes a local network port, which should be secured if exposed beyond localhost. No root access required, but it utilizes GPU/CUDA drivers which may require specific system-level driver management.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2025-11-30T21:24:52Z",
+      "homepage": "https://huggingface.co/spaces/ekwek/Soprano-TTS"
+    },
+    "added_at": "2026-07-21T02:54:22.400590Z",
+    "stars": 1269,
+    "language": "Python",
+    "pushed_at": "2026-01-15T16:32:56Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "text-to-speech",
+      "tts"
+    ]
+  },
+  {
+    "id": "github:cdcsgit/lognote",
+    "url": "https://github.com/cdcsgit/lognote",
+    "title": "cdcsgit/lognote",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079300066993451008",
+    "fetched_at": "2026-07-21T02:53:57.397904Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A cross-platform Java/Swing-based log viewer specifically optimized for Android logcat and general log file analysis with advanced filtering and trigger capabilities.",
+    "category": "Developer Tools",
+    "tags": [
+      "android",
+      "logcat",
+      "kotlin",
+      "debugging",
+      "cli-tool"
+    ],
+    "risk_notes": "Requires Java Runtime Environment (JRE) to execute the JAR file. It accesses the local filesystem for log files and interacts with system commands (like adb) to stream logs. It is a desktop application, so it runs with the user's permissions. The project is actively maintained, but users should be aware that running arbitrary JAR files requires trusting the source.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2020-11-29T12:43:43Z",
+      "homepage": "https://cdcsutils.blogspot.com/search/label/Lognote"
+    },
+    "added_at": "2026-07-21T02:54:28.670472Z",
+    "stars": 335,
+    "language": "Kotlin",
+    "pushed_at": "2026-04-27T22:33:32Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "android",
+      "kotlin",
+      "log-viewer",
+      "logcat",
+      "logcat-viewer",
+      "multiplatform",
+      "pc",
+      "swing"
+    ]
+  },
+  {
+    "id": "github:clucraft/priceghost",
+    "url": "https://github.com/clucraft/priceghost",
+    "title": "clucraft/priceghost",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079280888873963871",
+    "fetched_at": "2026-07-21T02:53:57.398023Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A self-hosted, multi-strategy price tracking application that uses a combination of traditional scraping and AI-assisted extraction to ensure accurate price monitoring.",
+    "category": "automation",
+    "tags": [
+      "self-hosted",
+      "automation",
+      "scraping",
+      "ai",
+      "typescript"
+    ],
+    "risk_notes": "The application is self-hosted and likely deployed via Docker/Node.js. It requires external API keys (Anthropic/OpenAI) or a local Ollama instance for AI features. It performs network requests to arbitrary e-commerce sites, which carries inherent risks regarding anti-scraping policies and potential data exposure if misconfigured. It uses standard security practices like JWT and bcrypt, but as a new project, it should be audited before being exposed to the public internet.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2026-01-20T18:21:51Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-21T02:54:35.038922Z",
+    "stars": 714,
+    "language": "TypeScript",
+    "pushed_at": "2026-02-03T00:32:34Z",
+    "license": null,
+    "topics": [
+      "price-monitor",
+      "price-track",
+      "price-tracker",
+      "stock-monitor"
+    ]
   }
 ]
