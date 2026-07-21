@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 202 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 205 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) ⭐ | AI/LLM Tooling | `claude` `llm` `automation` `developer-tools` `productivity` | An intelligent plugin for Claude Code that optimizes prompts and workflows by injecting context, planning tasks, and asking clarifying questions to reduce LLM correction cycles. | 1693 | 2026-07-21 |
+| [jhaals/yopass](https://github.com/jhaals/yopass) ⭐ | security | `security` `encryption` `self-hosting` `privacy` `golang` | A secure, self-hostable platform for sharing secrets and files via end-to-end encrypted, one-time-use links. | 2929 | 2026-07-21 |
+| [danish296/codevibes](https://github.com/danish296/codevibes) ⭐ | AI/LLM Tooling | `ai` `security` `code-analysis` `developer-tools` `typescript` | An AI-powered code analysis tool that scans GitHub repositories for security vulnerabilities, bugs, and performance issues using the DeepSeek API. | 74 | 2026-07-21 |
 | [clucraft/priceghost](https://github.com/clucraft/priceghost) ⭐ | automation | `self-hosted` `automation` `scraping` `ai` `typescript` | A self-hosted, multi-strategy price tracking application that uses a combination of traditional scraping and AI-assisted extraction to ensure accurate price monitoring. | 714 | 2026-07-21 |
 | [cdcsgit/lognote](https://github.com/cdcsgit/lognote) ⭐ | Developer Tools | `android` `logcat` `kotlin` `debugging` `cli-tool` | A cross-platform Java/Swing-based log viewer specifically optimized for Android logcat and general log file analysis with advanced filtering and trigger capabilities. | 335 | 2026-07-21 |
 | [ekwek1/soprano](https://github.com/ekwek1/soprano) ⭐ | AI/LLM Tooling | `tts` `ai` `speech-synthesis` `on-device` `cli` | Soprano is a high-performance, lightweight text-to-speech engine designed for on-device inference with support for streaming, CLI, and OpenAI-compatible API endpoints. | 1269 | 2026-07-21 |
