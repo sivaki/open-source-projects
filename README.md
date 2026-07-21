@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 197 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 202 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [clucraft/priceghost](https://github.com/clucraft/priceghost) ⭐ | automation | `self-hosted` `automation` `scraping` `ai` `typescript` | A self-hosted, multi-strategy price tracking application that uses a combination of traditional scraping and AI-assisted extraction to ensure accurate price monitoring. | 714 | 2026-07-21 |
+| [cdcsgit/lognote](https://github.com/cdcsgit/lognote) ⭐ | Developer Tools | `android` `logcat` `kotlin` `debugging` `cli-tool` | A cross-platform Java/Swing-based log viewer specifically optimized for Android logcat and general log file analysis with advanced filtering and trigger capabilities. | 335 | 2026-07-21 |
+| [ekwek1/soprano](https://github.com/ekwek1/soprano) ⭐ | AI/LLM Tooling | `tts` `ai` `speech-synthesis` `on-device` `cli` | Soprano is a high-performance, lightweight text-to-speech engine designed for on-device inference with support for streaming, CLI, and OpenAI-compatible API endpoints. | 1269 | 2026-07-21 |
+| [opengeos/segment-geospatial](https://github.com/opengeos/segment-geospatial) ⭐ | AI/Geospatial | `geospatial` `computer-vision` `ai` `python` `remote-sensing` | A powerful Python library for applying Meta's Segment Anything Model (SAM) to geospatial imagery, enabling automated segmentation of satellite and aerial data. | 4051 | 2026-07-21 |
+| [archistico/shadeofcolor2](https://github.com/archistico/shadeofcolor2) ⭐ | security | `steganography` `privacy` `cli` `data-hiding` `csharp` | A cross-platform C# utility that embeds arbitrary files into PNG images for obfuscation or storage purposes. | 728 | 2026-07-21 |
 | [aws-samples/sample-geospatial-agent-on-aws](https://github.com/aws-samples/sample-geospatial-agent-on-aws) ⭐ | AI/LLM Tooling | `aws` `geospatial` `llm` `ai-agent` `satellite-imagery` | A sophisticated AI agent framework for analyzing satellite imagery using natural language queries, leveraging AWS Bedrock, TiTiler, and React. | 73 | 2026-07-20 |
 | [zilliztech/memsearch](https://github.com/zilliztech/memsearch) ⭐ | AI/LLM Tooling | `ai-agents` `rag` `memory` `developer-tools` `semantic-search` | A persistent, cross-platform semantic memory layer for AI coding agents that uses Markdown as the source of truth and Milvus for vector indexing. | 2261 | 2026-07-20 |
 | [fujiapple852/trippy](https://github.com/fujiapple852/trippy) ⭐ | Networking | `cli` `networking` `rust` `tui` `diagnostics` | A modern, high-performance network diagnostic tool that combines the functionality of traceroute and ping into a single TUI-based CLI application. | 7073 | 2026-07-20 |
