@@ -15903,5 +15903,64 @@
       "claude-tool",
       "prompt-optimizer"
     ]
+  },
+  "github:jason8745/llm-agent-trader": {
+    "capability_summary": "A framework for backtesting stock trading strategies using LLMs for decision analysis. It includes a FastAPI backend and a Next.js frontend.",
+    "problem_solved": "Automating and analyzing stock trading strategies with AI.",
+    "use_cases": [
+      "stock backtesting",
+      "AI trading analysis",
+      "financial data modeling"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI trading bot",
+      "backtesting engine"
+    ]
+  },
+  "github:suislanchez/polymarket-kalshi-weather-bot": {
+    "capability_summary": "A multi-strategy trading bot designed for prediction markets like Polymarket and Kalshi, using weather forecasting and market microstructure data.",
+    "problem_solved": "Automating trades in prediction markets based on external data sources.",
+    "use_cases": [
+      "prediction market trading",
+      "weather-based forecasting",
+      "automated data pipelines"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "prediction market bot",
+      "trading automation"
+    ]
+  },
+  "github:mehdihadeli/awesome-software-architecture": {
+    "capability_summary": "A curated collection of resources, articles, and books focused on software architecture, system design, and design patterns.",
+    "problem_solved": "Finding high-quality learning materials for software architecture.",
+    "use_cases": [
+      "learning system design",
+      "researching architectural patterns",
+      "software engineering study"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "awesome list",
+      "system design resources"
+    ]
   }
 }
