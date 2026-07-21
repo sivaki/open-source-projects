@@ -9049,5 +9049,159 @@
       "price-tracker",
       "stock-monitor"
     ]
+  },
+  {
+    "id": "github:marketingtoolslist/awesome-marketing",
+    "url": "https://github.com/marketingtoolslist/awesome-marketing",
+    "title": "marketingtoolslist/awesome-marketing",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079506328238653597",
+    "fetched_at": "2026-07-21T10:27:38.593118Z",
+    "verdict": "skip",
+    "score": 1,
+    "summary": "A curated list of commercial marketing software and resources, functioning primarily as a directory for a marketing services website.",
+    "category": "marketing",
+    "tags": [
+      "marketing",
+      "seo",
+      "business",
+      "resources",
+      "curation"
+    ],
+    "risk_notes": "This is a static markdown list of links to third-party commercial SaaS platforms. There is no code to install or run, so there are no direct security risks, but the content is outside the scope of developer tools, automation, or self-hosting.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 88,
+      "created_at": "2024-02-18T13:26:02Z",
+      "homepage": "https://marketingtoolslist.com"
+    },
+    "added_at": "2026-07-21T10:27:44.584842Z",
+    "stars": 390,
+    "language": null,
+    "pushed_at": "2025-08-14T21:57:43Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "ai-marketing",
+      "ai-marketing-agent",
+      "ai-marketing-tools",
+      "awesome",
+      "awesome-digital-marketing",
+      "awesome-list",
+      "awesome-marketing",
+      "digital-marketing",
+      "gtm-engineering",
+      "marketing",
+      "marketing-analytics",
+      "marketing-automation",
+      "marketing-tools",
+      "marketing-tools-list",
+      "seo",
+      "seotools",
+      "sge"
+    ]
+  },
+  {
+    "id": "github:danish296/codevibes",
+    "url": "https://github.com/danish296/codevibes",
+    "title": "danish296/codevibes",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079473243849707678",
+    "fetched_at": "2026-07-21T10:27:38.593425Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An AI-powered code analysis tool that scans GitHub repositories for security vulnerabilities, bugs, and performance issues using the DeepSeek API.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "security",
+      "code-analysis",
+      "developer-tools",
+      "typescript"
+    ],
+    "risk_notes": "Requires a DeepSeek API key and GitHub authentication to function. It is a self-hosted Node.js/Express application using SQLite for local storage. The tool requires read access to your GitHub repositories to perform analysis, which is a significant permission scope. It is a very new project (created Jan 2026), so it should be treated as experimental and audited before running on sensitive production codebases.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-06T08:43:54Z",
+      "homepage": "https://codevibes.akadanish.dev"
+    },
+    "added_at": "2026-07-21T10:27:51.180321Z",
+    "stars": 74,
+    "language": "TypeScript",
+    "pushed_at": "2026-01-12T03:50:29Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:jhaals/yopass",
+    "url": "https://github.com/jhaals/yopass",
+    "title": "jhaals/yopass",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079442781911576750",
+    "fetched_at": "2026-07-21T10:27:38.593683Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A secure, self-hostable platform for sharing secrets and files via end-to-end encrypted, one-time-use links.",
+    "category": "security",
+    "tags": [
+      "security",
+      "encryption",
+      "self-hosting",
+      "privacy",
+      "golang"
+    ],
+    "risk_notes": "Installed via Docker or Kubernetes. It requires a backend (Memcached or Redis) and should be deployed behind a TLS-terminating reverse proxy. The application handles sensitive data in memory, so proper network isolation and secure configuration are essential.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2014-01-18T14:54:55Z",
+      "homepage": "https://yopass.se"
+    },
+    "added_at": "2026-07-21T10:27:57.522866Z",
+    "stars": 2929,
+    "language": "Go",
+    "pushed_at": "2026-07-21T04:28:14Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "encryption-decryption",
+      "file-upload",
+      "onetimelink",
+      "onetimesecret",
+      "password-share",
+      "secret-sharing"
+    ]
+  },
+  {
+    "id": "github:severity1/claude-code-prompt-improver",
+    "url": "https://github.com/severity1/claude-code-prompt-improver",
+    "title": "severity1/claude-code-prompt-improver",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079414850715832384",
+    "fetched_at": "2026-07-21T10:27:38.593942Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An intelligent plugin for Claude Code that optimizes prompts and workflows by injecting context, planning tasks, and asking clarifying questions to reduce LLM correction cycles.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "llm",
+      "automation",
+      "developer-tools",
+      "productivity"
+    ],
+    "risk_notes": "Installs as a plugin within the Claude Code environment. It requires access to your local filesystem and project context to function. Installation is handled via the official Claude Code plugin system, which is safer than arbitrary scripts, but it does grant the plugin the ability to read your code and execute commands on your behalf through the Claude Code agent.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 10,
+      "created_at": "2025-10-18T03:03:21Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-21T10:28:04.167525Z",
+    "stars": 1693,
+    "language": "Python",
+    "pushed_at": "2026-06-03T11:40:44Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
