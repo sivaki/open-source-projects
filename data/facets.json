@@ -15962,5 +15962,84 @@
       "awesome list",
       "system design resources"
     ]
+  },
+  "github:mhadidg/software-architecture-books": {
+    "capability_summary": "A curated collection of software architecture books categorized by domain for engineering professionals.",
+    "problem_solved": "Finding high-quality reading material on software design and architecture.",
+    "use_cases": [
+      "professional development",
+      "system design study",
+      "curated reading lists"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "reading-list"
+    ]
+  },
+  "github:aldinokemal/go-whatsapp-web-multidevice": {
+    "capability_summary": "A Go-based REST API and MCP server for automating WhatsApp interactions and managing multiple accounts.",
+    "problem_solved": "Programmatically interacting with WhatsApp for bots or integrations.",
+    "use_cases": [
+      "whatsapp automation",
+      "multi-account management",
+      "ai agent integration",
+      "n8n integration"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "whatsapp-api",
+      "whatsapp-bot"
+    ]
+  },
+  "github:c4illin/convertx": {
+    "capability_summary": "A self-hosted utility that converts between over 1,000 file formats using backend tools like FFmpeg and Pandoc.",
+    "problem_solved": "Automating file format conversions in a self-hosted environment.",
+    "use_cases": [
+      "document conversion",
+      "media transcoding",
+      "automated file processing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "file-converter",
+      "format-converter"
+    ]
+  },
+  "github:bevel-software/code-to-knowledge-graph": {
+    "capability_summary": "A Kotlin toolkit that uses LSP to transform source code into a queryable knowledge graph for analysis.",
+    "problem_solved": "Visualizing and querying complex codebases for architectural insights.",
+    "use_cases": [
+      "code analysis",
+      "architectural visualization",
+      "ai code augmentation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "code-graph",
+      "lsp-tool"
+    ]
   }
 }
