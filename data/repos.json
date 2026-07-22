@@ -9602,5 +9602,252 @@
     "pushed_at": "2026-04-17T23:34:18Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:wotschofsky/domain-digger",
+    "url": "https://github.com/wotschofsky/domain-digger",
+    "title": "wotschofsky/domain-digger",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079967012164448394",
+    "fetched_at": "2026-07-22T17:23:14.261021Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive web-based toolkit for domain analysis, DNS lookups, WHOIS data, and SSL certificate history tracking.",
+    "category": "security tooling",
+    "tags": [
+      "dns",
+      "osint",
+      "security",
+      "networking",
+      "web-tools"
+    ],
+    "risk_notes": "The project is a standard Next.js application designed to be self-hosted via Vercel or Node.js. It requires no elevated system privileges, but as an OSINT tool, it performs external network requests to DNS and WHOIS servers. It is actively maintained and follows standard web development patterns.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 10,
+      "created_at": "2021-07-29T21:49:11Z",
+      "homepage": "https://digger.tools"
+    },
+    "added_at": "2026-07-22T17:23:20.144268Z",
+    "stars": 1219,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-20T20:32:52Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "cloud",
+      "dns",
+      "domains",
+      "osint",
+      "security"
+    ]
+  },
+  {
+    "id": "github:yuanweize/lazymount-mac",
+    "url": "https://github.com/yuanweize/lazymount-mac",
+    "title": "yuanweize/lazymount-mac",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079947843813466430",
+    "fetched_at": "2026-07-22T17:23:14.261436Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A macOS automation tool that manages SMB and Rclone mounts with self-healing capabilities, specifically designed to handle network storage for gaming and AI model storage.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "automation",
+      "nas",
+      "rclone",
+      "smb",
+      "homelab"
+    ],
+    "risk_notes": "Requires manual installation via shell scripts and LaunchAgents. It interacts with system-level mount points and requires FUSE-T or macFUSE (which may involve kernel extensions). The script handles network credentials and requires read/write access to the directories it mounts. It is a manual setup process, not a one-click installer, which is safer but requires user verification of the shell scripts.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-01-25T04:59:49Z",
+      "homepage": "https://deepwiki.com/yuanweize/LazyMount-Mac"
+    },
+    "added_at": "2026-07-22T17:23:27.241987Z",
+    "stars": 121,
+    "language": "Shell",
+    "pushed_at": "2026-07-07T23:34:44Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:codedpro/mt5-trade-split-manager",
+    "url": "https://github.com/codedpro/mt5-trade-split-manager",
+    "title": "codedpro/mt5-trade-split-manager",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079929582371717137",
+    "fetched_at": "2026-07-22T17:23:14.261791Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A professional-grade MetaTrader 5 Expert Advisor that provides a REST API and MCP server, allowing AI agents like Claude to programmatically execute and manage complex split-order trading strategies.",
+    "category": "automation",
+    "tags": [
+      "trading-bot",
+      "mt5",
+      "fastapi",
+      "ai-agent",
+      "mql5",
+      "automation"
+    ],
+    "risk_notes": "Requires running a Python FastAPI server locally and an MQL5 Expert Advisor within the MetaTrader 5 terminal. The EA requires 'Allow DLL imports' to be enabled in MT5, which grants the script access to external system libraries. The system opens a local TCP socket (port 5555) and a REST API (port 8080) for communication; ensure these ports are firewalled if not intended for local-only access. The project is actively maintained with CI/CD pipelines.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2025-11-19T10:07:20Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T17:23:33.999206Z",
+    "stars": 58,
+    "language": "MQL5",
+    "pushed_at": "2026-07-06T13:55:16Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai-agent",
+      "algorithmic-trading",
+      "automated-trading",
+      "claude-ai",
+      "expert-advisor",
+      "fastapi",
+      "forex-bot",
+      "gold-trading",
+      "metatrader5",
+      "mql5",
+      "mt5",
+      "python-trading",
+      "rest-api",
+      "risk-management",
+      "silver-trading",
+      "socket-trading",
+      "split-orders",
+      "trading-bot",
+      "trailing-stop",
+      "xauusd"
+    ]
+  },
+  {
+    "id": "github:2009-nissan-cube/about-this-hack",
+    "url": "https://github.com/2009-nissan-cube/about-this-hack",
+    "title": "2009-nissan-cube/about-this-hack",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079912084767183032",
+    "fetched_at": "2026-07-22T17:23:14.262106Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A macOS utility that restores the classic 'About This Mac' interface while providing detailed hardware diagnostics, particularly useful for Hackintosh users.",
+    "category": "System Utilities",
+    "tags": [
+      "macos",
+      "hackintosh",
+      "hardware",
+      "system-tools",
+      "utility"
+    ],
+    "risk_notes": "Distributed as a standard macOS .app bundle. It requires system-level access to read hardware information and disk details. It includes an auto-updater, which introduces a minor supply chain risk. Users must manually bypass Gatekeeper on first launch, which is standard for independent macOS apps.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2022-06-21T12:22:19Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T17:23:40.381868Z",
+    "stars": 424,
+    "language": "Swift",
+    "pushed_at": "2026-06-12T15:35:40Z",
+    "license": "MIT",
+    "topics": [
+      "about",
+      "about-this-mac",
+      "hack",
+      "hackintosh",
+      "hardware",
+      "info",
+      "mac",
+      "storyboard",
+      "swift"
+    ]
+  },
+  {
+    "id": "github:iptv-org/awesome-iptv",
+    "url": "https://github.com/iptv-org/awesome-iptv",
+    "title": "iptv-org/awesome-iptv",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079895656156520624",
+    "fetched_at": "2026-07-22T17:23:14.262454Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, community-maintained collection of IPTV players, tools, and EPG resources for various platforms.",
+    "category": "Media/Streaming",
+    "tags": [
+      "iptv",
+      "media",
+      "streaming",
+      "curated-list",
+      "home-lab"
+    ],
+    "risk_notes": "This is a curated list of links, not software itself. Risks depend entirely on the specific third-party tools selected from the list. Users should exercise caution with web-based players (potential XSS/privacy leaks) and desktop applications (potential malware). Always prefer open-source projects with verifiable source code over closed-source web players.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 11,
+      "created_at": "2019-09-15T18:44:14Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T17:23:47.091757Z",
+    "stars": 12043,
+    "language": null,
+    "pushed_at": "2026-07-17T20:36:43Z",
+    "license": null,
+    "topics": [
+      "epg",
+      "iptv",
+      "players",
+      "tv"
+    ]
+  },
+  {
+    "id": "github:panxproject/awesome-certificates",
+    "url": "https://github.com/panxproject/awesome-certificates",
+    "title": "panxproject/awesome-certificates",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079879750311407682",
+    "fetched_at": "2026-07-22T17:23:14.262787Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A curated list of free online courses and certifications across various technical and business domains.",
+    "category": "Education",
+    "tags": [
+      "education",
+      "learning",
+      "certification",
+      "courses",
+      "career"
+    ],
+    "risk_notes": "This is a documentation-only repository containing markdown lists. There is no code to execute, install, or run, so there are no security risks related to system access or permissions.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 47,
+      "created_at": "2020-12-24T00:57:40Z",
+      "homepage": "https://panx.io/awesome-certificates/"
+    },
+    "added_at": "2026-07-22T17:23:53.396247Z",
+    "stars": 5114,
+    "language": null,
+    "pushed_at": "2026-06-30T15:46:25Z",
+    "license": "CC0-1.0",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "badges",
+      "career",
+      "certificate",
+      "certificates",
+      "certifications",
+      "courses",
+      "free",
+      "hacktoberfest"
+    ]
   }
 ]
