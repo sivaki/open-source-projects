@@ -16100,5 +16100,103 @@
       "algo-trading",
       "llm-automation"
     ]
+  },
+  "github:wotschofsky/domain-digger": {
+    "capability_summary": "A web-based toolkit for performing DNS lookups, WHOIS queries, and tracking SSL certificate history. It is designed for security researchers and network administrators.",
+    "problem_solved": "Need to perform reconnaissance and analysis on domain infrastructure.",
+    "use_cases": [
+      "DNS analysis",
+      "WHOIS lookups",
+      "SSL certificate tracking",
+      "OSINT gathering"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "domain analyzer",
+      "DNS tool"
+    ]
+  },
+  "github:yuanweize/lazymount-mac": {
+    "capability_summary": "A macOS automation utility that manages and self-heals SMB and Rclone network mounts. It is built for users needing reliable network storage for gaming or AI model workflows.",
+    "problem_solved": "Network drive disconnections and manual mounting overhead on macOS.",
+    "use_cases": [
+      "SMB mounting",
+      "Rclone automation",
+      "network storage management",
+      "homelab connectivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network drive automator",
+      "rclone manager"
+    ]
+  },
+  "github:codedpro/mt5-trade-split-manager": {
+    "capability_summary": "A MetaTrader 5 Expert Advisor that exposes a REST API and MCP server for AI agents to execute complex trading strategies. It is designed for algorithmic traders using AI models like Claude.",
+    "problem_solved": "Integrating AI agents with MetaTrader 5 for automated order management.",
+    "use_cases": [
+      "algorithmic trading",
+      "AI-driven trading",
+      "split-order management",
+      "REST API trading"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "MT5 trading bot",
+      "AI trading agent"
+    ]
+  },
+  "github:2009-nissan-cube/about-this-hack": {
+    "capability_summary": "A macOS utility that provides detailed hardware diagnostics and restores the classic 'About This Mac' interface. It is specifically tailored for Hackintosh users.",
+    "problem_solved": "Need for detailed hardware information and classic UI on Hackintosh systems.",
+    "use_cases": [
+      "hardware diagnostics",
+      "system information",
+      "Hackintosh customization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Hackintosh system tool",
+      "About This Mac utility"
+    ]
+  },
+  "github:iptv-org/awesome-iptv": {
+    "capability_summary": "A curated, community-maintained list of IPTV players, tools, and EPG resources. It is designed for users setting up home media servers or streaming environments.",
+    "problem_solved": "Finding reliable IPTV software and resources.",
+    "use_cases": [
+      "IPTV streaming",
+      "media server setup",
+      "EPG management"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "IPTV resources",
+      "streaming tools list"
+    ]
   }
 }
