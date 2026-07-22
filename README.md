@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 212 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 215 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [tonbistudio/model-trader](https://github.com/tonbistudio/model-trader) ⭐ | automation | `algorithmic-trading` `llm` `automation` `python` `finance` | A framework for distilling trading strategies from unstructured content like YouTube transcripts into executable algorithmic scanners and paper traders using LLMs. | 62 | 2026-07-22 |
+| [mostafa-wahied/portracker](https://github.com/mostafa-wahied/portracker) ⭐ | DevOps/Monitoring | `self-hosted` `monitoring` `docker` `networking` `homelab` | A self-hosted dashboard for real-time port monitoring and service discovery across Docker and TrueNAS environments. | 2255 | 2026-07-22 |
+| [zmap/zmap](https://github.com/zmap/zmap) ⭐ | security tooling | `networking` `security` `scanner` `cli` `research` | ZMap is a high-performance network scanner designed for Internet-wide surveys, capable of scanning the entire IPv4 address space in under an hour. | 6271 | 2026-07-22 |
 | [bevel-software/code-to-knowledge-graph](https://github.com/bevel-software/code-to-knowledge-graph) ⭐ | Developer Tools | `lsp` `knowledge-graph` `code-analysis` `kotlin` `dev-tools` | A Kotlin-based toolkit that leverages VS Code's Language Server Protocol (LSP) to parse source code into a structured, queryable knowledge graph for architectural analysis and AI augmentation. | 188 | 2026-07-22 |
 | [c4illin/convertx](https://github.com/c4illin/convertx) ⭐ | self-hosting | `self-hosted` `automation` `file-conversion` `docker` `utility` | A comprehensive, self-hosted file conversion utility that supports over 1,000 formats by leveraging a wide array of backend tools like FFmpeg, LibreOffice, and Pandoc. | 17314 | 2026-07-22 |
 | [aldinokemal/go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice) ⭐ | Automation | `whatsapp` `golang` `automation` `api` `mcp` `self-hosted` | A robust Go-based REST API and MCP server for WhatsApp, enabling automation, multi-account management, and integration with tools like n8n and AI agents. | 4249 | 2026-07-22 |
