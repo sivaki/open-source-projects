@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 215 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 220 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [iptv-org/awesome-iptv](https://github.com/iptv-org/awesome-iptv) ⭐ | Media/Streaming | `iptv` `media` `streaming` `curated-list` `home-lab` | A comprehensive, community-maintained collection of IPTV players, tools, and EPG resources for various platforms. | 12043 | 2026-07-22 |
+| [2009-nissan-cube/about-this-hack](https://github.com/2009-nissan-cube/about-this-hack) ⭐ | System Utilities | `macos` `hackintosh` `hardware` `system-tools` `utility` | A macOS utility that restores the classic 'About This Mac' interface while providing detailed hardware diagnostics, particularly useful for Hackintosh users. | 424 | 2026-07-22 |
+| [codedpro/mt5-trade-split-manager](https://github.com/codedpro/mt5-trade-split-manager) ⭐ | automation | `trading-bot` `mt5` `fastapi` `ai-agent` `mql5` `automation` | A professional-grade MetaTrader 5 Expert Advisor that provides a REST API and MCP server, allowing AI agents like Claude to programmatically execute and manage complex split-order trading strategies. | 58 | 2026-07-22 |
+| [yuanweize/lazymount-mac](https://github.com/yuanweize/lazymount-mac) ⭐ | Developer Tools | `macos` `automation` `nas` `rclone` `smb` `homelab` | A macOS automation tool that manages SMB and Rclone mounts with self-healing capabilities, specifically designed to handle network storage for gaming and AI model storage. | 121 | 2026-07-22 |
+| [wotschofsky/domain-digger](https://github.com/wotschofsky/domain-digger) ⭐ | security tooling | `dns` `osint` `security` `networking` `web-tools` | A comprehensive web-based toolkit for domain analysis, DNS lookups, WHOIS data, and SSL certificate history tracking. | 1219 | 2026-07-22 |
 | [tonbistudio/model-trader](https://github.com/tonbistudio/model-trader) ⭐ | automation | `algorithmic-trading` `llm` `automation` `python` `finance` | A framework for distilling trading strategies from unstructured content like YouTube transcripts into executable algorithmic scanners and paper traders using LLMs. | 62 | 2026-07-22 |
 | [mostafa-wahied/portracker](https://github.com/mostafa-wahied/portracker) ⭐ | DevOps/Monitoring | `self-hosted` `monitoring` `docker` `networking` `homelab` | A self-hosted dashboard for real-time port monitoring and service discovery across Docker and TrueNAS environments. | 2255 | 2026-07-22 |
 | [zmap/zmap](https://github.com/zmap/zmap) ⭐ | security tooling | `networking` `security` `scanner` `cli` `research` | ZMap is a high-performance network scanner designed for Internet-wide surveys, capable of scanning the entire IPv4 address space in under an hour. | 6271 | 2026-07-22 |
