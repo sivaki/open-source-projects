@@ -9332,5 +9332,170 @@
       "system-design",
       "vertical-slice-architecture"
     ]
+  },
+  {
+    "id": "github:mhadidg/software-architecture-books",
+    "url": "https://github.com/mhadidg/software-architecture-books",
+    "title": "mhadidg/software-architecture-books",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079758924715094030",
+    "fetched_at": "2026-07-22T02:51:51.951348Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A curated, comprehensive list of software architecture books sourced from Goodreads, categorized by domain such as distributed systems, DevOps, and data engineering.",
+    "category": "Learning Resources",
+    "tags": [
+      "architecture",
+      "books",
+      "engineering",
+      "software-design",
+      "reference"
+    ],
+    "risk_notes": "This is a static documentation repository containing only Markdown files. There is no code to execute, no installation required, and zero security risk to your local machine or infrastructure.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2021-06-25T17:47:04Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T02:51:58.051501Z",
+    "stars": 11106,
+    "language": null,
+    "pushed_at": "2023-03-15T13:16:48Z",
+    "license": null,
+    "topics": [
+      "architecture",
+      "awesome",
+      "awesome-list",
+      "books",
+      "goodreads",
+      "software-architecture",
+      "software-design",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "github:aldinokemal/go-whatsapp-web-multidevice",
+    "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+    "title": "aldinokemal/go-whatsapp-web-multidevice",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079713823833923997",
+    "fetched_at": "2026-07-22T02:51:51.951847Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A robust Go-based REST API and MCP server for WhatsApp, enabling automation, multi-account management, and integration with tools like n8n and AI agents.",
+    "category": "Automation",
+    "tags": [
+      "whatsapp",
+      "golang",
+      "automation",
+      "api",
+      "mcp",
+      "self-hosted"
+    ],
+    "risk_notes": "Distributed as a Docker container or binary; requires network access to WhatsApp servers. It handles sensitive user session data and message content, so it should be run in a secure environment with restricted network access. Basic authentication is supported but must be configured manually. The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 19,
+      "created_at": "2022-02-09T16:19:30Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T02:52:04.331483Z",
+    "stars": 4249,
+    "language": "Go",
+    "pushed_at": "2026-07-21T18:01:14Z",
+    "license": "MIT",
+    "topics": [
+      "bot",
+      "go",
+      "golang",
+      "golang-whatsapp",
+      "golang-whatsapp-api",
+      "rest",
+      "rest-api",
+      "whatsapp",
+      "whatsapp-api",
+      "whatsapp-api-go",
+      "whatsapp-multi-device",
+      "whatsapp-web-multi-device"
+    ]
+  },
+  {
+    "id": "github:c4illin/convertx",
+    "url": "https://github.com/c4illin/convertx",
+    "title": "c4illin/convertx",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079672827037327545",
+    "fetched_at": "2026-07-22T02:51:51.952458Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, self-hosted file conversion utility that supports over 1,000 formats by leveraging a wide array of backend tools like FFmpeg, LibreOffice, and Pandoc.",
+    "category": "self-hosting",
+    "tags": [
+      "self-hosted",
+      "automation",
+      "file-conversion",
+      "docker",
+      "utility"
+    ],
+    "risk_notes": "Distributed as a Docker container, which is a safe and isolated deployment method. It requires persistent volume access for file storage. Because it wraps many powerful system-level tools (FFmpeg, ImageMagick, etc.), it is important to keep the container updated to mitigate vulnerabilities in those underlying dependencies. It handles user uploads, so it should be placed behind a reverse proxy with proper authentication.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 113,
+      "created_at": "2024-04-07T16:21:39Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T02:52:10.742801Z",
+    "stars": 17314,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-22T20:29:27Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "bun",
+      "conversion",
+      "convert",
+      "converter",
+      "document-conversion",
+      "elysia",
+      "file-conversion",
+      "file-converter",
+      "hacktoberfest",
+      "pdf-converter",
+      "self-hosted",
+      "tailwindcss",
+      "typescript"
+    ]
+  },
+  {
+    "id": "github:bevel-software/code-to-knowledge-graph",
+    "url": "https://github.com/bevel-software/code-to-knowledge-graph",
+    "title": "bevel-software/code-to-knowledge-graph",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079636477462327606",
+    "fetched_at": "2026-07-22T02:51:51.953016Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Kotlin-based toolkit that leverages VS Code's Language Server Protocol (LSP) to parse source code into a structured, queryable knowledge graph for architectural analysis and AI augmentation.",
+    "category": "Developer Tools",
+    "tags": [
+      "lsp",
+      "knowledge-graph",
+      "code-analysis",
+      "kotlin",
+      "dev-tools"
+    ],
+    "risk_notes": "The project is installed via Gradle dependency or as a VS Code extension. It requires read access to your local codebase to perform analysis. As it uses LSP, it relies on the language servers you have configured in your environment. The project is very new (created May 2025), so it should be monitored for stability and long-term maintenance.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-05-19T10:38:39Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T02:52:17.110682Z",
+    "stars": 188,
+    "language": "Java",
+    "pushed_at": "2025-06-04T15:10:12Z",
+    "license": "MPL-2.0",
+    "topics": []
   }
 ]
