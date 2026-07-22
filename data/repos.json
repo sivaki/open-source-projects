@@ -9497,5 +9497,110 @@
     "pushed_at": "2025-06-04T15:10:12Z",
     "license": "MPL-2.0",
     "topics": []
+  },
+  {
+    "id": "github:zmap/zmap",
+    "url": "https://github.com/zmap/zmap",
+    "title": "zmap/zmap",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079864587260768296",
+    "fetched_at": "2026-07-22T10:28:07.979823Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "ZMap is a high-performance network scanner designed for Internet-wide surveys, capable of scanning the entire IPv4 address space in under an hour.",
+    "category": "security tooling",
+    "tags": [
+      "networking",
+      "security",
+      "scanner",
+      "cli",
+      "research"
+    ],
+    "risk_notes": "Requires root/sudo privileges to perform raw socket operations. It is a powerful tool that can trigger security alerts or be flagged by ISPs if used improperly; ethical scanning practices are required. Installation is typically handled via standard OS package managers (apt/yum/brew) or source compilation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2013-01-23T01:30:09Z",
+      "homepage": "https://zmap.io"
+    },
+    "added_at": "2026-07-22T10:28:22.875492Z",
+    "stars": 6271,
+    "language": "C",
+    "pushed_at": "2026-06-24T04:26:11Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "internet-measurement",
+      "internet-scanning",
+      "port-scanner",
+      "research"
+    ]
+  },
+  {
+    "id": "github:mostafa-wahied/portracker",
+    "url": "https://github.com/mostafa-wahied/portracker",
+    "title": "mostafa-wahied/portracker",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079849509022994605",
+    "fetched_at": "2026-07-22T10:28:07.980384Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A self-hosted dashboard for real-time port monitoring and service discovery across Docker and TrueNAS environments.",
+    "category": "DevOps/Monitoring",
+    "tags": [
+      "self-hosted",
+      "monitoring",
+      "docker",
+      "networking",
+      "homelab"
+    ],
+    "risk_notes": "Requires high-privilege Docker container settings including --pid host, SYS_PTRACE, and SYS_ADMIN capabilities to inspect system ports. Exposing the Docker socket (even read-only) or using a socket proxy is required for container discovery. The project is actively maintained and provides a secure proxy pattern for the Docker socket.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 24,
+      "created_at": "2025-07-07T10:32:54Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T10:28:29.561722Z",
+    "stars": 2255,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-17T22:52:12Z",
+    "license": "MIT",
+    "topics": [
+      "open-source",
+      "self-hosted",
+      "truenas"
+    ]
+  },
+  {
+    "id": "github:tonbistudio/model-trader",
+    "url": "https://github.com/tonbistudio/model-trader",
+    "title": "tonbistudio/model-trader",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079810819215237565",
+    "fetched_at": "2026-07-22T10:28:07.980749Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A framework for distilling trading strategies from unstructured content like YouTube transcripts into executable algorithmic scanners and paper traders using LLMs.",
+    "category": "automation",
+    "tags": [
+      "algorithmic-trading",
+      "llm",
+      "automation",
+      "python",
+      "finance"
+    ],
+    "risk_notes": "Requires Python 3.11+ and standard pip dependencies. Uses external API keys (Anthropic) for strategy extraction and LLM-based decision making. The code interacts with the Hyperliquid API and performs network requests via yt-dlp. It is a local framework, but users should be cautious when connecting it to live exchange accounts.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-04-17T23:34:16Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-22T10:28:35.939144Z",
+    "stars": 62,
+    "language": "Python",
+    "pushed_at": "2026-04-17T23:34:18Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
