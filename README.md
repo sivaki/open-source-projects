@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 208 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 212 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [bevel-software/code-to-knowledge-graph](https://github.com/bevel-software/code-to-knowledge-graph) ⭐ | Developer Tools | `lsp` `knowledge-graph` `code-analysis` `kotlin` `dev-tools` | A Kotlin-based toolkit that leverages VS Code's Language Server Protocol (LSP) to parse source code into a structured, queryable knowledge graph for architectural analysis and AI augmentation. | 188 | 2026-07-22 |
+| [c4illin/convertx](https://github.com/c4illin/convertx) ⭐ | self-hosting | `self-hosted` `automation` `file-conversion` `docker` `utility` | A comprehensive, self-hosted file conversion utility that supports over 1,000 formats by leveraging a wide array of backend tools like FFmpeg, LibreOffice, and Pandoc. | 17314 | 2026-07-22 |
+| [aldinokemal/go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice) ⭐ | Automation | `whatsapp` `golang` `automation` `api` `mcp` `self-hosted` | A robust Go-based REST API and MCP server for WhatsApp, enabling automation, multi-account management, and integration with tools like n8n and AI agents. | 4249 | 2026-07-22 |
+| [mhadidg/software-architecture-books](https://github.com/mhadidg/software-architecture-books) ⭐ | Learning Resources | `architecture` `books` `engineering` `software-design` `reference` | A curated, comprehensive list of software architecture books sourced from Goodreads, categorized by domain such as distributed systems, DevOps, and data engineering. | 11106 | 2026-07-22 |
 | [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) ⭐ | Learning Resources | `architecture` `system-design` `awesome-list` `software-engineering` `patterns` | A comprehensive, well-maintained curated list of resources covering software architecture, design patterns, and distributed systems. | 11390 | 2026-07-21 |
 | [suislanchez/polymarket-kalshi-weather-bot](https://github.com/suislanchez/polymarket-kalshi-weather-bot) ⭐ | automation | `trading-bot` `fastapi` `prediction-markets` `data-pipeline` `python` | A sophisticated multi-strategy trading bot for prediction markets (Polymarket/Kalshi) that utilizes ensemble weather forecasting and BTC microstructure analysis. | 500 | 2026-07-21 |
 | [jason8745/llm-agent-trader](https://github.com/jason8745/llm-agent-trader) ⭐ | AI/LLM Tooling | `trading` `backtesting` `llm` `fastapi` `nextjs` | An AI-powered stock trading backtesting framework that integrates LLMs for decision analysis, featuring a FastAPI backend and Next.js frontend. | 382 | 2026-07-21 |
