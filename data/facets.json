@@ -16041,5 +16041,64 @@
       "code-graph",
       "lsp-tool"
     ]
+  },
+  "github:zmap/zmap": {
+    "capability_summary": "A high-performance network scanner designed for conducting Internet-wide surveys. It is intended for security researchers and network engineers.",
+    "problem_solved": "Scanning the entire IPv4 address space rapidly for research or security auditing.",
+    "use_cases": [
+      "internet-wide scanning",
+      "network security research",
+      "vulnerability discovery"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "nmap",
+      "masscan"
+    ]
+  },
+  "github:mostafa-wahied/portracker": {
+    "capability_summary": "A self-hosted dashboard for real-time monitoring of ports and services. It is designed for homelab users and DevOps engineers.",
+    "problem_solved": "Tracking service availability and port status across Docker and TrueNAS environments.",
+    "use_cases": [
+      "homelab monitoring",
+      "service discovery",
+      "docker container tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "uptime-kuma",
+      "dashboard"
+    ]
+  },
+  "github:tonbistudio/model-trader": {
+    "capability_summary": "A framework that uses LLMs to convert unstructured content like video transcripts into algorithmic trading strategies. It is for developers and quantitative traders.",
+    "problem_solved": "Automating the creation of trading strategies from non-structured financial content.",
+    "use_cases": [
+      "algorithmic trading",
+      "financial data extraction",
+      "automated paper trading"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "algo-trading",
+      "llm-automation"
+    ]
   }
 }
