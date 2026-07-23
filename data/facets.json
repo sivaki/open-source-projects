@@ -16307,5 +16307,65 @@
       "scrcpy alternative",
       "android remote control"
     ]
+  },
+  "github:nutlope/logocreator": {
+    "capability_summary": "An AI-powered web application that generates custom logos using the Flux Pro model. It is designed for users needing quick, automated graphic design assets.",
+    "problem_solved": "Generating professional logos without manual design skills.",
+    "use_cases": [
+      "generative art",
+      "logo design",
+      "brand asset creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai logo generator",
+      "flux pro tool"
+    ]
+  },
+  "github:piercelamb/deep-project": {
+    "capability_summary": "A Claude Code plugin that breaks down complex software requirements into actionable tasks. It is intended for software engineers and project managers.",
+    "problem_solved": "Decomposing high-level project requirements into manageable tasks.",
+    "use_cases": [
+      "project planning",
+      "task decomposition",
+      "software engineering automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code plugin",
+      "ai project manager"
+    ]
+  },
+  "github:datarhei/restreamer": {
+    "capability_summary": "A self-hosted streaming server that bridges various video protocols like RTMP, SRT, and HLS. It is built for homelab users and content creators managing multi-platform broadcasts.",
+    "problem_solved": "Managing and distributing live video streams across multiple platforms.",
+    "use_cases": [
+      "live streaming",
+      "video transcoding",
+      "multi-platform broadcasting",
+      "homelab media server"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ffmpeg server",
+      "streaming bridge"
+    ]
   }
 }
