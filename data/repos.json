@@ -9849,5 +9849,245 @@
       "free",
       "hacktoberfest"
     ]
+  },
+  {
+    "id": "github:evoiz/agentic-design-patterns",
+    "url": "https://github.com/evoiz/agentic-design-patterns",
+    "title": "evoiz/agentic-design-patterns",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080109474035994876",
+    "fetched_at": "2026-07-23T03:13:07.127218Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive educational repository containing the full text and Jupyter notebook code examples for building intelligent AI agent systems, covering patterns from prompt chaining to multi-agent orchestration.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "agents",
+      "jupyter",
+      "education"
+    ],
+    "risk_notes": "Standard Python/Jupyter environment setup via pip. Requires local API keys (e.g., OpenAI) to execute the agentic code examples. As with any notebook-based project, review code cells before execution to understand what external APIs or local files they interact with.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-09-21T07:22:50Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-23T03:13:13.508474Z",
+    "stars": 1843,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-12T13:13:03Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:leoncuhk/awesome-quant-ai",
+    "url": "https://github.com/leoncuhk/awesome-quant-ai",
+    "title": "leoncuhk/awesome-quant-ai",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080081978708119817",
+    "fetched_at": "2026-07-23T03:13:07.127374Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive curated list of resources, research papers, and original Python implementations for applying machine learning and AI agents to quantitative finance.",
+    "category": "finance-ai",
+    "tags": [
+      "quantitative-finance",
+      "machine-learning",
+      "ai-agents",
+      "algorithmic-trading",
+      "data-science"
+    ],
+    "risk_notes": "This is a documentation and research repository containing Jupyter notebooks and code snippets. It does not require installation via system-level scripts. Users should exercise caution when running provided financial models, as they may require external API keys for market data or brokerage integration, which could expose sensitive credentials if not handled via environment variables.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2024-07-04T02:29:27Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-23T03:13:20.010411Z",
+    "stars": 496,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-07-20T07:05:11Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "algorithmic-trading",
+      "awesome",
+      "awesome-list",
+      "llm-agents",
+      "machine-learning",
+      "quant",
+      "quantitative-finance"
+    ]
+  },
+  {
+    "id": "github:qoery-com/pmxt",
+    "url": "https://github.com/qoery-com/pmxt",
+    "title": "qoery-com/pmxt",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080055608737251659",
+    "fetched_at": "2026-07-23T03:13:07.127495Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A unified TypeScript SDK and API wrapper for interacting with various prediction markets like Polymarket and Kalshi, similar to how CCXT functions for crypto exchanges.",
+    "category": "Developer Tools",
+    "tags": [
+      "algotrading",
+      "typescript",
+      "api",
+      "automation",
+      "prediction-markets"
+    ],
+    "risk_notes": "The project provides an SDK (npm install pmxtjs) and a self-hosted option. It requires sensitive API keys or private keys for trading venues, which poses a significant security risk if not managed via secure environment variables or a vault. The project is actively maintained, but users should audit the code before providing it with signing authority for financial assets.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 896,
+      "created_at": "2026-01-08T20:24:39Z",
+      "homepage": "https://pmxt.dev"
+    },
+    "added_at": "2026-07-23T03:13:27.081290Z",
+    "stars": 2003,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-18T01:45:53Z",
+    "license": "MIT",
+    "topics": [
+      "algotrading",
+      "arbitrage",
+      "ccxt",
+      "kalshi",
+      "market-data",
+      "polymarket",
+      "prediction-markets",
+      "unified-api"
+    ]
+  },
+  {
+    "id": "github:midday-ai/midday",
+    "url": "https://github.com/midday-ai/midday",
+    "title": "midday-ai/midday",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080031409272410207",
+    "fetched_at": "2026-07-23T03:13:07.127616Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An all-in-one, AI-powered business management platform for freelancers that integrates time tracking, invoicing, and financial reconciliation.",
+    "category": "Business Automation",
+    "tags": [
+      "finance",
+      "ai",
+      "nextjs",
+      "supabase",
+      "freelance",
+      "automation"
+    ],
+    "risk_notes": "Requires significant infrastructure setup including Supabase, Railway, and various third-party API integrations (Plaid, Teller, GoCardLess). Self-hosting involves managing sensitive financial data and banking credentials, requiring strict security practices. The project is highly active but uses an AGPL-3.0 license, which may restrict commercial usage without a separate agreement.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2023-09-18T17:12:27Z",
+      "homepage": "https://midday.ai"
+    },
+    "added_at": "2026-07-23T03:13:33.477474Z",
+    "stars": 14640,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-13T13:40:35Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "finance",
+      "nextjs",
+      "supabase",
+      "tailwind",
+      "typescript"
+    ]
+  },
+  {
+    "id": "github:awesome-android-root/awesome-android-root",
+    "url": "https://github.com/awesome-android-root/awesome-android-root",
+    "title": "awesome-android-root/awesome-android-root",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080008707774066980",
+    "fetched_at": "2026-07-23T03:13:07.127736Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, well-maintained curated list of Android rooting tools, Magisk/KernelSU modules, and privacy-focused system utilities.",
+    "category": "Mobile Security & Customization",
+    "tags": [
+      "android",
+      "root",
+      "privacy",
+      "magisk",
+      "kernelsu"
+    ],
+    "risk_notes": "This is a documentation/curation repository, not software itself. However, the tools listed often require deep system-level access (root) and can potentially brick devices or compromise security if used improperly. Users should exercise caution when installing third-party modules from the linked sources.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2024-07-22T17:30:07Z",
+      "homepage": "https://awesome-android-root.pages.dev"
+    },
+    "added_at": "2026-07-23T03:13:40.123736Z",
+    "stars": 3957,
+    "language": "Python",
+    "pushed_at": "2026-07-19T06:59:57Z",
+    "license": "MIT",
+    "topics": [
+      "android",
+      "android-app",
+      "android-root",
+      "android-tweaks",
+      "apatch",
+      "awesome",
+      "awesome-list",
+      "awesome-resources",
+      "kernel-module",
+      "kernelsu",
+      "kernelsu-module",
+      "kernelsu-next",
+      "lsposed",
+      "magisk",
+      "magisk-manager",
+      "magisk-module",
+      "root",
+      "vitepress",
+      "xposed",
+      "xposed-module"
+    ]
+  },
+  {
+    "id": "github:zfinix/another",
+    "url": "https://github.com/zfinix/another",
+    "title": "zfinix/another",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2079987270791082367",
+    "fetched_at": "2026-07-23T03:13:07.127850Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A modern, Tauri-based desktop application for Android screen mirroring and control that includes an MCP server for AI agent integration.",
+    "category": "Developer Tools",
+    "tags": [
+      "android",
+      "scrcpy",
+      "mcp",
+      "automation",
+      "rust",
+      "tauri"
+    ],
+    "risk_notes": "Installs via standard platform binaries (.dmg, .msi, .deb). Requires ADB access to Android devices, which grants significant control over the device (shell commands, screen capture, input injection). The MCP server exposes these capabilities to local AI agents, which could pose a security risk if malicious prompts are executed. The project is actively maintained and uses well-vetted dependencies like scrcpy.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-03-29T14:56:34Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-23T03:13:46.479510Z",
+    "stars": 604,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-17T10:48:12Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
