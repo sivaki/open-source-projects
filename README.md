@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 229 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 234 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [pixlcore/xyops](https://github.com/pixlcore/xyops) ⭐ | DevOps/Automation | `automation` `monitoring` `self-hosted` `devops` `workflow` | A comprehensive, self-hosted workflow automation and server monitoring platform that integrates job scheduling, alerting, and incident response into a single dashboard. | 4620 | 2026-07-23 |
+| [javajack/skill-algotrader](https://github.com/javajack/skill-algotrader) ⭐ | AI/LLM Tooling | `trading` `claude-code` `automation` `finance` `python` | A specialized Claude Code skill designed to assist with building and managing quantitative trading bots for the Indian equity market via the Zerodha Kite API. | 77 | 2026-07-23 |
+| [affirmatech/meshsense](https://github.com/affirmatech/meshsense) ⭐ | home-lab | `meshtastic` `networking` `monitoring` `iot` `raspberry-pi` | MeshSense is a monitoring and mapping tool for Meshtastic networks that provides real-time health data, signal reports, and trace routes via a GUI or headless interface. | 456 | 2026-07-23 |
+| [karam-ajaj/atlas](https://github.com/karam-ajaj/atlas) ⭐ | Infrastructure Monitoring | `homelab` `docker` `networking` `visualization` `devops` | A containerized network discovery and visualization tool that maps Docker environments and local subnets using Go and FastAPI. | 1147 | 2026-07-23 |
+| [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking) ⭐ | Security | `security` `pentesting` `ctf` `curated-list` `infosec` | A comprehensive, well-maintained curated list of security, penetration testing, and CTF tools, organized by category for easy discovery. | 3901 | 2026-07-23 |
 | [datarhei/restreamer](https://github.com/datarhei/restreamer) ⭐ | self-hosting | `streaming` `ffmpeg` `docker` `homelab` `video` | A powerful, self-hosted streaming server solution that acts as a bridge for RTMP, SRT, and HLS protocols, featuring a user-friendly UI and hardware acceleration support. | 5106 | 2026-07-23 |
 | [piercelamb/deep-project](https://github.com/piercelamb/deep-project) ⭐ | AI/LLM Tooling | `claude-code` `ai-agent` `project-management` `automation` `software-engineering` | A Claude Code plugin that automates the decomposition of high-level software requirements into structured, actionable planning units. | 175 | 2026-07-23 |
 | [nutlope/logocreator](https://github.com/nutlope/logocreator) ⭐ | AI/LLM Tooling | `ai` `nextjs` `typescript` `generative-art` `web-app` | An open-source AI-powered logo generator built with Next.js that leverages Flux Pro via Together AI for image synthesis. | 7071 | 2026-07-23 |
