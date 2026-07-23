@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 220 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 226 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [zfinix/another](https://github.com/zfinix/another) ⭐ | Developer Tools | `android` `scrcpy` `mcp` `automation` `rust` `tauri` | A modern, Tauri-based desktop application for Android screen mirroring and control that includes an MCP server for AI agent integration. | 604 | 2026-07-23 |
+| [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) ⭐ | Mobile Security & Customization | `android` `root` `privacy` `magisk` `kernelsu` | A comprehensive, well-maintained curated list of Android rooting tools, Magisk/KernelSU modules, and privacy-focused system utilities. | 3957 | 2026-07-23 |
+| [midday-ai/midday](https://github.com/midday-ai/midday) ⭐ | Business Automation | `finance` `ai` `nextjs` `supabase` `freelance` `automation` | An all-in-one, AI-powered business management platform for freelancers that integrates time tracking, invoicing, and financial reconciliation. | 14640 | 2026-07-23 |
+| [qoery-com/pmxt](https://github.com/qoery-com/pmxt) ⭐ | Developer Tools | `algotrading` `typescript` `api` `automation` `prediction-markets` | A unified TypeScript SDK and API wrapper for interacting with various prediction markets like Polymarket and Kalshi, similar to how CCXT functions for crypto exchanges. | 2003 | 2026-07-23 |
+| [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) ⭐ | finance-ai | `quantitative-finance` `machine-learning` `ai-agents` `algorithmic-trading` `data-science` | A comprehensive curated list of resources, research papers, and original Python implementations for applying machine learning and AI agents to quantitative finance. | 496 | 2026-07-23 |
+| [evoiz/agentic-design-patterns](https://github.com/evoiz/agentic-design-patterns) ⭐ | AI/LLM Tooling | `ai` `llm` `agents` `jupyter` `education` | A comprehensive educational repository containing the full text and Jupyter notebook code examples for building intelligent AI agent systems, covering patterns from prompt chaining to multi-agent orchestration. | 1843 | 2026-07-23 |
 | [iptv-org/awesome-iptv](https://github.com/iptv-org/awesome-iptv) ⭐ | Media/Streaming | `iptv` `media` `streaming` `curated-list` `home-lab` | A comprehensive, community-maintained collection of IPTV players, tools, and EPG resources for various platforms. | 12043 | 2026-07-22 |
 | [2009-nissan-cube/about-this-hack](https://github.com/2009-nissan-cube/about-this-hack) ⭐ | System Utilities | `macos` `hackintosh` `hardware` `system-tools` `utility` | A macOS utility that restores the classic 'About This Mac' interface while providing detailed hardware diagnostics, particularly useful for Hackintosh users. | 424 | 2026-07-22 |
 | [codedpro/mt5-trade-split-manager](https://github.com/codedpro/mt5-trade-split-manager) ⭐ | automation | `trading-bot` `mt5` `fastapi` `ai-agent` `mql5` `automation` | A professional-grade MetaTrader 5 Expert Advisor that provides a REST API and MCP server, allowing AI agents like Claude to programmatically execute and manage complex split-order trading strategies. | 58 | 2026-07-22 |
