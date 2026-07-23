@@ -16198,5 +16198,114 @@
       "IPTV resources",
       "streaming tools list"
     ]
+  },
+  "github:evoiz/agentic-design-patterns": {
+    "capability_summary": "An educational repository providing code examples and documentation for building AI agent systems. It is designed for developers and students learning agentic workflows.",
+    "problem_solved": "Learning how to implement and orchestrate intelligent AI agent patterns.",
+    "use_cases": [
+      "prompt chaining",
+      "multi-agent orchestration",
+      "AI agent education"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent tutorials"
+    ]
+  },
+  "github:leoncuhk/awesome-quant-ai": {
+    "capability_summary": "A curated collection of research papers, resources, and Python implementations for applying AI to quantitative finance. It is intended for quant researchers and developers.",
+    "problem_solved": "Finding resources and implementations for AI-driven algorithmic trading.",
+    "use_cases": [
+      "algorithmic trading",
+      "quantitative finance research",
+      "machine learning in finance"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "quant-ai resources"
+    ]
+  },
+  "github:qoery-com/pmxt": {
+    "capability_summary": "A unified TypeScript SDK for interacting with prediction market APIs like Polymarket and Kalshi. It is built for developers creating trading bots or market analysis tools.",
+    "problem_solved": "Simplifying integration with multiple prediction market APIs through a single interface.",
+    "use_cases": [
+      "prediction market trading",
+      "market data automation",
+      "arbitrage bots"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "CCXT for prediction markets"
+    ]
+  },
+  "github:midday-ai/midday": {
+    "capability_summary": "An AI-powered business management platform for freelancers that automates time tracking, invoicing, and financial reconciliation. It is designed for independent professionals.",
+    "problem_solved": "Managing freelance business operations and financial tracking in one place.",
+    "use_cases": [
+      "time tracking",
+      "invoicing",
+      "financial reconciliation",
+      "business automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "freelance management software"
+    ]
+  },
+  "github:awesome-android-root/awesome-android-root": {
+    "capability_summary": "A curated list of tools, modules, and utilities for rooting Android devices and enhancing privacy. It is intended for power users and Android enthusiasts.",
+    "problem_solved": "Finding reliable tools and modules for Android system customization and rooting.",
+    "use_cases": [
+      "android rooting",
+      "privacy enhancement",
+      "magisk module management",
+      "system customization"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "android customization resources"
+    ]
+  },
+  "github:zfinix/another": {
+    "capability_summary": "A desktop application for Android screen mirroring and control that features an MCP server for AI agent integration. It is built for developers and power users.",
+    "problem_solved": "Controlling Android devices from a desktop and enabling AI agent interaction with mobile apps.",
+    "use_cases": [
+      "android screen mirroring",
+      "mobile automation",
+      "AI agent control"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "scrcpy alternative",
+      "android remote control"
+    ]
   }
 }
