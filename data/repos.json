@@ -10089,5 +10089,128 @@
     "pushed_at": "2026-06-17T10:48:12Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:nutlope/logocreator",
+    "url": "https://github.com/nutlope/logocreator",
+    "title": "nutlope/logocreator",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080209098356695301",
+    "fetched_at": "2026-07-23T10:25:39.175021Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source AI-powered logo generator built with Next.js that leverages Flux Pro via Together AI for image synthesis.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "nextjs",
+      "typescript",
+      "generative-art",
+      "web-app"
+    ],
+    "risk_notes": "Standard Node.js/npm installation. Requires a personal Together AI API key to function, which carries potential cost implications. Uses Clerk for authentication and Upstash for rate limiting, requiring external service configuration.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 18,
+      "created_at": "2024-11-06T03:55:48Z",
+      "homepage": "https://www.logo-creator.io/"
+    },
+    "added_at": "2026-07-23T10:25:46.877040Z",
+    "stars": 7071,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-26T14:13:33Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:piercelamb/deep-project",
+    "url": "https://github.com/piercelamb/deep-project",
+    "title": "piercelamb/deep-project",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080172794415820874",
+    "fetched_at": "2026-07-23T10:25:39.175438Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Claude Code plugin that automates the decomposition of high-level software requirements into structured, actionable planning units.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude-code",
+      "ai-agent",
+      "project-management",
+      "automation",
+      "software-engineering"
+    ],
+    "risk_notes": "Installed via the Claude Code plugin marketplace. It requires access to your local filesystem to read requirements and generate project directories/specs. As an AI agent plugin, it interacts with LLM APIs and executes logic based on your project files; ensure you review the generated specs before proceeding to implementation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-29T23:08:07Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-23T10:25:53.290776Z",
+    "stars": 175,
+    "language": "Python",
+    "pushed_at": "2026-06-21T21:33:45Z",
+    "license": "MIT",
+    "topics": [
+      "claude-code",
+      "claude-code-plugin",
+      "planning",
+      "project-management",
+      "requirements"
+    ]
+  },
+  {
+    "id": "github:datarhei/restreamer",
+    "url": "https://github.com/datarhei/restreamer",
+    "title": "datarhei/restreamer",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080139758336966752",
+    "fetched_at": "2026-07-23T10:25:39.175786Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful, self-hosted streaming server solution that acts as a bridge for RTMP, SRT, and HLS protocols, featuring a user-friendly UI and hardware acceleration support.",
+    "category": "self-hosting",
+    "tags": [
+      "streaming",
+      "ffmpeg",
+      "docker",
+      "homelab",
+      "video"
+    ],
+    "risk_notes": "Distributed as a Docker image. Requires significant host permissions (e.g., --privileged, /dev/dri access) if using local hardware encoders or USB cameras. Exposes multiple network ports (RTMP/SRT/HTTP) which requires careful firewall management. Actively maintained with a clear, modular architecture.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 265,
+      "created_at": "2015-12-09T09:42:59Z",
+      "homepage": "https://docs.datarhei.com/restreamer/"
+    },
+    "added_at": "2026-07-23T10:26:00.072806Z",
+    "stars": 5106,
+    "language": "HTML",
+    "pushed_at": "2026-05-22T06:57:59Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "ffmpeg",
+      "ffmpeg-api",
+      "ffmpeg-server",
+      "h264",
+      "hls",
+      "multi-streaming-server",
+      "obs",
+      "rest-api",
+      "rtmp",
+      "rtsp",
+      "rtsp-server",
+      "srt",
+      "streaming",
+      "streaming-server",
+      "streaming-video",
+      "twitch-livestream",
+      "video",
+      "video-streaming",
+      "videohoster",
+      "youtube-livestream"
+    ]
   }
 ]
