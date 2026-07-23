@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 226 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 229 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [datarhei/restreamer](https://github.com/datarhei/restreamer) ⭐ | self-hosting | `streaming` `ffmpeg` `docker` `homelab` `video` | A powerful, self-hosted streaming server solution that acts as a bridge for RTMP, SRT, and HLS protocols, featuring a user-friendly UI and hardware acceleration support. | 5106 | 2026-07-23 |
+| [piercelamb/deep-project](https://github.com/piercelamb/deep-project) ⭐ | AI/LLM Tooling | `claude-code` `ai-agent` `project-management` `automation` `software-engineering` | A Claude Code plugin that automates the decomposition of high-level software requirements into structured, actionable planning units. | 175 | 2026-07-23 |
+| [nutlope/logocreator](https://github.com/nutlope/logocreator) ⭐ | AI/LLM Tooling | `ai` `nextjs` `typescript` `generative-art` `web-app` | An open-source AI-powered logo generator built with Next.js that leverages Flux Pro via Together AI for image synthesis. | 7071 | 2026-07-23 |
 | [zfinix/another](https://github.com/zfinix/another) ⭐ | Developer Tools | `android` `scrcpy` `mcp` `automation` `rust` `tauri` | A modern, Tauri-based desktop application for Android screen mirroring and control that includes an MCP server for AI agent integration. | 604 | 2026-07-23 |
 | [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) ⭐ | Mobile Security & Customization | `android` `root` `privacy` `magisk` `kernelsu` | A comprehensive, well-maintained curated list of Android rooting tools, Magisk/KernelSU modules, and privacy-focused system utilities. | 3957 | 2026-07-23 |
 | [midday-ai/midday](https://github.com/midday-ai/midday) ⭐ | Business Automation | `finance` `ai` `nextjs` `supabase` `freelance` `automation` | An all-in-one, AI-powered business management platform for freelancers that integrates time tracking, invoicing, and financial reconciliation. | 14640 | 2026-07-23 |
