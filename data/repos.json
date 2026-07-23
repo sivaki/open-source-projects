@@ -10212,5 +10212,201 @@
       "videohoster",
       "youtube-livestream"
     ]
+  },
+  {
+    "id": "github:jekil/awesome-hacking",
+    "url": "https://github.com/jekil/awesome-hacking",
+    "title": "jekil/awesome-hacking",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080330759429050788",
+    "fetched_at": "2026-07-23T17:25:20.265808Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, well-maintained curated list of security, penetration testing, and CTF tools, organized by category for easy discovery.",
+    "category": "Security",
+    "tags": [
+      "security",
+      "pentesting",
+      "ctf",
+      "curated-list",
+      "infosec"
+    ],
+    "risk_notes": "The repository itself is just a list of links and does not execute code. However, it encourages cloning a large collection of third-party tools. Users should exercise caution as many linked tools are security-focused and may require root privileges, network access, or handle sensitive data. Always audit individual tools before execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2016-11-03T21:51:08Z",
+      "homepage": "https://awesomehacking.org"
+    },
+    "added_at": "2026-07-23T17:25:26.665864Z",
+    "stars": 3901,
+    "language": "Python",
+    "pushed_at": "2026-05-16T20:32:22Z",
+    "license": null,
+    "topics": [
+      "curated-list",
+      "forensics",
+      "hacking",
+      "hacking-tools",
+      "malware",
+      "penetration-testing",
+      "security",
+      "security-tools"
+    ]
+  },
+  {
+    "id": "github:karam-ajaj/atlas",
+    "url": "https://github.com/karam-ajaj/atlas",
+    "title": "karam-ajaj/atlas",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080316104207999037",
+    "fetched_at": "2026-07-23T17:25:20.266136Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A containerized network discovery and visualization tool that maps Docker environments and local subnets using Go and FastAPI.",
+    "category": "Infrastructure Monitoring",
+    "tags": [
+      "homelab",
+      "docker",
+      "networking",
+      "visualization",
+      "devops"
+    ],
+    "risk_notes": "Requires Docker socket access (/var/run/docker.sock) and elevated network capabilities (--cap-add=NET_RAW, --cap-add=NET_ADMIN) to perform network scanning. It runs as a container, which is a standard deployment, but granting it access to the host's Docker socket and network stack requires careful security consideration.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 20,
+      "created_at": "2025-05-15T22:18:05Z",
+      "homepage": "https://atlasdemo.vnerd.nl"
+    },
+    "added_at": "2026-07-23T17:25:33.385996Z",
+    "stars": 1147,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-05T22:26:01Z",
+    "license": "MIT",
+    "topics": [
+      "container",
+      "devops",
+      "devops-tools",
+      "docker",
+      "docker-monitoring",
+      "docker-swarm",
+      "fastapi",
+      "golang",
+      "hacktoberfest",
+      "homelab",
+      "host-discovery",
+      "infrastructure-automation",
+      "network-discovery",
+      "network-monitoring",
+      "network-visualization",
+      "networking",
+      "open-source",
+      "react",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github:affirmatech/meshsense",
+    "url": "https://github.com/affirmatech/meshsense",
+    "title": "affirmatech/meshsense",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080301903510995235",
+    "fetched_at": "2026-07-23T17:25:20.266447Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "MeshSense is a monitoring and mapping tool for Meshtastic networks that provides real-time health data, signal reports, and trace routes via a GUI or headless interface.",
+    "category": "home-lab",
+    "tags": [
+      "meshtastic",
+      "networking",
+      "monitoring",
+      "iot",
+      "raspberry-pi"
+    ],
+    "risk_notes": "Distributed as an AppImage, which requires libfuse2 on Debian-based systems. It requires network access to connect to Meshtastic nodes via IP or Bluetooth. Headless mode supports an ACCESS_KEY environment variable for remote authentication. The project is actively maintained, though it has a high number of open issues relative to its age.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 103,
+      "created_at": "2024-09-12T19:23:06Z",
+      "homepage": "https://affirmatech.com/meshsense"
+    },
+    "added_at": "2026-07-23T17:25:39.794159Z",
+    "stars": 456,
+    "language": "TypeScript",
+    "pushed_at": "2025-10-23T13:47:02Z",
+    "license": "GPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:javajack/skill-algotrader",
+    "url": "https://github.com/javajack/skill-algotrader",
+    "title": "javajack/skill-algotrader",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080288259570020756",
+    "fetched_at": "2026-07-23T17:25:20.266752Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized Claude Code skill designed to assist with building and managing quantitative trading bots for the Indian equity market via the Zerodha Kite API.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "trading",
+      "claude-code",
+      "automation",
+      "finance",
+      "python"
+    ],
+    "risk_notes": "Requires installation via npx or git clone. The tool interacts with financial APIs (Zerodha), requiring sensitive API keys and secrets stored in local .env files. It executes arbitrary Python code for backtesting and trading logic, which carries significant financial risk if the generated code is not audited. The repository is very new and lacks a long-term maintenance history.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-02-14T15:24:07Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-23T17:25:46.475089Z",
+    "stars": 77,
+    "language": "Python",
+    "pushed_at": "2026-02-14T15:41:05Z",
+    "license": null,
+    "topics": [
+      "ai-agent",
+      "algorithmic-trading",
+      "claude-code",
+      "claude-skill",
+      "skills-sh",
+      "trading-bot"
+    ]
+  },
+  {
+    "id": "github:pixlcore/xyops",
+    "url": "https://github.com/pixlcore/xyops",
+    "title": "pixlcore/xyops",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080249434701509010",
+    "fetched_at": "2026-07-23T17:25:20.267056Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, self-hosted workflow automation and server monitoring platform that integrates job scheduling, alerting, and incident response into a single dashboard.",
+    "category": "DevOps/Automation",
+    "tags": [
+      "automation",
+      "monitoring",
+      "self-hosted",
+      "devops",
+      "workflow"
+    ],
+    "risk_notes": "Requires Node.js environment. As a system-level monitoring and automation tool, it inherently requires high-level permissions to access system metrics, process lists, and network connections. The project is actively maintained, but users should review the 'Trust Guide' regarding outbound requests and security posture before deploying in sensitive environments.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 40,
+      "created_at": "2025-12-29T16:57:27Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-23T17:25:53.294021Z",
+    "stars": 4620,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-22T23:00:36Z",
+    "license": "BSD-3-Clause",
+    "topics": []
   }
 ]
