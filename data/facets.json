@@ -16367,5 +16367,100 @@
       "ffmpeg server",
       "streaming bridge"
     ]
+  },
+  "github:jekil/awesome-hacking": {
+    "capability_summary": "A curated directory of security, penetration testing, and CTF resources. It helps security professionals and students discover tools and learning materials.",
+    "problem_solved": "Finding reliable security and pentesting tools",
+    "use_cases": [
+      "penetration testing",
+      "ctf training",
+      "security research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "security-resources",
+      "infosec-list"
+    ]
+  },
+  "github:karam-ajaj/atlas": {
+    "capability_summary": "A containerized tool for discovering and visualizing Docker environments and local network subnets. It is designed for DevOps engineers and homelab enthusiasts.",
+    "problem_solved": "Visualizing complex containerized network topologies",
+    "use_cases": [
+      "network discovery",
+      "docker monitoring",
+      "infrastructure visualization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "network-mapper",
+      "docker-viz"
+    ]
+  },
+  "github:affirmatech/meshsense": {
+    "capability_summary": "A monitoring and mapping tool for Meshtastic networks providing real-time health data and signal reports. It is intended for IoT and mesh network operators.",
+    "problem_solved": "Monitoring Meshtastic network health and signal coverage",
+    "use_cases": [
+      "iot monitoring",
+      "mesh network mapping",
+      "signal analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "meshtastic-monitor"
+    ]
+  },
+  "github:javajack/skill-algotrader": {
+    "capability_summary": "A Claude Code skill that automates quantitative trading strategies for the Indian equity market using the Zerodha Kite API. It is for developers building AI-driven trading bots.",
+    "problem_solved": "Automating trading bot management via AI agents",
+    "use_cases": [
+      "algorithmic trading",
+      "finance automation",
+      "ai-agent integration"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading-bot-skill",
+      "claude-trading-agent"
+    ]
+  },
+  "github:pixlcore/xyops": {
+    "capability_summary": "A self-hosted platform for workflow automation, server monitoring, and incident response. It is designed for DevOps teams to manage infrastructure tasks.",
+    "problem_solved": "Centralizing server monitoring and automated incident response",
+    "use_cases": [
+      "job scheduling",
+      "server monitoring",
+      "incident alerting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "workflow-automation",
+      "devops-dashboard"
+    ]
   }
 }
