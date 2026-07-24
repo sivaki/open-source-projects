@@ -10932,5 +10932,129 @@
       "large-language-models",
       "multiagent-systems"
     ]
+  },
+  {
+    "id": "github:dyneteq/reconya",
+    "url": "https://github.com/dyneteq/reconya",
+    "title": "dyneteq/reconya",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080676187399983297",
+    "fetched_at": "2026-07-24T17:40:11.786349Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A network reconnaissance and asset discovery tool built in Go with an HTMX-powered dashboard, designed for real-time monitoring of IPv4 and IPv6 devices.",
+    "category": "Network Security",
+    "tags": [
+      "networking",
+      "security",
+      "golang",
+      "homelab",
+      "monitoring"
+    ],
+    "risk_notes": "The project provides a curl-to-bash install script which is a security anti-pattern. It requires sudo privileges to perform raw network scanning and packet inspection. It stores credentials in a local .env file and uses SQLite for data persistence. The project is actively maintained, but users should be cautious when running network-level tools with elevated permissions.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2024-02-07T20:18:06Z",
+      "homepage": "https://reconya.com"
+    },
+    "added_at": "2026-07-24T17:40:18.215019Z",
+    "stars": 1370,
+    "language": "Go",
+    "pushed_at": "2026-07-06T09:54:04Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:marc-shade/world-intel-mcp",
+    "url": "https://github.com/marc-shade/world-intel-mcp",
+    "title": "marc-shade/world-intel-mcp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080639791339561090",
+    "fetched_at": "2026-07-24T17:40:11.786707Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive MCP server providing 100+ tools for real-time global intelligence, including financial, geopolitical, military, and cyber threat data, with a built-in dashboard and vector search capabilities.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "osint",
+      "intelligence",
+      "automation",
+      "claude",
+      "geopolitics"
+    ],
+    "risk_notes": "Installed via pip (standard Python environment). Requires network access to fetch data from various public APIs. It uses Qdrant for local vector storage and creates a local cache directory (~/.cache/world-intel-mcp). No root privileges required, but it integrates with LLM environments (like Claude Code/Cursor) which may expose local context to the LLM.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-11-29T16:49:53Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-24T17:40:24.695225Z",
+    "stars": 52,
+    "language": "Python",
+    "pushed_at": "2026-06-04T15:18:21Z",
+    "license": "MIT",
+    "topics": [
+      "ai-tools",
+      "ai-watch",
+      "anthropic",
+      "claude",
+      "cybersecurity",
+      "dashboard",
+      "geopolitical",
+      "geospatial",
+      "intelligence",
+      "markets",
+      "mcp",
+      "military",
+      "model-context-protocol",
+      "nuclear",
+      "osint",
+      "real-time",
+      "security",
+      "space-weather",
+      "threat-intelligence"
+    ]
+  },
+  {
+    "id": "github:lumen-labs/brainapi2",
+    "url": "https://github.com/lumen-labs/brainapi2",
+    "title": "lumen-labs/brainapi2",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080606655843095009",
+    "fetched_at": "2026-07-24T17:40:11.787026Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "BrainAPI is a knowledge-graph-powered memory layer for AI agents that automatically extracts structured facts from unstructured text to enable traceable, context-aware retrieval.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "knowledge-graph",
+      "llm",
+      "automation",
+      "data-pipelines"
+    ],
+    "risk_notes": "Installs via npm global package (brainapi-tui) which manages local Python environments and Docker containers. Requires API keys for LLM providers and potentially local access to sensitive documents for ingestion. The project uses a non-standard 'PolyForm Small Business' license, which may restrict commercial use.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2025-10-19T08:13:08Z",
+      "homepage": "https://brainapi.lumen-labs.ai/docs/v2"
+    },
+    "added_at": "2026-07-24T17:40:31.317230Z",
+    "stars": 193,
+    "language": "Python",
+    "pushed_at": "2026-06-27T12:29:26Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai-agents",
+      "ai-memory",
+      "knowledge-graph",
+      "knowledge-management",
+      "knowledge-representation",
+      "reccomendation-system"
+    ]
   }
 ]
