@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 246 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 249 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [lumen-labs/brainapi2](https://github.com/lumen-labs/brainapi2) ⭐ | AI/LLM Tooling | `ai-agents` `knowledge-graph` `llm` `automation` `data-pipelines` | BrainAPI is a knowledge-graph-powered memory layer for AI agents that automatically extracts structured facts from unstructured text to enable traceable, context-aware retrieval. | 193 | 2026-07-24 |
+| [marc-shade/world-intel-mcp](https://github.com/marc-shade/world-intel-mcp) ⭐ | AI/LLM Tooling | `mcp` `osint` `intelligence` `automation` `claude` `geopolitics` | A comprehensive MCP server providing 100+ tools for real-time global intelligence, including financial, geopolitical, military, and cyber threat data, with a built-in dashboard and vector search capabilities. | 52 | 2026-07-24 |
+| [dyneteq/reconya](https://github.com/dyneteq/reconya) ⭐ | Network Security | `networking` `security` `golang` `homelab` `monitoring` | A network reconnaissance and asset discovery tool built in Go with an HTMX-powered dashboard, designed for real-time monitoring of IPv4 and IPv6 devices. | 1370 | 2026-07-24 |
 | [victordibia/designing-multiagent-systems](https://github.com/victordibia/designing-multiagent-systems) ⭐ | AI/LLM Tooling | `llm` `agents` `python` `education` `framework` | A comprehensive educational repository and framework (PicoAgents) for building multi-agent LLM systems from scratch, focusing on core principles rather than vendor-specific abstractions. | 724 | 2026-07-24 |
 | [timeverse/my-tw-coverage](https://github.com/timeverse/my-tw-coverage) ⭐ | Data Pipeline / Financial Analysis | `finance` `python` `knowledge-graph` `data-pipeline` `automation` | A structured equity research database and knowledge graph for 1,735 Taiwan-listed companies, featuring automated financial data fetching, supply chain mapping, and wikilink-based cross-referencing. | 522 | 2026-07-24 |
 | [mrmn2/pdfding](https://github.com/mrmn2/pdfding) ⭐ | self-hosting | `pdf` `self-hosted` `docker` `productivity` `document-management` | A self-hosted, feature-rich PDF management and editing platform that supports tagging, annotations, signatures, and OIDC authentication. | 1770 | 2026-07-24 |
