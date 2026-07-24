@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 241 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 246 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [victordibia/designing-multiagent-systems](https://github.com/victordibia/designing-multiagent-systems) ⭐ | AI/LLM Tooling | `llm` `agents` `python` `education` `framework` | A comprehensive educational repository and framework (PicoAgents) for building multi-agent LLM systems from scratch, focusing on core principles rather than vendor-specific abstractions. | 724 | 2026-07-24 |
+| [timeverse/my-tw-coverage](https://github.com/timeverse/my-tw-coverage) ⭐ | Data Pipeline / Financial Analysis | `finance` `python` `knowledge-graph` `data-pipeline` `automation` | A structured equity research database and knowledge graph for 1,735 Taiwan-listed companies, featuring automated financial data fetching, supply chain mapping, and wikilink-based cross-referencing. | 522 | 2026-07-24 |
+| [mrmn2/pdfding](https://github.com/mrmn2/pdfding) ⭐ | self-hosting | `pdf` `self-hosted` `docker` `productivity` `document-management` | A self-hosted, feature-rich PDF management and editing platform that supports tagging, annotations, signatures, and OIDC authentication. | 1770 | 2026-07-24 |
+| [kenlasko/monize](https://github.com/kenlasko/monize) | finance | `self-hosting` `finance` `typescript` `postgresql` `automation` | A self-hosted personal finance management application built with NestJS and Next.js, designed as a modern replacement for legacy tools like Microsoft Money. | 130 | 2026-07-24 |
+| [gepa-ai/gepa](https://github.com/gepa-ai/gepa) ⭐ | AI/LLM Tooling | `llm` `optimization` `prompt-engineering` `automation` `dspy` | A powerful framework for optimizing prompts, code, and system configurations using LLM-based reflective optimization and evolutionary search. | 5774 | 2026-07-24 |
 | [fjyktec/modernwms](https://github.com/fjyktec/modernwms) ⭐ | Self-hosting | `inventory` `wms` `erp` `dotnet` `vue` `logistics` | ModernWMS is a comprehensive, open-source warehouse management system built with .NET and Vue, designed to provide small and medium-sized enterprises with professional-grade inventory tracking capabilities. | 1636 | 2026-07-24 |
 | [edostra/marketing-for-founders](https://github.com/edostra/marketing-for-founders) ⭐ | Startup Resources | `marketing` `saas` `growth` `startup` `resources` | A comprehensive, curated collection of practical marketing resources, launch platforms, and growth strategies specifically tailored for technical founders and early-stage SaaS projects. | 6588 | 2026-07-24 |
 | [firezone/firezone](https://github.com/firezone/firezone) ⭐ | Networking | `wireguard` `zerotrust` `vpn` `networking` `security` `self-hosted` | A high-performance, open-source zero-trust access platform built on WireGuard that provides granular, group-based network access control. | 8784 | 2026-07-24 |
