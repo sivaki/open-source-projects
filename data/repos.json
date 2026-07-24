@@ -10757,5 +10757,180 @@
       "warehouse-management-system",
       "wms"
     ]
+  },
+  {
+    "id": "github:gepa-ai/gepa",
+    "url": "https://github.com/gepa-ai/gepa",
+    "title": "gepa-ai/gepa",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2080577991990751611",
+    "fetched_at": "2026-07-24T10:21:45.113632Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful framework for optimizing prompts, code, and system configurations using LLM-based reflective optimization and evolutionary search.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "optimization",
+      "prompt-engineering",
+      "automation",
+      "dspy"
+    ],
+    "risk_notes": "Installed via pip. Requires API keys for LLM providers (e.g., OpenAI) to function. As an optimization framework, it executes user-provided evaluation code, which could pose risks if the evaluation logic is untrusted or contains malicious code. The project is highly active and widely used in production environments.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 109,
+      "created_at": "2025-08-05T09:26:27Z",
+      "homepage": "https://gepa-ai.github.io/gepa/"
+    },
+    "added_at": "2026-07-24T10:21:53.855096Z",
+    "stars": 5774,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-07-23T20:42:31Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:kenlasko/monize",
+    "url": "https://github.com/kenlasko/monize",
+    "title": "kenlasko/monize",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080576243456409762",
+    "fetched_at": "2026-07-24T10:21:47.789878Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A self-hosted personal finance management application built with NestJS and Next.js, designed as a modern replacement for legacy tools like Microsoft Money.",
+    "category": "finance",
+    "tags": [
+      "self-hosting",
+      "finance",
+      "typescript",
+      "postgresql",
+      "automation"
+    ],
+    "risk_notes": "The project is entirely AI-generated ('vibe-coded') by a non-programmer, which introduces significant risks regarding code quality and security vulnerabilities. It requires a PostgreSQL database and is intended for containerized deployment (Docker/Kubernetes). It handles sensitive financial data, so it should be treated as high-risk; it requires manual review of the codebase before deployment in a production environment.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2026-01-19T19:18:27Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-24T10:22:00.332240Z",
+    "stars": 130,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-24T01:31:09Z",
+    "license": "AGPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:mrmn2/pdfding",
+    "url": "https://github.com/mrmn2/pdfding",
+    "title": "mrmn2/pdfding",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080548242110984408",
+    "fetched_at": "2026-07-24T10:21:47.790039Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted, feature-rich PDF management and editing platform that supports tagging, annotations, signatures, and OIDC authentication.",
+    "category": "self-hosting",
+    "tags": [
+      "pdf",
+      "self-hosted",
+      "docker",
+      "productivity",
+      "document-management"
+    ],
+    "risk_notes": "Installed via Docker/Docker Compose, which is a standard and secure practice. It requires persistent volume access for PDF storage and network access for web serving. It supports OIDC and 2FA, indicating a mature approach to security. The project is actively maintained and funded by the NGI0 Commons Fund.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 12,
+      "created_at": "2024-11-27T07:29:55Z",
+      "homepage": "https://www.pdfding.com"
+    },
+    "added_at": "2026-07-24T10:22:06.600995Z",
+    "stars": 1770,
+    "language": "Python",
+    "pushed_at": "2026-07-24T00:34:28Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "document-management",
+      "lightweight",
+      "pdf",
+      "pdf-cloud",
+      "pdf-editor",
+      "pdf-management",
+      "pdf-viewer",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github:timeverse/my-tw-coverage",
+    "url": "https://github.com/timeverse/my-tw-coverage",
+    "title": "timeverse/my-tw-coverage",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080521945997513172",
+    "fetched_at": "2026-07-24T10:21:47.790150Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A structured equity research database and knowledge graph for 1,735 Taiwan-listed companies, featuring automated financial data fetching, supply chain mapping, and wikilink-based cross-referencing.",
+    "category": "Data Pipeline / Financial Analysis",
+    "tags": [
+      "finance",
+      "python",
+      "knowledge-graph",
+      "data-pipeline",
+      "automation"
+    ],
+    "risk_notes": "Requires standard Python environment with dependencies (yfinance, pandas). It performs network requests to fetch financial data via yfinance and writes markdown files to the local filesystem. No sensitive credentials required, but it executes local scripts that modify the repository's internal data structure.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-03-24T12:08:06Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-24T10:22:13.224796Z",
+    "stars": 522,
+    "language": "Python",
+    "pushed_at": "2026-03-25T22:14:40Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:victordibia/designing-multiagent-systems",
+    "url": "https://github.com/victordibia/designing-multiagent-systems",
+    "title": "victordibia/designing-multiagent-systems",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080497659706515845",
+    "fetched_at": "2026-07-24T10:21:47.790273Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive educational repository and framework (PicoAgents) for building multi-agent LLM systems from scratch, focusing on core principles rather than vendor-specific abstractions.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "agents",
+      "python",
+      "education",
+      "framework"
+    ],
+    "risk_notes": "The repository is a library/educational resource installed via standard Python pip/requirements.txt. It requires external API keys (e.g., OpenAI, Anthropic) to function. As it involves building agents that can interact with tools and computer environments, users should exercise caution when running agentic code, especially in environments with sensitive local file access.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2024-05-12T14:51:51Z",
+      "homepage": "https://buy.multiagentbook.com/"
+    },
+    "added_at": "2026-07-24T10:22:19.772824Z",
+    "stars": 724,
+    "language": "Python",
+    "pushed_at": "2026-03-12T04:15:05Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "agents",
+      "autogen",
+      "generative-ai",
+      "large-language-models",
+      "multiagent-systems"
+    ]
   }
 ]
