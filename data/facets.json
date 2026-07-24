@@ -16593,5 +16593,96 @@
       "wms",
       "inventory software"
     ]
+  },
+  "github:gepa-ai/gepa": {
+    "capability_summary": "A framework for optimizing prompts and system configurations using reflective optimization and evolutionary search. Designed for AI developers and researchers.",
+    "problem_solved": "Automating the optimization of LLM prompts and configurations.",
+    "use_cases": [
+      "prompt engineering",
+      "llm optimization",
+      "automated configuration tuning"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dspy",
+      "prompt optimizer"
+    ]
+  },
+  "github:kenlasko/monize": {
+    "capability_summary": "A self-hosted personal finance management application built with modern web technologies. Designed for individuals tracking their finances.",
+    "problem_solved": "Managing personal finances with a modern, self-hosted alternative to legacy software.",
+    "use_cases": [
+      "personal finance tracking",
+      "budgeting",
+      "expense management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "microsoft money replacement",
+      "finance manager"
+    ]
+  },
+  "github:mrmn2/pdfding": {
+    "capability_summary": "A self-hosted PDF management and editing platform featuring tagging, annotations, and OIDC support. Designed for productivity and document organization.",
+    "problem_solved": "Centralizing and managing PDF documents in a self-hosted environment.",
+    "use_cases": [
+      "pdf editing",
+      "document management",
+      "digital signatures",
+      "pdf annotation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "pdf editor",
+      "document organizer"
+    ]
+  },
+  "github:timeverse/my-tw-coverage": {
+    "capability_summary": "A structured equity research database and knowledge graph for Taiwan-listed companies. Designed for financial analysts and data researchers.",
+    "problem_solved": "Automating financial data collection and mapping supply chains for Taiwan-listed companies.",
+    "use_cases": [
+      "financial analysis",
+      "equity research",
+      "supply chain mapping",
+      "data pipeline"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "financial database",
+      "knowledge graph"
+    ]
+  },
+  "github:victordibia/designing-multiagent-systems": {
+    "capability_summary": "An educational repository and framework (PicoAgents) for building multi-agent LLM systems from scratch. Designed for AI developers and students.",
+    "problem_solved": "Learning and implementing multi-agent LLM systems without vendor-specific abstractions.",
+    "use_cases": [
+      "multi-agent systems",
+      "llm education",
+      "agentic workflows"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "picoagents",
+      "autogen"
+    ]
   }
 }
