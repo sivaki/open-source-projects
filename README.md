@@ -1,11 +1,18 @@
 # Curated Repos
 
-Auto-generated list of 234 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 241 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [fjyktec/modernwms](https://github.com/fjyktec/modernwms) ⭐ | Self-hosting | `inventory` `wms` `erp` `dotnet` `vue` `logistics` | ModernWMS is a comprehensive, open-source warehouse management system built with .NET and Vue, designed to provide small and medium-sized enterprises with professional-grade inventory tracking capabilities. | 1636 | 2026-07-24 |
+| [edostra/marketing-for-founders](https://github.com/edostra/marketing-for-founders) ⭐ | Startup Resources | `marketing` `saas` `growth` `startup` `resources` | A comprehensive, curated collection of practical marketing resources, launch platforms, and growth strategies specifically tailored for technical founders and early-stage SaaS projects. | 6588 | 2026-07-24 |
+| [firezone/firezone](https://github.com/firezone/firezone) ⭐ | Networking | `wireguard` `zerotrust` `vpn` `networking` `security` `self-hosted` | A high-performance, open-source zero-trust access platform built on WireGuard that provides granular, group-based network access control. | 8784 | 2026-07-24 |
+| [mapsforge/mapsforge](https://github.com/mapsforge/mapsforge) ⭐ | Developer Tools | `java` `openstreetmap` `mapping` `android` `offline` | A mature, high-performance Java library for rendering offline vector maps based on OpenStreetMap data, suitable for both Android and desktop applications. | 1393 | 2026-07-24 |
+| [trimstray/the-practical-linux-hardening-guide](https://github.com/trimstray/the-practical-linux-hardening-guide) ⭐ | security | `linux` `hardening` `security` `compliance` `sysadmin` | A comprehensive, well-maintained documentation repository providing practical, industry-standard checklists and guides for hardening Linux production systems. | 10600 | 2026-07-24 |
+| [coding-kitties/investing-algorithm-framework](https://github.com/coding-kitties/investing-algorithm-framework) ⭐ | automation | `algorithmic-trading` `python` `quantitative-finance` `backtesting` `automation` | A comprehensive Python framework for quantitative trading that handles the full lifecycle from vector/event-driven backtesting to live deployment. | 1460 | 2026-07-24 |
+| [jaredthecoder/awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) ⭐ | Security Research | `cybersecurity` `automotive` `hacking` `hardware` `canbus` | A comprehensive, well-maintained curated list of resources, hardware, and software for vehicle security research and automotive hacking. | 4398 | 2026-07-24 |
 | [pixlcore/xyops](https://github.com/pixlcore/xyops) ⭐ | DevOps/Automation | `automation` `monitoring` `self-hosted` `devops` `workflow` | A comprehensive, self-hosted workflow automation and server monitoring platform that integrates job scheduling, alerting, and incident response into a single dashboard. | 4620 | 2026-07-23 |
 | [javajack/skill-algotrader](https://github.com/javajack/skill-algotrader) ⭐ | AI/LLM Tooling | `trading` `claude-code` `automation` `finance` `python` | A specialized Claude Code skill designed to assist with building and managing quantitative trading bots for the Indian equity market via the Zerodha Kite API. | 77 | 2026-07-23 |
 | [affirmatech/meshsense](https://github.com/affirmatech/meshsense) ⭐ | home-lab | `meshtastic` `networking` `monitoring` `iot` `raspberry-pi` | MeshSense is a monitoring and mapping tool for Meshtastic networks that provides real-time health data, signal reports, and trace routes via a GUI or headless interface. | 456 | 2026-07-23 |
