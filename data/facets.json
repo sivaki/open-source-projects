@@ -16684,5 +16684,68 @@
       "picoagents",
       "autogen"
     ]
+  },
+  "github:dyneteq/reconya": {
+    "capability_summary": "A network reconnaissance and asset discovery tool for monitoring IPv4 and IPv6 devices. It features an HTMX-powered dashboard for real-time visibility.",
+    "problem_solved": "Need to discover and monitor network assets in a homelab or enterprise environment.",
+    "use_cases": [
+      "network reconnaissance",
+      "asset discovery",
+      "real-time network monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "network scanner",
+      "asset inventory tool"
+    ]
+  },
+  "github:marc-shade/world-intel-mcp": {
+    "capability_summary": "An MCP server providing over 100 tools for real-time global intelligence, including geopolitical, financial, and cyber threat data. It integrates with AI models to provide context-aware intelligence.",
+    "problem_solved": "Need to feed real-time global intelligence data into AI agents via the Model Context Protocol.",
+    "use_cases": [
+      "OSINT gathering",
+      "threat intelligence",
+      "geopolitical analysis",
+      "automated research"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "OSINT tool",
+      "MCP server",
+      "intelligence dashboard"
+    ]
+  },
+  "github:lumen-labs/brainapi2": {
+    "capability_summary": "A knowledge-graph-based memory layer for AI agents that extracts structured facts from unstructured text. It enables traceable and context-aware information retrieval.",
+    "problem_solved": "Need to provide AI agents with long-term, structured memory and traceable knowledge retrieval.",
+    "use_cases": [
+      "AI agent memory",
+      "knowledge graph construction",
+      "structured data extraction",
+      "context-aware retrieval"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "AI memory layer",
+      "knowledge graph engine"
+    ]
   }
 }
