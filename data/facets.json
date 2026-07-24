@@ -16462,5 +16462,136 @@
       "workflow-automation",
       "devops-dashboard"
     ]
+  },
+  "github:jaredthecoder/awesome-vehicle-security": {
+    "capability_summary": "A curated collection of tools, hardware, and research resources for automotive cybersecurity and vehicle hacking.",
+    "problem_solved": "Finding resources for vehicle security research and automotive hacking.",
+    "use_cases": [
+      "automotive hacking",
+      "canbus analysis",
+      "security research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "car hacking resources"
+    ]
+  },
+  "github:coding-kitties/investing-algorithm-framework": {
+    "capability_summary": "A Python framework for quantitative trading that supports backtesting and live deployment of strategies.",
+    "problem_solved": "Automating quantitative trading strategies and backtesting.",
+    "use_cases": [
+      "algorithmic trading",
+      "quantitative finance",
+      "backtesting",
+      "trading bots"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading bot framework",
+      "quant finance library"
+    ]
+  },
+  "github:trimstray/the-practical-linux-hardening-guide": {
+    "capability_summary": "A documentation repository providing industry-standard checklists for securing Linux production systems.",
+    "problem_solved": "Hardening Linux servers against security vulnerabilities.",
+    "use_cases": [
+      "linux security",
+      "sysadmin hardening",
+      "compliance auditing"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "linux security checklist",
+      "server hardening guide"
+    ]
+  },
+  "github:mapsforge/mapsforge": {
+    "capability_summary": "A Java library for rendering offline vector maps using OpenStreetMap data.",
+    "problem_solved": "Implementing offline map rendering in Java or Android applications.",
+    "use_cases": [
+      "offline mapping",
+      "openstreetmap rendering",
+      "android navigation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "android",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "offline maps library"
+    ]
+  },
+  "github:firezone/firezone": {
+    "capability_summary": "A zero-trust access platform built on WireGuard for secure, group-based network access control.",
+    "problem_solved": "Managing secure remote access and VPN connectivity.",
+    "use_cases": [
+      "vpn",
+      "zero-trust networking",
+      "network security",
+      "firewall"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "wireguard vpn",
+      "zero trust gateway"
+    ]
+  },
+  "github:edostra/marketing-for-founders": {
+    "capability_summary": "A curated list of marketing resources and growth strategies for technical founders and SaaS projects.",
+    "problem_solved": "Finding marketing and growth resources for early-stage startups.",
+    "use_cases": [
+      "saas marketing",
+      "startup growth",
+      "product launch"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "startup marketing resources"
+    ]
+  },
+  "github:fjyktec/modernwms": {
+    "capability_summary": "An open-source warehouse management system for inventory tracking in small and medium enterprises.",
+    "problem_solved": "Managing warehouse inventory and logistics.",
+    "use_cases": [
+      "inventory management",
+      "warehouse logistics",
+      "erp"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "wms",
+      "inventory software"
+    ]
   }
 }
