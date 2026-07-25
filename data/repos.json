@@ -11180,5 +11180,147 @@
       "open-source",
       "second-brain"
     ]
+  },
+  {
+    "id": "github:comet-ml/opik",
+    "url": "https://github.com/comet-ml/opik",
+    "title": "comet-ml/opik",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2080924298571813101",
+    "fetched_at": "2026-07-25T09:51:03.264834Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Opik is a comprehensive open-source platform for LLM observability, tracing, and evaluation, designed to monitor the full lifecycle of AI agents and RAG applications.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "observability",
+      "evaluation",
+      "tracing",
+      "ai-agents",
+      "self-hosting"
+    ],
+    "risk_notes": "Self-hosted via Docker Compose, which is standard for local infrastructure. Requires network access to send telemetry/traces and will likely require API keys for LLM providers (OpenAI, Anthropic, etc.) to perform evaluations. The project is highly active and maintained by Comet ML.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 151,
+      "created_at": "2023-05-10T12:57:13Z",
+      "homepage": "https://www.comet.com/docs/opik/"
+    },
+    "added_at": "2026-07-25T09:51:12.453287Z",
+    "stars": 20836,
+    "language": "Python",
+    "pushed_at": "2026-07-24T17:30:17Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "evaluation",
+      "hacktoberfest",
+      "hacktoberfest2025",
+      "langchain",
+      "llama-index",
+      "llm",
+      "llm-evaluation",
+      "llm-observability",
+      "llmops",
+      "open-source",
+      "openai",
+      "playground",
+      "prompt-engineering"
+    ]
+  },
+  {
+    "id": "github:unicodeveloper/globalthreatmap",
+    "url": "https://github.com/unicodeveloper/globalthreatmap",
+    "title": "unicodeveloper/globalthreatmap",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080947778126016708",
+    "fetched_at": "2026-07-25T09:51:06.010639Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A real-time OSINT dashboard built with Next.js that visualizes geopolitical events, military installations, and conflict data on an interactive map using AI-powered analysis.",
+    "category": "OSINT / Geopolitical Intelligence",
+    "tags": [
+      "osint",
+      "geopolitics",
+      "nextjs",
+      "mapping",
+      "ai-agents"
+    ],
+    "risk_notes": "Requires Node.js environment; installation via npm. Relies on external API keys (Mapbox, Valyu, OpenAI) which are stored in .env.local. The application makes outbound network requests to these third-party services to fetch and process intelligence data. No root access required, but it handles sensitive API credentials.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2026-01-22T17:39:09Z",
+      "homepage": "https://globalthreatmap.up.railway.app"
+    },
+    "added_at": "2026-07-25T09:51:18.871404Z",
+    "stars": 1702,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-02T17:22:42Z",
+    "license": null,
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-assistant",
+      "intelligence",
+      "nato",
+      "osint",
+      "osint-tool",
+      "real-time",
+      "usa-military",
+      "valyu-ai"
+    ]
+  },
+  {
+    "id": "github:duy-phamduc68/trafficlab-3d",
+    "url": "https://github.com/duy-phamduc68/trafficlab-3d",
+    "title": "duy-phamduc68/trafficlab-3d",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080874557448085611",
+    "fetched_at": "2026-07-25T09:51:06.010798Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A computer vision suite for creating digital-twin style traffic visualizations by mapping CCTV footage to satellite imagery using homography and object detection.",
+    "category": "Computer Vision",
+    "tags": [
+      "computer-vision",
+      "yolo",
+      "traffic-analysis",
+      "digital-twin",
+      "geospatial"
+    ],
+    "risk_notes": "The project uses a standard Python environment (environment.yml). It requires local file access to process video files and model weights. It is a monolithic PoC, so it lacks robust security hardening or dependency auditing. It does not appear to require elevated privileges or external API keys, but users should review the code before running arbitrary model weights.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-04T14:53:07Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-25T09:51:25.208351Z",
+    "stars": 320,
+    "language": "Python",
+    "pushed_at": "2026-05-23T07:36:55Z",
+    "license": "MIT",
+    "topics": [
+      "3d-bbox",
+      "autonomous-driving",
+      "camera-calibration",
+      "cctv-analysis",
+      "computer-vision",
+      "digital-twin",
+      "geospatial-mapping",
+      "homography",
+      "intellegent-transportation",
+      "object-detection",
+      "object-tracking",
+      "projection-mapping",
+      "pyqt5-gui",
+      "satellite-imagery",
+      "smart-city",
+      "traffic-analysis",
+      "traffic-monitoring",
+      "urban-analytics",
+      "yolo"
+    ]
   }
 ]
