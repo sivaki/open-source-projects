@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 252 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 255 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [duy-phamduc68/trafficlab-3d](https://github.com/duy-phamduc68/trafficlab-3d) ⭐ | Computer Vision | `computer-vision` `yolo` `traffic-analysis` `digital-twin` `geospatial` | A computer vision suite for creating digital-twin style traffic visualizations by mapping CCTV footage to satellite imagery using homography and object detection. | 320 | 2026-07-25 |
+| [unicodeveloper/globalthreatmap](https://github.com/unicodeveloper/globalthreatmap) ⭐ | OSINT / Geopolitical Intelligence | `osint` `geopolitics` `nextjs` `mapping` `ai-agents` | A real-time OSINT dashboard built with Next.js that visualizes geopolitical events, military installations, and conflict data on an interactive map using AI-powered analysis. | 1702 | 2026-07-25 |
+| [comet-ml/opik](https://github.com/comet-ml/opik) ⭐ | AI/LLM Tooling | `llm` `observability` `evaluation` `tracing` `ai-agents` `self-hosting` | Opik is a comprehensive open-source platform for LLM observability, tracing, and evaluation, designed to monitor the full lifecycle of AI agents and RAG applications. | 20836 | 2026-07-25 |
 | [agricidaniel/claude-canvas](https://github.com/agricidaniel/claude-canvas) ⭐ | Developer Tools | `obsidian` `ai` `automation` `knowledge-management` `cli` | An AI-orchestrated plugin for Obsidian Canvas that automates the creation, layout, and population of visual knowledge graphs, presentations, and diagrams using Claude Code. | 166 | 2026-07-25 |
 | [tradermonty/claude-weekly-trade-strategy](https://github.com/tradermonty/claude-weekly-trade-strategy) ⭐ | AI/LLM Tooling | `ai-agents` `trading` `automation` `claude-code` `finance` | An advanced AI agentic workflow designed to automate the generation of weekly US stock market strategy reports using Claude Code CLI, incorporating technical analysis, news sentiment, and rigorous fact-checking pipelines. | 23 | 2026-07-25 |
 | [1n3/sn1per](https://github.com/1n3/sn1per) ⭐ | Security Tooling | `pentesting` `security` `osint` `automation` `recon` | An automated penetration testing and attack surface management platform that orchestrates numerous security tools into a unified workflow for recon, scanning, and exploitation. | 10335 | 2026-07-25 |
