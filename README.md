@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 255 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 256 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [rahulnyk/knowledge_graph](https://github.com/rahulnyk/knowledge_graph) ⭐ | AI/LLM Tooling | `knowledge-graph` `rag` `llm` `ollama` `data-pipeline` | A framework for converting text corpora into knowledge graphs using local LLMs via Ollama, designed for Graph RAG applications. | 3284 | 2026-07-25 |
 | [duy-phamduc68/trafficlab-3d](https://github.com/duy-phamduc68/trafficlab-3d) ⭐ | Computer Vision | `computer-vision` `yolo` `traffic-analysis` `digital-twin` `geospatial` | A computer vision suite for creating digital-twin style traffic visualizations by mapping CCTV footage to satellite imagery using homography and object detection. | 320 | 2026-07-25 |
 | [unicodeveloper/globalthreatmap](https://github.com/unicodeveloper/globalthreatmap) ⭐ | OSINT / Geopolitical Intelligence | `osint` `geopolitics` `nextjs` `mapping` `ai-agents` | A real-time OSINT dashboard built with Next.js that visualizes geopolitical events, military installations, and conflict data on an interactive map using AI-powered analysis. | 1702 | 2026-07-25 |
 | [comet-ml/opik](https://github.com/comet-ml/opik) ⭐ | AI/LLM Tooling | `llm` `observability` `evaluation` `tracing` `ai-agents` `self-hosting` | Opik is a comprehensive open-source platform for LLM observability, tracing, and evaluation, designed to monitor the full lifecycle of AI agents and RAG applications. | 20836 | 2026-07-25 |
