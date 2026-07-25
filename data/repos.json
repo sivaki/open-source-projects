@@ -11056,5 +11056,129 @@
       "knowledge-representation",
       "reccomendation-system"
     ]
+  },
+  {
+    "id": "github:1n3/sn1per",
+    "url": "https://github.com/1n3/sn1per",
+    "title": "1n3/sn1per",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080814279603650886",
+    "fetched_at": "2026-07-25T02:51:49.308150Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An automated penetration testing and attack surface management platform that orchestrates numerous security tools into a unified workflow for recon, scanning, and exploitation.",
+    "category": "Security Tooling",
+    "tags": [
+      "pentesting",
+      "security",
+      "osint",
+      "automation",
+      "recon"
+    ],
+    "risk_notes": "The tool is designed for offensive security and requires high-level system permissions to perform network scanning and exploitation. It is typically deployed via Docker, but users should be aware that it integrates with and executes many third-party security tools, which increases the attack surface of the host machine. It is a professional-grade tool with a paid tier, so the free community version may have limitations or require manual configuration.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2015-09-06T15:47:38Z",
+      "homepage": "https://sn1persecurity.com"
+    },
+    "added_at": "2026-07-25T02:51:55.420554Z",
+    "stars": 10335,
+    "language": "Shell",
+    "pushed_at": "2026-07-04T21:10:21Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "attack-surface",
+      "attack-surface-management",
+      "attacksurface",
+      "bugbounty-platform",
+      "cybersecurity",
+      "hacking",
+      "hacking-tools",
+      "osint-framework",
+      "osint-tool",
+      "penetration-testing",
+      "pentest-scripts",
+      "pentest-tool",
+      "pentest-tools",
+      "pentesting",
+      "pentesting-tools",
+      "security",
+      "security-tools",
+      "sn1per",
+      "sn1per-professional"
+    ]
+  },
+  {
+    "id": "github:tradermonty/claude-weekly-trade-strategy",
+    "url": "https://github.com/tradermonty/claude-weekly-trade-strategy",
+    "title": "tradermonty/claude-weekly-trade-strategy",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080762001924468793",
+    "fetched_at": "2026-07-25T02:51:49.308296Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An advanced AI agentic workflow designed to automate the generation of weekly US stock market strategy reports using Claude Code CLI, incorporating technical analysis, news sentiment, and rigorous fact-checking pipelines.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "trading",
+      "automation",
+      "claude-code",
+      "finance"
+    ],
+    "risk_notes": "Requires the Claude Code CLI and an Anthropic API key. It performs automated file system operations and network requests to financial APIs (FMP). Users should review the agent's configuration in .claude/agents/ to understand its specific file system access permissions before execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-11-16T14:22:46Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-25T02:52:01.865564Z",
+    "stars": 23,
+    "language": "Python",
+    "pushed_at": "2026-05-16T16:24:58Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:agricidaniel/claude-canvas",
+    "url": "https://github.com/agricidaniel/claude-canvas",
+    "title": "agricidaniel/claude-canvas",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2080716539586556393",
+    "fetched_at": "2026-07-25T02:51:49.308425Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An AI-orchestrated plugin for Obsidian Canvas that automates the creation, layout, and population of visual knowledge graphs, presentations, and diagrams using Claude Code.",
+    "category": "Developer Tools",
+    "tags": [
+      "obsidian",
+      "ai",
+      "automation",
+      "knowledge-management",
+      "cli"
+    ],
+    "risk_notes": "Installs via Claude Code CLI plugin system. Requires Python 3.10+ and access to your Obsidian vault directory. It relies on external AI services (Claude/Gemini) for generation, which requires API keys. The project is very new (created April 2026), so it may have stability issues.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2026-04-10T13:34:58Z",
+      "homepage": "https://agricidaniel.com/blog/claude-canvas-ai-visual-production"
+    },
+    "added_at": "2026-07-25T02:52:08.262564Z",
+    "stars": 166,
+    "language": "Python",
+    "pushed_at": "2026-04-10T17:13:29Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "claude-code",
+      "claude-code-skill",
+      "knowledge-management",
+      "obsidian",
+      "open-source",
+      "second-brain"
+    ]
   }
 ]
