@@ -16747,5 +16747,67 @@
       "AI memory layer",
       "knowledge graph engine"
     ]
+  },
+  "github:1n3/sn1per": {
+    "capability_summary": "An automated penetration testing and attack surface management platform that orchestrates security tools into a unified workflow. It is designed for security professionals and bug bounty hunters.",
+    "problem_solved": "Automates reconnaissance, scanning, and exploitation workflows for security assessments.",
+    "use_cases": [
+      "penetration testing",
+      "attack surface management",
+      "osint gathering",
+      "vulnerability scanning"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cli"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "pentest framework",
+      "security scanner"
+    ]
+  },
+  "github:tradermonty/claude-weekly-trade-strategy": {
+    "capability_summary": "An AI agentic workflow that automates the generation of weekly US stock market strategy reports. It is built for traders and financial analysts using Claude Code.",
+    "problem_solved": "Automates the synthesis of technical analysis and market sentiment into structured trading reports.",
+    "use_cases": [
+      "stock market analysis",
+      "automated trading reports",
+      "financial sentiment analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "ai trading assistant",
+      "finance automation"
+    ]
+  },
+  "github:agricidaniel/claude-canvas": {
+    "capability_summary": "An AI-orchestrated plugin for Obsidian Canvas that automates the creation and layout of visual knowledge graphs and diagrams. It is designed for knowledge workers and researchers.",
+    "problem_solved": "Automates the visual organization of information and knowledge mapping within Obsidian.",
+    "use_cases": [
+      "knowledge management",
+      "visual diagramming",
+      "second brain organization",
+      "automated presentations"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian ai plugin",
+      "knowledge graph generator"
+    ]
   }
 }
