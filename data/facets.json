@@ -16874,5 +16874,27 @@
       "traffic monitoring system",
       "geospatial computer vision"
     ]
+  },
+  "github:rahulnyk/knowledge_graph": {
+    "capability_summary": "A framework that converts text corpora into knowledge graphs using local LLMs via Ollama. It is designed for developers building Graph RAG applications.",
+    "problem_solved": "Automating the extraction of structured knowledge graphs from unstructured text for RAG.",
+    "use_cases": [
+      "graph rag",
+      "knowledge extraction",
+      "llm data pipelines"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graph rag builder",
+      "ollama knowledge graph"
+    ]
   }
 }
