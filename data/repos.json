@@ -11322,5 +11322,37 @@
       "urban-analytics",
       "yolo"
     ]
+  },
+  {
+    "id": "github:rahulnyk/knowledge_graph",
+    "url": "https://github.com/rahulnyk/knowledge_graph",
+    "title": "rahulnyk/knowledge_graph",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081009750204916172",
+    "fetched_at": "2026-07-25T17:01:38.102497Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A framework for converting text corpora into knowledge graphs using local LLMs via Ollama, designed for Graph RAG applications.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "knowledge-graph",
+      "rag",
+      "llm",
+      "ollama",
+      "data-pipeline"
+    ],
+    "risk_notes": "Uses Docker for containerized execution, which is a secure practice. Requires local installation of Ollama and access to local LLM models. The project is a collection of Jupyter notebooks, so it requires standard Python data science dependencies. No sensitive API keys are required as it emphasizes a local-only approach.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 19,
+      "created_at": "2023-10-22T09:02:57Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-25T17:01:44.158228Z",
+    "stars": 3284,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-12T11:56:08Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
