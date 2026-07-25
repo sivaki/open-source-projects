@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 249 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 252 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [agricidaniel/claude-canvas](https://github.com/agricidaniel/claude-canvas) ⭐ | Developer Tools | `obsidian` `ai` `automation` `knowledge-management` `cli` | An AI-orchestrated plugin for Obsidian Canvas that automates the creation, layout, and population of visual knowledge graphs, presentations, and diagrams using Claude Code. | 166 | 2026-07-25 |
+| [tradermonty/claude-weekly-trade-strategy](https://github.com/tradermonty/claude-weekly-trade-strategy) ⭐ | AI/LLM Tooling | `ai-agents` `trading` `automation` `claude-code` `finance` | An advanced AI agentic workflow designed to automate the generation of weekly US stock market strategy reports using Claude Code CLI, incorporating technical analysis, news sentiment, and rigorous fact-checking pipelines. | 23 | 2026-07-25 |
+| [1n3/sn1per](https://github.com/1n3/sn1per) ⭐ | Security Tooling | `pentesting` `security` `osint` `automation` `recon` | An automated penetration testing and attack surface management platform that orchestrates numerous security tools into a unified workflow for recon, scanning, and exploitation. | 10335 | 2026-07-25 |
 | [lumen-labs/brainapi2](https://github.com/lumen-labs/brainapi2) ⭐ | AI/LLM Tooling | `ai-agents` `knowledge-graph` `llm` `automation` `data-pipelines` | BrainAPI is a knowledge-graph-powered memory layer for AI agents that automatically extracts structured facts from unstructured text to enable traceable, context-aware retrieval. | 193 | 2026-07-24 |
 | [marc-shade/world-intel-mcp](https://github.com/marc-shade/world-intel-mcp) ⭐ | AI/LLM Tooling | `mcp` `osint` `intelligence` `automation` `claude` `geopolitics` | A comprehensive MCP server providing 100+ tools for real-time global intelligence, including financial, geopolitical, military, and cyber threat data, with a built-in dashboard and vector search capabilities. | 52 | 2026-07-24 |
 | [dyneteq/reconya](https://github.com/dyneteq/reconya) ⭐ | Network Security | `networking` `security` `golang` `homelab` `monitoring` | A network reconnaissance and asset discovery tool built in Go with an HTMX-powered dashboard, designed for real-time monitoring of IPv4 and IPv6 devices. | 1370 | 2026-07-24 |
