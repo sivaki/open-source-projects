@@ -16809,5 +16809,70 @@
       "obsidian ai plugin",
       "knowledge graph generator"
     ]
+  },
+  "github:comet-ml/opik": {
+    "capability_summary": "An open-source platform for tracing, evaluating, and monitoring the lifecycle of LLM applications and AI agents. It is designed for developers and AI engineers.",
+    "problem_solved": "Lack of visibility and evaluation metrics for LLM and RAG application performance.",
+    "use_cases": [
+      "llm observability",
+      "prompt evaluation",
+      "rag monitoring",
+      "ai agent tracing"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "langsmith alternative",
+      "llmops platform"
+    ]
+  },
+  "github:unicodeveloper/globalthreatmap": {
+    "capability_summary": "A real-time OSINT dashboard that visualizes geopolitical and military events on an interactive map using AI-powered analysis. It is intended for intelligence analysts and researchers.",
+    "problem_solved": "Difficulty in visualizing and tracking real-time geopolitical and military conflict data.",
+    "use_cases": [
+      "geopolitical monitoring",
+      "osint dashboard",
+      "military installation tracking",
+      "conflict data visualization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint tool",
+      "geopolitical intelligence map"
+    ]
+  },
+  "github:duy-phamduc68/trafficlab-3d": {
+    "capability_summary": "A computer vision suite that maps CCTV traffic footage onto satellite imagery to create 3D digital-twin visualizations. It is built for urban planners and traffic engineers.",
+    "problem_solved": "Difficulty in integrating 2D camera footage into 3D geospatial traffic models.",
+    "use_cases": [
+      "traffic analysis",
+      "digital twin creation",
+      "object detection",
+      "smart city planning"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "traffic monitoring system",
+      "geospatial computer vision"
+    ]
   }
 }
