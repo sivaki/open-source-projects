@@ -17032,5 +17032,25 @@
       "claude-code-skills",
       "ai memory system"
     ]
+  },
+  "github:oros42/imsi-catcher": {
+    "capability_summary": "A tool for identifying and capturing IMSI numbers from GSM cellular devices using software-defined radio hardware. It is intended for security researchers and privacy enthusiasts.",
+    "problem_solved": "Identifying cellular device identities in proximity via GSM signals.",
+    "use_cases": [
+      "security research",
+      "privacy auditing",
+      "signal analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "gsm-sniffer",
+      "sdr-security-tool"
+    ]
   }
 }
