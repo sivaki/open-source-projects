@@ -11571,5 +11571,89 @@
       "whois",
       "whois-lookup"
     ]
+  },
+  {
+    "id": "github:paymenter/paymenter",
+    "url": "https://github.com/paymenter/paymenter",
+    "title": "paymenter/paymenter",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081282076137943410",
+    "fetched_at": "2026-07-26T10:02:51.756575Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Paymenter is an open-source billing and automation platform specifically designed for hosting providers, featuring deep integration with Pterodactyl panel.",
+    "category": "self-hosting",
+    "tags": [
+      "billing",
+      "ecommerce",
+      "hosting",
+      "automation",
+      "laravel"
+    ],
+    "risk_notes": "Requires a standard LEMP/LAMP stack (PHP 8.3+, MariaDB, Nginx/Apache). Installation involves manual configuration of web server virtual hosts and database setup. As a billing platform, it handles sensitive financial data and customer information, requiring strict security hardening of the underlying server and database. It is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 72,
+      "created_at": "2022-10-07T05:59:21Z",
+      "homepage": "https://paymenter.org"
+    },
+    "added_at": "2026-07-26T10:02:58.162280Z",
+    "stars": 1827,
+    "language": "PHP",
+    "pushed_at": "2026-07-26T08:55:46Z",
+    "license": "MIT",
+    "topics": [
+      "ecommerce",
+      "hosting",
+      "laravel",
+      "marketplace",
+      "php",
+      "pterodactyl",
+      "stripe",
+      "website"
+    ]
+  },
+  {
+    "id": "github:haddock-development/claude-reflect-system",
+    "url": "https://github.com/haddock-development/claude-reflect-system",
+    "title": "haddock-development/claude-reflect-system",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081241498478113176",
+    "fetched_at": "2026-07-26T10:02:51.756845Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A persistent memory and skill-learning system for Claude Code that captures user corrections and feedback into local YAML-based skill files, ensuring the AI retains project-specific preferences across sessions.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude-code",
+      "llm",
+      "automation",
+      "developer-tools",
+      "python"
+    ],
+    "risk_notes": "The tool is installed by manually copying files into the ~/.claude/skills/ directory. It operates by reading session logs and modifying local YAML files, which requires filesystem access. It does not require external API keys beyond what Claude Code already uses, but it does perform Git operations on your local machine. The project is very new (created Jan 2026), so it should be monitored for stability.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-05T11:34:28Z",
+      "homepage": "https://huggingface.co/mindchain"
+    },
+    "added_at": "2026-07-26T10:03:04.915214Z",
+    "stars": 168,
+    "language": "Python",
+    "pushed_at": "2026-01-17T09:53:59Z",
+    "license": null,
+    "topics": [
+      "ai",
+      "claude-code",
+      "claude-code-skills",
+      "codex-skills",
+      "continuous-improvement",
+      "llm",
+      "python",
+      "reflection",
+      "self-learning",
+      "skill-system"
+    ]
   }
 ]
