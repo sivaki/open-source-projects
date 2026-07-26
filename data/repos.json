@@ -11655,5 +11655,89 @@
       "self-learning",
       "skill-system"
     ]
+  },
+  {
+    "id": "github:oros42/imsi-catcher",
+    "url": "https://github.com/oros42/imsi-catcher",
+    "title": "oros42/imsi-catcher",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081379346472726764",
+    "fetched_at": "2026-07-26T17:04:45.089562Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized tool for capturing and identifying IMSI numbers from nearby GSM cellular devices using SDR hardware.",
+    "category": "security",
+    "tags": [
+      "sdr",
+      "gsm",
+      "security",
+      "radio",
+      "privacy"
+    ],
+    "risk_notes": "Requires root/sudo privileges to access network interfaces and SDR hardware. Involves complex dependencies (gr-gsm) and potential legal implications regarding radio signal interception. Installation involves system-level package management and potentially running untrusted code in a privileged container.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 25,
+      "created_at": "2015-06-03T20:58:11Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-26T17:04:51.133078Z",
+    "stars": 4398,
+    "language": "Python",
+    "pushed_at": "2026-06-06T13:47:14Z",
+    "license": "CC0-1.0",
+    "topics": [
+      "cellphones",
+      "frequency",
+      "gr-gsm",
+      "gsm",
+      "hackrf",
+      "imsi-catcher",
+      "imsi-numbers",
+      "osmocombb",
+      "rtl-sdr"
+    ]
+  },
+  {
+    "id": "github:shi-rudo/awesome-stock-trading",
+    "url": "https://github.com/shi-rudo/awesome-stock-trading",
+    "title": "shi-rudo/awesome-stock-trading",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081327384360358209",
+    "fetched_at": "2026-07-26T17:04:45.089723Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A curated list of stock trading websites, tools, and resources.",
+    "category": "finance",
+    "tags": [
+      "trading",
+      "stocks",
+      "finance",
+      "resources",
+      "curated"
+    ],
+    "risk_notes": "This is a static markdown list of links, not software. There is no installation or execution risk, but the links lead to third-party financial platforms which may require personal data or payment.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2023-04-11T19:20:47Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-26T17:04:57.518393Z",
+    "stars": 559,
+    "language": null,
+    "pushed_at": "2026-04-26T17:26:24Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "market",
+      "pricing",
+      "stock",
+      "stock-market",
+      "stock-trading",
+      "stocks",
+      "trading"
+    ]
   }
 ]
