@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 263 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 264 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [oros42/imsi-catcher](https://github.com/oros42/imsi-catcher) ⭐ | security | `sdr` `gsm` `security` `radio` `privacy` | A specialized tool for capturing and identifying IMSI numbers from nearby GSM cellular devices using SDR hardware. | 4398 | 2026-07-26 |
 | [haddock-development/claude-reflect-system](https://github.com/haddock-development/claude-reflect-system) ⭐ | AI/LLM Tooling | `claude-code` `llm` `automation` `developer-tools` `python` | A persistent memory and skill-learning system for Claude Code that captures user corrections and feedback into local YAML-based skill files, ensuring the AI retains project-specific preferences across sessions. | 168 | 2026-07-26 |
 | [paymenter/paymenter](https://github.com/paymenter/paymenter) ⭐ | self-hosting | `billing` `ecommerce` `hosting` `automation` `laravel` | Paymenter is an open-source billing and automation platform specifically designed for hosting providers, featuring deep integration with Pterodactyl panel. | 1827 | 2026-07-26 |
 | [jason5ng32/myip](https://github.com/jason5ng32/myip) ⭐ | Networking | `networking` `self-hosted` `security` `diagnostics` `docker` | A comprehensive, self-hostable IP and network diagnostic toolbox that provides geolocation, DNS leak testing, speed tests, and cybersecurity checks. | 11166 | 2026-07-26 |
