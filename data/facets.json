@@ -16989,5 +16989,48 @@
       "whatismyip",
       "network diagnostic tool"
     ]
+  },
+  "github:paymenter/paymenter": {
+    "capability_summary": "Paymenter is an open-source billing and automation platform built for hosting providers. It integrates directly with Pterodactyl panel to manage client services and payments.",
+    "problem_solved": "Automating billing and service provisioning for hosting businesses.",
+    "use_cases": [
+      "hosting provider billing",
+      "Pterodactyl integration",
+      "ecommerce automation",
+      "client management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "billing software",
+      "hosting management"
+    ]
+  },
+  "github:haddock-development/claude-reflect-system": {
+    "capability_summary": "A persistent memory and skill-learning system for Claude Code that saves user feedback into local YAML files. It allows the AI to retain project-specific preferences and corrections across different sessions.",
+    "problem_solved": "Preventing AI from repeating mistakes by enabling persistent learning.",
+    "use_cases": [
+      "AI developer tools",
+      "automated code improvement",
+      "persistent LLM memory"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skills",
+      "ai memory system"
+    ]
   }
 }
