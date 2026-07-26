@@ -16896,5 +16896,98 @@
       "graph rag builder",
       "ollama knowledge graph"
     ]
+  },
+  "github:mikeroyal/digital-forensics-guide": {
+    "capability_summary": "A curated collection of resources, tools, and frameworks for digital forensics and incident response professionals.",
+    "problem_solved": "Finding reliable tools and learning materials for DFIR investigations.",
+    "use_cases": [
+      "incident response",
+      "forensic analysis",
+      "threat intelligence",
+      "security research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "DFIR guide",
+      "forensics resources"
+    ]
+  },
+  "github:5bhuv4n35h/pentestmindmap": {
+    "capability_summary": "A visual mind map outlining a structured workflow for penetration testing.",
+    "problem_solved": "Providing a clear, step-by-step methodology for security assessments.",
+    "use_cases": [
+      "OSCP preparation",
+      "penetration testing workflow",
+      "security training"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pentest workflow",
+      "security mindmap"
+    ]
+  },
+  "github:hkuds/clawteam": {
+    "capability_summary": "An orchestration framework designed to manage and coordinate multi-agent AI swarms.",
+    "problem_solved": "Automating complex tasks by orchestrating multiple specialized AI agents.",
+    "use_cases": [
+      "automated research",
+      "software engineering",
+      "data analysis",
+      "AI agent orchestration"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "multi-agent system",
+      "AI swarm manager"
+    ]
+  },
+  "github:hamed233/cybersecurity-mastery-roadmap": {
+    "capability_summary": "A structured educational path for individuals learning cybersecurity from foundational concepts to advanced specializations.",
+    "problem_solved": "Navigating the overwhelming landscape of cybersecurity learning resources.",
+    "use_cases": [
+      "career planning",
+      "security training",
+      "skill development"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "infosec roadmap",
+      "cybersecurity learning path"
+    ]
+  },
+  "github:jason5ng32/myip": {
+    "capability_summary": "A self-hostable network diagnostic toolbox for checking IP details, DNS leaks, and connection speeds.",
+    "problem_solved": "Verifying network privacy and diagnosing connectivity issues.",
+    "use_cases": [
+      "DNS leak testing",
+      "geolocation check",
+      "speed testing",
+      "network diagnostics"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "whatismyip",
+      "network diagnostic tool"
+    ]
   }
 }
