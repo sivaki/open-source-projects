@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 256 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 261 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [jason5ng32/myip](https://github.com/jason5ng32/myip) ⭐ | Networking | `networking` `self-hosted` `security` `diagnostics` `docker` | A comprehensive, self-hostable IP and network diagnostic toolbox that provides geolocation, DNS leak testing, speed tests, and cybersecurity checks. | 11166 | 2026-07-26 |
+| [hamed233/cybersecurity-mastery-roadmap](https://github.com/hamed233/cybersecurity-mastery-roadmap) ⭐ | Education | `cybersecurity` `roadmap` `infosec` `learning` `career` | A highly structured, comprehensive educational roadmap for cybersecurity, covering everything from foundational computer science and networking to advanced offensive/defensive security specializations. | 3052 | 2026-07-26 |
+| [hkuds/clawteam](https://github.com/hkuds/clawteam) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `multi-agent` `llm` `orchestration` | ClawTeam is an orchestration framework for multi-agent AI swarms, designed to coordinate specialized agents for tasks like automated research, software engineering, and data analysis. | 5427 | 2026-07-26 |
+| [5bhuv4n35h/pentestmindmap](https://github.com/5bhuv4n35h/pentestmindmap) ⭐ | security | `pentesting` `oscp` `mindmap` `security-training` `infosec` | A visual mind map providing a structured workflow for penetration testing, useful for OSCP preparation and general security methodology reference. | 285 | 2026-07-26 |
+| [mikeroyal/digital-forensics-guide](https://github.com/mikeroyal/digital-forensics-guide) ⭐ | Security | `security` `forensics` `dfir` `cybersecurity` `resources` | A comprehensive curated list of resources, tools, and frameworks for digital forensics and incident response (DFIR). | 2971 | 2026-07-26 |
 | [rahulnyk/knowledge_graph](https://github.com/rahulnyk/knowledge_graph) ⭐ | AI/LLM Tooling | `knowledge-graph` `rag` `llm` `ollama` `data-pipeline` | A framework for converting text corpora into knowledge graphs using local LLMs via Ollama, designed for Graph RAG applications. | 3284 | 2026-07-25 |
 | [duy-phamduc68/trafficlab-3d](https://github.com/duy-phamduc68/trafficlab-3d) ⭐ | Computer Vision | `computer-vision` `yolo` `traffic-analysis` `digital-twin` `geospatial` | A computer vision suite for creating digital-twin style traffic visualizations by mapping CCTV footage to satellite imagery using homography and object detection. | 320 | 2026-07-25 |
 | [unicodeveloper/globalthreatmap](https://github.com/unicodeveloper/globalthreatmap) ⭐ | OSINT / Geopolitical Intelligence | `osint` `geopolitics` `nextjs` `mapping` `ai-agents` | A real-time OSINT dashboard built with Next.js that visualizes geopolitical events, military installations, and conflict data on an interactive map using AI-powered analysis. | 1702 | 2026-07-25 |
