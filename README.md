@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 266 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 271 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [danilobatson/ai-trading-agent-gemini](https://github.com/danilobatson/ai-trading-agent-gemini) ⭐ | AI/LLM Tooling | `ai` `trading` `nextjs` `automation` `cryptocurrency` | A modern Next.js-based AI agent that integrates LunarCrush social sentiment data with Google Gemini to generate cryptocurrency trading signals, utilizing Inngest for background workflows and Supabase for real-time state management. | 268 | 2026-07-27 |
+| [buage/selfhostlist](https://github.com/buage/selfhostlist) ⭐ | documentation | `self-hosting` `homelab` `curated-list` `opensource` | A curated directory of open-source and self-hosted applications, providing a searchable list of software suitable for home-lab environments. | 207 | 2026-07-27 |
+| [brightdata/cli](https://github.com/brightdata/cli) ⭐ | Data Pipeline / Automation | `scraping` `automation` `cli` `ai` `data-extraction` | A comprehensive CLI tool for interacting with Bright Data's web scraping, search, and data extraction APIs, including AI-powered scraper generation and MCP server integration. | 308 | 2026-07-27 |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) ⭐ | AI/LLM Tooling | `llm` `fine-tuning` `ai` `self-hosted` `machine-learning` | Unsloth is a high-performance framework and UI for training, fine-tuning, and running local LLMs with significant memory and speed optimizations. | 68953 | 2026-07-27 |
+| [e2b-dev/e2b](https://github.com/e2b-dev/e2b) ⭐ | AI/LLM Tooling | `ai-agents` `code-interpreter` `sandbox` `automation` `cloud-infrastructure` | E2B provides secure, isolated cloud sandboxes for AI agents to execute code, offering both a managed cloud service and self-hosting options via Terraform. | 13118 | 2026-07-27 |
 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) ⭐ | Finance/Automation | `quant` `trading` `automation` `python` `data-science` | A comprehensive, well-maintained curated list of open-source libraries, frameworks, and educational resources for systematic and quantitative trading. | 8810 | 2026-07-27 |
 | [whchien/ai-trader](https://github.com/whchien/ai-trader) ⭐ | algorithmic-trading | `ai` `cli` `backtesting` `mcp` `finance` `automation` | A professional, config-driven backtesting framework for algorithmic trading that integrates with LLMs via the Model Context Protocol (MCP). | 913 | 2026-07-27 |
 | [oros42/imsi-catcher](https://github.com/oros42/imsi-catcher) ⭐ | security | `sdr` `gsm` `security` `radio` `privacy` | A specialized tool for capturing and identifying IMSI numbers from nearby GSM cellular devices using SDR hardware. | 4398 | 2026-07-26 |
