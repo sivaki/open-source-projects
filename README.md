@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 271 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 273 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [rickstaa/awesome-adsb](https://github.com/rickstaa/awesome-adsb) ⭐ | Home-lab / Aviation | `adsb` `homelab` `aviation` `sdr` `raspberrypi` | A comprehensive, well-maintained curated list of tools, hardware, and resources for ADS-B aviation tracking, ideal for home-lab enthusiasts. | 342 | 2026-07-27 |
+| [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) ⭐ | Education | `architecture` `software-engineering` `design-patterns` `programming` `learning` | A highly accessible, well-maintained educational resource that explains complex software design patterns using simple language and PHP code examples. | 48046 | 2026-07-27 |
 | [danilobatson/ai-trading-agent-gemini](https://github.com/danilobatson/ai-trading-agent-gemini) ⭐ | AI/LLM Tooling | `ai` `trading` `nextjs` `automation` `cryptocurrency` | A modern Next.js-based AI agent that integrates LunarCrush social sentiment data with Google Gemini to generate cryptocurrency trading signals, utilizing Inngest for background workflows and Supabase for real-time state management. | 268 | 2026-07-27 |
 | [buage/selfhostlist](https://github.com/buage/selfhostlist) ⭐ | documentation | `self-hosting` `homelab` `curated-list` `opensource` | A curated directory of open-source and self-hosted applications, providing a searchable list of software suitable for home-lab environments. | 207 | 2026-07-27 |
 | [brightdata/cli](https://github.com/brightdata/cli) ⭐ | Data Pipeline / Automation | `scraping` `automation` `cli` `ai` `data-extraction` | A comprehensive CLI tool for interacting with Bright Data's web scraping, search, and data extraction APIs, including AI-powered scraper generation and MCP server integration. | 308 | 2026-07-27 |
