@@ -11739,5 +11739,102 @@
       "stocks",
       "trading"
     ]
+  },
+  {
+    "id": "github:whchien/ai-trader",
+    "url": "https://github.com/whchien/ai-trader",
+    "title": "whchien/ai-trader",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081512407461945687",
+    "fetched_at": "2026-07-27T03:26:47.693213Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A professional, config-driven backtesting framework for algorithmic trading that integrates with LLMs via the Model Context Protocol (MCP).",
+    "category": "algorithmic-trading",
+    "tags": [
+      "ai",
+      "cli",
+      "backtesting",
+      "mcp",
+      "finance",
+      "automation"
+    ],
+    "risk_notes": "Installs via pip or source (uv/poetry). Requires network access to fetch financial data from external APIs. As an MCP server, it allows LLMs to execute code and access local files/data directories defined in the configuration. Users should review the YAML configurations before execution to ensure no unintended file system access.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2024-06-18T14:10:24Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-27T03:26:53.893588Z",
+    "stars": 913,
+    "language": "Python",
+    "pushed_at": "2026-03-28T11:16:18Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "algorithmic-trading",
+      "backtrader",
+      "cli",
+      "mcp",
+      "mcp-server",
+      "portfolio-management",
+      "quantitative-finance",
+      "stock-price-prediction",
+      "trading"
+    ]
+  },
+  {
+    "id": "github:paperswithbacktest/awesome-systematic-trading",
+    "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+    "title": "paperswithbacktest/awesome-systematic-trading",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081439775525916698",
+    "fetched_at": "2026-07-27T03:26:47.693636Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, well-maintained curated list of open-source libraries, frameworks, and educational resources for systematic and quantitative trading.",
+    "category": "Finance/Automation",
+    "tags": [
+      "quant",
+      "trading",
+      "automation",
+      "python",
+      "data-science"
+    ],
+    "risk_notes": "This is a documentation/curation repository and contains no executable code itself. It links to various third-party trading frameworks. Users should exercise extreme caution when installing or running any of the linked trading bots, as they often require API keys for financial exchanges and have the potential to execute real-money trades if misconfigured.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 45,
+      "created_at": "2022-02-05T20:48:52Z",
+      "homepage": "https://paperswithbacktest.com"
+    },
+    "added_at": "2026-07-27T03:27:00.400391Z",
+    "stars": 8810,
+    "language": "Python",
+    "pushed_at": "2025-01-22T07:49:32Z",
+    "license": null,
+    "topics": [
+      "algorithmic-trading",
+      "algotrading",
+      "alpha",
+      "arbitrage-bot",
+      "awesome",
+      "awesome-list",
+      "book",
+      "finance",
+      "futures",
+      "futures-historical-data",
+      "futures-market",
+      "futuresmarkets",
+      "paper",
+      "quant",
+      "quantitative-finance",
+      "quantitative-trading",
+      "trading-algorithms",
+      "trading-bot",
+      "trading-strategies"
+    ]
   }
 ]
