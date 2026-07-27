@@ -17052,5 +17052,43 @@
       "gsm-sniffer",
       "sdr-security-tool"
     ]
+  },
+  "github:whchien/ai-trader": {
+    "capability_summary": "A framework for backtesting algorithmic trading strategies that leverages LLMs via the Model Context Protocol. It is designed for quantitative traders and developers building automated trading systems.",
+    "problem_solved": "Automating strategy backtesting and analysis using LLM-driven insights.",
+    "use_cases": [
+      "algorithmic trading",
+      "backtesting strategies",
+      "portfolio management",
+      "stock price prediction"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server",
+      "trading-bot"
+    ]
+  },
+  "github:paperswithbacktest/awesome-systematic-trading": {
+    "capability_summary": "A curated collection of open-source libraries, frameworks, and educational materials for systematic and quantitative trading. It is intended for researchers and developers seeking resources for financial automation.",
+    "problem_solved": "Finding high-quality open-source tools and learning resources for quantitative trading.",
+    "use_cases": [
+      "quantitative research",
+      "trading strategy development",
+      "data science for finance",
+      "learning algorithmic trading"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "quant-resources"
+    ]
   }
 }
