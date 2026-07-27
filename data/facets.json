@@ -17090,5 +17090,98 @@
       "awesome-list",
       "quant-resources"
     ]
+  },
+  "github:e2b-dev/e2b": {
+    "capability_summary": "Provides secure, isolated cloud sandboxes for AI agents to execute code. Designed for developers building autonomous AI agents.",
+    "problem_solved": "Need a secure, sandboxed environment for AI agents to run code safely.",
+    "use_cases": [
+      "ai-agent code execution",
+      "secure sandboxing",
+      "cloud automation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "code-interpreter",
+      "ai-sandbox"
+    ]
+  },
+  "github:unslothai/unsloth": {
+    "capability_summary": "A high-performance framework for training and fine-tuning local LLMs with memory and speed optimizations. Built for machine learning engineers.",
+    "problem_solved": "High memory usage and slow training speeds when fine-tuning LLMs.",
+    "use_cases": [
+      "llm fine-tuning",
+      "model training",
+      "local llm inference"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "llm-optimizer",
+      "fine-tuning-tool"
+    ]
+  },
+  "github:brightdata/cli": {
+    "capability_summary": "A CLI tool for interacting with web scraping and data extraction APIs. Designed for developers and data engineers.",
+    "problem_solved": "Need to automate web data extraction and scraping workflows via command line.",
+    "use_cases": [
+      "web scraping",
+      "data extraction",
+      "api interaction"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "paid",
+    "human_languages": [],
+    "aliases": [
+      "web-scraper",
+      "data-pipeline-tool"
+    ]
+  },
+  "github:buage/selfhostlist": {
+    "capability_summary": "A curated directory of open-source and self-hosted applications. Designed for homelab enthusiasts.",
+    "problem_solved": "Difficulty finding suitable open-source software for self-hosting in a homelab.",
+    "use_cases": [
+      "homelab discovery",
+      "self-hosting resources",
+      "software directory"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-selfhosted",
+      "homelab-list"
+    ]
+  },
+  "github:danilobatson/ai-trading-agent-gemini": {
+    "capability_summary": "An AI agent that uses social sentiment data and Google Gemini to generate cryptocurrency trading signals. Built for crypto traders and developers.",
+    "problem_solved": "Need to automate cryptocurrency trading signal generation using AI and sentiment analysis.",
+    "use_cases": [
+      "crypto trading",
+      "sentiment analysis",
+      "automated trading signals"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "crypto-bot",
+      "ai-trading-agent"
+    ]
   }
 }
