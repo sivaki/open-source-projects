@@ -17183,5 +17183,44 @@
       "crypto-bot",
       "ai-trading-agent"
     ]
+  },
+  "github:kamranahmedse/design-patterns-for-humans": {
+    "capability_summary": "An educational guide that explains software design patterns using simple language and PHP examples. It is designed for software developers and students.",
+    "problem_solved": "Understanding complex software design patterns without academic jargon.",
+    "use_cases": [
+      "software architecture learning",
+      "interview preparation",
+      "code design improvement"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "design patterns guide",
+      "software engineering principles"
+    ]
+  },
+  "github:rickstaa/awesome-adsb": {
+    "capability_summary": "A curated collection of software, hardware, and resources for tracking aircraft via ADS-B. It is intended for aviation enthusiasts and home-lab hobbyists.",
+    "problem_solved": "Finding reliable tools and hardware for setting up an ADS-B tracking station.",
+    "use_cases": [
+      "aviation tracking",
+      "sdr projects",
+      "home-lab setup"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "adsb tracking resources",
+      "aviation hobbyist tools"
+    ]
   }
 }
