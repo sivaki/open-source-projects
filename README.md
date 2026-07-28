@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 273 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 279 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [bryanyzhu/agentic-ai-system-course](https://github.com/bryanyzhu/agentic-ai-system-course) ⭐ | AI/LLM Tooling | `ai-agents` `system-design` `education` `llm` `agentic-workflow` | A comprehensive, framework-agnostic educational curriculum for designing and building production-grade AI agentic systems, designed to be studied interactively with an AI coding assistant. | 507 | 2026-07-28 |
+| [zeropointrepo/youtube-skills](https://github.com/zeropointrepo/youtube-skills) ⭐ | AI/LLM Tooling | `ai-agents` `youtube` `automation` `mcp` `developer-tools` | A collection of modular skills for AI agents that provides seamless access to YouTube transcripts, search, and channel data via the TranscriptAPI service. | 383 | 2026-07-28 |
+| [teamclouday/androidmic](https://github.com/teamclouday/androidmic) ⭐ | Developer Tools | `android` `audio` `rust` `utility` `hardware-integration` | A cross-platform utility that allows an Android device to function as a high-quality microphone for a PC via WiFi, USB ADB, or USB Serial. | 1363 | 2026-07-28 |
+| [krypton-byte/neonize](https://github.com/krypton-byte/neonize) ⭐ | Automation | `whatsapp` `automation` `python` `api` `asyncio` | A high-performance Python library for WhatsApp automation, built as a wrapper around the robust Go-based Whatsmeow library. | 440 | 2026-07-28 |
+| [bytewax/awesome-public-real-time-datasets](https://github.com/bytewax/awesome-public-real-time-datasets) ⭐ | data-engineering | `data-pipelines` `streaming` `api` `real-time` `datasets` | A curated, high-quality collection of real-time data sources, APIs, and streaming endpoints across finance, transportation, and other sectors. | 2673 | 2026-07-28 |
+| [cyberbotics/webots](https://github.com/cyberbotics/webots) ⭐ | Robotics Simulation | `robotics` `simulation` `ai` `autonomous-vehicles` `ros` | A powerful, open-source 3D robot simulator used for modeling, programming, and simulating autonomous systems and robotics. | 4481 | 2026-07-28 |
 | [rickstaa/awesome-adsb](https://github.com/rickstaa/awesome-adsb) ⭐ | Home-lab / Aviation | `adsb` `homelab` `aviation` `sdr` `raspberrypi` | A comprehensive, well-maintained curated list of tools, hardware, and resources for ADS-B aviation tracking, ideal for home-lab enthusiasts. | 342 | 2026-07-27 |
 | [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) ⭐ | Education | `architecture` `software-engineering` `design-patterns` `programming` `learning` | A highly accessible, well-maintained educational resource that explains complex software design patterns using simple language and PHP code examples. | 48046 | 2026-07-27 |
 | [danilobatson/ai-trading-agent-gemini](https://github.com/danilobatson/ai-trading-agent-gemini) ⭐ | AI/LLM Tooling | `ai` `trading` `nextjs` `automation` `cryptocurrency` | A modern Next.js-based AI agent that integrates LunarCrush social sentiment data with Google Gemini to generate cryptocurrency trading signals, utilizing Inngest for background workflows and Supabase for real-time state management. | 268 | 2026-07-27 |
