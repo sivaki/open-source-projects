@@ -17336,5 +17336,253 @@
       "ai-agents",
       "tutorial"
     ]
+  },
+  "github:khazp/vibe-coding-prompt-template": {
+    "capability_summary": "A structured framework and prompt templates to guide LLMs through the product development lifecycle. It is designed for developers and product managers building MVPs.",
+    "problem_solved": "Lack of structure when using LLMs for full-cycle product development.",
+    "use_cases": [
+      "market research",
+      "technical design",
+      "MVP implementation",
+      "prompt engineering"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vibe-coding",
+      "AI workflow templates"
+    ]
+  },
+  "github:ofkm/arcane": {
+    "capability_summary": "A modern, web-based management interface for Docker and Docker Compose. It is for developers and sysadmins needing to simplify container orchestration.",
+    "problem_solved": "Complexity of managing Docker containers via command line.",
+    "use_cases": [
+      "container management",
+      "docker monitoring",
+      "self-hosted dashboards"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Portainer alternative",
+      "Docker UI"
+    ]
+  },
+  "github:scaccogatto/okf-skills": {
+    "capability_summary": "A toolkit for the Open Knowledge Format (OKF) that allows AI agents to manage structured knowledge bundles. It is for developers integrating AI with knowledge graphs.",
+    "problem_solved": "Difficulty in managing structured knowledge for AI agents.",
+    "use_cases": [
+      "knowledge management",
+      "AI agent skills",
+      "markdown knowledge graphs"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code skills",
+      "MCP toolkit"
+    ]
+  },
+  "github:gonzosint/geowifi": {
+    "capability_summary": "A command-line tool for OSINT and geolocation that aggregates WiFi BSSID/SSID data. It is for security researchers and investigators.",
+    "problem_solved": "Manual aggregation of WiFi geolocation data from multiple sources.",
+    "use_cases": [
+      "geolocation",
+      "OSINT",
+      "WiFi tracking"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "WiFi geolocation tool"
+    ]
+  },
+  "github:nox-project/nox-framework": {
+    "capability_summary": "A high-performance asynchronous framework for OSINT and cyber threat intelligence. It is for security professionals and red teamers.",
+    "problem_solved": "Slow and manual reconnaissance and breach analysis processes.",
+    "use_cases": [
+      "penetration testing",
+      "threat intelligence",
+      "identity pivoting",
+      "reconnaissance"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cybersecurity framework",
+      "OSINT automation"
+    ]
+  },
+  "github:twelvesec/pwnpad": {
+    "capability_summary": "An affordable, open-source hardware hacking platform for learning embedded security. It is for students and security researchers.",
+    "problem_solved": "High cost and complexity of hardware security learning platforms.",
+    "use_cases": [
+      "hardware hacking",
+      "embedded security",
+      "side-channel attacks",
+      "protocol analysis"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "embedded security trainer"
+    ]
+  },
+  "github:hesamsheikh/awesome-openclaw-usecases": {
+    "capability_summary": "A curated list of real-world use cases and automation workflows for the OpenClaw AI agent framework. It is for developers exploring AI agent capabilities.",
+    "problem_solved": "Lack of examples for implementing AI agent workflows.",
+    "use_cases": [
+      "DevOps automation",
+      "productivity pipelines",
+      "AI agent setup"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "AI agent examples"
+    ]
+  },
+  "github:certimate-go/certimate": {
+    "capability_summary": "A lightweight, self-hosted ACME client for automating SSL certificate management. It is for DevOps engineers and sysadmins.",
+    "problem_solved": "Manual SSL certificate issuance and renewal across cloud providers.",
+    "use_cases": [
+      "SSL automation",
+      "certificate management",
+      "HTTPS deployment"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Certbot alternative",
+      "SSL manager"
+    ]
+  },
+  "github:naqashafzal/ai-content-studio": {
+    "capability_summary": "A Python-based automation pipeline for researching, scripting, and publishing video content. It is for content creators and marketers.",
+    "problem_solved": "Time-consuming manual video content creation and publishing.",
+    "use_cases": [
+      "YouTube automation",
+      "AI content generation",
+      "social media publishing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI video generator",
+      "content automation"
+    ]
+  },
+  "github:darusc/vcamdroid": {
+    "capability_summary": "A virtual webcam utility that allows using an Android device as a Windows webcam. It is for users needing a high-quality webcam alternative.",
+    "problem_solved": "Lack of a high-quality webcam for PC.",
+    "use_cases": [
+      "webcam streaming",
+      "virtual camera",
+      "video conferencing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "virtual webcam",
+      "Android to PC camera"
+    ]
+  },
+  "github:ankandrew/fast-plate-ocr": {
+    "capability_summary": "A lightweight OCR library optimized for license plate recognition. It supports multiple deep learning backends and ONNX for high-performance inference.",
+    "problem_solved": "Automated license plate recognition for computer vision applications.",
+    "use_cases": [
+      "license plate recognition",
+      "automated vehicle tracking",
+      "parking management systems"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ANPR",
+      "license plate OCR"
+    ]
+  },
+  "github:hakoradev/voder": {
+    "capability_summary": "A local voice processing engine for TTS, voice cloning, and music generation. It provides a unified CLI and pipeline for audio manipulation.",
+    "problem_solved": "Local, all-in-one voice and audio synthesis without relying on cloud APIs.",
+    "use_cases": [
+      "text-to-speech",
+      "voice cloning",
+      "music generation",
+      "audio-to-video manipulation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "voice cloning tool",
+      "local TTS engine"
+    ]
+  },
+  "github:gbsoss/skill-from-masters": {
+    "capability_summary": "An AI agent skill that incorporates expert methodologies into the development of new AI agent skills. It ensures agent outputs follow proven frameworks.",
+    "problem_solved": "Ensuring AI agent outputs are grounded in established professional methodologies.",
+    "use_cases": [
+      "AI agent development",
+      "workflow automation",
+      "expert system integration"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent framework",
+      "expert system agent"
+    ]
   }
 }
