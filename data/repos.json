@@ -12119,5 +12119,354 @@
       "resources",
       "tools"
     ]
+  },
+  {
+    "id": "github:cyberbotics/webots",
+    "url": "https://github.com/cyberbotics/webots",
+    "title": "cyberbotics/webots",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081927995472670774",
+    "fetched_at": "2026-07-28T02:44:07.523590Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful, open-source 3D robot simulator used for modeling, programming, and simulating autonomous systems and robotics.",
+    "category": "Robotics Simulation",
+    "tags": [
+      "robotics",
+      "simulation",
+      "ai",
+      "autonomous-vehicles",
+      "ros"
+    ],
+    "risk_notes": "Distributed as pre-compiled binaries or source code. Requires standard desktop installation (not a CLI-only tool). It is a complex simulation environment that runs locally on your machine, requiring significant system resources and graphics acceleration. No unusual security risks identified, but it is a large, feature-rich application.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 229,
+      "created_at": "2018-11-05T14:09:10Z",
+      "homepage": "https://cyberbotics.com"
+    },
+    "added_at": "2026-07-28T02:44:13.578785Z",
+    "stars": 4481,
+    "language": "C++",
+    "pushed_at": "2026-07-27T23:35:26Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "3d-engine",
+      "ai",
+      "autonomous-vehicles",
+      "computer-vision",
+      "fluid-dynamics",
+      "multi-platform",
+      "open-source",
+      "physics-engine",
+      "robot",
+      "robot-simulation",
+      "robot-simulator",
+      "robotics",
+      "robotics-simulation",
+      "robots",
+      "ros",
+      "ros2",
+      "simulated-robots",
+      "simulation",
+      "simulator",
+      "webots"
+    ]
+  },
+  {
+    "id": "github:h9zdev/geosentinel",
+    "url": "https://github.com/h9zdev/geosentinel",
+    "title": "h9zdev/geosentinel",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081921753715007680",
+    "fetched_at": "2026-07-28T02:44:07.523756Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A geospatial monitoring and OSINT platform that aggregates flight, vessel, and CCTV data with AI integration.",
+    "category": "OSINT",
+    "tags": [
+      "osint",
+      "geospatial",
+      "surveillance",
+      "automation"
+    ],
+    "risk_notes": "The repository lacks a clear installation script or package management, requiring manual configuration of multiple API keys (TomTom, Mapbox, OpenWeather) directly in HTML files. It includes features for 'dark web' searching and 'criminal search' which may pose significant legal and security risks. The project relies on external binary downloads from a Proton Drive link, which is a major security red flag for supply chain integrity.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-16T19:40:03Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-28T02:44:20.113855Z",
+    "stars": 1039,
+    "language": "HTML",
+    "pushed_at": "2026-06-18T21:59:38Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:murtazahassan/learn-opencv-in-3-hours",
+    "url": "https://github.com/murtazahassan/learn-opencv-in-3-hours",
+    "title": "murtazahassan/learn-opencv-in-3-hours",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081916116302024731",
+    "fetched_at": "2026-07-28T02:44:07.523880Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A collection of Python scripts and tutorials for learning OpenCV basics, primarily serving as a companion to a 3-hour video course.",
+    "category": "educational",
+    "tags": [
+      "opencv",
+      "computer-vision",
+      "python",
+      "tutorial"
+    ],
+    "risk_notes": "The repository contains standard Python scripts. It is not a tool or utility, so it does not require installation or elevated privileges. However, it is essentially abandoned (last updated 2021) and serves only as a learning resource rather than a functional developer tool for a home-lab or pipeline.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 12,
+      "created_at": "2020-03-24T20:49:08Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-28T02:44:26.473636Z",
+    "stars": 1102,
+    "language": "Python",
+    "pushed_at": "2021-05-17T23:33:16Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:bytewax/awesome-public-real-time-datasets",
+    "url": "https://github.com/bytewax/awesome-public-real-time-datasets",
+    "title": "bytewax/awesome-public-real-time-datasets",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081910241390653662",
+    "fetched_at": "2026-07-28T02:44:07.524065Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A curated, high-quality collection of real-time data sources, APIs, and streaming endpoints across finance, transportation, and other sectors.",
+    "category": "data-engineering",
+    "tags": [
+      "data-pipelines",
+      "streaming",
+      "api",
+      "real-time",
+      "datasets"
+    ],
+    "risk_notes": "This is a documentation-only repository with no executable code, so there are no installation risks. It provides links to third-party APIs; users should review the terms of service and privacy policies of each linked provider before integrating them into data pipelines.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2023-05-25T16:33:28Z",
+      "homepage": "https://bytewax.io"
+    },
+    "added_at": "2026-07-28T02:44:33.039987Z",
+    "stars": 2673,
+    "language": null,
+    "pushed_at": "2026-07-10T15:05:39Z",
+    "license": "CC0-1.0",
+    "topics": [
+      "awesome-list",
+      "data",
+      "data-science",
+      "data-visualization",
+      "datasets",
+      "real-time",
+      "streaming"
+    ]
+  },
+  {
+    "id": "github:krypton-byte/neonize",
+    "url": "https://github.com/krypton-byte/neonize",
+    "title": "krypton-byte/neonize",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081904515318456522",
+    "fetched_at": "2026-07-28T02:44:07.524184Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance Python library for WhatsApp automation, built as a wrapper around the robust Go-based Whatsmeow library.",
+    "category": "Automation",
+    "tags": [
+      "whatsapp",
+      "automation",
+      "python",
+      "api",
+      "asyncio"
+    ],
+    "risk_notes": "Installed via pip. Requires persistent access to WhatsApp credentials (session files) and full read/write access to your WhatsApp account messages and contacts. As an automation tool for a third-party platform, it carries a risk of account suspension if used for spam or violating WhatsApp's Terms of Service. The project is actively maintained and uses a well-regarded Go backend.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 67,
+      "created_at": "2024-01-01T13:39:34Z",
+      "homepage": "https://krypton-byte.github.io/neonize/"
+    },
+    "added_at": "2026-07-28T02:44:39.797848Z",
+    "stars": 440,
+    "language": "Python",
+    "pushed_at": "2026-07-12T09:35:29Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "asynchronous",
+      "automation",
+      "python",
+      "pywa",
+      "pywhatkit",
+      "twilio",
+      "websockets",
+      "whatsapp",
+      "whatsapp-api",
+      "whatsapp-automation",
+      "whatsapp-bot",
+      "whatsapp-python"
+    ]
+  },
+  {
+    "id": "github:teamclouday/androidmic",
+    "url": "https://github.com/teamclouday/androidmic",
+    "title": "teamclouday/androidmic",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081898626654027875",
+    "fetched_at": "2026-07-28T02:44:07.524301Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A cross-platform utility that allows an Android device to function as a high-quality microphone for a PC via WiFi, USB ADB, or USB Serial.",
+    "category": "Developer Tools",
+    "tags": [
+      "android",
+      "audio",
+      "rust",
+      "utility",
+      "hardware-integration"
+    ],
+    "risk_notes": "Requires installation of third-party virtual audio cable drivers (e.g., VB-Cable, BlackHole) which modify system audio routing. The PC application is installed via binary releases or package managers; requires network access for WiFi streaming and USB debugging permissions for ADB mode. Maintenance is active, though the project relies on external kernel-level audio drivers which may require periodic updates.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 60,
+      "created_at": "2021-05-24T19:44:17Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-28T02:44:46.164253Z",
+    "stars": 1363,
+    "language": "Rust",
+    "pushed_at": "2026-07-07T12:54:45Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "android-application",
+      "audio-streaming",
+      "microphone",
+      "rnnoise",
+      "tcp-socket",
+      "udp-socket",
+      "usb-serial"
+    ]
+  },
+  {
+    "id": "github:zeropointrepo/youtube-skills",
+    "url": "https://github.com/zeropointrepo/youtube-skills",
+    "title": "zeropointrepo/youtube-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081893239955554329",
+    "fetched_at": "2026-07-28T02:44:07.524418Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of modular skills for AI agents that provides seamless access to YouTube transcripts, search, and channel data via the TranscriptAPI service.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "youtube",
+      "automation",
+      "mcp",
+      "developer-tools"
+    ],
+    "risk_notes": "Installs via npx or git clone. Requires an API key from TranscriptAPI, which the agent handles via an email/OTP registration flow. It stores the API key in local configuration files or shell profile files. The service acts as a proxy to bypass YouTube's IP-based blocking, which introduces a third-party dependency for data retrieval.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-02-01T14:25:01Z",
+      "homepage": "https://transcriptapi.com"
+    },
+    "added_at": "2026-07-28T02:44:52.519461Z",
+    "stars": 383,
+    "language": null,
+    "pushed_at": "2026-05-20T12:15:55Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skills",
+      "clawdbot",
+      "hermes-agent",
+      "openclaw",
+      "youtube-search",
+      "youtube-transcript"
+    ]
+  },
+  {
+    "id": "github:bryanyzhu/agentic-ai-system-course",
+    "url": "https://github.com/bryanyzhu/agentic-ai-system-course",
+    "title": "bryanyzhu/agentic-ai-system-course",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081887498779738263",
+    "fetched_at": "2026-07-28T02:44:07.524534Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, framework-agnostic educational curriculum for designing and building production-grade AI agentic systems, designed to be studied interactively with an AI coding assistant.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "system-design",
+      "education",
+      "llm",
+      "agentic-workflow"
+    ],
+    "risk_notes": "This is a documentation-based repository containing markdown files. It includes a 'skill' (agentic-system-reviewer) intended to be used with AI coding agents like Claude Code or Codex. It does not require installation via sudo or shell scripts, but using the included skill requires granting an AI agent read access to your local project files and potentially your API keys for the LLM provider.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-05-23T03:59:52Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-28T02:44:58.926481Z",
+    "stars": 507,
+    "language": "JavaScript",
+    "pushed_at": "2026-06-22T05:48:14Z",
+    "license": "MIT",
+    "topics": [
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-agents",
+      "course",
+      "system-design",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "github:owngoalstudio/trollnfc",
+    "url": "https://github.com/owngoalstudio/trollnfc",
+    "title": "owngoalstudio/trollnfc",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2081879223677878586",
+    "fetched_at": "2026-07-28T02:44:07.524670Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "An iOS utility for NFC card management that requires TrollStore and utilizes a subscription-based monetization model.",
+    "category": "Mobile Utilities",
+    "tags": [
+      "nfc",
+      "ios",
+      "trollstore",
+      "mobile"
+    ],
+    "risk_notes": "Requires TrollStore, which involves sideloading and bypassing iOS security restrictions. The project uses a proprietary subscription model and lacks open-source code, making it impossible to audit for security or privacy. It requires full access to the device's NFC hardware.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2025-07-11T18:08:30Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-28T02:45:05.390695Z",
+    "stars": 676,
+    "language": null,
+    "pushed_at": "2025-12-09T06:32:33Z",
+    "license": null,
+    "topics": []
   }
 ]
