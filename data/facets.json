@@ -17584,5 +17584,221 @@
       "AI agent framework",
       "expert system agent"
     ]
+  },
+  "github:autobrr/netronome": {
+    "capability_summary": "A lightweight network performance monitoring tool for homelab users. It tracks speed, packet loss, and system metrics.",
+    "problem_solved": "Monitoring network performance and system health in a self-hosted environment.",
+    "use_cases": [
+      "speed testing",
+      "packet loss tracking",
+      "network monitoring"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "network-monitor",
+      "speedtest-tracker"
+    ]
+  },
+  "github:rohitg00/pro-workflow": {
+    "capability_summary": "An orchestration layer for AI coding agents that adds persistent memory and self-correction. Designed for developers using AI coding assistants.",
+    "problem_solved": "Lack of persistence and context management in AI coding workflows.",
+    "use_cases": [
+      "ai agent orchestration",
+      "developer productivity",
+      "ai coding"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-framework",
+      "claude-code-plugin"
+    ]
+  },
+  "github:francyjglisboa/agent-skill-creator": {
+    "capability_summary": "A tool that converts plain-English workflows into standardized AI agent skills. Built for developers integrating automation into AI environments.",
+    "problem_solved": "Difficulty creating compatible skills for diverse AI coding environments.",
+    "use_cases": [
+      "workflow automation",
+      "ai skill development",
+      "cross-platform integration"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "ai-skill-generator"
+    ]
+  },
+  "github:7onez/cti-expert": {
+    "capability_summary": "A Claude Code skill that automates cyber threat intelligence and OSINT workflows. Designed for security researchers and analysts.",
+    "problem_solved": "Manual effort required for threat intelligence gathering and analysis.",
+    "use_cases": [
+      "osint",
+      "threat intelligence",
+      "digital forensics"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint-automation",
+      "claude-code-skill"
+    ]
+  },
+  "github:givanz/vvveb": {
+    "capability_summary": "A self-hosted PHP CMS and page builder supporting traditional and headless architectures. Ideal for web developers and site owners.",
+    "problem_solved": "Need for a lightweight, self-hosted alternative to heavy CMS platforms.",
+    "use_cases": [
+      "website building",
+      "ecommerce",
+      "headless cms"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "php-cms",
+      "page-builder"
+    ]
+  },
+  "github:thenetworkchuck/dark-web-scraping-guide": {
+    "capability_summary": "A guide and wrapper for AI-powered dark web research tools. Designed for security professionals and threat intelligence researchers.",
+    "problem_solved": "Complexity of automating dark web research and threat intelligence gathering.",
+    "use_cases": [
+      "dark web research",
+      "threat intelligence",
+      "osint"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dark-web-scraper",
+      "robin-ai-wrapper"
+    ]
+  },
+  "github:cdinnison/ray-finance": {
+    "capability_summary": "A local-first, CLI-based financial advisor that uses LLMs to analyze bank data. Built for privacy-conscious individuals.",
+    "problem_solved": "Managing personal finances while maintaining data privacy.",
+    "use_cases": [
+      "budgeting",
+      "spending tracking",
+      "financial advice"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "macos",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-budgeting",
+      "personal-finance-cli"
+    ]
+  },
+  "github:netalertx/netalertx": {
+    "capability_summary": "A self-hosted network visibility platform that monitors devices and detects unauthorized hardware. For home and small office network administrators.",
+    "problem_solved": "Lack of visibility into connected network devices and security threats.",
+    "use_cases": [
+      "network monitoring",
+      "asset discovery",
+      "network security"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "network-scanner",
+      "homelab-monitor"
+    ]
+  },
+  "github:v33ru/awesome-connected-things-sec": {
+    "capability_summary": "A curated list of security resources for IoT, embedded systems, and hardware hacking. For security researchers and hobbyists.",
+    "problem_solved": "Difficulty finding reliable resources for IoT and hardware security research.",
+    "use_cases": [
+      "security research",
+      "iot pentesting",
+      "hardware hacking"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "iot-security-list",
+      "awesome-iot"
+    ]
+  },
+  "github:lord-alfred/ipranges": {
+    "capability_summary": "A collection of machine-readable CIDR IP ranges for major cloud providers and bots. Useful for network administrators and security engineers.",
+    "problem_solved": "Maintaining up-to-date firewall rules for cloud services and bots.",
+    "use_cases": [
+      "firewall configuration",
+      "network security",
+      "bug bounty"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ip-lists",
+      "cidr-ranges"
+    ]
+  },
+  "github:6abd/horus": {
+    "capability_summary": "Horus is a Python-based framework that aggregates OSINT and digital forensics tools into a unified CLI interface. It is designed for security professionals and investigators to automate data collection and analysis.",
+    "problem_solved": "Fragmented OSINT and forensics workflows requiring multiple disparate tools.",
+    "use_cases": [
+      "digital forensics",
+      "OSINT data collection",
+      "cryptocurrency investigation",
+      "steganography analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OSINT framework",
+      "forensics toolkit"
+    ]
   }
 }
