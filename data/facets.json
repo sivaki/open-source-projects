@@ -17222,5 +17222,119 @@
       "adsb tracking resources",
       "aviation hobbyist tools"
     ]
+  },
+  "github:cyberbotics/webots": {
+    "capability_summary": "A 3D robot simulator for modeling and testing autonomous systems and robotics.",
+    "problem_solved": "Need to simulate robot behavior in a virtual 3D environment.",
+    "use_cases": [
+      "autonomous vehicle testing",
+      "robotics research",
+      "ROS integration",
+      "physics simulation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Gazebo",
+      "robot simulator"
+    ]
+  },
+  "github:bytewax/awesome-public-real-time-datasets": {
+    "capability_summary": "A curated list of public real-time data sources and streaming APIs.",
+    "problem_solved": "Finding reliable real-time data for streaming applications or data science projects.",
+    "use_cases": [
+      "data engineering",
+      "streaming analytics",
+      "real-time data sourcing"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "data sources"
+    ]
+  },
+  "github:krypton-byte/neonize": {
+    "capability_summary": "A Python library for automating WhatsApp interactions.",
+    "problem_solved": "Need to programmatically send or receive WhatsApp messages.",
+    "use_cases": [
+      "whatsapp bot development",
+      "automated messaging",
+      "whatsapp api integration"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pywa",
+      "whatsapp-automation"
+    ]
+  },
+  "github:teamclouday/androidmic": {
+    "capability_summary": "Turns an Android device into a PC microphone via USB or WiFi.",
+    "problem_solved": "Need a high-quality microphone for a PC without dedicated hardware.",
+    "use_cases": [
+      "audio streaming",
+      "pc microphone utility",
+      "android hardware integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "audio-streaming",
+      "virtual microphone"
+    ]
+  },
+  "github:zeropointrepo/youtube-skills": {
+    "capability_summary": "Modular tools for AI agents to fetch YouTube transcripts and channel data.",
+    "problem_solved": "Need to give AI agents the ability to search and read YouTube content.",
+    "use_cases": [
+      "ai agent tools",
+      "youtube transcript extraction",
+      "automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp",
+      "ai-agents"
+    ]
+  },
+  "github:bryanyzhu/agentic-ai-system-course": {
+    "capability_summary": "An educational curriculum for designing production-grade AI agent systems.",
+    "problem_solved": "Learning how to architect and build complex AI agent workflows.",
+    "use_cases": [
+      "ai system design",
+      "agentic workflow education",
+      "software architecture"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agents",
+      "tutorial"
+    ]
   }
 }
