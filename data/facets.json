@@ -18165,5 +18165,78 @@
       "AI-agent-config",
       "coding-agent-plugins"
     ]
+  },
+  "github:kean/pulse": {
+    "capability_summary": "A native logging and network inspection framework for Apple platforms. It helps developers debug and analyze network traffic in real-time.",
+    "problem_solved": "Debugging and monitoring network requests in Swift apps.",
+    "use_cases": [
+      "network inspection",
+      "log analysis",
+      "debugging"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network logger"
+    ]
+  },
+  "github:nicolepcx/transformers-the-definitive-guide": {
+    "capability_summary": "A collection of educational Jupyter notebooks covering transformer models, from vision and audio to AI agents.",
+    "problem_solved": "Learning how to implement and deploy transformer models.",
+    "use_cases": [
+      "ai learning",
+      "llm implementation",
+      "computer vision",
+      "audio analysis"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "transformers guide"
+    ]
+  },
+  "github:thenetworkchuck/n8n-claude-code-guide": {
+    "capability_summary": "A guide for connecting n8n automation workflows with Claude Code using SSH.",
+    "problem_solved": "Setting up automated AI agent workflows that interact with local systems.",
+    "use_cases": [
+      "ai automation",
+      "workflow orchestration",
+      "ssh integration"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "n8n automation"
+    ]
+  },
+  "github:ika-rwth-aachen/ros2-depth-anything-v3-trt": {
+    "capability_summary": "A high-performance ROS 2 node for real-time depth estimation using TensorRT.",
+    "problem_solved": "Performing monocular depth estimation in robotics applications.",
+    "use_cases": [
+      "robotics",
+      "depth estimation",
+      "computer vision",
+      "point cloud generation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ros2 depth estimation"
+    ]
   }
 }
