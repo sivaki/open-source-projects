@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 322 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 326 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [ika-rwth-aachen/ros2-depth-anything-v3-trt](https://github.com/ika-rwth-aachen/ros2-depth-anything-v3-trt) ⭐ | robotics | `ros2` `depth-estimation` `tensorrt` `computer-vision` `robotics` | A high-performance ROS 2 node for real-time metric depth estimation and point cloud generation using Depth Anything V3 and NVIDIA TensorRT. | 519 | 2026-07-29 |
+| [thenetworkchuck/n8n-claude-code-guide](https://github.com/thenetworkchuck/n8n-claude-code-guide) ⭐ | Automation | `n8n` `automation` `ai` `ssh` `llm` | A practical guide for integrating n8n with Claude Code via SSH, enabling automated AI agent workflows that can interact with local files and system tools. | 351 | 2026-07-29 |
+| [nicolepcx/transformers-the-definitive-guide](https://github.com/nicolepcx/transformers-the-definitive-guide) ⭐ | AI/LLM Learning Resources | `transformers` `llms` `machine-learning` `jupyter-notebooks` `ai-agents` | A comprehensive collection of Jupyter notebooks accompanying the O'Reilly book 'Transformers - The Definitive Guide', covering diverse applications from time series and vision to AI agents and deployment. | 168 | 2026-07-29 |
+| [kean/pulse](https://github.com/kean/pulse) ⭐ | Developer Tools | `swift` `ios` `debugging` `logging` `networking` | Pulse is a robust, native logging and network inspection framework for Apple platforms that integrates directly into Swift applications to provide real-time debugging and log analysis. | 7117 | 2026-07-29 |
 | [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) ⭐ | AI/LLM Tooling | `ai-agents` `claude-code` `developer-tools` `automation` `workflow` | A collection of plugins, hooks, and configuration templates for AI coding agents like Claude Code, Cursor, and Codex, designed to enforce code quality and standardize agent behavior. | 836 | 2026-07-29 |
 | [omkarcloud/google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper) ⭐ | Data Scraping | `scraping` `lead-generation` `automation` `api` `data-pipeline` | A popular, feature-rich desktop application and API for scraping business data and leads from Google Maps, including enrichment features. | 2964 | 2026-07-29 |
 | [luongnv89/asm](https://github.com/luongnv89/asm) ⭐ | AI/LLM Tooling | `ai` `cli` `automation` `developer-tools` `agents` | A universal CLI tool for managing, auditing, and installing skills across various AI coding agents like Claude Code, Cursor, and Windsurf. | 760 | 2026-07-29 |
