@@ -17991,5 +17991,179 @@
       "bus pirate alternative",
       "hardware debugger"
     ]
+  },
+  "github:i-can-hack/pdf-mcp": {
+    "capability_summary": "An MCP server allowing LLMs to read, search, and render PDF pages as images. Designed for developers integrating document analysis into AI workflows.",
+    "problem_solved": "Enabling LLMs to process and visualize PDF content.",
+    "use_cases": [
+      "document analysis",
+      "PDF to image conversion",
+      "LLM integration"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server",
+      "pdf-reader"
+    ]
+  },
+  "github:visomaster/visomaster": {
+    "capability_summary": "A GPU-accelerated suite for video face-swapping and editing. Built for creators and researchers working with deepfake and portrait manipulation.",
+    "problem_solved": "High-quality AI-driven video face manipulation.",
+    "use_cases": [
+      "face swapping",
+      "video editing",
+      "deepfake creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "deepfake-tool",
+      "face-editor"
+    ]
+  },
+  "github:raidowl/homelab-hub": {
+    "capability_summary": "A self-hosted web dashboard for documenting and visualizing home lab infrastructure. Ideal for sysadmins managing complex home networks.",
+    "problem_solved": "Tracking and visualizing home lab hardware and network topology.",
+    "use_cases": [
+      "infrastructure documentation",
+      "network visualization",
+      "homelab management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "homelab-dashboard",
+      "network-mapper"
+    ]
+  },
+  "github:eseckel/ai-for-grant-writing": {
+    "capability_summary": "A curated collection of resources and prompt templates for using LLMs in academic grant writing. Targeted at researchers and professional writers.",
+    "problem_solved": "Streamlining the grant application process using generative AI.",
+    "use_cases": [
+      "grant proposals",
+      "academic writing",
+      "prompt engineering"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "grant-writing-ai",
+      "academic-writing-tools"
+    ]
+  },
+  "github:batchdrake/sigdigger": {
+    "capability_summary": "A Qt-based digital signal analyzer for Linux and macOS that interfaces with SDR hardware. Built for radio enthusiasts and signal analysts.",
+    "problem_solved": "Demodulating and analyzing unknown radio signals.",
+    "use_cases": [
+      "signal analysis",
+      "radio demodulation",
+      "SDR hardware integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "SDR-analyzer",
+      "radio-signal-tool"
+    ]
+  },
+  "github:sumanth077/ai-engineering-toolkit": {
+    "capability_summary": "A curated list of libraries and frameworks for AI engineering and LLM development. Useful for developers building AI applications.",
+    "problem_solved": "Finding the right tools for AI and LLM application development.",
+    "use_cases": [
+      "RAG development",
+      "AI data pipelines",
+      "LLM framework selection"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI-resource-list",
+      "LLM-toolkit"
+    ]
+  },
+  "github:luongnv89/asm": {
+    "capability_summary": "A universal CLI tool for managing and installing skills for AI coding agents. Designed for developers using agents like Claude Code or Cursor.",
+    "problem_solved": "Standardizing skill management across different AI coding agents.",
+    "use_cases": [
+      "AI agent management",
+      "coding automation",
+      "CLI workflow"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI-agent-manager",
+      "coding-agent-cli"
+    ]
+  },
+  "github:omkarcloud/google-maps-scraper": {
+    "capability_summary": "A desktop application and API for scraping business data and leads from Google Maps. Used by marketers and lead generation specialists.",
+    "problem_solved": "Automating the extraction of business data from Google Maps.",
+    "use_cases": [
+      "lead generation",
+      "data scraping",
+      "business intelligence"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "google-maps-extractor",
+      "lead-gen-tool"
+    ]
+  },
+  "github:fcakyon/claude-codex-settings": {
+    "capability_summary": "A collection of configuration templates and plugins for AI coding agents. Helps developers enforce code quality and standardize agent behavior.",
+    "problem_solved": "Standardizing and configuring AI coding agent workflows.",
+    "use_cases": [
+      "code quality enforcement",
+      "AI agent configuration",
+      "workflow automation"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI-agent-config",
+      "coding-agent-plugins"
+    ]
   }
 }
