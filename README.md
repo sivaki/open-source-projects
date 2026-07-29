@@ -1,11 +1,20 @@
 # Curated Repos
 
-Auto-generated list of 313 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 322 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) ⭐ | AI/LLM Tooling | `ai-agents` `claude-code` `developer-tools` `automation` `workflow` | A collection of plugins, hooks, and configuration templates for AI coding agents like Claude Code, Cursor, and Codex, designed to enforce code quality and standardize agent behavior. | 836 | 2026-07-29 |
+| [omkarcloud/google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper) ⭐ | Data Scraping | `scraping` `lead-generation` `automation` `api` `data-pipeline` | A popular, feature-rich desktop application and API for scraping business data and leads from Google Maps, including enrichment features. | 2964 | 2026-07-29 |
+| [luongnv89/asm](https://github.com/luongnv89/asm) ⭐ | AI/LLM Tooling | `ai` `cli` `automation` `developer-tools` `agents` | A universal CLI tool for managing, auditing, and installing skills across various AI coding agents like Claude Code, Cursor, and Windsurf. | 760 | 2026-07-29 |
+| [sumanth077/ai-engineering-toolkit](https://github.com/sumanth077/ai-engineering-toolkit) ⭐ | AI/LLM Tooling | `ai` `llm` `rag` `automation` `data-pipelines` | A comprehensive, well-organized curated list of libraries, frameworks, and tools specifically for AI engineering and LLM application development. | 3252 | 2026-07-29 |
+| [batchdrake/sigdigger](https://github.com/batchdrake/sigdigger) ⭐ | SDR / Radio | `sdr` `radio` `dsp` `linux` `signal-analysis` | A powerful Qt-based digital signal analyzer for Linux and macOS that supports various SDR hardware via SoapySDR for demodulating and analyzing unknown radio signals. | 2811 | 2026-07-29 |
+| [eseckel/ai-for-grant-writing](https://github.com/eseckel/ai-for-grant-writing) ⭐ | AI/LLM Tooling | `llm` `generative-ai` `academic` `writing` `productivity` | A curated collection of resources, prompt templates, and service recommendations for leveraging LLMs in academic and professional grant writing. | 4156 | 2026-07-29 |
+| [raidowl/homelab-hub](https://github.com/raidowl/homelab-hub) ⭐ | home-lab | `homelab` `documentation` `visualization` `self-hosted` `infrastructure` | A self-hosted web application for documenting and visualizing home lab infrastructure, including hardware, VMs, network topology, and storage. | 629 | 2026-07-29 |
+| [visomaster/visomaster](https://github.com/visomaster/visomaster) ⭐ | AI/LLM Tooling | `ai` `computer-vision` `deepfake` `video-editing` `gpu` | A comprehensive, GPU-accelerated video face-swapping and editing suite that integrates multiple AI models for high-quality manipulation. | 1997 | 2026-07-29 |
+| [i-can-hack/pdf-mcp](https://github.com/i-can-hack/pdf-mcp) ⭐ | AI/LLM Tooling | `mcp` `pdf` `llm` `automation` `python` | An MCP server that enables LLMs to read, search, and render PDF pages as images, specifically optimized for technical documentation and datasheets. | 30 | 2026-07-29 |
 | [geo-tp/esp32-bus-pirate](https://github.com/geo-tp/esp32-bus-pirate) ⭐ | Hardware Hacking | `esp32` `hardware-hacking` `embedded` `debugging` `protocols` | A powerful, open-source multi-protocol firmware for ESP32 devices that transforms them into versatile hardware hacking and debugging tools, similar to the Bus Pirate. | 4397 | 2026-07-29 |
 | [wozniakpawel/pairpods](https://github.com/wozniakpawel/pairpods) ⭐ | macOS Utility | `macos` `audio` `bluetooth` `utility` `swift` | A macOS menu bar application that enables simultaneous audio output to multiple Bluetooth devices, solving a common limitation in native macOS audio routing. | 754 | 2026-07-29 |
 | [alw1ez/pano](https://github.com/alw1ez/pano) ⭐ | OSINT / Security | `osint` `cybersecurity` `investigation` `graph-visualization` `ai-tooling` | PANO is a desktop-based OSINT investigation platform built with Python and PySide6 that features graph visualization, timeline analysis, and AI-assisted data correlation. | 487 | 2026-07-29 |
