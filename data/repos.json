@@ -14512,5 +14512,198 @@
       "pull-requests",
       "slack"
     ]
+  },
+  {
+    "id": "github:kean/pulse",
+    "url": "https://github.com/kean/pulse",
+    "title": "kean/pulse",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2082502176736227684",
+    "fetched_at": "2026-07-29T17:17:53.762001Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Pulse is a robust, native logging and network inspection framework for Apple platforms that integrates directly into Swift applications to provide real-time debugging and log analysis.",
+    "category": "Developer Tools",
+    "tags": [
+      "swift",
+      "ios",
+      "debugging",
+      "logging",
+      "networking"
+    ],
+    "risk_notes": "Integrated via Swift Package Manager (SPM) or CocoaPods. It runs within the application's sandbox, meaning it only has access to the app's own network traffic and local storage. It is actively maintained and widely used in the Apple development ecosystem.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 48,
+      "created_at": "2020-02-13T13:11:32Z",
+      "homepage": "https://pulselogger.com"
+    },
+    "added_at": "2026-07-29T17:18:00.037598Z",
+    "stars": 7117,
+    "language": "Swift",
+    "pushed_at": "2026-06-10T16:12:02Z",
+    "license": "MIT",
+    "topics": [
+      "ios",
+      "logger",
+      "logging",
+      "macos",
+      "networking",
+      "swift"
+    ]
+  },
+  {
+    "id": "github:nicolepcx/transformers-the-definitive-guide",
+    "url": "https://github.com/nicolepcx/transformers-the-definitive-guide",
+    "title": "nicolepcx/transformers-the-definitive-guide",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2082481838652637467",
+    "fetched_at": "2026-07-29T17:17:53.762248Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive collection of Jupyter notebooks accompanying the O'Reilly book 'Transformers - The Definitive Guide', covering diverse applications from time series and vision to AI agents and deployment.",
+    "category": "AI/LLM Learning Resources",
+    "tags": [
+      "transformers",
+      "llms",
+      "machine-learning",
+      "jupyter-notebooks",
+      "ai-agents"
+    ],
+    "risk_notes": "The repository provides a bash script for environment setup, but is primarily designed to be run in cloud environments like Google Colab or Paperspace. Running locally requires standard Python package management (pip/conda); it does not require root access but will download and execute arbitrary model weights and code from Hugging Face or other sources, which is standard for ML workflows.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2024-03-10T06:24:36Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-29T17:18:06.636015Z",
+    "stars": 168,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-29T09:22:12Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "audio-analysis",
+      "image-classification",
+      "llms",
+      "optimization-methods",
+      "reinforcement-learning",
+      "reinforcement-learning-agent",
+      "time-series",
+      "transformers",
+      "video"
+    ]
+  },
+  {
+    "id": "github:thenetworkchuck/n8n-claude-code-guide",
+    "url": "https://github.com/thenetworkchuck/n8n-claude-code-guide",
+    "title": "thenetworkchuck/n8n-claude-code-guide",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2082462501619306509",
+    "fetched_at": "2026-07-29T17:17:53.762443Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A practical guide for integrating n8n with Claude Code via SSH, enabling automated AI agent workflows that can interact with local files and system tools.",
+    "category": "Automation",
+    "tags": [
+      "n8n",
+      "automation",
+      "ai",
+      "ssh",
+      "llm"
+    ],
+    "risk_notes": "Requires installing Claude Code via npm globally, which involves Node.js dependencies. The workflow relies on SSH access to a server, meaning the n8n instance must have SSH credentials for the target machine. Using the '--dangerously-skip-permissions' flag with Claude Code grants the AI broad access to execute commands and scripts on the host filesystem, which carries significant security risks if not properly sandboxed.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2025-12-10T15:47:53Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-29T17:18:13.327409Z",
+    "stars": 351,
+    "language": null,
+    "pushed_at": "2025-12-10T15:56:56Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:nookieai/ps4-game-scraper",
+    "url": "https://github.com/nookieai/ps4-game-scraper",
+    "title": "nookieai/ps4-game-scraper",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2082444204806988090",
+    "fetched_at": "2026-07-29T17:17:53.762649Z",
+    "verdict": "skip",
+    "score": 1,
+    "summary": "A desktop application for browsing and downloading pirated PS4 game files from various file-hosting mirrors.",
+    "category": "utility",
+    "tags": [
+      "gaming",
+      "desktop-app",
+      "tauri",
+      "rust"
+    ],
+    "risk_notes": "The application facilitates the downloading of copyrighted software from third-party file hosts. It is distributed as an unsigned binary, requiring users to bypass OS-level security warnings (Windows SmartScreen, macOS Gatekeeper). It performs automatic background updates by fetching code from GitHub, which poses a supply-chain risk if the repository were compromised.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-01-01T11:01:14Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-29T17:18:19.812616Z",
+    "stars": 229,
+    "language": null,
+    "pushed_at": "2026-07-10T04:21:29Z",
+    "license": null,
+    "topics": [
+      "auto-updater",
+      "desktop-app",
+      "game-downloader",
+      "game-library",
+      "linux",
+      "macos",
+      "ps4",
+      "rust",
+      "tauri",
+      "windows"
+    ]
+  },
+  {
+    "id": "github:ika-rwth-aachen/ros2-depth-anything-v3-trt",
+    "url": "https://github.com/ika-rwth-aachen/ros2-depth-anything-v3-trt",
+    "title": "ika-rwth-aachen/ros2-depth-anything-v3-trt",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2082426988418027610",
+    "fetched_at": "2026-07-29T17:17:53.762838Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance ROS 2 node for real-time metric depth estimation and point cloud generation using Depth Anything V3 and NVIDIA TensorRT.",
+    "category": "robotics",
+    "tags": [
+      "ros2",
+      "depth-estimation",
+      "tensorrt",
+      "computer-vision",
+      "robotics"
+    ],
+    "risk_notes": "Requires NVIDIA GPU hardware and specific CUDA/TensorRT drivers. Installation is typically handled via Docker containers provided by the maintainer, which isolates the environment. The code interacts with camera sensor data and filesystem paths for model loading and debug output. Maintained by a university research institute, suggesting professional oversight.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2025-11-28T18:56:58Z",
+      "homepage": ""
+    },
+    "added_at": "2026-07-29T17:18:26.385620Z",
+    "stars": 519,
+    "language": "C++",
+    "pushed_at": "2026-06-15T13:02:05Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "depth-anything-v3",
+      "monocular-depth",
+      "monocular-depth-estimation",
+      "ros2",
+      "tensorrt"
+    ]
   }
 ]
