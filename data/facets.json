@@ -17800,5 +17800,196 @@
       "OSINT framework",
       "forensics toolkit"
     ]
+  },
+  "github:samsar4/ethical-hacking-labs": {
+    "capability_summary": "A structured collection of tutorials and labs for learning ethical hacking and network security. Designed for students and security enthusiasts.",
+    "problem_solved": "Lack of hands-on practice environments for learning cybersecurity.",
+    "use_cases": [
+      "penetration testing practice",
+      "network security training",
+      "ethical hacking tutorials"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "security labs",
+      "pentesting tutorials"
+    ]
+  },
+  "github:tradermonty/claude-market-agents": {
+    "capability_summary": "An automated stock market analysis and trading system using AI agents. Built for developers interested in algorithmic finance.",
+    "problem_solved": "Automating stock market analysis and paper trading execution.",
+    "use_cases": [
+      "stock market analysis",
+      "algorithmic trading",
+      "backtesting strategies"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai trading bot",
+      "finance automation"
+    ]
+  },
+  "github:mddanishyusuf/traffic-source": {
+    "capability_summary": "A privacy-focused web analytics platform that stores data locally using SQLite. Ideal for developers wanting self-hosted analytics.",
+    "problem_solved": "Tracking website traffic without relying on third-party privacy-invasive services.",
+    "use_cases": [
+      "web analytics",
+      "conversion tracking",
+      "affiliate management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "self-hosted analytics",
+      "privacy-focused tracking"
+    ]
+  },
+  "github:best-of-ai/awesome-ai-seo": {
+    "capability_summary": "A curated directory of AI-powered SEO tools and marketing resources. Useful for marketers and developers.",
+    "problem_solved": "Difficulty finding reliable AI tools for search engine optimization.",
+    "use_cases": [
+      "seo research",
+      "marketing automation",
+      "ai tool discovery"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "seo resources",
+      "ai marketing tools"
+    ]
+  },
+  "github:lookinsideapp/lookinside": {
+    "capability_summary": "A UI debugging tool for iOS and macOS developers to inspect view hierarchies and properties in real-time.",
+    "problem_solved": "Difficulties in visualizing and debugging complex UI view hierarchies.",
+    "use_cases": [
+      "ios debugging",
+      "macos development",
+      "ui inspection"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "view inspector",
+      "ui debugger"
+    ]
+  },
+  "github:rt-bishop/look4sat": {
+    "capability_summary": "An ad-free Android app for tracking satellites and predicting their passes. Designed for astronomy and ham radio enthusiasts.",
+    "problem_solved": "Tracking satellite positions and predicting visibility for radio communication.",
+    "use_cases": [
+      "satellite tracking",
+      "ham radio",
+      "astronomy"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "satellite tracker",
+      "gpredict alternative"
+    ]
+  },
+  "github:smaug6739/alexandrie": {
+    "capability_summary": "A self-hosted, offline-first knowledge management platform supporting markdown and multi-tenancy. A Notion alternative.",
+    "problem_solved": "Centralizing notes and knowledge in a private, self-hosted environment.",
+    "use_cases": [
+      "note taking",
+      "wiki creation",
+      "knowledge base"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "notion alternative",
+      "obsidian alternative",
+      "self-hosted wiki"
+    ]
+  },
+  "github:alw1ez/pano": {
+    "capability_summary": "A desktop OSINT investigation platform featuring graph visualization and AI-assisted data correlation. For security researchers.",
+    "problem_solved": "Visualizing and correlating complex data during open-source intelligence investigations.",
+    "use_cases": [
+      "osint investigation",
+      "data visualization",
+      "cybersecurity analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint tool",
+      "investigation platform"
+    ]
+  },
+  "github:wozniakpawel/pairpods": {
+    "capability_summary": "A macOS menu bar utility that allows simultaneous audio output to multiple Bluetooth devices.",
+    "problem_solved": "Native macOS limitation preventing audio output to multiple Bluetooth devices at once.",
+    "use_cases": [
+      "audio routing",
+      "bluetooth management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "bluetooth audio utility"
+    ]
+  },
+  "github:geo-tp/esp32-bus-pirate": {
+    "capability_summary": "Open-source firmware for ESP32 that enables hardware hacking and protocol debugging. Similar to the Bus Pirate.",
+    "problem_solved": "Need for a versatile, low-cost hardware debugging and protocol analysis tool.",
+    "use_cases": [
+      "hardware hacking",
+      "embedded debugging",
+      "protocol analysis"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "bus pirate alternative",
+      "hardware debugger"
+    ]
   }
 }
