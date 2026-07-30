@@ -18467,5 +18467,347 @@
       "robotics resources",
       "awesome list"
     ]
+  },
+  "github:staruhub/claudeskills": {
+    "capability_summary": "A library of curated agent skills for Claude Code to automate complex developer tasks. It is intended for developers using Claude for research and workflow automation.",
+    "problem_solved": "Automating complex research and documentation tasks within Claude Code.",
+    "use_cases": [
+      "deep research",
+      "PRD writing",
+      "deck generation"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skills"
+    ]
+  },
+  "github:organicmaps/organicmaps": {
+    "capability_summary": "A privacy-focused offline maps and navigation app based on OpenStreetMap. It is designed for hikers, cyclists, and travelers.",
+    "problem_solved": "Navigating without internet access while maintaining user privacy.",
+    "use_cases": [
+      "offline navigation",
+      "hiking",
+      "cycling",
+      "travel"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "maps.me alternative",
+      "openstreetmap-client"
+    ]
+  },
+  "github:aiptimizer/turboocr": {
+    "capability_summary": "A high-performance, GPU-accelerated OCR and document parsing engine. It is designed for developers building document-processing pipelines.",
+    "problem_solved": "Slow or inaccurate document text and table extraction.",
+    "use_cases": [
+      "document parsing",
+      "pdf extraction",
+      "table recognition",
+      "rag pipelines"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ocr-engine",
+      "document-ai"
+    ]
+  },
+  "github:bytedz/pclink": {
+    "capability_summary": "A cross-platform remote management tool providing a WebUI and API for PC control. It is intended for users needing remote access to peripherals and files.",
+    "problem_solved": "Managing PC peripherals and files remotely.",
+    "use_cases": [
+      "remote control",
+      "file system access",
+      "terminal access"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "remote-desktop",
+      "pc-remote"
+    ]
+  },
+  "github:jellypod-inc/cartoon-studio": {
+    "capability_summary": "A desktop application for creating 2D animations using AI-driven scripts, TTS, and lip-syncing. It is for content creators and animators.",
+    "problem_solved": "Automating the production of 2D animated content.",
+    "use_cases": [
+      "animation",
+      "tts",
+      "lip-syncing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-animation-tool"
+    ]
+  },
+  "github:mhenry3164/twenty-crm-mcp-server": {
+    "capability_summary": "An MCP server that allows AI assistants like Claude to interact with Twenty CRM data. It is for developers integrating AI with CRM workflows.",
+    "problem_solved": "Connecting AI agents to CRM data for natural language queries.",
+    "use_cases": [
+      "crm automation",
+      "ai-assisted data management"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server",
+      "twenty-crm-integration"
+    ]
+  },
+  "github:fonoster/fonoster": {
+    "capability_summary": "An open-source, programmable telecommunications stack for voice applications and PBX. It is a self-hostable alternative to Twilio for developers.",
+    "problem_solved": "Building custom telephony and voice applications without proprietary cloud costs.",
+    "use_cases": [
+      "voip",
+      "pbx",
+      "programmable voice"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "twilio-alternative",
+      "cpaas"
+    ]
+  },
+  "github:zeroth-robotics/zeroth-bot": {
+    "capability_summary": "An open-source, 3D-printable humanoid robot platform for reinforcement learning. It is for robotics researchers and hobbyists.",
+    "problem_solved": "Accessing affordable hardware for humanoid robotics research.",
+    "use_cases": [
+      "reinforcement learning",
+      "robotics simulation",
+      "humanoid research"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "humanoid-robot",
+      "rl-robotics"
+    ]
+  },
+  "github:moscovium-mc/cloudrip": {
+    "capability_summary": "A Python tool for identifying origin IP addresses of Cloudflare-protected domains. It is for cybersecurity professionals performing reconnaissance.",
+    "problem_solved": "Bypassing Cloudflare protection to find origin server IPs.",
+    "use_cases": [
+      "reconnaissance",
+      "osint",
+      "subdomain enumeration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cloudflare-resolver",
+      "security-recon"
+    ]
+  },
+  "github:phuc-nt/my-translator": {
+    "capability_summary": "A cross-platform desktop app for real-time speech-to-speech and speech-to-text translation. It is for users needing accessible, real-time language translation.",
+    "problem_solved": "Real-time language translation across different platforms.",
+    "use_cases": [
+      "speech-to-text",
+      "speech-translation",
+      "accessibility"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "real-time-translator",
+      "stt-tool"
+    ]
+  },
+  "github:ading2210/linuxpdf": {
+    "capability_summary": "Runs a RISC-V Linux emulator inside a PDF file using asm.js. Designed for technical experimentation.",
+    "problem_solved": "Running Linux inside a PDF document",
+    "use_cases": [
+      "linux emulation",
+      "pdf scripting",
+      "technical proof-of-concept"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "browser"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "linux-in-pdf",
+      "riscv-emulator"
+    ]
+  },
+  "github:44bits/awesome-opensource-documents": {
+    "capability_summary": "A curated collection of open-source books and technical documentation. For students and developers.",
+    "problem_solved": "Finding high-quality open-source educational materials",
+    "use_cases": [
+      "learning computer science",
+      "devops reference",
+      "finding free books"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "open-source-books"
+    ]
+  },
+  "github:ioteverythin/opendocs": {
+    "capability_summary": "A CLI tool that converts codebases and notebooks into professional reports and knowledge graphs. For developers and technical writers.",
+    "problem_solved": "Automating documentation generation from code",
+    "use_cases": [
+      "code-to-report",
+      "knowledge graph generation",
+      "documentation automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "doc-generator",
+      "code-parser"
+    ]
+  },
+  "github:gajesh2007/ai-trading-agent": {
+    "capability_summary": "An AI agent that executes trades on Hyperliquid using LLMs and technical indicators. For crypto traders.",
+    "problem_solved": "Automating crypto trading strategies with AI",
+    "use_cases": [
+      "crypto trading",
+      "algorithmic trading",
+      "ai-driven finance"
+    ],
+    "project_type": "app",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading-bot",
+      "crypto-bot"
+    ]
+  },
+  "github:anmolksachan/ai-ml-free-resources-for-security-and-prompt-injection": {
+    "capability_summary": "A structured roadmap for learning AI/ML security and red teaming. For security researchers.",
+    "problem_solved": "Learning how to secure and exploit AI systems",
+    "use_cases": [
+      "ai security training",
+      "red teaming",
+      "prompt injection research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-security-roadmap",
+      "ml-pentesting"
+    ]
+  },
+  "github:suzuran0y/cctv-smartphone-ai-monitoring": {
+    "capability_summary": "A framework that turns Android phones into IP cameras for AI-powered visual monitoring. For home-lab users.",
+    "problem_solved": "Repurposing old phones for home security",
+    "use_cases": [
+      "cctv",
+      "home monitoring",
+      "ai-based surveillance",
+      "device repurposing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ip-camera-system",
+      "ai-cctv"
+    ]
+  },
+  "github:openspeedtest/speed-test": {
+    "capability_summary": "A lightweight, self-hostable network speed testing tool that runs in the browser. For network administrators.",
+    "problem_solved": "Measuring network speed without external dependencies",
+    "use_cases": [
+      "network monitoring",
+      "speed testing",
+      "bandwidth analysis"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "speedtest",
+      "network-tool"
+    ]
+  },
+  "github:swarm-subnet/langostino": {
+    "capability_summary": "An autonomous drone platform using ROS2 and Raspberry Pi. For robotics enthusiasts.",
+    "problem_solved": "Building autonomous flight systems",
+    "use_cases": [
+      "drone flight control",
+      "robotics",
+      "autonomous navigation"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "drone-os",
+      "ros2-drone"
+    ]
   }
 }
