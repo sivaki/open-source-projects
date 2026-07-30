@@ -18238,5 +18238,234 @@
     "aliases": [
       "ros2 depth estimation"
     ]
+  },
+  "github:tasselx/keyden": {
+    "capability_summary": "A macOS menu bar app for TOTP authentication that stores secrets in the system Keychain and provides a CLI for automation.",
+    "problem_solved": "Managing 2FA tokens securely on macOS with CLI support.",
+    "use_cases": [
+      "two-factor authentication",
+      "cli automation",
+      "security management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "authenticator",
+      "totp-manager"
+    ]
+  },
+  "github:user1342/awesome-android-reverse-engineering": {
+    "capability_summary": "A curated collection of resources, tools, and training materials for Android mobile security and reverse engineering.",
+    "problem_solved": "Finding reliable resources for Android security research.",
+    "use_cases": [
+      "malware analysis",
+      "ctf training",
+      "mobile security auditing"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "android-security-resources"
+    ]
+  },
+  "github:hahwul/webhackersweapons": {
+    "capability_summary": "A comprehensive list of web security and bug bounty tools categorized by their specific functions.",
+    "problem_solved": "Discovering tools for web penetration testing and bug bounty hunting.",
+    "use_cases": [
+      "bug bounty",
+      "reconnaissance",
+      "web security scanning"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "security-tools-list",
+      "pentesting-tools"
+    ]
+  },
+  "github:fleetbase/fleetbase": {
+    "capability_summary": "A modular, open-source logistics operating system for fleet management, order tracking, and route optimization.",
+    "problem_solved": "Managing complex logistics and supply chain operations.",
+    "use_cases": [
+      "fleet management",
+      "route optimization",
+      "delivery tracking",
+      "warehouse management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "logistics-platform",
+      "supply-chain-os"
+    ]
+  },
+  "github:luwill/research-skills": {
+    "capability_summary": "A set of agent skills for Claude Code to automate academic research tasks like literature reviews and proposal drafting.",
+    "problem_solved": "Automating repetitive academic research workflows.",
+    "use_cases": [
+      "academic research",
+      "literature review",
+      "proposal drafting"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skills",
+      "research-automation"
+    ]
+  },
+  "github:leo-lilinxiao/codex-autoresearch": {
+    "capability_summary": "An autonomous agent skill for the Codex platform that performs iterative code experimentation and refinement.",
+    "problem_solved": "Automating code experimentation and target-based refinement.",
+    "use_cases": [
+      "autonomous coding",
+      "code experimentation",
+      "iterative development"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "autonomous-agent",
+      "codex-skill"
+    ]
+  },
+  "github:sk-ruban/contour": {
+    "capability_summary": "A tool that converts 2D topographic maps into interactive 3D terrain models using Gemini voice guidance.",
+    "problem_solved": "Visualizing 2D maps as 3D terrain models.",
+    "use_cases": [
+      "geospatial visualization",
+      "3d modeling",
+      "voice-guided exploration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "terrain-generator",
+      "geospatial-tool"
+    ]
+  },
+  "github:pcrnjak/parol6-desktop-robot-arm": {
+    "capability_summary": "An open-source, 3D-printable desktop robotic arm project with Python-based control software.",
+    "problem_solved": "Building a high-performance desktop robot arm.",
+    "use_cases": [
+      "robotics",
+      "3d printing",
+      "hardware automation"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "robotics-kit",
+      "diy-robot"
+    ]
+  },
+  "github:gamosoft/notediscovery": {
+    "capability_summary": "A self-hosted markdown-based knowledge base with an MCP server for AI integration.",
+    "problem_solved": "Managing personal knowledge with AI-assisted search and retrieval.",
+    "use_cases": [
+      "note-taking",
+      "knowledge management",
+      "ai-assisted research"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-alternative",
+      "second-brain"
+    ]
+  },
+  "github:aipoch/medical-research-skills": {
+    "capability_summary": "A library of over 550 AI agent skills tailored for medical and biomedical research tasks.",
+    "problem_solved": "Automating complex biomedical data analysis and research writing.",
+    "use_cases": [
+      "bioinformatics",
+      "genomics",
+      "medical data analysis"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "biomedical-ai",
+      "research-agent-skills"
+    ]
+  },
+  "github:spriteovo/airpodsdesktop": {
+    "capability_summary": "A desktop utility that enables AirPods features like battery monitoring and ear detection on Windows and Linux.",
+    "problem_solved": "Lack of native AirPods feature support on non-Apple operating systems.",
+    "use_cases": [
+      "battery monitoring",
+      "ear detection",
+      "media control"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AirPods for Windows"
+    ]
+  },
+  "github:kiloreux/awesome-robotics": {
+    "capability_summary": "A curated collection of educational resources, books, and software libraries for learning and developing robotics.",
+    "problem_solved": "Difficulty finding high-quality, organized learning materials for robotics.",
+    "use_cases": [
+      "robotics education",
+      "software library discovery",
+      "learning ROS"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "robotics resources",
+      "awesome list"
+    ]
   }
 }
