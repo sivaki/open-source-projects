@@ -18809,5 +18809,303 @@
       "drone-os",
       "ros2-drone"
     ]
+  },
+  "github:univrsal/input-overlay": {
+    "capability_summary": "An OBS Studio plugin that visualizes keyboard, mouse, and gamepad inputs on a live stream.",
+    "problem_solved": "Displaying controller or keyboard inputs for viewers during live streams.",
+    "use_cases": [
+      "live streaming",
+      "gaming tutorials",
+      "input visualization"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obs-input-overlay"
+    ]
+  },
+  "github:yazinsai/openoats": {
+    "capability_summary": "A privacy-focused meeting assistant for macOS that transcribes audio and provides real-time suggestions using local LLMs.",
+    "problem_solved": "Managing meeting notes and insights while maintaining data privacy.",
+    "use_cases": [
+      "meeting transcription",
+      "ai assistant",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-meeting-assistant"
+    ]
+  },
+  "github:bettercap/bettercap": {
+    "capability_summary": "A comprehensive network reconnaissance and attack framework for auditing WiFi, Bluetooth, and Ethernet networks.",
+    "problem_solved": "Performing network security audits and red team operations.",
+    "use_cases": [
+      "network security",
+      "penetration testing",
+      "wifi auditing",
+      "mitm attacks"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network-scanner",
+      "red-team-tool"
+    ]
+  },
+  "github:kostja94/marketing-skills": {
+    "capability_summary": "A library of markdown-based skills to guide AI coding agents in marketing and SEO tasks.",
+    "problem_solved": "Improving AI agent performance for specific marketing and SEO workflows.",
+    "use_cases": [
+      "seo optimization",
+      "marketing automation",
+      "ai agent prompting"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-prompts",
+      "marketing-ai-skills"
+    ]
+  },
+  "github:emerysilb/immibridge": {
+    "capability_summary": "A macOS desktop application that automates backing up Apple Photos to local storage or Immich instances.",
+    "problem_solved": "Syncing Apple Photos libraries to self-hosted storage solutions.",
+    "use_cases": [
+      "photo backup",
+      "cloud-to-local sync",
+      "immich integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "apple-photos-backup"
+    ]
+  },
+  "github:promptslab/awesome-prompt-engineering": {
+    "capability_summary": "A curated collection of resources, papers, and tools for prompt engineering and LLM development.",
+    "problem_solved": "Finding high-quality research and tools for prompt engineering.",
+    "use_cases": [
+      "llm development",
+      "prompt research",
+      "ai learning"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "prompt-engineering-guide"
+    ]
+  },
+  "github:lucasdillmann/nginx-ignition": {
+    "capability_summary": "A modern GUI for managing Nginx configurations, SSL automation, and Docker integrations.",
+    "problem_solved": "Simplifying complex Nginx configuration and management.",
+    "use_cases": [
+      "web server management",
+      "reverse proxy setup",
+      "homelab"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "nginx-gui",
+      "reverse-proxy-manager"
+    ]
+  },
+  "github:uditgoenka/autoresearch": {
+    "capability_summary": "An autonomous agent framework for Claude Code that implements iterative, goal-directed improvement loops.",
+    "problem_solved": "Automating research and iterative task completion using AI agents.",
+    "use_cases": [
+      "autonomous research",
+      "ai automation",
+      "claude-code workflows"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-research-agent"
+    ]
+  },
+  "github:sakirinn/livecaptions-translator": {
+    "capability_summary": "A Windows utility that hooks into native Live Captions to provide real-time audio translation.",
+    "problem_solved": "Translating live audio streams in real-time on Windows.",
+    "use_cases": [
+      "live translation",
+      "accessibility",
+      "speech-to-text"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "unknown"
+    ],
+    "aliases": [
+      "live-caption-translator"
+    ]
+  },
+  "github:chadi0x/thebigbrother": {
+    "capability_summary": "A modular OSINT framework that aggregates intelligence gathering tools with an AI-driven orchestration layer.",
+    "problem_solved": "Centralizing and automating OSINT and threat intelligence gathering.",
+    "use_cases": [
+      "osint",
+      "threat intelligence",
+      "cybersecurity reconnaissance"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint-framework",
+      "threat-intel-tool"
+    ]
+  },
+  "github:robert-mcdermott/ai-knowledge-graph": {
+    "capability_summary": "A Python CLI tool that transforms unstructured text into interactive knowledge graphs using LLMs. It is designed for data analysts and researchers.",
+    "problem_solved": "Extracting structured relationships from unstructured text data.",
+    "use_cases": [
+      "data visualization",
+      "knowledge distillation",
+      "entity extraction"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "knowledge graph generator"
+    ]
+  },
+  "github:momenbasel/phosphor": {
+    "capability_summary": "A native macOS utility for managing iOS device backups and data extraction. It is for users who want to avoid iCloud or proprietary software.",
+    "problem_solved": "Managing iOS device backups locally without cloud services.",
+    "use_cases": [
+      "ios backup management",
+      "data extraction",
+      "privacy-focused backup"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ios backup manager"
+    ]
+  },
+  "github:dessant/search-by-image": {
+    "capability_summary": "A cross-browser extension that performs reverse image searches using over 30 different search engines. It is for users needing quick image source verification.",
+    "problem_solved": "Finding the source or similar versions of an image online.",
+    "use_cases": [
+      "reverse image search",
+      "image verification"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "reverse image search extension"
+    ]
+  },
+  "github:shpigford/chops": {
+    "capability_summary": "A native macOS utility for managing and editing AI agent skills and rules. It is designed for developers using AI coding assistants.",
+    "problem_solved": "Managing fragmented AI agent configurations across multiple platforms.",
+    "use_cases": [
+      "ai agent management",
+      "skill editing",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai agent manager"
+    ]
+  },
+  "github:eleven-trading/tradenote": {
+    "capability_summary": "An open-source, self-hosted trading journal for tracking and analyzing financial performance. It is for privacy-conscious traders.",
+    "problem_solved": "Tracking trading performance without relying on third-party cloud platforms.",
+    "use_cases": [
+      "trading journal",
+      "financial analysis",
+      "self-hosted dashboard"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "trading journal app"
+    ]
+  },
+  "github:rightnow-ai/picolm": {
+    "capability_summary": "A minimal C11 inference engine for running small LLMs on low-resource hardware. It is for embedded systems developers.",
+    "problem_solved": "Running LLMs on extremely resource-constrained devices like Raspberry Pi Zero.",
+    "use_cases": [
+      "llm inference",
+      "embedded ai",
+      "edge computing"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "embedded llm engine"
+    ]
   }
 }
