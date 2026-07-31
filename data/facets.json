@@ -19433,5 +19433,350 @@
     "aliases": [
       "logisim-alternative"
     ]
+  },
+  "github:rizinorg/cutter": {
+    "capability_summary": "A GUI platform for reverse engineering, disassembly, and debugging. It is designed for security researchers and developers.",
+    "problem_solved": "Visualizing and analyzing binary code for security vulnerabilities.",
+    "use_cases": [
+      "binary analysis",
+      "debugging",
+      "decompilation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Ghidra",
+      "IDA Pro"
+    ]
+  },
+  "github:snail007/goproxy": {
+    "capability_summary": "A high-performance, multi-protocol proxy server for networking and security. It is built for developers and system administrators.",
+    "problem_solved": "Routing and securing network traffic across various protocols.",
+    "use_cases": [
+      "NAT traversal",
+      "load balancing",
+      "traffic encryption",
+      "SOCKS5 proxy"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "proxy server",
+      "reverse proxy"
+    ]
+  },
+  "github:papermerge/papermerge-core": {
+    "capability_summary": "A self-hosted document management system that uses OCR to archive and search scanned documents. It is for individuals and businesses.",
+    "problem_solved": "Digitizing and organizing physical paper records.",
+    "use_cases": [
+      "document archiving",
+      "OCR",
+      "full-text search"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "DMS",
+      "paperless-ngx"
+    ]
+  },
+  "github:operately/operately": {
+    "capability_summary": "A self-hosted company operating system for OKR tracking and team communication. It is designed for organizational management.",
+    "problem_solved": "Managing team goals and operational workflows.",
+    "use_cases": [
+      "OKR tracking",
+      "project management",
+      "team communication"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "project management software"
+    ]
+  },
+  "github:djiangtw/data-structures-in-practice-public": {
+    "capability_summary": "A technical book on hardware-aware data structures for systems and embedded engineers. It focuses on RISC-V and cache performance.",
+    "problem_solved": "Learning how to optimize software performance for specific hardware architectures.",
+    "use_cases": [
+      "systems programming",
+      "performance optimization",
+      "computer architecture education"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "technical book"
+    ]
+  },
+  "github:owengetinfo-design/pokieticker": {
+    "capability_summary": "A full-stack app that correlates stock market prices with news sentiment using AI. It is for financial analysts and developers.",
+    "problem_solved": "Predicting stock movements based on news sentiment analysis.",
+    "use_cases": [
+      "finance",
+      "sentiment analysis",
+      "machine learning"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "stock tracker"
+    ]
+  },
+  "github:dominikmartn/nothing-design-skill": {
+    "capability_summary": "A specialized skill for Claude Code that enforces a specific monochrome design language for UI generation. It is for frontend developers.",
+    "problem_solved": "Maintaining consistent industrial design aesthetics in AI-generated UIs.",
+    "use_cases": [
+      "UI design",
+      "frontend automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code skill"
+    ]
+  },
+  "github:nxtg-ai/forge-orchestrator": {
+    "capability_summary": "A Rust-based orchestration layer for synchronizing multiple AI coding agents. It is for developers building complex AI workflows.",
+    "problem_solved": "Preventing conflicts and managing state between multiple AI coding agents.",
+    "use_cases": [
+      "AI agent orchestration",
+      "multi-agent workflows",
+      "devops"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent manager"
+    ]
+  },
+  "github:lambdaclass/options_portfolio_backtester": {
+    "capability_summary": "A high-performance backtesting engine for options and equity portfolios. It is for quantitative finance professionals.",
+    "problem_solved": "Testing financial trading strategies against historical data.",
+    "use_cases": [
+      "backtesting",
+      "quantitative finance",
+      "data analysis"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading backtester"
+    ]
+  },
+  "github:oliverzhaohaibin/iphotron-localphotoalbummanager": {
+    "capability_summary": "A cross-platform, folder-native photo manager for organizing local image libraries. It is for desktop users.",
+    "problem_solved": "Managing local photo collections without proprietary import processes.",
+    "use_cases": [
+      "photo management",
+      "media organization",
+      "image viewing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "photo organizer"
+    ]
+  },
+  "github:seemoo-lab/airguard": {
+    "capability_summary": "An Android app that detects unwanted tracking from Bluetooth devices like AirTags. It protects user privacy by performing periodic local scans.",
+    "problem_solved": "Detecting unwanted Bluetooth tracking devices.",
+    "use_cases": [
+      "privacy protection",
+      "anti-stalking",
+      "bluetooth security"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "airtag detector",
+      "tracking protection"
+    ]
+  },
+  "github:tuanngocptn/nport": {
+    "capability_summary": "A CLI tool that creates secure tunnels from localhost to the public internet using Cloudflare. It is designed for developers needing quick web access.",
+    "problem_solved": "Exposing local development servers to the internet.",
+    "use_cases": [
+      "web development",
+      "localhost tunneling",
+      "remote testing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ngrok alternative",
+      "cloudflare tunnel"
+    ]
+  },
+  "github:1038lab/comfyui-qwentts": {
+    "capability_summary": "Custom nodes for ComfyUI that enable local speech synthesis and voice cloning using Qwen models. It is for AI artists and developers.",
+    "problem_solved": "Integrating local text-to-speech and voice cloning into ComfyUI workflows.",
+    "use_cases": [
+      "speech-to-text",
+      "voice cloning",
+      "ai voice design"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "comfyui tts",
+      "qwen tts"
+    ]
+  },
+  "github:juftin/browsr": {
+    "capability_summary": "A TUI file explorer that allows users to navigate local and cloud filesystems. It is built for developers who prefer terminal-based interfaces.",
+    "problem_solved": "Managing files across local and cloud storage in the terminal.",
+    "use_cases": [
+      "file management",
+      "cloud storage browsing",
+      "ssh file explorer"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tui file manager",
+      "terminal file explorer"
+    ]
+  },
+  "github:mailu/mailu": {
+    "capability_summary": "A modular, containerized mail server solution that is easy to deploy and maintain. It is intended for self-hosting enthusiasts.",
+    "problem_solved": "Setting up a private, self-hosted email server.",
+    "use_cases": [
+      "email hosting",
+      "self-hosted mailserver",
+      "smtp server"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "mail server",
+      "self-hosted email"
+    ]
+  },
+  "github:sameerk27/vigil365": {
+    "capability_summary": "A self-hosted dashboard that aggregates security data from Microsoft 365 services. It is designed for security operations teams.",
+    "problem_solved": "Centralizing security monitoring for Microsoft 365 environments.",
+    "use_cases": [
+      "security dashboard",
+      "microsoft 365 monitoring",
+      "cybersecurity automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "m365 security dashboard",
+      "security operations center"
+    ]
+  },
+  "github:ivanmurzak/unity-mcp": {
+    "capability_summary": "An MCP server that allows AI agents to control the Unity Editor. It is for game developers looking to automate tasks via AI.",
+    "problem_solved": "Integrating AI agents with Unity for automated game development.",
+    "use_cases": [
+      "ai-driven game development",
+      "unity automation",
+      "mcp server"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "unity ai",
+      "mcp for unity"
+    ]
+  },
+  "github:shrey113/app-scrcpy": {
+    "capability_summary": "A tool that streams Android screens and audio to Windows using WebSockets. It is an ADB-free alternative for remote control.",
+    "problem_solved": "Mirroring and controlling Android devices from Windows without ADB.",
+    "use_cases": [
+      "screen mirroring",
+      "android remote control",
+      "av streaming"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "scrcpy alternative",
+      "android screen mirror"
+    ]
   }
 }
