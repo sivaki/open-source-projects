@@ -19778,5 +19778,241 @@
       "scrcpy alternative",
       "android screen mirror"
     ]
+  },
+  "github:cgtuebingen/3d-re-gen": {
+    "capability_summary": "A generative AI framework that reconstructs complete, editable 3D indoor scenes from a single photograph. It is designed for researchers and developers in computer vision.",
+    "problem_solved": "Generating 3D indoor models from 2D images",
+    "use_cases": [
+      "3d reconstruction",
+      "scene understanding",
+      "generative 3d modeling"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3d-reconstruction-ai"
+    ]
+  },
+  "github:worldbench/awesome-ai-auto-research": {
+    "capability_summary": "A curated list of research papers and tools focused on automating the scientific research lifecycle using AI agents. It is intended for AI researchers and developers.",
+    "problem_solved": "Finding resources for AI-driven scientific research automation",
+    "use_cases": [
+      "ai research",
+      "agentic workflow learning",
+      "llm research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-ai-agents",
+      "ai-scientist-resources"
+    ]
+  },
+  "github:railly/agentfiles": {
+    "capability_summary": "An Obsidian plugin that manages AI agent skills, rules, and configurations across various coding tools. It is built for developers using Obsidian.",
+    "problem_solved": "Centralizing AI agent configurations and skills",
+    "use_cases": [
+      "obsidian plugin",
+      "ai agent management",
+      "developer productivity"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-ai-manager"
+    ]
+  },
+  "github:extv/podroid": {
+    "capability_summary": "A rootless Android application that runs a full Alpine Linux virtual machine, enabling native container support on mobile. It is for power users and mobile developers.",
+    "problem_solved": "Running Docker and Linux containers on Android",
+    "use_cases": [
+      "mobile virtualization",
+      "docker on android",
+      "linux on mobile"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "android-linux-vm"
+    ]
+  },
+  "github:johnsonhk88/ai-bank-statement-document-automation-by-llm-and-personal-finanical-analysis-prediction": {
+    "capability_summary": "A multi-agent framework for automating bank statement processing, PII redaction, and financial analysis. It is designed for financial automation tasks.",
+    "problem_solved": "Automating financial document processing and analysis",
+    "use_cases": [
+      "ocr processing",
+      "financial data analysis",
+      "pii redaction"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "financial-automation-agents"
+    ]
+  },
+  "github:maxkmet/idea-validation-agents": {
+    "capability_summary": "A collection of prompt-based AI agent workflows for validating startup ideas through market analysis. It is intended for entrepreneurs and developers.",
+    "problem_solved": "Validating startup ideas and market demand",
+    "use_cases": [
+      "market analysis",
+      "startup validation",
+      "workflow automation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "startup-validation-ai"
+    ]
+  },
+  "github:womendefiningai/claudecode-writer": {
+    "capability_summary": "A template workspace for Claude Code that automates content creation and research using local context. It is for content creators and developers.",
+    "problem_solved": "Automating content creation workflows with Claude",
+    "use_cases": [
+      "content creation",
+      "research automation",
+      "multi-platform repurposing"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-template"
+    ]
+  },
+  "github:shiahonb777/web-to-app": {
+    "capability_summary": "An on-device Android workshop for building, signing, and running web-based applications with local server runtimes. It is for mobile developers.",
+    "problem_solved": "Converting web apps to native Android APKs",
+    "use_cases": [
+      "web-to-apk",
+      "mobile web development",
+      "on-device build tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "web-to-android"
+    ]
+  },
+  "github:kartiklabhshetwar/screenshot-studio": {
+    "capability_summary": "A browser-based screenshot and visual editor using Next.js and FFmpeg WASM for professional image and video exports. It is for designers and developers.",
+    "problem_solved": "Editing and exporting media in the browser without server processing",
+    "use_cases": [
+      "visual editing",
+      "screenshot tool",
+      "video export"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "browser-based-editor"
+    ]
+  },
+  "github:jim-schwoebel/awesome_ai_agents": {
+    "capability_summary": "A comprehensive, curated collection of resources, frameworks, and tools for building and deploying AI agents. It is for AI engineers and researchers.",
+    "problem_solved": "Finding frameworks and tools for AI agent development",
+    "use_cases": [
+      "ai agent development",
+      "multi-agent systems",
+      "agentic workflows"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-ai-agents-list"
+    ]
+  },
+  "github:alirezadir/machine-learning-interviews": {
+    "capability_summary": "A curated collection of study materials and guides for preparing for AI, ML, and GenAI engineering job interviews. It is designed for software engineers and data scientists seeking roles in the AI field.",
+    "problem_solved": "Lack of structured preparation resources for specialized AI and machine learning engineering interviews.",
+    "use_cases": [
+      "interview preparation",
+      "system design study",
+      "machine learning review",
+      "AI engineering career growth"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "ML interview prep",
+      "AI engineering roadmap"
+    ]
+  },
+  "github:cockpit-project/cockpit": {
+    "capability_summary": "A web-based graphical interface for managing Linux servers. It allows administrators to monitor system health, manage containers, and configure storage via a browser.",
+    "problem_solved": "Simplifies Linux server administration for users who prefer a visual interface over the command line.",
+    "use_cases": [
+      "server monitoring",
+      "container management",
+      "storage configuration",
+      "homelab management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "linux server dashboard",
+      "webmin alternative"
+    ]
+  },
+  "github:markqvist/nomadnet": {
+    "capability_summary": "An off-grid, privacy-focused mesh networking platform that enables encrypted communication. It utilizes Reticulum and LXMF to support diverse hardware like LoRa and packet radio.",
+    "problem_solved": "Enables secure, decentralized communication in environments without internet access or traditional network infrastructure.",
+    "use_cases": [
+      "off-grid communication",
+      "mesh networking",
+      "encrypted messaging",
+      "packet radio communication"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mesh messenger",
+      "LoRa communication",
+      "decentralized network"
+    ]
   }
 }
