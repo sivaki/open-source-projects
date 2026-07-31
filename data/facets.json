@@ -19107,5 +19107,331 @@
     "aliases": [
       "embedded llm engine"
     ]
+  },
+  "github:s3n4t0r-0x0/apt-attack-simulation": {
+    "capability_summary": "A library of adversary simulation campaigns and TTPs modeled after real-world APT groups for red teaming.",
+    "problem_solved": "Need to test defensive security posture against realistic APT threats.",
+    "use_cases": [
+      "red teaming",
+      "adversary emulation",
+      "defensive research"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "red teaming tools",
+      "adversary simulation"
+    ]
+  },
+  "github:czlonkowski/n8n-skills": {
+    "capability_summary": "A collection of skills for Claude Code to programmatically build and configure n8n workflows.",
+    "problem_solved": "Automating the creation and management of n8n workflows via AI agents.",
+    "use_cases": [
+      "workflow automation",
+      "AI agent development",
+      "n8n integration"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "n8n-mcp",
+      "claude-code-skills"
+    ]
+  },
+  "github:angellm/thor": {
+    "capability_summary": "An open-source, 3D-printable 6-DOF robotic arm project compatible with ROS2.",
+    "problem_solved": "Building a custom, affordable robotic arm for home-lab or research.",
+    "use_cases": [
+      "robotics",
+      "3d printing",
+      "diy hardware"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "diy robot arm",
+      "ros2 robot"
+    ]
+  },
+  "github:dedicatedcode/reitti": {
+    "capability_summary": "A self-hosted platform for personal location tracking, analytics, and timeline visualization.",
+    "problem_solved": "Tracking location history while maintaining data privacy and ownership.",
+    "use_cases": [
+      "gps tracking",
+      "location analytics",
+      "privacy-focused logging"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "owntracks-recorder",
+      "self-hosted gps"
+    ]
+  },
+  "github:thewhiteh4t/finalrecon": {
+    "capability_summary": "An all-in-one web reconnaissance tool for gathering intelligence on targets.",
+    "problem_solved": "Automating web reconnaissance and target intelligence gathering.",
+    "use_cases": [
+      "osint",
+      "web pentesting",
+      "subdomain enumeration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "recon tool",
+      "web scanner"
+    ]
+  },
+  "github:thanhkeke97/rstgametranslation": {
+    "capability_summary": "A real-time screen translation tool for Windows games using OCR and LLMs.",
+    "problem_solved": "Translating foreign-language game text in real-time.",
+    "use_cases": [
+      "game translation",
+      "ocr",
+      "screen translation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english",
+      "japanese",
+      "chinese",
+      "korean"
+    ],
+    "aliases": [
+      "game translator",
+      "ocr translator"
+    ]
+  },
+  "github:0xsojalsec/llms-local": {
+    "capability_summary": "A curated list of platforms, engines, and tools for running LLMs locally.",
+    "problem_solved": "Finding the right tools to host and run large language models on local hardware.",
+    "use_cases": [
+      "llm research",
+      "local ai hosting",
+      "homelab"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-llm",
+      "local ai list"
+    ]
+  },
+  "github:xavier150/blender-for-unrealengine-addons": {
+    "capability_summary": "A Blender add-on that automates the export pipeline for meshes and animations to Unreal Engine.",
+    "problem_solved": "Streamlining the 3D asset pipeline between Blender and Unreal Engine.",
+    "use_cases": [
+      "3d pipeline",
+      "gamedev",
+      "asset export"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "blender-to-unreal",
+      "3d automation"
+    ]
+  },
+  "github:run-llama/notebookllama": {
+    "capability_summary": "An open-source alternative to NotebookLM for creating interactive document-based AI agents.",
+    "problem_solved": "Building custom document-based AI agents for analysis.",
+    "use_cases": [
+      "rag",
+      "document analysis",
+      "ai agents"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "notebooklm-alternative",
+      "llamaindex-app"
+    ]
+  },
+  "github:prbonn/rko_lio": {
+    "capability_summary": "A sensor-agnostic LiDAR-inertial odometry system for robotics.",
+    "problem_solved": "Performing accurate robot localization and mapping using LiDAR and IMU.",
+    "use_cases": [
+      "slam",
+      "robotics",
+      "odometry"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "lio",
+      "slam-system"
+    ]
+  },
+  "github:supabase/agent-skills": {
+    "capability_summary": "A collection of standardized AI agent skills for Supabase to assist with database and auth management. Designed for developers using AI agents.",
+    "problem_solved": "Simplifies AI agent interaction with Supabase databases and authentication.",
+    "use_cases": [
+      "database management",
+      "schema design",
+      "auth implementation"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "supabase-ai-skills"
+    ]
+  },
+  "github:bvisible/mcp-ssh-manager": {
+    "capability_summary": "An MCP server that allows AI assistants to perform SSH operations on remote servers. Built for DevOps engineers and AI power users.",
+    "problem_solved": "Enables AI agents to execute commands and manage files on remote servers securely.",
+    "use_cases": [
+      "remote server management",
+      "devops automation",
+      "database queries"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server",
+      "ssh-mcp"
+    ]
+  },
+  "github:tddworks/claudebar": {
+    "capability_summary": "A macOS menu bar app that tracks usage quotas for various AI coding assistants. Designed for developers managing multiple AI subscriptions.",
+    "problem_solved": "Provides a centralized dashboard to monitor AI usage limits across different services.",
+    "use_cases": [
+      "usage monitoring",
+      "productivity tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-usage-tracker"
+    ]
+  },
+  "github:bndw/wifi-card": {
+    "capability_summary": "A web-based tool to generate printable QR codes for WiFi credentials. Ideal for home-lab owners and guest network management.",
+    "problem_solved": "Quickly share WiFi credentials via printable QR codes.",
+    "use_cases": [
+      "guest network management",
+      "wifi credential sharing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "wifi-qr-generator"
+    ]
+  },
+  "github:alvinreal/awesome-openclaw": {
+    "capability_summary": "A curated list of tools and plugins for the OpenClaw ecosystem. Designed for users building personal AI agents.",
+    "problem_solved": "Centralizes resources for finding OpenClaw-compatible AI automation tools.",
+    "use_cases": [
+      "ai agent discovery",
+      "automation workflow research"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list"
+    ]
+  },
+  "github:a-poc/redteam-tools": {
+    "capability_summary": "A curated collection of cybersecurity tools and techniques for penetration testing. Designed for security researchers and red teamers.",
+    "problem_solved": "Provides a comprehensive repository of resources for security reconnaissance and testing.",
+    "use_cases": [
+      "penetration testing",
+      "security research",
+      "reconnaissance"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pentest-tools",
+      "cybersecurity-resources"
+    ]
+  },
+  "github:hneemann/digital": {
+    "capability_summary": "A cross-platform digital logic designer and circuit simulator. Designed for students and engineers working with hardware logic.",
+    "problem_solved": "Allows for the design and simulation of digital circuits with VHDL/Verilog export capabilities.",
+    "use_cases": [
+      "circuit simulation",
+      "fpga design",
+      "electronics education"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "logisim-alternative"
+    ]
   }
 }
