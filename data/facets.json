@@ -20014,5 +20014,234 @@
       "LoRa communication",
       "decentralized network"
     ]
+  },
+  "github:vladkens/macmon": {
+    "capability_summary": "A high-performance system monitor for Apple Silicon Macs providing TUI and Prometheus metrics. Designed for developers and sysadmins.",
+    "problem_solved": "Monitoring system resources on Apple Silicon hardware",
+    "use_cases": [
+      "cpu monitoring",
+      "gpu monitoring",
+      "prometheus metrics",
+      "system dashboard"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "macos",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "htop for mac",
+      "system monitor"
+    ]
+  },
+  "github:aakriti1318/multi-agent-generator": {
+    "capability_summary": "A low-code library for generating multi-agent AI team configurations. Built for developers using CrewAI, LangGraph, or Agno.",
+    "problem_solved": "Rapidly scaffolding multi-agent AI workflows",
+    "use_cases": [
+      "ai automation",
+      "llm agent configuration",
+      "code generation"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "multi-agent builder",
+      "ai team generator"
+    ]
+  },
+  "github:noobygains/claude-pulse": {
+    "capability_summary": "A terminal-based monitor for Claude Code usage and costs. Designed for developers tracking AI spending.",
+    "problem_solved": "Tracking real-time Claude Code usage and expenses",
+    "use_cases": [
+      "cost tracking",
+      "usage monitoring",
+      "terminal dashboard"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude monitor",
+      "ai cost tracker"
+    ]
+  },
+  "github:superagenticai/superclaw": {
+    "capability_summary": "A security framework for red-teaming autonomous AI agents. Built for security researchers and DevSecOps teams.",
+    "problem_solved": "Testing security vulnerabilities in autonomous AI agents",
+    "use_cases": [
+      "ai red-teaming",
+      "security testing",
+      "adversarial simulation"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai security scanner",
+      "agent red-teaming"
+    ]
+  },
+  "github:sartoopjj/thefeed": {
+    "capability_summary": "A DNS-based tool for bypassing network censorship. Designed for users in restricted network environments.",
+    "problem_solved": "Bypassing internet censorship via DNS tunneling",
+    "use_cases": [
+      "censorship circumvention",
+      "dns tunneling",
+      "privacy"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "dns proxy",
+      "anti-censorship tool"
+    ]
+  },
+  "github:abdowaer098/wa3r-offsec-kit": {
+    "capability_summary": "A curated knowledge base for offensive security and penetration testing. Designed for bug bounty hunters and security researchers.",
+    "problem_solved": "Centralizing offensive security methodologies and payloads",
+    "use_cases": [
+      "bug bounty hunting",
+      "pentesting",
+      "security research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "security cheat sheet",
+      "infosec notes"
+    ]
+  },
+  "github:0xsyr0/awesome-cybersecurity-handbooks": {
+    "capability_summary": "A comprehensive collection of cybersecurity notes covering offensive and defensive techniques. Designed for CTF players and security professionals.",
+    "problem_solved": "Learning and referencing security techniques",
+    "use_cases": [
+      "ctf training",
+      "red teaming",
+      "blue teaming"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "security wiki",
+      "infosec handbook"
+    ]
+  },
+  "github:leodavinci1/kanbots": {
+    "capability_summary": "A local-first kanban interface for orchestrating multiple AI agent CLIs. Designed for developers managing agent-driven tasks.",
+    "problem_solved": "Managing multiple AI agent workflows in one dashboard",
+    "use_cases": [
+      "ai agent management",
+      "kanban board",
+      "workflow automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai task manager",
+      "agent orchestrator"
+    ]
+  },
+  "github:financial-datasets/mcp-server": {
+    "capability_summary": "An MCP server providing AI assistants with access to financial market data. Designed for Claude Desktop users.",
+    "problem_solved": "Connecting AI assistants to real-time financial data",
+    "use_cases": [
+      "financial analysis",
+      "market data query",
+      "ai integration"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "mcp finance",
+      "claude financial data"
+    ]
+  },
+  "github:markqvist/reticulum": {
+    "capability_summary": "A cryptography-based networking stack for building resilient, decentralized networks. Designed for mesh and packet radio enthusiasts.",
+    "problem_solved": "Building decentralized networks over non-IP mediums",
+    "use_cases": [
+      "mesh networking",
+      "lora communication",
+      "decentralized comms"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mesh stack",
+      "decentralized network"
+    ]
+  },
+  "github:skillsgate/skillsgate": {
+    "capability_summary": "A management interface for AI agent skills that allows users to browse, install, and sync skills across different AI coding assistants. It is designed for developers looking to streamline their AI agent workflows.",
+    "problem_solved": "Managing and syncing disparate skills across multiple AI coding assistants.",
+    "use_cases": [
+      "AI agent skill management",
+      "developer workflow automation",
+      "syncing AI assistant configurations"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI skill manager",
+      "agent skill sync"
+    ]
+  },
+  "github:apple/ml-sharp": {
+    "capability_summary": "A research implementation for generating 3D Gaussian representations from single images. It is intended for computer vision researchers and developers working with 3D reconstruction.",
+    "problem_solved": "Generating 3D Gaussian representations from a single image in real-time.",
+    "use_cases": [
+      "3D reconstruction",
+      "computer vision research",
+      "gaussian splatting"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3D Gaussian Splatting",
+      "Apple ML research"
+    ]
   }
 }
