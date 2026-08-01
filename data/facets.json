@@ -20372,5 +20372,101 @@
     "aliases": [
       "creative ai"
     ]
+  },
+  "github:asrumon/telephoto": {
+    "capability_summary": "An Android app that uses Telegram as a free, unlimited cloud backup for media with AI-powered captioning and OCR.",
+    "problem_solved": "Need for unlimited, free photo and video cloud storage.",
+    "use_cases": [
+      "media backup",
+      "photo organization",
+      "automated captioning",
+      "text extraction"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "telegram backup",
+      "cloud storage"
+    ]
+  },
+  "github:agent-sh/agentsys": {
+    "capability_summary": "A modular orchestration runtime for AI agents providing pipelines, state persistence, and developer workflow skills.",
+    "problem_solved": "Managing and orchestrating autonomous AI agent workflows.",
+    "use_cases": [
+      "ai automation",
+      "code review",
+      "developer productivity",
+      "agent orchestration"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai agent framework",
+      "llm orchestration"
+    ]
+  },
+  "github:yakhyo/uniface": {
+    "capability_summary": "A unified Python library for face analysis tasks like detection, recognition, and attribute estimation using ONNX Runtime.",
+    "problem_solved": "Need for a single library to handle multiple face analysis tasks.",
+    "use_cases": [
+      "face recognition",
+      "age estimation",
+      "emotion detection",
+      "biometrics"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "computer vision",
+      "face analysis"
+    ]
+  },
+  "github:openinframap/openinframap": {
+    "capability_summary": "A mapping project that visualizes global infrastructure data like power, telecom, and water from OpenStreetMap.",
+    "problem_solved": "Visualizing complex global infrastructure data.",
+    "use_cases": [
+      "gis mapping",
+      "infrastructure visualization",
+      "data analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osm mapping",
+      "infrastructure map"
+    ]
+  },
+  "github:pgsty/pigsty": {
+    "capability_summary": "An enterprise-grade PostgreSQL distribution for self-hosting with built-in monitoring and high availability.",
+    "problem_solved": "Managing complex, high-availability PostgreSQL deployments.",
+    "use_cases": [
+      "database management",
+      "postgresql hosting",
+      "infrastructure monitoring"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "postgres distribution",
+      "database infra"
+    ]
   }
 }
