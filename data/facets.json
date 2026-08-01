@@ -20243,5 +20243,134 @@
       "3D Gaussian Splatting",
       "Apple ML research"
     ]
+  },
+  "github:opengeos/geoai": {
+    "capability_summary": "A Python framework that integrates PyTorch and Transformers for geospatial deep learning and remote sensing analysis.",
+    "problem_solved": "Simplifies complex geospatial AI and remote sensing data pipelines.",
+    "use_cases": [
+      "remote sensing analysis",
+      "geospatial deep learning",
+      "earth observation data processing"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "geopython",
+      "geoai"
+    ]
+  },
+  "github:memodb-io/acontext": {
+    "capability_summary": "A memory layer for AI agents that stores skills as human-readable Markdown files for better context management.",
+    "problem_solved": "Provides transparent, reusable memory for AI agents without relying on opaque vector databases.",
+    "use_cases": [
+      "ai agent memory",
+      "llm context management",
+      "agent skill storage"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llmops",
+      "agent memory"
+    ]
+  },
+  "github:reacherhq/check-if-email-exists": {
+    "capability_summary": "A high-performance Rust tool that verifies email deliverability via SMTP handshake without sending emails.",
+    "problem_solved": "Validates email addresses to prevent bounces and ensure deliverability.",
+    "use_cases": [
+      "email verification",
+      "email validation",
+      "smtp testing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "email verifier"
+    ]
+  },
+  "github:semantica-agi/semantica": {
+    "capability_summary": "A graph-native infrastructure layer for building accountable and explainable AI agents.",
+    "problem_solved": "Enables deterministic reasoning and provenance in AI agents using knowledge graphs.",
+    "use_cases": [
+      "explainable ai",
+      "knowledge graph management",
+      "graph rag",
+      "ai governance"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "graph-rag",
+      "ai infrastructure"
+    ]
+  },
+  "github:mgechev/skills-best-practices": {
+    "capability_summary": "A structured guide and set of best practices for designing and optimizing agent skills for LLMs.",
+    "problem_solved": "Improves LLM performance and context management through better skill organization.",
+    "use_cases": [
+      "llm optimization",
+      "agent design",
+      "prompt engineering"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm best practices"
+    ]
+  },
+  "github:cybergeekgyan/quant-developers-resources": {
+    "capability_summary": "A curated collection of study paths and resources for careers in quantitative finance and algorithmic trading.",
+    "problem_solved": "Provides a roadmap for learning quantitative finance and trading strategies.",
+    "use_cases": [
+      "algorithmic trading learning",
+      "quantitative finance education",
+      "career development"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "quant finance resources"
+    ]
+  },
+  "github:bmad-code-org/bmad-module-creative-intelligence-suite": {
+    "capability_summary": "A collection of AI-driven agents and workflows for creative problem-solving and design thinking.",
+    "problem_solved": "Facilitates structured brainstorming and creative workflows using AI.",
+    "use_cases": [
+      "creative brainstorming",
+      "design thinking",
+      "ai-driven workflows"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "creative ai"
+    ]
   }
 }
