@@ -1,11 +1,18 @@
 # Curated Repos
 
-Auto-generated list of 433 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 440 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) ⭐ | AI/LLM Tooling | `ai` `llm` `productivity` `brainstorming` `workflow` | A collection of AI-driven agents and workflows designed to facilitate structured creative problem-solving, brainstorming, and design thinking within the BMad Method ecosystem. | 156 | 2026-08-01 |
+| [cybergeekgyan/quant-developers-resources](https://github.com/cybergeekgyan/quant-developers-resources) ⭐ | Education | `quant` `finance` `algorithmic-trading` `career` `learning-resources` | A comprehensive, curated collection of resources, reading lists, and study paths for individuals pursuing careers in quantitative finance and algorithmic trading. | 3583 | 2026-08-01 |
+| [mgechev/skills-best-practices](https://github.com/mgechev/skills-best-practices) ⭐ | AI/LLM Tooling | `llm` `agents` `automation` `best-practices` `developer-tools` | A structured guide and set of best practices for designing, organizing, and optimizing agent skills to improve LLM performance and context management. | 2160 | 2026-08-01 |
+| [semantica-agi/semantica](https://github.com/semantica-agi/semantica) ⭐ | AI Infrastructure | `knowledge-graph` `ai-agents` `data-pipelines` `explainable-ai` `self-hosting` | Semantica is a graph-native infrastructure layer designed for building accountable, explainable AI agents by providing deterministic reasoning, provenance, and knowledge graph management. | 1478 | 2026-08-01 |
+| [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) ⭐ | Developer Tools | `rust` `email` `automation` `cli` `networking` | A high-performance Rust-based tool for verifying email address deliverability via SMTP handshake without sending actual emails. | 9183 | 2026-08-01 |
+| [memodb-io/acontext](https://github.com/memodb-io/acontext) ⭐ | AI/LLM Tooling | `ai-agents` `llmops` `memory` `automation` `developer-tools` | Acontext is a memory layer for AI agents that stores 'skills' as human-readable Markdown files, allowing agents to learn from past tasks and reuse knowledge without opaque vector databases. | 3594 | 2026-08-01 |
+| [opengeos/geoai](https://github.com/opengeos/geoai) ⭐ | Data Science / Geospatial AI | `geospatial` `ai` `deep-learning` `python` `remote-sensing` `data-science` | A comprehensive Python framework that simplifies geospatial deep learning by integrating PyTorch, Transformers, and remote sensing data pipelines into a unified API. | 3233 | 2026-08-01 |
 | [apple/ml-sharp](https://github.com/apple/ml-sharp) ⭐ | Computer Vision | `ai` `3d-reconstruction` `gaussian-splatting` `computer-vision` `research` | A high-performance research implementation from Apple for generating 3D Gaussian representations from a single image in under a second. | 8770 | 2026-08-01 |
 | [skillsgate/skillsgate](https://github.com/skillsgate/skillsgate) ⭐ | AI/LLM Tooling | `ai` `cli` `tui` `developer-tools` `automation` | A unified management interface for AI agent skills, supporting both a desktop application and a TUI for browsing, installing, and syncing skills across various AI coding assistants. | 831 | 2026-08-01 |
 | [markqvist/reticulum](https://github.com/markqvist/reticulum) ⭐ | Networking | `mesh` `networking` `cryptography` `lora` `decentralization` | A powerful, cryptography-based networking stack designed for building resilient, decentralized, and censorship-resistant networks over diverse physical mediums like LoRa, packet radio, and IP. | 6477 | 2026-08-01 |
