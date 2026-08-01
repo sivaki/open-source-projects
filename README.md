@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 440 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 445 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [pgsty/pigsty](https://github.com/pgsty/pigsty) ⭐ | Database Infrastructure | `postgresql` `self-hosting` `automation` `database` `monitoring` `infrastructure` | A comprehensive, enterprise-grade PostgreSQL distribution designed for self-hosting, featuring built-in high availability, monitoring, and infrastructure-as-code capabilities. | 5289 | 2026-08-01 |
+| [openinframap/openinframap](https://github.com/openinframap/openinframap) ⭐ | GIS / Data Visualization | `openstreetmap` `gis` `infrastructure` `mapping` `data-visualization` | A specialized mapping project that visualizes global infrastructure data (power, telecom, water) sourced from OpenStreetMap. | 570 | 2026-08-01 |
+| [yakhyo/uniface](https://github.com/yakhyo/uniface) ⭐ | AI/Computer Vision | `computer-vision` `face-recognition` `onnxruntime` `python` `biometrics` | A comprehensive, unified Python library for face analysis tasks including detection, recognition, landmarking, and attribute estimation, built on ONNX Runtime. | 799 | 2026-08-01 |
+| [agent-sh/agentsys](https://github.com/agent-sh/agentsys) ⭐ | AI/LLM Tooling | `ai` `automation` `cli` `developer-tools` `orchestration` | AgentSys is a modular orchestration runtime for AI agents that provides structured pipelines, state persistence, and specialized skills for development workflows across tools like Claude Code and Cursor. | 906 | 2026-08-01 |
+| [asrumon/telephoto](https://github.com/asrumon/telephoto) ⭐ | Mobile Utility | `android` `backup` `telegram` `privacy` `automation` | An Android application that leverages Telegram's cloud storage as a free, unlimited backup solution for photos and videos, featuring AI-powered captioning and OCR. | 260 | 2026-08-01 |
 | [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) ⭐ | AI/LLM Tooling | `ai` `llm` `productivity` `brainstorming` `workflow` | A collection of AI-driven agents and workflows designed to facilitate structured creative problem-solving, brainstorming, and design thinking within the BMad Method ecosystem. | 156 | 2026-08-01 |
 | [cybergeekgyan/quant-developers-resources](https://github.com/cybergeekgyan/quant-developers-resources) ⭐ | Education | `quant` `finance` `algorithmic-trading` `career` `learning-resources` | A comprehensive, curated collection of resources, reading lists, and study paths for individuals pursuing careers in quantitative finance and algorithmic trading. | 3583 | 2026-08-01 |
 | [mgechev/skills-best-practices](https://github.com/mgechev/skills-best-practices) ⭐ | AI/LLM Tooling | `llm` `agents` `automation` `best-practices` `developer-tools` | A structured guide and set of best practices for designing, organizing, and optimizing agent skills to improve LLM performance and context management. | 2160 | 2026-08-01 |
