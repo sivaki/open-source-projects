@@ -20468,5 +20468,336 @@
       "postgres distribution",
       "database infra"
     ]
+  },
+  "github:superioone/nut_webgui": {
+    "capability_summary": "A lightweight web interface for monitoring Network UPS Tools (NUT) on low-resource hardware.",
+    "problem_solved": "Monitoring UPS status on resource-constrained devices like Raspberry Pis.",
+    "use_cases": [
+      "ups-monitoring",
+      "homelab-dashboard"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "nut-web-interface"
+    ]
+  },
+  "github:ledat98/nexusrag": {
+    "capability_summary": "A hybrid RAG system combining vector search, knowledge graphs, and reranking for advanced document retrieval.",
+    "problem_solved": "Building complex, high-accuracy retrieval-augmented generation pipelines.",
+    "use_cases": [
+      "document-parsing",
+      "knowledge-graph-search",
+      "ai-automation"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "rag-framework",
+      "lightrag-implementation"
+    ]
+  },
+  "github:vivy-company/vvterm": {
+    "capability_summary": "A native, high-performance SSH client for Apple devices featuring CloudKit sync and biometric security.",
+    "problem_solved": "Managing SSH connections on iOS and macOS with native performance.",
+    "use_cases": [
+      "ssh-client",
+      "remote-server-management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ssh-terminal",
+      "ghostty-client"
+    ]
+  },
+  "github:joe-shenouda/awesome-cyber-skills": {
+    "capability_summary": "A curated list of legal environments for practicing cybersecurity and ethical hacking skills.",
+    "problem_solved": "Finding safe, legal platforms to learn and practice penetration testing.",
+    "use_cases": [
+      "cybersecurity-learning",
+      "ctf-practice",
+      "pentesting-training"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cybersecurity-resources",
+      "infosec-learning"
+    ]
+  },
+  "github:choihyunsus/n2-qln": {
+    "capability_summary": "An intelligent tool router for the Model Context Protocol that optimizes token usage by managing large toolsets.",
+    "problem_solved": "Reducing token consumption in AI agents with large tool libraries.",
+    "use_cases": [
+      "ai-agent-orchestration",
+      "mcp-tool-routing"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-router",
+      "ai-tool-manager"
+    ]
+  },
+  "github:gyrus-dev/frosty": {
+    "capability_summary": "A self-hosted agentic framework for managing Snowflake environments using natural language.",
+    "problem_solved": "Automating Snowflake administration and governance via AI agents.",
+    "use_cases": [
+      "snowflake-administration",
+      "data-engineering-automation"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "snowflake-ai-agent"
+    ]
+  },
+  "github:flock4h/freeway": {
+    "capability_summary": "A Python-based toolkit for WiFi penetration testing and packet manipulation using Scapy.",
+    "problem_solved": "Auditing WiFi network security and simulating wireless attacks.",
+    "use_cases": [
+      "wifi-pentesting",
+      "packet-injection",
+      "network-security-auditing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wifi-hacking-tool",
+      "scapy-wifi-tool"
+    ]
+  },
+  "github:chili-chips-ba/wireguard-fpga": {
+    "capability_summary": "An open-source hardware implementation of the WireGuard VPN protocol for FPGA devices.",
+    "problem_solved": "Implementing high-speed VPN encryption directly in hardware.",
+    "use_cases": [
+      "vpn-hardware",
+      "fpga-networking"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wireguard-hardware",
+      "fpga-vpn"
+    ]
+  },
+  "github:okhosting/awesome-cyber-security": {
+    "capability_summary": "A directory of cybersecurity resources, threat intelligence databases, and professional security lists.",
+    "problem_solved": "Locating high-quality cybersecurity resources and threat intelligence data.",
+    "use_cases": [
+      "threat-intelligence",
+      "security-research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cybersecurity-directory",
+      "infosec-resources"
+    ]
+  },
+  "github:muhammadhananasghar/wormhole": {
+    "capability_summary": "A Go-based local-to-public tunneling tool that serves as an open-source alternative to ngrok.",
+    "problem_solved": "Exposing local services to the internet for testing and development.",
+    "use_cases": [
+      "localhost-tunneling",
+      "reverse-proxy",
+      "devops-tooling"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ngrok-alternative",
+      "tunneling-tool"
+    ]
+  },
+  "github:rdumasia303/deepseek_ocr_app": {
+    "capability_summary": "A self-hosted web application that uses DeepSeek models to perform OCR on images and PDFs. It is designed for users needing automated document conversion to formats like Markdown or DOCX.",
+    "problem_solved": "Automating document digitization and extraction using local AI models.",
+    "use_cases": [
+      "pdf-to-markdown",
+      "image-to-text",
+      "automated-document-processing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ocr-tool",
+      "document-converter"
+    ]
+  },
+  "github:mfranzon/render": {
+    "capability_summary": "A Claude Code skill that enables generative 3D modeling and real-time visualization. It is intended for developers using Claude Code for CAD or 3D design tasks.",
+    "problem_solved": "Integrating 3D modeling and visualization directly into AI-assisted coding workflows.",
+    "use_cases": [
+      "3d-modeling",
+      "cad-automation",
+      "step-file-export"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skill",
+      "3d-cad-generator"
+    ]
+  },
+  "github:joaquinbejar/market-maker-rs": {
+    "capability_summary": "A Rust library providing mathematical models and risk management tools for quantitative finance. It is built for developers creating automated trading systems.",
+    "problem_solved": "Implementing robust backtesting and risk management for algorithmic trading.",
+    "use_cases": [
+      "quantitative-finance",
+      "automated-trading",
+      "backtesting"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading-bot-engine",
+      "quant-finance-lib"
+    ]
+  },
+  "github:mohi-devhub/antivibe": {
+    "capability_summary": "A Claude Code skill that audits codebases to provide educational insights and architectural explanations. It is for developers who want to understand the logic behind AI-generated code.",
+    "problem_solved": "Reducing reliance on 'black box' AI code by providing deep architectural audits.",
+    "use_cases": [
+      "code-audit",
+      "developer-education",
+      "code-explanation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skill",
+      "code-auditor"
+    ]
+  },
+  "github:learnhouse/learnhouse": {
+    "capability_summary": "An open-source, self-hostable LMS featuring a Notion-like editor and AI-powered content generation. It is designed for educators and organizations building custom learning platforms.",
+    "problem_solved": "Deploying a private, AI-enhanced learning management system.",
+    "use_cases": [
+      "lms",
+      "online-education",
+      "ai-content-creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "lms-platform",
+      "notion-alternative"
+    ]
+  },
+  "github:0xsojalsec/free-voice-clone": {
+    "capability_summary": "A curated directory of open-source text-to-speech and voice cloning models. It is for researchers and creators looking for free audio generation tools.",
+    "problem_solved": "Finding and comparing open-source voice cloning and TTS technology.",
+    "use_cases": [
+      "voice-cloning",
+      "tts-research",
+      "audio-generation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tts-directory",
+      "voice-ai-list"
+    ]
+  },
+  "github:awattar/claude-code-best-practices": {
+    "capability_summary": "A collection of configuration patterns and custom commands for the Claude Code CLI. It is for power users looking to optimize their AI agent workflows.",
+    "problem_solved": "Standardizing and improving the efficiency of Claude Code agent configurations.",
+    "use_cases": [
+      "ai-agent-optimization",
+      "cli-automation",
+      "workflow-configuration"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-config",
+      "ai-agent-patterns"
+    ]
+  },
+  "github:linus-sch/mind-map-wizard": {
+    "capability_summary": "A browser-based mind mapping tool that integrates with Ollama for local AI processing. It is for users who prioritize data privacy and local-first storage.",
+    "problem_solved": "Creating mind maps with AI assistance without sending data to external cloud servers.",
+    "use_cases": [
+      "mind-mapping",
+      "brainstorming",
+      "local-ai-processing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mind-map-tool",
+      "local-first-ai"
+    ]
   }
 }
