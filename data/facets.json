@@ -20799,5 +20799,329 @@
       "mind-map-tool",
       "local-first-ai"
     ]
+  },
+  "github:pinchen147/pageflow": {
+    "capability_summary": "A native macOS PDF viewer built with SwiftUI and PDFKit. It provides tabbed browsing and annotation tools for power users.",
+    "problem_solved": "Viewing and annotating PDFs on macOS with native performance.",
+    "use_cases": [
+      "pdf viewing",
+      "document annotation",
+      "reading research papers"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pdf viewer",
+      "preview alternative"
+    ]
+  },
+  "github:facebookresearch/actionmesh": {
+    "capability_summary": "A research tool for generating animated 3D meshes from video input using diffusion models. Designed for computer vision researchers.",
+    "problem_solved": "Converting 2D video into animated 3D mesh data.",
+    "use_cases": [
+      "3d reconstruction",
+      "animation generation",
+      "video-to-4d"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "4d generation",
+      "mesh generator"
+    ]
+  },
+  "github:jau123/meigen-ai-design-mcp": {
+    "capability_summary": "An MCP server that connects AI coding assistants to image and video generation tools. It enables visual generation workflows within IDEs.",
+    "problem_solved": "Integrating image generation capabilities into AI coding assistants.",
+    "use_cases": [
+      "ai image generation",
+      "mcp server",
+      "prompt engineering"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude mcp",
+      "ai design tool"
+    ]
+  },
+  "github:hypersocialinc/shots": {
+    "capability_summary": "An AI agent skill that automates the creation of professional app store screenshots. It analyzes app metadata to generate visual assets.",
+    "problem_solved": "Automating the design of app store marketing screenshots.",
+    "use_cases": [
+      "app store optimization",
+      "screenshot generation",
+      "marketing automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "app store screenshots",
+      "ai marketing tool"
+    ]
+  },
+  "github:win-acme/win-acme": {
+    "capability_summary": "A Windows-based ACMEv2 client for automating SSL/TLS certificate management. It integrates with IIS and other Windows services.",
+    "problem_solved": "Automating SSL certificate renewal on Windows servers.",
+    "use_cases": [
+      "ssl management",
+      "certificate automation",
+      "sysadmin tools"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "letsencrypt windows",
+      "acme client"
+    ]
+  },
+  "github:mlightcad/cad-viewer": {
+    "capability_summary": "A client-side CAD viewer and editor that runs in the browser. It handles DWG and DXF files securely without a backend.",
+    "problem_solved": "Viewing and editing CAD files in a browser without server-side processing.",
+    "use_cases": [
+      "cad viewing",
+      "dwg editing",
+      "web-based cad"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "webgl cad",
+      "dwg viewer"
+    ]
+  },
+  "github:topoteretes/awesome-ai-memory": {
+    "capability_summary": "A curated collection of tools and frameworks for implementing long-term memory in AI agents. It serves as a reference for AI engineers.",
+    "problem_solved": "Finding the right architecture for AI agent memory and RAG.",
+    "use_cases": [
+      "ai engineering",
+      "rag development",
+      "agent memory"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai memory list",
+      "rag resources"
+    ]
+  },
+  "github:cachebag/payme": {
+    "capability_summary": "A self-hosted personal finance tracker using Rust and SQLite. It focuses on privacy and local data storage.",
+    "problem_solved": "Tracking personal expenses privately in a self-hosted environment.",
+    "use_cases": [
+      "finance tracking",
+      "homelab",
+      "budgeting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "finance tracker",
+      "budget app"
+    ]
+  },
+  "github:youmind-openlab/nano-banana-pro-prompts-recommend-skill": {
+    "capability_summary": "An AI agent skill for Claude Code that provides semantic search and remixing for a large library of image generation prompts.",
+    "problem_solved": "Finding and managing high-quality image generation prompts.",
+    "use_cases": [
+      "prompt engineering",
+      "ai image generation",
+      "prompt library"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "prompt manager",
+      "ai assistant skill"
+    ]
+  },
+  "github:kasteckis/tempfastmail": {
+    "capability_summary": "A self-hosted disposable email service using Cloudflare Workers and PHP. It provides a private way to handle temporary email addresses.",
+    "problem_solved": "Creating a private, disposable email service.",
+    "use_cases": [
+      "disposable email",
+      "email routing",
+      "privacy tools"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "temp mail",
+      "email forwarder"
+    ]
+  },
+  "github:facebookresearch/omnilingual-asr": {
+    "capability_summary": "A multilingual speech recognition framework supporting over 1,600 languages with zero-shot capabilities.",
+    "problem_solved": "Automated speech-to-text transcription across diverse global languages.",
+    "use_cases": [
+      "speech-to-text",
+      "multilingual transcription",
+      "ai research"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "multilingual"
+    ],
+    "aliases": [
+      "speech recognition",
+      "asr"
+    ]
+  },
+  "github:sipeed/nanokvm": {
+    "capability_summary": "An affordable IP-KVM solution using RISC-V hardware for remote server management.",
+    "problem_solved": "Remote access and BIOS control for headless servers.",
+    "use_cases": [
+      "remote server management",
+      "bios control",
+      "virtual media mounting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ip-kvm",
+      "remote desktop"
+    ]
+  },
+  "github:openosint/openosint": {
+    "capability_summary": "An AI-powered agent that integrates multiple cybersecurity investigation tools into a unified interface.",
+    "problem_solved": "Automating reconnaissance and threat intelligence gathering.",
+    "use_cases": [
+      "cybersecurity investigation",
+      "osint automation",
+      "threat intelligence"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint tools",
+      "security agent"
+    ]
+  },
+  "github:pshenok/server-survival": {
+    "capability_summary": "A 3D tower-defense game designed to teach cloud architecture and infrastructure scaling.",
+    "problem_solved": "Learning complex devops and system design concepts through simulation.",
+    "use_cases": [
+      "devops education",
+      "cloud architecture training",
+      "simulation game"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "devops game",
+      "cloud simulator"
+    ]
+  },
+  "github:mkultra6969/mk_droidscreencast": {
+    "capability_summary": "A desktop GUI for Android screen mirroring, file management, and device diagnostics using ADB.",
+    "problem_solved": "Managing and viewing Android devices from a desktop computer.",
+    "use_cases": [
+      "android screen mirroring",
+      "device diagnostics",
+      "file management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "scrcpy gui",
+      "android controller"
+    ]
+  },
+  "github:julyx10/lap": {
+    "capability_summary": "A privacy-focused, offline-first photo manager using local AI for search and face recognition.",
+    "problem_solved": "Organizing large photo collections without cloud privacy risks.",
+    "use_cases": [
+      "photo management",
+      "face recognition",
+      "duplicate detection"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "photo organizer",
+      "local-first gallery"
+    ]
+  },
+  "github:xmudeeplit/memgraphrag": {
+    "capability_summary": "A research-oriented GraphRAG framework using a three-layer memory system for improved LLM retrieval.",
+    "problem_solved": "Improving retrieval accuracy and conflict resolution in LLM applications.",
+    "use_cases": [
+      "rag",
+      "knowledge graph construction",
+      "agentic ai"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graphrag",
+      "llm memory"
+    ]
   }
 }
