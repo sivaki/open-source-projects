@@ -22091,5 +22091,293 @@
       "whatsapp-bot-api",
       "baileys-wrapper"
     ]
+  },
+  "github:genspark-ai/genoffice": {
+    "capability_summary": "An AI-native office suite for document editing with integrated AI agents.",
+    "problem_solved": "Need for AI-assisted document creation and editing.",
+    "use_cases": [
+      "docx editing",
+      "pptx editing",
+      "xlsx editing",
+      "AI document assistance"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "office suite",
+      "AI editor"
+    ]
+  },
+  "github:duelion/whatsapp-wrapped": {
+    "capability_summary": "Generates visual analytics and summaries from WhatsApp chat logs.",
+    "problem_solved": "Need to visualize personal chat history statistics.",
+    "use_cases": [
+      "chat analysis",
+      "data visualization",
+      "privacy-focused analytics"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "WhatsApp Wrapped",
+      "chat statistics"
+    ]
+  },
+  "github:owasp/aisvs": {
+    "capability_summary": "A structured checklist of security requirements for AI-driven applications.",
+    "problem_solved": "Need for standardized security auditing of AI systems.",
+    "use_cases": [
+      "AI security compliance",
+      "AI auditing",
+      "security governance"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OWASP AI",
+      "AI security standard"
+    ]
+  },
+  "github:xournalpp/xournalpp": {
+    "capability_summary": "A cross-platform tool for handwriting and PDF annotation with stylus support.",
+    "problem_solved": "Need for digital note-taking and PDF markup.",
+    "use_cases": [
+      "PDF annotation",
+      "handwriting notes",
+      "stylus drawing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Xournal++",
+      "PDF editor"
+    ]
+  },
+  "github:ximinng/hivg": {
+    "capability_summary": "An AI model for hierarchical SVG tokenization and image generation.",
+    "problem_solved": "Need to convert images or text into vector SVG graphics.",
+    "use_cases": [
+      "image-to-svg",
+      "text-to-svg",
+      "vector graphics generation"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "SVG generator",
+      "AI vectorizer"
+    ]
+  },
+  "github:kamranahmedse/developer-roadmap": {
+    "capability_summary": "A collection of interactive learning paths for software development and engineering roles.",
+    "problem_solved": "Need for structured career guidance in tech.",
+    "use_cases": [
+      "career planning",
+      "skill learning",
+      "developer education"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "developer roadmap",
+      "tech career guide"
+    ]
+  },
+  "github:lichtblick-suite/lichtblick": {
+    "capability_summary": "A visualization and diagnostic tool for robotics data stored in MCAP files.",
+    "problem_solved": "Need to visualize and debug robotics sensor data.",
+    "use_cases": [
+      "robotics diagnostics",
+      "MCAP visualization",
+      "data analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "robotics viewer",
+      "MCAP tool"
+    ]
+  },
+  "github:root-down-digital/dragonsync-ios": {
+    "capability_summary": "An iOS utility for real-time drone and aircraft detection using SDR hardware.",
+    "problem_solved": "Need to monitor local drone and aircraft activity.",
+    "use_cases": [
+      "drone detection",
+      "ADS-B monitoring",
+      "SDR signal analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "drone tracker",
+      "WarDragon"
+    ]
+  },
+  "github:fkie-cad/awesome-embedded-and-iot-security": {
+    "capability_summary": "A curated list of tools and resources for embedded and IoT security research.",
+    "problem_solved": "Need for resources to perform IoT penetration testing.",
+    "use_cases": [
+      "IoT security",
+      "firmware analysis",
+      "pentesting"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "IoT security resources"
+    ]
+  },
+  "github:crossoverjie/skilldeck": {
+    "capability_summary": "A native macOS GUI for managing and syncing skills across AI agents.",
+    "problem_solved": "Need to manage multiple AI agent configurations in one place.",
+    "use_cases": [
+      "AI agent management",
+      "developer tools",
+      "automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "AI agent GUI",
+      "macOS AI tool"
+    ]
+  },
+  "github:emanuele-f/pcapdroid": {
+    "capability_summary": "An Android network monitor and packet capture tool that inspects traffic via a local VPN without root access. Designed for security researchers and privacy-conscious users.",
+    "problem_solved": "Monitoring and analyzing network traffic on Android devices without root.",
+    "use_cases": [
+      "network analysis",
+      "traffic monitoring",
+      "packet capture",
+      "security auditing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wireshark for android",
+      "network sniffer"
+    ]
+  },
+  "github:euniai/prometheus": {
+    "capability_summary": "A multi-agent platform leveraging knowledge graphs and LLMs to automate software engineering workflows. Built for developers looking to automate bug fixes and feature implementation.",
+    "problem_solved": "Automating complex software engineering tasks using AI agents.",
+    "use_cases": [
+      "bug fixing",
+      "feature implementation",
+      "software automation",
+      "AI agents"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "AI software engineer",
+      "LLM automation"
+    ]
+  },
+  "github:jacobdev1/xl-converter": {
+    "capability_summary": "A GUI-based image conversion utility supporting modern formats like JPEG XL and AVIF with parallel processing. Designed for users needing efficient batch image conversion.",
+    "problem_solved": "Converting and compressing images into modern, efficient formats.",
+    "use_cases": [
+      "image compression",
+      "batch image conversion",
+      "format migration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "image converter",
+      "batch processor"
+    ]
+  },
+  "github:leoheuler/flashtensors": {
+    "capability_summary": "An inference engine optimization tool that accelerates LLM model swapping and reduces cold-start times. Designed for AI engineers optimizing model deployment.",
+    "problem_solved": "Slow model loading and high cold-start latency in LLM inference.",
+    "use_cases": [
+      "LLM inference",
+      "model optimization",
+      "GPU acceleration"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "LLM optimizer",
+      "inference engine"
+    ]
+  },
+  "github:petoicamp/opencat-quadruped-robot": {
+    "capability_summary": "An open-source framework for controlling quadruped robots using Arduino and Raspberry Pi. Designed for robotics education and STEM enthusiasts.",
+    "problem_solved": "Controlling and programming legged robotic platforms.",
+    "use_cases": [
+      "robotics education",
+      "STEM learning",
+      "IoT robotics",
+      "quadruped control"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "robotics kit",
+      "robot dog framework"
+    ]
   }
 }
