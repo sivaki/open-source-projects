@@ -21455,5 +21455,310 @@
     "aliases": [
       "yt-dlp-web-interface"
     ]
+  },
+  "github:gmh5225/awesome-game-security": {
+    "capability_summary": "A curated collection of resources for game security, reverse engineering, and anti-cheat development.",
+    "problem_solved": "Finding resources for game security research and anti-cheat architecture.",
+    "use_cases": [
+      "reverse-engineering",
+      "anti-cheat development",
+      "security research"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "windows",
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "game-hacking-resources"
+    ]
+  },
+  "github:nicedreamzapp/claude-code-local": {
+    "capability_summary": "An MLX-native server enabling local execution of Claude Code on Apple Silicon.",
+    "problem_solved": "Running AI coding agents locally for privacy and speed.",
+    "use_cases": [
+      "local-llm",
+      "ai-privacy",
+      "on-device-ai"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-local",
+      "local-ai-agent"
+    ]
+  },
+  "github:claytonfarr/ralph-playbook": {
+    "capability_summary": "A guide for implementing the Ralph autonomous AI coding loop methodology.",
+    "problem_solved": "Structuring agentic workflows for iterative AI-assisted development.",
+    "use_cases": [
+      "ai-coding-workflow",
+      "agentic-development"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-coding-guide",
+      "ralph-methodology"
+    ]
+  },
+  "github:signtools/signtools": {
+    "capability_summary": "A self-hosted platform for sideloading and signing iOS applications.",
+    "problem_solved": "Automating the sideloading process for iOS apps.",
+    "use_cases": [
+      "ios-sideloading",
+      "app-signing",
+      "ci-cd"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "ios",
+      "macos",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ios-sideloading-tool"
+    ]
+  },
+  "github:oh-my-mermaid/oh-my-mermaid": {
+    "capability_summary": "A CLI tool that generates Mermaid.js architecture diagrams from codebases using AI.",
+    "problem_solved": "Visualizing complex codebase architectures automatically.",
+    "use_cases": [
+      "codebase-visualization",
+      "documentation",
+      "architecture-diagrams"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mermaid-generator",
+      "code-to-diagram"
+    ]
+  },
+  "github:anvaka/city-roads": {
+    "capability_summary": "A web-based tool to visualize road networks of cities using OpenStreetMap data.",
+    "problem_solved": "Visualizing urban road layouts for any city.",
+    "use_cases": [
+      "gis-visualization",
+      "mapping",
+      "data-art"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "city-mapper",
+      "osm-visualizer"
+    ]
+  },
+  "github:astrosp/awesome-osint-for-everything": {
+    "capability_summary": "A curated list of OSINT tools and resources for cybersecurity and investigations.",
+    "problem_solved": "Finding tools for reconnaissance and digital investigations.",
+    "use_cases": [
+      "cybersecurity",
+      "reconnaissance",
+      "threat-intelligence"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "osint-resources"
+    ]
+  },
+  "github:pawandeep-prog/revpdf-release": {
+    "capability_summary": "A privacy-focused, offline-first PDF editor.",
+    "problem_solved": "Editing PDFs locally without cloud dependency.",
+    "use_cases": [
+      "pdf-editing",
+      "offline-productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pdf-editor",
+      "offline-pdf-tool"
+    ]
+  },
+  "github:leo-corporation/internettest": {
+    "capability_summary": "A GUI-based network diagnostic toolkit for Windows.",
+    "problem_solved": "Troubleshooting network connectivity and performing diagnostics.",
+    "use_cases": [
+      "network-diagnostics",
+      "ping",
+      "traceroute",
+      "ip-lookup"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network-tool",
+      "internet-diagnostics"
+    ]
+  },
+  "github:mathieu2301/tradingview-api": {
+    "capability_summary": "A Node.js library for accessing TradingView market data and backtesting.",
+    "problem_solved": "Programmatically accessing financial data and indicators from TradingView.",
+    "use_cases": [
+      "trading-automation",
+      "backtesting",
+      "market-data-scraping"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tradingview-scraper",
+      "finance-api"
+    ]
+  },
+  "github:open-trader/opentrader": {
+    "capability_summary": "A self-hosted cryptocurrency trading bot with a web interface and backtesting tools. It is designed for traders who want to automate strategies across multiple exchanges.",
+    "problem_solved": "Automating cryptocurrency trading strategies and portfolio management.",
+    "use_cases": [
+      "crypto trading",
+      "automated dca",
+      "grid trading",
+      "backtesting strategies"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "crypto trading bot",
+      "algotrading platform"
+    ]
+  },
+  "github:dimartarmizi/map-to-poster": {
+    "capability_summary": "A web-based tool for creating high-resolution, customizable map posters. It is intended for designers and cartography enthusiasts who prioritize privacy.",
+    "problem_solved": "Generating high-quality map prints directly in the browser without server-side processing.",
+    "use_cases": [
+      "map visualization",
+      "poster design",
+      "gis mapping"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "map generator",
+      "gis tool"
+    ]
+  },
+  "github:funnywolf/agentic-soc-platform": {
+    "capability_summary": "An AI-driven security operations platform that automates alert triage and threat investigation. It is built for cybersecurity teams to streamline incident response.",
+    "problem_solved": "Reducing manual workload in security operations centers through AI automation.",
+    "use_cases": [
+      "alert triage",
+      "threat intelligence",
+      "incident response",
+      "soar"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai soc",
+      "security automation platform"
+    ]
+  },
+  "github:maliosdark/wifi-3d-fusion": {
+    "capability_summary": "A research framework for 3D human pose estimation using WiFi CSI data. It is intended for researchers working on non-intrusive spatial sensing.",
+    "problem_solved": "Performing human pose estimation without cameras using existing WiFi signals.",
+    "use_cases": [
+      "human pose estimation",
+      "spatial awareness",
+      "iot sensing"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wifi sensing",
+      "csi analysis"
+    ]
+  },
+  "github:gnekt/my-brain-is-full-crew": {
+    "capability_summary": "An AI-agent orchestration framework for Obsidian that automates knowledge management and task tracking. It is for users who want to manage their personal knowledge base via AI.",
+    "problem_solved": "Automating personal knowledge management and organization in Obsidian.",
+    "use_cases": [
+      "knowledge management",
+      "task automation",
+      "ai personal assistant"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian ai",
+      "agentic workflow"
+    ]
+  },
+  "github:pinperepette/macpersistencechecker": {
+    "capability_summary": "A macOS security tool that maps persistence mechanisms into a knowledge graph for threat hunting. It is designed for security analysts to identify malicious auto-start items.",
+    "problem_solved": "Detecting and analyzing persistence mechanisms on macOS systems.",
+    "use_cases": [
+      "threat hunting",
+      "macos security",
+      "malware analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "macos threat hunter",
+      "persistence analyzer"
+    ]
   }
 }
