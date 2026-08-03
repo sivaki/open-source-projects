@@ -21760,5 +21760,336 @@
       "macos threat hunter",
       "persistence analyzer"
     ]
+  },
+  "github:cranot/deep-research": {
+    "capability_summary": "A recursive AI agent framework that breaks down complex research queries into parallel sub-tasks.",
+    "problem_solved": "Automating multi-step research tasks using LLMs.",
+    "use_cases": [
+      "automated research",
+      "task decomposition",
+      "agentic workflows"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI research agent"
+    ]
+  },
+  "github:cloudai-x/opencode-workflow": {
+    "capability_summary": "A modular framework for orchestrating AI agents to perform software development tasks.",
+    "problem_solved": "Automating code reviews and security audits.",
+    "use_cases": [
+      "code review",
+      "security auditing",
+      "code refactoring"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI coding agent"
+    ]
+  },
+  "github:k-dense-ai/mimeographs": {
+    "capability_summary": "A library of 80 expert-persona prompts to guide AI coding agents.",
+    "problem_solved": "Improving the reasoning and decision-making quality of AI coding agents.",
+    "use_cases": [
+      "prompt engineering",
+      "AI coding assistance"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "prompt library"
+    ]
+  },
+  "github:pguso/ai-agents-from-scratch": {
+    "capability_summary": "An educational repository teaching how to build AI agents using local LLMs and Node.js.",
+    "problem_solved": "Learning the fundamentals of agentic AI without heavy abstractions.",
+    "use_cases": [
+      "AI education",
+      "local LLM integration",
+      "agent development"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI tutorial"
+    ]
+  },
+  "github:staskh/trading_skills": {
+    "capability_summary": "An MCP server that integrates financial market data and portfolio management into Claude.",
+    "problem_solved": "Connecting financial trading tools to AI assistants.",
+    "use_cases": [
+      "financial data analysis",
+      "portfolio management",
+      "automated trading"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "MCP server",
+      "trading bot"
+    ]
+  },
+  "github:garethmanning/education-agent-skills": {
+    "capability_summary": "A library of 165 pedagogical skills for AI agents to support educational workflows.",
+    "problem_solved": "Standardizing AI behavior for tutoring and curriculum design.",
+    "use_cases": [
+      "intelligent tutoring",
+      "curriculum design",
+      "pedagogical AI"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "edtech agent skills"
+    ]
+  },
+  "github:fuzzyideas/cling": {
+    "capability_summary": "A high-performance fuzzy file search utility for macOS with indexing and manipulation features.",
+    "problem_solved": "Finding and managing files quickly on macOS.",
+    "use_cases": [
+      "file search",
+      "productivity tool",
+      "file management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "fuzzy search",
+      "file finder"
+    ]
+  },
+  "github:cawlumm/lyftr": {
+    "capability_summary": "A self-hosted, mobile-first fitness and nutrition tracker using SQLite.",
+    "problem_solved": "Tracking workouts and nutrition privately.",
+    "use_cases": [
+      "fitness tracking",
+      "nutrition logging",
+      "self-hosted health app"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "workout tracker"
+    ]
+  },
+  "github:darthnorse/dockmon": {
+    "capability_summary": "A comprehensive Docker management and monitoring platform with multi-host support.",
+    "problem_solved": "Managing and monitoring multiple Docker environments.",
+    "use_cases": [
+      "docker monitoring",
+      "devops dashboard",
+      "container management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "docker dashboard"
+    ]
+  },
+  "github:hqarroum/awesome-iot": {
+    "capability_summary": "A curated list of IoT hardware, software, and development resources.",
+    "problem_solved": "Finding resources for IoT and embedded systems projects.",
+    "use_cases": [
+      "iot research",
+      "embedded systems learning"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list"
+    ]
+  },
+  "github:deepmyst/mysti": {
+    "capability_summary": "A VS Code extension that orchestrates multiple AI coding agents to collaborate on tasks. It is designed for developers using VS Code.",
+    "problem_solved": "Automating complex coding tasks through multi-agent collaboration.",
+    "use_cases": [
+      "ai-assisted coding",
+      "agentic workflows",
+      "code refactoring"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli",
+      "desktop"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vscode-ai-agent",
+      "claude-code-alternative"
+    ]
+  },
+  "github:xyphro/usbgpib": {
+    "capability_summary": "An open-source USB-to-GPIB adapter that allows modern computers to control legacy laboratory test equipment. It is for engineers and lab technicians.",
+    "problem_solved": "Connecting legacy lab equipment to modern USB or Ethernet interfaces.",
+    "use_cases": [
+      "lab automation",
+      "test equipment control",
+      "embedded systems"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "gpib-adapter",
+      "lab-instrumentation"
+    ]
+  },
+  "github:dmachard/dns-collector": {
+    "capability_summary": "A high-performance tool that captures and enriches DNS traffic for monitoring and security analysis. It is for network administrators and security engineers.",
+    "problem_solved": "Lack of visibility into DNS traffic for security and performance monitoring.",
+    "use_cases": [
+      "network observability",
+      "dns logging",
+      "security monitoring"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dns-sniffer",
+      "network-monitor"
+    ]
+  },
+  "github:aeternalabshq/pullmd": {
+    "capability_summary": "A self-hosted service that converts various media and document formats into clean Markdown for AI consumption. It is for developers building AI agents.",
+    "problem_solved": "Converting unstructured web/media content into LLM-ready Markdown.",
+    "use_cases": [
+      "web scraping",
+      "document conversion",
+      "ocr",
+      "ai context preparation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "html-to-markdown",
+      "mcp-server"
+    ]
+  },
+  "github:lawve-ai/awesome-legal-skills": {
+    "capability_summary": "A curated repository of agent skills designed to automate legal workflows and compliance checks. It is for legal tech developers.",
+    "problem_solved": "Standardizing AI agent capabilities for legal and compliance tasks.",
+    "use_cases": [
+      "legal automation",
+      "compliance checking",
+      "document review"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "legal-ai-agents",
+      "legal-tech-automation"
+    ]
+  },
+  "github:mithun50/openclaw-termux": {
+    "capability_summary": "A Flutter-based Android app and CLI tool that automates AI gateway deployment on mobile devices. It is for mobile power users.",
+    "problem_solved": "Running and orchestrating local LLMs on Android devices.",
+    "use_cases": [
+      "mobile ai",
+      "local llm orchestration",
+      "termux automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "android-llm",
+      "termux-ai"
+    ]
+  },
+  "github:codexu/note-gen": {
+    "capability_summary": "A local-first Markdown note-taking app that uses AI to organize knowledge. It is for privacy-conscious users.",
+    "problem_solved": "Managing scattered notes and knowledge using AI-driven organization.",
+    "use_cases": [
+      "knowledge management",
+      "ai note-taking",
+      "local-first storage"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-knowledge-base",
+      "markdown-editor"
+    ]
+  },
+  "github:farinchan/chatery_whatsapp": {
+    "capability_summary": "A robust WhatsApp API backend for Node.js that supports multi-session management and admin dashboards. It is for developers building WhatsApp bots.",
+    "problem_solved": "Building custom WhatsApp automation and bot services.",
+    "use_cases": [
+      "whatsapp automation",
+      "messaging api",
+      "customer support bots"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "whatsapp-bot-api",
+      "baileys-wrapper"
+    ]
   }
 }
