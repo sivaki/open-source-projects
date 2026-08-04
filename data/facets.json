@@ -22680,5 +22680,150 @@
       "nvidia-smi-alternative",
       "gpu-monitor"
     ]
+  },
+  "github:fzn0x/watchtower": {
+    "capability_summary": "An AI-powered framework that automates penetration testing and reconnaissance using LLMs.",
+    "problem_solved": "Automating security vulnerability reporting and reconnaissance.",
+    "use_cases": [
+      "automated pentesting",
+      "security reconnaissance",
+      "vulnerability reporting"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "red-team automation",
+      "AI security tool"
+    ]
+  },
+  "github:leomirandaa/shadcn-landing-page": {
+    "capability_summary": "A responsive landing page template built with React, Tailwind CSS, and shadcn/ui.",
+    "problem_solved": "Rapidly scaffolding a modern, responsive website.",
+    "use_cases": [
+      "web development",
+      "landing page design"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "react starter",
+      "shadcn template"
+    ]
+  },
+  "github:arcadeai/blueprint-mcp": {
+    "capability_summary": "An MCP server that generates architecture and system diagrams from codebase analysis.",
+    "problem_solved": "Visualizing complex system architectures via LLM prompts.",
+    "use_cases": [
+      "architecture diagramming",
+      "system documentation",
+      "codebase analysis"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "MCP server",
+      "diagram generator"
+    ]
+  },
+  "github:yqnn/svg-path-editor": {
+    "capability_summary": "A browser-based editor and library for creating and manipulating SVG paths.",
+    "problem_solved": "Editing and processing SVG vector graphics.",
+    "use_cases": [
+      "vector graphics editing",
+      "svg manipulation",
+      "frontend development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "svg editor",
+      "vector tool"
+    ]
+  },
+  "github:statewright/statewright": {
+    "capability_summary": "A Rust framework that uses state machines to enforce guardrails on AI agents.",
+    "problem_solved": "Improving reliability and safety in complex AI agent workflows.",
+    "use_cases": [
+      "ai agent safety",
+      "workflow automation",
+      "state machine enforcement"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI guardrails",
+      "agent workflow engine"
+    ]
+  },
+  "github:seifrajhi/awesome-platform-engineering-tools": {
+    "capability_summary": "A curated list of tools and resources for building internal developer platforms.",
+    "problem_solved": "Discovering tools and architectures for platform engineering.",
+    "use_cases": [
+      "devops research",
+      "platform engineering",
+      "kubernetes management"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "devops resources"
+    ]
+  },
+  "github:microck/opencode-studio": {
+    "capability_summary": "A web-based GUI for managing OpenCode configurations and local AI agent settings.",
+    "problem_solved": "Simplifying the configuration of MCP servers and AI agents.",
+    "use_cases": [
+      "ai agent management",
+      "configuration management",
+      "mcp server gui"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI configuration manager",
+      "MCP dashboard"
+    ]
+  },
+  "github:sadservers/sadservers": {
+    "capability_summary": "A platform for practicing Linux and DevOps troubleshooting through real-world scenarios.",
+    "problem_solved": "Learning and testing Linux troubleshooting skills.",
+    "use_cases": [
+      "devops training",
+      "linux troubleshooting",
+      "sre interview prep"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "linux lab",
+      "devops practice"
+    ]
   }
 }
