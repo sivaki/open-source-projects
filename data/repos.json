@@ -25453,5 +25453,402 @@
       "gpu",
       "monitoring-tool"
     ]
+  },
+  {
+    "id": "github:fzn0x/watchtower",
+    "url": "https://github.com/fzn0x/watchtower",
+    "title": "fzn0x/watchtower",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084583335838327145",
+    "fetched_at": "2026-08-04T10:42:16.776618Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An AI-powered penetration testing framework that orchestrates various security CLI tools using LangGraph and LLMs to automate reconnaissance and vulnerability reporting.",
+    "category": "Security Tooling",
+    "tags": [
+      "pentesting",
+      "automation",
+      "llm",
+      "security",
+      "cli"
+    ],
+    "risk_notes": "Requires local installation of numerous security binaries (nmap, nuclei, etc.) and execution of a provided install script. It requires API keys for LLM providers and has the potential to perform network scanning and vulnerability exploitation, which requires careful handling and explicit authorization. The project is very new (created Feb 2026), so it lacks long-term maintenance history.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-02-27T13:58:54Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-04T10:42:23.151700Z",
+    "stars": 155,
+    "language": "Python",
+    "pushed_at": "2026-02-27T21:53:02Z",
+    "license": "MIT",
+    "topics": [
+      "ai-cybersecurity",
+      "automation-testing",
+      "claude",
+      "langgraph",
+      "openrouter",
+      "pentest",
+      "pentesting",
+      "red-team",
+      "security"
+    ]
+  },
+  {
+    "id": "github:leomirandaa/shadcn-landing-page",
+    "url": "https://github.com/leomirandaa/shadcn-landing-page",
+    "title": "leomirandaa/shadcn-landing-page",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084570174296834442",
+    "fetched_at": "2026-08-04T10:42:16.776971Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A clean, responsive landing page template built with React, TypeScript, Tailwind CSS, and shadcn/ui components.",
+    "category": "web-development",
+    "tags": [
+      "react",
+      "typescript",
+      "tailwindcss",
+      "shadcn-ui",
+      "web-template"
+    ],
+    "risk_notes": "Standard npm-based installation. Requires standard node_modules dependencies which should be audited for supply chain risks. No special system permissions or root access required; runs as a local development server.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2024-02-03T01:18:31Z",
+      "homepage": "https://shadcn-landing-page.vercel.app"
+    },
+    "added_at": "2026-08-04T10:42:29.317745Z",
+    "stars": 1941,
+    "language": "TypeScript",
+    "pushed_at": "2024-10-09T06:25:39Z",
+    "license": "MIT",
+    "topics": [
+      "darkmode",
+      "react",
+      "responsive-design",
+      "shadcn-ui",
+      "shadcn-ui-starter",
+      "tailwindcss",
+      "typescript"
+    ]
+  },
+  {
+    "id": "github:greedeks/gtweak",
+    "url": "https://github.com/greedeks/gtweak",
+    "title": "greedeks/gtweak",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084557516780736641",
+    "fetched_at": "2026-08-04T10:42:16.777270Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Windows optimization and debloating tool that includes features for disabling core security components and bypassing software licensing.",
+    "category": "System Utility",
+    "tags": [
+      "windows",
+      "debloat",
+      "privacy",
+      "system-optimization",
+      "automation"
+    ],
+    "risk_notes": "The tool requires execution as an administrator and explicitly performs actions like disabling Windows Defender, SmartScreen, and UAC, which significantly lowers system security. It also includes features for bypassing Windows activation (KMS/HWID), which poses legal and security risks. It is distributed as a pre-compiled binary, requiring high trust in the maintainer's build process.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2024-05-21T11:16:47Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-04T10:42:35.798261Z",
+    "stars": 1423,
+    "language": "C#",
+    "pushed_at": "2026-08-04T09:32:23Z",
+    "license": "BSD-3-Clause",
+    "topics": [
+      "activator",
+      "debloat",
+      "disable-services",
+      "disable-windows-defender",
+      "disable-windows-services",
+      "hwid",
+      "kms",
+      "monitoring-system",
+      "optimazation",
+      "registry-tweaks",
+      "system-utility",
+      "telemetry-disabling",
+      "tweaker",
+      "windows-10",
+      "windows-11",
+      "windows-debloat",
+      "windows-optimization",
+      "windows-optimization-tool",
+      "windows-optimizer",
+      "windows-tweaks"
+    ]
+  },
+  {
+    "id": "github:arcadeai/blueprint-mcp",
+    "url": "https://github.com/arcadeai/blueprint-mcp",
+    "title": "arcadeai/blueprint-mcp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084545362191073702",
+    "fetched_at": "2026-08-04T10:42:16.777572Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An MCP (Model Context Protocol) server that integrates with the Arcade ecosystem to generate architecture and system diagrams directly from codebase analysis or documentation via LLM prompts.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "diagrams",
+      "llm",
+      "automation",
+      "architecture"
+    ],
+    "risk_notes": "Requires installation via pip and dependency on the proprietary Arcade.dev platform. It necessitates storing third-party API keys (Google AI Studio) within the Arcade secret management system. The tool requires network access to the Arcade gateway and the Nano Banana Pro service to process and generate diagrams.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2025-11-22T23:03:10Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-04T10:42:42.338847Z",
+    "stars": 622,
+    "language": "Python",
+    "pushed_at": "2026-07-22T00:15:35Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:yqnn/svg-path-editor",
+    "url": "https://github.com/yqnn/svg-path-editor",
+    "title": "yqnn/svg-path-editor",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084533456919228569",
+    "fetched_at": "2026-08-04T10:42:16.777859Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A browser-based editor for creating and manipulating SVG paths, also available as a standalone npm library for programmatic SVG processing.",
+    "category": "Developer Tools",
+    "tags": [
+      "svg",
+      "graphics",
+      "web-tool",
+      "typescript",
+      "frontend"
+    ],
+    "risk_notes": "This is a client-side web application that runs entirely in the browser. It can be hosted locally via npm/Node.js or used via the provided GitHub Pages link. It requires no special system permissions, network access, or secrets, making it very safe to use.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 27,
+      "created_at": "2020-05-02T21:18:17Z",
+      "homepage": "https://yqnn.github.io/svg-path-editor/"
+    },
+    "added_at": "2026-08-04T10:42:48.755208Z",
+    "stars": 5253,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-18T20:41:54Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "svg",
+      "svg-editor",
+      "svg-parser",
+      "svg-path"
+    ]
+  },
+  {
+    "id": "github:hengruiyun/ai-stock-master",
+    "url": "https://github.com/hengruiyun/ai-stock-master",
+    "title": "hengruiyun/ai-stock-master",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084522058881384942",
+    "fetched_at": "2026-08-04T10:42:16.778167Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "An AI-driven stock trend analysis platform that integrates multi-dimensional market data with LLM-based interpretation and proprietary momentum algorithms.",
+    "category": "Finance/AI",
+    "tags": [
+      "ai",
+      "finance",
+      "llm",
+      "stock-analysis",
+      "automation"
+    ],
+    "risk_notes": "Requires Python environment and likely external financial data API keys. Integration with 'Mini Ollama' suggests local LLM execution, which is privacy-friendly but resource-intensive. Users should audit the codebase for data handling practices, as financial analysis tools often require sensitive personal or account-related data if connected to brokerage APIs.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2025-06-23T22:56:46Z",
+      "homepage": "https://ttfox.com"
+    },
+    "added_at": "2026-08-04T10:42:55.433113Z",
+    "stars": 346,
+    "language": "Python",
+    "pushed_at": "2026-08-04T05:24:40Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai",
+      "analysis",
+      "finance",
+      "fund",
+      "llm",
+      "stocks"
+    ]
+  },
+  {
+    "id": "github:statewright/statewright",
+    "url": "https://github.com/statewright/statewright",
+    "title": "statewright/statewright",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084511054877380691",
+    "fetched_at": "2026-08-04T10:42:16.778461Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A Rust-based framework that enforces state machine guardrails on AI agents to restrict tool access and improve reasoning reliability during complex tasks.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "rust",
+      "mcp",
+      "automation",
+      "workflow-engine"
+    ],
+    "risk_notes": "Requires an API key from statewright.ai for the plugin marketplace. The tool integrates with local coding agents (Claude Code, Cursor, etc.) and has the capability to execute shell commands and file edits based on the defined state machine logic. It requires local installation of the Rust binary and potentially Ollama for local model execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-05-03T16:27:38Z",
+      "homepage": "https://statewright.ai"
+    },
+    "added_at": "2026-08-04T10:43:02.059965Z",
+    "stars": 429,
+    "language": "Rust",
+    "pushed_at": "2026-07-23T03:10:57Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:seifrajhi/awesome-platform-engineering-tools",
+    "url": "https://github.com/seifrajhi/awesome-platform-engineering-tools",
+    "title": "seifrajhi/awesome-platform-engineering-tools",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084500158188773411",
+    "fetched_at": "2026-08-04T10:42:16.778754Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, well-maintained curated list of tools, resources, and reference architectures for building internal developer platforms (IDP) and platform engineering workflows.",
+    "category": "DevOps Resources",
+    "tags": [
+      "devops",
+      "platform-engineering",
+      "kubernetes",
+      "sre",
+      "automation"
+    ],
+    "risk_notes": "This is a documentation-only repository (a curated list). There is no code to execute, so there are no installation risks, security permissions, or network access requirements associated with the repo itself.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 27,
+      "created_at": "2023-12-02T21:55:33Z",
+      "homepage": "https://seifrajhi.github.io/awesome-platform-engineering-tools/"
+    },
+    "added_at": "2026-08-04T10:43:08.523000Z",
+    "stars": 652,
+    "language": "HTML",
+    "pushed_at": "2025-01-07T20:29:30Z",
+    "license": "MIT",
+    "topics": [
+      "devops",
+      "internal-developer-platform",
+      "internal-developer-portal",
+      "kubernetes",
+      "platform-engineering",
+      "sre"
+    ]
+  },
+  {
+    "id": "github:microck/opencode-studio",
+    "url": "https://github.com/microck/opencode-studio",
+    "title": "microck/opencode-studio",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084489761515860130",
+    "fetched_at": "2026-08-04T10:42:16.779049Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A web-based GUI for managing OpenCode configurations, MCP servers, and local AI agent settings, providing a visual alternative to manual JSON editing.",
+    "category": "developer-tools",
+    "tags": [
+      "mcp",
+      "ai-tooling",
+      "gui",
+      "developer-tools",
+      "automation"
+    ],
+    "risk_notes": "Installs via npm global package or shell scripts. The tool requires read/write access to your local ~/.config/opencode/ directory and executes arbitrary commands (e.g., npx for MCP servers), which poses a security risk if you import untrusted configurations or plugins. It runs a local Express server on port 1080+.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-12-29T21:59:28Z",
+      "homepage": "https://opencode-studio.micr.dev"
+    },
+    "added_at": "2026-08-04T10:43:14.995477Z",
+    "stars": 701,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-22T21:30:17Z",
+    "license": null,
+    "topics": [
+      "cli-tools",
+      "configuration-manager",
+      "desktop-app",
+      "developer-tools",
+      "gui",
+      "mcp",
+      "model-context-protocol",
+      "nextjs",
+      "opencode",
+      "react"
+    ]
+  },
+  {
+    "id": "github:sadservers/sadservers",
+    "url": "https://github.com/sadservers/sadservers",
+    "title": "sadservers/sadservers",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084479519377740113",
+    "fetched_at": "2026-08-04T10:42:16.779375Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "SadServers is a platform for practicing Linux and DevOps troubleshooting skills through real-world, ephemeral server scenarios in a CTF-style environment.",
+    "category": "DevOps Training",
+    "tags": [
+      "linux",
+      "devops",
+      "troubleshooting",
+      "sre",
+      "education"
+    ],
+    "risk_notes": "This is a SaaS platform accessed via browser; there is no local installation required. It uses ephemeral VMs for scenarios, which are isolated from the internet and destroyed after use, minimizing security risks to the user.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2022-08-06T22:52:27Z",
+      "homepage": "https://sadservers.com"
+    },
+    "added_at": "2026-08-04T10:43:21.387740Z",
+    "stars": 2879,
+    "language": "HCL",
+    "pushed_at": "2026-06-26T22:34:58Z",
+    "license": null,
+    "topics": [
+      "devops",
+      "interview-practice",
+      "interview-preparation",
+      "interview-test",
+      "linux",
+      "sre-infra",
+      "troubleshooting"
+    ]
   }
 ]
