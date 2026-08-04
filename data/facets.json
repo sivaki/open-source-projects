@@ -22825,5 +22825,115 @@
       "linux lab",
       "devops practice"
     ]
+  },
+  "github:resciencelab/opc-skills": {
+    "capability_summary": "A library of modular skills to extend AI coding agents like Claude Code for solopreneur workflows.",
+    "problem_solved": "Extending AI agent capabilities for specific business and development tasks.",
+    "use_cases": [
+      "ai-agent automation",
+      "solopreneur workflows",
+      "seo automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skills",
+      "ai-agent-tools"
+    ]
+  },
+  "github:k2sosint/legendary_osint": {
+    "capability_summary": "A curated directory of tools and resources for open-source intelligence and cyber threat investigation.",
+    "problem_solved": "Finding reliable tools for security research and digital investigations.",
+    "use_cases": [
+      "cyber threat intelligence",
+      "maritime tracking",
+      "ai-assisted investigation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint-tools-list",
+      "security-recon-resources"
+    ]
+  },
+  "github:ancoleman/ai-design-components": {
+    "capability_summary": "A collection of specialized plugins for the Claude Code CLI to assist with full-stack and DevOps tasks.",
+    "problem_solved": "Adding domain-specific expertise to AI coding agents.",
+    "use_cases": [
+      "full-stack development",
+      "devops automation",
+      "ai-assisted coding"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-skills",
+      "ai-development-tools"
+    ]
+  },
+  "github:mobilefirstllc/social-media-hacker-list": {
+    "capability_summary": "A curated list of open-source tools, SDKs, and clients for interacting with social media platforms.",
+    "problem_solved": "Finding open-source alternatives and automation tools for social media.",
+    "use_cases": [
+      "social media automation",
+      "api integration",
+      "alternative clients"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "social-media-tools",
+      "api-resources"
+    ]
+  },
+  "github:sharp-ml/sharp-ml": {
+    "capability_summary": "A web application that converts 2D images into 3D Gaussian splats using serverless GPU processing.",
+    "problem_solved": "Generating interactive 3D models from 2D images.",
+    "use_cases": [
+      "3d rendering",
+      "gaussian splatting",
+      "image-to-3d"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "3d-gaussian-splatting",
+      "image-to-3d-converter"
+    ]
+  },
+  "github:unixshells/clone": {
+    "capability_summary": "A high-performance KVM-based virtual machine monitor that enables near-instant VM forking.",
+    "problem_solved": "Achieving container-like startup speeds with hardware-level virtualization security.",
+    "use_cases": [
+      "virtualization",
+      "homelab infrastructure",
+      "serverless computing"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vmm",
+      "kvm-virtualization"
+    ]
   }
 }
