@@ -22379,5 +22379,306 @@
       "robotics kit",
       "robot dog framework"
     ]
+  },
+  "github:jitsucom/jitsu": {
+    "capability_summary": "An open-source data pipeline platform for collecting, transforming, and syncing event data. It is designed for data engineers and analytics teams.",
+    "problem_solved": "Need a self-hosted alternative to Segment for event streaming.",
+    "use_cases": [
+      "real-time analytics",
+      "event data collection",
+      "data pipeline management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Segment alternative"
+    ]
+  },
+  "github:pimalaya/himalaya": {
+    "capability_summary": "A modular CLI tool for managing email accounts through various protocols. It is built for power users who prefer terminal-based workflows.",
+    "problem_solved": "Need to manage emails directly from the terminal.",
+    "use_cases": [
+      "email management",
+      "cli automation",
+      "imap client"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "terminal email client"
+    ]
+  },
+  "github:adrienpoupa/docker-compose-nas": {
+    "capability_summary": "A collection of Docker Compose templates for setting up a self-hosted media server. It is intended for home lab enthusiasts.",
+    "problem_solved": "Need a pre-configured stack for media management and VPN-protected torrenting.",
+    "use_cases": [
+      "media server",
+      "homelab automation",
+      "vpn routing"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "media server stack"
+    ]
+  },
+  "github:soxoj/awesome-osint-mcp-servers": {
+    "capability_summary": "A curated list of Model Context Protocol (MCP) servers for OSINT and security reconnaissance. It is for developers building AI-powered intelligence tools.",
+    "problem_solved": "Need to integrate OSINT tools with AI agents.",
+    "use_cases": [
+      "osint research",
+      "network reconnaissance",
+      "ai tool integration"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-mcp"
+    ]
+  },
+  "github:onlyoffice/desktopeditors": {
+    "capability_summary": "A privacy-focused, open-source office suite compatible with Microsoft Office formats. It is designed for individual users and collaborative teams.",
+    "problem_solved": "Need a free, privacy-conscious alternative to Microsoft Office.",
+    "use_cases": [
+      "document editing",
+      "spreadsheet management",
+      "presentation creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "office suite"
+    ]
+  },
+  "github:andygmassey/telephone-and-conversation-transcriber": {
+    "capability_summary": "A Raspberry Pi-based appliance that provides real-time speech-to-text for phone calls and room audio. It is built for accessibility.",
+    "problem_solved": "Need real-time transcription for accessibility.",
+    "use_cases": [
+      "speech-to-text",
+      "accessibility tool",
+      "call transcription"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "transcription appliance"
+    ]
+  },
+  "github:dangjin/awesome-social-media-downloader": {
+    "capability_summary": "A curated list of CLI utilities for downloading media from social platforms. It is for users needing to archive online content.",
+    "problem_solved": "Need to download videos from various social media sites.",
+    "use_cases": [
+      "video downloading",
+      "media archiving"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "video downloader list"
+    ]
+  },
+  "github:need4swede/portall": {
+    "capability_summary": "A web-based dashboard for managing and tracking port assignments in a homelab. It is for system administrators managing multiple services.",
+    "problem_solved": "Need to organize and track port usage across multiple servers.",
+    "use_cases": [
+      "homelab management",
+      "port tracking",
+      "dashboard"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "port manager"
+    ]
+  },
+  "github:7ritn/vaultls": {
+    "capability_summary": "A self-hosted web application for managing mTLS and SSH certificates. It is designed for secure home lab environments.",
+    "problem_solved": "Need a simple UI for managing mTLS and SSH certificates.",
+    "use_cases": [
+      "certificate management",
+      "mtls setup",
+      "ssh security"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "certificate manager"
+    ]
+  },
+  "github:madd86/awesome-system-design": {
+    "capability_summary": "A curated collection of resources for learning distributed systems and architectural patterns. It is for software engineers preparing for interviews or design tasks.",
+    "problem_solved": "Need to learn system design and distributed architecture.",
+    "use_cases": [
+      "interview preparation",
+      "system architecture learning"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "system design resources"
+    ]
+  },
+  "github:commando-x/vuln-bank": {
+    "capability_summary": "A deliberately vulnerable banking application for practicing security testing across web, API, and LLM systems.",
+    "problem_solved": "Need a safe environment to practice penetration testing and secure coding.",
+    "use_cases": [
+      "penetration testing",
+      "security training",
+      "vulnerability assessment",
+      "LLM security testing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vulnerable-app",
+      "security-lab"
+    ]
+  },
+  "github:coszone/moepeek": {
+    "capability_summary": "A native macOS menu bar tool for on-device translation and OCR using Apple's engine and LLMs.",
+    "problem_solved": "Need to translate text or extract text from images on macOS quickly.",
+    "use_cases": [
+      "screen translation",
+      "OCR",
+      "text extraction"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mac-translator",
+      "ocr-tool"
+    ]
+  },
+  "github:database64128/youtube-dl-wpf": {
+    "capability_summary": "A WPF-based graphical interface for managing video downloads using yt-dlp.",
+    "problem_solved": "Need a user-friendly GUI for downloading videos instead of using the command line.",
+    "use_cases": [
+      "video downloading",
+      "playlist management",
+      "metadata extraction"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "yt-dlp-gui",
+      "video-downloader"
+    ]
+  },
+  "github:shuffle/shuffle": {
+    "capability_summary": "An open-source SOAR platform for automating security workflows via a visual editor.",
+    "problem_solved": "Need to automate complex security operations and incident response workflows.",
+    "use_cases": [
+      "security orchestration",
+      "incident response automation",
+      "workflow management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "soar",
+      "security-automation"
+    ]
+  },
+  "github:dbish/dispatchmail": {
+    "capability_summary": "A self-hosted AI email assistant that processes and drafts responses using OpenAI.",
+    "problem_solved": "Need to automate email management and drafting using AI.",
+    "use_cases": [
+      "email automation",
+      "AI assistant",
+      "inbox management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-email-agent",
+      "email-automation"
+    ]
+  },
+  "github:lablup/all-smi": {
+    "capability_summary": "A terminal-based utility for monitoring GPU and NPU hardware across various vendors.",
+    "problem_solved": "Need to monitor GPU/NPU utilization and health across different hardware platforms.",
+    "use_cases": [
+      "gpu monitoring",
+      "cluster observability",
+      "hardware diagnostics"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "nvidia-smi-alternative",
+      "gpu-monitor"
+    ]
   }
 }
