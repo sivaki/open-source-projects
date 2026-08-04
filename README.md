@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 577 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 583 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [unixshells/clone](https://github.com/unixshells/clone) ⭐ | Virtualization / Infrastructure | `rust` `kvm` `virtualization` `security` `homelab` `serverless` | A high-performance, KVM-based VMM written in Rust that uses 'Shadow Clone' page mapping to fork isolated VMs in milliseconds, offering container-like density with hardware-level security. | 368 | 2026-08-04 |
+| [sharp-ml/sharp-ml](https://github.com/sharp-ml/sharp-ml) ⭐ | AI/LLM Tooling | `ai` `gaussian-splatting` `nextjs` `modal` `3d-rendering` | A full-stack web application that leverages Apple's SHARP model via Modal serverless GPUs to convert 2D images into interactive 3D Gaussian splats. | 128 | 2026-08-04 |
+| [mobilefirstllc/social-media-hacker-list](https://github.com/mobilefirstllc/social-media-hacker-list) ⭐ | Curated List | `automation` `social-media` `api` `tools` `developer-resources` | A curated, actively maintained list of open-source tools, SDKs, and alternative clients for various social media platforms. | 2000 | 2026-08-04 |
+| [ancoleman/ai-design-components](https://github.com/ancoleman/ai-design-components) ⭐ | AI/LLM Tooling | `claude` `cli` `automation` `devops` `ai-assisted-development` | A comprehensive collection of 76 specialized skills and plugins for the Claude Code CLI, designed to provide domain-specific expertise for full-stack, DevOps, and AI/ML development workflows. | 404 | 2026-08-04 |
+| [k2sosint/legendary_osint](https://github.com/k2sosint/legendary_osint) ⭐ | Security & OSINT | `osint` `cti` `security` `recon` `investigation` | A comprehensive, well-organized curated list of OSINT tools and resources covering diverse domains from CTI and maritime tracking to AI-assisted investigation. | 936 | 2026-08-04 |
+| [resciencelab/opc-skills](https://github.com/resciencelab/opc-skills) ⭐ | AI Agent Tooling | `ai-agents` `automation` `claude-code` `developer-tools` `solopreneur` | A collection of modular, reusable skills designed to extend the capabilities of AI coding agents like Claude Code and Cursor for solopreneur tasks. | 1195 | 2026-08-04 |
 | [sadservers/sadservers](https://github.com/sadservers/sadservers) ⭐ | DevOps Training | `linux` `devops` `troubleshooting` `sre` `education` | SadServers is a platform for practicing Linux and DevOps troubleshooting skills through real-world, ephemeral server scenarios in a CTF-style environment. | 2879 | 2026-08-04 |
 | [microck/opencode-studio](https://github.com/microck/opencode-studio) ⭐ | developer-tools | `mcp` `ai-tooling` `gui` `developer-tools` `automation` | A web-based GUI for managing OpenCode configurations, MCP servers, and local AI agent settings, providing a visual alternative to manual JSON editing. | 701 | 2026-08-04 |
 | [seifrajhi/awesome-platform-engineering-tools](https://github.com/seifrajhi/awesome-platform-engineering-tools) ⭐ | DevOps Resources | `devops` `platform-engineering` `kubernetes` `sre` `automation` | A comprehensive, well-maintained curated list of tools, resources, and reference architectures for building internal developer platforms (IDP) and platform engineering workflows. | 652 | 2026-08-04 |
