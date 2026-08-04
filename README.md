@@ -1,11 +1,20 @@
 # Curated Repos
 
-Auto-generated list of 568 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 577 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [sadservers/sadservers](https://github.com/sadservers/sadservers) ⭐ | DevOps Training | `linux` `devops` `troubleshooting` `sre` `education` | SadServers is a platform for practicing Linux and DevOps troubleshooting skills through real-world, ephemeral server scenarios in a CTF-style environment. | 2879 | 2026-08-04 |
+| [microck/opencode-studio](https://github.com/microck/opencode-studio) ⭐ | developer-tools | `mcp` `ai-tooling` `gui` `developer-tools` `automation` | A web-based GUI for managing OpenCode configurations, MCP servers, and local AI agent settings, providing a visual alternative to manual JSON editing. | 701 | 2026-08-04 |
+| [seifrajhi/awesome-platform-engineering-tools](https://github.com/seifrajhi/awesome-platform-engineering-tools) ⭐ | DevOps Resources | `devops` `platform-engineering` `kubernetes` `sre` `automation` | A comprehensive, well-maintained curated list of tools, resources, and reference architectures for building internal developer platforms (IDP) and platform engineering workflows. | 652 | 2026-08-04 |
+| [statewright/statewright](https://github.com/statewright/statewright) ⭐ | AI/LLM Tooling | `ai-agents` `rust` `mcp` `automation` `workflow-engine` | A Rust-based framework that enforces state machine guardrails on AI agents to restrict tool access and improve reasoning reliability during complex tasks. | 429 | 2026-08-04 |
+| [hengruiyun/ai-stock-master](https://github.com/hengruiyun/ai-stock-master) | Finance/AI | `ai` `finance` `llm` `stock-analysis` `automation` | An AI-driven stock trend analysis platform that integrates multi-dimensional market data with LLM-based interpretation and proprietary momentum algorithms. | 346 | 2026-08-04 |
+| [yqnn/svg-path-editor](https://github.com/yqnn/svg-path-editor) ⭐ | Developer Tools | `svg` `graphics` `web-tool` `typescript` `frontend` | A browser-based editor for creating and manipulating SVG paths, also available as a standalone npm library for programmatic SVG processing. | 5253 | 2026-08-04 |
+| [arcadeai/blueprint-mcp](https://github.com/arcadeai/blueprint-mcp) ⭐ | AI/LLM Tooling | `mcp` `diagrams` `llm` `automation` `architecture` | An MCP (Model Context Protocol) server that integrates with the Arcade ecosystem to generate architecture and system diagrams directly from codebase analysis or documentation via LLM prompts. | 622 | 2026-08-04 |
+| [leomirandaa/shadcn-landing-page](https://github.com/leomirandaa/shadcn-landing-page) ⭐ | web-development | `react` `typescript` `tailwindcss` `shadcn-ui` `web-template` | A clean, responsive landing page template built with React, TypeScript, Tailwind CSS, and shadcn/ui components. | 1941 | 2026-08-04 |
+| [fzn0x/watchtower](https://github.com/fzn0x/watchtower) ⭐ | Security Tooling | `pentesting` `automation` `llm` `security` `cli` | An AI-powered penetration testing framework that orchestrates various security CLI tools using LangGraph and LLMs to automate reconnaissance and vulnerability reporting. | 155 | 2026-08-04 |
 | [lablup/all-smi](https://github.com/lablup/all-smi) ⭐ | Developer Tools | `gpu` `monitoring` `cli` `rust` `homelab` `observability` | A cross-platform, terminal-based GPU/NPU monitoring utility that supports a wide range of hardware including NVIDIA, AMD, Apple Silicon, and various NPUs, with remote monitoring and Prometheus integration. | 219 | 2026-08-04 |
 | [dbish/dispatchmail](https://github.com/dbish/dispatchmail) ⭐ | AI/LLM Tooling | `ai-agents` `email` `self-hosted` `automation` `sqlite` | An AI-powered, self-hosted email assistant that uses OpenAI to process, label, and draft responses for your inbox via a local web interface. | 107 | 2026-08-04 |
 | [shuffle/shuffle](https://github.com/shuffle/shuffle) ⭐ | Security Automation | `soar` `automation` `cybersecurity` `orchestration` `workflow` `devops` | Shuffle is an open-source SOAR (Security Orchestration, Automation, and Response) platform designed to streamline security workflows through a visual editor and extensive integration library. | 2372 | 2026-08-04 |
