@@ -23047,5 +23047,81 @@
     "aliases": [
       "ai-agent-orchestrator"
     ]
+  },
+  "github:kem-a/appmanager": {
+    "capability_summary": "A desktop utility for managing AppImage installations on Linux with drag-and-drop support and automatic updates. It is designed for Linux desktop users.",
+    "problem_solved": "Simplifies the installation and maintenance of AppImage applications on Linux.",
+    "use_cases": [
+      "AppImage management",
+      "Linux desktop automation",
+      "portable software updates"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AppImage manager",
+      "Linux package manager"
+    ]
+  },
+  "github:sohamw03/wifui": {
+    "capability_summary": "A keyboard-driven terminal user interface for managing Wi-Fi connections on Windows. It is built for power users who prefer CLI tools.",
+    "problem_solved": "Provides a faster, keyboard-centric way to manage Wi-Fi networks on Windows.",
+    "use_cases": [
+      "Wi-Fi network management",
+      "terminal-based networking",
+      "Windows network configuration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "TUI Wi-Fi manager",
+      "Rust network tool"
+    ]
+  },
+  "github:angeloavv/macrecoveryx": {
+    "capability_summary": "A Flutter-based utility for downloading genuine macOS recovery images. It is intended for system administrators and users performing system restores.",
+    "problem_solved": "Automates the retrieval of official macOS recovery media for system restoration.",
+    "use_cases": [
+      "macOS system recovery",
+      "OS image downloading",
+      "system administration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "macOS recovery downloader",
+      "system restore utility"
+    ]
+  },
+  "github:probberechts/soccerdata": {
+    "capability_summary": "A Python library that scrapes and normalizes soccer statistics from various analytics websites into Pandas DataFrames. It is designed for data scientists and sports analysts.",
+    "problem_solved": "Standardizes fragmented soccer data from multiple web sources into a usable format.",
+    "use_cases": [
+      "sports analytics",
+      "data scraping",
+      "soccer data engineering"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "soccer scraper",
+      "sports data pipeline"
+    ]
   }
 }
