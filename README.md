@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 583 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 589 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [joelhooks/opencode-config](https://github.com/joelhooks/opencode-config) ⭐ | AI/LLM Tooling | `ai` `multi-agent` `automation` `llm` `developer-tools` | A sophisticated configuration for OpenCode that enables multi-agent orchestration, allowing AI agents to decompose tasks, execute parallel workers, and learn from outcomes. | 406 | 2026-08-05 |
+| [hkuds/auto-deep-research](https://github.com/hkuds/auto-deep-research) ⭐ | AI/LLM Tooling | `ai` `llm` `automation` `research` `agent` | An open-source, cost-efficient alternative to OpenAI's Deep Research, built on the AutoAgent framework to provide automated research capabilities using various LLM backends. | 1619 | 2026-08-05 |
+| [trooped/quickbars](https://github.com/trooped/quickbars) ⭐ | Home Automation | `home-assistant` `android-tv` `iot` `automation` `kotlin` | QuickBars is an Android TV application that provides a customizable overlay for controlling Home Assistant entities directly from your TV remote. | 369 | 2026-08-05 |
+| [goposta/posta](https://github.com/goposta/posta) ⭐ | Self-hosting | `email` `self-hosted` `automation` `api` `go` `devops` | A comprehensive, self-hosted email delivery and inbound platform written in Go, designed as a feature-rich alternative to services like SendGrid or Mailgun. | 98 | 2026-08-05 |
+| [asset-group/5ghoul-5g-nr-attacks](https://github.com/asset-group/5ghoul-5g-nr-attacks) ⭐ | security tooling | `5g` `security` `fuzzing` `sdr` `telecom` | A specialized security research framework for testing 5G NR baseband vulnerabilities in Qualcomm and MediaTek modems using software-defined radio (SDR). | 677 | 2026-08-05 |
+| [sapireli/airprint_bridge](https://github.com/sapireli/airprint_bridge) ⭐ | Developer tools | `macos` `automation` `printing` `utility` `homelab` | A utility that enables AirPrint functionality on macOS for legacy printers by leveraging native system tools and launchd services. | 608 | 2026-08-05 |
 | [unixshells/clone](https://github.com/unixshells/clone) ⭐ | Virtualization / Infrastructure | `rust` `kvm` `virtualization` `security` `homelab` `serverless` | A high-performance, KVM-based VMM written in Rust that uses 'Shadow Clone' page mapping to fork isolated VMs in milliseconds, offering container-like density with hardware-level security. | 368 | 2026-08-04 |
 | [sharp-ml/sharp-ml](https://github.com/sharp-ml/sharp-ml) ⭐ | AI/LLM Tooling | `ai` `gaussian-splatting` `nextjs` `modal` `3d-rendering` | A full-stack web application that leverages Apple's SHARP model via Modal serverless GPUs to convert 2D images into interactive 3D Gaussian splats. | 128 | 2026-08-04 |
 | [mobilefirstllc/social-media-hacker-list](https://github.com/mobilefirstllc/social-media-hacker-list) ⭐ | Curated List | `automation` `social-media` `api` `tools` `developer-resources` | A curated, actively maintained list of open-source tools, SDKs, and alternative clients for various social media platforms. | 2000 | 2026-08-04 |
