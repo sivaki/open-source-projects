@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 593 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 596 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [waydabber/betterdisplay](https://github.com/waydabber/betterdisplay) ⭐ | macOS Utilities | `macos` `display` `hidpi` `ddc` `productivity` | A powerful macOS utility for advanced display management, including HiDPI scaling, DDC hardware control, virtual screen creation, and HDR brightness adjustment. | 32988 | 2026-08-05 |
+| [world-grow/worldgrow](https://github.com/world-grow/worldgrow) ⭐ | AI/LLM Tooling | `generative-ai` `3d-modeling` `computer-vision` `research` `simulation` | WorldGrow is a generative AI framework for creating infinite, walkable 3D environments using block-wise synthesis and hierarchical refinement. | 470 | 2026-08-05 |
+| [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) ⭐ | AI/LLM Tooling | `mcp` `freecad` `cad` `automation` `claude` | A Model Context Protocol (MCP) server that enables Claude Desktop to control FreeCAD, allowing for AI-assisted CAD design, object manipulation, and automated FEM analysis. | 1629 | 2026-08-05 |
 | [probberechts/soccerdata](https://github.com/probberechts/soccerdata) ⭐ | data pipelines | `python` `scraping` `sports-analytics` `pandas` `data-engineering` | A Python library that provides a unified interface to scrape and normalize soccer data from multiple popular sports analytics websites into Pandas DataFrames. | 1953 | 2026-08-05 |
 | [angeloavv/macrecoveryx](https://github.com/angeloavv/macrecoveryx) ⭐ | system-utilities | `macos` `recovery` `flutter` `system-admin` `utility` | A cross-platform utility built in Flutter/Dart designed to download genuine macOS recovery images for system restoration. | 139 | 2026-08-05 |
 | [sohamw03/wifui](https://github.com/sohamw03/wifui) ⭐ | Developer Tools | `windows` `tui` `rust` `wifi` `cli` | A keyboard-driven TUI for managing Wi-Fi connections on Windows, built in Rust using the ratatui library. | 118 | 2026-08-05 |
