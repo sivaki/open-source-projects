@@ -23123,5 +23123,63 @@
       "soccer scraper",
       "sports data pipeline"
     ]
+  },
+  "github:neka-nat/freecad-mcp": {
+    "capability_summary": "An MCP server that allows Claude Desktop to interact with and control FreeCAD for automated design tasks. Designed for engineers and designers using AI-assisted workflows.",
+    "problem_solved": "Automating CAD design and analysis tasks via LLM prompts.",
+    "use_cases": [
+      "AI-assisted CAD design",
+      "automated FEM analysis",
+      "programmatic object manipulation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude FreeCAD integration",
+      "MCP server"
+    ]
+  },
+  "github:world-grow/worldgrow": {
+    "capability_summary": "A generative AI framework for synthesizing infinite, walkable 3D environments. It uses block-wise generation and hierarchical refinement for large-scale world building.",
+    "problem_solved": "Generating large-scale, consistent 3D environments automatically.",
+    "use_cases": [
+      "procedural world generation",
+      "3D environment synthesis",
+      "AI research"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "generative 3D modeling",
+      "procedural generation"
+    ]
+  },
+  "github:waydabber/betterdisplay": {
+    "capability_summary": "A comprehensive display management utility for macOS that provides advanced control over resolution, scaling, brightness, and virtual screen configurations.",
+    "problem_solved": "Lack of granular control over external displays and HiDPI scaling on macOS.",
+    "use_cases": [
+      "HiDPI scaling",
+      "DDC hardware control",
+      "virtual screen creation",
+      "HDR brightness adjustment"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "BetterDummy",
+      "macOS display manager"
+    ]
   }
 }
