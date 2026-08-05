@@ -26345,5 +26345,169 @@
     "pushed_at": "2026-01-26T18:17:02Z",
     "license": null,
     "topics": []
+  },
+  {
+    "id": "github:kem-a/appmanager",
+    "url": "https://github.com/kem-a/appmanager",
+    "title": "kem-a/appmanager",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084934320662204532",
+    "fetched_at": "2026-08-05T10:38:26.660937Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A GTK/Libadwaita desktop utility for managing AppImage installations on Linux, featuring drag-and-drop installation, automatic updates, and isolated portable modes.",
+    "category": "Desktop Utilities",
+    "tags": [
+      "linux",
+      "appimage",
+      "desktop",
+      "automation",
+      "gnome"
+    ],
+    "risk_notes": "The application is distributed as an AppImage, which is generally safer than script-based installers. It requires access to the user's home directory to manage files and desktop entries. It optionally uses the system keyring (libsecret) to store GitHub tokens for API rate limiting, which is a secure practice. It is actively maintained and does not require root privileges for standard operation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2025-11-20T08:29:24Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-05T10:38:33.003927Z",
+    "stars": 1268,
+    "language": "Vala",
+    "pushed_at": "2026-07-29T07:37:53Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "anylinux",
+      "appimage",
+      "applications",
+      "appmanager",
+      "gnome",
+      "gtk",
+      "kde",
+      "linux",
+      "vala"
+    ]
+  },
+  {
+    "id": "github:sohamw03/wifui",
+    "url": "https://github.com/sohamw03/wifui",
+    "title": "sohamw03/wifui",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084901260885364994",
+    "fetched_at": "2026-08-05T10:38:26.661096Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A keyboard-driven TUI for managing Wi-Fi connections on Windows, built in Rust using the ratatui library.",
+    "category": "Developer Tools",
+    "tags": [
+      "windows",
+      "tui",
+      "rust",
+      "wifi",
+      "cli"
+    ],
+    "risk_notes": "Installs via standard package managers (winget, scoop, choco) or cargo. Requires administrative privileges to manage network interfaces on Windows. The project is actively maintained and open source, but as a network utility, it interacts with system-level Wi-Fi APIs.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-12-12T20:24:31Z",
+      "homepage": "https://sohamw03.github.io/wifui/"
+    },
+    "added_at": "2026-08-05T10:38:39.336658Z",
+    "stars": 118,
+    "language": "Rust",
+    "pushed_at": "2026-03-11T18:12:08Z",
+    "license": "MIT",
+    "topics": [
+      "cli",
+      "command-line-tool",
+      "network",
+      "network-manager",
+      "ratatui",
+      "rust",
+      "terminal",
+      "tui",
+      "wifi",
+      "windows",
+      "winget",
+      "wireless"
+    ]
+  },
+  {
+    "id": "github:angeloavv/macrecoveryx",
+    "url": "https://github.com/angeloavv/macrecoveryx",
+    "title": "angeloavv/macrecoveryx",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084870957668192685",
+    "fetched_at": "2026-08-05T10:38:26.661215Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A cross-platform utility built in Flutter/Dart designed to download genuine macOS recovery images for system restoration.",
+    "category": "system-utilities",
+    "tags": [
+      "macos",
+      "recovery",
+      "flutter",
+      "system-admin",
+      "utility"
+    ],
+    "risk_notes": "Distributed as pre-compiled binaries for Windows, Linux, and macOS. Requires network access to Apple's servers to fetch recovery images and filesystem access to save the downloaded files. As a binary download, users should verify the source; no specific elevated permissions are requested, but it interacts with system-level recovery media.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2022-02-07T14:05:55Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-05T10:38:45.632309Z",
+    "stars": 139,
+    "language": "Dart",
+    "pushed_at": "2026-07-24T05:56:44Z",
+    "license": "GPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:probberechts/soccerdata",
+    "url": "https://github.com/probberechts/soccerdata",
+    "title": "probberechts/soccerdata",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084842933878940007",
+    "fetched_at": "2026-08-05T10:38:26.661343Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Python library that provides a unified interface to scrape and normalize soccer data from multiple popular sports analytics websites into Pandas DataFrames.",
+    "category": "data pipelines",
+    "tags": [
+      "python",
+      "scraping",
+      "sports-analytics",
+      "pandas",
+      "data-engineering"
+    ],
+    "risk_notes": "Installed via pip. The tool performs web scraping, which carries a risk of breaking if target websites change their structure. It requires network access to fetch data and writes to the local filesystem for caching. Users must be aware of the Terms of Service for the various data sources to avoid IP bans.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 29,
+      "created_at": "2022-02-03T15:07:14Z",
+      "homepage": "https://soccerdata.readthedocs.io/en/latest/"
+    },
+    "added_at": "2026-08-05T10:38:52.074713Z",
+    "stars": 1953,
+    "language": "Python",
+    "pushed_at": "2026-08-05T10:26:00Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "elo-rating",
+      "espn",
+      "fbref",
+      "fivethirtyeight",
+      "soccer",
+      "soccer-analytics",
+      "soccer-data",
+      "sofascore",
+      "sofifa",
+      "sports-data",
+      "understat",
+      "whoscored"
+    ]
   }
 ]
