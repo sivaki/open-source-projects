@@ -22935,5 +22935,117 @@
       "vmm",
       "kvm-virtualization"
     ]
+  },
+  "github:sapireli/airprint_bridge": {
+    "capability_summary": "Enables AirPrint support for legacy printers on macOS using native system tools. Designed for users needing to bridge older hardware with modern Apple devices.",
+    "problem_solved": "Legacy printers lack native AirPrint support on macOS.",
+    "use_cases": [
+      "legacy printer support",
+      "macos automation",
+      "homelab printing"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cups-bridge",
+      "bonjour-printer-utility"
+    ]
+  },
+  "github:asset-group/5ghoul-5g-nr-attacks": {
+    "capability_summary": "A security research framework for testing 5G NR baseband vulnerabilities in modems. Intended for security researchers and telecom professionals.",
+    "problem_solved": "Testing 5G modem baseband security vulnerabilities.",
+    "use_cases": [
+      "5g security research",
+      "baseband fuzzing",
+      "telecom vulnerability testing"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "5g-fuzzing-tool",
+      "baseband-security-scanner"
+    ]
+  },
+  "github:goposta/posta": {
+    "capability_summary": "A self-hosted email delivery and routing platform. Designed for developers and DevOps teams needing an alternative to commercial transactional email services.",
+    "problem_solved": "High cost or dependency on third-party transactional email providers.",
+    "use_cases": [
+      "transactional email",
+      "email relay",
+      "mailgun alternative",
+      "sendgrid alternative"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "self-hosted-mailgun",
+      "email-api-server"
+    ]
+  },
+  "github:trooped/quickbars": {
+    "capability_summary": "An Android TV application that provides an overlay for controlling Home Assistant entities. Built for smart home users who want remote control from their TV.",
+    "problem_solved": "Controlling smart home devices from a TV remote.",
+    "use_cases": [
+      "home automation",
+      "android tv control",
+      "home assistant integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "home-assistant-tv-remote"
+    ]
+  },
+  "github:hkuds/auto-deep-research": {
+    "capability_summary": "An open-source, cost-efficient automated research agent. Designed for users who need deep research capabilities using LLMs without high costs.",
+    "problem_solved": "High cost of proprietary deep research AI services.",
+    "use_cases": [
+      "automated research",
+      "llm agent",
+      "ai research assistant"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "open-source-deep-research",
+      "ai-research-agent"
+    ]
+  },
+  "github:joelhooks/opencode-config": {
+    "capability_summary": "A configuration setup for OpenCode enabling multi-agent orchestration. Targeted at developers building complex AI workflows.",
+    "problem_solved": "Orchestrating multiple AI agents for complex, parallel task execution.",
+    "use_cases": [
+      "multi-agent orchestration",
+      "ai task decomposition",
+      "parallel ai execution"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-orchestrator"
+    ]
   }
 }
