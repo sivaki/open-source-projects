@@ -26509,5 +26509,123 @@
       "understat",
       "whoscored"
     ]
+  },
+  {
+    "id": "github:neka-nat/freecad-mcp",
+    "url": "https://github.com/neka-nat/freecad-mcp",
+    "title": "neka-nat/freecad-mcp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085056404969127975",
+    "fetched_at": "2026-08-05T17:41:45.075274Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A Model Context Protocol (MCP) server that enables Claude Desktop to control FreeCAD, allowing for AI-assisted CAD design, object manipulation, and automated FEM analysis.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "freecad",
+      "cad",
+      "automation",
+      "claude"
+    ],
+    "risk_notes": "Installs as a FreeCAD Addon (manual file copy) and runs as a local RPC server via uvx. It has the capability to execute arbitrary Python code within the FreeCAD environment and can be configured to accept remote network connections, which requires careful management of the 'Allowed IPs' setting to prevent unauthorized access.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 31,
+      "created_at": "2023-11-25T08:46:42Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-05T17:41:51.279336Z",
+    "stars": 1629,
+    "language": "Python",
+    "pushed_at": "2026-08-01T02:25:57Z",
+    "license": "MIT",
+    "topics": [
+      "claude",
+      "freecad",
+      "mcp"
+    ]
+  },
+  {
+    "id": "github:world-grow/worldgrow",
+    "url": "https://github.com/world-grow/worldgrow",
+    "title": "world-grow/worldgrow",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085011017285718214",
+    "fetched_at": "2026-08-05T17:41:45.075561Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "WorldGrow is a generative AI framework for creating infinite, walkable 3D environments using block-wise synthesis and hierarchical refinement.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "generative-ai",
+      "3d-modeling",
+      "computer-vision",
+      "research",
+      "simulation"
+    ],
+    "risk_notes": "Requires complex environment setup with custom submodules (cumm/spconv) and heavy GPU dependencies. Installation involves running custom shell scripts and downloading large pretrained weights from Hugging Face. The project is research-oriented and currently lacks a formal license, which may pose risks for commercial or production use.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2025-10-24T01:43:38Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-05T17:41:57.748504Z",
+    "stars": 470,
+    "language": "Python",
+    "pushed_at": "2025-12-03T04:40:35Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:waydabber/betterdisplay",
+    "url": "https://github.com/waydabber/betterdisplay",
+    "title": "waydabber/betterdisplay",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084970659076080030",
+    "fetched_at": "2026-08-05T17:41:45.075796Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful macOS utility for advanced display management, including HiDPI scaling, DDC hardware control, virtual screen creation, and HDR brightness adjustment.",
+    "category": "macOS Utilities",
+    "tags": [
+      "macos",
+      "display",
+      "hidpi",
+      "ddc",
+      "productivity"
+    ],
+    "risk_notes": "Distributed as a signed .dmg installer. Requires accessibility and screen recording permissions to function properly. It is a closed-source commercial product with a free tier, which requires trusting the vendor's binary. It does not require root access but interacts deeply with display drivers and system settings.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 210,
+      "created_at": "2021-10-24T08:32:56Z",
+      "homepage": "https://betterdisplay.pro"
+    },
+    "added_at": "2026-08-05T17:42:04.227395Z",
+    "stars": 32988,
+    "language": null,
+    "pushed_at": "2026-07-23T07:29:53Z",
+    "license": null,
+    "topics": [
+      "4k",
+      "brightness",
+      "ddc",
+      "display",
+      "edid",
+      "flexible",
+      "hdmi",
+      "hidpi",
+      "mac",
+      "macos",
+      "override",
+      "resolution",
+      "retina",
+      "scaling",
+      "screen",
+      "virtual",
+      "xdr"
+    ]
   }
 ]
