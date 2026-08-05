@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 589 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 593 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [probberechts/soccerdata](https://github.com/probberechts/soccerdata) ⭐ | data pipelines | `python` `scraping` `sports-analytics` `pandas` `data-engineering` | A Python library that provides a unified interface to scrape and normalize soccer data from multiple popular sports analytics websites into Pandas DataFrames. | 1953 | 2026-08-05 |
+| [angeloavv/macrecoveryx](https://github.com/angeloavv/macrecoveryx) ⭐ | system-utilities | `macos` `recovery` `flutter` `system-admin` `utility` | A cross-platform utility built in Flutter/Dart designed to download genuine macOS recovery images for system restoration. | 139 | 2026-08-05 |
+| [sohamw03/wifui](https://github.com/sohamw03/wifui) ⭐ | Developer Tools | `windows` `tui` `rust` `wifi` `cli` | A keyboard-driven TUI for managing Wi-Fi connections on Windows, built in Rust using the ratatui library. | 118 | 2026-08-05 |
+| [kem-a/appmanager](https://github.com/kem-a/appmanager) ⭐ | Desktop Utilities | `linux` `appimage` `desktop` `automation` `gnome` | A GTK/Libadwaita desktop utility for managing AppImage installations on Linux, featuring drag-and-drop installation, automatic updates, and isolated portable modes. | 1268 | 2026-08-05 |
 | [joelhooks/opencode-config](https://github.com/joelhooks/opencode-config) ⭐ | AI/LLM Tooling | `ai` `multi-agent` `automation` `llm` `developer-tools` | A sophisticated configuration for OpenCode that enables multi-agent orchestration, allowing AI agents to decompose tasks, execute parallel workers, and learn from outcomes. | 406 | 2026-08-05 |
 | [hkuds/auto-deep-research](https://github.com/hkuds/auto-deep-research) ⭐ | AI/LLM Tooling | `ai` `llm` `automation` `research` `agent` | An open-source, cost-efficient alternative to OpenAI's Deep Research, built on the AutoAgent framework to provide automated research capabilities using various LLM backends. | 1619 | 2026-08-05 |
 | [trooped/quickbars](https://github.com/trooped/quickbars) ⭐ | Home Automation | `home-assistant` `android-tv` `iot` `automation` `kotlin` | QuickBars is an Android TV application that provides a customizable overlay for controlling Home Assistant entities directly from your TV remote. | 369 | 2026-08-05 |
