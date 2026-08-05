@@ -26111,5 +26111,239 @@
     "pushed_at": "2026-08-03T22:45:41Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:sapireli/airprint_bridge",
+    "url": "https://github.com/sapireli/airprint_bridge",
+    "title": "sapireli/airprint_bridge",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084816831194292466",
+    "fetched_at": "2026-08-05T02:44:21.422462Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A utility that enables AirPrint functionality on macOS for legacy printers by leveraging native system tools and launchd services.",
+    "category": "Developer tools",
+    "tags": [
+      "macos",
+      "automation",
+      "printing",
+      "utility",
+      "homelab"
+    ],
+    "risk_notes": "Requires sudo/root privileges for installation to configure launchd services and modify system-level printer sharing settings. The script uses native macOS binaries and does not require external dependencies, which is a positive security signal. Installation is available via Homebrew or manual script execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2024-11-27T13:45:50Z",
+      "homepage": "https://sapireli.github.io/AirPrint_Bridge/"
+    },
+    "added_at": "2026-08-05T02:44:28.230018Z",
+    "stars": 608,
+    "language": "Shell",
+    "pushed_at": "2026-05-29T05:17:54Z",
+    "license": "MIT",
+    "topics": [
+      "airprint",
+      "airprint-bridge",
+      "bonjour",
+      "cups",
+      "ipp",
+      "ippeverywhere",
+      "macos-application",
+      "macos-scripts",
+      "printer"
+    ]
+  },
+  {
+    "id": "github:asset-group/5ghoul-5g-nr-attacks",
+    "url": "https://github.com/asset-group/5ghoul-5g-nr-attacks",
+    "title": "asset-group/5ghoul-5g-nr-attacks",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084792588515586450",
+    "fetched_at": "2026-08-05T02:44:21.422924Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A specialized security research framework for testing 5G NR baseband vulnerabilities in Qualcomm and MediaTek modems using software-defined radio (SDR).",
+    "category": "security tooling",
+    "tags": [
+      "5g",
+      "security",
+      "fuzzing",
+      "sdr",
+      "telecom"
+    ],
+    "risk_notes": "Requires hardware (USRP B210) and root privileges to operate the fuzzer/base station. Installation involves a shell script wrapper that pulls and runs a Docker container. The tool is designed to act as a rogue base station, which carries significant legal and regulatory risks if used outside of a controlled, shielded environment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 17,
+      "created_at": "2023-12-04T14:49:14Z",
+      "homepage": "https://5ghoul.com"
+    },
+    "added_at": "2026-08-05T02:44:34.897620Z",
+    "stars": 677,
+    "language": "C++",
+    "pushed_at": "2026-03-11T01:04:19Z",
+    "license": "GPL-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:goposta/posta",
+    "url": "https://github.com/goposta/posta",
+    "title": "goposta/posta",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084769854251261974",
+    "fetched_at": "2026-08-05T02:44:21.423306Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, self-hosted email delivery and inbound platform written in Go, designed as a feature-rich alternative to services like SendGrid or Mailgun.",
+    "category": "Self-hosting",
+    "tags": [
+      "email",
+      "self-hosted",
+      "automation",
+      "api",
+      "go",
+      "devops"
+    ],
+    "risk_notes": "Distributed primarily via Docker, which is the standard and safest way to deploy. Requires persistent storage for databases (PostgreSQL/Redis) and configuration. As an email infrastructure tool, it handles sensitive user data and requires careful configuration of SPF, DKIM, and DMARC to prevent being flagged as spam. It is actively maintained with frequent updates.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-03-22T08:17:18Z",
+      "homepage": "https://goposta.dev"
+    },
+    "added_at": "2026-08-05T02:44:41.647077Z",
+    "stars": 98,
+    "language": "Go",
+    "pushed_at": "2026-08-01T04:46:40Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "email-relay",
+      "email-routing",
+      "http-to-smtp",
+      "mail-delivery",
+      "mailchimp-alternative",
+      "mailgun-alternative",
+      "mailsender",
+      "mailserver",
+      "mailtemplate",
+      "mailtest",
+      "postmark-alternative",
+      "send-email",
+      "sendgrid-alternative",
+      "sendmail",
+      "transactional-email",
+      "transactional-outbox"
+    ]
+  },
+  {
+    "id": "github:trooped/quickbars",
+    "url": "https://github.com/trooped/quickbars",
+    "title": "trooped/quickbars",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084748365061837118",
+    "fetched_at": "2026-08-05T02:44:21.423671Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "QuickBars is an Android TV application that provides a customizable overlay for controlling Home Assistant entities directly from your TV remote.",
+    "category": "Home Automation",
+    "tags": [
+      "home-assistant",
+      "android-tv",
+      "iot",
+      "automation",
+      "kotlin"
+    ],
+    "risk_notes": "Installed via Google Play Store. Requires network access to communicate with your local Home Assistant instance via WebSocket API and likely requires a Long-Lived Access Token for authentication. The project is actively maintained and open source.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 12,
+      "created_at": "2026-03-07T18:03:04Z",
+      "homepage": "https://quickbars.app"
+    },
+    "added_at": "2026-08-05T02:44:48.269121Z",
+    "stars": 369,
+    "language": "Kotlin",
+    "pushed_at": "2026-03-20T07:19:44Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "android",
+      "android-tv",
+      "android-tv-app",
+      "home-assistant",
+      "homeassistant",
+      "iot",
+      "kotlin",
+      "quickbars",
+      "smarthome"
+    ]
+  },
+  {
+    "id": "github:hkuds/auto-deep-research",
+    "url": "https://github.com/hkuds/auto-deep-research",
+    "title": "hkuds/auto-deep-research",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084728133559656688",
+    "fetched_at": "2026-08-05T02:44:21.424130Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source, cost-efficient alternative to OpenAI's Deep Research, built on the AutoAgent framework to provide automated research capabilities using various LLM backends.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "automation",
+      "research",
+      "agent"
+    ],
+    "risk_notes": "Requires local installation via pip or Docker. It necessitates providing various third-party LLM API keys (OpenAI, Anthropic, etc.) which are stored in environment variables. As an autonomous agent, it has the potential to execute code or perform web searches, so it should be run in a sandboxed or isolated environment to mitigate risks associated with arbitrary agentic behavior.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 32,
+      "created_at": "2025-02-16T05:28:50Z",
+      "homepage": "https://arxiv.org/abs/2502.05957"
+    },
+    "added_at": "2026-08-05T02:44:58.522197Z",
+    "stars": 1619,
+    "language": "Python",
+    "pushed_at": "2025-10-16T06:38:48Z",
+    "license": null,
+    "topics": [
+      "agent",
+      "deep-research",
+      "llm"
+    ]
+  },
+  {
+    "id": "github:joelhooks/opencode-config",
+    "url": "https://github.com/joelhooks/opencode-config",
+    "title": "joelhooks/opencode-config",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2084708823504167020",
+    "fetched_at": "2026-08-05T02:44:21.424523Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A sophisticated configuration for OpenCode that enables multi-agent orchestration, allowing AI agents to decompose tasks, execute parallel workers, and learn from outcomes.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "multi-agent",
+      "automation",
+      "llm",
+      "developer-tools"
+    ],
+    "risk_notes": "Requires installing OpenCode via curl/brew and global npm packages (swarm, cass). The system is designed to execute code on your behalf; it requires explicit permission configuration for filesystem and environment variable access. It integrates with external services like Ollama and Snyk, and provides agents with broad capabilities to modify your local codebase.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2025-12-07T20:02:52Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-05T02:45:05.153205Z",
+    "stars": 406,
+    "language": "TypeScript",
+    "pushed_at": "2026-01-26T18:17:02Z",
+    "license": null,
+    "topics": []
   }
 ]
