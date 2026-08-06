@@ -26724,5 +26724,187 @@
       "trading",
       "tui"
     ]
+  },
+  {
+    "id": "github:circuit-digest/esp-drone",
+    "url": "https://github.com/circuit-digest/esp-drone",
+    "title": "circuit-digest/esp-drone",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085314067778994596",
+    "fetched_at": "2026-08-06T10:42:11.325985Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A DIY drone project based on the ESP32 microcontroller, primarily serving as a tutorial repository for hobbyist hardware builds.",
+    "category": "hardware",
+    "tags": [
+      "esp32",
+      "robotics",
+      "drones",
+      "iot",
+      "embedded"
+    ],
+    "risk_notes": "Requires manual flashing of binary files to hardware using the ESP32 Flash Download Tool. No software installation on host machines, but involves physical hardware control and potential safety risks associated with drone flight.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2023-09-11T05:28:48Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-06T10:42:17.710105Z",
+    "stars": 2221,
+    "language": "C",
+    "pushed_at": "2026-03-30T12:47:00Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:dembrandt/dembrandt",
+    "url": "https://github.com/dembrandt/dembrandt",
+    "title": "dembrandt/dembrandt",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085289812638961905",
+    "fetched_at": "2026-08-06T10:42:11.326149Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful CLI tool for extracting design systems and tokens from any website, featuring AI agent (MCP) integration and automated design drift tracking.",
+    "category": "Developer Tools",
+    "tags": [
+      "design-systems",
+      "cli",
+      "automation",
+      "ai-agents",
+      "frontend",
+      "mcp"
+    ],
+    "risk_notes": "Installed via npm (global or npx). It uses Playwright to launch browser instances, which requires network access to target sites. It supports optional API keys for cloud-based snapshot storage and drift tracking. The tool includes advanced features like 'stealth' mode (navigator spoofing) and can be configured to bypass browser sandboxing in CI environments, which should be used with caution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-11-22T13:49:09Z",
+      "homepage": "http://dembrandt.com/"
+    },
+    "added_at": "2026-08-06T10:42:24.324875Z",
+    "stars": 2340,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-05T17:45:07Z",
+    "license": "MIT",
+    "topics": [
+      "brand-audits",
+      "css",
+      "design-engineering",
+      "design-md",
+      "design-ops",
+      "design-systems",
+      "design-to-code",
+      "design-tokens",
+      "developer-experience",
+      "dx",
+      "frontend",
+      "mcp",
+      "nodejs",
+      "open-source",
+      "playwright",
+      "productivity",
+      "reverse-engineering",
+      "tailwind-css",
+      "token-drift",
+      "ui-audit"
+    ]
+  },
+  {
+    "id": "github:cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "title": "cathrynlavery/diagram-design",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085267066756493601",
+    "fetched_at": "2026-08-06T10:42:11.326273Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of high-quality, editorial-style SVG diagram templates designed to be used with Claude Code to generate professional, brand-aligned visuals without external dependencies.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "automation",
+      "svg",
+      "documentation",
+      "design"
+    ],
+    "risk_notes": "The project is a set of static HTML/SVG assets and a Claude Code skill. It does not require installation via package managers or execution of scripts with elevated privileges. The primary security consideration is the use of Claude Code, which requires an Anthropic API key and grants the AI agent access to your local filesystem and terminal.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-04-16T18:01:16Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-06T10:42:30.750799Z",
+    "stars": 2960,
+    "language": "HTML",
+    "pushed_at": "2026-07-15T03:35:42Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:zubair-trabzada/ai-sales-team-claude",
+    "url": "https://github.com/zubair-trabzada/ai-sales-team-claude",
+    "title": "zubair-trabzada/ai-sales-team-claude",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085245581782380630",
+    "fetched_at": "2026-08-06T10:42:11.326403Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized suite of skills and agents for Claude Code that automates sales research, lead qualification, and outreach workflows directly from the CLI.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude-code",
+      "automation",
+      "sales",
+      "cli",
+      "agents"
+    ],
+    "risk_notes": "Uses a curl-to-bash installation script which is a security anti-pattern; manual inspection of the install script is recommended. Requires integration with Claude Code and likely relies on external LLM API keys. It performs file system operations to generate reports and interacts with the network to scrape prospect data.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-03-10T00:18:25Z",
+      "homepage": "https://www.skool.com/aiworkshop"
+    },
+    "added_at": "2026-08-06T10:42:37.376880Z",
+    "stars": 917,
+    "language": "Python",
+    "pushed_at": "2026-03-27T02:55:21Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:zakirkun/deep-eye",
+    "url": "https://github.com/zakirkun/deep-eye",
+    "title": "zakirkun/deep-eye",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085225326758547797",
+    "fetched_at": "2026-08-06T10:42:11.326524Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An advanced AI-orchestrated penetration testing framework that automates vulnerability scanning, payload generation, and compliance reporting across multiple AI providers.",
+    "category": "Security Tooling",
+    "tags": [
+      "security",
+      "ai",
+      "penetration-testing",
+      "automation",
+      "vulnerability-scanner"
+    ],
+    "risk_notes": "Requires API keys for multiple AI providers (OpenAI, Claude, etc.) which are stored in a local config file. The tool performs active network scanning and interacts with web targets, including browser automation via Playwright. It should be run in an isolated environment (e.g., container or VM) as it executes complex payloads against targets. Installation involves running shell scripts which should be audited before execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 11,
+      "created_at": "2025-10-15T08:05:18Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-06T10:42:44.908322Z",
+    "stars": 1885,
+    "language": "Python",
+    "pushed_at": "2026-07-25T14:49:00Z",
+    "license": "NOASSERTION",
+    "topics": []
   }
 ]
