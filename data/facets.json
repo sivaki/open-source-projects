@@ -23280,5 +23280,288 @@
       "ai security scanner",
       "automated pentesting tool"
     ]
+  },
+  "github:pinchtodebug/everythingquicksearch": {
+    "capability_summary": "A Windows utility that adds a quick-search interface to the Everything file indexing engine for faster navigation.",
+    "problem_solved": "Slow file searching and navigation on Windows.",
+    "use_cases": [
+      "file search",
+      "keyboard navigation",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Everything search",
+      "file launcher"
+    ]
+  },
+  "github:perber/leafwiki": {
+    "capability_summary": "A lightweight, self-hosted wiki that stores documentation as local Markdown files using SQLite.",
+    "problem_solved": "Need for a simple, low-overhead documentation system.",
+    "use_cases": [
+      "documentation",
+      "knowledge base",
+      "homelab wiki",
+      "runbooks"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "wiki",
+      "markdown editor"
+    ]
+  },
+  "github:video-db/call.md": {
+    "capability_summary": "An Electron desktop app providing real-time AI transcription and meeting analytics using MCP.",
+    "problem_solved": "Manual meeting note-taking and analysis.",
+    "use_cases": [
+      "meeting notes",
+      "AI transcription",
+      "meeting analytics"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "meeting assistant",
+      "AI transcriber"
+    ]
+  },
+  "github:mubeng/mubeng": {
+    "capability_summary": "A high-performance proxy checker and IP rotator for managing network requests.",
+    "problem_solved": "Bypassing rate limits and WAF blocks during web requests.",
+    "use_cases": [
+      "proxy management",
+      "IP rotation",
+      "security testing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "proxy rotator",
+      "proxy checker"
+    ]
+  },
+  "github:fpytloun/mnemory": {
+    "capability_summary": "A self-hosted, MCP-compliant memory server that provides persistent, searchable storage for AI agents.",
+    "problem_solved": "Lack of long-term, semantic memory for AI agents.",
+    "use_cases": [
+      "AI agent memory",
+      "vector search",
+      "personalization"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "AI memory",
+      "vector database"
+    ]
+  },
+  "github:vibeflowing-inc/vibe_figma": {
+    "capability_summary": "A CLI tool that converts Figma design files into React components with Tailwind CSS.",
+    "problem_solved": "Manual translation of design mockups to frontend code.",
+    "use_cases": [
+      "figma to code",
+      "frontend automation",
+      "react development"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "figma to react",
+      "design to code"
+    ]
+  },
+  "github:dumbwareio/dumbassets": {
+    "capability_summary": "A self-hosted asset management tool for tracking physical hardware, warranties, and maintenance.",
+    "problem_solved": "Tracking physical inventory and warranty expiration dates.",
+    "use_cases": [
+      "asset tracking",
+      "warranty management",
+      "homelab inventory"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "inventory manager",
+      "asset tracker"
+    ]
+  },
+  "github:sanyam-g/airpipe": {
+    "capability_summary": "A secure, peer-to-peer file transfer tool using passphrases and WebRTC for encrypted connections.",
+    "problem_solved": "Securely transferring files between devices without central servers.",
+    "use_cases": [
+      "file transfer",
+      "p2p networking",
+      "secure sharing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "p2p file transfer",
+      "secure transfer"
+    ]
+  },
+  "github:tombursch/kitchenowl": {
+    "capability_summary": "A self-hosted grocery list, recipe manager, and meal planner with multi-user sync.",
+    "problem_solved": "Managing household groceries and meal planning.",
+    "use_cases": [
+      "grocery list",
+      "recipe manager",
+      "meal planner"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "recipe app",
+      "meal planner"
+    ]
+  },
+  "github:anthonygress/lab-dash": {
+    "capability_summary": "A customizable, self-hosted dashboard for monitoring homelab services and system health.",
+    "problem_solved": "Fragmented monitoring of multiple homelab services.",
+    "use_cases": [
+      "homelab dashboard",
+      "service monitoring",
+      "system health"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "homelab dashboard",
+      "service monitor"
+    ]
+  },
+  "github:veops/oneterm": {
+    "capability_summary": "A lightweight bastion host and jump server for centralized infrastructure access and session auditing.",
+    "problem_solved": "Managing secure, audited remote access to infrastructure.",
+    "use_cases": [
+      "ssh access",
+      "rdp access",
+      "session auditing",
+      "credential management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "jump server",
+      "bastion host"
+    ]
+  },
+  "github:whiskeycoder/qwen3-audiobook-converter": {
+    "capability_summary": "A Python utility that converts documents into audiobooks using a locally hosted Qwen3 TTS model.",
+    "problem_solved": "Automating the conversion of text documents into audio files.",
+    "use_cases": [
+      "text-to-speech",
+      "audiobook creation",
+      "document processing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "tts converter",
+      "document to audio"
+    ]
+  },
+  "github:haxl0p4/l0p4map": {
+    "capability_summary": "A network monitoring and visualization tool that uses nmap for real-time topology mapping and vulnerability scanning.",
+    "problem_solved": "Visualizing network topology and identifying vulnerabilities.",
+    "use_cases": [
+      "network scanning",
+      "vulnerability assessment",
+      "topology mapping",
+      "penetration testing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "nmap gui",
+      "network scanner"
+    ]
+  },
+  "github:circuitproapp/circuitpro": {
+    "capability_summary": "A native macOS PCB design tool built with Swift for modern hardware engineering.",
+    "problem_solved": "Designing printed circuit boards on macOS.",
+    "use_cases": [
+      "pcb design",
+      "eda software",
+      "hardware engineering"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "eda tool",
+      "pcb editor"
+    ]
   }
 }
