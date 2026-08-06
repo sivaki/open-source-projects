@@ -23181,5 +23181,48 @@
       "BetterDummy",
       "macOS display manager"
     ]
+  },
+  "github:hotcakex/harden-windows-security": {
+    "capability_summary": "A toolkit for hardening Windows security and privacy using native Microsoft-supported configurations. Designed for system administrators and security professionals.",
+    "problem_solved": "Simplifies the complex process of securing and auditing Windows operating systems.",
+    "use_cases": [
+      "system hardening",
+      "security compliance",
+      "firewall configuration",
+      "enterprise security auditing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "windows security hardening",
+      "windows compliance tool"
+    ]
+  },
+  "github:pierridotite/stonks-dashboard": {
+    "capability_summary": "A terminal-based dashboard for monitoring stock and cryptocurrency market data. Built for traders and developers who prefer command-line interfaces.",
+    "problem_solved": "Provides real-time financial market tracking directly in the terminal.",
+    "use_cases": [
+      "stock tracking",
+      "crypto monitoring",
+      "real-time market data",
+      "terminal dashboard"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tui finance dashboard",
+      "stock ticker cli"
+    ]
   }
 }
