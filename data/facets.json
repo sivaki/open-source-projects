@@ -23224,5 +23224,61 @@
       "tui finance dashboard",
       "stock ticker cli"
     ]
+  },
+  "github:cathrynlavery/diagram-design": {
+    "capability_summary": "A collection of SVG diagram templates for use with Claude Code to create professional visuals. It is intended for designers and developers needing brand-aligned documentation.",
+    "problem_solved": "Generating professional, consistent SVG diagrams via AI automation.",
+    "use_cases": [
+      "technical documentation",
+      "brand-aligned visual design",
+      "automated diagram generation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "svg templates",
+      "claude code assets"
+    ]
+  },
+  "github:zubair-trabzada/ai-sales-team-claude": {
+    "capability_summary": "A suite of agents for Claude Code that automates sales tasks like lead qualification and outreach. It is designed for sales teams and developers building AI-driven sales workflows.",
+    "problem_solved": "Automating manual sales research and outreach workflows.",
+    "use_cases": [
+      "lead qualification",
+      "sales outreach automation",
+      "sales research"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai sales agent",
+      "claude sales automation"
+    ]
+  },
+  "github:zakirkun/deep-eye": {
+    "capability_summary": "An AI-orchestrated framework for penetration testing that automates vulnerability scanning and reporting. It is intended for security professionals and penetration testers.",
+    "problem_solved": "Automating complex security vulnerability scanning and compliance reporting.",
+    "use_cases": [
+      "penetration testing",
+      "vulnerability scanning",
+      "compliance reporting"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai security scanner",
+      "automated pentesting tool"
+    ]
   }
 }
