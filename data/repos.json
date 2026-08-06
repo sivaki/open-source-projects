@@ -26627,5 +26627,102 @@
       "virtual",
       "xdr"
     ]
+  },
+  {
+    "id": "github:hotcakex/harden-windows-security",
+    "url": "https://github.com/hotcakex/harden-windows-security",
+    "title": "hotcakex/harden-windows-security",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085168854053834981",
+    "fetched_at": "2026-08-06T02:47:02.096440Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive toolkit for hardening Windows security using native Microsoft-supported methods, including tools for AppControl and system configuration.",
+    "category": "Security Tooling",
+    "tags": [
+      "windows",
+      "security",
+      "hardening",
+      "privacy",
+      "sysadmin"
+    ],
+    "risk_notes": "The project provides applications available via the Microsoft Store, which is a trusted distribution channel. It requires administrative privileges to modify system-level security settings, which is expected for this type of utility. The project is actively maintained and follows official Microsoft documentation, reducing the risk of 'black box' configuration changes.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2022-11-22T11:26:53Z",
+      "homepage": "https://hotcakex.github.io"
+    },
+    "added_at": "2026-08-06T02:47:09.097313Z",
+    "stars": 4517,
+    "language": "C#",
+    "pushed_at": "2026-08-05T11:23:44Z",
+    "license": "MIT",
+    "topics": [
+      "1st-party-security",
+      "applicationcontrol",
+      "audit",
+      "bitlocker",
+      "compliance",
+      "defender",
+      "encryption",
+      "enterprise-security",
+      "firewall-configuration",
+      "harden",
+      "intune",
+      "operation-system-security",
+      "proactive",
+      "security",
+      "security-hardening",
+      "tpm2",
+      "wdac",
+      "windows",
+      "windows11",
+      "windowsdefender"
+    ]
+  },
+  {
+    "id": "github:pierridotite/stonks-dashboard",
+    "url": "https://github.com/pierridotite/stonks-dashboard",
+    "title": "pierridotite/stonks-dashboard",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085108350862164051",
+    "fetched_at": "2026-08-06T02:47:02.096600Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A terminal-based dashboard for tracking stocks and cryptocurrency prices using ASCII charts and real-time data.",
+    "category": "CLI Tools",
+    "tags": [
+      "cli",
+      "tui",
+      "finance",
+      "dashboard",
+      "stocks"
+    ],
+    "risk_notes": "Installed via npm (npx or global install). Requires Node.js. Accesses the internet to fetch data from Yahoo Finance and CoinGecko APIs. It creates a local cache.json file in the working directory. No sensitive credentials required for basic usage.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-12-23T01:25:16Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-06T02:47:15.645179Z",
+    "stars": 221,
+    "language": "JavaScript",
+    "pushed_at": "2026-06-26T08:45:29Z",
+    "license": "MIT",
+    "topics": [
+      "cli",
+      "dashboard",
+      "data",
+      "finance",
+      "market",
+      "market-data",
+      "real-time",
+      "stocks",
+      "terminal",
+      "trading",
+      "tui"
+    ]
   }
 ]
