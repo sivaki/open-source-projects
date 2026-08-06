@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 598 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 602 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [zakirkun/deep-eye](https://github.com/zakirkun/deep-eye) ⭐ | Security Tooling | `security` `ai` `penetration-testing` `automation` `vulnerability-scanner` | An advanced AI-orchestrated penetration testing framework that automates vulnerability scanning, payload generation, and compliance reporting across multiple AI providers. | 1885 | 2026-08-06 |
+| [zubair-trabzada/ai-sales-team-claude](https://github.com/zubair-trabzada/ai-sales-team-claude) ⭐ | AI/LLM Tooling | `claude-code` `automation` `sales` `cli` `agents` | A specialized suite of skills and agents for Claude Code that automates sales research, lead qualification, and outreach workflows directly from the CLI. | 917 | 2026-08-06 |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) ⭐ | AI/LLM Tooling | `claude` `automation` `svg` `documentation` `design` | A collection of high-quality, editorial-style SVG diagram templates designed to be used with Claude Code to generate professional, brand-aligned visuals without external dependencies. | 2960 | 2026-08-06 |
+| [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) ⭐ | Developer Tools | `design-systems` `cli` `automation` `ai-agents` `frontend` `mcp` | A powerful CLI tool for extracting design systems and tokens from any website, featuring AI agent (MCP) integration and automated design drift tracking. | 2340 | 2026-08-06 |
 | [pierridotite/stonks-dashboard](https://github.com/pierridotite/stonks-dashboard) ⭐ | CLI Tools | `cli` `tui` `finance` `dashboard` `stocks` | A terminal-based dashboard for tracking stocks and cryptocurrency prices using ASCII charts and real-time data. | 221 | 2026-08-06 |
 | [hotcakex/harden-windows-security](https://github.com/hotcakex/harden-windows-security) ⭐ | Security Tooling | `windows` `security` `hardening` `privacy` `sysadmin` | A comprehensive toolkit for hardening Windows security using native Microsoft-supported methods, including tools for AppControl and system configuration. | 4517 | 2026-08-06 |
 | [waydabber/betterdisplay](https://github.com/waydabber/betterdisplay) ⭐ | macOS Utilities | `macos` `display` `hidpi` `ddc` `productivity` | A powerful macOS utility for advanced display management, including HiDPI scaling, DDC hardware control, virtual screen creation, and HDR brightness adjustment. | 32988 | 2026-08-05 |
