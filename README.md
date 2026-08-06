@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 596 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 598 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [pierridotite/stonks-dashboard](https://github.com/pierridotite/stonks-dashboard) ⭐ | CLI Tools | `cli` `tui` `finance` `dashboard` `stocks` | A terminal-based dashboard for tracking stocks and cryptocurrency prices using ASCII charts and real-time data. | 221 | 2026-08-06 |
+| [hotcakex/harden-windows-security](https://github.com/hotcakex/harden-windows-security) ⭐ | Security Tooling | `windows` `security` `hardening` `privacy` `sysadmin` | A comprehensive toolkit for hardening Windows security using native Microsoft-supported methods, including tools for AppControl and system configuration. | 4517 | 2026-08-06 |
 | [waydabber/betterdisplay](https://github.com/waydabber/betterdisplay) ⭐ | macOS Utilities | `macos` `display` `hidpi` `ddc` `productivity` | A powerful macOS utility for advanced display management, including HiDPI scaling, DDC hardware control, virtual screen creation, and HDR brightness adjustment. | 32988 | 2026-08-05 |
 | [world-grow/worldgrow](https://github.com/world-grow/worldgrow) ⭐ | AI/LLM Tooling | `generative-ai` `3d-modeling` `computer-vision` `research` `simulation` | WorldGrow is a generative AI framework for creating infinite, walkable 3D environments using block-wise synthesis and hierarchical refinement. | 470 | 2026-08-05 |
 | [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) ⭐ | AI/LLM Tooling | `mcp` `freecad` `cad` `automation` `claude` | A Model Context Protocol (MCP) server that enables Claude Desktop to control FreeCAD, allowing for AI-assisted CAD design, object manipulation, and automated FEM analysis. | 1629 | 2026-08-05 |
