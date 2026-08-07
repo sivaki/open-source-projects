@@ -23794,5 +23794,398 @@
       "nvr interface",
       "cctv dashboard"
     ]
+  },
+  "github:unicodeveloper/consultralph": {
+    "capability_summary": "An AI-powered research agent that automates the creation of professional consulting deliverables like reports and slide decks.",
+    "problem_solved": "Automating the generation of consulting-grade business documents.",
+    "use_cases": [
+      "automated report generation",
+      "slide deck creation",
+      "business research automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI consultant",
+      "automated business reporting"
+    ]
+  },
+  "github:booklore-app/booklore": {
+    "capability_summary": "A self-hosted digital library management system for organizing ebooks with metadata enrichment and e-reader synchronization.",
+    "problem_solved": "Managing and syncing large personal ebook collections.",
+    "use_cases": [
+      "ebook library management",
+      "metadata organization",
+      "kobo synchronization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "calibre alternative",
+      "self-hosted library"
+    ]
+  },
+  "github:kuberwastaken/claurst": {
+    "capability_summary": "A high-performance terminal-based coding agent that provides a TUI for pair programming with multiple LLM providers.",
+    "problem_solved": "Providing a fast, terminal-native interface for AI-assisted coding.",
+    "use_cases": [
+      "pair programming",
+      "terminal-based coding",
+      "AI coding assistant"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code alternative",
+      "terminal coding agent"
+    ]
+  },
+  "github:adscanpro/adscan": {
+    "capability_summary": "A comprehensive CLI tool for Active Directory penetration testing and security auditing.",
+    "problem_solved": "Consolidating multiple security tools for Active Directory auditing.",
+    "use_cases": [
+      "penetration testing",
+      "security auditing",
+      "active directory enumeration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AD pentesting tool",
+      "red team toolkit"
+    ]
+  },
+  "github:memvid/claude-brain": {
+    "capability_summary": "A plugin for Claude Code that enables persistent, long-term memory for AI coding sessions.",
+    "problem_solved": "Maintaining context across multiple AI coding sessions.",
+    "use_cases": [
+      "AI session memory",
+      "context management",
+      "developer tools"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude memory",
+      "AI context persistence"
+    ]
+  },
+  "github:siderolabs/omni": {
+    "capability_summary": "A management platform for deploying and operating Kubernetes clusters on bare metal or virtual machines.",
+    "problem_solved": "Simplifying Kubernetes cluster lifecycle management on bare metal.",
+    "use_cases": [
+      "kubernetes management",
+      "bare metal orchestration",
+      "talos linux management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "kubernetes platform",
+      "talos management"
+    ]
+  },
+  "github:rafatosta/zapzap": {
+    "capability_summary": "A feature-rich, open-source desktop client for WhatsApp with native system integration.",
+    "problem_solved": "Providing a native desktop experience for WhatsApp users.",
+    "use_cases": [
+      "messaging",
+      "desktop client",
+      "multi-account management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "whatsapp desktop",
+      "messaging client"
+    ]
+  },
+  "github:pguso/rag-from-scratch": {
+    "capability_summary": "An educational guide for building Retrieval-Augmented Generation pipelines using Node.js and local LLMs.",
+    "problem_solved": "Learning how to implement RAG systems from the ground up.",
+    "use_cases": [
+      "rag tutorial",
+      "ai development",
+      "chatbot construction"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "RAG guide",
+      "LLM tutorial"
+    ]
+  },
+  "github:alainm23/planify": {
+    "capability_summary": "A modern task manager for GNOME that supports synchronization with Todoist and Nextcloud.",
+    "problem_solved": "Managing tasks with cross-platform synchronization on Linux.",
+    "use_cases": [
+      "task management",
+      "to-do lists",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "todoist client",
+      "gnome productivity"
+    ]
+  },
+  "github:simoncirstoiu/alice": {
+    "capability_summary": "A self-hosted toolkit for managing YOLO datasets, optimized for Frigate NVR users.",
+    "problem_solved": "Streamlining the annotation and training pipeline for object detection models.",
+    "use_cases": [
+      "dataset management",
+      "object detection training",
+      "frigate nvr integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "yolo toolkit",
+      "computer vision tools"
+    ]
+  },
+  "github:toinbox/simplerelay": {
+    "capability_summary": "A self-hosted SMTP relay service for managing outbound email routing and access control. Designed for homelab users and infrastructure administrators.",
+    "problem_solved": "Centralizing and managing outbound email delivery across multiple services.",
+    "use_cases": [
+      "email routing",
+      "smtp relay",
+      "outbound email management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "postfix-relay",
+      "email-gateway"
+    ]
+  },
+  "github:aeonfun/aeon": {
+    "capability_summary": "An autonomous agent framework that runs on GitHub Actions to automate workflows and self-improve. Built for developers needing unattended task execution.",
+    "problem_solved": "Automating complex, multi-step workflows without manual intervention.",
+    "use_cases": [
+      "task scheduling",
+      "autonomous workflows",
+      "self-improving agents"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-automation",
+      "github-actions-agent"
+    ]
+  },
+  "github:mindmuxai/brain.md": {
+    "capability_summary": "A CLI tool that creates a persistent Markdown-based memory layer for AI coding agents. Helps developers maintain project context across sessions.",
+    "problem_solved": "AI agents losing context or project constraints between coding sessions.",
+    "use_cases": [
+      "knowledge management",
+      "agent memory",
+      "context engineering"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-memory",
+      "coding-agent-context"
+    ]
+  },
+  "github:fan-ziqi/robot_viewer": {
+    "capability_summary": "A browser-based 3D visualization tool for robotics simulation. Ideal for engineers working with URDF and MuJoCo models.",
+    "problem_solved": "Visualizing and simulating robot models directly in a web browser.",
+    "use_cases": [
+      "robotics simulation",
+      "3d visualization",
+      "urdf viewer"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "browser"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mujoco-viewer",
+      "robot-simulator"
+    ]
+  },
+  "github:sanjay3290/ai-skills": {
+    "capability_summary": "A library of portable skills for AI coding agents to interact with databases, DevOps tools, and Google Workspace. Built for developers using AI assistants.",
+    "problem_solved": "Extending AI agent capabilities to perform real-world actions across various platforms.",
+    "use_cases": [
+      "devops automation",
+      "database management",
+      "google workspace integration"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-skills",
+      "ai-agent-plugins"
+    ]
+  },
+  "github:codingagentsystem/cas": {
+    "capability_summary": "A multi-agent orchestration CLI and MCP server for parallelized coding tasks. Designed for developers needing complex, persistent AI task management.",
+    "problem_solved": "Managing and orchestrating multiple AI coding agents with persistent state.",
+    "use_cases": [
+      "multi-agent orchestration",
+      "parallel coding tasks",
+      "task management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-orchestrator",
+      "mcp-server"
+    ]
+  },
+  "github:owloops/updo": {
+    "capability_summary": "A Go-based CLI tool for website uptime monitoring with TUI support and cloud integration. Built for DevOps and sysadmins.",
+    "problem_solved": "Monitoring website availability and performance from multiple locations.",
+    "use_cases": [
+      "uptime monitoring",
+      "devops monitoring",
+      "tui dashboard"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "uptime-checker",
+      "monitoring-tool"
+    ]
+  },
+  "github:aaronjmars/aeon": {
+    "capability_summary": "An autonomous agent framework for GitHub Actions that handles scheduling, self-improvement, and vulnerability research. For developers automating security and maintenance.",
+    "problem_solved": "Automating repetitive maintenance and security research tasks in GitHub repositories.",
+    "use_cases": [
+      "vulnerability research",
+      "code deployment",
+      "autonomous maintenance"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "autonomous-agent",
+      "github-actions-automation"
+    ]
+  },
+  "github:lackeyjb/playwright-skill": {
+    "capability_summary": "A plugin for Claude Code that allows AI to autonomously write and run Playwright browser automation scripts. For developers automating web testing.",
+    "problem_solved": "Enabling AI agents to perform browser-based tasks and end-to-end testing.",
+    "use_cases": [
+      "browser automation",
+      "e2e testing",
+      "web interaction"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-plugin",
+      "ai-browser-automation"
+    ]
+  },
+  "github:sysadminsmedia/homebox": {
+    "capability_summary": "A high-performance inventory management system for home users to track assets and maintenance. Built for homelab enthusiasts.",
+    "problem_solved": "Tracking home assets, warranties, and maintenance schedules in a self-hosted environment.",
+    "use_cases": [
+      "inventory management",
+      "homelab organization",
+      "asset tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux",
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "home-inventory",
+      "asset-manager"
+    ]
   }
 }
