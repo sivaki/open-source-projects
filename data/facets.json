@@ -23563,5 +23563,236 @@
       "eda tool",
       "pcb editor"
     ]
+  },
+  "github:ultracontext/ultracontext": {
+    "capability_summary": "Infrastructure tool for synchronizing and versioning context across AI agents and sessions.",
+    "problem_solved": "Managing and versioning LLM context state across multiple agent sessions.",
+    "use_cases": [
+      "context-management",
+      "llm-ops",
+      "ai-agent-sync"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "context-hub",
+      "git-for-llm"
+    ]
+  },
+  "github:sopaco/deepwiki-rs": {
+    "capability_summary": "Rust-based CLI tool that uses LLMs to generate C4 architecture documentation from code.",
+    "problem_solved": "Automating technical architecture documentation for software projects.",
+    "use_cases": [
+      "c4-model-generation",
+      "ci-cd-documentation",
+      "code-to-docs"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "litho",
+      "deepwiki"
+    ]
+  },
+  "github:ibnaleem/gosearch": {
+    "capability_summary": "High-performance OSINT tool for username enumeration and credential breach lookups.",
+    "problem_solved": "Slow performance of existing Python-based username scanners.",
+    "use_cases": [
+      "osint",
+      "security-auditing",
+      "username-enumeration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "sherlock-alternative"
+    ]
+  },
+  "github:uav4geo/geodeep": {
+    "capability_summary": "Library and CLI for AI-based object detection and segmentation on geospatial imagery.",
+    "problem_solved": "Performing computer vision tasks on large GeoTIFF files.",
+    "use_cases": [
+      "geospatial-analysis",
+      "object-detection",
+      "semantic-segmentation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "geospatial-ai"
+    ]
+  },
+  "github:gin-systems/vigil-tui": {
+    "capability_summary": "Terminal dashboard for real-time monitoring of system hardware metrics.",
+    "problem_solved": "Lack of high-resolution terminal-based hardware monitoring.",
+    "use_cases": [
+      "hardware-monitoring",
+      "power-management",
+      "thermal-tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tui-monitor"
+    ]
+  },
+  "github:ulab-uiuc/llmrouter": {
+    "capability_summary": "Framework for dynamic LLM routing based on cost, performance, and task complexity.",
+    "problem_solved": "Inefficient model selection for specific LLM tasks.",
+    "use_cases": [
+      "llm-optimization",
+      "inference-routing",
+      "cost-management"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm-gateway"
+    ]
+  },
+  "github:theamusing/perfectpixel": {
+    "capability_summary": "Library that detects and aligns grid structures in AI-generated pixel art.",
+    "problem_solved": "Misaligned or messy grids in AI-generated pixel art.",
+    "use_cases": [
+      "pixel-art-processing",
+      "image-alignment"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:mindsdb/anton": {
+    "capability_summary": "Agentic framework for task automation, data analysis, and workflow orchestration.",
+    "problem_solved": "Need for autonomous agents capable of writing integrations and executing code.",
+    "use_cases": [
+      "task-automation",
+      "data-analysis",
+      "workflow-orchestration"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-framework"
+    ]
+  },
+  "github:nokse22/ascii-draw": {
+    "capability_summary": "GTK4 desktop application for creating ASCII art and diagrams.",
+    "problem_solved": "Difficulty creating ASCII diagrams for technical documentation.",
+    "use_cases": [
+      "ascii-art",
+      "technical-documentation",
+      "diagramming"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ascii-editor"
+    ]
+  },
+  "github:samuraigpt/ai-youtube-shorts-generator": {
+    "capability_summary": "Tool for automating the creation of vertical shorts from long-form videos using AI.",
+    "problem_solved": "Manual effort required to clip and edit long-form videos for social media.",
+    "use_cases": [
+      "video-editing",
+      "content-creation",
+      "highlight-detection"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "opus-clip-alternative",
+      "vidyo-ai-alternative"
+    ]
+  },
+  "github:postgresgui/postgresgui": {
+    "capability_summary": "A native macOS PostgreSQL client that focuses on privacy by storing all credentials and data locally. Designed for developers and database administrators.",
+    "problem_solved": "Managing PostgreSQL databases on macOS without cloud-based credential storage.",
+    "use_cases": [
+      "database management",
+      "sql query execution",
+      "local database administration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "postgres client",
+      "sql gui"
+    ]
+  },
+  "github:lbr38/motion-ui": {
+    "capability_summary": "A self-hosted web interface for managing motion-based NVR systems. It provides camera stream visualization and automation for home surveillance setups.",
+    "problem_solved": "Managing and monitoring motion-detection camera streams in a home-lab environment.",
+    "use_cases": [
+      "cctv management",
+      "motion detection",
+      "home surveillance",
+      "nvr monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "raspberry-pi",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "nvr interface",
+      "cctv dashboard"
+    ]
   }
 }
