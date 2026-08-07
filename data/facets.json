@@ -24187,5 +24187,223 @@
       "home-inventory",
       "asset-manager"
     ]
+  },
+  "github:mightymoud/sidekick": {
+    "capability_summary": "A CLI tool that automates Docker and Traefik configuration to provide a Heroku-like deployment experience on VPS.",
+    "problem_solved": "Simplifying complex VPS and Docker deployment workflows.",
+    "use_cases": [
+      "vps management",
+      "docker deployment",
+      "server automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "heroku-alternative",
+      "vps-manager"
+    ]
+  },
+  "github:rsmdt/the-startup": {
+    "capability_summary": "A framework for Claude Code that enables spec-driven development and multi-agent workflows.",
+    "problem_solved": "Automating complex software engineering tasks using AI agents.",
+    "use_cases": [
+      "ai-assisted coding",
+      "multi-agent workflows",
+      "spec-driven development"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-plugin",
+      "ai-agent-framework"
+    ]
+  },
+  "github:prod-forge/backend": {
+    "capability_summary": "A production-grade reference architecture for NestJS backends with built-in CI/CD and observability.",
+    "problem_solved": "Standardizing backend project structure and deployment best practices.",
+    "use_cases": [
+      "backend development",
+      "nestjs architecture",
+      "ci/cd setup"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "nestjs-boilerplate",
+      "production-architecture"
+    ]
+  },
+  "github:wh-2099/mermaid-skill": {
+    "capability_summary": "A Claude Code skill that generates various Mermaid diagrams directly within AI workflows.",
+    "problem_solved": "Automating the creation of visual diagrams from AI-generated code or logic.",
+    "use_cases": [
+      "diagram generation",
+      "documentation automation",
+      "visualizing code"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skill",
+      "mermaid-generator"
+    ]
+  },
+  "github:adithya-s-k/omniparse": {
+    "capability_summary": "A local-first ingestion platform that converts unstructured documents and media into structured data for RAG pipelines.",
+    "problem_solved": "Preparing messy, unstructured data for use in LLM and RAG applications.",
+    "use_cases": [
+      "data ingestion",
+      "ocr processing",
+      "rag pipeline",
+      "media parsing"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "rag-ingestion",
+      "document-parser"
+    ]
+  },
+  "github:tetheria/aero-hand-open": {
+    "capability_summary": "An open-source, 3D-printable robotic hand platform with a Python SDK for research.",
+    "problem_solved": "Providing an accessible hardware platform for robotics research and hobbyists.",
+    "use_cases": [
+      "robotics research",
+      "hardware prototyping",
+      "robotic control"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux",
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "robotic-hand",
+      "open-source-robotics"
+    ]
+  },
+  "github:cerno-ai/cerno-agentic-local-deep-research": {
+    "capability_summary": "A local-first research platform that orchestrates multi-step agentic workflows using local or cloud LLMs.",
+    "problem_solved": "Conducting deep research with transparency and data sovereignty.",
+    "use_cases": [
+      "autonomous research",
+      "agentic workflows",
+      "data analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "deep-research-agent",
+      "local-ai-research"
+    ]
+  },
+  "github:neo4j-labs/llm-graph-builder": {
+    "capability_summary": "A tool for extracting knowledge graphs from unstructured data like PDFs and web pages using LLMs.",
+    "problem_solved": "Converting unstructured text into structured knowledge graphs for RAG.",
+    "use_cases": [
+      "knowledge graph construction",
+      "graphrag",
+      "data extraction"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graphrag-builder",
+      "neo4j-tool"
+    ]
+  },
+  "github:inlitx/obsidian-dashboard-gallery": {
+    "capability_summary": "A collection of aesthetic dashboard templates for Obsidian using the Dataview plugin.",
+    "problem_solved": "Creating functional and visual homepages in Obsidian.",
+    "use_cases": [
+      "pkm",
+      "obsidian-dashboard",
+      "note-taking"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-templates",
+      "notion-alternative"
+    ]
+  },
+  "github:thecmdguy/ducky": {
+    "capability_summary": "A desktop GUI application that aggregates network diagnostic and security tools.",
+    "problem_solved": "Managing multiple network diagnostic tasks through a single interface.",
+    "use_cases": [
+      "network diagnostics",
+      "security auditing",
+      "network tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network-utility",
+      "security-gui"
+    ]
+  },
+  "github:agentic-box/memora": {
+    "capability_summary": "Memora is an MCP-compliant memory layer for AI agents that provides persistent storage, semantic search, and knowledge graph visualization. It is designed for developers building intelligent agents that require long-term context.",
+    "problem_solved": "Provides persistent, structured memory and context retrieval for AI agents.",
+    "use_cases": [
+      "AI agent memory",
+      "RAG pipelines",
+      "knowledge graph storage",
+      "semantic search"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "MCP server",
+      "AI memory layer"
+    ]
   }
 }
