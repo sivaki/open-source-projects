@@ -24405,5 +24405,210 @@
       "MCP server",
       "AI memory layer"
     ]
+  },
+  "github:davunt/app-eraser": {
+    "capability_summary": "A macOS utility that performs clean uninstalls by removing leftover application support files and caches.",
+    "problem_solved": "Removing leftover files from uninstalled macOS applications.",
+    "use_cases": [
+      "macOS cleanup",
+      "app uninstaller",
+      "disk space management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AppCleaner"
+    ]
+  },
+  "github:boltzmannentropy/mimikastudio": {
+    "capability_summary": "A local-first macOS app for voice cloning, TTS, and audiobook generation using Apple Silicon MLX.",
+    "problem_solved": "Performing high-performance local AI voice tasks on macOS.",
+    "use_cases": [
+      "voice cloning",
+      "text-to-speech",
+      "audiobook creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "voice-cloning tool"
+    ]
+  },
+  "github:nhas/reverse_ssh": {
+    "capability_summary": "An SSH-based reverse shell and remote management tool for managing multiple targets.",
+    "problem_solved": "Managing remote systems behind firewalls or NAT.",
+    "use_cases": [
+      "remote access",
+      "pentesting",
+      "reverse shell"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "reverse shell",
+      "SSH tunnel"
+    ]
+  },
+  "github:lraton/flopperziro": {
+    "capability_summary": "A DIY open-source hardware multi-tool project based on STM32 to replicate Flipper Zero functionality.",
+    "problem_solved": "Building a custom hardware multi-tool for hobbyists.",
+    "use_cases": [
+      "hardware hacking",
+      "DIY electronics",
+      "STM32 projects"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Flipper Zero alternative"
+    ]
+  },
+  "github:ix-infrastructure/ix": {
+    "capability_summary": "A developer tool that creates a persistent map of a codebase to improve LLM reasoning and navigation.",
+    "problem_solved": "High token usage and poor LLM context awareness in large codebases.",
+    "use_cases": [
+      "code analysis",
+      "LLM context management",
+      "codebase mapping"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "codebase indexer"
+    ]
+  },
+  "github:spesrobotics/teleop": {
+    "capability_summary": "A framework using WebXR to control robotic arms via mobile devices or VR headsets with ROS 2 support.",
+    "problem_solved": "Remotely controlling robotic hardware using consumer VR/mobile devices.",
+    "use_cases": [
+      "robotics",
+      "teleoperation",
+      "WebXR control"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "robot teleoperation"
+    ]
+  },
+  "github:kamranahmedse/slim": {
+    "capability_summary": "A CLI tool for managing local HTTPS domains and exposing local services via secure tunnels.",
+    "problem_solved": "Exposing local development servers to the internet securely.",
+    "use_cases": [
+      "web development",
+      "tunneling",
+      "HTTPS proxy"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ngrok alternative"
+    ]
+  },
+  "github:alexanderwanyoike/the0": {
+    "capability_summary": "An open-source, self-hosted algorithmic trading execution engine with AI-assisted management.",
+    "problem_solved": "Automating trading strategies with self-hosted infrastructure.",
+    "use_cases": [
+      "algorithmic trading",
+      "trading bots",
+      "quantitative finance"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "kubernetes"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "trading bot"
+    ]
+  },
+  "github:karanb192/awesome-claude-skills": {
+    "capability_summary": "A curated collection of modular skills to extend Claude Code agent capabilities.",
+    "problem_solved": "Finding and implementing automation skills for Claude AI agents.",
+    "use_cases": [
+      "AI automation",
+      "Claude agent development",
+      "productivity"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude agent skills"
+    ]
+  },
+  "github:reconmap/reconmap": {
+    "capability_summary": "A self-hosted security operations platform for penetration testing workflows and vulnerability management.",
+    "problem_solved": "Managing and automating security testing and reporting workflows.",
+    "use_cases": [
+      "pentesting",
+      "vulnerability management",
+      "security operations"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "security platform"
+    ]
+  },
+  "github:postgres-ai/database-lab-engine": {
+    "capability_summary": "Database Lab Engine enables thin cloning and branching of PostgreSQL databases for development, testing, and CI/CD workflows. It is designed for database administrators and developers needing full-scale environments without the storage overhead.",
+    "problem_solved": "Eliminates the need for massive, slow database copies for testing and development.",
+    "use_cases": [
+      "database branching",
+      "CI/CD pipeline testing",
+      "query optimization",
+      "database migration testing"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "database cloning",
+      "DBLab",
+      "PostgreSQL branching"
+    ]
   }
 }
