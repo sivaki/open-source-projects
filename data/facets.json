@@ -24610,5 +24610,103 @@
       "DBLab",
       "PostgreSQL branching"
     ]
+  },
+  "github:vercel-labs/knowledge-agent-template": {
+    "capability_summary": "A template for building AI agents that retrieve information from local files using deterministic tools rather than vector databases. Designed for developers building knowledge-based chatbots.",
+    "problem_solved": "Need for accurate, transparent knowledge retrieval from local files without vector database complexity.",
+    "use_cases": [
+      "knowledge-base chatbots",
+      "file-system automation",
+      "AI agent development"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent template",
+      "knowledge retrieval agent"
+    ]
+  },
+  "github:pikpikcu/airecon": {
+    "capability_summary": "An autonomous penetration testing agent that performs reconnaissance and reporting locally. Designed for security researchers needing privacy-focused automation.",
+    "problem_solved": "Need for automated, private, and local security reconnaissance without cloud dependencies.",
+    "use_cases": [
+      "penetration testing",
+      "security reconnaissance",
+      "bug bounty automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "AI security agent",
+      "automated pentesting"
+    ]
+  },
+  "github:fsoft-ai4code/codewiki": {
+    "capability_summary": "A CLI tool that uses AI to generate structured, architecture-aware documentation for large codebases. Designed for developers and technical writers.",
+    "problem_solved": "Need for automated, high-quality documentation for large and complex codebases.",
+    "use_cases": [
+      "automated documentation",
+      "codebase analysis",
+      "technical writing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "AI documentation generator",
+      "codebase wiki"
+    ]
+  },
+  "github:serengil/deepface": {
+    "capability_summary": "A lightweight Python framework for facial recognition and attribute analysis, including emotion, age, and gender detection. Designed for computer vision researchers and developers.",
+    "problem_solved": "Need for an easy-to-use, unified interface for multiple state-of-the-art face recognition models.",
+    "use_cases": [
+      "face recognition",
+      "emotion detection",
+      "age prediction",
+      "gender classification"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "facial analysis library",
+      "computer vision framework"
+    ]
+  },
+  "github:agricidaniel/skill-forge": {
+    "capability_summary": "A CLI framework for scaffolding and benchmarking AI agent skills specifically for the Claude Code ecosystem. Designed for AI developers.",
+    "problem_solved": "Need for a structured way to build and test custom skills for Claude Code agents.",
+    "use_cases": [
+      "AI agent development",
+      "skill benchmarking",
+      "Claude Code extension"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code tool",
+      "AI skill builder"
+    ]
   }
 }
