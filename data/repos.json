@@ -2495,5 +2495,406 @@
     "pushed_at": "2026-03-26T12:46:38Z",
     "license": null,
     "topics": []
+  },
+  {
+    "id": "github:vercel-labs/knowledge-agent-template",
+    "url": "https://github.com/vercel-labs/knowledge-agent-template",
+    "title": "vercel-labs/knowledge-agent-template",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2086006396651295090",
+    "fetched_at": "2026-08-08T08:45:11.476510Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful, deterministic AI agent template that uses file-system tools (grep, find, cat) instead of vector databases, allowing for transparent and accurate knowledge retrieval.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agent",
+      "typescript",
+      "nuxt",
+      "automation",
+      "knowledge-base"
+    ],
+    "risk_notes": "Designed for deployment on Vercel; requires GitHub OAuth credentials and various API keys (LLM providers). It utilizes isolated sandboxes for command execution, which mitigates some risks, but the agent has access to the provided data sources and potentially sensitive environment variables. Maintenance is active as it is a Vercel Labs project.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-01-20T15:02:20Z",
+      "homepage": "https://chatsdk-knowledge-agent.vercel.app"
+    },
+    "added_at": "2026-08-08T08:45:17.441387Z",
+    "stars": 968,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-11T09:36:03Z",
+    "license": "MIT",
+    "topics": [
+      "agents",
+      "ai-agent",
+      "chatbot",
+      "file-system",
+      "knowledge-base",
+      "nuxt",
+      "sandbox",
+      "typescript",
+      "vue"
+    ]
+  },
+  {
+    "id": "github:trevtron/rtl-ml",
+    "url": "https://github.com/trevtron/rtl-ml",
+    "title": "trevtron/rtl-ml",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085994211581599955",
+    "fetched_at": "2026-08-08T08:45:11.476934Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An AI-powered radio signal classification pipeline designed for ARM SBCs like the Raspberry Pi, using RTL-SDR hardware to identify various radio signals locally.",
+    "category": "Home-lab / SDR",
+    "tags": [
+      "sdr",
+      "machine-learning",
+      "raspberry-pi",
+      "automation",
+      "radio"
+    ],
+    "risk_notes": "Requires building custom drivers from source (cmake/make/sudo make install) which modifies system-level udev rules and kernel module blacklists. Runs as a standard Python application in a virtual environment. Accesses USB hardware directly via librtlsdr. No sensitive credentials or network exposure required by default.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-02-10T23:14:48Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-08T08:45:23.983495Z",
+    "stars": 234,
+    "language": "Python",
+    "pushed_at": "2026-06-02T02:12:59Z",
+    "license": "MIT",
+    "topics": [
+      "machine-learning",
+      "radio-freqency-machine-learning",
+      "rtl-sdr",
+      "sbc",
+      "sdr-tool"
+    ]
+  },
+  {
+    "id": "github:pikpikcu/airecon",
+    "url": "https://github.com/pikpikcu/airecon",
+    "title": "pikpikcu/airecon",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085982271291412778",
+    "fetched_at": "2026-08-08T08:45:11.477302Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "AIRecon is an autonomous, privacy-focused penetration testing agent that runs locally using Ollama and Docker, providing a full recon-to-report pipeline without cloud dependencies.",
+    "category": "Security Tooling",
+    "tags": [
+      "ai-agents",
+      "penetration-testing",
+      "ollama",
+      "automation",
+      "security",
+      "cli"
+    ],
+    "risk_notes": "Requires Docker for the Kali sandbox and Ollama for local LLM execution. It performs active network reconnaissance and exploitation, meaning it has full access to the host's network and the filesystem where it stores session data. It is designed for security professionals and should be run in an isolated environment (e.g., a dedicated VM or container) to prevent accidental damage to local systems or unauthorized network activity.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-03-05T20:02:08Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-08T08:45:30.489458Z",
+    "stars": 813,
+    "language": "Python",
+    "pushed_at": "2026-06-20T03:57:31Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "bugbounty",
+      "cli",
+      "ollama",
+      "penetration-testing",
+      "python",
+      "reconnaissance"
+    ]
+  },
+  {
+    "id": "github:fsoft-ai4code/codewiki",
+    "url": "https://github.com/fsoft-ai4code/codewiki",
+    "title": "fsoft-ai4code/codewiki",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085970839241912668",
+    "fetched_at": "2026-08-08T08:45:11.477656Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "CodeWiki is an AI-powered CLI tool that generates structured, architecture-aware documentation for large-scale codebases, supporting multiple LLM providers and subscription-based CLI integrations.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai",
+      "documentation",
+      "cli",
+      "automation",
+      "developer-tools"
+    ],
+    "risk_notes": "Installed via pip. Requires API keys for various LLM providers or integration with local CLI tools (Claude/Codex). It performs deep analysis of local codebases, meaning it requires read access to your project files and sends code context to external LLM APIs. Users should be mindful of sensitive data in their repositories before running.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2025-06-25T09:48:13Z",
+      "homepage": "https://fsoft-ai4code.github.io/CodeWiki/"
+    },
+    "added_at": "2026-08-08T08:45:37.074354Z",
+    "stars": 1502,
+    "language": "Python",
+    "pushed_at": "2026-08-08T05:52:40Z",
+    "license": null,
+    "topics": [
+      "automated-documentation",
+      "code-documentation",
+      "code-understanding",
+      "documentation-generator",
+      "open-source-deepwiki",
+      "repository-documentation"
+    ]
+  },
+  {
+    "id": "github:serengil/deepface",
+    "url": "https://github.com/serengil/deepface",
+    "title": "serengil/deepface",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085959665230160119",
+    "fetched_at": "2026-08-08T08:45:11.477970Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, lightweight Python framework for face recognition and facial attribute analysis that wraps multiple state-of-the-art deep learning models.",
+    "category": "AI/Computer Vision",
+    "tags": [
+      "python",
+      "computer-vision",
+      "machine-learning",
+      "face-recognition",
+      "ai"
+    ],
+    "risk_notes": "Installed via pip or source. Requires access to local filesystem for image processing and model weights. Downloads pre-trained model weights from the internet upon first use. As a library, it runs with the permissions of the user executing the script; no special root privileges are required.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2020-02-08T20:42:28Z",
+      "homepage": "https://www.youtube.com/watch?v=WnUVYQP4h44&list=PLsS_1RYmYQQFdWqxQggXHynP1rqaYXv_E"
+    },
+    "added_at": "2026-08-08T08:45:43.405743Z",
+    "stars": 23232,
+    "language": "Python",
+    "pushed_at": "2026-06-29T11:52:30Z",
+    "license": "MIT",
+    "topics": [
+      "age-prediction",
+      "arcface",
+      "deep-learning",
+      "deepface",
+      "deepid",
+      "emotion-recognition",
+      "face-analysis",
+      "face-recognition",
+      "facenet",
+      "facial-expression-recognition",
+      "facial-recognition",
+      "gender-prediction",
+      "machine-learning",
+      "openface",
+      "python",
+      "race-classification",
+      "vgg-face"
+    ]
+  },
+  {
+    "id": "github:tbxark/mail2telegram",
+    "url": "https://github.com/tbxark/mail2telegram",
+    "title": "tbxark/mail2telegram",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085949004320317666",
+    "fetched_at": "2026-08-08T08:45:11.478328Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A serverless Cloudflare Worker that integrates with Cloudflare Email Routing to forward incoming emails to a Telegram bot, supporting temporary mailboxes and email backups.",
+    "category": "automation",
+    "tags": [
+      "cloudflare",
+      "telegram",
+      "email",
+      "serverless",
+      "automation"
+    ],
+    "risk_notes": "Requires deployment to Cloudflare Workers and providing a Telegram Bot API token. The worker handles incoming email traffic and interacts with the Telegram API. It uses Cloudflare KV for storage. No local root access required, but it acts as a bridge for your email traffic.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2023-10-13T08:36:10Z",
+      "homepage": "https://deepwiki.com/TBXark/mail2telegram"
+    },
+    "added_at": "2026-08-08T08:45:49.777175Z",
+    "stars": 783,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-04T15:07:25Z",
+    "license": "MIT",
+    "topics": [
+      "cloudflare",
+      "cloudflare-email-routing",
+      "cloudflare-mail",
+      "cloudflare-workers",
+      "email",
+      "mail-bot",
+      "serverless",
+      "telegram-bot",
+      "telegram-mini-apps",
+      "telegram-web-apps"
+    ]
+  },
+  {
+    "id": "github:adrianhajdin/roomify",
+    "url": "https://github.com/adrianhajdin/roomify",
+    "title": "adrianhajdin/roomify",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085938579637678322",
+    "fetched_at": "2026-08-08T08:45:11.478665Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "An educational project repository designed to accompany a YouTube tutorial on building an AI-powered architectural visualization app using the Puter cloud platform.",
+    "category": "Educational",
+    "tags": [
+      "react",
+      "typescript",
+      "ai",
+      "tutorial",
+      "web-development"
+    ],
+    "risk_notes": "This is a tutorial-based codebase rather than a production-ready tool. It relies on the Puter cloud platform and requires external API keys for AI services (Claude/Gemini). It is not intended for self-hosting in a home-lab environment and lacks a clear security audit or maintenance lifecycle.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-02-11T19:27:15Z",
+      "homepage": "https://jsmastery.com"
+    },
+    "added_at": "2026-08-08T08:45:56.110574Z",
+    "stars": 289,
+    "language": "TypeScript",
+    "pushed_at": "2026-02-13T11:11:01Z",
+    "license": null,
+    "topics": [
+      "coderabbit",
+      "puter",
+      "react19",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ]
+  },
+  {
+    "id": "github:agricidaniel/skill-forge",
+    "url": "https://github.com/agricidaniel/skill-forge",
+    "title": "agricidaniel/skill-forge",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085928335108968800",
+    "fetched_at": "2026-08-08T08:45:11.479006Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A CLI-based framework for designing, scaffolding, and benchmarking AI agent skills specifically for the Claude Code ecosystem.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "claude-code",
+      "automation",
+      "developer-tools",
+      "llm"
+    ],
+    "risk_notes": "Installation uses a bash script which clones the repo and likely sets up local paths; requires manual review of the install.sh script. The tool interacts with local filesystems to scaffold and manage AI skills, and it is designed to interface with Claude Code, which may have broad access to your local environment and API keys.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-02-16T22:58:32Z",
+      "homepage": "https://agricidaniel.com"
+    },
+    "added_at": "2026-08-08T08:46:02.444919Z",
+    "stars": 92,
+    "language": "Python",
+    "pushed_at": "2026-04-10T17:12:56Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "claude-code",
+      "claude-code-skill",
+      "developer-tools",
+      "open-source"
+    ]
+  },
+  {
+    "id": "github:lissy93/web-check",
+    "url": "https://github.com/lissy93/web-check",
+    "title": "lissy93/web-check",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085918420613161001",
+    "fetched_at": "2026-08-08T08:45:11.479351Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, self-hostable OSINT dashboard that aggregates various network and security diagnostics for any given website.",
+    "category": "Security Tooling",
+    "tags": [
+      "osint",
+      "security",
+      "sysadmin",
+      "self-hosted",
+      "web-tools"
+    ],
+    "risk_notes": "Can be deployed via Docker, which is the recommended secure path. It performs external network requests to analyze target sites, so it should be run in an isolated container. It does not require root access, but be mindful of the data it exposes if you host it publicly.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 29,
+      "created_at": "2023-06-25T14:32:11Z",
+      "homepage": "https://web-check.xyz"
+    },
+    "added_at": "2026-08-08T08:46:08.826186Z",
+    "stars": 34431,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-05T13:33:46Z",
+    "license": "MIT",
+    "topics": [
+      "osint",
+      "privacy",
+      "security",
+      "security-tools",
+      "sysadmin"
+    ]
+  },
+  {
+    "id": "github:btseytlin/hr-breaker",
+    "url": "https://github.com/btseytlin/hr-breaker",
+    "title": "btseytlin/hr-breaker",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2085908768148029595",
+    "fetched_at": "2026-08-08T08:45:11.479688Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An AI-powered resume optimization tool that uses LLMs and multi-stage validation filters to tailor resumes for specific job descriptions, offering both a CLI and a FastAPI-based web interface.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai",
+      "llm",
+      "automation",
+      "cli",
+      "productivity"
+    ],
+    "risk_notes": "Requires Python and the 'uv' package manager. It necessitates providing API keys (e.g., Gemini, OpenAI) via a .env file. The application performs network requests to scrape job postings and communicate with LLM providers. It reads local resume files and writes generated PDFs to the local filesystem. The project is actively maintained and uses standard Python dependency management.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2026-01-29T16:11:53Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-08T08:46:15.336789Z",
+    "stars": 846,
+    "language": "Python",
+    "pushed_at": "2026-04-17T14:43:21Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
