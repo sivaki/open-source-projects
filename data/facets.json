@@ -24708,5 +24708,301 @@
       "Claude Code tool",
       "AI skill builder"
     ]
+  },
+  "github:frangoteam/fuxa": {
+    "capability_summary": "A web-based SCADA and HMI platform for industrial automation and IoT monitoring. It is designed for engineers and system integrators.",
+    "problem_solved": "Visualizing and controlling industrial hardware and IoT devices via web browsers.",
+    "use_cases": [
+      "industrial automation",
+      "iot dashboarding",
+      "hmi development",
+      "plc monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "scada",
+      "hmi"
+    ]
+  },
+  "github:frappe/crm": {
+    "capability_summary": "A modern, open-source CRM platform built on the Frappe framework. It is intended for businesses needing customer and sales management.",
+    "problem_solved": "Managing customer relationships and sales pipelines in a self-hosted environment.",
+    "use_cases": [
+      "customer relationship management",
+      "sales tracking",
+      "business automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "salesforce alternative",
+      "hubspot alternative"
+    ]
+  },
+  "github:harrieronchain/prediction-markets-trading-bot-toolkits": {
+    "capability_summary": "A high-performance Rust toolkit for building trading bots for prediction markets. It is designed for fintech developers and crypto traders.",
+    "problem_solved": "Automating trading strategies and risk management on prediction market platforms.",
+    "use_cases": [
+      "crypto trading",
+      "market making",
+      "arbitrage",
+      "prediction market automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading bot",
+      "fintech toolkit"
+    ]
+  },
+  "github:composiohq/agent-orchestrator": {
+    "capability_summary": "An agentic IDE and orchestration layer for managing parallel AI coding agents. It is designed for software developers and DevOps engineers.",
+    "problem_solved": "Coordinating multiple AI agents to perform complex coding tasks and CI/CD workflows.",
+    "use_cases": [
+      "ai code review",
+      "automated ci/cd",
+      "multi-agent orchestration"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai ide",
+      "agent swarm"
+    ]
+  },
+  "github:stepankropachev/obsidian-pm": {
+    "capability_summary": "An Obsidian plugin that adds project management features like Gantt and Kanban to Markdown notes. It is for productivity-focused users.",
+    "problem_solved": "Managing projects and tasks directly within a local Markdown knowledge base.",
+    "use_cases": [
+      "task management",
+      "project planning",
+      "kanban boards",
+      "gantt charts"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian project management",
+      "trello alternative"
+    ]
+  },
+  "github:filiksyos/gitreverse": {
+    "capability_summary": "A web tool that analyzes GitHub repositories to generate prompts for recreating codebases with AI. It is for developers and prompt engineers.",
+    "problem_solved": "Reverse-engineering repository structures into actionable AI prompts.",
+    "use_cases": [
+      "prompt engineering",
+      "codebase analysis",
+      "ai-assisted development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "reverse engineering",
+      "vibe coding"
+    ]
+  },
+  "github:czl9707/build-your-own-openclaw": {
+    "capability_summary": "A tutorial series for building autonomous AI agents from scratch using Python. It is for developers learning agentic architectures.",
+    "problem_solved": "Learning how to build and architect autonomous AI agent systems.",
+    "use_cases": [
+      "ai agent development",
+      "learning python",
+      "llm integration"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai tutorial",
+      "build your own x"
+    ]
+  },
+  "github:withoneai/knowledge": {
+    "capability_summary": "A structured API knowledge base providing verified tool definitions for AI agents. It is for AI developers and agent builders.",
+    "problem_solved": "Providing AI agents with accurate, verified schemas for tool usage and authentication.",
+    "use_cases": [
+      "ai agent training",
+      "api integration",
+      "llm tool definition"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai knowledge base",
+      "agent tools"
+    ]
+  },
+  "github:mauriceboe/trek": {
+    "capability_summary": "A self-hosted travel planning platform with real-time collaboration and budget tracking. It is for travelers and groups.",
+    "problem_solved": "Planning trips and tracking travel budgets collaboratively.",
+    "use_cases": [
+      "travel planning",
+      "budget tracking",
+      "collaborative itinerary"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "wanderlog alternative",
+      "trip planner"
+    ]
+  },
+  "github:refloow/refloow-geo-forensics": {
+    "capability_summary": "A cross-platform desktop app for batch EXIF metadata extraction and geospatial visualization. It is for OSINT investigators.",
+    "problem_solved": "Extracting and visualizing metadata from images for digital forensics.",
+    "use_cases": [
+      "osint",
+      "digital forensics",
+      "metadata extraction",
+      "geospatial analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "exif viewer",
+      "forensics tool"
+    ]
+  },
+  "github:makalin/keyforge3d": {
+    "capability_summary": "A Python tool that uses computer vision to extract key profiles from photos and convert them into 3D-printable STL files.",
+    "problem_solved": "Physical key replication from images",
+    "use_cases": [
+      "3d-printing",
+      "hardware-hacking",
+      "security-research"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "key-replication-tool"
+    ]
+  },
+  "github:chr0nzz/traefik-manager": {
+    "capability_summary": "A web-based management interface for Traefik that allows users to configure routes and TLS settings without editing YAML files.",
+    "problem_solved": "Simplifying Traefik reverse proxy configuration",
+    "use_cases": [
+      "homelab",
+      "docker-management",
+      "reverse-proxy-ui"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "traefik-ui"
+    ]
+  },
+  "github:marswang42/orbitos": {
+    "capability_summary": "An Obsidian-integrated framework that leverages AI CLI tools to automate knowledge management and research tasks.",
+    "problem_solved": "Automating Obsidian knowledge management workflows",
+    "use_cases": [
+      "ai-automation",
+      "knowledge-management",
+      "task-planning"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-ai-plugin"
+    ]
+  },
+  "github:drakkar-software/octobot": {
+    "capability_summary": "An open-source platform for cryptocurrency trading automation, supporting AI strategies, grid trading, and DCA.",
+    "problem_solved": "Automated cryptocurrency trading",
+    "use_cases": [
+      "crypto-trading",
+      "ai-trading",
+      "backtesting",
+      "paper-trading"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "crypto-trading-bot"
+    ]
+  },
+  "github:operacle/checkcle": {
+    "capability_summary": "A self-hosted monitoring platform for infrastructure and server uptime with a modern dashboard and alerting.",
+    "problem_solved": "Monitoring infrastructure and server uptime",
+    "use_cases": [
+      "uptime-monitoring",
+      "devops",
+      "server-metrics"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "uptime-kuma-alternative"
+    ]
   }
 }
