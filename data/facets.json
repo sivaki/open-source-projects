@@ -25471,5 +25471,161 @@
       "cloud-emulator-ui",
       "local-devops-tools"
     ]
+  },
+  "github:xd-mhloo/osintgraph": {
+    "capability_summary": "An OSINT tool that scrapes Instagram data and maps social connections into a Neo4j graph database with AI analysis.",
+    "problem_solved": "Visualizing social media connections and relationships for investigation.",
+    "use_cases": [
+      "social media scraping",
+      "graph database mapping",
+      "OSINT investigation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "social graph mapper"
+    ]
+  },
+  "github:alfredredbird/tookie-osint": {
+    "capability_summary": "A command-line tool for discovering social media accounts associated with a specific username.",
+    "problem_solved": "Finding a user's presence across multiple social media platforms.",
+    "use_cases": [
+      "username enumeration",
+      "reconnaissance",
+      "OSINT"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Sherlock"
+    ]
+  },
+  "github:kiraaziz/neoflow": {
+    "capability_summary": "An open-source, collaborative whiteboard application with integrated AI features.",
+    "problem_solved": "Visual collaboration and brainstorming with AI assistance.",
+    "use_cases": [
+      "collaborative whiteboarding",
+      "AI-assisted brainstorming",
+      "visual project planning"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tldraw",
+      "Miro alternative"
+    ]
+  },
+  "github:praetorian-inc/julius": {
+    "capability_summary": "A security tool for fingerprinting and identifying LLM service infrastructure across network endpoints.",
+    "problem_solved": "Detecting and auditing exposed LLM services on a network.",
+    "use_cases": [
+      "LLM security auditing",
+      "service detection",
+      "pentesting"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LLM scanner"
+    ]
+  },
+  "github:dmytrovasin/drawpen": {
+    "capability_summary": "A cross-platform screen annotation tool for drawing and highlighting over the desktop.",
+    "problem_solved": "Adding visual annotations to screen recordings or presentations.",
+    "use_cases": [
+      "screen annotation",
+      "presentation tool",
+      "desktop highlighting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "screen marker"
+    ]
+  },
+  "github:sourcebot-dev/sourcebot": {
+    "capability_summary": "A self-hosted, AI-powered code intelligence and search platform for local repositories.",
+    "problem_solved": "Searching and querying large codebases locally with LLM assistance.",
+    "use_cases": [
+      "code search",
+      "local code intelligence",
+      "self-hosted AI"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "local code search"
+    ]
+  },
+  "github:c0m4r/kula": {
+    "capability_summary": "A lightweight Linux server monitoring tool providing real-time metrics via Web UI and TUI.",
+    "problem_solved": "Monitoring server performance and health in real-time.",
+    "use_cases": [
+      "server monitoring",
+      "observability",
+      "system metrics"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "server monitor"
+    ]
+  },
+  "github:flowful-ai/cad-skill": {
+    "capability_summary": "A Claude Code skill for generating parametric 3D models using CadQuery.",
+    "problem_solved": "Automating 3D model creation through natural language prompts.",
+    "use_cases": [
+      "3D printing",
+      "parametric design",
+      "CAD automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI CAD generator"
+    ]
   }
 }
