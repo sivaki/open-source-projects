@@ -25004,5 +25004,296 @@
     "aliases": [
       "uptime-kuma-alternative"
     ]
+  },
+  "github:ozeranskii/httptap": {
+    "capability_summary": "A CLI tool for detailed HTTP request diagnostics, timing, and TLS monitoring.",
+    "problem_solved": "Debugging and profiling HTTP network traffic.",
+    "use_cases": [
+      "network diagnostics",
+      "http profiling",
+      "slo monitoring"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "http-debugger",
+      "network-monitor"
+    ]
+  },
+  "github:franklyrocks/onlyhuman": {
+    "capability_summary": "A blocklist for uBlock Origin that filters out AI-generated SEO spam.",
+    "problem_solved": "Removing low-quality AI content from search results.",
+    "use_cases": [
+      "web filtering",
+      "seo spam blocking",
+      "privacy"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ublock-origin-filters",
+      "spam-blocker"
+    ]
+  },
+  "github:danielmiessler/personal_ai_infrastructure": {
+    "capability_summary": "An AI-powered operating system for managing personal goals, context, and workflows.",
+    "problem_solved": "Managing complex personal workflows with AI integration.",
+    "use_cases": [
+      "personal automation",
+      "ai-harness",
+      "life management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "lifeos",
+      "personal-ai"
+    ]
+  },
+  "github:trustai-laboratory/learn-prompt-hacking": {
+    "capability_summary": "Educational resources and tutorials on LLM security and adversarial machine learning.",
+    "problem_solved": "Learning how to secure LLMs against prompt injection.",
+    "use_cases": [
+      "security training",
+      "adversarial ml",
+      "prompt engineering"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "llm-security-ctf",
+      "prompt-injection-guide"
+    ]
+  },
+  "github:krau/saveany-bot": {
+    "capability_summary": "A Telegram bot that automates downloading and organizing files to various storage backends.",
+    "problem_solved": "Automating file storage from Telegram to cloud services.",
+    "use_cases": [
+      "telegram automation",
+      "file downloader",
+      "cloud storage sync"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "telegram-downloader",
+      "file-organizer"
+    ]
+  },
+  "github:bugbasesecurity/pentest-copilot": {
+    "capability_summary": "An AI-powered agentic framework for automating penetration testing tasks.",
+    "problem_solved": "Automating repetitive security testing and tool execution.",
+    "use_cases": [
+      "pentesting",
+      "security automation",
+      "burp suite integration"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "security-agent",
+      "pentest-ai"
+    ]
+  },
+  "github:bobbyiliev/introduction-to-bash-scripting": {
+    "capability_summary": "An open-source guide and ebook for learning Bash scripting and automation.",
+    "problem_solved": "Learning shell scripting for system administration.",
+    "use_cases": [
+      "devops learning",
+      "bash scripting",
+      "automation"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "bash-tutorial",
+      "devops-guide"
+    ]
+  },
+  "github:gvclab/personalive": {
+    "capability_summary": "A research framework for real-time, streamable diffusion-based portrait animation.",
+    "problem_solved": "Animating portrait images from video input.",
+    "use_cases": [
+      "video generation",
+      "talking head animation",
+      "computer vision"
+    ],
+    "project_type": "model",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "talking-head-ai",
+      "diffusion-video"
+    ]
+  },
+  "github:maksimowiczm/foodyou": {
+    "capability_summary": "A privacy-focused Android app for tracking nutrition and food intake.",
+    "problem_solved": "Tracking diet and nutrition without compromising privacy.",
+    "use_cases": [
+      "nutrition tracking",
+      "health diary",
+      "fitness"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "calorie-tracker",
+      "food-diary"
+    ]
+  },
+  "github:fabioyanezromero/knowledge-graph-builder": {
+    "capability_summary": "A CLI tool for building and visualizing knowledge graphs from text using LLMs.",
+    "problem_solved": "Extracting structured knowledge from unstructured text.",
+    "use_cases": [
+      "data pipeline",
+      "knowledge graph",
+      "nlp"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graph-builder",
+      "nlp-tool"
+    ]
+  },
+  "github:ltjed/freephdlabor": {
+    "capability_summary": "A multi-agent framework that automates the scientific research lifecycle from hypothesis to manuscript. It is designed for researchers and scientists.",
+    "problem_solved": "Automating end-to-end scientific research workflows.",
+    "use_cases": [
+      "hypothesis generation",
+      "automated experimentation",
+      "manuscript drafting"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI research assistant",
+      "scientific automation"
+    ]
+  },
+  "github:epicstaff/epicstaff": {
+    "capability_summary": "A Django-based visual orchestration platform for managing and deploying AI agent workflows. It is built for operations teams and developers.",
+    "problem_solved": "Managing complex AI agent workflows through a visual interface.",
+    "use_cases": [
+      "workflow orchestration",
+      "low-code agent management",
+      "AI operations"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "AI agent orchestrator",
+      "no-code AI workflow"
+    ]
+  },
+  "github:aweirddev/flights": {
+    "capability_summary": "A Python library that provides a strongly-typed interface for scraping Google Flights data. It is intended for developers building travel applications.",
+    "problem_solved": "Accessing flight data programmatically without an official API.",
+    "use_cases": [
+      "flight data scraping",
+      "travel automation",
+      "data pipeline integration"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Google Flights scraper",
+      "travel API wrapper"
+    ]
+  },
+  "github:copterexpress/clover": {
+    "capability_summary": "A ROS-based framework and Raspberry Pi image for controlling PX4-powered autonomous drones. It is designed for robotics developers and educators.",
+    "problem_solved": "Controlling and programming autonomous quadcopters.",
+    "use_cases": [
+      "drone control",
+      "computer vision for robotics",
+      "autonomous flight"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ROS drone framework",
+      "PX4 controller"
+    ]
+  },
+  "github:deepentropy/tvscreener": {
+    "capability_summary": "A Python library providing a fluent API for querying TradingView market data, including MCP support for AI agents. It is for financial analysts and developers.",
+    "problem_solved": "Accessing TradingView market screener data programmatically.",
+    "use_cases": [
+      "quantitative finance",
+      "market data analysis",
+      "AI agent financial tools"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "TradingView API",
+      "financial data scraper"
+    ]
   }
 }
