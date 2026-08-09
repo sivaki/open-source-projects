@@ -25295,5 +25295,181 @@
       "TradingView API",
       "financial data scraper"
     ]
+  },
+  "github:amitshekhariitbhu/llm-internals": {
+    "capability_summary": "A curated collection of educational resources explaining the internals of Large Language Models. Designed for developers and students learning AI engineering.",
+    "problem_solved": "Understanding how LLMs work under the hood",
+    "use_cases": [
+      "learning AI architecture",
+      "studying tokenization",
+      "understanding attention mechanisms"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "llm-learning-resources"
+    ]
+  },
+  "github:archestra-ai/archestra": {
+    "capability_summary": "An enterprise-grade platform providing a unified gateway for LLMs and MCP servers. Designed for organizations needing agent orchestration and security guardrails.",
+    "problem_solved": "Managing and securing AI agent infrastructure",
+    "use_cases": [
+      "mcp gateway",
+      "llm orchestration",
+      "ai agent management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "mcp-gateway",
+      "ai-orchestrator"
+    ]
+  },
+  "github:aryanguenthner/darkfox": {
+    "capability_summary": "An automated OSINT and CTI framework for dark web investigations. Designed for security researchers and forensic analysts.",
+    "problem_solved": "Automating dark web site discovery and forensic documentation",
+    "use_cases": [
+      "osint investigation",
+      "dark web monitoring",
+      "forensic documentation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dark-web-scanner",
+      "osint-tool"
+    ]
+  },
+  "github:greatscottgadgets/hackrf": {
+    "capability_summary": "An open-source software-defined radio platform for RF signal analysis. Designed for hardware engineers and security researchers.",
+    "problem_solved": "Analyzing and experimenting with radio frequency signals",
+    "use_cases": [
+      "rf signal analysis",
+      "sdr experimentation",
+      "wireless security research"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "sdr-hardware",
+      "radio-analyzer"
+    ]
+  },
+  "github:novincode/dlman": {
+    "capability_summary": "A modern, cross-platform download manager with multi-segment support. Designed for users needing automated file management.",
+    "problem_solved": "Managing complex file downloads efficiently",
+    "use_cases": [
+      "multi-segment downloading",
+      "download scheduling",
+      "cli automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "idm-alternative",
+      "download-manager"
+    ]
+  },
+  "github:ryotaushio/obsidian-pdf-plus": {
+    "capability_summary": "An Obsidian plugin for enhanced PDF viewing and annotation. Designed for researchers and students using Obsidian for knowledge management.",
+    "problem_solved": "Linking PDF annotations directly into markdown notes",
+    "use_cases": [
+      "pdf annotation",
+      "knowledge management",
+      "academic research"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-pdf-editor"
+    ]
+  },
+  "github:frappe/insights": {
+    "capability_summary": "An open-source business intelligence tool for data visualization and dashboarding. Designed for analysts and business users.",
+    "problem_solved": "Creating interactive dashboards from multiple data sources",
+    "use_cases": [
+      "business intelligence",
+      "data visualization",
+      "sql-free reporting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "bi-dashboard",
+      "metabase-alternative"
+    ]
+  },
+  "github:bountyyfi/lonkero": {
+    "capability_summary": "A high-performance web security scanner using mathematical proof-based detection. Designed for security professionals and penetration testers.",
+    "problem_solved": "Identifying web vulnerabilities like XSS and SQLi",
+    "use_cases": [
+      "web security scanning",
+      "vulnerability assessment",
+      "pentesting"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "web-vulnerability-scanner",
+      "pentest-tool"
+    ]
+  },
+  "github:floci-io/floci-ui": {
+    "capability_summary": "A local-first cloud console UI for interacting with multi-cloud emulators. Designed for DevOps engineers and cloud developers.",
+    "problem_solved": "Managing local cloud emulators with a unified interface",
+    "use_cases": [
+      "local cloud development",
+      "aws-style interface",
+      "multi-cloud emulation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cloud-emulator-ui",
+      "local-devops-tools"
+    ]
   }
 }
