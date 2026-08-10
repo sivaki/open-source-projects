@@ -26216,5 +26216,299 @@
       "usb logger",
       "macos utility"
     ]
+  },
+  "github:antirez/h3.c": {
+    "capability_summary": "A high-performance C inference engine for the MiniMax-H3 video model optimized for Apple Silicon.",
+    "problem_solved": "Running video generation models on Apple hardware.",
+    "use_cases": [
+      "video-generation",
+      "ai-inference"
+    ],
+    "project_type": "model",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "h3-inference"
+    ]
+  },
+  "github:jolehuit/clother": {
+    "capability_summary": "A Go-based CLI tool to manage and switch between various LLM providers for Claude Code.",
+    "problem_solved": "Managing multiple LLM backend configurations.",
+    "use_cases": [
+      "llm-management",
+      "developer-automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-cli-wrapper"
+    ]
+  },
+  "github:helius-finance/helius-finance-tracker": {
+    "capability_summary": "A local-first personal finance tracker with a TUI and SQLite storage.",
+    "problem_solved": "Tracking personal expenses and budgets locally.",
+    "use_cases": [
+      "budgeting",
+      "expense-tracking",
+      "finance-management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "finance-tracker",
+      "budget-tool"
+    ]
+  },
+  "github:bhj/karaokeeternal": {
+    "capability_summary": "A self-hosted karaoke party system supporting various media formats.",
+    "problem_solved": "Hosting karaoke events with local media files.",
+    "use_cases": [
+      "karaoke-system",
+      "media-server"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "karaoke-server"
+    ]
+  },
+  "github:iyear/tdl": {
+    "capability_summary": "A high-performance Telegram toolkit for downloading and managing messages.",
+    "problem_solved": "Automating Telegram data exports and downloads.",
+    "use_cases": [
+      "telegram-automation",
+      "file-downloading"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "telegram-downloader"
+    ]
+  },
+  "github:n0kovo/awesome-password-cracking": {
+    "capability_summary": "A curated collection of tools and resources for password security and cryptanalysis.",
+    "problem_solved": "Finding resources for password security research.",
+    "use_cases": [
+      "security-research",
+      "cryptanalysis",
+      "password-auditing"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "password-security-list"
+    ]
+  },
+  "github:six2dez/burp-mcp-agents": {
+    "capability_summary": "Integration guides and scripts to connect Burp Suite with AI agents via MCP.",
+    "problem_solved": "Automating security analysis in Burp Suite using AI.",
+    "use_cases": [
+      "pentesting",
+      "security-automation",
+      "ai-integration"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "burp-ai-agents"
+    ]
+  },
+  "github:growchief/growchief": {
+    "capability_summary": "An open-source platform for social media automation and outreach.",
+    "problem_solved": "Automating social media workflows and outreach.",
+    "use_cases": [
+      "social-media-automation",
+      "outreach-tools"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "social-automation-platform"
+    ]
+  },
+  "github:rixinhahaha/snip": {
+    "capability_summary": "An Electron-based tool to render diagrams and annotations from AI agent output.",
+    "problem_solved": "Visualizing AI agent outputs like diagrams and code previews.",
+    "use_cases": [
+      "ai-visualization",
+      "developer-tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-diagram-tool"
+    ]
+  },
+  "github:mem9-ai/mem9": {
+    "capability_summary": "A persistent memory layer for AI agents to store and retrieve data across runtimes.",
+    "problem_solved": "Lack of shared memory between different AI agent runtimes.",
+    "use_cases": [
+      "ai-memory",
+      "agent-persistence"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-memory-layer"
+    ]
+  },
+  "github:atlekbai/ghpdf": {
+    "capability_summary": "A CLI tool that converts Markdown files into PDFs using GitHub-style formatting.",
+    "problem_solved": "Converting documentation to PDF while maintaining GitHub styling.",
+    "use_cases": [
+      "markdown-to-pdf",
+      "documentation-export",
+      "bulk-file-conversion"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "markdown-converter"
+    ]
+  },
+  "github:pixijs/pixijs-skills": {
+    "capability_summary": "A library of AI agent skills for PixiJS v8 to assist developers with 2D rendering tasks.",
+    "problem_solved": "Providing AI coding assistants with context for PixiJS development.",
+    "use_cases": [
+      "ai-coding-assistance",
+      "2d-rendering-automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pixijs-ai-tools"
+    ]
+  },
+  "github:mengmouxu/scenegen": {
+    "capability_summary": "A PyTorch framework that generates 3D scenes from single images.",
+    "problem_solved": "Creating 3D environments from 2D images in a single pass.",
+    "use_cases": [
+      "3d-scene-generation",
+      "image-to-3d",
+      "computer-vision"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3d-aigc"
+    ]
+  },
+  "github:tobi/audioprioritybar": {
+    "capability_summary": "A macOS menu bar utility that automatically switches audio devices based on priority.",
+    "problem_solved": "Manual audio device switching.",
+    "use_cases": [
+      "audio-automation",
+      "device-management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "audio-switcher"
+    ]
+  },
+  "github:andyrewlee/awesome-agent-orchestrators": {
+    "capability_summary": "A curated list of tools and frameworks for managing multiple AI coding agents.",
+    "problem_solved": "Finding tools to coordinate multi-agent AI workflows.",
+    "use_cases": [
+      "ai-agent-orchestration",
+      "multi-agent-systems",
+      "ai-coding-workflow"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "ai-agent-tools"
+    ]
+  },
+  "github:nutlope/ai-subtitles": {
+    "capability_summary": "A Next.js app that uses AI to generate, style, and burn subtitles into videos.",
+    "problem_solved": "Automating the subtitle creation and burning process for videos.",
+    "use_cases": [
+      "video-transcription",
+      "subtitle-generation",
+      "video-editing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "subtitle-generator"
+    ]
+  },
+  "github:jieyab89/osint-cheat-sheet": {
+    "capability_summary": "A comprehensive collection of OSINT tools, datasets, and methodologies for investigators.",
+    "problem_solved": "Locating resources for open-source intelligence gathering.",
+    "use_cases": [
+      "cybersecurity-research",
+      "reconnaissance",
+      "investigation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint-wiki",
+      "security-cheatsheet"
+    ]
   }
 }
