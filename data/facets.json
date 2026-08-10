@@ -25856,5 +25856,365 @@
       "rdiff-backup web interface",
       "self-hosted backup tool"
     ]
+  },
+  "github:smythos/smythos-studio": {
+    "capability_summary": "A visual, drag-and-drop builder for creating and orchestrating AI agent workflows. It is designed for developers and non-coders looking to automate tasks.",
+    "problem_solved": "Simplifies building and deploying complex AI agent workflows without writing extensive code.",
+    "use_cases": [
+      "workflow automation",
+      "ai agent orchestration",
+      "no-code development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "n8n-alternative"
+    ]
+  },
+  "github:calesthio/crucix": {
+    "capability_summary": "A self-hosted OSINT dashboard that aggregates global data sources into a 3D visualization. It is intended for researchers and security analysts.",
+    "problem_solved": "Centralizes disparate global data streams into a single, actionable intelligence dashboard.",
+    "use_cases": [
+      "osint monitoring",
+      "flight tracking",
+      "real-time event visualization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:firecrawl/web-agent": {
+    "capability_summary": "An open-source framework for building autonomous web research agents. It is designed for developers building data extraction pipelines.",
+    "problem_solved": "Automates the process of navigating the web and extracting structured data.",
+    "use_cases": [
+      "web scraping",
+      "autonomous research",
+      "data extraction"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "langchain-agent"
+    ]
+  },
+  "github:quickemu-project/quickemu": {
+    "capability_summary": "A CLI wrapper for QEMU that simplifies creating and managing optimized virtual machines. It is for Linux users needing to run other OSs.",
+    "problem_solved": "Removes the complexity of configuring QEMU for running virtual machines.",
+    "use_cases": [
+      "virtualization",
+      "running windows on linux",
+      "macos testing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "qemu-wrapper"
+    ]
+  },
+  "github:buildplan/du_setup": {
+    "capability_summary": "A Bash script that automates the initial security hardening and configuration of Debian and Ubuntu servers. It is for sysadmins.",
+    "problem_solved": "Reduces manual effort and human error in securing new server deployments.",
+    "use_cases": [
+      "server hardening",
+      "vps security",
+      "automated setup"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:m98/fluent": {
+    "capability_summary": "A plugin for Claude Code that turns the CLI into a language tutor using spaced repetition. It is for language learners.",
+    "problem_solved": "Integrates language learning into the developer workflow using active recall.",
+    "use_cases": [
+      "language learning",
+      "spaced repetition",
+      "cli productivity"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:ai-for-developers/awesome-ai-coding-tools": {
+    "capability_summary": "A curated directory of AI-powered coding tools, agents, and IDE extensions. It is for developers exploring AI integration.",
+    "problem_solved": "Helps developers discover and compare AI tools for their coding workflow.",
+    "use_cases": [
+      "tool discovery",
+      "ai development research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list"
+    ]
+  },
+  "github:y0oshi/project-deep-focus": {
+    "capability_summary": "A high-performance, asynchronous network reconnaissance engine for service discovery and auditing. It is for security professionals.",
+    "problem_solved": "Automates network scanning and service fingerprinting for red team operations.",
+    "use_cases": [
+      "network scanning",
+      "reconnaissance",
+      "security auditing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "port-scanner"
+    ]
+  },
+  "github:delftopenhardware/awesome-open-hardware": {
+    "capability_summary": "A curated list of open-source hardware projects and resources. It is for makers and homelab enthusiasts.",
+    "problem_solved": "Provides a central resource for finding open-source hardware designs and platforms.",
+    "use_cases": [
+      "homelab",
+      "hardware design",
+      "maker projects"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list"
+    ]
+  },
+  "github:gooseworks-ai/goose-skills": {
+    "capability_summary": "A library of 200+ automation skills for AI coding agents like Claude Code and Cursor. It is for developers automating business tasks.",
+    "problem_solved": "Extends the capabilities of AI coding agents to handle marketing and business operations.",
+    "use_cases": [
+      "seo automation",
+      "lead generation",
+      "social media management"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-skills"
+    ]
+  },
+  "github:taubyte/tau": {
+    "capability_summary": "A distributed, serverless cloud-native platform for building and managing fullstack applications using WebAssembly. It is designed for developers seeking a self-hosted alternative to traditional PaaS.",
+    "problem_solved": "Simplifying deployment of distributed serverless applications.",
+    "use_cases": [
+      "serverless computing",
+      "webassembly deployment",
+      "cloud-native infrastructure",
+      "distributed systems"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "PaaS",
+      "serverless platform"
+    ]
+  },
+  "github:insta360-research-team/dap": {
+    "capability_summary": "A foundation model for panoramic depth estimation in computer vision tasks. It is intended for AI researchers and developers working with 360-degree imagery.",
+    "problem_solved": "Estimating depth from panoramic images.",
+    "use_cases": [
+      "computer vision",
+      "panoramic imaging",
+      "depth estimation",
+      "ai research"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "depth estimation model"
+    ]
+  },
+  "github:maxteabag/sqlit": {
+    "capability_summary": "A keyboard-driven TUI for managing and querying various SQL and cloud databases. It serves as a lightweight alternative to heavy GUI database clients.",
+    "problem_solved": "Managing multiple database types from the command line.",
+    "use_cases": [
+      "database management",
+      "sql querying",
+      "tui productivity"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "sql client",
+      "database manager"
+    ]
+  },
+  "github:krlvm/powertunnel-android": {
+    "capability_summary": "An Android proxy server that uses DPI circumvention to bypass internet censorship. It is designed for users needing privacy and access to restricted content.",
+    "problem_solved": "Bypassing internet censorship on mobile devices.",
+    "use_cases": [
+      "censorship circumvention",
+      "privacy",
+      "proxy server"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "anti-censorship",
+      "dpi bypass"
+    ]
+  },
+  "github:biolab/orange3": {
+    "capability_summary": "A visual programming-based toolbox for data mining and machine learning. It is designed for data scientists and analysts who prefer visual workflows over coding.",
+    "problem_solved": "Performing data analysis and machine learning without writing code.",
+    "use_cases": [
+      "data mining",
+      "machine learning",
+      "data visualization",
+      "visual programming"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "data science tool",
+      "visual machine learning"
+    ]
+  },
+  "github:builtbybel/flyoobe": {
+    "capability_summary": "A utility for bypassing Windows 11 hardware requirements and customizing the installation experience. It is intended for system administrators and power users.",
+    "problem_solved": "Bypassing Windows 11 installation restrictions.",
+    "use_cases": [
+      "windows automation",
+      "sysadmin",
+      "os installation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "windows 11 bypass",
+      "oobe customizer"
+    ]
+  },
+  "github:qonfused/osx-hyper-v": {
+    "capability_summary": "A collection of OpenCore configurations and tools to run macOS as a virtual machine on Windows using Hyper-V. It is for users wanting to run macOS on non-Apple hardware.",
+    "problem_solved": "Running macOS in a virtual machine on Windows.",
+    "use_cases": [
+      "virtualization",
+      "hackintosh",
+      "macos development"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "hackintosh",
+      "macos vm"
+    ]
+  },
+  "github:kyrolabs/awesome-agents": {
+    "capability_summary": "A curated list of open-source frameworks and tools for building AI agents. It is a resource for developers exploring AI automation.",
+    "problem_solved": "Finding tools for building AI agents.",
+    "use_cases": [
+      "ai development",
+      "agentic workflows",
+      "automation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "ai agent frameworks"
+    ]
+  },
+  "github:tencentarc/versecrafter": {
+    "capability_summary": "A research-grade framework for controllable video generation using 4D geometric control. It is designed for AI researchers working with generative video models.",
+    "problem_solved": "Controllable video generation.",
+    "use_cases": [
+      "video generation",
+      "ai research",
+      "generative models"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "video generation ai"
+    ]
+  },
+  "github:rafaelswi/menubarusb": {
+    "capability_summary": "A lightweight macOS menu bar utility that monitors and logs USB device connections. It is for users needing to troubleshoot or manage hardware peripherals.",
+    "problem_solved": "Monitoring USB device connectivity on macOS.",
+    "use_cases": [
+      "usb monitoring",
+      "hardware troubleshooting",
+      "device management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "usb logger",
+      "macos utility"
+    ]
   }
 }
