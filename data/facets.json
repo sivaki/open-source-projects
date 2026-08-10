@@ -25627,5 +25627,234 @@
     "aliases": [
       "AI CAD generator"
     ]
+  },
+  "github:skyfay/skysend": {
+    "capability_summary": "A secure, zero-knowledge platform for sharing files and notes. Designed for users prioritizing privacy and self-hosting.",
+    "problem_solved": "Securely sharing sensitive files without third-party cloud storage.",
+    "use_cases": [
+      "file sharing",
+      "note sharing",
+      "private data storage"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "encrypted file transfer",
+      "self-hosted dropbox"
+    ]
+  },
+  "github:alvinreal/awesome-openclaw-tips": {
+    "capability_summary": "A curated collection of best practices and configuration patterns for the OpenClaw AI agent framework. For developers building reliable AI agents.",
+    "problem_solved": "Optimizing OpenClaw agent reliability and cost management.",
+    "use_cases": [
+      "AI agent configuration",
+      "automation patterns",
+      "LLM architecture"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OpenClaw guide",
+      "AI agent best practices"
+    ]
+  },
+  "github:nvk/llm-wiki": {
+    "capability_summary": "A knowledge management framework for AI agents to compile wikis and perform research. For developers building agentic workflows.",
+    "problem_solved": "Managing structured memory and research data for AI agents.",
+    "use_cases": [
+      "knowledge management",
+      "agentic research",
+      "wiki compilation"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent memory",
+      "agentic wiki"
+    ]
+  },
+  "github:fredolx/open-tv": {
+    "capability_summary": "A high-performance IPTV player supporting M3U/Xtream sources and recording. For users wanting a desktop media streaming experience.",
+    "problem_solved": "Watching and recording IPTV streams on a desktop computer.",
+    "use_cases": [
+      "IPTV streaming",
+      "media playback",
+      "live TV recording"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "IPTV player",
+      "media streamer"
+    ]
+  },
+  "github:memovai/mimiclaw": {
+    "capability_summary": "Lightweight firmware for ESP32-S3 microcontrollers enabling a persistent AI assistant via Telegram. For IoT and home-lab enthusiasts.",
+    "problem_solved": "Running a persistent AI assistant on low-power embedded hardware.",
+    "use_cases": [
+      "IoT automation",
+      "edge AI",
+      "embedded assistant"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ESP32 AI",
+      "edge AI agent"
+    ]
+  },
+  "github:harry-kp/vortix": {
+    "capability_summary": "A terminal-based interface for managing WireGuard and OpenVPN connections with real-time telemetry. For power users and network administrators.",
+    "problem_solved": "Managing VPN connections and monitoring network security in the terminal.",
+    "use_cases": [
+      "VPN management",
+      "network security",
+      "traffic monitoring"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "VPN TUI",
+      "WireGuard manager"
+    ]
+  },
+  "github:shashankvemuri/finance": {
+    "capability_summary": "A collection of Python scripts for quantitative finance, including stock data analysis and algorithmic trading. For data scientists and traders.",
+    "problem_solved": "Automating financial data analysis and quantitative trading strategies.",
+    "use_cases": [
+      "algorithmic trading",
+      "stock market analysis",
+      "quantitative finance"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "quant finance scripts",
+      "trading bot tools"
+    ]
+  },
+  "github:ynulihao/agentskillos": {
+    "capability_summary": "A framework for composing and orchestrating AI agent skills into complex workflows using a DAG approach. For AI developers.",
+    "problem_solved": "Orchestrating complex multi-step AI agent workflows.",
+    "use_cases": [
+      "AI orchestration",
+      "agent skill composition",
+      "workflow automation"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent OS",
+      "agent workflow engine"
+    ]
+  },
+  "github:nutlope/llamatutor": {
+    "capability_summary": "An AI-powered personal tutor application using Llama 3.1 and Exa search. For students and lifelong learners.",
+    "problem_solved": "Providing personalized AI-driven educational tutoring.",
+    "use_cases": [
+      "AI tutoring",
+      "personalized learning",
+      "educational app"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI tutor",
+      "Llama 3.1 app"
+    ]
+  },
+  "github:lifecycle-innovations-limited/claude-ops": {
+    "capability_summary": "A business operating system plugin for Claude Code that integrates DevOps, revenue tracking, and agentic automation. For business owners and DevOps engineers.",
+    "problem_solved": "Unifying business operations and infrastructure monitoring within a terminal dashboard.",
+    "use_cases": [
+      "DevOps automation",
+      "revenue tracking",
+      "business operations"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code plugin",
+      "DevOps agent"
+    ]
+  },
+  "github:tzachbon/smart-ralph": {
+    "capability_summary": "An AI agent plugin for Claude Code that automates spec-driven development workflows. It helps developers break down feature requests into actionable tasks and documentation.",
+    "problem_solved": "Automating the translation of high-level feature requests into structured code execution.",
+    "use_cases": [
+      "spec-driven development",
+      "automated task breakdown",
+      "AI-assisted coding workflow"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code plugin",
+      "autonomous coding agent"
+    ]
+  },
+  "github:ikus060/minarca": {
+    "capability_summary": "A self-hosted backup management solution providing a web interface for rdiff-backup. It enables centralized data protection across multiple operating systems.",
+    "problem_solved": "Managing and monitoring distributed backups through a unified web interface.",
+    "use_cases": [
+      "automated backups",
+      "data management",
+      "self-hosted backup server"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "rdiff-backup web interface",
+      "self-hosted backup tool"
+    ]
   }
 }
