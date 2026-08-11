@@ -26795,5 +26795,279 @@
       "game-boy-emulator",
       "static-recompiler"
     ]
+  },
+  "github:bert-mccutchen/oak": {
+    "capability_summary": "A customizable, mobile-friendly dashboard for managing self-hosted applications and bookmarks. It is designed for homelab enthusiasts.",
+    "problem_solved": "Centralizing access to self-hosted services and bookmarks.",
+    "use_cases": [
+      "startpage",
+      "homelab dashboard",
+      "bookmark management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Flame",
+      "homepage"
+    ]
+  },
+  "github:dicklesworthstone/claude_code_agent_farm": {
+    "capability_summary": "An orchestration framework that manages multiple parallel Claude Code agents within tmux sessions. It is built for developers automating codebase tasks.",
+    "problem_solved": "Managing multiple AI coding agents simultaneously for complex tasks.",
+    "use_cases": [
+      "codebase automation",
+      "bug fixing",
+      "enforcing best practices"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code",
+      "AI agent orchestration"
+    ]
+  },
+  "github:zetavg/inventory": {
+    "capability_summary": "A React Native application that integrates with RFID UHF readers to track physical inventory. It is intended for asset management.",
+    "problem_solved": "Tracking physical assets using RFID technology.",
+    "use_cases": [
+      "inventory management",
+      "asset tracking",
+      "RFID scanning"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "asset management app"
+    ]
+  },
+  "github:oqura-ai/deepdoc": {
+    "capability_summary": "A local RAG-based research tool using LangGraph agents to analyze documents and create markdown reports. Built for researchers.",
+    "problem_solved": "Analyzing local documents and generating structured research reports.",
+    "use_cases": [
+      "RAG research",
+      "document analysis",
+      "automated reporting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "deep research",
+      "local RAG"
+    ]
+  },
+  "github:mixedbread-ai/mgrep": {
+    "capability_summary": "A semantic, CLI-native search tool for querying codebases, PDFs, and images. Designed for developers optimizing AI agent token usage.",
+    "problem_solved": "Searching through large codebases and files using natural language.",
+    "use_cases": [
+      "semantic search",
+      "codebase exploration",
+      "AI agent context preparation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "semantic grep",
+      "AI search"
+    ]
+  },
+  "github:kenforthewin/atomic": {
+    "capability_summary": "A self-hosted, AI-augmented knowledge base that organizes markdown notes into a semantic graph. Built for personal knowledge management.",
+    "problem_solved": "Organizing and synthesizing information from markdown notes.",
+    "use_cases": [
+      "knowledge management",
+      "semantic note organization",
+      "AI-powered synthesis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "PKM",
+      "knowledge base"
+    ]
+  },
+  "github:zilliztech/deep-searcher": {
+    "capability_summary": "An open-source framework for building agentic RAG systems that perform deep research on private data. Designed for developers.",
+    "problem_solved": "Building automated research systems over private datasets.",
+    "use_cases": [
+      "agentic RAG",
+      "deep research",
+      "vector database integration"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "agentic RAG",
+      "deep research framework"
+    ]
+  },
+  "github:hql287/manta": {
+    "capability_summary": "A privacy-focused desktop invoicing application for freelancers. It provides simple document generation without complex accounting.",
+    "problem_solved": "Generating professional invoices as a freelancer.",
+    "use_cases": [
+      "invoicing",
+      "freelance billing",
+      "receipt generation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "invoice generator",
+      "freelance tools"
+    ]
+  },
+  "github:alvinunreal/awesome-autoresearch": {
+    "capability_summary": "A curated collection of autonomous research agents and self-improvement loops. Designed for researchers and AI enthusiasts.",
+    "problem_solved": "Finding tools and frameworks for autonomous research agents.",
+    "use_cases": [
+      "AI research",
+      "autonomous agents",
+      "experiment-driven development"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "AI agents"
+    ]
+  },
+  "github:amalshaji/portr": {
+    "capability_summary": "A self-hostable tunneling tool using SSH remote port forwarding to expose local services. Built for developers.",
+    "problem_solved": "Exposing local services to the internet securely.",
+    "use_cases": [
+      "tunneling",
+      "reverse proxy",
+      "local development"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ngrok alternative",
+      "SSH tunnel"
+    ]
+  },
+  "github:thejoefin/text-grab": {
+    "capability_summary": "A local-first OCR tool for Windows that extracts text from screen regions, images, and PDFs.",
+    "problem_solved": "Extracting text from non-selectable screen areas or images.",
+    "use_cases": [
+      "screen-to-text",
+      "image-to-text",
+      "pdf-text-extraction",
+      "productivity-automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ocr-tool",
+      "screen-grabber"
+    ]
+  },
+  "github:allweonedev/presentation-ai": {
+    "capability_summary": "An open-source, self-hostable AI presentation generator that creates slides using local or cloud LLMs.",
+    "problem_solved": "Automating slide deck creation without relying on proprietary SaaS platforms.",
+    "use_cases": [
+      "presentation-generation",
+      "slide-deck-creation",
+      "ai-content-generation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "gamma-alternative",
+      "ppt-generator"
+    ]
+  },
+  "github:zjunlp/skillnet": {
+    "capability_summary": "An infrastructure framework for managing, discovering, and orchestrating reusable AI agent skills.",
+    "problem_solved": "Standardizing and versioning skills for AI agents to improve interoperability.",
+    "use_cases": [
+      "ai-agent-orchestration",
+      "skill-management",
+      "llm-workflow-automation"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "agent-skill-registry",
+      "ai-infrastructure"
+    ]
+  },
+  "github:nozwock/packet": {
+    "capability_summary": "A Linux client for Google's Quick Share protocol enabling wireless file transfers between Android and Linux.",
+    "problem_solved": "Transferring files wirelessly between Android devices and Linux desktops.",
+    "use_cases": [
+      "file-transfer",
+      "cross-device-sharing",
+      "android-to-linux-sync"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "quick-share-client",
+      "nearby-share-linux"
+    ]
   }
 }
