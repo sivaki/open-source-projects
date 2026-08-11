@@ -27069,5 +27069,334 @@
       "quick-share-client",
       "nearby-share-linux"
     ]
+  },
+  "github:l1ad/claude-task-viewer": {
+    "capability_summary": "A dashboard for monitoring Claude Code agent sessions with Kanban and Gantt views. Designed for developers managing AI agent workflows.",
+    "problem_solved": "Lack of visibility into AI agent task progress and dependencies.",
+    "use_cases": [
+      "kanban boards",
+      "gantt charts",
+      "ai agent monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-dashboard"
+    ]
+  },
+  "github:arman-bd/guppylm": {
+    "capability_summary": "A minimalist educational implementation of a transformer model. Designed for students and researchers learning LLM architecture.",
+    "problem_solved": "Complexity of understanding end-to-end transformer training.",
+    "use_cases": [
+      "llm education",
+      "transformer training",
+      "machine learning research"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm-from-scratch"
+    ]
+  },
+  "github:crbnos/carbon": {
+    "capability_summary": "An open-source ERP, MES, and QMS platform for manufacturing. Designed for industrial business management.",
+    "problem_solved": "Need for a modern, modular manufacturing management system.",
+    "use_cases": [
+      "erp",
+      "manufacturing execution",
+      "quality management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "open-source-erp"
+    ]
+  },
+  "github:matrixorigin/memoria": {
+    "capability_summary": "A version-controlled memory layer for AI agents using the MatrixOne database. Designed for developers building persistent AI agents.",
+    "problem_solved": "Lack of versioning and auditing for AI agent context and memory.",
+    "use_cases": [
+      "ai agent memory",
+      "database versioning",
+      "agent auditing"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "git-for-ai-memory"
+    ]
+  },
+  "github:ai4scientist/nano-scientist": {
+    "capability_summary": "An autonomous research agent that handles literature reviews and report generation. Designed for academic and scientific researchers.",
+    "problem_solved": "Manual overhead in conducting research and writing reports.",
+    "use_cases": [
+      "autonomous research",
+      "literature review",
+      "latex report generation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-scientist"
+    ]
+  },
+  "github:killbill/killbill": {
+    "capability_summary": "A modular, open-source subscription billing and payment platform. Designed for businesses replacing SaaS billing providers.",
+    "problem_solved": "High cost and vendor lock-in of third-party billing SaaS.",
+    "use_cases": [
+      "subscription billing",
+      "payment processing",
+      "fintech"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "stripe-alternative"
+    ]
+  },
+  "github:tibixdev/winboat": {
+    "capability_summary": "A containerized solution for running Windows applications on Linux. Designed for users needing cross-platform desktop integration.",
+    "problem_solved": "Running Windows-only software on Linux environments.",
+    "use_cases": [
+      "virtualization",
+      "windows on linux",
+      "docker desktop"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "wine-alternative"
+    ]
+  },
+  "github:husamql3/db-studio": {
+    "capability_summary": "A lightweight, universal database management studio. Designed for developers needing a quick UI for database administration.",
+    "problem_solved": "Heavy and complex database management tools.",
+    "use_cases": [
+      "database management",
+      "sql administration",
+      "dbms"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pgadmin-alternative",
+      "drizzle-studio"
+    ]
+  },
+  "github:almondgod/tinyworlds": {
+    "capability_summary": "A minimal implementation of DeepMind's Genie architecture for world models. Designed for machine learning researchers.",
+    "problem_solved": "Difficulty in implementing autoregressive world models from scratch.",
+    "use_cases": [
+      "generative models",
+      "world models",
+      "video data training"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "genie-architecture"
+    ]
+  },
+  "github:moizibnyousaf/ai-agent-skills": {
+    "capability_summary": "A CLI/TUI tool for managing and installing skills for AI coding agents. Designed for developers using agents like Claude Code.",
+    "problem_solved": "Difficulty in discovering and organizing agent capabilities.",
+    "use_cases": [
+      "ai agent management",
+      "developer productivity",
+      "automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "agent-skill-manager"
+    ]
+  },
+  "github:davidmonterocrespo24/velxio": {
+    "capability_summary": "A browser-based and self-hostable emulator for Arduino, ESP32, and Raspberry Pi hardware prototyping.",
+    "problem_solved": "Simulate complex electronic circuits without physical hardware.",
+    "use_cases": [
+      "hardware prototyping",
+      "circuit simulation",
+      "embedded development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker",
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "wokwi alternative"
+    ]
+  },
+  "github:simoneavogadro/android-reverse-engineering-skill": {
+    "capability_summary": "A Claude Code skill that automates Android APK decompilation and reverse engineering tasks.",
+    "problem_solved": "Automate tedious Android reverse engineering workflows.",
+    "use_cases": [
+      "apk decompilation",
+      "api extraction",
+      "security analysis"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skill"
+    ]
+  },
+  "github:bayramannakov/claude-reflect": {
+    "capability_summary": "A Claude Code plugin that captures user corrections to improve AI performance over time.",
+    "problem_solved": "Improve long-term AI context and workflow accuracy.",
+    "use_cases": [
+      "ai memory",
+      "productivity automation",
+      "llm workflow optimization"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-plugin"
+    ]
+  },
+  "github:gsync/jobsync": {
+    "capability_summary": "A self-hosted job application tracker that uses AI to analyze resumes and generate cover letters.",
+    "problem_solved": "Manage and automate the job application process.",
+    "use_cases": [
+      "job hunting",
+      "resume analysis",
+      "application tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ats",
+      "job-tracker"
+    ]
+  },
+  "github:bobbyiliev/101-linux-commands": {
+    "capability_summary": "An educational resource providing a curated list of 101 essential Linux commands.",
+    "problem_solved": "Learn essential Linux command line operations.",
+    "use_cases": [
+      "linux education",
+      "sysadmin reference",
+      "cli learning"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "linux-cheat-sheet"
+    ]
+  },
+  "github:lenochxd/webdeck": {
+    "capability_summary": "A Flask-based application that turns any browser-enabled device into a remote control interface.",
+    "problem_solved": "Create a free alternative to hardware stream decks.",
+    "use_cases": [
+      "remote control",
+      "touchscreen interface",
+      "productivity automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "streamdeck-alternative"
+    ]
+  },
+  "github:vicioussquid/fio": {
+    "capability_summary": "A lightweight Python-based level editor and procedural engine for low-power hardware.",
+    "problem_solved": "Develop games with procedural generation on low-power devices.",
+    "use_cases": [
+      "game development",
+      "procedural generation",
+      "level design"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "game-engine"
+    ]
+  },
+  "github:numman-ali/openskills": {
+    "capability_summary": "A CLI tool that enables AI coding agents to use the SKILL.md format for modular skill loading.",
+    "problem_solved": "Standardize skill loading across different AI coding agents.",
+    "use_cases": [
+      "ai agent automation",
+      "developer tools",
+      "llm integration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-tools"
+    ]
   }
 }
