@@ -26510,5 +26510,290 @@
       "osint-wiki",
       "security-cheatsheet"
     ]
+  },
+  "github:dalibo/pev2": {
+    "capability_summary": "A visualization tool for PostgreSQL execution plans that helps developers optimize database queries.",
+    "problem_solved": "Visualizing complex SQL query execution plans",
+    "use_cases": [
+      "database performance tuning",
+      "query optimization",
+      "postgresql analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "postgres explain visualizer"
+    ]
+  },
+  "github:mnemon-dev/mnemon": {
+    "capability_summary": "A CLI tool providing persistent, graph-based memory for LLM agents.",
+    "problem_solved": "Lack of long-term memory in LLM agents",
+    "use_cases": [
+      "ai agent memory",
+      "knowledge graph management",
+      "llm context persistence"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai memory manager",
+      "llm knowledge graph"
+    ]
+  },
+  "github:danielrosehill/awesome-obsidian-ai-tools": {
+    "capability_summary": "A curated directory of Obsidian plugins for integrating AI into knowledge management.",
+    "problem_solved": "Finding relevant AI plugins for Obsidian",
+    "use_cases": [
+      "obsidian productivity",
+      "ai integration",
+      "knowledge management"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian ai directory"
+    ]
+  },
+  "github:mrdbourke/pytorch-deep-learning": {
+    "capability_summary": "A comprehensive educational resource for learning PyTorch and deep learning workflows.",
+    "problem_solved": "Learning PyTorch and deep learning from scratch",
+    "use_cases": [
+      "machine learning education",
+      "pytorch tutorials",
+      "deep learning training"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "pytorch course",
+      "deep learning guide"
+    ]
+  },
+  "github:chirpz-ai/pandaprobe": {
+    "capability_summary": "An observability and evaluation platform for AI agents to track performance and metrics.",
+    "problem_solved": "Monitoring and evaluating AI agent behavior",
+    "use_cases": [
+      "agent observability",
+      "llm tracing",
+      "ai evaluation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "llm observability",
+      "agent monitoring"
+    ]
+  },
+  "github:atiilla/geointel": {
+    "capability_summary": "An automated OSINT tool that uses Gemini AI to perform geolocation analysis on images.",
+    "problem_solved": "Automating image geolocation for OSINT investigations",
+    "use_cases": [
+      "osint",
+      "geolocation",
+      "image analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint geolocation tool"
+    ]
+  },
+  "github:razerofficial/aikit": {
+    "capability_summary": "A containerized environment for local LLM inference, fine-tuning, and GPU orchestration.",
+    "problem_solved": "Setting up complex local AI development environments",
+    "use_cases": [
+      "llm fine-tuning",
+      "local inference",
+      "mlops"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "local llm stack",
+      "ai development environment"
+    ]
+  },
+  "github:jaybizzle/crawler-detect": {
+    "capability_summary": "A PHP library for identifying bots, crawlers, and spiders via HTTP headers.",
+    "problem_solved": "Filtering bot traffic from web applications",
+    "use_cases": [
+      "bot detection",
+      "web security",
+      "traffic analysis"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "bot detector",
+      "crawler identification"
+    ]
+  },
+  "github:vscodev/neokikoeru": {
+    "capability_summary": "A self-hosted media server for managing and streaming DLsite voice works.",
+    "problem_solved": "Organizing and streaming specific voice media collections",
+    "use_cases": [
+      "media server",
+      "asmr streaming",
+      "self-hosted media"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "dlsite media server"
+    ]
+  },
+  "github:xataio/xata": {
+    "capability_summary": "A cloud-native Postgres platform for Kubernetes offering branching and automated management.",
+    "problem_solved": "Managing Postgres databases at scale on Kubernetes",
+    "use_cases": [
+      "database management",
+      "kubernetes infrastructure",
+      "postgres branching"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "postgres on kubernetes",
+      "database as a service"
+    ]
+  },
+  "github:ai-boost/awesome-a2a": {
+    "capability_summary": "A curated collection of resources for the Agent2Agent (A2A) protocol. It helps developers implement interoperability standards for AI agents.",
+    "problem_solved": "Finding resources for AI agent-to-agent communication protocols.",
+    "use_cases": [
+      "agent interoperability",
+      "protocol research",
+      "AI automation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "agent-protocol"
+    ]
+  },
+  "github:docmd-io/docmd": {
+    "capability_summary": "An AI-native static site generator for documentation that integrates RAG and semantic search. It is built for developers creating LLM-friendly documentation.",
+    "problem_solved": "Building documentation sites that are optimized for AI context and semantic search.",
+    "use_cases": [
+      "documentation hosting",
+      "semantic search",
+      "RAG-ready docs"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "static-site-generator",
+      "docs-as-code"
+    ]
+  },
+  "github:thomvaill/log4brains": {
+    "capability_summary": "A docs-as-code tool for managing Architecture Decision Records (ADRs). It provides a CLI for creation and generates a static site for publishing.",
+    "problem_solved": "Tracking and publishing architectural decisions in a project.",
+    "use_cases": [
+      "architecture documentation",
+      "ADR management",
+      "knowledge base"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "adr-manager",
+      "docs-as-code"
+    ]
+  },
+  "github:iyadhkhalfallah/clauditor": {
+    "capability_summary": "A CLI utility that monitors token usage and manages session handoffs for Claude Code. It helps developers avoid quota exhaustion.",
+    "problem_solved": "Managing and optimizing token consumption for Claude Code sessions.",
+    "use_cases": [
+      "token optimization",
+      "Claude Code management",
+      "cost control"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-tooling",
+      "token-manager"
+    ]
+  },
+  "github:arcanite24/gb-recompiled": {
+    "capability_summary": "A static recompiler that converts Game Boy and Game Boy Color ROMs into native C code. It enables high-performance execution of retro games.",
+    "problem_solved": "Running Game Boy ROMs as native C applications.",
+    "use_cases": [
+      "retro gaming",
+      "emulation",
+      "ROM recompilation"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "game-boy-emulator",
+      "static-recompiler"
+    ]
   }
 }
