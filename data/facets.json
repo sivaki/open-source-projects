@@ -27666,5 +27666,353 @@
       "cpp-reference",
       "cpp-algorithms-book"
     ]
+  },
+  "github:nicolargo/glances": {
+    "capability_summary": "A cross-platform system monitoring tool providing real-time performance tracking via TUI, web dashboard, and API.",
+    "problem_solved": "Need to monitor system resources and performance across different platforms.",
+    "use_cases": [
+      "system monitoring",
+      "performance tracking",
+      "server dashboard",
+      "remote monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "htop",
+      "netdata"
+    ]
+  },
+  "github:oven-sh/awesome-bun": {
+    "capability_summary": "A curated list of resources, frameworks, and tools for the Bun JavaScript runtime.",
+    "problem_solved": "Need to discover tools and libraries for the Bun ecosystem.",
+    "use_cases": [
+      "resource discovery",
+      "learning bun",
+      "development tools"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list"
+    ]
+  },
+  "github:gautamkrishnar/nothing-private": {
+    "capability_summary": "A proof-of-concept demonstrating how browser fingerprinting can track users across incognito sessions.",
+    "problem_solved": "Need to understand and demonstrate privacy risks of browser fingerprinting.",
+    "use_cases": [
+      "security research",
+      "privacy testing",
+      "proof-of-concept"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "fingerprinting-demo"
+    ]
+  },
+  "github:conduitplatform/conduit": {
+    "capability_summary": "A self-hosted, modular backend-as-a-service platform for rapid API and database development.",
+    "problem_solved": "Need a self-hosted alternative to Firebase for backend services.",
+    "use_cases": [
+      "backend development",
+      "api generation",
+      "database management",
+      "authentication"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "firebase-alternative",
+      "baas"
+    ]
+  },
+  "github:hughkli/lookin": {
+    "capability_summary": "A macOS application for inspecting and modifying iOS UI components in real-time.",
+    "problem_solved": "Need to debug and inspect iOS application user interfaces.",
+    "use_cases": [
+      "ios debugging",
+      "ui inspection",
+      "mobile development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "reveal-alternative"
+    ]
+  },
+  "github:0xmr007/lab4purplesec": {
+    "capability_summary": "A modular Purple Team homelab environment for automating security training and infrastructure deployment.",
+    "problem_solved": "Need a pre-configured environment for security training and red/blue team exercises.",
+    "use_cases": [
+      "cybersecurity training",
+      "homelab",
+      "siem testing",
+      "active directory testing"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cybersecurity-lab"
+    ]
+  },
+  "github:ominousindustries/phonedriver": {
+    "capability_summary": "An automation agent that uses vision models to control Android devices via ADB.",
+    "problem_solved": "Need to automate tasks on Android devices using natural language.",
+    "use_cases": [
+      "android automation",
+      "llm integration",
+      "vision-language-model"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "adb-automation"
+    ]
+  },
+  "github:pranavp10/video-compress": {
+    "capability_summary": "A web-based tool that uses FFmpeg to compress videos locally in the browser.",
+    "problem_solved": "Need to compress video files without uploading them to a server.",
+    "use_cases": [
+      "video compression",
+      "video transcoding",
+      "web tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ffmpeg-web"
+    ]
+  },
+  "github:eldavoo/wa-crypt-tools": {
+    "capability_summary": "A CLI suite for decrypting and encrypting WhatsApp backup files.",
+    "problem_solved": "Need to recover or manage local WhatsApp backup data.",
+    "use_cases": [
+      "data recovery",
+      "whatsapp forensics",
+      "backup management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "whatsapp-decryptor"
+    ]
+  },
+  "github:awesome-scripts/awesome-userscripts": {
+    "capability_summary": "A curated list of userscripts for enhancing browser functionality and privacy.",
+    "problem_solved": "Need to find scripts to automate or improve web browsing experiences.",
+    "use_cases": [
+      "browser automation",
+      "privacy tools",
+      "productivity"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "greasemonkey-scripts",
+      "tampermonkey-scripts"
+    ]
+  },
+  "github:minthcm/minthcm": {
+    "capability_summary": "An AI-native Human Capital Management platform for HR teams to manage recruitment, onboarding, and workforce workflows.",
+    "problem_solved": "Automating HR and workforce management tasks via self-hosted AI agents.",
+    "use_cases": [
+      "leave management",
+      "recruitment",
+      "onboarding",
+      "time tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "SuiteCRM",
+      "HRIS"
+    ]
+  },
+  "github:jingsongliujing/onnxocr": {
+    "capability_summary": "A high-performance OCR and document analysis toolkit using ONNXRuntime for text recognition and table extraction.",
+    "problem_solved": "Extracting structured text and data from documents locally.",
+    "use_cases": [
+      "text recognition",
+      "table extraction",
+      "license plate recognition"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OCR",
+      "document analysis"
+    ]
+  },
+  "github:ogkalu2/comic-translate": {
+    "capability_summary": "An AI-powered tool that automates the translation, text detection, and inpainting of comics and manga.",
+    "problem_solved": "Translating foreign language comics while maintaining original artwork layout.",
+    "use_cases": [
+      "manga translation",
+      "comic localization",
+      "image inpainting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "browser-extension",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "manga translator",
+      "comic localizer"
+    ]
+  },
+  "github:ivanceras/svgbob": {
+    "capability_summary": "A CLI tool that converts ASCII art diagrams into professional SVG files.",
+    "problem_solved": "Creating clean diagrams from simple text-based ASCII art.",
+    "use_cases": [
+      "documentation",
+      "diagramming",
+      "technical writing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ASCII to SVG",
+      "diagram generator"
+    ]
+  },
+  "github:yefga/switzy": {
+    "capability_summary": "A macOS menu bar utility for managing multiple Git identities and SSH configurations.",
+    "problem_solved": "Switching between personal and work Git profiles efficiently.",
+    "use_cases": [
+      "git profile management",
+      "ssh config switching"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "git manager",
+      "ssh manager"
+    ]
+  },
+  "github:opnform/opnform": {
+    "capability_summary": "An open-source, self-hostable form builder for creating custom forms and collecting data.",
+    "problem_solved": "Replacing paid form services like Typeform with a self-hosted solution.",
+    "use_cases": [
+      "form building",
+      "data collection",
+      "surveys"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Typeform alternative",
+      "Google Forms alternative"
+    ]
+  },
+  "github:samwillis/solidtype": {
+    "capability_summary": "A collaborative, parametric CAD platform featuring real-time synchronization and AI-assisted modeling.",
+    "problem_solved": "Building collaborative 3D modeling tools with real-time sync.",
+    "use_cases": [
+      "CAD",
+      "3D modeling",
+      "collaborative design"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "CAD platform",
+      "3D modeling tool"
+    ]
+  },
+  "github:renatoworks/3dsvg": {
+    "capability_summary": "A React library and editor for converting 2D SVGs into interactive 3D components.",
+    "problem_solved": "Adding 3D interactivity to web-based SVG graphics.",
+    "use_cases": [
+      "web development",
+      "3D visualization",
+      "interactive graphics"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "SVG to 3D",
+      "Three.js component"
+    ]
   }
 }
