@@ -28014,5 +28014,313 @@
       "SVG to 3D",
       "Three.js component"
     ]
+  },
+  "github:minsang-alt/pasteclip": {
+    "capability_summary": "A lightweight clipboard manager for macOS that prioritizes local-only privacy.",
+    "problem_solved": "Managing clipboard history securely on macOS.",
+    "use_cases": [
+      "clipboard history",
+      "productivity utility"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "clipboard manager"
+    ]
+  },
+  "github:textualize/frogmouth": {
+    "capability_summary": "A terminal-based Markdown browser that provides a GUI-like experience for reading documentation.",
+    "problem_solved": "Viewing Markdown files directly in the terminal.",
+    "use_cases": [
+      "markdown viewer",
+      "documentation reader",
+      "terminal utility"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "markdown browser",
+      "tui markdown viewer"
+    ]
+  },
+  "github:ashish0kumar/windots": {
+    "capability_summary": "A collection of configuration files to customize Windows 11 to resemble a tiling window manager.",
+    "problem_solved": "Customizing Windows 11 for a Unix-like tiling workflow.",
+    "use_cases": [
+      "windows ricing",
+      "dotfiles management",
+      "desktop customization"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "windows dotfiles",
+      "windows ricing"
+    ]
+  },
+  "github:openvglab/omnilottie": {
+    "capability_summary": "A multi-modal generative AI model that creates Lottie vector animations from text, image, or video prompts.",
+    "problem_solved": "Generating vector animations from multimodal inputs.",
+    "use_cases": [
+      "generative animation",
+      "lottie creation",
+      "vector graphics"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "ai animation generator"
+    ]
+  },
+  "github:bernaferrari/figmatocode": {
+    "capability_summary": "A Figma plugin that converts design elements into framework-specific code without external API calls.",
+    "problem_solved": "Converting design mockups to frontend code.",
+    "use_cases": [
+      "figma to react",
+      "figma to flutter",
+      "codegen",
+      "ui development"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "figma plugin",
+      "design to code"
+    ]
+  },
+  "github:sudhakar3697/awesome-electron-alternatives": {
+    "capability_summary": "A curated list of frameworks and tools for building cross-platform desktop applications without Electron.",
+    "problem_solved": "Finding lightweight or alternative desktop app development frameworks.",
+    "use_cases": [
+      "desktop app development",
+      "cross-platform development"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome list",
+      "electron alternatives"
+    ]
+  },
+  "github:tracefinity/tracefinity": {
+    "capability_summary": "A self-hosted tool that uses computer vision to trace tool outlines for 3D-printable Gridfinity storage.",
+    "problem_solved": "Creating custom storage inserts for tools.",
+    "use_cases": [
+      "3d printing",
+      "gridfinity",
+      "computer vision",
+      "self-hosted automation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "gridfinity generator"
+    ]
+  },
+  "github:xororz/local-dream": {
+    "capability_summary": "An Android application that runs Stable Diffusion inference locally using NPU acceleration.",
+    "problem_solved": "Running generative AI models on mobile devices.",
+    "use_cases": [
+      "stable diffusion",
+      "on-device ai",
+      "image generation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "stable diffusion android"
+    ]
+  },
+  "github:mendrik-private/sqv": {
+    "capability_summary": "A keyboard-first, TUI-based SQLite database viewer with virtual scrolling and editing capabilities.",
+    "problem_solved": "Browsing and editing SQLite databases in the terminal.",
+    "use_cases": [
+      "sqlite viewer",
+      "database management",
+      "tui tool"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "sqlite tui",
+      "database browser"
+    ]
+  },
+  "github:unchihugo/fluentflyout": {
+    "capability_summary": "A modern, open-source replacement for Windows 11 system flyouts using Fluent 2 design principles.",
+    "problem_solved": "Customizing Windows 11 system UI elements.",
+    "use_cases": [
+      "windows customization",
+      "ui replacement",
+      "system utility"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "windows flyout replacement"
+    ]
+  },
+  "github:remnawave/panel": {
+    "capability_summary": "A management dashboard for Xray-core proxies to help users bypass censorship and manage network traffic.",
+    "problem_solved": "Simplifies deployment and administration of censorship-resistant proxy protocols.",
+    "use_cases": [
+      "proxy management",
+      "censorship circumvention",
+      "network traffic routing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "xray-panel",
+      "proxy-manager"
+    ]
+  },
+  "github:aetherinox/ntfy-desktop": {
+    "capability_summary": "A desktop client for the ntfy push notification service that runs in the background.",
+    "problem_solved": "Receiving push notifications without keeping a browser tab open.",
+    "use_cases": [
+      "push notifications",
+      "desktop alerts",
+      "self-hosted messaging"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ntfy-client"
+    ]
+  },
+  "github:nab138/iloader": {
+    "capability_summary": "A GUI tool for sideloading iOS applications and managing device pairing files.",
+    "problem_solved": "Simplifies the process of installing third-party apps on iOS devices.",
+    "use_cases": [
+      "ios sideloading",
+      "idevice management",
+      "app installation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ios-sideload-tool"
+    ]
+  },
+  "github:martichou/rquickshare": {
+    "capability_summary": "A cross-platform implementation of Android's Quick Share protocol for desktop operating systems.",
+    "problem_solved": "Enables seamless file transfers between mobile and desktop devices.",
+    "use_cases": [
+      "file transfer",
+      "nearby share",
+      "cross-device sharing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "android",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "nearby-share-desktop"
+    ]
+  },
+  "github:fengzeng/soia": {
+    "capability_summary": "A high-performance media player built on mpv that supports network streaming protocols.",
+    "problem_solved": "Playing media files directly from network storage like WebDAV, DLNA, and SMB.",
+    "use_cases": [
+      "media streaming",
+      "video playback",
+      "network storage player"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mpv-player",
+      "network-media-player"
+    ]
+  },
+  "github:gitbrent/pptxgenjs": {
+    "capability_summary": "A JavaScript library for programmatically generating PowerPoint presentations.",
+    "problem_solved": "Automating the creation of PPTX files in web and Node.js environments.",
+    "use_cases": [
+      "data export",
+      "report generation",
+      "presentation automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "powerpoint-generator"
+    ]
   }
 }
