@@ -27398,5 +27398,273 @@
     "aliases": [
       "ai-agent-tools"
     ]
+  },
+  "github:firecrawl/open-agent-builder": {
+    "capability_summary": "A visual, no-code workflow builder for AI agents that integrates web scraping and orchestration.",
+    "problem_solved": "Simplifies building complex AI agent workflows without writing code.",
+    "use_cases": [
+      "ai-agents",
+      "web-scraping",
+      "workflow-automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "langgraph-builder",
+      "no-code-ai"
+    ]
+  },
+  "github:projectphysx/hw-smi": {
+    "capability_summary": "A cross-platform CLI tool for monitoring CPU and GPU telemetry with ASCII visualization.",
+    "problem_solved": "Provides vendor-agnostic hardware monitoring across different GPU manufacturers.",
+    "use_cases": [
+      "gpu-monitoring",
+      "hardware-telemetry",
+      "system-monitoring"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "htop-for-gpus",
+      "gpu-monitor"
+    ]
+  },
+  "github:sdk445/hmon": {
+    "capability_summary": "A fast, terminal-based system monitor for tracking CPU, GPU, memory, and Docker containers.",
+    "problem_solved": "Provides real-time system resource insights in a lightweight terminal interface.",
+    "use_cases": [
+      "system-monitoring",
+      "docker-monitoring",
+      "resource-management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "system-monitor",
+      "htop-alternative"
+    ]
+  },
+  "github:jakejarvis/awesome-shodan-queries": {
+    "capability_summary": "A curated collection of Shodan search queries for security research and network reconnaissance.",
+    "problem_solved": "Helps security researchers find exposed IoT and industrial systems efficiently.",
+    "use_cases": [
+      "security-research",
+      "network-reconnaissance",
+      "iot-security"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "shodan-dorks",
+      "security-scanner-queries"
+    ]
+  },
+  "github:nguyenphutrong/quotio": {
+    "capability_summary": "A native macOS menu bar app that acts as a proxy and dashboard for AI coding assistants.",
+    "problem_solved": "Manages AI usage quotas and provides failover for multiple coding assistants.",
+    "use_cases": [
+      "ai-proxy",
+      "quota-tracking",
+      "developer-tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-manager",
+      "llm-proxy"
+    ]
+  },
+  "github:blackcandy-org/blackcandy": {
+    "capability_summary": "A self-hosted music streaming server with a web interface and mobile companion apps.",
+    "problem_solved": "Enables users to host and stream their own music library.",
+    "use_cases": [
+      "music-streaming",
+      "self-hosted-media"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "ios",
+      "android",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "self-hosted-spotify",
+      "music-server"
+    ]
+  },
+  "github:rffrasca/pdfkeeper": {
+    "capability_summary": "A Windows-based document management system for organizing PDFs with OCR and SQL support.",
+    "problem_solved": "Centralizes and makes PDF documents searchable through OCR and database indexing.",
+    "use_cases": [
+      "document-management",
+      "ocr",
+      "pdf-archiving"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pdf-manager",
+      "document-database"
+    ]
+  },
+  "github:devtechjr/turboquant-gpu": {
+    "capability_summary": "A library for LLM inference that optimizes memory usage via KV cache compression.",
+    "problem_solved": "Reduces memory overhead during large language model inference.",
+    "use_cases": [
+      "llm-inference",
+      "model-optimization"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm-optimizer",
+      "kv-cache-compression"
+    ]
+  },
+  "github:kdlbs/kandev": {
+    "capability_summary": "A self-hostable AI agent orchestration platform integrated with Kanban task management.",
+    "problem_solved": "Provides a unified workspace for managing AI-driven development workflows.",
+    "use_cases": [
+      "agentic-ai",
+      "task-management",
+      "code-review"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-kanban",
+      "agent-orchestrator"
+    ]
+  },
+  "github:xgboosted/pandas-ta-classic": {
+    "capability_summary": "A Python library for technical analysis that extends Pandas with over 280 financial indicators.",
+    "problem_solved": "Provides financial analysis tools without requiring complex C-based dependencies.",
+    "use_cases": [
+      "data-science",
+      "finance",
+      "technical-analysis"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pandas-ta",
+      "financial-indicators"
+    ]
+  },
+  "github:imxv/pretty-mermaid-skills": {
+    "capability_summary": "A tool for rendering Mermaid diagrams into SVG or ASCII formats. It is designed for developers integrating diagram generation into AI workflows or CLI pipelines.",
+    "problem_solved": "Automating the conversion of Mermaid syntax into visual or text-based diagrams.",
+    "use_cases": [
+      "AI coding assistant integration",
+      "CLI diagram generation",
+      "documentation automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mermaid-to-svg",
+      "diagram-automation"
+    ]
+  },
+  "github:alyssaxuu/flowy": {
+    "capability_summary": "A lightweight JavaScript library for creating drag-and-drop flowchart interfaces. It is intended for developers building automation builders or visual workflow tools.",
+    "problem_solved": "Building custom drag-and-drop flowchart UIs without heavy dependencies.",
+    "use_cases": [
+      "automation builders",
+      "visual workflow editors",
+      "marketing automation tools"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "flowchart-engine",
+      "drag-and-drop-ui"
+    ]
+  },
+  "github:izwi-ai/izwi": {
+    "capability_summary": "A local-first voice AI runtime providing speech-to-text, text-to-speech, and voice cloning. It is designed for developers needing private, self-hosted voice processing.",
+    "problem_solved": "Running voice AI tasks locally with an OpenAI-compatible API.",
+    "use_cases": [
+      "speech-to-text",
+      "text-to-speech",
+      "voice cloning",
+      "speaker diarization"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "local-voice-ai",
+      "self-hosted-asr",
+      "self-hosted-tts"
+    ]
+  },
+  "github:happycerberus/book-cpp-algorithms": {
+    "capability_summary": "An open-source educational book covering Standard C++ algorithms and C++20 features. It is intended for C++ developers seeking a reference for modern algorithm implementation.",
+    "problem_solved": "Learning and referencing modern C++ algorithms and ranges.",
+    "use_cases": [
+      "programming education",
+      "C++ reference",
+      "algorithm study"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "cpp-reference",
+      "cpp-algorithms-book"
+    ]
   }
 }
