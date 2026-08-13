@@ -28602,5 +28602,371 @@
     "aliases": [
       "invoice-generator"
     ]
+  },
+  "github:cowtoolz/webcamize": {
+    "capability_summary": "A CLI tool that allows external cameras to function as webcams on Linux systems.",
+    "problem_solved": "Using professional cameras as webcams on Linux.",
+    "use_cases": [
+      "DSLR webcam",
+      "video streaming",
+      "hardware automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "v4l2loopback manager"
+    ]
+  },
+  "github:mudler/edgevpn": {
+    "capability_summary": "A decentralized, serverless p2p VPN and reverse proxy for secure networking.",
+    "problem_solved": "Creating secure tunnels without central infrastructure.",
+    "use_cases": [
+      "p2p networking",
+      "secure tunneling",
+      "mesh networks"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "p2p vpn",
+      "mesh vpn"
+    ]
+  },
+  "github:guhcostan/mac-cleaner-cli": {
+    "capability_summary": "An interactive CLI tool to remove junk files and development artifacts from macOS.",
+    "problem_solved": "Cleaning up disk space on macOS.",
+    "use_cases": [
+      "cache cleanup",
+      "disk management",
+      "node_modules removal"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mac cleaner",
+      "disk space utility"
+    ]
+  },
+  "github:kovacsv/online3dviewer": {
+    "capability_summary": "A web-based viewer and converter for various 3D and CAD file formats.",
+    "problem_solved": "Viewing 3D models in a browser without specialized software.",
+    "use_cases": [
+      "3d visualization",
+      "cad file conversion",
+      "model preview"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3d model viewer",
+      "cad viewer"
+    ]
+  },
+  "github:octelium/octelium": {
+    "capability_summary": "A self-hosted zero-trust platform integrating VPN, ZTNA, and API gateway services.",
+    "problem_solved": "Managing secure remote access and infrastructure in a single tool.",
+    "use_cases": [
+      "zero trust access",
+      "api gateway",
+      "homelab security"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ztna platform",
+      "self-hosted vpn"
+    ]
+  },
+  "github:eduard256/strix": {
+    "capability_summary": "A utility for discovering IP cameras and generating configuration files for NVR software.",
+    "problem_solved": "Automating the setup of IP cameras for Frigate and go2rtc.",
+    "use_cases": [
+      "cctv discovery",
+      "nvr configuration",
+      "home automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ip camera discovery"
+    ]
+  },
+  "github:ggerganov/ggwave": {
+    "capability_summary": "A C++ library for transmitting data between devices using sound waves.",
+    "problem_solved": "Data transfer in air-gapped environments or IoT pairing.",
+    "use_cases": [
+      "data-over-sound",
+      "iot pairing",
+      "ultrasound communication"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "data over sound",
+      "acoustic modem"
+    ]
+  },
+  "github:davidvkimball/vaultcms": {
+    "capability_summary": "A tool that integrates Obsidian as a headless CMS for Astro projects.",
+    "problem_solved": "Using Obsidian as a content management system for websites.",
+    "use_cases": [
+      "headless cms",
+      "obsidian automation",
+      "static site content"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian cms",
+      "astro cms"
+    ]
+  },
+  "github:spupuz/vibenvr": {
+    "capability_summary": "A containerized NVR with AI object detection and privacy-focused local storage.",
+    "problem_solved": "Self-hosting a private video surveillance system.",
+    "use_cases": [
+      "video surveillance",
+      "ai object detection",
+      "nvr"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "self-hosted nvr",
+      "ai surveillance"
+    ]
+  },
+  "github:amebalabs/trex": {
+    "capability_summary": "A macOS utility for offline OCR and text extraction from screen areas.",
+    "problem_solved": "Extracting text from images or screen content quickly.",
+    "use_cases": [
+      "ocr",
+      "text recognition",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mac ocr",
+      "text extractor"
+    ]
+  },
+  "github:itsowen/cyberscraper-2077": {
+    "capability_summary": "An AI-powered web scraping tool that uses LLMs to extract data from websites with stealth features.",
+    "problem_solved": "Automating complex data extraction from websites using AI.",
+    "use_cases": [
+      "web scraping",
+      "data extraction",
+      "automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm-scraper",
+      "ai-scraper"
+    ]
+  },
+  "github:withoneai/cli": {
+    "capability_summary": "A CLI proxy that allows AI agents to interact with hundreds of third-party APIs without manual OAuth management.",
+    "problem_solved": "Simplifying API authentication for AI agents.",
+    "use_cases": [
+      "ai agent integration",
+      "api automation",
+      "workflow orchestration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-proxy",
+      "mcp-client"
+    ]
+  },
+  "github:algorithmicsuperintelligence/openevolve": {
+    "capability_summary": "An evolutionary coding agent framework that uses LLMs to autonomously discover and optimize algorithms.",
+    "problem_solved": "Automated algorithm optimization and discovery.",
+    "use_cases": [
+      "gpu kernel optimization",
+      "mathematical function discovery",
+      "coding agents"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "alpha-evolve",
+      "genetic-algorithm-agent"
+    ]
+  },
+  "github:shaynep/local-voice-ai": {
+    "capability_summary": "A containerized local voice assistant that orchestrates speech-to-text, LLM, and text-to-speech services.",
+    "problem_solved": "Building a private, self-hosted voice AI assistant.",
+    "use_cases": [
+      "voice-ai",
+      "stt",
+      "tts",
+      "self-hosted assistant"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "voice-assistant",
+      "livekit-agent"
+    ]
+  },
+  "github:infatoshi/cuda-course": {
+    "capability_summary": "An educational repository focused on teaching CUDA programming and GPU kernel optimization.",
+    "problem_solved": "Learning high-performance GPU programming.",
+    "use_cases": [
+      "cuda learning",
+      "gpu optimization",
+      "deep learning infrastructure"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cuda-tutorial",
+      "gpu-programming-course"
+    ]
+  },
+  "github:b16f00t/whapa": {
+    "capability_summary": "A forensic toolset for parsing, decrypting, and analyzing WhatsApp databases from mobile devices.",
+    "problem_solved": "Extracting and analyzing WhatsApp data for forensics.",
+    "use_cases": [
+      "forensics",
+      "data analysis",
+      "whatsapp decryption"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "android",
+      "ios",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "whatsapp-forensics",
+      "whatsapp-parser"
+    ]
+  },
+  "github:bee-san/rustscan": {
+    "capability_summary": "A high-performance port scanner that integrates with Nmap for rapid network reconnaissance.",
+    "problem_solved": "Slow network port scanning.",
+    "use_cases": [
+      "network scanning",
+      "pentesting",
+      "reconnaissance"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "port-scanner",
+      "nmap-accelerator"
+    ]
+  },
+  "github:celestoai/smolvm": {
+    "capability_summary": "Infrastructure for running AI agents in isolated microVMs to ensure secure execution.",
+    "problem_solved": "Securing AI agent execution environments.",
+    "use_cases": [
+      "ai agent sandbox",
+      "virtualization",
+      "secure execution"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "agent-sandbox",
+      "microvm-agent"
+    ]
+  },
+  "github:mxrch/ghunt": {
+    "capability_summary": "An OSINT framework designed to gather information on Google accounts and related services.",
+    "problem_solved": "Gathering OSINT data on Google accounts.",
+    "use_cases": [
+      "osint",
+      "security research",
+      "google account analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "google-osint",
+      "account-recon"
+    ]
   }
 }
