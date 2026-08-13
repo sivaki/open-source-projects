@@ -28322,5 +28322,285 @@
     "aliases": [
       "powerpoint-generator"
     ]
+  },
+  "github:zidoro/pomatez": {
+    "capability_summary": "A cross-platform Pomodoro timer for desktop users that includes task management and strict focus modes.",
+    "problem_solved": "Managing focus and work intervals using the Pomodoro technique.",
+    "use_cases": [
+      "time management",
+      "productivity tracking",
+      "focus timer"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pomodoro timer",
+      "productivity app"
+    ]
+  },
+  "github:watzon/pindrop": {
+    "capability_summary": "A native macOS menu bar app that provides private, offline speech-to-text dictation using local AI models.",
+    "problem_solved": "Need for private, offline voice-to-text dictation on macOS.",
+    "use_cases": [
+      "speech-to-text",
+      "dictation",
+      "privacy-focused tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "whisperkit",
+      "voice dictation"
+    ]
+  },
+  "github:eliasdabbas/advertools": {
+    "capability_summary": "A Python library for digital marketing automation, SEO analysis, and data wrangling.",
+    "problem_solved": "Automating repetitive digital marketing and SEO data tasks.",
+    "use_cases": [
+      "seo analysis",
+      "marketing automation",
+      "web scraping",
+      "data wrangling"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "seo tools",
+      "marketing library"
+    ]
+  },
+  "github:rossant/awesome-math": {
+    "capability_summary": "A curated collection of high-quality mathematics learning resources, lecture notes, and computational tools.",
+    "problem_solved": "Finding reliable and high-quality mathematics educational materials.",
+    "use_cases": [
+      "mathematics learning",
+      "educational resources",
+      "reference material"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "math resources",
+      "awesome list"
+    ]
+  },
+  "github:dominux/pentaract": {
+    "capability_summary": "A self-hosted cloud storage solution that utilizes the Telegram API as a backend for file storage.",
+    "problem_solved": "Bypassing traditional storage limits by using Telegram as a cloud drive.",
+    "use_cases": [
+      "self-hosted storage",
+      "cloud storage",
+      "file management"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "telegram storage",
+      "cloud drive"
+    ]
+  },
+  "github:gommzystudio/device-activity-tracker": {
+    "capability_summary": "A security research tool that tracks device activity states in WhatsApp and Signal using RTT analysis.",
+    "problem_solved": "Demonstrating privacy vulnerabilities in messaging apps via delivery receipt analysis.",
+    "use_cases": [
+      "security research",
+      "privacy analysis",
+      "osint"
+    ],
+    "project_type": "app",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "privacy research",
+      "security tool"
+    ]
+  },
+  "github:visualbruno/comfyui-trellis2": {
+    "capability_summary": "A ComfyUI node wrapper for Microsoft's Trellis.2 to enable 3D mesh generation and texturing.",
+    "problem_solved": "Integrating advanced 3D generative AI workflows into ComfyUI.",
+    "use_cases": [
+      "3d generation",
+      "generative ai",
+      "mesh processing"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "comfyui nodes",
+      "3d ai"
+    ]
+  },
+  "github:lorien/awesome-web-scraping": {
+    "capability_summary": "A comprehensive, curated list of web scraping libraries, frameworks, and tools across multiple languages.",
+    "problem_solved": "Finding the right tools for web crawling and data extraction projects.",
+    "use_cases": [
+      "web scraping",
+      "data extraction",
+      "web crawling"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "scraping tools",
+      "awesome list"
+    ]
+  },
+  "github:antoniorodr/cronboard": {
+    "capability_summary": "A terminal-based TUI dashboard for managing and monitoring local and remote cron jobs.",
+    "problem_solved": "Managing and monitoring scheduled cron jobs from the terminal.",
+    "use_cases": [
+      "cron management",
+      "devops monitoring",
+      "tui dashboard"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cron manager",
+      "tui app"
+    ]
+  },
+  "github:valuecell-ai/valuecell": {
+    "capability_summary": "A multi-agent platform for financial research and automated trading using LLMs.",
+    "problem_solved": "Automating financial research and trading strategies with AI agents.",
+    "use_cases": [
+      "financial research",
+      "automated trading",
+      "agentic ai"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai trading",
+      "financial agents"
+    ]
+  },
+  "github:mobai-app/ios-builder": {
+    "capability_summary": "A CLI tool that enables iOS builds on non-macOS hardware by offloading to GitHub Actions and remote simulators.",
+    "problem_solved": "Building iOS apps without owning a Mac.",
+    "use_cases": [
+      "ios development",
+      "ci/cd automation",
+      "remote build pipelines"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "ios",
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "ios-builder"
+    ]
+  },
+  "github:ente-io/ente": {
+    "capability_summary": "An end-to-end encrypted platform for storing photos and 2FA tokens securely.",
+    "problem_solved": "Need for a private, secure alternative to Google Photos and Authy.",
+    "use_cases": [
+      "photo storage",
+      "2fa management",
+      "secure document storage"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "android",
+      "web",
+      "cross-platform"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "google-photos-alternative",
+      "authy-alternative"
+    ]
+  },
+  "github:wkentaro/gdown": {
+    "capability_summary": "A CLI tool and library to download files from Google Drive, bypassing virus warnings and URL complexity.",
+    "problem_solved": "Difficulty downloading large files from Google Drive via command line.",
+    "use_cases": [
+      "file downloading",
+      "automation scripts",
+      "data scraping"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "google-drive-downloader"
+    ]
+  },
+  "github:5rahim/seanime": {
+    "capability_summary": "A self-hosted media server for managing and streaming anime and manga libraries.",
+    "problem_solved": "Managing and organizing anime/manga collections with torrent integration.",
+    "use_cases": [
+      "media server",
+      "anime library management",
+      "manga reader"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cross-platform",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "anime-media-server"
+    ]
+  },
+  "github:vladsez/easy-invoice-pdf": {
+    "capability_summary": "A client-side invoice generator that runs in the browser to ensure financial data privacy.",
+    "problem_solved": "Generating invoices without uploading sensitive data to third-party servers.",
+    "use_cases": [
+      "invoice generation",
+      "fintech",
+      "document creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "invoice-generator"
+    ]
   }
 }
