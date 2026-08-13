@@ -28968,5 +28968,278 @@
       "google-osint",
       "account-recon"
     ]
+  },
+  "github:dwarvesf/hidden": {
+    "capability_summary": "A macOS utility to hide and organize menu bar icons for a cleaner workspace.",
+    "problem_solved": "Cluttered macOS menu bar",
+    "use_cases": [
+      "menu bar organization",
+      "desktop productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "menu bar cleaner"
+    ]
+  },
+  "github:resumex/doom-over-dns": {
+    "capability_summary": "A proof-of-concept demonstrating how to run the Doom game engine via DNS TXT records.",
+    "problem_solved": "Executing code over DNS protocols",
+    "use_cases": [
+      "security research",
+      "network protocol experimentation"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "doom over dns"
+    ]
+  },
+  "github:khairul169/garage-webui": {
+    "capability_summary": "A web-based management interface for the Garage distributed object storage system.",
+    "problem_solved": "Managing Garage S3 storage via command line",
+    "use_cases": [
+      "bucket management",
+      "storage health monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "garage s3 gui"
+    ]
+  },
+  "github:linwooddev/butterfly": {
+    "capability_summary": "A cross-platform note-taking and drawing application with WebDAV sync support.",
+    "problem_solved": "Fragmented note-taking across devices",
+    "use_cases": [
+      "note-taking",
+      "digital drawing",
+      "document synchronization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android",
+      "linux",
+      "windows",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "onenote alternative"
+    ]
+  },
+  "github:peternaame-boop/ytm-player": {
+    "capability_summary": "A terminal-based YouTube Music client with vim-style keybindings and synced lyrics.",
+    "problem_solved": "Lack of native terminal YouTube Music player",
+    "use_cases": [
+      "music streaming",
+      "terminal productivity"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "youtube music tui"
+    ]
+  },
+  "github:sahandsafizadeh/qeep": {
+    "capability_summary": "A deep learning framework for Go featuring tensors and CUDA acceleration.",
+    "problem_solved": "Lack of native deep learning tools in Go",
+    "use_cases": [
+      "neural network development",
+      "tensor computation"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "go deep learning"
+    ]
+  },
+  "github:idoka/awesome-canbus": {
+    "capability_summary": "A curated list of resources for CAN bus reverse engineering and automotive security.",
+    "problem_solved": "Finding automotive security and CAN bus tools",
+    "use_cases": [
+      "automotive security research",
+      "reverse engineering"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "car hacking resources"
+    ]
+  },
+  "github:brkgng/scrollsnap": {
+    "capability_summary": "A macOS utility for capturing and stitching scrolling screenshots.",
+    "problem_solved": "Capturing long scrolling content on macOS",
+    "use_cases": [
+      "screenshot stitching",
+      "web page capture"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "scrolling screenshot tool"
+    ]
+  },
+  "github:chartgpu/chartgpu": {
+    "capability_summary": "A high-performance WebGPU charting library for large datasets and real-time dashboards.",
+    "problem_solved": "Slow rendering of large datasets in web charts",
+    "use_cases": [
+      "financial charting",
+      "real-time data visualization"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "webgpu charts"
+    ]
+  },
+  "github:marvinvr/docktail": {
+    "capability_summary": "A tool that automatically exposes Docker containers as Tailscale services via labels.",
+    "problem_solved": "Exposing Docker containers to Tailscale network",
+    "use_cases": [
+      "homelab networking",
+      "container automation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "tailscale docker proxy"
+    ]
+  },
+  "github:trykimu/videoeditor": {
+    "capability_summary": "An open-source, AI-powered video editing platform built with React and Remotion. It is designed for creators who want a self-hostable alternative to commercial tools.",
+    "problem_solved": "Need for a customizable, self-hosted video editing environment.",
+    "use_cases": [
+      "video editing",
+      "ai-assisted content creation",
+      "self-hosted creative tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "canva alternative",
+      "capcut alternative"
+    ]
+  },
+  "github:wildminder/awesome-ai-voice": {
+    "capability_summary": "A curated collection of open-source models and tools for text-to-speech, voice cloning, and audio generation. It serves as a directory for developers and researchers.",
+    "problem_solved": "Difficulty finding high-quality open-source voice and audio AI models.",
+    "use_cases": [
+      "text-to-speech",
+      "voice cloning",
+      "audio generation",
+      "music generation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tts list",
+      "voice cloning resources"
+    ]
+  },
+  "github:mindee/doctr": {
+    "capability_summary": "A high-performance deep learning library for optical character recognition (OCR) in documents. It supports both PyTorch and TensorFlow backends for text detection and recognition.",
+    "problem_solved": "Need for accurate, automated text extraction from documents.",
+    "use_cases": [
+      "document processing",
+      "text detection",
+      "text recognition",
+      "ocr automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ocr library",
+      "document recognition"
+    ]
+  },
+  "github:mnh-jansson/open-battery-information": {
+    "capability_summary": "A hardware-software toolkit for resetting and repairing locked Battery Management Systems (BMS) using Arduino. It aims to reduce electronic waste through repairability.",
+    "problem_solved": "Locked battery management systems preventing hardware repair.",
+    "use_cases": [
+      "hardware repair",
+      "bms reset",
+      "sustainability",
+      "electronic waste reduction"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "bms repair",
+      "battery hacking"
+    ]
+  },
+  "github:ksimback/tech-debt-skill": {
+    "capability_summary": "A Claude Code skill that automates technical debt audits by combining static analysis and architectural review. It provides file-cited reports for developers.",
+    "problem_solved": "Identifying and documenting technical debt in a codebase.",
+    "use_cases": [
+      "code quality analysis",
+      "refactoring",
+      "technical debt audit",
+      "codebase maintenance"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude code skill",
+      "code audit tool"
+    ]
   }
 }
