@@ -29241,5 +29241,313 @@
       "claude code skill",
       "code audit tool"
     ]
+  },
+  "github:blackprint/blackprint": {
+    "capability_summary": "A visual programming framework for building node-based logic flows. It allows developers to export and execute logic in browsers or Node.js.",
+    "problem_solved": "Simplifying complex logic creation through visual node-based interfaces.",
+    "use_cases": [
+      "visual programming",
+      "automation workflows",
+      "low-code logic"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "node-red",
+      "visual-flow"
+    ]
+  },
+  "github:ys-l/csvlens": {
+    "capability_summary": "A high-performance terminal-based CSV viewer. It provides an interface similar to 'less' for large data files.",
+    "problem_solved": "Viewing and searching massive CSV files in the terminal without loading them into memory.",
+    "use_cases": [
+      "data processing",
+      "csv analysis",
+      "terminal utilities"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "less",
+      "csv-viewer"
+    ]
+  },
+  "github:meigen-ai/posterreward": {
+    "capability_summary": "A reward model framework for evaluating the aesthetic and technical quality of AI-generated posters.",
+    "problem_solved": "Automating the quality assessment of AI-generated graphic design.",
+    "use_cases": [
+      "ai evaluation",
+      "graphic design",
+      "computer vision"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-evaluator",
+      "aesthetic-scoring"
+    ]
+  },
+  "github:edoardottt/scilla": {
+    "capability_summary": "A versatile reconnaissance tool for security testing and information gathering.",
+    "problem_solved": "Automating subdomain, port, and directory enumeration during penetration testing.",
+    "use_cases": [
+      "pentesting",
+      "reconnaissance",
+      "bug bounty"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "recon-tool",
+      "port-scanner"
+    ]
+  },
+  "github:tabler/tabler-icons": {
+    "capability_summary": "A large collection of over 6,000 MIT-licensed SVG icons for web and UI development.",
+    "problem_solved": "Finding high-quality, consistent icons for web interfaces.",
+    "use_cases": [
+      "ui design",
+      "web development",
+      "frontend assets"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "bootstrap-icons",
+      "svg-icons"
+    ]
+  },
+  "github:microsoft/orchard": {
+    "capability_summary": "A Kubernetes-native framework for training and evaluating agentic AI models.",
+    "problem_solved": "Managing shared environments for complex AI agent research and evaluation.",
+    "use_cases": [
+      "ai research",
+      "agentic modeling",
+      "kubernetes automation"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-framework",
+      "kubernetes-ai"
+    ]
+  },
+  "github:prismer-ai/prismer": {
+    "capability_summary": "A self-hostable research platform integrating AI-driven paper reading and LaTeX writing.",
+    "problem_solved": "Centralizing research workflows and multi-agent orchestration for academics.",
+    "use_cases": [
+      "ai research",
+      "latex writing",
+      "self-hosted workspace"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "research-assistant",
+      "ai-workspace"
+    ]
+  },
+  "github:goclone-dev/goclone": {
+    "capability_summary": "A high-performance website cloner that mirrors site structures locally.",
+    "problem_solved": "Creating local copies of websites for scraping or offline analysis.",
+    "use_cases": [
+      "web scraping",
+      "website cloning",
+      "data collection"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "web-scraper",
+      "site-cloner"
+    ]
+  },
+  "github:thobiasn/tori-cli": {
+    "capability_summary": "A lightweight, SSH-based Docker monitoring tool for metrics and logs.",
+    "problem_solved": "Monitoring Docker containers without needing heavy stacks or exposed ports.",
+    "use_cases": [
+      "devops",
+      "docker monitoring",
+      "server monitoring"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cli",
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "docker-monitor",
+      "tui-monitoring"
+    ]
+  },
+  "github:kite-org/kite": {
+    "capability_summary": "A Kubernetes dashboard with multi-cluster management and AI-assisted operations.",
+    "problem_solved": "Managing multiple Kubernetes clusters with enterprise security and AI insights.",
+    "use_cases": [
+      "kubernetes management",
+      "devops",
+      "cluster monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "k8s-dashboard",
+      "kubernetes-manager"
+    ]
+  },
+  "github:alibaba/mnn": {
+    "capability_summary": "A high-performance inference engine for running deep learning models on mobile, IoT, and edge devices.",
+    "problem_solved": "Running AI models efficiently on resource-constrained hardware.",
+    "use_cases": [
+      "on-device inference",
+      "mobile AI",
+      "edge computing",
+      "LLM deployment"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "ios",
+      "android",
+      "linux",
+      "macos",
+      "windows",
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "like TensorFlow Lite",
+      "like ONNX Runtime"
+    ]
+  },
+  "github:f/textream": {
+    "capability_summary": "An open-source teleprompter app for macOS and iOS with voice-activated scrolling and overlay support.",
+    "problem_solved": "Reading scripts while presenting or streaming.",
+    "use_cases": [
+      "teleprompter",
+      "live streaming",
+      "video presentation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "teleprompter app"
+    ]
+  },
+  "github:electerm/electerm": {
+    "capability_summary": "A cross-platform terminal and multi-protocol client with AI integration and file transfer capabilities.",
+    "problem_solved": "Managing remote servers and connections via a unified GUI.",
+    "use_cases": [
+      "ssh client",
+      "sftp client",
+      "remote desktop",
+      "terminal emulator"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "like MobaXterm",
+      "like Termius"
+    ]
+  },
+  "github:zen-logic/file-hunter": {
+    "capability_summary": "A self-hosted web tool for cataloging offline storage and finding duplicate files.",
+    "problem_solved": "Managing and organizing large archives of offline media.",
+    "use_cases": [
+      "file deduplication",
+      "storage management",
+      "homelab organization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "duplicate finder",
+      "file cataloger"
+    ]
+  },
+  "github:nickbeth/wsl-usb-manager": {
+    "capability_summary": "A GUI wrapper for usbipd-win that automates attaching USB devices to WSL2.",
+    "problem_solved": "Simplifying USB device passthrough to WSL2 instances.",
+    "use_cases": [
+      "wsl2 usb passthrough",
+      "device management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "usbipd-win gui"
+    ]
   }
 }
