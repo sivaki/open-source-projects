@@ -29549,5 +29549,389 @@
     "aliases": [
       "usbipd-win gui"
     ]
+  },
+  "github:tuannvm/codex-mcp-server": {
+    "capability_summary": "An MCP server bridging Claude Code with OpenAI Codex for IDE-based AI analysis and automation.",
+    "problem_solved": "Integrates AI-powered code analysis and web search directly into your IDE workflow.",
+    "use_cases": [
+      "AI code analysis",
+      "IDE automation",
+      "AI-assisted code reviews"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-mcp",
+      "ai-ide-bridge"
+    ]
+  },
+  "github:jaytel0/taste": {
+    "capability_summary": "A pipeline tool that analyzes reference images with vision models to generate structured UI/UX design guidelines.",
+    "problem_solved": "Ensures AI agents produce consistent UI/UX designs based on reference imagery.",
+    "use_cases": [
+      "design system automation",
+      "AI UI generation",
+      "visual consistency"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-design-tool",
+      "ui-consistency-pipeline"
+    ]
+  },
+  "github:mogenson/paperwm.spoon": {
+    "capability_summary": "A Hammerspoon plugin providing scrollable, tiled window management for macOS.",
+    "problem_solved": "Adds advanced tiling window management functionality to the macOS desktop environment.",
+    "use_cases": [
+      "window management",
+      "desktop productivity",
+      "tiling window manager"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "macos-tiling-wm",
+      "hammerspoon-plugin"
+    ]
+  },
+  "github:markrai/gitpow": {
+    "capability_summary": "A cross-platform Git GUI client with image diff previews and commit graph visualizations.",
+    "problem_solved": "Provides a more ergonomic and visual experience for managing Git repositories.",
+    "use_cases": [
+      "git version control",
+      "visual diffing",
+      "commit history management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "git-gui",
+      "tauri-git-client"
+    ]
+  },
+  "github:internetvin/internetvin-terminal": {
+    "capability_summary": "An Obsidian plugin that embeds a multi-tabbed terminal emulator within the note-taking interface.",
+    "problem_solved": "Allows developers to run terminal commands without leaving their Obsidian workspace.",
+    "use_cases": [
+      "integrated development environment",
+      "obsidian productivity",
+      "terminal emulator"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-terminal",
+      "integrated-terminal"
+    ]
+  },
+  "github:caddyserver/xcaddy": {
+    "capability_summary": "A CLI tool for building custom Caddy web server binaries with specific third-party plugins.",
+    "problem_solved": "Simplifies the process of creating custom Caddy builds for self-hosted infrastructure.",
+    "use_cases": [
+      "web server management",
+      "caddy plugin builds",
+      "devops automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "caddy-builder",
+      "web-server-tool"
+    ]
+  },
+  "github:freeman-jiang/beatsync": {
+    "capability_summary": "A high-precision web-based engine for synchronizing audio playback across multiple devices.",
+    "problem_solved": "Achieves perfect audio synchronization across distributed devices using NTP-inspired protocols.",
+    "use_cases": [
+      "synchronized audio",
+      "distributed audio systems",
+      "web-audio-api"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "audio-sync",
+      "web-audio-engine"
+    ]
+  },
+  "github:kafbat/kafka-ui": {
+    "capability_summary": "A comprehensive web interface for monitoring and managing Apache Kafka clusters.",
+    "problem_solved": "Provides a centralized dashboard for Kafka cluster administration and data stream monitoring.",
+    "use_cases": [
+      "kafka management",
+      "data pipeline monitoring",
+      "cluster administration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "kafka-dashboard",
+      "kafka-manager"
+    ]
+  },
+  "github:mayneyao/eidos": {
+    "capability_summary": "A local-first, SQLite-based personal data management framework with a Notion-like interface.",
+    "problem_solved": "Provides a structured, offline-capable alternative to Notion for personal data management.",
+    "use_cases": [
+      "personal knowledge management",
+      "sqlite data management",
+      "local-first database"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "notion-alternative",
+      "local-first-database"
+    ]
+  },
+  "github:opisek/luna": {
+    "capability_summary": "A self-hosted calendar aggregator that consolidates multiple calendar feeds into one web interface.",
+    "problem_solved": "Unifies disparate calendar sources like CalDav and Google Calendar into a single view.",
+    "use_cases": [
+      "calendar aggregation",
+      "self-hosted productivity",
+      "calendar management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "calendar-aggregator",
+      "self-hosted-calendar"
+    ]
+  },
+  "github:lissy93/portainer-templates": {
+    "capability_summary": "A collection of one-click deployment templates for Portainer to simplify self-hosting services. Designed for homelab enthusiasts and server administrators.",
+    "problem_solved": "Simplifies the deployment of self-hosted applications in Docker.",
+    "use_cases": [
+      "docker deployment",
+      "homelab automation",
+      "server management"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "portainer-stacks"
+    ]
+  },
+  "github:tastyigniter/tastyigniter": {
+    "capability_summary": "A Laravel-based platform for restaurant management, including online ordering and table reservations. Built for restaurant owners and developers.",
+    "problem_solved": "Provides an all-in-one system for restaurant operations and online ordering.",
+    "use_cases": [
+      "restaurant management",
+      "online food ordering",
+      "table booking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "restaurant-cms"
+    ]
+  },
+  "github:sastraxi/pgsh": {
+    "capability_summary": "A CLI tool that brings Git-like branching workflows to local PostgreSQL databases. Designed for developers managing multiple database states.",
+    "problem_solved": "Simplifies context switching and migration management for local databases.",
+    "use_cases": [
+      "database branching",
+      "development workflow",
+      "migration management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "postgres-branching"
+    ]
+  },
+  "github:logisim-evolution/logisim-evolution": {
+    "capability_summary": "A digital logic design and simulation tool supporting VHDL and FPGA integration. Ideal for students and hardware engineers.",
+    "problem_solved": "Provides a visual environment for designing and testing digital circuits.",
+    "use_cases": [
+      "digital logic design",
+      "fpga simulation",
+      "hardware education"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "logisim"
+    ]
+  },
+  "github:gorules/zen": {
+    "capability_summary": "A high-performance business rules engine that decouples decision logic from application code using JSON models. Built for backend developers.",
+    "problem_solved": "Separates complex business logic from core application code.",
+    "use_cases": [
+      "business automation",
+      "decision engine",
+      "rule management"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "rules-engine"
+    ]
+  },
+  "github:erev0s/vampi": {
+    "capability_summary": "An intentionally vulnerable REST API for testing security tools and learning about OWASP API vulnerabilities. For security researchers and students.",
+    "problem_solved": "Provides a sandbox for practicing API security testing.",
+    "use_cases": [
+      "security training",
+      "api testing",
+      "owasp practice"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vulnerable-api"
+    ]
+  },
+  "github:justnullname/quickview": {
+    "capability_summary": "A hardware-accelerated image viewer for Windows optimized for modern formats like JXL and AVIF. Designed for power users.",
+    "problem_solved": "Provides fast, modern image viewing on Windows.",
+    "use_cases": [
+      "image viewing",
+      "raw photo preview",
+      "high-performance media"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "image-viewer"
+    ]
+  },
+  "github:sigoden/dufs": {
+    "capability_summary": "A high-performance static file server with WebDAV support and granular access control. Built for developers and sysadmins.",
+    "problem_solved": "Provides a simple way to serve files and enable uploads over HTTP/WebDAV.",
+    "use_cases": [
+      "file sharing",
+      "static file hosting",
+      "webdav server"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "file-server"
+    ]
+  },
+  "github:mierak/rmpc": {
+    "capability_summary": "A terminal-based MPD client with a vim-like interface and album art support. Designed for terminal enthusiasts.",
+    "problem_solved": "Provides a modern, keyboard-driven interface for controlling music playback.",
+    "use_cases": [
+      "music playback",
+      "terminal music player",
+      "mpd client"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mpd-client"
+    ]
+  },
+  "github:pathsim/pathsim": {
+    "capability_summary": "A Python-native, block-based simulation framework for modeling dynamical systems. Designed for scientists and engineers.",
+    "problem_solved": "Provides an open-source alternative to Simulink for system simulation.",
+    "use_cases": [
+      "dynamical systems",
+      "control systems",
+      "digital twin modeling"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "simulink-alternative"
+    ]
   }
 }
