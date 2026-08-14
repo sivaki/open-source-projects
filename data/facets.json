@@ -29933,5 +29933,250 @@
     "aliases": [
       "simulink-alternative"
     ]
+  },
+  "github:jmagly/aiwg": {
+    "capability_summary": "A multi-agent framework for orchestrating AI-augmented software development workflows. It is designed for developers looking to integrate AI agents into their coding lifecycle.",
+    "problem_solved": "Orchestrating complex AI-assisted coding workflows across multiple tools.",
+    "use_cases": [
+      "ai-agent orchestration",
+      "sdlc automation",
+      "prompt engineering"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-framework"
+    ]
+  },
+  "github:deanpeters/product-manager-prompts": {
+    "capability_summary": "A curated library of structured prompts for product managers to use with LLMs. It helps streamline documentation, strategy, and execution tasks.",
+    "problem_solved": "Lack of high-quality, structured prompts for product management tasks.",
+    "use_cases": [
+      "agile documentation",
+      "product strategy",
+      "generative-ai assistance"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "prompt-library"
+    ]
+  },
+  "github:gladysassistant/gladys": {
+    "capability_summary": "A privacy-focused, self-hosted home automation platform. It allows users to control IoT devices locally via a web interface.",
+    "problem_solved": "Centralizing home automation while maintaining data privacy.",
+    "use_cases": [
+      "iot management",
+      "home automation",
+      "self-hosted assistant"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "home-assistant-alternative"
+    ]
+  },
+  "github:tubearchivist/tubearchivist": {
+    "capability_summary": "A self-hosted media server that archives YouTube channels and videos. It provides a searchable interface with metadata indexing.",
+    "problem_solved": "Archiving and searching YouTube content locally.",
+    "use_cases": [
+      "media archiving",
+      "video download manager",
+      "youtube library"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "youtube-archiver"
+    ]
+  },
+  "github:theporgs/exegol": {
+    "capability_summary": "A modular, containerized penetration testing environment. It provides a full suite of security tools without requiring a dedicated OS.",
+    "problem_solved": "Setting up a consistent, portable pentesting environment.",
+    "use_cases": [
+      "penetration testing",
+      "ctf challenges",
+      "security auditing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pentest-environment"
+    ]
+  },
+  "github:hcavarsan/pipedash": {
+    "capability_summary": "A unified CI/CD dashboard that aggregates pipeline statuses from multiple providers. It is built with Rust and Tauri for high performance.",
+    "problem_solved": "Fragmented visibility across multiple CI/CD platforms.",
+    "use_cases": [
+      "devops monitoring",
+      "ci-cd dashboard",
+      "pipeline status tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cicd-monitor"
+    ]
+  },
+  "github:zcai0612/up2you": {
+    "capability_summary": "A research project for 3D human reconstruction from unconstrained photo collections. It uses tuning-free AI models for computer vision tasks.",
+    "problem_solved": "Reconstructing 3D human models from limited photo data.",
+    "use_cases": [
+      "3d reconstruction",
+      "computer vision research"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3d-vision-research"
+    ]
+  },
+  "github:leeyeel/sketch2motion": {
+    "capability_summary": "A creative automation tool that converts static images into animated videos. It leverages Manim and Gradio for the animation process.",
+    "problem_solved": "Automating the creation of animated drawing videos from static images.",
+    "use_cases": [
+      "animation generation",
+      "video processing",
+      "creative automation"
+    ],
+    "project_type": "app",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "image-to-animation"
+    ]
+  },
+  "github:chartbrew/chartbrew": {
+    "capability_summary": "An open-source platform for data visualization and reporting. It connects to various databases and APIs to create live, embeddable dashboards.",
+    "problem_solved": "Creating real-time business intelligence dashboards from disparate data sources.",
+    "use_cases": [
+      "data visualization",
+      "business intelligence",
+      "dashboard creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "freemium",
+    "human_languages": [],
+    "aliases": [
+      "bi-tool",
+      "data-dashboard"
+    ]
+  },
+  "github:getagentseal/codeburn": {
+    "capability_summary": "A local-first observability tool for tracking AI coding token usage and costs. It analyzes session logs from popular AI coding assistants.",
+    "problem_solved": "Monitoring and controlling costs associated with AI coding tools.",
+    "use_cases": [
+      "ai cost tracking",
+      "observability",
+      "token usage analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-cost-monitor"
+    ]
+  },
+  "github:red-data-tools/youplot": {
+    "capability_summary": "A command-line tool for generating charts and data visualizations directly in the terminal. Designed for developers and data analysts working with standard input.",
+    "problem_solved": "Visualizing data streams or files without leaving the terminal.",
+    "use_cases": [
+      "terminal data visualization",
+      "bar chart generation",
+      "histogram creation",
+      "scatter plot rendering"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "gnuplot for cli",
+      "terminal plotter"
+    ]
+  },
+  "github:ranuts/document": {
+    "capability_summary": "A client-side document editor that runs in the browser using WebAssembly. Designed for users who need private, local-first editing of office documents.",
+    "problem_solved": "Editing office documents locally in the browser without server-side data exposure.",
+    "use_cases": [
+      "docx editing",
+      "xlsx editing",
+      "pptx editing",
+      "privacy-focused office suite"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "onlyoffice alternative",
+      "wasm document editor"
+    ]
+  },
+  "github:auto-explore/gitcomet": {
+    "capability_summary": "A high-performance Git GUI client built in Rust for large codebases. Designed for developers who need a responsive, local-first interface for version control.",
+    "problem_solved": "Managing large Git repositories with a fast, responsive graphical interface.",
+    "use_cases": [
+      "git repository management",
+      "version control gui",
+      "large codebase navigation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "git gui",
+      "git client"
+    ]
   }
 }
