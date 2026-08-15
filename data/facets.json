@@ -30760,5 +30760,337 @@
       "3D globe",
       "React visualization"
     ]
+  },
+  "github:ravindu644/droidspaces-oss": {
+    "capability_summary": "A container runtime for running native Linux environments on Android and Linux systems using kernel namespaces.",
+    "problem_solved": "Running Linux containers on Android devices.",
+    "use_cases": [
+      "containerization",
+      "linux-on-android",
+      "sandboxing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "android",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "docker-for-android",
+      "lxc-android"
+    ]
+  },
+  "github:sentient-agi/roma": {
+    "capability_summary": "A framework for building and orchestrating complex, hierarchical multi-agent AI systems.",
+    "problem_solved": "Managing complex multi-agent AI workflows.",
+    "use_cases": [
+      "ai-orchestration",
+      "multi-agent-systems",
+      "automation"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "agent-framework",
+      "llm-orchestrator"
+    ]
+  },
+  "github:dominikbraun/graph": {
+    "capability_summary": "A Go library for creating, manipulating, and analyzing generic graph data structures.",
+    "problem_solved": "Implementing graph algorithms and data structures in Go.",
+    "use_cases": [
+      "graph-analysis",
+      "data-visualization",
+      "algorithm-implementation"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graph-theory-library",
+      "go-graph"
+    ]
+  },
+  "github:traccar/traccar": {
+    "capability_summary": "A self-hosted GPS tracking platform for managing fleets and personal location devices.",
+    "problem_solved": "Tracking GPS devices and managing location data.",
+    "use_cases": [
+      "gps-tracking",
+      "fleet-management",
+      "asset-tracking"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "gps-server",
+      "location-tracking"
+    ]
+  },
+  "github:m5stack/stackchan": {
+    "capability_summary": "An open-source AI desktop robot platform based on the M5Stack ESP32 hardware.",
+    "problem_solved": "Building a programmable AI-powered desktop robot.",
+    "use_cases": [
+      "robotics",
+      "ai-hardware",
+      "iot"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-robot",
+      "esp32-robot"
+    ]
+  },
+  "github:muratgur/ordinus": {
+    "capability_summary": "A local-first desktop application for orchestrating AI agents and workflows.",
+    "problem_solved": "Automating workflows using local and third-party AI agents.",
+    "use_cases": [
+      "ai-automation",
+      "workflow-engine",
+      "desktop-productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-desktop",
+      "workflow-automation"
+    ]
+  },
+  "github:dune3d/dune3d": {
+    "capability_summary": "A modern, parametric 3D CAD application for designing 3D-printable enclosures.",
+    "problem_solved": "Designing parametric 3D models for printing.",
+    "use_cases": [
+      "3d-printing",
+      "cad-design",
+      "engineering"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "parametric-cad",
+      "3d-modeling"
+    ]
+  },
+  "github:pipeshub-ai/pipeshub-ai": {
+    "capability_summary": "A self-hostable enterprise RAG and agentic workflow platform that unifies data sources.",
+    "problem_solved": "Searching and querying across disparate enterprise data sources.",
+    "use_cases": [
+      "rag",
+      "enterprise-search",
+      "knowledge-graph"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "enterprise-rag",
+      "ai-search"
+    ]
+  },
+  "github:louisho5/picobot": {
+    "capability_summary": "A lightweight, single-binary AI agent with persistent memory and tool calling support.",
+    "problem_solved": "Running AI agents on low-resource hardware.",
+    "use_cases": [
+      "ai-automation",
+      "mcp-client",
+      "edge-computing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "go-ai-agent",
+      "lightweight-agent"
+    ]
+  },
+  "github:mrnerf/lichtfeld-studio": {
+    "capability_summary": "A high-performance workstation for training and editing 3D Gaussian Splatting scenes.",
+    "problem_solved": "Creating and optimizing 3D Gaussian Splatting models.",
+    "use_cases": [
+      "3d-modeling",
+      "computer-vision",
+      "gaussian-splatting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3d-gaussian-splatting",
+      "vision-workstation"
+    ]
+  },
+  "github:fathyb/carbonyl": {
+    "capability_summary": "A high-performance Chromium-based web browser that renders directly within a terminal interface.",
+    "problem_solved": "Browsing the web without a graphical desktop environment.",
+    "use_cases": [
+      "terminal-based browsing",
+      "remote server web access",
+      "lightweight web rendering"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "terminal browser",
+      "cli browser"
+    ]
+  },
+  "github:pulsebeat02/yt-media-storage": {
+    "capability_summary": "A utility that encodes arbitrary files into video streams for long-term storage on video platforms.",
+    "problem_solved": "Using video hosting sites as free, unlimited cloud storage for arbitrary data.",
+    "use_cases": [
+      "data archiving",
+      "video-based storage",
+      "error-corrected backups"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "video storage",
+      "data-to-video encoder"
+    ]
+  },
+  "github:parcadei/continuous-claude-v3": {
+    "capability_summary": "An orchestration layer for Claude Code that enhances agentic workflows, memory, and task persistence.",
+    "problem_solved": "Improving the reliability and context management of AI coding agents.",
+    "use_cases": [
+      "ai agent orchestration",
+      "automated coding workflows",
+      "llm memory management"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-agent",
+      "ai-orchestrator"
+    ]
+  },
+  "github:corbindavenport/just-the-browser": {
+    "capability_summary": "A collection of scripts and configs to remove telemetry and bloat from major web browsers.",
+    "problem_solved": "Privacy and performance degradation caused by browser telemetry and AI features.",
+    "use_cases": [
+      "browser hardening",
+      "privacy optimization",
+      "debloating browsers"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "browser-privacy-scripts",
+      "debloat-browser"
+    ]
+  },
+  "github:op7418/youtube-clipper-skill": {
+    "capability_summary": "An AI-powered skill for Claude Code that automates video downloading, segmentation, and subtitle processing.",
+    "problem_solved": "Automating the editing and processing of YouTube videos using AI agents.",
+    "use_cases": [
+      "automated video editing",
+      "subtitle burning",
+      "video segmentation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-video-tool",
+      "youtube-automation"
+    ]
+  },
+  "github:decodingai-magazine/second-brain-ai-assistant-course": {
+    "capability_summary": "A comprehensive educational codebase for building production-grade agentic RAG systems.",
+    "problem_solved": "Learning how to build, orchestrate, and fine-tune production AI systems.",
+    "use_cases": [
+      "rag development",
+      "llmops training",
+      "agentic system design"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "rag-course",
+      "llmops-tutorial"
+    ]
+  },
+  "github:rmurai0610/mast3r-slam": {
+    "capability_summary": "A real-time dense SLAM system that uses 3D reconstruction priors for mapping and localization.",
+    "problem_solved": "Accurate 3D mapping and localization in robotics and computer vision applications.",
+    "use_cases": [
+      "robotics navigation",
+      "3d reconstruction",
+      "slam"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "slam-system",
+      "3d-mapping"
+    ]
   }
 }
