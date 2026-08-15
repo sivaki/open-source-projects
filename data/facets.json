@@ -30178,5 +30178,301 @@
       "git gui",
       "git client"
     ]
+  },
+  "github:fasouto/termaid": {
+    "capability_summary": "A Python tool for rendering Mermaid diagrams directly in the terminal. Designed for developers who need quick visual documentation without leaving the command line.",
+    "problem_solved": "Viewing diagrams in terminal environments",
+    "use_cases": [
+      "terminal documentation",
+      "mermaid rendering",
+      "tui diagrams"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mermaid-cli"
+    ]
+  },
+  "github:mmvanheusden/steamdepotdownloadergui": {
+    "capability_summary": "A cross-platform GUI wrapper for DepotDownloader that allows users to download older versions of Steam games. Ideal for gamers and speedrunners needing specific game builds.",
+    "problem_solved": "Downloading legacy versions of Steam games",
+    "use_cases": [
+      "game version rollback",
+      "steam game management",
+      "speedrunning tools"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "steam-downgrader"
+    ]
+  },
+  "github:olvvier/apple-silicon-accelerometer": {
+    "capability_summary": "A Python library providing low-level access to accelerometer and gyroscope sensors on Apple Silicon MacBooks. Useful for hardware researchers and automation developers.",
+    "problem_solved": "Accessing internal sensors on Apple Silicon hardware",
+    "use_cases": [
+      "hardware research",
+      "sensor data acquisition",
+      "macos automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "m-series-sensor-access"
+    ]
+  },
+  "github:pocketblue/pocketblue": {
+    "capability_summary": "Provides Fedora Atomic images for mobile devices, enabling a Linux-based OS on specific hardware. Targeted at mobile Linux enthusiasts and developers.",
+    "problem_solved": "Running Linux on mobile hardware",
+    "use_cases": [
+      "mobile linux",
+      "fedora atomic",
+      "arm device support"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mobile-fedora"
+    ]
+  },
+  "github:evroon/bracket": {
+    "capability_summary": "A self-hosted tournament management system with support for various bracket formats and scheduling. Built for organizers of sports or gaming tournaments.",
+    "problem_solved": "Managing tournament brackets and schedules",
+    "use_cases": [
+      "tournament management",
+      "sports scheduling",
+      "self-hosted dashboards"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "tournament-manager"
+    ]
+  },
+  "github:aagentah/nw_wrld": {
+    "capability_summary": "An Electron-based sequencer for creating audiovisual compositions using web technologies. Designed for creative coders and multimedia artists.",
+    "problem_solved": "Orchestrating audiovisual performances",
+    "use_cases": [
+      "creative coding",
+      "audiovisual sequencer",
+      "multimedia art"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "av-sequencer"
+    ]
+  },
+  "github:parskatt/romav2": {
+    "capability_summary": "A high-performance dense feature matching library for computer vision tasks like image alignment. Built for researchers and engineers in vision AI.",
+    "problem_solved": "Robust image alignment and feature matching",
+    "use_cases": [
+      "computer vision",
+      "image processing",
+      "feature matching"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dense-feature-matcher"
+    ]
+  },
+  "github:aim-research-lab/medical-sam3": {
+    "capability_summary": "A foundation model for prompt-driven medical image segmentation, supporting 2D and 3D workflows. Designed for medical imaging researchers.",
+    "problem_solved": "Automated medical image segmentation",
+    "use_cases": [
+      "medical imaging",
+      "segmentation",
+      "foundation model"
+    ],
+    "project_type": "model",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "medical-sam"
+    ]
+  },
+  "github:nicepkg/ctxport": {
+    "capability_summary": "A browser extension that exports AI chat conversations into structured Markdown. Useful for users who want to move context between different LLM platforms.",
+    "problem_solved": "Transferring AI chat history between platforms",
+    "use_cases": [
+      "llm context transfer",
+      "markdown export",
+      "ai productivity"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "chat-exporter"
+    ]
+  },
+  "github:opengeos/anymap-ts": {
+    "capability_summary": "A unified interface for interactive mapping libraries within Jupyter notebooks.",
+    "problem_solved": "Simplifies using multiple mapping libraries in data science workflows.",
+    "use_cases": [
+      "geospatial visualization",
+      "jupyter notebook mapping",
+      "interactive data analysis"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "maplibre",
+      "deckgl",
+      "cesium"
+    ]
+  },
+  "github:daniellavrushin/b4": {
+    "capability_summary": "A network packet processor that bypasses DPI on Linux and routers.",
+    "problem_solved": "Bypassing network censorship and DPI restrictions.",
+    "use_cases": [
+      "network privacy",
+      "bypass censorship",
+      "self-hosted router proxy"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "raspberry-pi"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "xray",
+      "dpi-bypass"
+    ]
+  },
+  "github:vizia/vizia": {
+    "capability_summary": "A declarative, reactive GUI framework for building desktop applications in Rust.",
+    "problem_solved": "Building cross-platform desktop user interfaces with Rust.",
+    "use_cases": [
+      "desktop app development",
+      "gui design",
+      "reactive ui"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "rust-gui",
+      "skia-ui"
+    ]
+  },
+  "github:htrgouvea/nipe": {
+    "capability_summary": "A utility that routes all system traffic through the Tor network.",
+    "problem_solved": "Anonymizing system-wide network traffic.",
+    "use_cases": [
+      "network anonymity",
+      "tor routing",
+      "privacy protection"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tor-gateway",
+      "anonymizer"
+    ]
+  },
+  "github:mockoon/mockoon": {
+    "capability_summary": "An open-source tool for designing and running mock APIs locally.",
+    "problem_solved": "Rapid API prototyping and testing without a backend.",
+    "use_cases": [
+      "api mocking",
+      "rest api testing",
+      "ci/cd automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "postman-alternative",
+      "mock-server"
+    ]
+  },
+  "github:praetorian-inc/nerva": {
+    "capability_summary": "A high-performance CLI tool for network service fingerprinting.",
+    "problem_solved": "Identifying network protocols and services during reconnaissance.",
+    "use_cases": [
+      "network scanning",
+      "pentesting",
+      "service discovery"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "port-scanner",
+      "network-recon"
+    ]
   }
 }
