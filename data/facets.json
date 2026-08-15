@@ -30474,5 +30474,291 @@
       "port-scanner",
       "network-recon"
     ]
+  },
+  "github:deepdoctection/deepdoctection": {
+    "capability_summary": "A Python framework for document AI that automates layout analysis, OCR, and table extraction.",
+    "problem_solved": "Automating data extraction from complex document images.",
+    "use_cases": [
+      "document-ai",
+      "ocr",
+      "table-extraction",
+      "layout-analysis"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "document-parser",
+      "layoutlm"
+    ]
+  },
+  "github:hackingdave/btrpa-scan": {
+    "capability_summary": "A Bluetooth scanner that resolves RPA and tracks devices via TUI or web radar.",
+    "problem_solved": "Tracking and identifying Bluetooth devices with rotating addresses.",
+    "use_cases": [
+      "bluetooth-scanning",
+      "security-auditing",
+      "device-tracking"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ble-scanner",
+      "rpa-resolver"
+    ]
+  },
+  "github:tnm/zclaw": {
+    "capability_summary": "An AI assistant firmware for ESP32 microcontrollers with LLM integration and GPIO control.",
+    "problem_solved": "Running AI-assisted automation on resource-constrained embedded hardware.",
+    "use_cases": [
+      "iot",
+      "home-automation",
+      "embedded-ai"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "esp32-ai",
+      "iot-assistant"
+    ]
+  },
+  "github:jalonsogo/tui-studio": {
+    "capability_summary": "A visual drag-and-drop editor for designing Terminal User Interfaces.",
+    "problem_solved": "Simplifying the creation of complex TUI layouts.",
+    "use_cases": [
+      "tui-design",
+      "cli-ui-prototyping"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tui-builder",
+      "bubbletea-designer"
+    ]
+  },
+  "github:retejs/rete": {
+    "capability_summary": "A framework-agnostic JavaScript library for building visual node-based editors.",
+    "problem_solved": "Implementing custom visual programming or dataflow interfaces.",
+    "use_cases": [
+      "visual-programming",
+      "node-editor",
+      "dataflow-editor"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graph-editor",
+      "flow-based-programming"
+    ]
+  },
+  "github:markmanx/isoflow": {
+    "capability_summary": "A React-based library for building interactive network architecture diagrams.",
+    "problem_solved": "Visualizing complex cloud and network infrastructure.",
+    "use_cases": [
+      "network-diagramming",
+      "architecture-visualization"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "diagram-tool",
+      "cloud-architecture-editor"
+    ]
+  },
+  "github:xiangechen/chili3d": {
+    "capability_summary": "A browser-based 3D CAD application using WebAssembly and Three.js.",
+    "problem_solved": "Performing high-performance geometric modeling in a web browser.",
+    "use_cases": [
+      "3d-modeling",
+      "cad",
+      "web-based-geometry"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "webcad",
+      "browser-cad"
+    ]
+  },
+  "github:ykdojo/claude-code-tips": {
+    "capability_summary": "A collection of workflows and scripts to optimize Claude Code usage.",
+    "problem_solved": "Improving productivity and agentic workflows with Claude Code.",
+    "use_cases": [
+      "claude-optimization",
+      "agentic-coding",
+      "productivity-hacks"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-helpers",
+      "agentic-workflow-tools"
+    ]
+  },
+  "github:cboxdoerfer/fsearch": {
+    "capability_summary": "A high-performance file search utility for Linux with a GTK3 interface.",
+    "problem_solved": "Finding files instantly on a Linux desktop.",
+    "use_cases": [
+      "file-search",
+      "desktop-utility"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "everything-linux",
+      "file-finder"
+    ]
+  },
+  "github:rockwellshah/filekey": {
+    "capability_summary": "A client-side web app for secure file encryption and sharing using WebAuthn.",
+    "problem_solved": "Sharing files securely without server-side storage.",
+    "use_cases": [
+      "file-encryption",
+      "privacy-tools",
+      "webauthn-sharing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "passkey-encryption",
+      "secure-file-share"
+    ]
+  },
+  "github:ottosulin/awesome-ai-security": {
+    "capability_summary": "A curated collection of AI security resources, frameworks, and red teaming tools. Designed for security researchers and AI engineers.",
+    "problem_solved": "Finding reliable resources for securing AI systems and LLMs.",
+    "use_cases": [
+      "AI red teaming",
+      "AI governance research",
+      "LLM security auditing"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI security list",
+      "awesome-list"
+    ]
+  },
+  "github:localgpt-app/localgpt": {
+    "capability_summary": "A high-performance Rust-based local AI assistant and 3D world generation tool. It supports MCP and persistent memory for local automation.",
+    "problem_solved": "Running AI agents and world generation locally with high performance.",
+    "use_cases": [
+      "local AI assistant",
+      "3D world generation",
+      "headless AI automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "local AI",
+      "Rust AI agent"
+    ]
+  },
+  "github:niek/obs-web": {
+    "capability_summary": "A web-based remote control interface for OBS Studio. It allows users to manage scenes and recording via a browser.",
+    "problem_solved": "Controlling OBS Studio remotely from a web browser.",
+    "use_cases": [
+      "remote scene switching",
+      "streaming control",
+      "OBS live preview"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OBS remote",
+      "OBS controller"
+    ]
+  },
+  "github:tiann/hapi": {
+    "capability_summary": "A remote-control bridge for AI coding agents that enables management of terminal sessions via PWA or Telegram.",
+    "problem_solved": "Managing AI coding agents and terminal sessions from mobile or remote devices.",
+    "use_cases": [
+      "remote AI coding",
+      "terminal session management",
+      "Telegram AI interface"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "AI agent bridge",
+      "remote terminal"
+    ]
+  },
+  "github:vasturiano/react-globe.gl": {
+    "capability_summary": "A React component for rendering interactive 3D globe visualizations using Three.js and WebGL. Ideal for frontend developers.",
+    "problem_solved": "Adding interactive 3D globe visualizations to web applications.",
+    "use_cases": [
+      "data visualization",
+      "interactive maps",
+      "3D web graphics"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3D globe",
+      "React visualization"
+    ]
   }
 }
