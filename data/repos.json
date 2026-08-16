@@ -20074,5 +20074,761 @@
       "robotics",
       "slam"
     ]
+  },
+  {
+    "id": "github:kavinsood/yaos",
+    "url": "https://github.com/kavinsood/yaos",
+    "title": "kavinsood/yaos",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088798853940105374",
+    "fetched_at": "2026-08-16T01:27:07.004263Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted, real-time sync engine for Obsidian that uses CRDTs and Cloudflare Workers/Durable Objects to provide conflict-free, cross-device synchronization.",
+    "category": "Self-hosting",
+    "tags": [
+      "obsidian",
+      "crdt",
+      "cloudflare",
+      "sync",
+      "local-first"
+    ],
+    "risk_notes": "Requires deploying infrastructure to your own Cloudflare account (Workers, Durable Objects, and optional R2 storage). The Obsidian plugin has full access to your local vault files. The project uses a GitHub Actions-based update workflow, which is safer than manual script execution, but requires granting the repo access to your GitHub account.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-02-16T15:39:57Z",
+      "homepage": "https://yaos.dev"
+    },
+    "added_at": "2026-08-16T01:27:14.537936Z",
+    "stars": 717,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-13T14:50:07Z",
+    "license": "0BSD",
+    "topics": [
+      "cloudflare-workers",
+      "crdt",
+      "obsidian",
+      "obsidian-plugin",
+      "real-time",
+      "self-hosted",
+      "sync",
+      "yjs"
+    ]
+  },
+  {
+    "id": "github:hiroppy/tmux-agent-sidebar",
+    "url": "https://github.com/hiroppy/tmux-agent-sidebar",
+    "title": "hiroppy/tmux-agent-sidebar",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088792227384283387",
+    "fetched_at": "2026-08-16T01:27:07.004433Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A Rust-based tmux plugin that provides a unified sidebar to monitor and manage AI coding agents like Claude Code, Codex, and OpenCode across multiple sessions.",
+    "category": "Developer Tools",
+    "tags": [
+      "tmux",
+      "ai",
+      "cli",
+      "rust",
+      "productivity"
+    ],
+    "risk_notes": "Installs via TPM (tmux plugin manager) or manual cloning. It requires integration hooks into AI agent environments (Claude Code, etc.), meaning it has visibility into your agent prompts, tool calls, and shell activity. It runs as a local binary; requires standard user-level permissions but interacts with your active terminal sessions.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 38,
+      "created_at": "2026-04-05T00:59:09Z",
+      "homepage": "https://hiroppy.github.io/tmux-agent-sidebar/"
+    },
+    "added_at": "2026-08-16T01:27:21.788292Z",
+    "stars": 448,
+    "language": "Rust",
+    "pushed_at": "2026-08-13T23:55:31Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:ubikron/awesome-ai-osint",
+    "url": "https://github.com/ubikron/awesome-ai-osint",
+    "title": "ubikron/awesome-ai-osint",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088785843028684868",
+    "fetched_at": "2026-08-16T01:27:07.004569Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive curated list of resources, tools, and methodologies for integrating AI into Open Source Intelligence (OSINT) investigations.",
+    "category": "OSINT",
+    "tags": [
+      "osint",
+      "ai",
+      "investigation",
+      "automation",
+      "research"
+    ],
+    "risk_notes": "This is a documentation-only repository (awesome list). It contains links to external third-party AI services, SaaS platforms, and GitHub repositories. Users should exercise caution when running external scripts or providing API keys to the linked tools, as many are proprietary or community-maintained projects with varying security postures.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2025-08-25T18:48:09Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-16T01:27:29.199631Z",
+    "stars": 748,
+    "language": null,
+    "pushed_at": "2026-05-05T12:34:09Z",
+    "license": null,
+    "topics": [
+      "ai",
+      "awesome-list",
+      "chrome-extensions",
+      "intelligence",
+      "osint"
+    ]
+  },
+  {
+    "id": "github:nutlope/open-deep-research",
+    "url": "https://github.com/nutlope/open-deep-research",
+    "title": "nutlope/open-deep-research",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088779469502705832",
+    "fetched_at": "2026-08-16T01:27:07.004747Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An AI-powered research assistant that automates the process of generating comprehensive, sourced reports using LLMs and web search tools.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "research",
+      "automation",
+      "nextjs"
+    ],
+    "risk_notes": "Requires multiple external API keys (Together.ai, Clerk, AWS S3, Exa, Upstash) to function. Installation is standard via pnpm. The application handles user authentication and external web scraping, requiring careful management of environment variables and cloud service costs.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-05-29T14:47:11Z",
+      "homepage": "https://www.opendeepresearch.dev/"
+    },
+    "added_at": "2026-08-16T01:27:36.169223Z",
+    "stars": 413,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-14T15:26:29Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:klipitkas/tunnl.gg",
+    "url": "https://github.com/klipitkas/tunnl.gg",
+    "title": "klipitkas/tunnl.gg",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088773216260989367",
+    "fetched_at": "2026-08-16T01:27:07.004876Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A lightweight, self-hosted SSH tunneling service that allows you to expose local services to the internet using standard SSH commands.",
+    "category": "Networking",
+    "tags": [
+      "tunneling",
+      "self-hosting",
+      "ssh",
+      "reverse-proxy",
+      "networking"
+    ],
+    "risk_notes": "Requires root access to bind to ports 22, 80, and 443. The service acts as a public-facing proxy, meaning it handles incoming internet traffic and routes it to your local network; proper firewall configuration and monitoring are essential. Installation is via Docker or manual binary deployment. It requires managing SSL certificates via Certbot.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2025-12-04T08:00:23Z",
+      "homepage": "https://tunnl.gg"
+    },
+    "added_at": "2026-08-16T01:27:43.106669Z",
+    "stars": 526,
+    "language": "Go",
+    "pushed_at": "2026-07-10T17:19:42Z",
+    "license": "MIT",
+    "topics": [
+      "expose",
+      "internet",
+      "localhost",
+      "proxy",
+      "reverse-proxy",
+      "tunnel"
+    ]
+  },
+  {
+    "id": "github:aaronbeckmann/esp-dashboardplus",
+    "url": "https://github.com/aaronbeckmann/esp-dashboardplus",
+    "title": "aaronbeckmann/esp-dashboardplus",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088767099715952884",
+    "fetched_at": "2026-08-16T01:27:07.005004Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A highly efficient, feature-rich C++ library for ESP32 microcontrollers that provides a responsive, WebSocket-based web dashboard for IoT monitoring and control.",
+    "category": "IoT / Home-lab",
+    "tags": [
+      "esp32",
+      "iot",
+      "dashboard",
+      "embedded",
+      "automation",
+      "web-interface"
+    ],
+    "risk_notes": "Installed as a library via PlatformIO or manual inclusion in C++ projects. It runs directly on the ESP32 microcontroller, exposing a web server on the local network. Security depends on the user's implementation of authentication and network isolation, as the library itself focuses on UI/UX. It requires no external cloud dependencies.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-01-03T16:12:13Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-16T01:27:50.252875Z",
+    "stars": 166,
+    "language": "HTML",
+    "pushed_at": "2026-05-24T17:47:37Z",
+    "license": "MIT",
+    "topics": [
+      "arduino",
+      "control",
+      "dashboard",
+      "esp",
+      "esp-dashboardplus",
+      "esp32",
+      "graph",
+      "interface",
+      "library",
+      "server",
+      "ui",
+      "webpage",
+      "widgets"
+    ]
+  },
+  {
+    "id": "github:plutonhq/pluton",
+    "url": "https://github.com/plutonhq/pluton",
+    "title": "plutonhq/pluton",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088760958894199283",
+    "fetched_at": "2026-08-16T01:27:07.005130Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted backup management platform that provides a user-friendly web interface for Restic and Rclone, enabling automated, encrypted, and multi-destination backups.",
+    "category": "Self-hosting",
+    "tags": [
+      "backup",
+      "restic",
+      "rclone",
+      "automation",
+      "self-hosted"
+    ],
+    "risk_notes": "Distributed via Docker, which is the recommended and safest deployment method. Requires access to host filesystems (via volume mounts) to perform backups and needs sensitive environment variables (encryption keys, credentials) for operation. The project is actively maintained and relies on well-vetted, battle-tested tools like Restic and Rclone.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2025-11-19T04:00:15Z",
+      "homepage": "https://usepluton.com"
+    },
+    "added_at": "2026-08-16T01:27:57.300551Z",
+    "stars": 585,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-09T16:42:22Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "3-2-1-backup",
+      "backup",
+      "restic",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github:safebucket/safebucket",
+    "url": "https://github.com/safebucket/safebucket",
+    "title": "safebucket/safebucket",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088755054270382260",
+    "fetched_at": "2026-08-16T01:27:07.005254Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted, high-performance file sharing platform that uses presigned URLs to offload file transfers, bypassing the application server for improved scalability.",
+    "category": "self-hosting",
+    "tags": [
+      "file-sharing",
+      "self-hosted",
+      "golang",
+      "docker",
+      "security"
+    ],
+    "risk_notes": "Installed via Docker Compose, which is a standard and safe deployment method. It requires network access for OIDC providers and persistent storage volumes. The project uses signed container images (cosign), which is a strong security signal. It handles sensitive data (files, user credentials), so proper configuration of storage backends and OIDC is required.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 37,
+      "created_at": "2024-10-04T08:09:23Z",
+      "homepage": "https://docs.safebucket.io"
+    },
+    "added_at": "2026-08-16T01:28:04.048825Z",
+    "stars": 812,
+    "language": "Go",
+    "pushed_at": "2026-08-10T10:33:25Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "file-sharing",
+      "golang",
+      "self-hosted",
+      "storj"
+    ]
+  },
+  {
+    "id": "github:stardustai/dataset-viewer",
+    "url": "https://github.com/stardustai/dataset-viewer",
+    "title": "stardustai/dataset-viewer",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088749149835481559",
+    "fetched_at": "2026-08-16T01:27:07.005384Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance, cross-platform desktop application built with Tauri for viewing and searching massive datasets and archives directly from remote sources like S3, SSH, and WebDAV.",
+    "category": "Developer Tools",
+    "tags": [
+      "data-science",
+      "tauri",
+      "file-viewer",
+      "productivity",
+      "data-engineering"
+    ],
+    "risk_notes": "Distributed as a desktop binary (Tauri/Rust). Requires network access to connect to remote storage protocols (S3, SSH, SMB, WebDAV), which involves handling credentials. As a desktop app, it has standard user-level filesystem access. The project is actively maintained, though the '100% AI-generated' claim suggests potential for edge-case bugs in complex logic.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 14,
+      "created_at": "2025-07-23T11:08:36Z",
+      "homepage": "https://stardustai.github.io/dataset-viewer"
+    },
+    "added_at": "2026-08-16T01:28:10.836112Z",
+    "stars": 980,
+    "language": "TypeScript",
+    "pushed_at": "2026-03-28T10:03:05Z",
+    "license": null,
+    "topics": [
+      "ai",
+      "file-streaming",
+      "huggingface",
+      "s3",
+      "smb",
+      "ssh",
+      "tauri",
+      "text",
+      "vibe-coding",
+      "viewer",
+      "webdav"
+    ]
+  },
+  {
+    "id": "github:wquguru/harness-books",
+    "url": "https://github.com/wquguru/harness-books",
+    "title": "wquguru/harness-books",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088743269052162340",
+    "fetched_at": "2026-08-16T01:27:07.005506Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A collection of high-quality, architectural design books focusing on the engineering principles, control planes, and safety constraints required to build reliable AI coding agents.",
+    "category": "AI Engineering",
+    "tags": [
+      "ai-agents",
+      "llm",
+      "architecture",
+      "software-engineering",
+      "developer-tools"
+    ],
+    "risk_notes": "This is a documentation/book repository. There is no software to install or execute, so it poses no security risk to your local machine or infrastructure. It is purely educational content.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-04-01T04:30:32Z",
+      "homepage": "http://harness-books.agentway.dev/"
+    },
+    "added_at": "2026-08-16T01:28:17.696548Z",
+    "stars": 2760,
+    "language": "Python",
+    "pushed_at": "2026-04-19T03:01:21Z",
+    "license": null,
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "ai-engineering",
+      "claude-code",
+      "codex",
+      "context-engineering",
+      "developer-tools",
+      "llm",
+      "prompt-engineering"
+    ]
+  },
+  {
+    "id": "github:dimastatz/whisper-flow",
+    "url": "https://github.com/dimastatz/whisper-flow",
+    "title": "dimastatz/whisper-flow",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088737646025507205",
+    "fetched_at": "2026-08-16T01:27:07.005629Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A framework for real-time, streaming speech-to-text transcription using OpenAI's Whisper model, utilizing tumbling window techniques for incremental processing.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "whisper",
+      "speech-to-text",
+      "streaming",
+      "transcription",
+      "python"
+    ],
+    "risk_notes": "Installed via standard Python package management (pip). Requires local compute resources (GPU recommended for real-time performance) and access to audio input streams. Does not inherently require external API keys if running the model locally, but requires careful management of local system audio permissions.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2024-06-03T12:13:05Z",
+      "homepage": "https://github.com/dimastatz/whisper-flow"
+    },
+    "added_at": "2026-08-16T01:28:24.550811Z",
+    "stars": 850,
+    "language": "Python",
+    "pushed_at": "2026-08-09T19:03:37Z",
+    "license": "MIT",
+    "topics": [
+      "pypi-package",
+      "python",
+      "speech-to-text",
+      "transcription",
+      "whisper"
+    ]
+  },
+  {
+    "id": "github:zubair-trabzada/ai-marketing-claude",
+    "url": "https://github.com/zubair-trabzada/ai-marketing-claude",
+    "title": "zubair-trabzada/ai-marketing-claude",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088732023355592972",
+    "fetched_at": "2026-08-16T01:27:07.005755Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized suite of marketing automation tools designed to run as skills within the Claude Code CLI environment, enabling automated website audits, content generation, and competitive analysis.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "automation",
+      "marketing",
+      "cli",
+      "seo"
+    ],
+    "risk_notes": "Installation uses a curl-to-bash script, which is a security risk as it executes arbitrary code from the web. The tool requires Claude Code integration and likely needs access to your Anthropic API keys. It performs network requests to audit external websites and writes files (reports) to your local filesystem.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-03-02T01:09:47Z",
+      "homepage": "https://www.skool.com/aiworkshop"
+    },
+    "added_at": "2026-08-16T01:28:31.041983Z",
+    "stars": 2408,
+    "language": "Python",
+    "pushed_at": "2026-03-02T01:18:40Z",
+    "license": "MIT",
+    "topics": [
+      "ai-marketing",
+      "claude",
+      "claude-code",
+      "competitive-analysis",
+      "content-strategy",
+      "copywriting",
+      "email-marketing",
+      "marketing",
+      "marketing-automation",
+      "seo"
+    ]
+  },
+  {
+    "id": "github:ythx-101/ask-search",
+    "url": "https://github.com/ythx-101/ask-search",
+    "title": "ythx-101/ask-search",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088726393282609625",
+    "fetched_at": "2026-08-16T01:27:07.005876Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A versatile CLI tool and MCP server that enables AI agents to perform private, self-hosted web searches by wrapping SearxNG, eliminating the need for paid search APIs.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "searxng",
+      "cli",
+      "self-hosted",
+      "mcp"
+    ],
+    "risk_notes": "Installation involves a bash script; review the script before execution. It requires a local SearxNG instance (Docker recommended) and potentially a Tavily API key if used as a fallback. It accesses the network to perform searches and interacts with local AI agent runtimes (OpenClaw/Claude Code), which may have broad filesystem access.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-03-09T12:35:42Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-16T01:28:38.299314Z",
+    "stars": 511,
+    "language": "Python",
+    "pushed_at": "2026-03-22T23:35:55Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:seedsigner/seedsigner",
+    "url": "https://github.com/seedsigner/seedsigner",
+    "title": "seedsigner/seedsigner",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088721010698657998",
+    "fetched_at": "2026-08-16T01:27:07.006002Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An open-source project for building a verifiably air-gapped, stateless Bitcoin hardware wallet using a Raspberry Pi Zero and specific peripherals.",
+    "category": "Security / Hardware",
+    "tags": [
+      "bitcoin",
+      "security",
+      "raspberry-pi",
+      "air-gapped",
+      "privacy"
+    ],
+    "risk_notes": "Installation involves flashing a custom OS image to an SD card. The device is designed to be air-gapped (no network connectivity), which is a high-security posture. It handles sensitive private keys in memory, which are wiped on power-off. The project supports reproducible builds, allowing users to verify the binary against the source code.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 270,
+      "created_at": "2020-12-14T02:06:37Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-16T01:28:44.992289Z",
+    "stars": 1225,
+    "language": "Python",
+    "pushed_at": "2026-08-13T02:14:39Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:mateusz-bak/openreads",
+    "url": "https://github.com/mateusz-bak/openreads",
+    "title": "mateusz-bak/openreads",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088715626369908947",
+    "fetched_at": "2026-08-16T01:27:07.006124Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A privacy-focused, open-source mobile book tracking application built with Flutter that integrates with Open Library.",
+    "category": "personal-productivity",
+    "tags": [
+      "flutter",
+      "mobile",
+      "privacy",
+      "books",
+      "open-source"
+    ],
+    "risk_notes": "The application is installed via standard app stores (Google Play, F-Droid, Apple App Store) or built from source using the Flutter SDK. It requires camera access for barcode scanning and network access to query the Open Library API. It does not require root or elevated privileges and maintains data locally, supporting CSV import/export for data portability.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 46,
+      "created_at": "2021-04-20T19:16:47Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-16T01:28:51.709322Z",
+    "stars": 1607,
+    "language": "Dart",
+    "pushed_at": "2026-07-20T21:01:26Z",
+    "license": "GPL-2.0",
+    "topics": [
+      "android",
+      "books",
+      "flutter",
+      "flutter-app",
+      "flutter-apps",
+      "mobile",
+      "open-source",
+      "openlibrary",
+      "opensource",
+      "privacy"
+    ]
+  },
+  {
+    "id": "github:dchristl/macless-haystack",
+    "url": "https://github.com/dchristl/macless-haystack",
+    "title": "dchristl/macless-haystack",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088710259338555654",
+    "fetched_at": "2026-08-16T01:27:07.006242Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A self-hosted solution that allows users to create and track custom AirTag-like devices using the Apple FindMy network without requiring a physical Mac.",
+    "category": "home-lab",
+    "tags": [
+      "esp32",
+      "findmy",
+      "self-hosting",
+      "iot",
+      "automation"
+    ],
+    "risk_notes": "Requires providing Apple ID credentials and 2FA to an anisette-v3-server container to authenticate with Apple's services. Installation is via Docker, which is standard, but the project involves reverse-engineering proprietary Apple protocols, which carries inherent stability and privacy risks. The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 84,
+      "created_at": "2023-01-16T11:30:55Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-16T01:28:59.168209Z",
+    "stars": 2152,
+    "language": "Dart",
+    "pushed_at": "2026-03-15T15:58:43Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "esp32",
+      "findmy",
+      "openhaystack"
+    ]
+  },
+  {
+    "id": "github:fduflyer/droneaware-node-releases",
+    "url": "https://github.com/fduflyer/droneaware-node-releases",
+    "title": "fduflyer/droneaware-node-releases",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088705143613108409",
+    "fetched_at": "2026-08-16T01:27:07.006363Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A distributed sensor network project that turns a Raspberry Pi into a Remote ID receiver for tracking drone activity via Bluetooth and Wi-Fi broadcasts.",
+    "category": "Home-lab / IoT",
+    "tags": [
+      "raspberry-pi",
+      "iot",
+      "networking",
+      "drone",
+      "automation"
+    ],
+    "risk_notes": "Uses a 'curl | sudo bash' installation script which grants full root access to the system. The software requires hardware access to USB Bluetooth and Wi-Fi adapters and transmits detected drone telemetry to a central server. It is a community-driven project, so users should review the install script before execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2026-03-18T01:32:42Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-16T01:29:06.148996Z",
+    "stars": 335,
+    "language": "Python",
+    "pushed_at": "2026-08-07T03:39:02Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:bytedance-seed/traceanything",
+    "url": "https://github.com/bytedance-seed/traceanything",
+    "title": "bytedance-seed/traceanything",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088699927069069680",
+    "fetched_at": "2026-08-16T01:27:07.006487Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A research-oriented computer vision project for 4D video reconstruction using trajectory fields.",
+    "category": "Computer Vision",
+    "tags": [
+      "computer-vision",
+      "3d-reconstruction",
+      "pytorch",
+      "research",
+      "video-processing"
+    ],
+    "risk_notes": "Requires manual download of model weights from Hugging Face and installation of various Python dependencies via pip. The project is highly resource-intensive, requiring 48GB+ VRAM, which limits its utility for standard home-lab or Raspberry Pi environments. It is a research implementation rather than a production-ready tool.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2025-10-15T05:59:37Z",
+      "homepage": "https://trace-anything.github.io/"
+    },
+    "added_at": "2026-08-16T01:29:12.737204Z",
+    "stars": 549,
+    "language": "Python",
+    "pushed_at": "2025-10-31T04:43:54Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "3d-reconstruction",
+      "4d-reconstruction",
+      "computer-vision"
+    ]
+  },
+  {
+    "id": "github:darlinghq/darling",
+    "url": "https://github.com/darlinghq/darling",
+    "title": "darlinghq/darling",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088694805714919822",
+    "fetched_at": "2026-08-16T01:27:07.006607Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Darling is a compatibility layer that enables running macOS applications and CLI tools directly on Linux without the overhead of a virtual machine.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "linux",
+      "emulation",
+      "compatibility",
+      "cli"
+    ],
+    "risk_notes": "Requires kernel-level support (overlayfs) and runs as a userspace kernel server. Installation typically involves system-level packages or building from source. It creates a virtualized environment (DPREFIX) in the user's home directory, but running macOS binaries inherently carries security risks similar to running untrusted native code, as it interacts with system calls.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 395,
+      "created_at": "2012-12-09T10:31:44Z",
+      "homepage": "http://www.darlinghq.org"
+    },
+    "added_at": "2026-08-16T01:29:19.775353Z",
+    "stars": 12995,
+    "language": "Objective-C",
+    "pushed_at": "2026-08-09T02:13:49Z",
+    "license": "GPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:victornpb/undiscord",
+    "url": "https://github.com/victornpb/undiscord",
+    "title": "victornpb/undiscord",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2088689671668727989",
+    "fetched_at": "2026-08-16T01:27:07.006730Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A popular browser userscript for bulk-deleting Discord messages, channels, and DMs.",
+    "category": "Automation",
+    "tags": [
+      "discord",
+      "automation",
+      "userscript",
+      "browser-extension",
+      "privacy"
+    ],
+    "risk_notes": "This tool is a userscript installed via browser extensions like Tampermonkey or Violentmonkey. It requires full access to your Discord session, including your authentication token, which grants complete control over your account. It is highly sensitive; the author explicitly warns against sharing tokens. It is actively maintained, but using it violates Discord's Terms of Service and carries a risk of account termination.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 119,
+      "created_at": "2019-08-21T04:10:31Z",
+      "homepage": "https://victornpb.github.io/undiscord"
+    },
+    "added_at": "2026-08-16T01:29:26.747268Z",
+    "stars": 6625,
+    "language": "JavaScript",
+    "pushed_at": "2025-12-22T13:59:45Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "browser-extension",
+      "bulk-operation",
+      "delete-multiple",
+      "discord",
+      "discord-channel",
+      "discordapp",
+      "greasemonkey",
+      "greasymonkey-userscript",
+      "tampermonkey",
+      "userscript"
+    ]
   }
 ]
