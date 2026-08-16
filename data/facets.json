@@ -31385,5 +31385,248 @@
       "discord-cleaner",
       "discord-bulk-delete"
     ]
+  },
+  "github:blacklanternsecurity/bbot": {
+    "capability_summary": "A modular framework for automated reconnaissance and attack surface management. Built for security professionals and bug bounty hunters.",
+    "problem_solved": "Automating subdomain enumeration and security scanning",
+    "use_cases": [
+      "bug bounty hunting",
+      "attack surface management",
+      "osint gathering"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint-framework",
+      "security-scanner"
+    ]
+  },
+  "github:taleshape-com/shaper": {
+    "capability_summary": "An open-source SQL-first analytics and dashboarding tool. Designed for developers needing Git-based data workflows.",
+    "problem_solved": "Creating dashboards from SQL queries",
+    "use_cases": [
+      "self-hosted dashboards",
+      "data analytics",
+      "embedded reporting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "duckdb-dashboard",
+      "sql-analytics"
+    ]
+  },
+  "github:rekklesna/proxmoxmcp-plus": {
+    "capability_summary": "A bridge providing MCP and OpenAPI interfaces for Proxmox VE. Enables AI agents to manage virtualization infrastructure.",
+    "problem_solved": "Controlling Proxmox via LLMs",
+    "use_cases": [
+      "homelab automation",
+      "virtual machine management",
+      "ai agent integration"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "proxmox-mcp",
+      "ai-infrastructure-control"
+    ]
+  },
+  "github:dortania/opencore-legacy-patcher": {
+    "capability_summary": "A tool that enables modern macOS versions to run on unsupported legacy Apple hardware. Designed for Hackintosh enthusiasts.",
+    "problem_solved": "Installing modern macOS on unsupported Macs",
+    "use_cases": [
+      "macos patching",
+      "legacy hardware support"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "hackintosh-patcher",
+      "opencore"
+    ]
+  },
+  "github:witnessmenow/esp32-cheap-yellow-display": {
+    "capability_summary": "A community resource for the inexpensive ESP32-based touch screen module. Provides documentation and code for hobbyists.",
+    "problem_solved": "Getting started with cheap ESP32 touch displays",
+    "use_cases": [
+      "iot projects",
+      "embedded development",
+      "hardware prototyping"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cyd",
+      "esp32-display"
+    ]
+  },
+  "github:timnekk/gigapixel": {
+    "capability_summary": "A Python library providing a programmatic interface to automate Topaz Gigapixel AI. For users needing batch image upscaling.",
+    "problem_solved": "Automating image upscaling workflows",
+    "use_cases": [
+      "image processing",
+      "batch automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "topaz-automation"
+    ]
+  },
+  "github:collaborator-ai/collab-public": {
+    "capability_summary": "An agentic development environment with an infinite canvas for managing terminals and AI interactions. Built for developers.",
+    "problem_solved": "Unified interface for AI-assisted coding",
+    "use_cases": [
+      "ai-assisted development",
+      "terminal management",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-ide",
+      "agentic-ide"
+    ]
+  },
+  "github:xaspx/hermes-control-interface": {
+    "capability_summary": "A web-based dashboard for managing the Hermes AI agent stack. Designed for users needing RBAC and task pipeline control.",
+    "problem_solved": "Managing AI agents and MCP servers",
+    "use_cases": [
+      "ai agent management",
+      "self-hosted dashboard"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-dashboard"
+    ]
+  },
+  "github:arikchakma/maily.to": {
+    "capability_summary": "A WYSIWYG email editor built with React and Tiptap. Designed for developers to create responsive emails.",
+    "problem_solved": "Building responsive email templates",
+    "use_cases": [
+      "web development",
+      "email design",
+      "wysiwyg-editor"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "react-email-editor"
+    ]
+  },
+  "github:emavgl/oinkoin": {
+    "capability_summary": "A privacy-focused, offline-first personal finance manager. Built for Android users who prioritize data privacy.",
+    "problem_solved": "Tracking personal finances offline",
+    "use_cases": [
+      "personal finance",
+      "budgeting"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "finance-tracker"
+    ]
+  },
+  "github:nilbuild/claude-run": {
+    "capability_summary": "A web-based dashboard for managing and visualizing conversation history from the Claude Code CLI.",
+    "problem_solved": "Managing and reviewing Claude Code conversation logs locally.",
+    "use_cases": [
+      "conversation history management",
+      "LLM workflow visualization",
+      "developer productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code dashboard",
+      "LLM history manager"
+    ]
+  },
+  "github:sarensw/macpacker": {
+    "capability_summary": "A native macOS archive manager that supports browsing and selective extraction of over 40 formats.",
+    "problem_solved": "Extracting files from large archives without decompressing the entire file.",
+    "use_cases": [
+      "file compression",
+      "archive management",
+      "quick look previewing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "7zip for mac",
+      "archive utility",
+      "file extractor"
+    ]
+  },
+  "github:jossephus/chuchu": {
+    "capability_summary": "A high-performance native Android SSH client built with Jetpack Compose and libghostty.",
+    "problem_solved": "Managing remote servers and terminal sessions from an Android device.",
+    "use_cases": [
+      "remote server management",
+      "mobile terminal emulation",
+      "devops on the go"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "android ssh client",
+      "mobile terminal"
+    ]
   }
 }
