@@ -31092,5 +31092,298 @@
       "slam-system",
       "3d-mapping"
     ]
+  },
+  "github:kavinsood/yaos": {
+    "capability_summary": "A real-time sync engine for Obsidian using CRDTs and Cloudflare Workers for cross-device data consistency.",
+    "problem_solved": "Syncing Obsidian vaults across devices without conflicts.",
+    "use_cases": [
+      "obsidian sync",
+      "local-first data",
+      "real-time collaboration"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-sync",
+      "crdt-sync"
+    ]
+  },
+  "github:hiroppy/tmux-agent-sidebar": {
+    "capability_summary": "A tmux sidebar plugin to monitor and manage AI coding agents directly within the terminal.",
+    "problem_solved": "Managing multiple AI coding agent sessions in a terminal environment.",
+    "use_cases": [
+      "ai agent monitoring",
+      "terminal productivity",
+      "tmux workflow"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "tmux-ai",
+      "ai-agent-manager"
+    ]
+  },
+  "github:ubikron/awesome-ai-osint": {
+    "capability_summary": "A curated list of AI-powered tools and methodologies for open-source intelligence investigations.",
+    "problem_solved": "Finding reliable AI tools for OSINT research.",
+    "use_cases": [
+      "osint research",
+      "ai automation",
+      "investigation tools"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint-resources",
+      "ai-intelligence-list"
+    ]
+  },
+  "github:nutlope/open-deep-research": {
+    "capability_summary": "An AI research assistant that automates web searching and report generation using LLMs.",
+    "problem_solved": "Automating time-consuming research and report writing.",
+    "use_cases": [
+      "automated research",
+      "report generation",
+      "llm search"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-researcher",
+      "deep-research-tool"
+    ]
+  },
+  "github:klipitkas/tunnl.gg": {
+    "capability_summary": "A lightweight SSH-based tunneling service to expose local services to the public internet.",
+    "problem_solved": "Exposing local development servers to the internet securely.",
+    "use_cases": [
+      "reverse proxy",
+      "localhost exposure",
+      "remote access"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ssh-tunnel",
+      "ngrok-alternative"
+    ]
+  },
+  "github:aaronbeckmann/esp-dashboardplus": {
+    "capability_summary": "A C++ library for ESP32 microcontrollers providing a WebSocket-based web dashboard for IoT control.",
+    "problem_solved": "Creating web interfaces for ESP32 IoT projects.",
+    "use_cases": [
+      "iot monitoring",
+      "esp32 dashboard",
+      "embedded web ui"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "esp32-web-ui",
+      "iot-dashboard"
+    ]
+  },
+  "github:safebucket/safebucket": {
+    "capability_summary": "A high-performance file sharing platform that offloads transfers to presigned URLs for scalability.",
+    "problem_solved": "Scaling file sharing infrastructure while maintaining security.",
+    "use_cases": [
+      "file sharing",
+      "secure storage",
+      "self-hosted cloud"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "file-transfer-server",
+      "self-hosted-storage"
+    ]
+  },
+  "github:stardustai/dataset-viewer": {
+    "capability_summary": "A cross-platform desktop app for viewing and searching massive remote datasets via S3, SSH, or WebDAV.",
+    "problem_solved": "Accessing and previewing large remote datasets without downloading them.",
+    "use_cases": [
+      "data engineering",
+      "dataset exploration",
+      "remote file viewing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "data-viewer",
+      "s3-browser"
+    ]
+  },
+  "github:wquguru/harness-books": {
+    "capability_summary": "A collection of architectural design books focused on engineering principles for building AI coding agents.",
+    "problem_solved": "Learning the architecture and safety constraints for AI agent development.",
+    "use_cases": [
+      "ai engineering",
+      "agentic architecture",
+      "software design"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-books",
+      "agent-engineering-guide"
+    ]
+  },
+  "github:dimastatz/whisper-flow": {
+    "capability_summary": "A framework for real-time, streaming speech-to-text transcription using OpenAI's Whisper model.",
+    "problem_solved": "Implementing low-latency, streaming audio transcription.",
+    "use_cases": [
+      "speech-to-text",
+      "live transcription",
+      "audio processing"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "whisper-streaming",
+      "live-transcription"
+    ]
+  },
+  "github:ythx-101/ask-search": {
+    "capability_summary": "A CLI tool and MCP server that enables AI agents to perform private web searches via SearxNG. It is designed for developers building AI-driven search workflows.",
+    "problem_solved": "Eliminates the need for paid search APIs for AI agents.",
+    "use_cases": [
+      "ai-agent search",
+      "private web search",
+      "mcp server"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "searxng-cli",
+      "ai-search-tool"
+    ]
+  },
+  "github:seedsigner/seedsigner": {
+    "capability_summary": "An open-source project for creating an air-gapped, stateless Bitcoin hardware wallet. It is intended for users prioritizing high-security cold storage.",
+    "problem_solved": "Provides a secure, verifiable way to store Bitcoin keys offline.",
+    "use_cases": [
+      "bitcoin cold storage",
+      "hardware wallet",
+      "air-gapped security"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "bitcoin-wallet",
+      "cold-storage-device"
+    ]
+  },
+  "github:mateusz-bak/openreads": {
+    "capability_summary": "A privacy-focused mobile book tracking application built with Flutter. It is for readers who want to manage their library and reading progress.",
+    "problem_solved": "Tracks personal reading progress and book collections privately.",
+    "use_cases": [
+      "book tracking",
+      "reading list management",
+      "library cataloging"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "goodreads-alternative",
+      "book-tracker"
+    ]
+  },
+  "github:darlinghq/darling": {
+    "capability_summary": "A compatibility layer for running macOS applications and CLI tools on Linux. It is designed for developers and power users needing macOS software on Linux systems.",
+    "problem_solved": "Enables macOS software execution on Linux without virtual machines.",
+    "use_cases": [
+      "macos app emulation",
+      "cross-platform compatibility",
+      "linux development"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "wine-for-macos",
+      "macos-compatibility-layer"
+    ]
+  },
+  "github:victornpb/undiscord": {
+    "capability_summary": "A browser userscript for bulk-deleting Discord messages, channels, and DMs. It is for Discord users looking to clean up their message history.",
+    "problem_solved": "Automates the manual process of deleting large amounts of Discord content.",
+    "use_cases": [
+      "discord message deletion",
+      "bulk-operation",
+      "privacy cleanup"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "discord-cleaner",
+      "discord-bulk-delete"
+    ]
   }
 }
