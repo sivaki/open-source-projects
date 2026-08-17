@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 500 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 506 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [nanonets/docext](https://github.com/nanonets/docext) ⭐ | AI/LLM Tooling | `ocr` `llm` `document-processing` `data-extraction` `vlm` `on-premises` | A powerful, on-premises toolkit for document intelligence, offering OCR-free extraction, PDF-to-markdown conversion, and a benchmarking suite for vision-language models. | 2056 | 2026-08-17 |
+| [miantiao-me/ssh-ai-chat](https://github.com/miantiao-me/ssh-ai-chat) ⭐ | AI/LLM Tooling | `ai` `cli` `ssh` `tui` `llm` | A TUI-based AI chat interface accessible directly via SSH, built with Node.js, React, and Ink. | 849 | 2026-08-17 |
+| [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) ⭐ | AI/LLM Tooling | `mcp` `ai` `finance` `automation` `trading` | An MCP (Model Context Protocol) server that bridges AI assistants with the MetaTrader 5 trading platform, allowing for natural language trade execution and market data retrieval. | 729 | 2026-08-17 |
+| [danveloper/flash-moe](https://github.com/danveloper/flash-moe) ⭐ | AI/LLM Tooling | `llm` `metal` `apple-silicon` `inference` `performance` | A high-performance, pure C/Metal inference engine for Apple Silicon that enables running massive Mixture-of-Experts models by streaming weights directly from SSD. | 4069 | 2026-08-17 |
+| [kamalnrf/claude-plugins](https://github.com/kamalnrf/claude-plugins) ⭐ | AI/LLM Tooling | `ai` `cli` `automation` `developer-tools` `claude` | A centralized registry and CLI toolset for discovering and managing plugins and agent skills across various AI coding assistants like Claude Code, Cursor, and Windsurf. | 537 | 2026-08-17 |
+| [kevin-hs-sohn/hipocampus](https://github.com/kevin-hs-sohn/hipocampus) ⭐ | AI/LLM Tooling | `ai-agent` `memory` `rag` `context-management` `developer-tools` | A proactive memory harness for AI agents that uses a 3-tier compaction tree to maintain a compressed index of conversation history, allowing agents to surface relevant context without explicit search queries. | 164 | 2026-08-17 |
 | [jayantdevkar/claude-code-karma](https://github.com/jayantdevkar/claude-code-karma) ⭐ | AI/LLM Tooling | `claude` `observability` `dashboard` `developer-tools` `local-first` | A local-first dashboard for visualizing and analyzing Claude Code session data, providing insights into token usage, tool calls, and agent activity. | 268 | 2026-08-17 |
 | [alextselegidis/plainpad](https://github.com/alextselegidis/plainpad) ⭐ | self-hosting | `self-hosted` `notes` `laravel` `docker` `productivity` | Plainpad is a simple, self-hosted note-taking application built with Laravel and React, designed for users who want to own their data. | 429 | 2026-08-17 |
 | [langchain-ai/agents-from-scratch](https://github.com/langchain-ai/agents-from-scratch) ⭐ | AI/LLM Tooling | `langgraph` `agents` `llm` `automation` `python` | A comprehensive educational repository by LangChain for building autonomous email agents using LangGraph, featuring human-in-the-loop workflows, memory, and evaluation. | 2074 | 2026-08-17 |
