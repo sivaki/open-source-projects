@@ -22101,5 +22101,250 @@
       "spec-driven-development",
       "subagents"
     ]
+  },
+  {
+    "id": "github:olorehq/olore",
+    "url": "https://github.com/olorehq/olore",
+    "title": "olorehq/olore",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089255714875126199",
+    "fetched_at": "2026-08-17T08:46:26.138992Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A local-first documentation package manager for AI coding agents that provides consistent, versioned, and offline-ready context for LLMs.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "developer-tools",
+      "cli",
+      "documentation"
+    ],
+    "risk_notes": "Installed via npm (global or npx). It creates a local directory at ~/.olore/ and manages symlinks/copies into agent-specific configuration folders. It requires filesystem access to read documentation and write to agent skill directories. No sensitive API keys are required for core functionality as it operates locally.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-21T11:32:40Z",
+      "homepage": "https://olore.dev"
+    },
+    "added_at": "2026-08-17T08:46:33.049063Z",
+    "stars": 69,
+    "language": "MDX",
+    "pushed_at": "2026-08-17T06:59:37Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:cesarferreira/rip",
+    "url": "https://github.com/cesarferreira/rip",
+    "title": "cesarferreira/rip",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089237345119666334",
+    "fetched_at": "2026-08-17T08:46:26.139228Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A fast, Rust-based CLI tool that provides a fuzzy-finding interface to search for and terminate processes, including support for filtering by network ports.",
+    "category": "Developer Tools",
+    "tags": [
+      "cli",
+      "rust",
+      "productivity",
+      "process-management",
+      "terminal"
+    ],
+    "risk_notes": "Installs via standard package managers (Homebrew, Cargo, Nix) which is safe. The tool requires permissions to list and send signals to processes owned by the user; it does not require root/sudo unless the user attempts to kill processes owned by other users or the system. It is actively maintained and written in memory-safe Rust.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-01-07T16:41:18Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-17T08:46:39.612382Z",
+    "stars": 470,
+    "language": "Rust",
+    "pushed_at": "2026-02-03T15:10:36Z",
+    "license": "MIT",
+    "topics": [
+      "kill",
+      "rust",
+      "terminal"
+    ]
+  },
+  {
+    "id": "github:caviraoss/pagelm",
+    "url": "https://github.com/caviraoss/pagelm",
+    "title": "caviraoss/pagelm",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089220091644625143",
+    "fetched_at": "2026-08-17T08:46:26.139354Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "PageLM is an open-source, self-hostable AI education platform that converts documents into interactive study materials like quizzes, flashcards, and podcasts using various LLM providers.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "rag",
+      "education",
+      "self-hosted",
+      "llm",
+      "typescript"
+    ],
+    "risk_notes": "The project is a Node.js/React application that requires API keys for various LLM/TTS providers or a local Ollama instance. It handles file uploads (PDF, DOCX, etc.) and requires persistent storage for vector databases and generated content. Users should review the Docker configuration for security best practices regarding data persistence and network exposure.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-08-31T16:17:31Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-17T08:46:46.386033Z",
+    "stars": 1725,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-11T00:06:14Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai",
+      "docker",
+      "edtech",
+      "education",
+      "flashcards",
+      "javascript",
+      "langchain",
+      "nodejs",
+      "notebooklm",
+      "notes",
+      "oss",
+      "pagelm",
+      "podcast",
+      "quizzes",
+      "rag",
+      "react",
+      "study-tools",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ]
+  },
+  {
+    "id": "github:langchain-ai/agents-from-scratch",
+    "url": "https://github.com/langchain-ai/agents-from-scratch",
+    "title": "langchain-ai/agents-from-scratch",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089203712354906621",
+    "fetched_at": "2026-08-17T08:46:26.139479Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive educational repository by LangChain for building autonomous email agents using LangGraph, featuring human-in-the-loop workflows, memory, and evaluation.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "langgraph",
+      "agents",
+      "llm",
+      "automation",
+      "python"
+    ],
+    "risk_notes": "Requires Python 3.11+ and standard pip/uv package management. The agent requires sensitive API keys (OpenAI, LangSmith, and Gmail OAuth credentials) to function. It is designed to interact with your email and calendar, which carries significant privacy and security implications if the agent is misconfigured or compromised. The project is actively maintained by the LangChain team.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 14,
+      "created_at": "2025-03-31T19:40:08Z",
+      "homepage": "https://academy.langchain.com/courses/ambient-agents"
+    },
+    "added_at": "2026-08-17T08:46:53.243225Z",
+    "stars": 2074,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-08-11T15:37:42Z",
+    "license": "MIT",
+    "topics": [
+      "agents",
+      "memory"
+    ]
+  },
+  {
+    "id": "github:alextselegidis/plainpad",
+    "url": "https://github.com/alextselegidis/plainpad",
+    "title": "alextselegidis/plainpad",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089187681641099333",
+    "fetched_at": "2026-08-17T08:46:26.139597Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "Plainpad is a simple, self-hosted note-taking application built with Laravel and React, designed for users who want to own their data.",
+    "category": "self-hosting",
+    "tags": [
+      "self-hosted",
+      "notes",
+      "laravel",
+      "docker",
+      "productivity"
+    ],
+    "risk_notes": "Installs via Docker Compose, which is a standard and safe deployment method. It requires a persistent database volume for data storage. As a web application, it will be exposed to the network, so users should ensure proper reverse proxy and SSL configuration. The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2019-11-04T17:12:25Z",
+      "homepage": "https://plainpad.org"
+    },
+    "added_at": "2026-08-17T08:46:59.734309Z",
+    "stars": 429,
+    "language": "PHP",
+    "pushed_at": "2026-08-10T09:58:01Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "javascript",
+      "laravel",
+      "note-taking",
+      "php",
+      "react",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github:jayantdevkar/claude-code-karma",
+    "url": "https://github.com/jayantdevkar/claude-code-karma",
+    "title": "jayantdevkar/claude-code-karma",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089172438948913462",
+    "fetched_at": "2026-08-17T08:46:26.139713Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A local-first dashboard for visualizing and analyzing Claude Code session data, providing insights into token usage, tool calls, and agent activity.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "observability",
+      "dashboard",
+      "developer-tools",
+      "local-first"
+    ],
+    "risk_notes": "The tool runs locally and reads from the ~/.claude/ directory. It requires no external cloud accounts or telemetry, making it privacy-friendly. It is a read-only observer of local JSONL logs, minimizing security risks, though it requires Python and Node.js environments to run.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2026-01-06T00:46:23Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-17T08:47:06.208313Z",
+    "stars": 268,
+    "language": "Python",
+    "pushed_at": "2026-08-13T15:46:27Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "agents",
+      "agentskills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skills",
+      "dashboard",
+      "hooks",
+      "mcp",
+      "mcptool",
+      "mcptools",
+      "monitoring",
+      "observability",
+      "plugins",
+      "sessions",
+      "skills",
+      "visibility"
+    ]
   }
 ]
