@@ -31843,5 +31843,114 @@
       "note-taking app",
       "self-hosted notes"
     ]
+  },
+  "github:kevin-hs-sohn/hipocampus": {
+    "capability_summary": "A memory management system for AI agents that uses a compaction tree to maintain compressed conversation history.",
+    "problem_solved": "Agents losing context over long conversations.",
+    "use_cases": [
+      "ai agent memory",
+      "context management",
+      "rag optimization"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai memory harness"
+    ]
+  },
+  "github:kamalnrf/claude-plugins": {
+    "capability_summary": "A registry and CLI toolset for managing plugins and skills for AI coding assistants.",
+    "problem_solved": "Difficulty discovering and managing AI agent extensions.",
+    "use_cases": [
+      "plugin management",
+      "ai agent automation",
+      "developer tool integration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude plugin registry"
+    ]
+  },
+  "github:danveloper/flash-moe": {
+    "capability_summary": "A high-performance inference engine for Apple Silicon that streams large MoE model weights from SSD.",
+    "problem_solved": "Running massive models on devices with limited RAM.",
+    "use_cases": [
+      "llm inference",
+      "apple silicon optimization",
+      "mixture-of-experts"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "metal inference engine"
+    ]
+  },
+  "github:ariadng/metatrader-mcp-server": {
+    "capability_summary": "An MCP server connecting AI assistants to the MetaTrader 5 trading platform.",
+    "problem_solved": "Executing trades and fetching market data via natural language.",
+    "use_cases": [
+      "algorithmic trading",
+      "financial automation",
+      "mcp integration"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "metatrader ai bridge"
+    ]
+  },
+  "github:miantiao-me/ssh-ai-chat": {
+    "capability_summary": "A TUI-based AI chat interface that runs directly over an SSH connection.",
+    "problem_solved": "Accessing AI chat interfaces from remote terminal environments.",
+    "use_cases": [
+      "remote terminal chat",
+      "ssh-based ai",
+      "tui interface"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ssh ai terminal"
+    ]
+  },
+  "github:nanonets/docext": {
+    "capability_summary": "An on-premises toolkit for document intelligence, including OCR-free extraction and PDF-to-markdown conversion.",
+    "problem_solved": "Extracting structured data from unstructured documents locally.",
+    "use_cases": [
+      "document extraction",
+      "ocr-free processing",
+      "vlm benchmarking"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "document intelligence toolkit"
+    ]
   }
 }
