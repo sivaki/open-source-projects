@@ -31744,5 +31744,104 @@
       "claude-code template",
       "ai software engineer"
     ]
+  },
+  "github:olorehq/olore": {
+    "capability_summary": "A local-first documentation manager that provides versioned, offline context for AI coding agents.",
+    "problem_solved": "Ensuring AI agents have consistent and accurate documentation context.",
+    "use_cases": [
+      "AI agent context management",
+      "offline documentation access",
+      "versioned documentation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "documentation manager",
+      "AI context tool"
+    ]
+  },
+  "github:cesarferreira/rip": {
+    "capability_summary": "A fast, Rust-based CLI tool for searching and terminating system processes using fuzzy finding.",
+    "problem_solved": "Quickly finding and killing specific processes or network-bound tasks.",
+    "use_cases": [
+      "process management",
+      "network port filtering",
+      "terminal productivity"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "kill",
+      "process manager",
+      "fuzzy finder"
+    ]
+  },
+  "github:caviraoss/pagelm": {
+    "capability_summary": "An open-source, self-hostable AI platform that transforms documents into interactive study tools like quizzes and podcasts.",
+    "problem_solved": "Converting static documents into active learning materials.",
+    "use_cases": [
+      "automated flashcards",
+      "AI-generated podcasts",
+      "study aid generation",
+      "self-hosted education"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "NotebookLM alternative",
+      "study tool"
+    ]
+  },
+  "github:langchain-ai/agents-from-scratch": {
+    "capability_summary": "An educational repository demonstrating how to build autonomous email agents with human-in-the-loop workflows.",
+    "problem_solved": "Learning how to implement agentic workflows and memory in LLM applications.",
+    "use_cases": [
+      "AI agent development",
+      "email automation",
+      "human-in-the-loop workflows"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LangGraph tutorial",
+      "AI agent course"
+    ]
+  },
+  "github:alextselegidis/plainpad": {
+    "capability_summary": "A simple, self-hosted note-taking application built with Laravel and React for data ownership.",
+    "problem_solved": "Managing personal notes while maintaining full control over data.",
+    "use_cases": [
+      "personal note-taking",
+      "self-hosted productivity",
+      "data ownership"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "note-taking app",
+      "self-hosted notes"
+    ]
   }
 }
