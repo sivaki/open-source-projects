@@ -31628,5 +31628,121 @@
       "android ssh client",
       "mobile terminal"
     ]
+  },
+  "github:wartybix/constrict": {
+    "capability_summary": "A GNOME application for compressing videos to specific file sizes using local hardware encoding.",
+    "problem_solved": "Compressing video files to meet specific size constraints.",
+    "use_cases": [
+      "video compression",
+      "file size reduction",
+      "media optimization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "video compressor",
+      "gtk video tool"
+    ]
+  },
+  "github:videosdk-community/ai-telephony-demo": {
+    "capability_summary": "A framework for building AI-driven telephony agents that handle voice calls via SIP and Gemini.",
+    "problem_solved": "Automating inbound and outbound voice communications with AI.",
+    "use_cases": [
+      "ai telephony",
+      "voice automation",
+      "sip integration"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai voice agent",
+      "sip automation"
+    ]
+  },
+  "github:bytechefhq/bytechef": {
+    "capability_summary": "An open-source platform for orchestrating AI agents and automating workflows with LLM and RAG support.",
+    "problem_solved": "Connecting disparate APIs and AI models into automated workflows.",
+    "use_cases": [
+      "workflow automation",
+      "ai agent orchestration",
+      "ipaas",
+      "low-code integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "n8n alternative",
+      "zapier alternative",
+      "workato alternative"
+    ]
+  },
+  "github:usertour/usertour": {
+    "capability_summary": "A self-hostable platform for building in-app product tours, checklists, and surveys with AI assistance.",
+    "problem_solved": "Creating user onboarding flows and product engagement tools.",
+    "use_cases": [
+      "product onboarding",
+      "user surveys",
+      "in-app checklists",
+      "product tours"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "appcues alternative",
+      "pendo alternative",
+      "userflow alternative"
+    ]
+  },
+  "github:seblague/digital-logic-sim": {
+    "capability_summary": "A minimalistic digital logic simulator for educational purposes.",
+    "problem_solved": "Visualizing and learning how digital logic circuits work.",
+    "use_cases": [
+      "electronics simulation",
+      "computer science education",
+      "logic circuit design"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "logic gate simulator",
+      "circuit simulator"
+    ]
+  },
+  "github:syahiidkamil/software-engineer-ai-agent-atlas": {
+    "capability_summary": "A configuration layer for Claude Code that structures workflows for AI-assisted software engineering.",
+    "problem_solved": "Standardizing and accelerating AI-driven software development workflows.",
+    "use_cases": [
+      "ai coding assistant",
+      "rapid prototyping",
+      "software scaffolding"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code template",
+      "ai software engineer"
+    ]
   }
 }
