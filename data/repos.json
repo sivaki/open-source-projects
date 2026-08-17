@@ -22346,5 +22346,251 @@
       "skills",
       "visibility"
     ]
+  },
+  {
+    "id": "github:kevin-hs-sohn/hipocampus",
+    "url": "https://github.com/kevin-hs-sohn/hipocampus",
+    "title": "kevin-hs-sohn/hipocampus",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089371991983767781",
+    "fetched_at": "2026-08-17T16:30:24.431449Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A proactive memory harness for AI agents that uses a 3-tier compaction tree to maintain a compressed index of conversation history, allowing agents to surface relevant context without explicit search queries.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agent",
+      "memory",
+      "rag",
+      "context-management",
+      "developer-tools"
+    ],
+    "risk_notes": "Installed via npm (npx hipocampus init). It operates locally on your filesystem, creating a 'memory/' directory to store history and indexes. It requires access to your local project files and likely interacts with your LLM provider's API keys (e.g., Claude/OpenAI) as configured by the host agent (Claude Code/OpenClaw). It is a new project (created 2026) but shows active development.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-03-15T08:10:05Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-17T16:30:31.983336Z",
+    "stars": 164,
+    "language": "JavaScript",
+    "pushed_at": "2026-06-08T19:08:09Z",
+    "license": "MIT",
+    "topics": [
+      "agent-memory",
+      "ai-agent",
+      "ai-memory",
+      "claude-code",
+      "compaction-tree",
+      "context-management",
+      "knowledge-management",
+      "llm",
+      "long-term-memory",
+      "openclaw",
+      "rag",
+      "vector-search"
+    ]
+  },
+  {
+    "id": "github:kamalnrf/claude-plugins",
+    "url": "https://github.com/kamalnrf/claude-plugins",
+    "title": "kamalnrf/claude-plugins",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089355445043445824",
+    "fetched_at": "2026-08-17T16:30:24.431687Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A centralized registry and CLI toolset for discovering and managing plugins and agent skills across various AI coding assistants like Claude Code, Cursor, and Windsurf.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "cli",
+      "automation",
+      "developer-tools",
+      "claude"
+    ],
+    "risk_notes": "Installed via npm (npm install -g). The tools clone external repositories from GitHub to your local machine (~/.claude/plugins/ or ~/.claude/skills/), which introduces a supply chain risk if the registry or the source repositories are compromised. It requires read/write access to your local filesystem to manage these plugins and interacts with AI coding agents that have broad access to your codebase.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 25,
+      "created_at": "2025-10-12T20:18:22Z",
+      "homepage": "https://claude-plugins.dev"
+    },
+    "added_at": "2026-08-17T16:30:41.164260Z",
+    "stars": 537,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-17T09:12:15Z",
+    "license": null,
+    "topics": [
+      "claude",
+      "claude-code",
+      "plugins"
+    ]
+  },
+  {
+    "id": "github:danveloper/flash-moe",
+    "url": "https://github.com/danveloper/flash-moe",
+    "title": "danveloper/flash-moe",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089339845155897560",
+    "fetched_at": "2026-08-17T16:30:24.431814Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, pure C/Metal inference engine for Apple Silicon that enables running massive Mixture-of-Experts models by streaming weights directly from SSD.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "metal",
+      "apple-silicon",
+      "inference",
+      "performance"
+    ],
+    "risk_notes": "Requires manual compilation via Makefile. The project accesses local files (model weights) and executes custom Metal shaders on the GPU. It does not appear to require network access or elevated privileges, but it is a low-level C/Objective-C codebase that requires careful review of the source code before execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 19,
+      "created_at": "2026-03-18T16:13:13Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-17T16:30:51.653474Z",
+    "stars": 4069,
+    "language": "Objective-C",
+    "pushed_at": "2026-03-19T17:21:57Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:ariadng/metatrader-mcp-server",
+    "url": "https://github.com/ariadng/metatrader-mcp-server",
+    "title": "ariadng/metatrader-mcp-server",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089316643084095984",
+    "fetched_at": "2026-08-17T16:30:24.431984Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An MCP (Model Context Protocol) server that bridges AI assistants with the MetaTrader 5 trading platform, allowing for natural language trade execution and market data retrieval.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "ai",
+      "finance",
+      "automation",
+      "trading"
+    ],
+    "risk_notes": "Installed via pip. Requires storing MetaTrader 5 account credentials (login, password, server) in local configuration files. It grants the AI full control over your trading account, including the ability to place and close orders, which carries significant financial risk. The project is actively maintained and uses standard Python packaging.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 27,
+      "created_at": "2025-04-10T09:15:15Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-17T16:30:59.216620Z",
+    "stars": 729,
+    "language": "Python",
+    "pushed_at": "2026-03-28T18:39:29Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "finance",
+      "investment",
+      "llm",
+      "mcp",
+      "metatrader",
+      "quantitative-finance",
+      "trading"
+    ]
+  },
+  {
+    "id": "github:miantiao-me/ssh-ai-chat",
+    "url": "https://github.com/miantiao-me/ssh-ai-chat",
+    "title": "miantiao-me/ssh-ai-chat",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089295092108398927",
+    "fetched_at": "2026-08-17T16:30:24.432109Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A TUI-based AI chat interface accessible directly via SSH, built with Node.js, React, and Ink.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "cli",
+      "ssh",
+      "tui",
+      "llm"
+    ],
+    "risk_notes": "Deployed via Docker using a provided image. Requires sensitive API keys for AI models (OpenAI-compatible) and environment variables for database/Redis connections. The application acts as an SSH server, so it should be hosted on a secure, isolated container with restricted network access. Maintenance is active.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2025-06-14T03:33:17Z",
+      "homepage": "https://chat.agi.li"
+    },
+    "added_at": "2026-08-17T16:31:07.975404Z",
+    "stars": 849,
+    "language": "TypeScript",
+    "pushed_at": "2025-12-20T08:35:02Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai",
+      "cli",
+      "ink",
+      "llm",
+      "tui"
+    ]
+  },
+  {
+    "id": "github:nanonets/docext",
+    "url": "https://github.com/nanonets/docext",
+    "title": "nanonets/docext",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089274822773600524",
+    "fetched_at": "2026-08-17T16:30:24.432229Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful, on-premises toolkit for document intelligence, offering OCR-free extraction, PDF-to-markdown conversion, and a benchmarking suite for vision-language models.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ocr",
+      "llm",
+      "document-processing",
+      "data-extraction",
+      "vlm",
+      "on-premises"
+    ],
+    "risk_notes": "Installed via standard pip package. Being an on-premises tool, it requires local compute resources (GPU recommended for VLM performance). It processes local files and may require API keys if integrated with external LLM providers, though it supports local model execution. Active maintenance and clear documentation provided.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2025-03-25T03:56:46Z",
+      "homepage": "https://nanonets.com/document-parsing-and-extraction"
+    },
+    "added_at": "2026-08-17T16:31:14.916376Z",
+    "stars": 2056,
+    "language": "Python",
+    "pushed_at": "2026-03-17T09:41:55Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "document",
+      "document-analysis",
+      "document-data-extraction",
+      "document-information-extraction",
+      "extraction",
+      "llm-ocr",
+      "llms",
+      "machine-learning",
+      "nlp",
+      "ocr",
+      "ocr-benchmark",
+      "ocr-onpremise",
+      "onprem",
+      "onprem-ocr",
+      "onprem-vision",
+      "onpremise",
+      "rag",
+      "table-extraction",
+      "unstructured-data",
+      "vlms"
+    ]
   }
 ]
