@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 494 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 500 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [jayantdevkar/claude-code-karma](https://github.com/jayantdevkar/claude-code-karma) ⭐ | AI/LLM Tooling | `claude` `observability` `dashboard` `developer-tools` `local-first` | A local-first dashboard for visualizing and analyzing Claude Code session data, providing insights into token usage, tool calls, and agent activity. | 268 | 2026-08-17 |
+| [alextselegidis/plainpad](https://github.com/alextselegidis/plainpad) ⭐ | self-hosting | `self-hosted` `notes` `laravel` `docker` `productivity` | Plainpad is a simple, self-hosted note-taking application built with Laravel and React, designed for users who want to own their data. | 429 | 2026-08-17 |
+| [langchain-ai/agents-from-scratch](https://github.com/langchain-ai/agents-from-scratch) ⭐ | AI/LLM Tooling | `langgraph` `agents` `llm` `automation` `python` | A comprehensive educational repository by LangChain for building autonomous email agents using LangGraph, featuring human-in-the-loop workflows, memory, and evaluation. | 2074 | 2026-08-17 |
+| [caviraoss/pagelm](https://github.com/caviraoss/pagelm) ⭐ | AI/LLM Tooling | `ai` `rag` `education` `self-hosted` `llm` `typescript` | PageLM is an open-source, self-hostable AI education platform that converts documents into interactive study materials like quizzes, flashcards, and podcasts using various LLM providers. | 1725 | 2026-08-17 |
+| [cesarferreira/rip](https://github.com/cesarferreira/rip) ⭐ | Developer Tools | `cli` `rust` `productivity` `process-management` `terminal` | A fast, Rust-based CLI tool that provides a fuzzy-finding interface to search for and terminate processes, including support for filtering by network ports. | 470 | 2026-08-17 |
+| [olorehq/olore](https://github.com/olorehq/olore) ⭐ | AI/LLM Tooling | `ai` `llm` `developer-tools` `cli` `documentation` | A local-first documentation package manager for AI coding agents that provides consistent, versioned, and offline-ready context for LLMs. | 69 | 2026-08-17 |
 | [syahiidkamil/software-engineer-ai-agent-atlas](https://github.com/syahiidkamil/software-engineer-ai-agent-atlas) ⭐ | AI/LLM Tooling | `ai-agent` `claude-code` `developer-tools` `automation` `scaffolding` | A configuration layer for Claude Code that provides a structured workflow for AI-assisted software engineering, focusing on rapid prototyping and decision-making over heavy specification. | 341 | 2026-08-17 |
 | [spacehuhntech/wifiduck](https://github.com/spacehuhntech/wifiduck) ⭐ | Security Tooling | `security` `badusb` `esp8266` `hardware` `pentesting` | An open-source platform for keystroke injection attacks (BadUSB) using ESP8266 and Atmega32u4 hardware, allowing remote script management via a web interface. | 3158 | 2026-08-17 |
 | [seblague/digital-logic-sim](https://github.com/seblague/digital-logic-sim) ⭐ | Education | `electronics` `simulation` `education` `computer-science` | A minimalistic digital logic simulator created by Sebastian Lague to accompany his educational video series on how computers work. | 4660 | 2026-08-17 |
