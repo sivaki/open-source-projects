@@ -32195,5 +32195,26 @@
     "aliases": [
       "nn-visualizer"
     ]
+  },
+  "github:rybbit-io/rybbit": {
+    "capability_summary": "A privacy-focused, open-source web analytics platform designed for developers and businesses. It provides detailed user insights while maintaining data sovereignty through self-hosting.",
+    "problem_solved": "Replacing Google Analytics with a privacy-compliant, self-hosted alternative.",
+    "use_cases": [
+      "web traffic monitoring",
+      "user behavior tracking",
+      "privacy-first analytics",
+      "self-hosted dashboards"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Google Analytics alternative",
+      "privacy-focused analytics"
+    ]
   }
 }
