@@ -32083,5 +32083,117 @@
       "meshtastic-dashboard",
       "mesh-network-monitor"
     ]
+  },
+  "github:lumpinif/deepcrawl": {
+    "capability_summary": "An open-source tool for converting websites into clean Markdown and link structures for LLM agents.",
+    "problem_solved": "Extracting structured web data for LLM ingestion.",
+    "use_cases": [
+      "web-scraping",
+      "llm-data-preparation",
+      "ai-agent-workflows"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Firecrawl alternative"
+    ]
+  },
+  "github:trademaster-ntu/trademaster": {
+    "capability_summary": "A framework for designing, simulating, and evaluating quantitative trading strategies using reinforcement learning.",
+    "problem_solved": "Automating the development and testing of financial trading strategies.",
+    "use_cases": [
+      "quantitative-trading",
+      "reinforcement-learning",
+      "financial-simulation"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading-platform"
+    ]
+  },
+  "github:gantfdt/icraft": {
+    "capability_summary": "A web-based editor for creating 3D isometric architecture diagrams and digital twin visualizations.",
+    "problem_solved": "Creating complex 3D architectural diagrams in a browser.",
+    "use_cases": [
+      "3d-modeling",
+      "architecture-diagrams",
+      "digital-twins"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3d-editor"
+    ]
+  },
+  "github:fikrikarim/parlor": {
+    "capability_summary": "A local, multimodal voice assistant for Apple Silicon and Linux with real-time speech processing.",
+    "problem_solved": "Running private, low-latency voice assistants on local hardware.",
+    "use_cases": [
+      "voice-assistant",
+      "speech-to-text",
+      "text-to-speech",
+      "on-device-ai"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "local-llm-voice"
+    ]
+  },
+  "github:0015/offlinemapdownloader": {
+    "capability_summary": "A Flask web app to download geographic map tiles for offline use in various formats.",
+    "problem_solved": "Acquiring map data for offline navigation or geospatial projects.",
+    "use_cases": [
+      "geospatial-data",
+      "offline-maps",
+      "map-tile-downloading"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "map-downloader"
+    ]
+  },
+  "github:dfin/neural-network-visualisation": {
+    "capability_summary": "An interactive 3D visualization tool for observing neural network activation and training in real-time.",
+    "problem_solved": "Understanding how neural networks process data through visual inspection.",
+    "use_cases": [
+      "ai-education",
+      "neural-network-debugging",
+      "ml-visualization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "nn-visualizer"
+    ]
   }
 }
