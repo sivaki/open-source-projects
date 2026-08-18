@@ -22592,5 +22592,583 @@
       "unstructured-data",
       "vlms"
     ]
+  },
+  {
+    "id": "github:dietrichmax/colota",
+    "url": "https://github.com/dietrichmax/colota",
+    "title": "dietrichmax/colota",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089517190403792917",
+    "fetched_at": "2026-08-18T01:21:05.549823Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A privacy-focused, self-hosted Android GPS tracking application that supports multiple backends like Home Assistant and Traccar, with no telemetry or third-party SDKs.",
+    "category": "self-hosting",
+    "tags": [
+      "android",
+      "gps",
+      "privacy",
+      "self-hosted",
+      "home-lab"
+    ],
+    "risk_notes": "Installed via standard Android app stores (Google Play, F-Droid) or APK sideloading. Requires 'precise' location access 'all the time' and notification permissions. It handles sensitive location data and credentials for your self-hosted backend, but the app itself is open source and explicitly avoids third-party analytics/telemetry.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 41,
+      "created_at": "2026-01-20T16:12:32Z",
+      "homepage": "https://colota.app/"
+    },
+    "added_at": "2026-08-18T01:21:12.807406Z",
+    "stars": 476,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-17T18:46:52Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "android",
+      "google-timeline",
+      "gps-tracker",
+      "gps-tracking",
+      "location",
+      "location-tracker",
+      "react-native"
+    ]
+  },
+  {
+    "id": "github:freedomofpress/dangerzone",
+    "url": "https://github.com/freedomofpress/dangerzone",
+    "title": "freedomofpress/dangerzone",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089507466765594788",
+    "fetched_at": "2026-08-18T01:21:05.550071Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A security-focused tool that converts potentially malicious documents (PDFs, Office files, images) into safe, sanitized PDFs by processing them within a sandboxed container environment.",
+    "category": "Security Tooling",
+    "tags": [
+      "security",
+      "privacy",
+      "sandbox",
+      "pdf",
+      "containerization"
+    ],
+    "risk_notes": "Installs via native packages (DEB/RPM/DMG/EXE) from the official website. It requires container runtime access (Podman) to function. The tool is designed to handle untrusted files, so it is inherently security-conscious, featuring a sandboxed architecture that prevents network access for the conversion process. Maintained by the Freedom of the Press Foundation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 203,
+      "created_at": "2020-01-06T20:42:37Z",
+      "homepage": "https://dangerzone.rocks"
+    },
+    "added_at": "2026-08-18T01:21:19.664687Z",
+    "stars": 5684,
+    "language": "Python",
+    "pushed_at": "2026-08-12T12:00:48Z",
+    "license": "AGPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:tkslucas/neodisk",
+    "url": "https://github.com/tkslucas/neodisk",
+    "title": "tkslucas/neodisk",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089498173257462118",
+    "fetched_at": "2026-08-18T01:21:05.550197Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A modern, high-performance macOS disk space visualizer featuring treemap and sunburst views with a focus on read-only safety.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "disk-analyzer",
+      "swift",
+      "utility",
+      "storage"
+    ],
+    "risk_notes": "Distributed as a signed DMG or via Homebrew Cask. It is read-only by design and does not require root privileges, though it requires Full Disk Access permissions on macOS to scan the entire filesystem. The project is actively maintained and open source.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2022-06-10T15:55:24Z",
+      "homepage": "https://neodisk.app"
+    },
+    "added_at": "2026-08-18T01:21:25.909865Z",
+    "stars": 480,
+    "language": "Swift",
+    "pushed_at": "2026-07-26T02:39:52Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "disk-analyzer",
+      "macos",
+      "swift"
+    ]
+  },
+  {
+    "id": "github:alexandergrooff/mermaid-ascii",
+    "url": "https://github.com/alexandergrooff/mermaid-ascii",
+    "title": "alexandergrooff/mermaid-ascii",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089488653273661839",
+    "fetched_at": "2026-08-18T01:21:05.550321Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Go-based CLI tool that renders Mermaid.js diagrams directly into the terminal using box-drawing characters or ASCII.",
+    "category": "Developer Tools",
+    "tags": [
+      "cli",
+      "mermaid",
+      "diagrams",
+      "terminal",
+      "go"
+    ],
+    "risk_notes": "The project provides pre-compiled binaries via GitHub releases and supports building from source. It requires local filesystem access to read diagram files. It does not appear to require network access or elevated privileges, making it a low-risk utility.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 26,
+      "created_at": "2023-02-24T06:49:46Z",
+      "homepage": "https://mermaid-ascii.art/"
+    },
+    "added_at": "2026-08-18T01:21:33.786270Z",
+    "stars": 1527,
+    "language": "Go",
+    "pushed_at": "2026-08-14T21:44:59Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:hieunc229/mailflare",
+    "url": "https://github.com/hieunc229/mailflare",
+    "title": "hieunc229/mailflare",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089479858388623507",
+    "fetched_at": "2026-08-18T01:21:05.550442Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted email client built on Cloudflare infrastructure (Workers, R2, D1) that provides custom domain email management and upcoming AI-powered inbox features.",
+    "category": "Self-hosting",
+    "tags": [
+      "cloudflare",
+      "email",
+      "self-hosted",
+      "typescript",
+      "automation"
+    ],
+    "risk_notes": "Requires significant Cloudflare permissions (Zone Read, Email Routing/Sending Edit) via API tokens. Deployment is handled via Cloudflare's Wrangler CLI or one-click deploy. It stores data in Cloudflare D1 and R2, meaning it is tightly coupled to the Cloudflare ecosystem. Maintenance appears active as of mid-2026.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-05-26T01:06:12Z",
+      "homepage": "https://mailflare.co"
+    },
+    "added_at": "2026-08-18T01:21:40.328239Z",
+    "stars": 414,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-29T04:45:02Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "cloudflare",
+      "cloudflare-workers",
+      "email"
+    ]
+  },
+  {
+    "id": "github:xpavle00/habo",
+    "url": "https://github.com/xpavle00/habo",
+    "title": "xpavle00/habo",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089471094327509361",
+    "fetched_at": "2026-08-18T01:21:05.550559Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A privacy-focused, cross-platform habit tracker with end-to-end encrypted sync and self-hosting support via Supabase.",
+    "category": "productivity",
+    "tags": [
+      "privacy",
+      "self-hosted",
+      "flutter",
+      "mobile",
+      "encryption"
+    ],
+    "risk_notes": "The app is installed via standard mobile app stores or built from source using Flutter. Self-hosting requires a Supabase account and API keys. The application handles sensitive personal habit data, but uses E2EE to mitigate server-side exposure. The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 30,
+      "created_at": "2020-07-19T10:54:24Z",
+      "homepage": "https://habo.space"
+    },
+    "added_at": "2026-08-18T01:21:46.683825Z",
+    "stars": 1416,
+    "language": "Dart",
+    "pushed_at": "2026-06-15T20:55:35Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "android",
+      "backup",
+      "e2e-encryption",
+      "flutter",
+      "habit-tracker",
+      "ios",
+      "minimalistic",
+      "simple",
+      "sync"
+    ]
+  },
+  {
+    "id": "github:ferdinandobons/startup-skill",
+    "url": "https://github.com/ferdinandobons/startup-skill",
+    "title": "ferdinandobons/startup-skill",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089462655618564205",
+    "fetched_at": "2026-08-18T01:21:05.550661Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of AI agent skills designed for startup validation, competitive intelligence, and pitch preparation, specifically optimized for Claude Code and similar agentic workflows.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "startup",
+      "automation",
+      "productivity"
+    ],
+    "risk_notes": "Installs via Claude Code plugin marketplace or npx, which executes code within the agent's environment. Requires significant token usage for LLM API calls. As an agentic tool, it has the potential to access local files and perform web research depending on the agent's configured permissions.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-03-06T18:09:35Z",
+      "homepage": "https://startupskill.me"
+    },
+    "added_at": "2026-08-18T01:21:53.205903Z",
+    "stars": 628,
+    "language": null,
+    "pushed_at": "2026-07-01T07:03:04Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "battle-cards",
+      "claude-code",
+      "claude-skills",
+      "competitive-analysis",
+      "competitive-intelligence",
+      "market-research",
+      "pricing-analysis",
+      "startup",
+      "startup-validation"
+    ]
+  },
+  {
+    "id": "github:linkstackorg/linkstack",
+    "url": "https://github.com/linkstackorg/linkstack",
+    "title": "linkstackorg/linkstack",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089454333330919631",
+    "fetched_at": "2026-08-18T01:21:05.550777Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "LinkStack is a self-hosted, privacy-focused alternative to Linktree, built with Laravel, that allows users to manage and share multiple links from a single personalized profile page.",
+    "category": "self-hosting",
+    "tags": [
+      "self-hosted",
+      "laravel",
+      "web-app",
+      "privacy",
+      "personal-website"
+    ],
+    "risk_notes": "The project provides official Docker images, which is the recommended and safest installation method. It requires a database (MySQL/MariaDB) and web server (Nginx/Apache). As a web application, it is exposed to the internet and handles user accounts, so it should be placed behind a reverse proxy with proper SSL/TLS and firewall rules.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 47,
+      "created_at": "2022-02-14T09:29:22Z",
+      "homepage": "https://linkstack.org"
+    },
+    "added_at": "2026-08-18T01:22:00.286619Z",
+    "stars": 3766,
+    "language": "PHP",
+    "pushed_at": "2026-07-21T12:40:17Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "blade",
+      "hacktoberfest",
+      "laravel",
+      "linkstack",
+      "linktree",
+      "linktree-alternative",
+      "open-source",
+      "personal-website",
+      "php",
+      "privacy",
+      "self-hosted",
+      "webapp"
+    ]
+  },
+  {
+    "id": "github:sheepzh/time-tracker-4-browser",
+    "url": "https://github.com/sheepzh/time-tracker-4-browser",
+    "title": "sheepzh/time-tracker-4-browser",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089446259388002536",
+    "fetched_at": "2026-08-18T01:21:05.550891Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive browser extension for tracking web activity, enforcing usage limits, and managing focus sessions with support for data synchronization via WebDAV or GitHub Gist.",
+    "category": "productivity",
+    "tags": [
+      "browser-extension",
+      "time-tracking",
+      "productivity",
+      "privacy",
+      "web-tools"
+    ],
+    "risk_notes": "Installed via official browser extension stores (Chrome, Edge, Firefox). As a browser extension, it requires broad 'read and change all your data on the websites you visit' permissions to function. It supports data backups to third-party services like WebDAV or GitHub Gist, which requires providing your own credentials to those services.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2021-03-02T11:52:11Z",
+      "homepage": "https://time-tracker-4-browser.app/"
+    },
+    "added_at": "2026-08-18T01:22:06.884938Z",
+    "stars": 953,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-18T00:02:47Z",
+    "license": "MIT",
+    "topics": [
+      "chrome-extension",
+      "edge-extension",
+      "firefox-addon",
+      "time-tracker",
+      "time-tracking"
+    ]
+  },
+  {
+    "id": "github:freeu-group/freetodo",
+    "url": "https://github.com/freeu-group/freetodo",
+    "title": "freeu-group/freetodo",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089438217535643837",
+    "fetched_at": "2026-08-18T01:21:05.551004Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An AI-powered task management system featuring intelligent task decomposition, hierarchical organization, and a multi-view calendar, built with a FastAPI backend and Next.js frontend.",
+    "category": "productivity",
+    "tags": [
+      "ai",
+      "task-management",
+      "self-hosted",
+      "fastapi",
+      "nextjs"
+    ],
+    "risk_notes": "Requires Python 3.12, Node.js 20+, and uv for dependency management. The project provides curl-based install scripts, which should be audited before execution. It requires local filesystem access for SQLite/ChromaDB storage and will likely require external API keys (e.g., OpenAI or similar) for the AI features to function.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 29,
+      "created_at": "2025-08-22T06:48:20Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-18T01:22:13.616181Z",
+    "stars": 2429,
+    "language": "TypeScript",
+    "pushed_at": "2026-05-12T18:29:16Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "agentic-ai",
+      "context-engineering",
+      "lifelog",
+      "todolist"
+    ]
+  },
+  {
+    "id": "github:lance0/ttl",
+    "url": "https://github.com/lance0/ttl",
+    "title": "lance0/ttl",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089430276107595856",
+    "fetched_at": "2026-08-18T01:21:05.551127Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A modern, high-performance network diagnostic tool written in Rust that serves as a feature-rich alternative to mtr, offering real-time TUI, path MTU discovery, and Prometheus integration.",
+    "category": "Networking",
+    "tags": [
+      "networking",
+      "cli",
+      "rust",
+      "tui",
+      "monitoring",
+      "diagnostics"
+    ],
+    "risk_notes": "Requires raw socket access (NET_RAW capability or sudo) to perform network probing. Installation via package managers (brew, apk, nix) is preferred over the provided curl-to-sh script. The tool includes an update check feature, which can be disabled via flags or environment variables.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-01-12T15:16:32Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-18T01:22:20.164470Z",
+    "stars": 1377,
+    "language": "Rust",
+    "pushed_at": "2026-08-13T09:44:56Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "asn-lookup",
+      "cli",
+      "geolocation",
+      "icmp",
+      "latency",
+      "latency-test",
+      "mtr",
+      "network-visualization",
+      "networking",
+      "ratatui",
+      "rust",
+      "terminal",
+      "traceroute",
+      "tui"
+    ]
+  },
+  {
+    "id": "github:sventiigi/whatsnewkit",
+    "url": "https://github.com/sventiigi/whatsnewkit",
+    "title": "sventiigi/whatsnewkit",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089422588481069536",
+    "fetched_at": "2026-08-18T01:21:05.551241Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Swift library for iOS/macOS developers to display 'What's New' feature update screens in their applications.",
+    "category": "Developer Tools",
+    "tags": [
+      "swift",
+      "ios",
+      "macos",
+      "swiftui",
+      "mobile-development"
+    ],
+    "risk_notes": "Installed via Swift Package Manager (SPM) within Xcode projects. It is a UI library and does not require elevated permissions or network access, though it interacts with UserDefaults for version tracking. Maintenance is active.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 11,
+      "created_at": "2018-05-21T19:39:47Z",
+      "homepage": "https://sventiigi.github.io/WhatsNewKit/"
+    },
+    "added_at": "2026-08-18T01:22:26.799290Z",
+    "stars": 4397,
+    "language": "Swift",
+    "pushed_at": "2024-10-10T10:54:11Z",
+    "license": "MIT",
+    "topics": [
+      "ios",
+      "macos",
+      "swift",
+      "swift-package",
+      "swiftui",
+      "whatsnew"
+    ]
+  },
+  {
+    "id": "github:l5yth/potato-mesh",
+    "url": "https://github.com/l5yth/potato-mesh",
+    "title": "l5yth/potato-mesh",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089415033289679106",
+    "fetched_at": "2026-08-18T01:21:05.551352Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A federated dashboard for Meshtastic and MeshCore networks that provides map visualization, telemetry, and messaging without relying on MQTT.",
+    "category": "home-lab",
+    "tags": [
+      "meshtastic",
+      "lora",
+      "dashboard",
+      "networking",
+      "self-hosted"
+    ],
+    "risk_notes": "Requires Ruby and SQLite3. Installation involves gem dependencies and manual configuration via environment variables. The application binds to network ports and requires a shared API_TOKEN for authentication; it should be deployed behind a reverse proxy for production use.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 27,
+      "created_at": "2025-09-13T06:09:07Z",
+      "homepage": "https://potatomesh.net"
+    },
+    "added_at": "2026-08-18T01:22:33.329770Z",
+    "stars": 360,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-30T19:59:51Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "dashboard",
+      "meshcore",
+      "meshtastic",
+      "qos",
+      "webapp"
+    ]
+  },
+  {
+    "id": "github:aniftyco/awesome-tailwindcss",
+    "url": "https://github.com/aniftyco/awesome-tailwindcss",
+    "title": "aniftyco/awesome-tailwindcss",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089407779433812311",
+    "fetched_at": "2026-08-18T01:21:05.551463Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A curated list of resources, tools, and libraries for the Tailwind CSS ecosystem.",
+    "category": "Documentation",
+    "tags": [
+      "css",
+      "web-development",
+      "frontend",
+      "resources"
+    ],
+    "risk_notes": "This is a documentation repository (a list of links). It contains no executable code, so there are no installation risks or security permissions required. It is maintained as a static markdown file.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2017-11-08T15:35:50Z",
+      "homepage": "https://tailwindcss.com"
+    },
+    "added_at": "2026-08-18T01:22:39.831398Z",
+    "stars": 15121,
+    "language": null,
+    "pushed_at": "2026-08-14T14:48:26Z",
+    "license": "CC0-1.0",
+    "topics": [
+      "apps",
+      "awesome",
+      "awesome-list",
+      "css",
+      "postcss",
+      "resources",
+      "tailwind",
+      "tailwindcss",
+      "websites"
+    ]
+  },
+  {
+    "id": "github:spider863644/phonenumber-osint",
+    "url": "https://github.com/spider863644/phonenumber-osint",
+    "title": "spider863644/phonenumber-osint",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2089389593288192476",
+    "fetched_at": "2026-08-18T01:21:05.551577Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A basic Python-based OSINT tool designed to gather information about phone numbers, primarily intended for use in Termux or Linux environments.",
+    "category": "security tooling",
+    "tags": [
+      "osint",
+      "security",
+      "python",
+      "reconnaissance"
+    ],
+    "risk_notes": "The tool is installed via standard git clone and pip requirements. It requires network access to perform lookups. The code quality appears amateurish, and it lacks documentation on which external APIs or services it queries, posing a potential privacy risk if it sends user-provided data to unverified third-party endpoints.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2022-06-04T19:33:49Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-18T01:22:46.374746Z",
+    "stars": 708,
+    "language": "Python",
+    "pushed_at": "2025-10-21T17:24:04Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
