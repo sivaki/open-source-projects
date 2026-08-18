@@ -31952,5 +31952,136 @@
     "aliases": [
       "document intelligence toolkit"
     ]
+  },
+  "github:tkslucas/neodisk": {
+    "capability_summary": "A high-performance disk space visualizer for macOS using treemap and sunburst charts.",
+    "problem_solved": "Identifying large files and folders consuming disk space.",
+    "use_cases": [
+      "disk cleanup",
+      "storage management",
+      "file analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "disk-analyzer",
+      "disk-usage-tool"
+    ]
+  },
+  "github:alexandergrooff/mermaid-ascii": {
+    "capability_summary": "A CLI tool that renders Mermaid.js diagrams as ASCII art in the terminal.",
+    "problem_solved": "Viewing diagrams directly in a terminal environment.",
+    "use_cases": [
+      "documentation",
+      "terminal visualization",
+      "diagramming"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mermaid-to-ascii",
+      "terminal-diagrams"
+    ]
+  },
+  "github:hieunc229/mailflare": {
+    "capability_summary": "A self-hosted email management system leveraging Cloudflare infrastructure.",
+    "problem_solved": "Managing custom domain email without traditional hosting.",
+    "use_cases": [
+      "email routing",
+      "custom domain email",
+      "self-hosted inbox"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "cloudflare-email",
+      "email-automation"
+    ]
+  },
+  "github:ferdinandobons/startup-skill": {
+    "capability_summary": "A library of AI agent skills for startup validation and competitive analysis.",
+    "problem_solved": "Automating market research and competitive intelligence tasks.",
+    "use_cases": [
+      "startup validation",
+      "competitive analysis",
+      "market research"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-skills",
+      "ai-agent-tools"
+    ]
+  },
+  "github:linkstackorg/linkstack": {
+    "capability_summary": "A self-hosted, privacy-focused platform for managing and sharing multiple links.",
+    "problem_solved": "Creating a centralized link hub for social media profiles.",
+    "use_cases": [
+      "personal website",
+      "link-in-bio",
+      "profile management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "linktree-alternative",
+      "bio-link-tool"
+    ]
+  },
+  "github:sheepzh/time-tracker-4-browser": {
+    "capability_summary": "A browser extension for tracking web activity and managing focus sessions.",
+    "problem_solved": "Monitoring and limiting time spent on specific websites.",
+    "use_cases": [
+      "time tracking",
+      "productivity",
+      "usage limits"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "productivity-tracker",
+      "web-activity-monitor"
+    ]
+  },
+  "github:l5yth/potato-mesh": {
+    "capability_summary": "A federated dashboard for visualizing and managing Meshtastic and MeshCore networks.",
+    "problem_solved": "Monitoring mesh network telemetry and map data without MQTT.",
+    "use_cases": [
+      "mesh networking",
+      "telemetry visualization",
+      "lora-management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "meshtastic-dashboard",
+      "mesh-network-monitor"
+    ]
   }
 }
