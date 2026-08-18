@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 528 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 534 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) ⭐ | analytics | `analytics` `self-hosting` `privacy` `web-dev` `dashboard` | Rybbit is a comprehensive, privacy-focused, open-source web analytics platform that serves as a feature-rich alternative to Google Analytics, supporting self-hosting via Docker. | 12653 | 2026-08-18 |
+| [thenetworkchuck/frigate-nvr-guide](https://github.com/thenetworkchuck/frigate-nvr-guide) ⭐ | Home-lab / Security | `frigate` `nvr` `raspberrypi` `ai` `docker` `surveillance` | A comprehensive, beginner-friendly guide for setting up a local, privacy-focused AI surveillance system using Frigate NVR on Raspberry Pi or x86 hardware. | 498 | 2026-08-18 |
+| [openhd/openhd](https://github.com/openhd/openhd) ⭐ | Home-lab / Robotics | `raspberry-pi` `fpv` `telemetry` `robotics` `streaming` | OpenHD is a high-performance, low-latency digital video and telemetry transmission system for UAVs and robotics, utilizing standard Wi-Fi hardware in a custom broadcast mode. | 2467 | 2026-08-18 |
+| [dronebridge/esp32](https://github.com/dronebridge/esp32) ⭐ | IoT/Drone Telemetry | `esp32` `mavlink` `drone` `telemetry` `embedded` | A secure, encrypted telemetry link firmware for ESP32 modules, enabling low-latency communication between drones and ground control stations via WiFi or ESP-NOW. | 1023 | 2026-08-18 |
+| [c2g-dev/city2graph](https://github.com/c2g-dev/city2graph) ⭐ | Data Science / Geospatial | `geospatial` `gnn` `pytorch` `urban-analysis` `data-pipeline` | A specialized Python library for transforming complex geospatial data into graph structures compatible with PyTorch Geometric for urban analysis and GNNs. | 1473 | 2026-08-18 |
+| [zackriya-solutions/meeting-minutes](https://github.com/zackriya-solutions/meeting-minutes) ⭐ | AI/LLM Tooling | `ai` `privacy` `transcription` `rust` `local-llm` `productivity` | A privacy-focused, local-first AI meeting assistant that performs real-time transcription and summarization using Rust, Whisper, and Ollama. | 29377 | 2026-08-18 |
 | [dfin/neural-network-visualisation](https://github.com/dfin/neural-network-visualisation) ⭐ | AI/ML Education | `neural-networks` `visualization` `threejs` `pytorch` `mnist` | An interactive 3D web-based visualization tool for MNIST-trained multi-layer perceptrons, featuring real-time activation propagation and timeline-based training inspection. | 669 | 2026-08-18 |
 | [0015/offlinemapdownloader](https://github.com/0015/offlinemapdownloader) ⭐ | home-lab | `maps` `flask` `offline` `geospatial` `automation` | A lightweight Flask-based web application for selecting geographic areas on a map and downloading tile sets in .zip or .mbtiles formats for offline use. | 127 | 2026-08-18 |
 | [hyvor/relay](https://github.com/hyvor/relay) ⭐ | Self-hosting | `email` `smtp` `self-hosted` `api` `automation` `devops` | An open-source, self-hosted email API platform designed as a drop-in replacement for services like SendGrid or Mailgun, featuring built-in SMTP handling, bounce management, and observability. | 744 | 2026-08-18 |
