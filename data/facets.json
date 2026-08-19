@@ -32610,5 +32610,311 @@
       "prompt-guide",
       "writing-tools"
     ]
+  },
+  "github:erickochen/purple": {
+    "capability_summary": "A Rust-based TUI SSH manager for cloud infrastructure and container fleet management. Designed for DevOps engineers and homelab enthusiasts.",
+    "problem_solved": "Managing complex SSH configurations and container fleets via a terminal interface.",
+    "use_cases": [
+      "ssh management",
+      "container fleet monitoring",
+      "cloud infrastructure sync",
+      "ssh tunnel management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "termius-alternative"
+    ]
+  },
+  "github:tdeverx/contained-app": {
+    "capability_summary": "A native macOS SwiftUI GUI for managing Apple containers. Designed for developers working with Apple Silicon containers.",
+    "problem_solved": "Providing a visual interface for Apple's container CLI tools.",
+    "use_cases": [
+      "container management",
+      "image management",
+      "volume management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "docker-alternative"
+    ]
+  },
+  "github:cytostack/openwolf": {
+    "capability_summary": "Middleware that optimizes context management and token usage for AI coding agents. Designed for developers using LLMs for coding.",
+    "problem_solved": "High token costs and poor context management in AI coding agents.",
+    "use_cases": [
+      "token optimization",
+      "ai context management",
+      "coding agent middleware"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-optimizer"
+    ]
+  },
+  "github:sam1am/anyapk": {
+    "capability_summary": "An Android utility that uses wireless ADB to bypass system installation restrictions. Designed for power users and Android developers.",
+    "problem_solved": "System-level gatekeeping preventing the installation of specific APKs or OBB files.",
+    "use_cases": [
+      "apk installation",
+      "adb automation",
+      "bypass installation restrictions"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "android",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:rockinchaos/shiru": {
+    "capability_summary": "A cross-platform anime library manager with local playback and tracking integration. Designed for anime enthusiasts.",
+    "problem_solved": "Managing and playing local anime files with external tracking integration.",
+    "use_cases": [
+      "anime library management",
+      "local media playback",
+      "anilist integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "media-server"
+    ]
+  },
+  "github:orbien-org/orbien": {
+    "capability_summary": "A high-performance intranet penetration tool supporting QUIC and KCP. Designed for developers needing secure remote access.",
+    "problem_solved": "Accessing local services behind NAT or firewalls.",
+    "use_cases": [
+      "intranet penetration",
+      "tunneling",
+      "remote access",
+      "proxy"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ngrok-alternative",
+      "frp-alternative"
+    ]
+  },
+  "github:gvzdv/claudish-to-english": {
+    "capability_summary": "A Claude Code plugin that simplifies jargon-heavy AI responses into plain English. Designed for developers using Claude Code.",
+    "problem_solved": "Dense or overly technical AI assistant messages.",
+    "use_cases": [
+      "text simplification",
+      "ai output rewriting",
+      "productivity"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": []
+  },
+  "github:zapdos-labs/unblink": {
+    "capability_summary": "An AI-powered NVR system using Vision Language Models for natural language search of camera feeds. Designed for home lab users.",
+    "problem_solved": "Difficulty searching through hours of recorded security camera footage.",
+    "use_cases": [
+      "nvr",
+      "computer vision",
+      "security monitoring",
+      "ai video search"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-nvr"
+    ]
+  },
+  "github:aashishh15/lexicon": {
+    "capability_summary": "A local-first, privacy-focused writing assistant for grammar checking and rewriting. Designed for privacy-conscious writers.",
+    "problem_solved": "Privacy concerns when using cloud-based AI writing assistants.",
+    "use_cases": [
+      "grammar checking",
+      "ai writing assistant",
+      "offline text editing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "local-llm-writer"
+    ]
+  },
+  "github:shipsecai/studio": {
+    "capability_summary": "An open-source security workflow orchestration platform using Temporal. Designed for security engineers and DevOps teams.",
+    "problem_solved": "Manual, fragmented security tooling and lack of workflow automation.",
+    "use_cases": [
+      "security orchestration",
+      "workflow automation",
+      "security tooling integration"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": []
+  },
+  "github:zzet/gortex": {
+    "capability_summary": "A local-first code intelligence engine that indexes repositories into a knowledge graph to optimize AI context windows.",
+    "problem_solved": "High token usage and poor context management in AI coding agents.",
+    "use_cases": [
+      "code analysis",
+      "AI context optimization",
+      "knowledge graph indexing"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "code-assistant",
+      "graphrag"
+    ]
+  },
+  "github:swetrix/swetrix": {
+    "capability_summary": "A privacy-focused web analytics platform providing traffic tracking, error monitoring, and session replays.",
+    "problem_solved": "Need for privacy-compliant website analytics and monitoring.",
+    "use_cases": [
+      "web analytics",
+      "error monitoring",
+      "session replay"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "google-analytics alternative",
+      "privacy-analytics"
+    ]
+  },
+  "github:hanqaqa/easyduino": {
+    "capability_summary": "A collection of open-source KiCad PCB designs for popular microcontrollers with modern features.",
+    "problem_solved": "Need for ready-to-manufacture PCB designs for development boards.",
+    "use_cases": [
+      "pcb design",
+      "hardware prototyping",
+      "electronics manufacturing"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "kicad-templates",
+      "hardware-designs"
+    ]
+  },
+  "github:memmachine/memmachine": {
+    "capability_summary": "An open-source memory layer for AI agents providing persistent episodic and profile memory.",
+    "problem_solved": "Lack of long-term memory and personalization in AI agents.",
+    "use_cases": [
+      "agent memory management",
+      "conversational ai",
+      "persistent storage"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-memory",
+      "agent-sdk"
+    ]
+  },
+  "github:ifixai-ai/ifixai": {
+    "capability_summary": "A CLI and plugin-based auditing tool for evaluating AI agent performance and security compliance.",
+    "problem_solved": "Difficulty in auditing AI agents for safety, security, and business alignment.",
+    "use_cases": [
+      "ai safety auditing",
+      "hallucination detection",
+      "risk assessment"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-governance",
+      "llm-security-tool"
+    ]
+  },
+  "github:madslorentzen/ai-job-search": {
+    "capability_summary": "An AI-powered framework that automates job searching, CV tailoring, and cover letter generation.",
+    "problem_solved": "Time-consuming manual job application and customization processes.",
+    "use_cases": [
+      "job application automation",
+      "cv tailoring",
+      "cover letter generation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "job-hunting-bot",
+      "career-automation"
+    ]
   }
 }
