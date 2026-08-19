@@ -32455,5 +32455,160 @@
       "ai video dubber",
       "automated video translation"
     ]
+  },
+  "github:wiltodelta/remove-ai-watermarks": {
+    "capability_summary": "A Python tool for detecting and removing AI-generated watermarks and metadata from media. Designed for privacy-conscious users and content creators.",
+    "problem_solved": "Removing AI-generated watermarks and provenance metadata from images and videos.",
+    "use_cases": [
+      "image-processing",
+      "video-processing",
+      "metadata-removal",
+      "privacy-protection"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "watermark-remover",
+      "c2pa-remover"
+    ]
+  },
+  "github:momenbasel/puremac": {
+    "capability_summary": "An open-source, telemetry-free system cleaner for macOS. It provides a transparent alternative to commercial disk cleanup software.",
+    "problem_solved": "Cleaning up system cache and uninstalling apps to free up disk space on macOS.",
+    "use_cases": [
+      "disk-cleanup",
+      "app-uninstaller",
+      "system-maintenance"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "CleanMyMac-alternative",
+      "mac-cleaner"
+    ]
+  },
+  "github:ballred/obsidian-claude-pkm": {
+    "capability_summary": "An automation framework for Obsidian that integrates Claude Code for personal knowledge management and goal tracking.",
+    "problem_solved": "Automating personal knowledge management and goal tracking within Obsidian.",
+    "use_cases": [
+      "pkm",
+      "goal-tracking",
+      "ai-automation",
+      "second-brain"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-ai",
+      "claude-pkm"
+    ]
+  },
+  "github:builderio/skills": {
+    "capability_summary": "A library of modular skills for AI coding agents to improve planning, diffing, and orchestration.",
+    "problem_solved": "Extending the capabilities of AI coding agents with specialized, composable tools.",
+    "use_cases": [
+      "ai-agent-development",
+      "coding-assistant",
+      "agent-orchestration"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-tools"
+    ]
+  },
+  "github:awesome-opencode/awesome-opencode": {
+    "capability_summary": "A curated collection of plugins, themes, and agents for the OpenCode terminal-based coding assistant.",
+    "problem_solved": "Finding extensions and customizations for the OpenCode AI terminal assistant.",
+    "use_cases": [
+      "terminal-customization",
+      "ai-coding-assistant",
+      "plugin-management"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "opencode-plugins"
+    ]
+  },
+  "github:securo-finance/securo": {
+    "capability_summary": "A self-hosted, privacy-focused personal finance manager with multi-account tracking and bank synchronization.",
+    "problem_solved": "Managing personal finances and tracking expenses while maintaining data privacy.",
+    "use_cases": [
+      "expense-tracking",
+      "finance-management",
+      "bank-sync"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "personal-finance-manager",
+      "self-hosted-finance"
+    ]
+  },
+  "github:mikiarlo3/ai-copywriter": {
+    "capability_summary": "An AI agent skill designed to generate high-conversion marketing copy while avoiding common AI stylistic patterns.",
+    "problem_solved": "Generating human-sounding marketing copy that avoids generic AI writing styles.",
+    "use_cases": [
+      "copywriting",
+      "marketing-automation",
+      "ai-agent"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "ai-marketing-tool"
+    ]
+  },
+  "github:hardikpandya/stop-slop": {
+    "capability_summary": "A collection of prompt engineering instructions to help LLMs identify and remove AI-generated stylistic patterns from prose.",
+    "problem_solved": "Improving the quality of AI-generated writing by removing repetitive or robotic stylistic patterns.",
+    "use_cases": [
+      "prompt-engineering",
+      "writing-improvement",
+      "ai-ethics"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "prompt-guide",
+      "writing-tools"
+    ]
   }
 }
