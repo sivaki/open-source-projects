@@ -32216,5 +32216,244 @@
       "Google Analytics alternative",
       "privacy-focused analytics"
     ]
+  },
+  "github:ramjke/translumo": {
+    "capability_summary": "A real-time screen translator for Windows that uses OCR to capture and translate text from games or apps.",
+    "problem_solved": "Translating text in games or applications that don't support native localization.",
+    "use_cases": [
+      "game-translation",
+      "screen-translation",
+      "ocr-automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "screen-translator"
+    ]
+  },
+  "github:arxhr007/aliens_eye": {
+    "capability_summary": "An AI-powered OSINT tool for scanning and correlating social media usernames across hundreds of platforms.",
+    "problem_solved": "Automating the discovery and correlation of social media accounts for security research.",
+    "use_cases": [
+      "osint",
+      "social-media-scanning",
+      "security-research"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint-tool"
+    ]
+  },
+  "github:ibrahimqureshae/mdflux": {
+    "capability_summary": "A local-first desktop app that converts various document formats into structured Markdown for LLM use.",
+    "problem_solved": "Preparing documents for LLM context windows while maintaining data privacy.",
+    "use_cases": [
+      "pdf-to-markdown",
+      "document-conversion",
+      "rag-preparation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "markdown-converter"
+    ]
+  },
+  "github:tripleyak/skillforge": {
+    "capability_summary": "A framework for creating, testing, and validating skills for AI coding agents like Claude Code.",
+    "problem_solved": "Ensuring AI agent skills are behaviorally validated before deployment.",
+    "use_cases": [
+      "ai-agent-development",
+      "llm-ops",
+      "agent-testing"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-tools"
+    ]
+  },
+  "github:ai-boost/awesome-harness-engineering": {
+    "capability_summary": "A curated list of resources and patterns for building reliable AI agent harnesses.",
+    "problem_solved": "Finding best practices for AI agent orchestration, memory, and security.",
+    "use_cases": [
+      "ai-agent-orchestration",
+      "agent-memory",
+      "llm-engineering"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list"
+    ]
+  },
+  "github:walkinglabs/learn-harness-engineering": {
+    "capability_summary": "An educational resource for learning how to build reliable AI coding agents through project-based tutorials.",
+    "problem_solved": "Learning the fundamentals of agentic AI design and loop orchestration.",
+    "use_cases": [
+      "ai-agent-learning",
+      "agentic-ai-tutorials",
+      "llm-engineering"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-course"
+    ]
+  },
+  "github:himself65/finance-skills": {
+    "capability_summary": "A collection of modular AI agent skills for financial analysis and market data retrieval.",
+    "problem_solved": "Integrating financial data analysis capabilities into AI coding assistants.",
+    "use_cases": [
+      "financial-analysis",
+      "market-data-retrieval",
+      "trading-automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-skills"
+    ]
+  },
+  "github:0xnyk/council-of-high-intelligence": {
+    "capability_summary": "A multi-agent framework that forces LLMs to debate and synthesize decisions to improve accuracy.",
+    "problem_solved": "Preventing premature consensus and improving reasoning in complex LLM tasks.",
+    "use_cases": [
+      "multi-agent-systems",
+      "llm-routing",
+      "structured-debate"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "multi-agent-debate"
+    ]
+  },
+  "github:atilaahmettaner/tradingview-mcp": {
+    "capability_summary": "An MCP server providing real-time market data and technical analysis for AI assistants.",
+    "problem_solved": "Connecting AI assistants to live financial market data and trading tools.",
+    "use_cases": [
+      "trading-mcp",
+      "market-data",
+      "technical-analysis"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server"
+    ]
+  },
+  "github:lakr233/vphone-cli": {
+    "capability_summary": "A CLI tool for running virtualized iOS instances on Apple Silicon macOS.",
+    "problem_solved": "Running and testing iOS environments on desktop hardware.",
+    "use_cases": [
+      "ios-virtualization",
+      "jailbreak-testing",
+      "mobile-automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ios-emulator"
+    ]
+  },
+  "github:alexsjones/llmfit": {
+    "capability_summary": "A Rust-based CLI and TUI tool that benchmarks local hardware to recommend LLMs based on RAM, VRAM, and CPU constraints.",
+    "problem_solved": "Determining which LLMs will run efficiently on specific local hardware.",
+    "use_cases": [
+      "llm benchmarking",
+      "hardware optimization",
+      "local ai model selection"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm hardware checker",
+      "local llm optimizer"
+    ]
+  },
+  "github:potpie-ai/potpie": {
+    "capability_summary": "A developer tool that constructs a context graph from codebases, issues, and documentation to provide AI agents with deep project knowledge.",
+    "problem_solved": "Providing AI agents with accurate, project-specific context for better performance.",
+    "use_cases": [
+      "rag",
+      "ai agent development",
+      "codebase analysis",
+      "developer productivity"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "ai context graph",
+      "rag for developers"
+    ]
+  },
+  "github:krillinai/klicstudio": {
+    "capability_summary": "A modular CLI and pipeline for automating video localization, transcription, and AI-powered dubbing.",
+    "problem_solved": "Automating the translation and dubbing process for video content.",
+    "use_cases": [
+      "video dubbing",
+      "video transcription",
+      "video translation",
+      "localization"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "unknown",
+    "human_languages": [
+      "multilingual"
+    ],
+    "aliases": [
+      "ai video dubber",
+      "automated video translation"
+    ]
   }
 }
