@@ -1,11 +1,20 @@
 # Curated Repos
 
-Auto-generated list of 612 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 621 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [vicliu624/trail-mate](https://github.com/vicliu624/trail-mate) ⭐ | Self-hosting / Off-grid Networking | `meshtastic` `gps` `lora` `offline-first` `homelab` `situational-awareness` | An offline-first, decentralized communication and situational awareness system for embedded devices and Linux terminals, utilizing LoRa (Meshtastic/Reticulum) for off-grid navigation and team coordination. | 491 | 2026-08-20 |
+| [gorvgoyl/clone-wars](https://github.com/gorvgoyl/clone-wars) ⭐ | Learning Resources | `education` `web-development` `tutorials` `full-stack` `reference` | A curated list of over 100 open-source clones and functional alternatives to popular web applications, serving as a valuable educational resource for developers. | 36392 | 2026-08-20 |
+| [meisnerdan/mission-control](https://github.com/meisnerdan/mission-control) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `productivity` `orchestration` `typescript` | An agent-first task management and orchestration platform designed to delegate real-world tasks to AI agents with built-in approval workflows and cost tracking. | 693 | 2026-08-20 |
+| [averygan/reclip](https://github.com/averygan/reclip) ⭐ | automation | `self-hosting` `media` `automation` `python` `cli` | A lightweight, self-hosted web interface for yt-dlp that allows for easy downloading of media from over 1000 websites. | 7132 | 2026-08-20 |
+| [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) ⭐ | Developer Tools | `rust` `web-scraping` `automation` `headless-browser` `ai-agents` | A high-performance, lightweight headless browser engine written in Rust, designed as a drop-in replacement for Puppeteer and Playwright with built-in anti-detection capabilities. | 21763 | 2026-08-20 |
+| [cybertimon/rapidraw](https://github.com/cybertimon/rapidraw) ⭐ | Creative Tools | `rust` `tauri` `photography` `image-processing` `gpu-acceleration` | A high-performance, GPU-accelerated RAW image editor built with Rust and Tauri, featuring non-destructive editing and advanced features like tethering and AI-based tools. | 9448 | 2026-08-20 |
+| [didriksg/crisp](https://github.com/didriksg/crisp) ⭐ | Developer Tools | `macos` `display` `utility` `hidpi` `productivity` | A native, open-source macOS menu bar application providing advanced external monitor control, including HiDPI scaling, DDC brightness, and virtual display management. | 1048 | 2026-08-20 |
+| [rafska/awesome-local-llm](https://github.com/rafska/awesome-local-llm) ⭐ | AI/LLM Tooling | `llm` `self-hosted` `ai` `awesome-list` `local-ai` | A comprehensive, well-organized curated list of tools, platforms, and resources for running and managing Large Language Models locally. | 2596 | 2026-08-20 |
+| [vbuch/node-signpdf](https://github.com/vbuch/node-signpdf) ⭐ | Developer Tools | `nodejs` `pdf` `cryptography` `automation` `digital-signature` | A modular Node.js library for digitally signing PDF documents using P12 certificates, supporting various workflows including PDFKit and PDF-LIB. | 898 | 2026-08-20 |
 | [elesiuta/picosnitch](https://github.com/elesiuta/picosnitch) ⭐ | Security & Monitoring | `ebpf` `network-monitoring` `security` `privacy` `linux` `sysadmin` | A powerful network monitoring tool that tracks traffic per executable using eBPF and fanotify, providing detailed insights into which processes are communicating over the network. | 986 | 2026-08-20 |
 | [j3ssie/metabigor](https://github.com/j3ssie/metabigor) ⭐ | Security/Reconnaissance | `osint` `recon` `security` `cli` `automation` | A powerful, pipeable OSINT and reconnaissance CLI tool that maps infrastructure without requiring API keys. | 1716 | 2026-08-20 |
 | [corbell-ai/corbell](https://github.com/corbell-ai/corbell) ⭐ | Developer Tools | `ai` `mcp` `code-analysis` `architecture` `knowledge-graph` `cli` | Corbell is an AI-powered architecture intelligence tool that builds a local knowledge graph of multi-repo codebases to automate design document generation and architectural reviews. | 539 | 2026-08-20 |
