@@ -33141,5 +33141,189 @@
       "docker dashboard",
       "container manager"
     ]
+  },
+  "github:forrestchang/andrej-karpathy-skills": {
+    "capability_summary": "A collection of system prompt guidelines to improve AI coding agent output quality. Designed for developers using tools like Claude Code or Cursor.",
+    "problem_solved": "Poor quality or imprecise code generation from AI agents.",
+    "use_cases": [
+      "prompt engineering",
+      "AI coding assistance",
+      "code quality improvement"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "prompt-library",
+      "AI-coding-best-practices"
+    ]
+  },
+  "github:cloudai-x/threejs-skills": {
+    "capability_summary": "Curated skill files providing contextual knowledge for Three.js development. Helps AI coding agents generate more accurate 3D code.",
+    "problem_solved": "AI agents hallucinating or producing incorrect Three.js code.",
+    "use_cases": [
+      "3D web development",
+      "AI coding assistance",
+      "Three.js automation"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Three.js-AI-skills",
+      "Claude-Code-extensions"
+    ]
+  },
+  "github:juanceresa/sift-kg": {
+    "capability_summary": "A CLI tool that converts document collections into structured knowledge graphs using LLMs. Features local-first processing and human-in-the-loop deduplication.",
+    "problem_solved": "Difficulty organizing and querying large collections of unstructured documents.",
+    "use_cases": [
+      "knowledge management",
+      "data pipeline",
+      "document analysis"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "knowledge-graph-generator",
+      "LLM-data-tool"
+    ]
+  },
+  "github:nextlevelbuilder/ui-ux-pro-max-skill": {
+    "capability_summary": "An AI-powered design intelligence tool that generates UI/UX systems, color palettes, and typography for web projects.",
+    "problem_solved": "Time-consuming manual UI design and system creation for web developers.",
+    "use_cases": [
+      "UI design",
+      "frontend development",
+      "design system generation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI-design-tool",
+      "UI-UX-generator"
+    ]
+  },
+  "github:jangles-byte/pythia": {
+    "capability_summary": "A local-first intelligence dashboard that combines real-time global data feeds with LLM reasoning for forecasting.",
+    "problem_solved": "Difficulty synthesizing global data trends into actionable insights.",
+    "use_cases": [
+      "geopolitical forecasting",
+      "market analysis",
+      "intelligence dashboard"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "intelligence-dashboard",
+      "prediction-engine"
+    ]
+  },
+  "github:markdown-viewer/skills": {
+    "capability_summary": "Standardized skills for AI coding agents to generate diagrams and data visualizations directly in Markdown.",
+    "problem_solved": "AI agents struggling to create visual documentation or diagrams.",
+    "use_cases": [
+      "technical documentation",
+      "data visualization",
+      "diagram generation"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI-diagram-skills",
+      "Markdown-visualization"
+    ]
+  },
+  "github:bukosabino/ta": {
+    "capability_summary": "A Python library for performing technical analysis on financial time series data using Pandas and NumPy.",
+    "problem_solved": "Need for a reliable, standardized library for financial market analysis.",
+    "use_cases": [
+      "financial trading",
+      "data science",
+      "technical analysis"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "technical-analysis-library",
+      "finance-data-tool"
+    ]
+  },
+  "github:zqxwce/vphone-ws": {
+    "capability_summary": "A native macOS SwiftUI front-end for managing iOS research virtual machines using Apple's Virtualization framework.",
+    "problem_solved": "Managing and running iOS virtual machines on macOS for research purposes.",
+    "use_cases": [
+      "iOS research",
+      "virtualization",
+      "security testing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "iOS-VM-manager",
+      "macOS-virtualization"
+    ]
+  },
+  "github:augani/dory": {
+    "capability_summary": "A native macOS container runtime and Kubernetes alternative to Docker Desktop, built for high performance.",
+    "problem_solved": "High resource usage or proprietary limitations of existing Docker Desktop alternatives.",
+    "use_cases": [
+      "container management",
+      "kubernetes",
+      "local development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Docker-Desktop-alternative",
+      "container-runtime"
+    ]
+  },
+  "github:elesiuta/picosnitch": {
+    "capability_summary": "A network monitoring tool that tracks traffic per executable using eBPF and fanotify on Linux.",
+    "problem_solved": "Lack of visibility into which specific processes are generating network traffic.",
+    "use_cases": [
+      "network monitoring",
+      "security auditing",
+      "privacy protection"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network-monitor",
+      "eBPF-security-tool"
+    ]
   }
 }
