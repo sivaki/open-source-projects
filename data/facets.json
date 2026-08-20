@@ -32916,5 +32916,230 @@
       "job-hunting-bot",
       "career-automation"
     ]
+  },
+  "github:dammyjay93/interface-design": {
+    "capability_summary": "A configuration tool for AI coding agents to maintain UI consistency and design standards. It is for developers using AI assistants like Claude Code.",
+    "problem_solved": "Ensuring AI-generated code adheres to specific UI design systems.",
+    "use_cases": [
+      "ui consistency",
+      "design system enforcement",
+      "ai agent configuration"
+    ],
+    "project_type": "config",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-design-tool"
+    ]
+  },
+  "github:carterperez-dev/cybersecurity-projects": {
+    "capability_summary": "A curated repository of 70 hands-on cybersecurity projects. It is for students and professionals building a security portfolio.",
+    "problem_solved": "Lack of practical, project-based cybersecurity learning materials.",
+    "use_cases": [
+      "cybersecurity training",
+      "pentesting practice",
+      "security tool development"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cybersecurity-learning-resources"
+    ]
+  },
+  "github:justvugg/colibri": {
+    "capability_summary": "A high-performance C inference engine for Mixture-of-Experts models. It is for developers running large models on limited hardware.",
+    "problem_solved": "Running massive LLMs on hardware with limited VRAM.",
+    "use_cases": [
+      "llm inference",
+      "moe model execution",
+      "memory-efficient ai"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "moe-inference-engine"
+    ]
+  },
+  "github:514-labs/dnsglobe": {
+    "capability_summary": "A TUI tool for monitoring global DNS propagation in real-time. It is for network engineers and developers.",
+    "problem_solved": "Difficulty visualizing and tracking DNS propagation status globally.",
+    "use_cases": [
+      "dns monitoring",
+      "network troubleshooting",
+      "propagation tracking"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dns-checker"
+    ]
+  },
+  "github:slvdev/esp32-ai": {
+    "capability_summary": "An implementation of an LLM optimized to run on ESP32-S3 microcontrollers. It is for embedded systems engineers.",
+    "problem_solved": "Running AI models on extremely resource-constrained hardware.",
+    "use_cases": [
+      "edge ai",
+      "embedded llm",
+      "microcontroller ai"
+    ],
+    "project_type": "model",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "embedded-llm"
+    ]
+  },
+  "github:withkynam/vibecode-pro-max-kit": {
+    "capability_summary": "A framework for managing multi-agent AI development workflows. It is for developers building complex software with AI assistance.",
+    "problem_solved": "Managing context and project execution in AI-driven coding workflows.",
+    "use_cases": [
+      "ai agent orchestration",
+      "automated coding",
+      "workflow management"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-coding-assistant-framework"
+    ]
+  },
+  "github:motiful/cc-gateway": {
+    "capability_summary": "A privacy-focused reverse proxy for Claude Code that normalizes telemetry and metadata. It is for privacy-conscious developers.",
+    "problem_solved": "Preventing tracking and managing environment metadata in AI coding sessions.",
+    "use_cases": [
+      "privacy proxy",
+      "telemetry normalization",
+      "claude-code-privacy"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-proxy"
+    ]
+  },
+  "github:polymathicai/the_well": {
+    "capability_summary": "A massive collection of physics simulation datasets for machine learning. It is for researchers and data scientists.",
+    "problem_solved": "Lack of large-scale, high-quality physics datasets for training AI models.",
+    "use_cases": [
+      "physics simulation",
+      "machine learning training",
+      "scientific computing"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "physics-ml-datasets"
+    ]
+  },
+  "github:markedit-app/markedit": {
+    "capability_summary": "A native, high-performance Markdown editor for macOS. It is for writers and developers who need a fast writing tool.",
+    "problem_solved": "Need for a fast, lightweight, native Markdown editor on macOS.",
+    "use_cases": [
+      "markdown editing",
+      "writing",
+      "note-taking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "macos-markdown-editor"
+    ]
+  },
+  "github:furkan/dockerlings": {
+    "capability_summary": "An interactive TUI tool for learning Docker commands. It is for students and beginners in containerization.",
+    "problem_solved": "Steep learning curve for Docker command-line workflows.",
+    "use_cases": [
+      "docker training",
+      "containerization education",
+      "cli learning"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "docker-tutorial-tool"
+    ]
+  },
+  "github:tejaswigowda/ffmpeg-webcli": {
+    "capability_summary": "A browser-based video and audio editor that runs FFmpeg locally using WebAssembly. It is designed for users who need media processing without uploading files to a server.",
+    "problem_solved": "Processing media files locally in the browser to ensure privacy and zero server costs.",
+    "use_cases": [
+      "video editing",
+      "audio editing",
+      "media format conversion",
+      "privacy-focused processing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ffmpeg-wasm",
+      "browser-based video editor"
+    ]
+  },
+  "github:dockpeek/dockpeek": {
+    "capability_summary": "A self-hosted dashboard for monitoring and managing Docker containers and images across multiple hosts. It is intended for DevOps engineers and home-lab users.",
+    "problem_solved": "Managing and monitoring multiple Docker containers and their updates through a single interface.",
+    "use_cases": [
+      "container monitoring",
+      "log viewing",
+      "image update management",
+      "docker swarm management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "docker dashboard",
+      "container manager"
+    ]
   }
 }
