@@ -33325,5 +33325,134 @@
       "network-monitor",
       "eBPF-security-tool"
     ]
+  },
+  "github:vbuch/node-signpdf": {
+    "capability_summary": "A Node.js library for applying digital signatures to PDF documents using P12 certificates.",
+    "problem_solved": "Automating digital signatures in PDF workflows.",
+    "use_cases": [
+      "digital document signing",
+      "PDF certification",
+      "automated document workflows"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "node-pdf-signer"
+    ]
+  },
+  "github:rafska/awesome-local-llm": {
+    "capability_summary": "A curated collection of resources and tools for running Large Language Models on local hardware.",
+    "problem_solved": "Finding software to run AI models privately.",
+    "use_cases": [
+      "local AI hosting",
+      "LLM management",
+      "private AI research"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-llm",
+      "local-ai-resources"
+    ]
+  },
+  "github:didriksg/crisp": {
+    "capability_summary": "A macOS menu bar app for controlling external monitor settings like brightness and HiDPI scaling.",
+    "problem_solved": "Managing external monitor settings on macOS.",
+    "use_cases": [
+      "monitor brightness control",
+      "HiDPI scaling",
+      "virtual display management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "monitor-control",
+      "display-manager"
+    ]
+  },
+  "github:cybertimon/rapidraw": {
+    "capability_summary": "A high-performance RAW image editor featuring GPU acceleration and non-destructive editing.",
+    "problem_solved": "Editing RAW photography files with high performance.",
+    "use_cases": [
+      "photo editing",
+      "color grading",
+      "RAW image processing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "raw-editor",
+      "lightroom-alternative"
+    ]
+  },
+  "github:h4ckf0r0day/obscura": {
+    "capability_summary": "A high-performance headless browser engine in Rust with anti-detection features.",
+    "problem_solved": "Automating web interactions while avoiding detection.",
+    "use_cases": [
+      "web scraping",
+      "browser automation",
+      "anti-detect browsing"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "puppeteer-alternative",
+      "playwright-alternative"
+    ]
+  },
+  "github:averygan/reclip": {
+    "capability_summary": "A self-hosted web interface for yt-dlp to download media from various websites.",
+    "problem_solved": "Downloading media files via a web UI instead of CLI.",
+    "use_cases": [
+      "media downloading",
+      "video archiving",
+      "yt-dlp web interface"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "yt-dlp-gui"
+    ]
+  },
+  "github:gorvgoyl/clone-wars": {
+    "capability_summary": "A curated list of open-source clones of popular web applications for educational purposes.",
+    "problem_solved": "Finding code examples to learn full-stack web development.",
+    "use_cases": [
+      "web development learning",
+      "coding tutorials",
+      "full-stack reference"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-clones"
+    ]
   }
 }
