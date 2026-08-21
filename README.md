@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 630 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 636 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [terminator-ssh/terminator-desktop](https://github.com/terminator-ssh/terminator-desktop) ⭐ | developer tools | `ssh` `terminal` `self-hosting` `encryption` `wails` | A cross-platform, local-first SSH client built with Wails that features end-to-end encrypted configuration syncing via a self-hostable backend. | 183 | 2026-08-21 |
+| [kartiklabhshetwar/oneurl](https://github.com/kartiklabhshetwar/oneurl) ⭐ | self-hosting | `nextjs` `self-hosted` `typescript` `link-management` `web-app` | A modern, self-hostable Linktree alternative built with Next.js 16, TypeScript, and PostgreSQL, featuring analytics and custom profile pages. | 431 | 2026-08-21 |
+| [datawan-labs/pg](https://github.com/datawan-labs/pg) ⭐ | Developer Tools | `postgresql` `wasm` `database` `browser-tools` `sql` | A browser-based PostgreSQL playground powered by PGLite (WASM), allowing users to run SQL queries and generate ERDs entirely client-side without a backend. | 746 | 2026-08-21 |
+| [arabelatso/skills-4-se](https://github.com/arabelatso/skills-4-se) ⭐ | AI/LLM Tooling | `claude` `ai-engineering` `automation` `developer-tools` `metaprogramming` | A curated collection of over 180 structured 'skills' (prompts/workflows) designed for Claude and AI-assisted software engineering, featuring a web-based manager for browsing and installation. | 162 | 2026-08-21 |
+| [silentchainai/silentchain](https://github.com/silentchainai/silentchain) ⭐ | Security Tooling | `burp-suite` `ai` `security` `pentesting` `vulnerability-scanner` | A powerful Burp Suite extension that integrates various AI models (including local Ollama) for passive vulnerability analysis and security testing. | 335 | 2026-08-21 |
+| [nyblnet/bento](https://github.com/nyblnet/bento) ⭐ | Productivity / Developer Tools | `local-first` `office-suite` `ai-tooling` `privacy` `web-app` | A local-first, single-file office suite that stores documents as self-contained HTML/JSON files, featuring built-in collaboration, AI-agent compatibility, and offline-first operation. | 4294 | 2026-08-21 |
 | [jithin-sabu/purge-app](https://github.com/jithin-sabu/purge-app) ⭐ | Developer Tools | `macos` `disk-cleanup` `developer-tools` `utility` `swift` | A high-quality, open-source macOS utility for reclaiming disk space by safely managing application caches, developer build artifacts, and large files. | 517 | 2026-08-21 |
 | [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) ⭐ | AI/LLM Tooling | `ai-video-generator` `claude-code` `automation` `video-production` `developer-tools` | An AI-native video production toolkit designed to work with Claude Code, enabling autonomous generation of videos using open-source models and cloud GPU providers. | 1963 | 2026-08-21 |
 | [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) ⭐ | AI/LLM Tooling | `mcp` `ai` `markdown` `automation` `llm` | A powerful Model Context Protocol (MCP) server that leverages Microsoft's MarkItDown to convert diverse file formats, web content, and media into Markdown for LLM consumption. | 2922 | 2026-08-21 |
