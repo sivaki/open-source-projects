@@ -28141,5 +28141,254 @@
       "telegram-cleanup",
       "xcode-cleaner"
     ]
+  },
+  {
+    "id": "github:nyblnet/bento",
+    "url": "https://github.com/nyblnet/bento",
+    "title": "nyblnet/bento",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090714998267846828",
+    "fetched_at": "2026-08-21T08:43:01.200961Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A local-first, single-file office suite that stores documents as self-contained HTML/JSON files, featuring built-in collaboration, AI-agent compatibility, and offline-first operation.",
+    "category": "Productivity / Developer Tools",
+    "tags": [
+      "local-first",
+      "office-suite",
+      "ai-tooling",
+      "privacy",
+      "web-app"
+    ],
+    "risk_notes": "No installation required; runs entirely in the browser as a single HTML file. Uses the File System Access API to save changes locally. Optional sync relay is E2EE, meaning the server only sees encrypted ciphertext. Highly transparent architecture with no hidden dependencies or background daemons.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 36,
+      "created_at": "2026-07-17T16:55:09Z",
+      "homepage": "https://bento.page"
+    },
+    "added_at": "2026-08-21T08:43:08.969335Z",
+    "stars": 4294,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-21T02:09:42Z",
+    "license": "MIT",
+    "topics": [
+      "mit-license",
+      "office",
+      "office-365",
+      "office-suite",
+      "office-tools",
+      "office365",
+      "open-source",
+      "powerpoint",
+      "self-hosted",
+      "single-page-app",
+      "slides",
+      "slideshare",
+      "slideshow",
+      "slideshow-gallery",
+      "slideshow-maker",
+      "slideshows"
+    ]
+  },
+  {
+    "id": "github:silentchainai/silentchain",
+    "url": "https://github.com/silentchainai/silentchain",
+    "title": "silentchainai/silentchain",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090692170617364608",
+    "fetched_at": "2026-08-21T08:43:01.201325Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful Burp Suite extension that integrates various AI models (including local Ollama) for passive vulnerability analysis and security testing.",
+    "category": "Security Tooling",
+    "tags": [
+      "burp-suite",
+      "ai",
+      "security",
+      "pentesting",
+      "vulnerability-scanner"
+    ],
+    "risk_notes": "Installed as a Java JAR file via the Burp Suite Extensions tab. It requires access to your HTTP proxy traffic, which may contain sensitive credentials or PII. It includes a 'DataSanitizer' feature to redact sensitive data before sending it to cloud AI providers, but users should exercise caution when using third-party APIs. Local usage via Ollama is recommended for maximum privacy.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-02-03T16:14:30Z",
+      "homepage": "https://silentchain.ai"
+    },
+    "added_at": "2026-08-21T08:43:15.721484Z",
+    "stars": 335,
+    "language": "Java",
+    "pushed_at": "2026-07-04T20:38:09Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai",
+      "appsec",
+      "artificial-intelligence",
+      "bug-bounty",
+      "burp-extension",
+      "burp-suite",
+      "owasp",
+      "penetration-testing",
+      "security",
+      "security-tools",
+      "vulnerability-scanner"
+    ]
+  },
+  {
+    "id": "github:arabelatso/skills-4-se",
+    "url": "https://github.com/arabelatso/skills-4-se",
+    "title": "arabelatso/skills-4-se",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090670846368973165",
+    "fetched_at": "2026-08-21T08:43:01.201653Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A curated collection of over 180 structured 'skills' (prompts/workflows) designed for Claude and AI-assisted software engineering, featuring a web-based manager for browsing and installation.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "ai-engineering",
+      "automation",
+      "developer-tools",
+      "metaprogramming"
+    ],
+    "risk_notes": "The project uses shell scripts (install.sh) to manage skill files. Users should review these scripts before execution as they interact with the local filesystem. It does not require root access, but it integrates with AI agents that may have broad read/write access to your codebase and environment variables (API keys).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-02-14T08:31:36Z",
+      "homepage": "https://ArabelaTso.github.io/Skills-4-SE/"
+    },
+    "added_at": "2026-08-21T08:43:26.900036Z",
+    "stars": 162,
+    "language": "Python",
+    "pushed_at": "2026-08-21T03:48:43Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "metaprogramming",
+      "software-development",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "github:datawan-labs/pg",
+    "url": "https://github.com/datawan-labs/pg",
+    "title": "datawan-labs/pg",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090650517114405199",
+    "fetched_at": "2026-08-21T08:43:01.201947Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A browser-based PostgreSQL playground powered by PGLite (WASM), allowing users to run SQL queries and generate ERDs entirely client-side without a backend.",
+    "category": "Developer Tools",
+    "tags": [
+      "postgresql",
+      "wasm",
+      "database",
+      "browser-tools",
+      "sql"
+    ],
+    "risk_notes": "Runs entirely in the browser using WebAssembly and IndexedDB. No server-side installation or network access required, making it highly secure and privacy-focused. Data is stored locally in the browser's storage.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2024-04-03T06:11:07Z",
+      "homepage": "https://pg.datawan.id"
+    },
+    "added_at": "2026-08-21T08:43:33.507264Z",
+    "stars": 746,
+    "language": "TypeScript",
+    "pushed_at": "2024-12-02T02:59:19Z",
+    "license": "MIT",
+    "topics": [
+      "database",
+      "postgresql",
+      "react",
+      "shadcn",
+      "typescript",
+      "wasm"
+    ]
+  },
+  {
+    "id": "github:kartiklabhshetwar/oneurl",
+    "url": "https://github.com/kartiklabhshetwar/oneurl",
+    "title": "kartiklabhshetwar/oneurl",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090631212154950053",
+    "fetched_at": "2026-08-21T08:43:01.202238Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A modern, self-hostable Linktree alternative built with Next.js 16, TypeScript, and PostgreSQL, featuring analytics and custom profile pages.",
+    "category": "self-hosting",
+    "tags": [
+      "nextjs",
+      "self-hosted",
+      "typescript",
+      "link-management",
+      "web-app"
+    ],
+    "risk_notes": "Requires external dependencies including a PostgreSQL database, Google OAuth credentials, and an optional UploadThing account. The application runs as a Node.js/Bun service; standard security practices for web applications apply (e.g., securing environment variables, database access, and OAuth secrets). The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-12-31T10:07:10Z",
+      "homepage": "https://www.oneurl.live"
+    },
+    "added_at": "2026-08-21T08:43:42.237997Z",
+    "stars": 431,
+    "language": "TypeScript",
+    "pushed_at": "2026-01-24T07:20:09Z",
+    "license": "BSD-3-Clause",
+    "topics": [
+      "better-auth",
+      "cheerio",
+      "expressjs",
+      "links-management",
+      "nextjs16",
+      "open-source",
+      "self-host",
+      "uploadthing"
+    ]
+  },
+  {
+    "id": "github:terminator-ssh/terminator-desktop",
+    "url": "https://github.com/terminator-ssh/terminator-desktop",
+    "title": "terminator-ssh/terminator-desktop",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090612848552513721",
+    "fetched_at": "2026-08-21T08:43:01.202535Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A cross-platform, local-first SSH client built with Wails that features end-to-end encrypted configuration syncing via a self-hostable backend.",
+    "category": "developer tools",
+    "tags": [
+      "ssh",
+      "terminal",
+      "self-hosting",
+      "encryption",
+      "wails"
+    ],
+    "risk_notes": "Distributed as pre-built binaries (AppImage, .exe, .pkg). As an SSH client, it requires access to your local SSH keys and network. The self-hosted sync component requires managing a separate server instance. The project is relatively new and active, but requires caution as it handles sensitive credentials.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 28,
+      "created_at": "2025-11-08T17:07:34Z",
+      "homepage": "https://terminator.sh"
+    },
+    "added_at": "2026-08-21T08:43:48.768556Z",
+    "stars": 183,
+    "language": "TypeScript",
+    "pushed_at": "2026-05-29T14:48:29Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "console",
+      "ssh",
+      "ssh-client",
+      "terminal"
+    ]
   }
 ]
