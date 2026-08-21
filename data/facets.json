@@ -33570,5 +33570,84 @@
       "mac cleaner",
       "disk space manager"
     ]
+  },
+  "github:nyblnet/bento": {
+    "capability_summary": "A local-first office suite that stores documents as self-contained files for privacy and offline use. It is designed for users who want a private, AI-compatible alternative to traditional office suites.",
+    "problem_solved": "Need for a private, offline-capable office suite that keeps data local.",
+    "use_cases": [
+      "document creation",
+      "presentation design",
+      "offline office work"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "office-365 alternative",
+      "local-first office"
+    ]
+  },
+  "github:arabelatso/skills-4-se": {
+    "capability_summary": "A library of structured prompts and workflows for AI-assisted software engineering. It is intended for developers using Claude to automate coding tasks.",
+    "problem_solved": "Lack of standardized, high-quality prompts for AI-assisted software development.",
+    "use_cases": [
+      "ai-assisted coding",
+      "prompt engineering",
+      "software development automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-skills",
+      "ai-engineering toolkit"
+    ]
+  },
+  "github:datawan-labs/pg": {
+    "capability_summary": "A browser-based PostgreSQL playground that runs entirely client-side using WASM. It is for developers who need to test SQL or visualize database schemas without a backend.",
+    "problem_solved": "Need to run SQL queries or visualize database schemas without setting up a server.",
+    "use_cases": [
+      "sql testing",
+      "erd generation",
+      "database prototyping"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pglite playground",
+      "browser-based sql"
+    ]
+  },
+  "github:terminator-ssh/terminator-desktop": {
+    "capability_summary": "A cross-platform SSH client with end-to-end encrypted configuration syncing. It is designed for users who need a secure, self-hostable terminal management tool.",
+    "problem_solved": "Need for a secure, cross-platform SSH client with encrypted configuration synchronization.",
+    "use_cases": [
+      "ssh management",
+      "terminal access",
+      "remote server administration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ssh-client",
+      "terminal-emulator"
+    ]
   }
 }
