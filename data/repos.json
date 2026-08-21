@@ -28390,5 +28390,207 @@
       "ssh-client",
       "terminal"
     ]
+  },
+  {
+    "id": "github:openpipe/art",
+    "url": "https://github.com/openpipe/art",
+    "title": "openpipe/art",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2090732012005200135",
+    "fetched_at": "2026-08-21T16:37:29.531271Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "ART (Agent Reinforcement Trainer) is a specialized framework for training multi-step LLM agents using GRPO, designed to improve agent reliability through reinforcement learning.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "reinforcement-learning",
+      "agents",
+      "grpo"
+    ],
+    "risk_notes": "Installed via pip. Requires API keys for W&B or other backend services. As an RL framework, it executes code in defined environments, which may pose risks if the environment is not sandboxed. The project is highly active and well-maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 126,
+      "created_at": "2025-03-10T18:25:47Z",
+      "homepage": "https://art.openpipe.ai"
+    },
+    "added_at": "2026-08-21T16:37:39.185058Z",
+    "stars": 10611,
+    "language": "Python",
+    "pushed_at": "2026-08-21T14:45:01Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "grpo",
+      "llms",
+      "lora",
+      "qwen",
+      "qwen3",
+      "reinforcement-learning",
+      "rl"
+    ]
+  },
+  {
+    "id": "github:capcom6/android-sms-gateway",
+    "url": "https://github.com/capcom6/android-sms-gateway",
+    "title": "capcom6/android-sms-gateway",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090835879333961787",
+    "fetched_at": "2026-08-21T16:37:32.250619Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An open-source Android application that transforms a smartphone into a programmable SMS gateway, supporting REST API integration, webhooks, and end-to-end encryption.",
+    "category": "Automation",
+    "tags": [
+      "android",
+      "sms",
+      "automation",
+      "api",
+      "self-hosted",
+      "homelab"
+    ],
+    "risk_notes": "Requires installing an APK on an Android device, which necessitates broad permissions to read, send, and manage SMS messages. The app can be used in a local-only mode or via a cloud/private server. Users should be aware that granting SMS permissions to any app carries inherent privacy risks regarding message content access.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 20,
+      "created_at": "2022-06-15T15:41:39Z",
+      "homepage": "https://docs.sms-gate.app"
+    },
+    "added_at": "2026-08-21T16:37:46.477410Z",
+    "stars": 5370,
+    "language": "Kotlin",
+    "pushed_at": "2026-08-21T12:00:27Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "android",
+      "api",
+      "encryption",
+      "gateway",
+      "httpsms",
+      "sim",
+      "simcard",
+      "sms",
+      "sms-gateway",
+      "smsgate",
+      "textbee",
+      "ttl"
+    ]
+  },
+  {
+    "id": "github:parthjadhav/app-store-screenshots",
+    "url": "https://github.com/parthjadhav/app-store-screenshots",
+    "title": "parthjadhav/app-store-screenshots",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090793010057314500",
+    "fetched_at": "2026-08-21T16:37:32.250787Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A specialized tool for AI coding agents that scaffolds a Next.js-based editor for creating professional App Store and Google Play marketing screenshots with connected canvas support.",
+    "category": "Developer Tools",
+    "tags": [
+      "automation",
+      "ai-agent",
+      "marketing",
+      "typescript",
+      "nextjs"
+    ],
+    "risk_notes": "Installs via 'npx skills' or manual git clone. As a local Next.js project, it runs on your machine and has access to your local filesystem. It is designed to be managed by AI coding agents (like Claude Code or Cursor), which may require API keys for the underlying LLM provider. The project is actively maintained and follows standard local development patterns.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 12,
+      "created_at": "2026-03-07T13:56:04Z",
+      "homepage": "https://skills.sh/parthjadhav/app-store-screenshots/app-store-screenshots"
+    },
+    "added_at": "2026-08-21T16:37:53.201685Z",
+    "stars": 6487,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-12T10:05:09Z",
+    "license": "MIT",
+    "topics": [
+      "agentic-ai",
+      "apple",
+      "appstore",
+      "automate",
+      "claude",
+      "cursor",
+      "design",
+      "generate",
+      "ios",
+      "ios-app",
+      "marketing",
+      "screenshot",
+      "skills",
+      "skills-sh",
+      "swift",
+      "swiftui",
+      "ui"
+    ]
+  },
+  {
+    "id": "github:axtonliu/axton-obsidian-visual-skills",
+    "url": "https://github.com/axtonliu/axton-obsidian-visual-skills",
+    "title": "axtonliu/axton-obsidian-visual-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090765135740616711",
+    "fetched_at": "2026-08-21T16:37:32.250912Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of prompt-based skills for the Claude Code CLI that enables the generation of Obsidian-compatible diagrams, including Excalidraw, Mermaid, and Canvas files.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "obsidian",
+      "claude-code",
+      "automation",
+      "diagramming",
+      "llm"
+    ],
+    "risk_notes": "Requires Claude Code CLI and an Anthropic API key. The skills are loaded into the Claude Code environment, which typically has read/write access to your local filesystem. The project is explicitly labeled as 'Experimental' and the author notes it is a prototype for demonstration purposes rather than a production-grade library.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-01-10T18:01:37Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-21T16:37:59.772963Z",
+    "stars": 3339,
+    "language": null,
+    "pushed_at": "2026-06-26T15:32:40Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:mengto/skills",
+    "url": "https://github.com/mengto/skills",
+    "title": "mengto/skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090739168380854442",
+    "fetched_at": "2026-08-21T16:37:32.251031Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A curated library of structured 'agent skills' (Markdown-based playbooks) designed to guide AI coding agents like Cursor and Claude through complex UI, game development, and design workflows.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "prompt-engineering",
+      "web-development",
+      "automation",
+      "workflow-optimization"
+    ],
+    "risk_notes": "This is a documentation-only repository containing Markdown files and static assets. There is no code to execute, no installation required, and no risk of system access or credential exposure. It is safe to clone and reference as context for your AI agents.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2026-02-03T10:10:55Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-21T16:38:06.315785Z",
+    "stars": 5149,
+    "language": "HTML",
+    "pushed_at": "2026-08-18T06:04:32Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
