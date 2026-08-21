@@ -33649,5 +33649,92 @@
       "ssh-client",
       "terminal-emulator"
     ]
+  },
+  "github:openpipe/art": {
+    "capability_summary": "A framework for training multi-step LLM agents using GRPO reinforcement learning to improve reliability.",
+    "problem_solved": "Improving the reliability of complex LLM agent workflows through reinforcement learning.",
+    "use_cases": [
+      "LLM agent training",
+      "reinforcement learning",
+      "GRPO optimization"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Agent Reinforcement Trainer"
+    ]
+  },
+  "github:capcom6/android-sms-gateway": {
+    "capability_summary": "An Android app that turns a smartphone into a programmable SMS gateway with REST API and webhook support.",
+    "problem_solved": "Sending and receiving SMS programmatically via a self-hosted gateway.",
+    "use_cases": [
+      "SMS automation",
+      "two-factor authentication",
+      "notification delivery"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "SMS gateway",
+      "HTTP SMS"
+    ]
+  },
+  "github:parthjadhav/app-store-screenshots": {
+    "capability_summary": "A Next.js-based editor tool for AI agents to generate professional App Store and Google Play marketing screenshots.",
+    "problem_solved": "Automating the creation of high-quality mobile app marketing assets.",
+    "use_cases": [
+      "app store optimization",
+      "marketing automation",
+      "screenshot generation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "App Store screenshot generator"
+    ]
+  },
+  "github:axtonliu/axton-obsidian-visual-skills": {
+    "capability_summary": "A collection of prompt-based skills for Claude Code to generate Obsidian-compatible diagrams.",
+    "problem_solved": "Generating visual diagrams directly within Obsidian using AI agents.",
+    "use_cases": [
+      "diagram generation",
+      "Obsidian automation",
+      "Mermaid chart creation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code skills"
+    ]
+  },
+  "github:mengto/skills": {
+    "capability_summary": "A library of structured Markdown playbooks to guide AI coding agents through complex design and development tasks.",
+    "problem_solved": "Standardizing and improving the output quality of AI coding agents.",
+    "use_cases": [
+      "AI workflow optimization",
+      "prompt engineering",
+      "UI development guidance"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent playbooks"
+    ]
   }
 }
