@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 636 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 641 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [mengto/skills](https://github.com/mengto/skills) ⭐ | AI/LLM Tooling | `ai-agents` `prompt-engineering` `web-development` `automation` `workflow-optimization` | A curated library of structured 'agent skills' (Markdown-based playbooks) designed to guide AI coding agents like Cursor and Claude through complex UI, game development, and design workflows. | 5149 | 2026-08-21 |
+| [axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills) ⭐ | AI/LLM Tooling | `obsidian` `claude-code` `automation` `diagramming` `llm` | A collection of prompt-based skills for the Claude Code CLI that enables the generation of Obsidian-compatible diagrams, including Excalidraw, Mermaid, and Canvas files. | 3339 | 2026-08-21 |
+| [parthjadhav/app-store-screenshots](https://github.com/parthjadhav/app-store-screenshots) ⭐ | Developer Tools | `automation` `ai-agent` `marketing` `typescript` `nextjs` | A specialized tool for AI coding agents that scaffolds a Next.js-based editor for creating professional App Store and Google Play marketing screenshots with connected canvas support. | 6487 | 2026-08-21 |
+| [capcom6/android-sms-gateway](https://github.com/capcom6/android-sms-gateway) ⭐ | Automation | `android` `sms` `automation` `api` `self-hosted` `homelab` | An open-source Android application that transforms a smartphone into a programmable SMS gateway, supporting REST API integration, webhooks, and end-to-end encryption. | 5370 | 2026-08-21 |
+| [openpipe/art](https://github.com/openpipe/art) ⭐ | AI/LLM Tooling | `ai` `llm` `reinforcement-learning` `agents` `grpo` | ART (Agent Reinforcement Trainer) is a specialized framework for training multi-step LLM agents using GRPO, designed to improve agent reliability through reinforcement learning. | 10611 | 2026-08-21 |
 | [terminator-ssh/terminator-desktop](https://github.com/terminator-ssh/terminator-desktop) ⭐ | developer tools | `ssh` `terminal` `self-hosting` `encryption` `wails` | A cross-platform, local-first SSH client built with Wails that features end-to-end encrypted configuration syncing via a self-hostable backend. | 183 | 2026-08-21 |
 | [kartiklabhshetwar/oneurl](https://github.com/kartiklabhshetwar/oneurl) ⭐ | self-hosting | `nextjs` `self-hosted` `typescript` `link-management` `web-app` | A modern, self-hostable Linktree alternative built with Next.js 16, TypeScript, and PostgreSQL, featuring analytics and custom profile pages. | 431 | 2026-08-21 |
 | [datawan-labs/pg](https://github.com/datawan-labs/pg) ⭐ | Developer Tools | `postgresql` `wasm` `database` `browser-tools` `sql` | A browser-based PostgreSQL playground powered by PGLite (WASM), allowing users to run SQL queries and generate ERDs entirely client-side without a backend. | 746 | 2026-08-21 |
