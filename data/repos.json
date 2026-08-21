@@ -27756,5 +27756,390 @@
       "outdoor",
       "tak"
     ]
+  },
+  {
+    "id": "github:opensensenova/sensenova-u1",
+    "url": "https://github.com/opensensenova/sensenova-u1",
+    "title": "opensensenova/sensenova-u1",
+    "source_name": "twitter",
+    "source_url": "https://x.com/GithubProjects/status/2090490324259066307",
+    "fetched_at": "2026-08-21T01:26:02.231008Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "SenseNova-U1 is a high-performance, open-weights multimodal AI model architecture focused on native unified generation, including specialized models for infographics and interleaved image-text content.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "multimodal",
+      "generative-ai",
+      "llm",
+      "computer-vision"
+    ],
+    "risk_notes": "Requires significant GPU resources for inference and fine-tuning. Installation typically involves standard Python/PyTorch environments (pip/conda). Models are hosted on Hugging Face, requiring standard model-loading security practices. No dangerous install scripts detected, but users should be cautious when running arbitrary model weights from third-party contributors.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 34,
+      "created_at": "2026-04-17T03:46:29Z",
+      "homepage": "https://huggingface.co/collections/sensenova/sensenova-u1"
+    },
+    "added_at": "2026-08-21T01:26:21.471388Z",
+    "stars": 5111,
+    "language": "Python",
+    "pushed_at": "2026-08-21T00:33:02Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:josejuanqm/docky",
+    "url": "https://github.com/josejuanqm/docky",
+    "title": "josejuanqm/docky",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090595446842339613",
+    "fetched_at": "2026-08-21T01:26:10.708445Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A macOS Dock replacement that offers advanced customization, widgets, and window management features.",
+    "category": "macos-utility",
+    "tags": [
+      "macos",
+      "productivity",
+      "ui-customization",
+      "swift"
+    ],
+    "risk_notes": "Requires high-level system permissions including Accessibility and Screen Recording to function, as it interacts with private macOS APIs (SkyLight/CoreGraphics). Installed via Homebrew Cask or direct download; updates managed via Sparkle framework. Not suitable for users prioritizing minimal system footprint or strict security isolation.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2026-04-18T17:14:25Z",
+      "homepage": "https://getdocky.com"
+    },
+    "added_at": "2026-08-21T01:26:29.896029Z",
+    "stars": 1083,
+    "language": "Swift",
+    "pushed_at": "2026-08-20T21:49:37Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "app",
+      "macos"
+    ]
+  },
+  {
+    "id": "github:fynnfluegge/agtx",
+    "url": "https://github.com/fynnfluegge/agtx",
+    "title": "fynnfluegge/agtx",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090578897318371798",
+    "fetched_at": "2026-08-21T01:26:10.708773Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A multi-agent orchestration tool that acts as a blackboard/kanban board for AI coding agents, allowing them to collaborate on tasks in parallel using git worktrees and tmux.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "automation",
+      "cli",
+      "multi-agent",
+      "rust",
+      "workflow"
+    ],
+    "risk_notes": "Installs via a curl-to-bash script which is a common but risky pattern. Requires tmux and potentially GitHub CLI. As an AI orchestration tool, it requires access to your local filesystem (git repositories) and likely requires API keys for the various coding agents (Claude, Gemini, etc.) it manages. It is actively maintained and written in Rust, which is generally memory-safe, but it executes autonomous agents that can modify your code.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 16,
+      "created_at": "2026-02-08T10:24:00Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-21T01:26:36.783697Z",
+    "stars": 1254,
+    "language": "Rust",
+    "pushed_at": "2026-08-11T07:31:53Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "claude",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini",
+      "opencode",
+      "spec-driven-development",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "github:sylearn/aiusage",
+    "url": "https://github.com/sylearn/aiusage",
+    "title": "sylearn/aiusage",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090563118044762299",
+    "fetched_at": "2026-08-21T01:26:10.709051Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A native macOS dashboard for managing AI subscriptions, proxies, and usage analytics across multiple coding agents like Claude Code, Codex, and OpenCode.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "macos",
+      "proxy",
+      "developer-tools",
+      "analytics"
+    ],
+    "risk_notes": "Distributed as a native macOS application; uses macOS Keychain for credential storage. It acts as a local proxy/gateway for various AI CLI tools, meaning it intercepts and potentially logs your API traffic and model usage. Requires careful review of the proxy configurations to ensure sensitive data is not being routed through third-party endpoints.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-04-11T04:49:02Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-21T01:26:45.870568Z",
+    "stars": 527,
+    "language": "Swift",
+    "pushed_at": "2026-08-16T10:15:42Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:hkuds/videorag",
+    "url": "https://github.com/hkuds/videorag",
+    "title": "hkuds/videorag",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090547852690821506",
+    "fetched_at": "2026-08-21T01:26:10.709326Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "VideoRAG (Vimo) is an AI-powered desktop application designed for long-context video analysis and retrieval-augmented generation, allowing users to query content from long-form videos.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "rag",
+      "video-analysis",
+      "desktop-app"
+    ],
+    "risk_notes": "The project is a desktop application (Vimo) which likely requires local file system access to process video files. It relies on external LLM APIs (e.g., OpenAI, Anthropic) for the underlying intelligence, meaning users must provide their own API keys. The repository is actively maintained and associated with a recent KDD 2026 research paper, suggesting a legitimate academic/development origin.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 21,
+      "created_at": "2025-02-03T03:59:11Z",
+      "homepage": "https://arxiv.org/abs/2502.01549"
+    },
+    "added_at": "2026-08-21T01:26:59.981063Z",
+    "stars": 3310,
+    "language": "Python",
+    "pushed_at": "2026-03-18T08:33:07Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "large-language-models",
+      "llms",
+      "long-video-understanding",
+      "multi-modal-llms",
+      "rag",
+      "retrieval-augmented-generation"
+    ]
+  },
+  {
+    "id": "github:abhinavkale-dev/fynt",
+    "url": "https://github.com/abhinavkale-dev/fynt",
+    "title": "abhinavkale-dev/fynt",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090533322661245383",
+    "fetched_at": "2026-08-21T01:26:10.709580Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hostable, visual workflow automation platform that allows chaining AI models, webhooks, and various integrations via a node-based editor.",
+    "category": "automation",
+    "tags": [
+      "automation",
+      "self-hosted",
+      "workflow",
+      "ai",
+      "typescript"
+    ],
+    "risk_notes": "Requires Docker Compose for full deployment. It handles sensitive credentials (API keys for OpenAI, Slack, etc.) which are encrypted at rest. It requires access to a Postgres database and Redis instance. As a workflow engine, it has broad network access to external APIs and internal services, so it should be deployed in a secure, isolated environment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-02-19T03:47:10Z",
+      "homepage": "https://fynt.in"
+    },
+    "added_at": "2026-08-21T01:27:09.462986Z",
+    "stars": 392,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-16T23:06:28Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:mrgoonie/winshot",
+    "url": "https://github.com/mrgoonie/winshot",
+    "title": "mrgoonie/winshot",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090519296963154202",
+    "fetched_at": "2026-08-21T01:26:10.709835Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A lightweight, feature-rich Windows screenshot and annotation tool built with Wails (Go/React) that offers native performance and a modern UI.",
+    "category": "Developer Tools",
+    "tags": [
+      "windows",
+      "screenshot",
+      "wails",
+      "productivity",
+      "utility"
+    ],
+    "risk_notes": "Distributed as a portable .exe or installer from GitHub releases. It requires the WebView2 runtime and has access to the filesystem (for saving screenshots) and global keyboard hooks to function as a system-wide utility. It is actively maintained and uses a standard Go/Wails architecture.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 17,
+      "created_at": "2025-12-01T16:10:03Z",
+      "homepage": "http://winshot.claudekit.cc/"
+    },
+    "added_at": "2026-08-21T01:27:25.483376Z",
+    "stars": 573,
+    "language": "TypeScript",
+    "pushed_at": "2026-03-04T14:45:46Z",
+    "license": "BSD-3-Clause",
+    "topics": [
+      "capture",
+      "desktop",
+      "screenshot",
+      "windows",
+      "winshot"
+    ]
+  },
+  {
+    "id": "github:zcaceres/markdownify-mcp",
+    "url": "https://github.com/zcaceres/markdownify-mcp",
+    "title": "zcaceres/markdownify-mcp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090505795922182280",
+    "fetched_at": "2026-08-21T01:26:10.710092Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful Model Context Protocol (MCP) server that leverages Microsoft's MarkItDown to convert diverse file formats, web content, and media into Markdown for LLM consumption.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "ai",
+      "markdown",
+      "automation",
+      "llm"
+    ],
+    "risk_notes": "Requires Bun for installation and Python for the underlying MarkItDown dependency. It accesses the local filesystem; however, it includes an MD_ALLOWED_PATHS environment variable to restrict read access to specific directories, which is a good security practice. Docker deployment is supported for better isolation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 24,
+      "created_at": "2024-12-18T21:14:52Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-21T01:27:38.105307Z",
+    "stars": 2922,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-11T05:23:40Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-claude",
+      "markdown",
+      "mcp",
+      "model-context-protocol",
+      "ocr",
+      "tools"
+    ]
+  },
+  {
+    "id": "github:digitalsamba/claude-code-video-toolkit",
+    "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+    "title": "digitalsamba/claude-code-video-toolkit",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090492786814435360",
+    "fetched_at": "2026-08-21T01:26:10.710388Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An AI-native video production toolkit designed to work with Claude Code, enabling autonomous generation of videos using open-source models and cloud GPU providers.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-video-generator",
+      "claude-code",
+      "automation",
+      "video-production",
+      "developer-tools"
+    ],
+    "risk_notes": "Requires installation via pip and Node.js. It integrates with cloud GPU providers (Modal/RunPod) and requires API keys for various AI services. As it is designed to be used with Claude Code, it will have broad read/write access to your local filesystem and execute commands on your behalf, which is standard for AI agent workflows but requires caution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 14,
+      "created_at": "2025-12-09T20:33:03Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-21T01:27:51.420100Z",
+    "stars": 1963,
+    "language": "Python",
+    "pushed_at": "2026-08-13T21:12:22Z",
+    "license": "MIT",
+    "topics": [
+      "ai-video-generator",
+      "claude-code",
+      "developer-tools",
+      "elevenlabs",
+      "open-source",
+      "openclaw",
+      "playwright",
+      "programmatic-video",
+      "qwen-tts",
+      "remotion",
+      "text-to-speech",
+      "video-editing",
+      "video-production"
+    ]
+  },
+  {
+    "id": "github:jithin-sabu/purge-app",
+    "url": "https://github.com/jithin-sabu/purge-app",
+    "title": "jithin-sabu/purge-app",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2090480214006505501",
+    "fetched_at": "2026-08-21T01:26:10.710643Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-quality, open-source macOS utility for reclaiming disk space by safely managing application caches, developer build artifacts, and large files.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "disk-cleanup",
+      "developer-tools",
+      "utility",
+      "swift"
+    ],
+    "risk_notes": "Distributed as a signed macOS application (DMG). It requires Full Disk Access permissions to scan and clean system/user library folders and developer project directories. It operates by moving files to the Trash rather than permanent deletion, which provides a safety buffer. The project is actively maintained and open-source.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-05-11T00:32:20Z",
+      "homepage": "https://purgemac.com"
+    },
+    "added_at": "2026-08-21T01:28:02.602601Z",
+    "stars": 517,
+    "language": "Swift",
+    "pushed_at": "2026-08-13T10:55:34Z",
+    "license": "MIT",
+    "topics": [
+      "cache-cleaner",
+      "developer-tools",
+      "disk-cleanup",
+      "free-disk-space",
+      "free-space",
+      "junk-cleaner",
+      "junk-removal",
+      "junk-remover",
+      "mac-cleaner",
+      "macos-app",
+      "open-source",
+      "storage-manager",
+      "swiftui",
+      "telegram-cleanup",
+      "xcode-cleaner"
+    ]
   }
 ]
