@@ -33454,5 +33454,121 @@
     "aliases": [
       "awesome-clones"
     ]
+  },
+  "github:opensensenova/sensenova-u1": {
+    "capability_summary": "A high-performance multimodal AI model architecture for unified generation of infographics and image-text content.",
+    "problem_solved": "Need for a unified model to generate complex image-text content.",
+    "use_cases": [
+      "infographic generation",
+      "multimodal AI research",
+      "image-text synthesis"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "SenseNova"
+    ]
+  },
+  "github:fynnfluegge/agtx": {
+    "capability_summary": "A multi-agent orchestration tool that coordinates AI coding agents using git worktrees and tmux.",
+    "problem_solved": "Managing collaboration between multiple AI coding agents on complex tasks.",
+    "use_cases": [
+      "AI agent orchestration",
+      "automated coding workflows",
+      "parallel task execution"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "multi-agent orchestrator",
+      "AI coding assistant"
+    ]
+  },
+  "github:abhinavkale-dev/fynt": {
+    "capability_summary": "A self-hostable, visual node-based platform for chaining AI models and webhooks into automated workflows.",
+    "problem_solved": "Building complex automation pipelines without writing code.",
+    "use_cases": [
+      "AI workflow automation",
+      "webhook integration",
+      "node-based automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "n8n alternative",
+      "workflow builder"
+    ]
+  },
+  "github:mrgoonie/winshot": {
+    "capability_summary": "A lightweight, high-performance Windows screenshot and annotation tool built with Wails.",
+    "problem_solved": "Capturing and annotating screenshots on Windows with a modern UI.",
+    "use_cases": [
+      "screenshot capture",
+      "image annotation",
+      "desktop productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "screenshot utility",
+      "Windows snipping tool"
+    ]
+  },
+  "github:digitalsamba/claude-code-video-toolkit": {
+    "capability_summary": "An AI-native toolkit for autonomous video production using Claude Code and open-source models.",
+    "problem_solved": "Automating the creation of videos through programmatic generation.",
+    "use_cases": [
+      "AI video generation",
+      "programmatic video editing",
+      "text-to-speech integration"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI video generator",
+      "Claude Code plugin"
+    ]
+  },
+  "github:jithin-sabu/purge-app": {
+    "capability_summary": "A macOS utility for reclaiming disk space by cleaning application caches and developer build artifacts.",
+    "problem_solved": "Running out of disk space on macOS due to junk files and build artifacts.",
+    "use_cases": [
+      "disk cleanup",
+      "cache removal",
+      "storage management",
+      "Xcode cleanup"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mac cleaner",
+      "disk space manager"
+    ]
   }
 }
