@@ -33736,5 +33736,59 @@
     "aliases": [
       "AI agent playbooks"
     ]
+  },
+  "github:clovalink/clovalink": {
+    "capability_summary": "A high-performance, multi-tenant enterprise file management platform built with Rust and React. It provides a self-hosted alternative to cloud storage services.",
+    "problem_solved": "Need for a secure, self-hosted enterprise file management and sharing solution.",
+    "use_cases": [
+      "enterprise file sharing",
+      "secure file storage",
+      "self-hosted cloud storage"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "box alternative",
+      "dropbox alternative"
+    ]
+  },
+  "github:bagelhole/devops-security-agent-skills": {
+    "capability_summary": "A library of structured DevOps, security, and infrastructure knowledge for AI coding agents. It helps agents make better operational decisions.",
+    "problem_solved": "AI coding agents lack domain-specific knowledge for complex DevOps and security tasks.",
+    "use_cases": [
+      "AI agent training",
+      "infrastructure as code optimization",
+      "automated security auditing"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent knowledge base",
+      "devops prompt library"
+    ]
+  },
+  "github:agentfy-io/agentfy": {
+    "capability_summary": "A modular multi-agent framework for automating social media workflows and content generation using LLMs.",
+    "problem_solved": "Manual effort required for social media content creation and audience engagement.",
+    "use_cases": [
+      "social media automation",
+      "content generation",
+      "multi-agent workflows"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "social media bot framework",
+      "AI agent automation"
+    ]
   }
 }
