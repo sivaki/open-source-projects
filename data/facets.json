@@ -33849,5 +33849,122 @@
       "macos system tools",
       "menu bar utility"
     ]
+  },
+  "github:kennss/siliconscope": {
+    "capability_summary": "A native macOS system monitor for Apple Silicon that tracks Neural Engine, Media Engine, and memory usage.",
+    "problem_solved": "Monitoring performance of Apple Silicon chips and local LLM workloads.",
+    "use_cases": [
+      "system monitoring",
+      "gpu performance tracking",
+      "llm resource monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "system monitor",
+      "apple silicon monitor"
+    ]
+  },
+  "github:anmolsaini16/mapcn": {
+    "capability_summary": "A collection of customizable React map components designed for integration with shadcn/ui.",
+    "problem_solved": "Adding maps to React applications using shadcn/ui styling.",
+    "use_cases": [
+      "interactive maps",
+      "ui components",
+      "frontend development"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "react maps",
+      "maplibre components"
+    ]
+  },
+  "github:sync-in/server": {
+    "capability_summary": "A self-hosted file storage and synchronization platform with collaborative editing features.",
+    "problem_solved": "Replacing cloud storage services like Dropbox or Nextcloud with a private, self-hosted solution.",
+    "use_cases": [
+      "file sync",
+      "collaborative editing",
+      "private cloud storage"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "dropbox alternative",
+      "nextcloud alternative"
+    ]
+  },
+  "github:kodiqa-solutions/vaults3": {
+    "capability_summary": "A lightweight, single-binary S3-compatible object storage server with encryption and a dashboard.",
+    "problem_solved": "Deploying a simple, self-hosted S3-compatible storage backend.",
+    "use_cases": [
+      "object storage",
+      "s3 server",
+      "homelab storage"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "minio alternative",
+      "s3 server"
+    ]
+  },
+  "github:geo-tp/esp32-bit-pirate": {
+    "capability_summary": "Multi-protocol firmware for ESP32 devices that enables hardware hacking and debugging.",
+    "problem_solved": "Performing hardware debugging and protocol analysis using an ESP32.",
+    "use_cases": [
+      "hardware hacking",
+      "protocol debugging",
+      "embedded systems"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "bus pirate",
+      "hardware debugger"
+    ]
+  },
+  "github:databasus/databasus": {
+    "capability_summary": "A self-hosted platform for managing database backups, recovery, and automated verification.",
+    "problem_solved": "Automating and managing database backups across multiple cloud providers.",
+    "use_cases": [
+      "database backup",
+      "disaster recovery",
+      "devops automation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "database backup tool",
+      "automated recovery"
+    ]
   }
 }
