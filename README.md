@@ -1,11 +1,18 @@
 # Curated Repos
 
-Auto-generated list of 641 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 648 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [microck/ordinary-claude-skills](https://github.com/microck/ordinary-claude-skills) ⭐ | AI/LLM Tooling | `claude` `mcp` `automation` `prompt-engineering` `llm` | A comprehensive, community-driven collection of Claude Skills and prompt-based tools organized for easy integration into MCP servers or Claude projects. | 345 | 2026-08-22 |
+| [prat011/awesome-llm-skills](https://github.com/prat011/awesome-llm-skills) ⭐ | AI/LLM Tooling | `llm` `ai-agents` `automation` `claude-code` `developer-tools` | A comprehensive curated list of 'skills' and workflow templates designed to extend the capabilities of AI agents like Claude Code, Gemini CLI, and other LLM-based developer tools. | 1510 | 2026-08-22 |
+| [voltagent/awesome-claude-skills](https://github.com/voltagent/awesome-claude-skills) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `developer-tools` `automation` `claude-code` | A comprehensive, curated directory of agent skills and tool definitions for popular AI coding assistants like Claude Code, Cursor, and Gemini CLI. | 30744 | 2026-08-22 |
+| [agentfy-io/agentfy](https://github.com/agentfy-io/agentfy) ⭐ | automation | `ai-agents` `automation` `llm` `social-media` `python` | A modular multi-agent framework designed to automate social media workflows, content generation, and audience engagement using LLMs and the Model Context Protocol. | 437 | 2026-08-22 |
+| [bagelhole/devops-security-agent-skills](https://github.com/bagelhole/devops-security-agent-skills) ⭐ | AI/LLM Tooling | `devops` `ai-agents` `infrastructure-as-code` `security` `sre` | A comprehensive library of structured DevOps, security, and infrastructure knowledge designed to be ingested by AI coding agents like Claude Code and Cursor to improve their operational decision-making. | 104 | 2026-08-22 |
+| [clovalink/clovalink](https://github.com/clovalink/clovalink) ⭐ | Self-hosting | `self-hosted` `rust` `file-management` `enterprise` `compliance` `automation` | A high-performance, multi-tenant enterprise file management platform built with Rust and React, designed as a cost-effective, self-hosted alternative to services like Box or Dropbox. | 161 | 2026-08-22 |
+| [maxvfischer/diy-cnc-machine](https://github.com/maxvfischer/diy-cnc-machine) ⭐ | Hardware/Maker | `cnc` `diy` `robotics` `hardware` `maker` | A comprehensive, well-documented guide for building a DIY CNC machine from scratch using 3D-printed parts and standard electronics. | 1954 | 2026-08-22 |
 | [mengto/skills](https://github.com/mengto/skills) ⭐ | AI/LLM Tooling | `ai-agents` `prompt-engineering` `web-development` `automation` `workflow-optimization` | A curated library of structured 'agent skills' (Markdown-based playbooks) designed to guide AI coding agents like Cursor and Claude through complex UI, game development, and design workflows. | 5149 | 2026-08-21 |
 | [axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills) ⭐ | AI/LLM Tooling | `obsidian` `claude-code` `automation` `diagramming` `llm` | A collection of prompt-based skills for the Claude Code CLI that enables the generation of Obsidian-compatible diagrams, including Excalidraw, Mermaid, and Canvas files. | 3339 | 2026-08-21 |
 | [parthjadhav/app-store-screenshots](https://github.com/parthjadhav/app-store-screenshots) ⭐ | Developer Tools | `automation` `ai-agent` `marketing` `typescript` `nextjs` | A specialized tool for AI coding agents that scaffolds a Next.js-based editor for creating professional App Store and Google Play marketing screenshots with connected canvas support. | 6487 | 2026-08-21 |
