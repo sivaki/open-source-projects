@@ -33790,5 +33790,64 @@
       "social media bot framework",
       "AI agent automation"
     ]
+  },
+  "github:loredcast/filewizard": {
+    "capability_summary": "A self-hosted browser utility for file conversion, OCR, and audio transcription. It is designed for users needing a unified interface for media processing tasks.",
+    "problem_solved": "Simplifies complex CLI media and document processing tasks into a web interface.",
+    "use_cases": [
+      "audio transcription",
+      "ocr processing",
+      "file format conversion"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "file converter",
+      "self-hosted automation"
+    ]
+  },
+  "github:virgiliojr94/book-to-skill": {
+    "capability_summary": "A CLI tool that transforms technical books and documentation into structured knowledge for AI agents. It is built for developers looking to improve AI context-awareness.",
+    "problem_solved": "Converts static documents into efficient, low-token knowledge bases for LLMs.",
+    "use_cases": [
+      "rag optimization",
+      "ai agent training",
+      "document processing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "rag tool",
+      "llm context engineering"
+    ]
+  },
+  "github:vorssaint/vorssaint-utils": {
+    "capability_summary": "A modular macOS menu bar utility providing system monitoring, window management, and app uninstallation. It is designed for power users wanting to consolidate system tools.",
+    "problem_solved": "Reduces clutter by combining multiple system management utilities into one menu bar app.",
+    "use_cases": [
+      "window management",
+      "system monitoring",
+      "app uninstallation",
+      "volume control"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "macos system tools",
+      "menu bar utility"
+    ]
   }
 }
