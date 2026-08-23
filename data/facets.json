@@ -34249,5 +34249,99 @@
       "vision-transformers",
       "spatial-perception-models"
     ]
+  },
+  "github:microsoft/ai-engineering-coach": {
+    "capability_summary": "A VS Code extension that analyzes AI coding session logs to provide performance insights and identify anti-patterns. It is designed for developers using AI-assisted coding tools.",
+    "problem_solved": "Optimizing AI-assisted development workflows and coding habits.",
+    "use_cases": [
+      "AI coding analytics",
+      "developer productivity",
+      "code quality monitoring"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "VS Code AI assistant"
+    ]
+  },
+  "github:plugin87/ux-ui-agent-skills": {
+    "capability_summary": "A knowledge kit that enables Claude to act as a senior design architect for component engineering and accessibility auditing. It is intended for UI/UX engineers and designers.",
+    "problem_solved": "Automating design system implementation and accessibility compliance.",
+    "use_cases": [
+      "accessibility auditing",
+      "design-to-code",
+      "component library management"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude design agent",
+      "AI design architect"
+    ]
+  },
+  "github:open-gsd/gsd-pi": {
+    "capability_summary": "A terminal-based coding agent that automates software development lifecycles using Git worktrees and multi-LLM routing. It is built for software engineers seeking automated project management.",
+    "problem_solved": "Automating complex coding tasks and project planning in the terminal.",
+    "use_cases": [
+      "automated coding",
+      "git workflow automation",
+      "spec-driven development"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "coding agent",
+      "terminal AI assistant"
+    ]
+  },
+  "github:cmu-perceptual-computing-lab/openpose": {
+    "capability_summary": "A real-time multi-person system for detecting human body, hand, facial, and foot keypoints. It is designed for researchers and developers in computer vision.",
+    "problem_solved": "Detecting and tracking human pose and keypoints in real-time.",
+    "use_cases": [
+      "human pose estimation",
+      "motion capture",
+      "human behavior analysis"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pose estimation library",
+      "computer vision toolkit"
+    ]
+  },
+  "github:denislupookov/altersend": {
+    "capability_summary": "A cross-platform, P2P file transfer utility that uses end-to-end encryption for direct data sharing. It is for users who require private, cloud-free file transfers.",
+    "problem_solved": "Securely transferring files between peers without cloud storage.",
+    "use_cases": [
+      "private file sharing",
+      "p2p data transfer",
+      "secure file exchange"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "p2p file transfer",
+      "encrypted file sharing"
+    ]
   }
 }
