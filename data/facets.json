@@ -33966,5 +33966,174 @@
       "database backup tool",
       "automated recovery"
     ]
+  },
+  "github:kaopu-xiaopu/web-design": {
+    "capability_summary": "A Claude Code skill that enforces a spec-first design workflow by generating structured documentation before writing web code.",
+    "problem_solved": "Ensures AI-generated web code aligns with design specifications and PRDs.",
+    "use_cases": [
+      "frontend development",
+      "ai-assisted design",
+      "automated documentation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skill"
+    ]
+  },
+  "github:jordancoin/codemap": {
+    "capability_summary": "Generates structural dependency graphs and architectural context for AI coding agents.",
+    "problem_solved": "Reduces token usage and improves AI understanding of project architecture.",
+    "use_cases": [
+      "code analysis",
+      "ai context management",
+      "dependency mapping"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "codex-cli",
+      "ai-context-tool"
+    ]
+  },
+  "github:liquidslr/system-design-notes": {
+    "capability_summary": "A curated collection of study notes and resources for system design and architecture patterns.",
+    "problem_solved": "Provides structured learning materials for system design interviews.",
+    "use_cases": [
+      "interview preparation",
+      "architecture study",
+      "distributed systems learning"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "system-design-guide"
+    ]
+  },
+  "github:interceptsuite/proxybridge": {
+    "capability_summary": "A cross-platform, process-aware proxy client that redirects network traffic through SOCKS5 or HTTP proxies.",
+    "problem_solved": "Provides a modern, process-aware alternative to Proxifier for traffic redirection.",
+    "use_cases": [
+      "network security",
+      "traffic tunneling",
+      "proxy management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "proxifier-alternative"
+    ]
+  },
+  "github:google-gemma/gemma-translator": {
+    "capability_summary": "An offline, on-device voice translation project for Raspberry Pi 5 using Gemma and Moonshine.",
+    "problem_solved": "Enables private, offline voice translation without cloud dependencies.",
+    "use_cases": [
+      "voice-to-voice translation",
+      "kiosk applications",
+      "offline speech processing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "offline-translator"
+    ]
+  },
+  "github:r44vc0rp/pgrok": {
+    "capability_summary": "A self-hosted tunneling tool that uses SSH and Caddy to expose local services with automatic HTTPS.",
+    "problem_solved": "Provides a free, self-hosted alternative to ngrok for exposing local services.",
+    "use_cases": [
+      "homelab",
+      "remote access",
+      "tunneling"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cli",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ngrok-alternative"
+    ]
+  },
+  "github:dorianborian/sesame-robot": {
+    "capability_summary": "An open-source, 3D-printable quadruped robot powered by an ESP32 with a RESTful API.",
+    "problem_solved": "Provides a hardware platform for home-lab robotics and automation.",
+    "use_cases": [
+      "robotics",
+      "iot",
+      "hardware automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "quadruped-robot"
+    ]
+  },
+  "github:formsmith746/sketchforge-3d": {
+    "capability_summary": "A local-first, browser-based 3D CAD editor supporting STL/STEP workflows.",
+    "problem_solved": "Eliminates cloud lock-in for 3D CAD design and engineering.",
+    "use_cases": [
+      "3d printing",
+      "cad design",
+      "engineering"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "cad-editor"
+    ]
+  },
+  "github:raiyanyahya/how-to-train-your-gpt": {
+    "capability_summary": "A step-by-step educational guide to building a LLaMA-style LLM from scratch using PyTorch.",
+    "problem_solved": "Provides a practical, code-first approach to understanding LLM architecture.",
+    "use_cases": [
+      "deep learning education",
+      "llm training",
+      "pytorch tutorial"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "llm-tutorial"
+    ]
   }
 }
