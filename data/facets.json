@@ -34135,5 +34135,119 @@
     "aliases": [
       "llm-tutorial"
     ]
+  },
+  "github:alexandrosgounis/pdfx": {
+    "capability_summary": "A desktop application for bundling multiple PDF documents into a single file using a JSON manifest. It is designed for users needing to manage and merge PDF collections.",
+    "problem_solved": "Merging multiple PDF files into a single structured document.",
+    "use_cases": [
+      "pdf merging",
+      "document management",
+      "pdf bundling"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pdf-tools",
+      "pdf-manager"
+    ]
+  },
+  "github:dronesploit/dronesploit": {
+    "capability_summary": "A CLI framework for security researchers and penetration testers to perform security assessments on commercial drones.",
+    "problem_solved": "Testing the security and vulnerabilities of drone hardware and software.",
+    "use_cases": [
+      "drone security",
+      "penetration testing",
+      "security research"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "metasploit-for-drones",
+      "drone-hacking-tool"
+    ]
+  },
+  "github:cosmicstack-labs/mercury-agent-skills": {
+    "capability_summary": "A vendor-neutral registry of playbooks designed to extend the functional capabilities of AI agents and CLI tools.",
+    "problem_solved": "Standardizing and sharing capabilities for AI agents.",
+    "use_cases": [
+      "ai automation",
+      "agent skill registry",
+      "llm workflow extension"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-skills",
+      "llm-playbooks"
+    ]
+  },
+  "github:armur-ai/pentest-swarm-ai": {
+    "capability_summary": "An autonomous penetration testing framework that uses swarm intelligence to coordinate AI agents for security recon and exploitation.",
+    "problem_solved": "Automating complex penetration testing tasks using multi-agent coordination.",
+    "use_cases": [
+      "automated pentesting",
+      "bug bounty automation",
+      "offensive security"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-pentest-swarm",
+      "autonomous-security-testing"
+    ]
+  },
+  "github:1weiho/open-slide": {
+    "capability_summary": "A React-based framework that allows AI coding agents to generate and present slide decks via natural language prompts.",
+    "problem_solved": "Automating the creation of slide presentations from AI-generated content.",
+    "use_cases": [
+      "ai-generated presentations",
+      "automated slide creation",
+      "react-based slides"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-presentation-tool",
+      "react-slides"
+    ]
+  },
+  "github:robbyant/lingbot-vision": {
+    "capability_summary": "A collection of self-supervised Vision Transformer backbones optimized for dense spatial perception tasks like depth estimation.",
+    "problem_solved": "Implementing high-performance spatial perception in computer vision models.",
+    "use_cases": [
+      "depth estimation",
+      "semantic segmentation",
+      "computer vision"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vision-transformers",
+      "spatial-perception-models"
+    ]
   }
 }
