@@ -1,11 +1,18 @@
 # Curated Repos
 
-Auto-generated list of 43 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 50 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [robbyant/lingbot-vision](https://github.com/robbyant/lingbot-vision) ⭐ | AI/Computer Vision | `computer-vision` `pytorch` `transformers` `machine-learning` `spatial-perception` | A collection of self-supervised Vision Transformer backbones optimized for dense spatial perception tasks like depth estimation and semantic segmentation. | 920 | 2026-08-23 |
+| [1weiho/open-slide](https://github.com/1weiho/open-slide) ⭐ | Developer Tools | `ai` `react` `cli` `automation` `presentation` | A React-based slide framework designed for AI coding agents to generate, iterate, and present slide decks using natural language prompts. | 6667 | 2026-08-23 |
+| [armur-ai/pentest-swarm-ai](https://github.com/armur-ai/pentest-swarm-ai) ⭐ | Security Tooling | `cybersecurity` `ai-agents` `offensive-security` `pentesting` `automation` | An autonomous, swarm-based penetration testing framework that uses stigmergic coordination to orchestrate AI agents for recon, exploitation, and reporting. | 2241 | 2026-08-23 |
+| [cosmicstack-labs/mercury-agent-skills](https://github.com/cosmicstack-labs/mercury-agent-skills) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `developer-tools` `llm` `productivity` | A comprehensive, vendor-neutral registry of 'SKILL.md' playbooks designed to extend the capabilities of various AI agents and CLI tools. | 384 | 2026-08-23 |
+| [dronesploit/dronesploit](https://github.com/dronesploit/dronesploit) ⭐ | security-tooling | `pentesting` `drones` `cli` `security` `framework` | A Metasploit-style CLI framework designed for pentesting and security research on light commercial drones. | 2017 | 2026-08-23 |
+| [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) ⭐ | AI/LLM Tooling | `claude` `ai-agents` `mcp` `automation` `web-development` | A comprehensive library of 103 modular 'Claude Skills' designed to standardize agent behavior across the web development lifecycle, from branding and SEO to dev-ops and QA. | 596 | 2026-08-23 |
+| [alexandrosgounis/pdfx](https://github.com/alexandrosgounis/pdfx) ⭐ | Developer Tools | `pdf` `electron` `productivity` `document-management` `typescript` | A desktop application built with Electron that allows users to bundle multiple PDF documents into a single, backwards-compatible PDF file using a custom JSON manifest. | 892 | 2026-08-23 |
 | [0xk3vin/megamemory](https://github.com/0xk3vin/megamemory) ⭐ | AI/LLM Tooling | `mcp` `ai-agents` `knowledge-graph` `sqlite` `developer-tools` | An MCP server that provides persistent, graph-based memory for coding agents by storing project concepts and decisions in a local SQLite database. | 354 | 2026-08-23 |
 | [raiyanyahya/how-to-train-your-gpt](https://github.com/raiyanyahya/how-to-train-your-gpt) ⭐ | AI/LLM Tooling | `llm` `pytorch` `transformers` `deep-learning` `education` | An exceptionally well-documented, step-by-step educational guide to building a modern LLM from scratch using PyTorch, focusing on LLaMA-style architecture. | 2783 | 2026-08-23 |
 | [formsmith746/sketchforge-3d](https://github.com/formsmith746/sketchforge-3d) ⭐ | 3D Design / Engineering | `cad` `3d-printing` `self-hosted` `docker` `local-first` | A local-first, browser-based 3D CAD editor that supports STL/STEP workflows without cloud lock-in, offering both a standalone desktop app and a Docker-based self-hosting option. | 873 | 2026-08-23 |
