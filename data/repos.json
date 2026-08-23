@@ -1872,5 +1872,289 @@
       "sqlite",
       "typescript"
     ]
+  },
+  {
+    "id": "github:alexandrosgounis/pdfx",
+    "url": "https://github.com/alexandrosgounis/pdfx",
+    "title": "alexandrosgounis/pdfx",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091429622072139789",
+    "fetched_at": "2026-08-23T08:33:06.365926Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A desktop application built with Electron that allows users to bundle multiple PDF documents into a single, backwards-compatible PDF file using a custom JSON manifest.",
+    "category": "Developer Tools",
+    "tags": [
+      "pdf",
+      "electron",
+      "productivity",
+      "document-management",
+      "typescript"
+    ],
+    "risk_notes": "Distributed as a pre-built binary or via source code (yarn). Requires local filesystem access to read/write PDFs. Optional AI features require user-provided API keys (Google, Anthropic, or OpenAI) stored in a local .dev.vars file. The project is actively maintained and uses standard web technologies.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-06-24T12:34:36Z",
+      "homepage": "https://pdfx.zip"
+    },
+    "added_at": "2026-08-23T08:33:12.403274Z",
+    "stars": 892,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-16T23:41:02Z",
+    "license": "MIT",
+    "topics": [
+      "electron",
+      "electron-app",
+      "electronjs",
+      "liquid-glass",
+      "macos-app",
+      "open-source",
+      "pdf",
+      "pdf-generator",
+      "pdf-parser",
+      "pdf-processing",
+      "pdf-tools",
+      "pdf-viewer",
+      "react",
+      "spec",
+      "typescript"
+    ]
+  },
+  {
+    "id": "github:rampstackco/claude-skills",
+    "url": "https://github.com/rampstackco/claude-skills",
+    "title": "rampstackco/claude-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091413827975876693",
+    "fetched_at": "2026-08-23T08:33:06.366091Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive library of 103 modular 'Claude Skills' designed to standardize agent behavior across the web development lifecycle, from branding and SEO to dev-ops and QA.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "ai-agents",
+      "mcp",
+      "automation",
+      "web-development"
+    ],
+    "risk_notes": "Installed via Claude Code CLI using '/plugin install'. These skills act as system prompts/instructions for Claude; they do not execute arbitrary code on your machine directly, but they can guide Claude to perform actions on your filesystem or via connected MCP servers (like Ahrefs). Review the skill definitions before execution if you are concerned about the agent's behavior.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-04-28T22:33:51Z",
+      "homepage": "https://rampstack.co"
+    },
+    "added_at": "2026-08-23T08:33:19.414628Z",
+    "stars": 596,
+    "language": "Python",
+    "pushed_at": "2026-08-10T19:43:31Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "mcp",
+      "product-management",
+      "rampstack",
+      "seo",
+      "skills-collection",
+      "web-design",
+      "web-development"
+    ]
+  },
+  {
+    "id": "github:dronesploit/dronesploit",
+    "url": "https://github.com/dronesploit/dronesploit",
+    "title": "dronesploit/dronesploit",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091398548952584599",
+    "fetched_at": "2026-08-23T08:33:06.366212Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Metasploit-style CLI framework designed for pentesting and security research on light commercial drones.",
+    "category": "security-tooling",
+    "tags": [
+      "pentesting",
+      "drones",
+      "cli",
+      "security",
+      "framework"
+    ],
+    "risk_notes": "Installed via pip. Requires external dependencies like aircrack-ng to function. As a pentesting framework, it interacts directly with network interfaces and wireless protocols, requiring elevated privileges to perform packet injection or network manipulation. Actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2019-09-08T08:59:37Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-23T08:33:25.866168Z",
+    "stars": 2017,
+    "language": "Python",
+    "pushed_at": "2024-11-23T13:13:00Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "cli",
+      "console",
+      "drone",
+      "drones",
+      "drones-security",
+      "fpv-drones",
+      "hacking",
+      "pentest-tools",
+      "python",
+      "security-tools",
+      "tinyscript"
+    ]
+  },
+  {
+    "id": "github:cosmicstack-labs/mercury-agent-skills",
+    "url": "https://github.com/cosmicstack-labs/mercury-agent-skills",
+    "title": "cosmicstack-labs/mercury-agent-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091384004654027132",
+    "fetched_at": "2026-08-23T08:33:06.366333Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, vendor-neutral registry of 'SKILL.md' playbooks designed to extend the capabilities of various AI agents and CLI tools.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "developer-tools",
+      "llm",
+      "productivity"
+    ],
+    "risk_notes": "The repository provides text-based skill definitions (SKILL.md) that are interpreted by third-party AI agents. The primary risk is the execution of arbitrary instructions by your chosen agent; users should review the content of any skill before execution. Installation is typically handled via the Mercury CLI or by manually placing files in local agent directories (~/.mercury/skills/). No root access or system-wide sudo commands are required for the registry itself.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-05-09T08:16:53Z",
+      "homepage": "https://skills.mercuryagent.sh"
+    },
+    "added_at": "2026-08-23T08:33:32.699374Z",
+    "stars": 384,
+    "language": "JavaScript",
+    "pushed_at": "2026-07-28T09:10:30Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "aiskills",
+      "skills"
+    ]
+  },
+  {
+    "id": "github:armur-ai/pentest-swarm-ai",
+    "url": "https://github.com/armur-ai/pentest-swarm-ai",
+    "title": "armur-ai/pentest-swarm-ai",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091369951235825917",
+    "fetched_at": "2026-08-23T08:33:06.366449Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An autonomous, swarm-based penetration testing framework that uses stigmergic coordination to orchestrate AI agents for recon, exploitation, and reporting.",
+    "category": "Security Tooling",
+    "tags": [
+      "cybersecurity",
+      "ai-agents",
+      "offensive-security",
+      "pentesting",
+      "automation"
+    ],
+    "risk_notes": "High risk; this tool is designed to perform active exploitation against network targets. It requires API keys (Claude/OpenAI) and executes native security binaries (nmap, sqlmap). It should be run in a strictly isolated environment (e.g., a dedicated container or VM) to prevent accidental damage to production systems or unauthorized network activity. It is actively maintained and built in Go.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2024-03-26T06:40:36Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-23T08:33:39.446694Z",
+    "stars": 2241,
+    "language": "Go",
+    "pushed_at": "2026-08-22T12:38:27Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai-agents",
+      "bug-bounty",
+      "cybersecurity",
+      "offensive-security",
+      "penetration-testing",
+      "penetration-testing-framework",
+      "penetration-testing-tools"
+    ]
+  },
+  {
+    "id": "github:1weiho/open-slide",
+    "url": "https://github.com/1weiho/open-slide",
+    "title": "1weiho/open-slide",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091356427692409154",
+    "fetched_at": "2026-08-23T08:33:06.366576Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A React-based slide framework designed for AI coding agents to generate, iterate, and present slide decks using natural language prompts.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai",
+      "react",
+      "cli",
+      "automation",
+      "presentation"
+    ],
+    "risk_notes": "Installed via npx, which executes remote code. The project is a standard TypeScript/React monorepo using pnpm. It requires local filesystem access to generate and edit slide files. It is designed to integrate with AI agents (like Claude Code), which may require providing your own API keys to those agents to function as intended.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 83,
+      "created_at": "2026-04-26T10:04:20Z",
+      "homepage": "https://open-slide.dev"
+    },
+    "added_at": "2026-08-23T08:33:45.832072Z",
+    "stars": 6667,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-22T13:44:11Z",
+    "license": "MIT",
+    "topics": [
+      "agent",
+      "react",
+      "slides"
+    ]
+  },
+  {
+    "id": "github:robbyant/lingbot-vision",
+    "url": "https://github.com/robbyant/lingbot-vision",
+    "title": "robbyant/lingbot-vision",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091343324145672654",
+    "fetched_at": "2026-08-23T08:33:06.366689Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of self-supervised Vision Transformer backbones optimized for dense spatial perception tasks like depth estimation and semantic segmentation.",
+    "category": "AI/Computer Vision",
+    "tags": [
+      "computer-vision",
+      "pytorch",
+      "transformers",
+      "machine-learning",
+      "spatial-perception"
+    ],
+    "risk_notes": "Standard Python/PyTorch installation via pip. Requires a CUDA-capable GPU for practical inference. Downloads model weights from Hugging Face on first execution, which involves external network requests. No known security vulnerabilities, but requires standard dependency management practices.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-07-06T14:09:42Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-23T08:33:52.282227Z",
+    "stars": 920,
+    "language": "Python",
+    "pushed_at": "2026-07-08T11:27:57Z",
+    "license": "Apache-2.0",
+    "topics": []
   }
 ]
