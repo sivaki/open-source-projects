@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 50 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 56 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [denislupookov/altersend](https://github.com/denislupookov/altersend) ⭐ | Privacy & Utility | `p2p` `privacy` `file-transfer` `encryption` `cross-platform` | A cross-platform, P2P file transfer utility that uses Hyperswarm DHT for direct, end-to-end encrypted transfers without cloud storage. | 1414 | 2026-08-23 |
+| [cmu-perceptual-computing-lab/openpose](https://github.com/cmu-perceptual-computing-lab/openpose) ⭐ | Computer Vision | `computer-vision` `pose-estimation` `deep-learning` `cpp` `ai` | OpenPose is a industry-standard, real-time multi-person system for detecting human body, hand, facial, and foot keypoints. | 34385 | 2026-08-23 |
+| [open-gsd/gsd-pi](https://github.com/open-gsd/gsd-pi) ⭐ | Developer Tools | `cli` `ai-agent` `automation` `git` `workflow` | A sophisticated terminal-based coding agent that integrates Git worktrees, project planning, and multi-LLM routing to automate software development lifecycles. | 1128 | 2026-08-23 |
+| [plugin87/ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills) ⭐ | AI/LLM Tooling | `ai-agents` `claude` `design-systems` `accessibility` `ux-ui` | A comprehensive instruction and knowledge kit designed to turn Claude into a senior design architect, providing structured design tokens, accessibility auditing, and component engineering for various frameworks. | 538 | 2026-08-23 |
+| [nvidia/audio2face-3d](https://github.com/nvidia/audio2face-3d) ⭐ | AI/LLM Tooling | `ai` `3d-animation` `nvidia` `computer-vision` `sdk` | A central hub for NVIDIA's Audio2Face-3D technology, providing SDKs, training frameworks, and plugins for integrating high-fidelity AI-driven facial animation into 3D pipelines. | 408 | 2026-08-23 |
+| [microsoft/ai-engineering-coach](https://github.com/microsoft/ai-engineering-coach) ⭐ | AI/LLM Tooling | `ai` `developer-tools` `vscode` `productivity` `analytics` | A VS Code extension and GitHub Copilot canvas tool that analyzes local AI coding session logs to provide insights, track performance, and identify anti-patterns in AI-assisted development. | 3632 | 2026-08-23 |
 | [robbyant/lingbot-vision](https://github.com/robbyant/lingbot-vision) ⭐ | AI/Computer Vision | `computer-vision` `pytorch` `transformers` `machine-learning` `spatial-perception` | A collection of self-supervised Vision Transformer backbones optimized for dense spatial perception tasks like depth estimation and semantic segmentation. | 920 | 2026-08-23 |
 | [1weiho/open-slide](https://github.com/1weiho/open-slide) ⭐ | Developer Tools | `ai` `react` `cli` `automation` `presentation` | A React-based slide framework designed for AI coding agents to generate, iterate, and present slide decks using natural language prompts. | 6667 | 2026-08-23 |
 | [armur-ai/pentest-swarm-ai](https://github.com/armur-ai/pentest-swarm-ai) ⭐ | Security Tooling | `cybersecurity` `ai-agents` `offensive-security` `pentesting` `automation` | An autonomous, swarm-based penetration testing framework that uses stigmergic coordination to orchestrate AI agents for recon, exploitation, and reporting. | 2241 | 2026-08-23 |
