@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 62 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 66 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [917dhj/deeppapernote](https://github.com/917dhj/deeppapernote) ⭐ | AI/LLM Tooling | `obsidian` `research` `llm-agents` `automation` `academic-tools` | An agent-based skill for automating the extraction of academic papers into structured, Obsidian-compatible research notes. | 692 | 2026-08-24 |
+| [piratuks/invoice-builder](https://github.com/piratuks/invoice-builder) ⭐ | productivity | `invoicing` `desktop` `privacy` `finance` `electron` | An offline-first, Electron-based desktop application for managing invoices and quotes with support for UBL/Peppol e-invoicing standards. | 556 | 2026-08-24 |
+| [gimanh/taskview-community](https://github.com/gimanh/taskview-community) ⭐ | self-hosting | `self-hosted` `productivity` `kanban` `mcp` `project-management` | TaskView is a self-hosted, source-available project management platform designed for software teams, featuring Kanban boards, sprint planning, and AI-ready integrations via MCP. | 490 | 2026-08-24 |
+| [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) ⭐ | educational | `computer-science` `learning` `reference` `development` `curated-list` | A comprehensive, community-curated list of essential technical resources, concepts, and reading materials for software developers. | 100287 | 2026-08-24 |
 | [aiming-lab/autoresearchclaw](https://github.com/aiming-lab/autoresearchclaw) ⭐ | AI/LLM Tooling | `llm-agents` `research-automation` `scientific-discovery` `multi-agent` `developer-tools` | An advanced autonomous research agent framework that orchestrates multi-agent workflows to generate scientific papers, featuring human-in-the-loop controls and domain-specific execution agents. | 14118 | 2026-08-24 |
 | [itsfatduck/optimizerduck](https://github.com/itsfatduck/optimizerduck) ⭐ | System Utilities | `windows` `optimization` `privacy` `debloat` `csharp` | A popular, open-source Windows utility designed to improve system performance and privacy by automating common registry and system setting tweaks. | 8577 | 2026-08-24 |
 | [nasa-gibs/worldview](https://github.com/nasa-gibs/worldview) ⭐ | data-visualization | `nasa` `satellite-imagery` `gis` `web-mapping` `earth-science` | An interactive web-based interface for browsing global, full-resolution satellite imagery provided by NASA's Global Imagery Browse Services (GIBS). | 1282 | 2026-08-24 |
