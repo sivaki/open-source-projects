@@ -2402,5 +2402,249 @@
       "privacy",
       "privacy-tools"
     ]
+  },
+  {
+    "id": "github:plannotator/effective-html",
+    "url": "https://github.com/plannotator/effective-html",
+    "title": "plannotator/effective-html",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091682614851588461",
+    "fetched_at": "2026-08-24T01:26:04.203411Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A collection of agent skills designed to help LLMs generate high-quality, self-contained HTML artifacts like wireframes, prototypes, and diagrams.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "agent-skills",
+      "llm",
+      "prototyping",
+      "html",
+      "developer-tools"
+    ],
+    "risk_notes": "Installed via npx or specific agent plugins (Claude Code/Codex). It functions as a set of prompt-engineering templates and skill definitions for AI agents. It does not require root access or persistent background processes, but it does interact with the agent's context window and potentially local file system depending on the agent's capabilities.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-06-09T23:24:51Z",
+      "homepage": "https://plannotator.ai"
+    },
+    "added_at": "2026-08-24T01:26:10.533729Z",
+    "stars": 1708,
+    "language": "HTML",
+    "pushed_at": "2026-08-03T23:19:04Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "html-artifacts",
+      "html-prototype",
+      "html-wireframe",
+      "prototyping",
+      "skills"
+    ]
+  },
+  {
+    "id": "github:ndolestudio/httpsms",
+    "url": "https://github.com/ndolestudio/httpsms",
+    "title": "ndolestudio/httpsms",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091661867215159365",
+    "fetched_at": "2026-08-24T01:26:04.203782Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A robust SMS gateway solution that turns an Android device into an API-accessible SMS server, supporting webhooks and end-to-end encryption.",
+    "category": "Automation",
+    "tags": [
+      "sms",
+      "android",
+      "api",
+      "self-hosting",
+      "automation",
+      "go"
+    ],
+    "risk_notes": "Requires self-hosting via Docker with dependencies on Firebase, SMTP, and Cloudflare Turnstile. The Android app requires SMS permissions. The system handles sensitive communication data, so secure configuration of the API and webhook endpoints is critical.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2022-05-29T14:02:55Z",
+      "homepage": "https://httpsms.com"
+    },
+    "added_at": "2026-08-24T01:26:16.965943Z",
+    "stars": 4055,
+    "language": "Go",
+    "pushed_at": "2026-08-23T10:33:46Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "android-sms",
+      "android-sms-sender",
+      "httpsms",
+      "sms",
+      "sms-api",
+      "sms-gateway",
+      "sms-manager",
+      "sms-manager-api"
+    ]
+  },
+  {
+    "id": "github:pixlcore/xyops",
+    "url": "https://github.com/pixlcore/xyops",
+    "title": "pixlcore/xyops",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091638501112451082",
+    "fetched_at": "2026-08-24T01:26:04.204152Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, self-hosted workflow automation and server monitoring platform that integrates job scheduling, incident response, and real-time system observability.",
+    "category": "automation",
+    "tags": [
+      "automation",
+      "monitoring",
+      "devops",
+      "self-hosted",
+      "workflow"
+    ],
+    "risk_notes": "Requires Node.js environment. As a system-level automation and monitoring tool, it inherently requires broad access to the host filesystem, network, and process management. It is designed for self-hosting, which necessitates careful configuration of its secret management and network exposure. The project is actively maintained with clear documentation on security and trust.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 38,
+      "created_at": "2025-12-29T16:57:27Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-24T01:26:23.517789Z",
+    "stars": 4870,
+    "language": "JavaScript",
+    "pushed_at": "2026-08-22T18:39:36Z",
+    "license": "BSD-3-Clause",
+    "topics": []
+  },
+  {
+    "id": "github:nasa-gibs/worldview",
+    "url": "https://github.com/nasa-gibs/worldview",
+    "title": "nasa-gibs/worldview",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091615835903168782",
+    "fetched_at": "2026-08-24T01:26:04.204458Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An interactive web-based interface for browsing global, full-resolution satellite imagery provided by NASA's Global Imagery Browse Services (GIBS).",
+    "category": "data-visualization",
+    "tags": [
+      "nasa",
+      "satellite-imagery",
+      "gis",
+      "web-mapping",
+      "earth-science"
+    ],
+    "risk_notes": "Standard Node.js project installed via npm. Requires network access to fetch imagery tiles from NASA's public GIBS API. No sensitive local credentials or root access required. Maintained by NASA, ensuring high reliability and security standards.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 16,
+      "created_at": "2014-04-22T12:37:53Z",
+      "homepage": "https://worldview.earthdata.nasa.gov/"
+    },
+    "added_at": "2026-08-24T01:26:29.892589Z",
+    "stars": 1282,
+    "language": "JavaScript",
+    "pushed_at": "2026-08-21T16:27:25Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "data-visualization",
+      "earth-science",
+      "hacktoberfest",
+      "nasa",
+      "nasa-gibs",
+      "satellite-imagery",
+      "web-mapping"
+    ]
+  },
+  {
+    "id": "github:itsfatduck/optimizerduck",
+    "url": "https://github.com/itsfatduck/optimizerduck",
+    "title": "itsfatduck/optimizerduck",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091589936755400941",
+    "fetched_at": "2026-08-24T01:26:04.204757Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A popular, open-source Windows utility designed to improve system performance and privacy by automating common registry and system setting tweaks.",
+    "category": "System Utilities",
+    "tags": [
+      "windows",
+      "optimization",
+      "privacy",
+      "debloat",
+      "csharp"
+    ],
+    "risk_notes": "Distributed as a standalone .exe executable. Requires administrative privileges to modify system settings and registry keys. As with any system-level tweaker, it carries the risk of breaking OS functionality if used improperly; the project explicitly advises creating a system restore point before use.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 15,
+      "created_at": "2025-10-31T10:44:47Z",
+      "homepage": "https://optimizerduck.vercel.app/"
+    },
+    "added_at": "2026-08-24T01:26:36.202953Z",
+    "stars": 8577,
+    "language": "C#",
+    "pushed_at": "2026-08-22T13:51:33Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "csharp",
+      "debloat",
+      "dotnet",
+      "gaming",
+      "open-source",
+      "optimization",
+      "optimizer",
+      "optimizerduck",
+      "performance",
+      "privacy",
+      "tweaker",
+      "tweaks",
+      "windows",
+      "winui"
+    ]
+  },
+  {
+    "id": "github:aiming-lab/autoresearchclaw",
+    "url": "https://github.com/aiming-lab/autoresearchclaw",
+    "title": "aiming-lab/autoresearchclaw",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091565537004273718",
+    "fetched_at": "2026-08-24T01:26:04.205073Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An advanced autonomous research agent framework that orchestrates multi-agent workflows to generate scientific papers, featuring human-in-the-loop controls and domain-specific execution agents.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm-agents",
+      "research-automation",
+      "scientific-discovery",
+      "multi-agent",
+      "developer-tools"
+    ],
+    "risk_notes": "Requires significant API key configuration (likely OpenAI/Anthropic/HuggingFace) to function. The framework executes code in sandboxed environments (Docker), which is a good security practice, but users should be cautious of the 'self-evolving' nature of the agents and ensure strict resource limits are set on the Docker containers to prevent runaway costs or unintended system access.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-03-15T03:38:49Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-24T01:26:42.876577Z",
+    "stars": 14118,
+    "language": "Python",
+    "pushed_at": "2026-08-19T03:35:13Z",
+    "license": "MIT",
+    "topics": [
+      "autonomous-research",
+      "citation-verification",
+      "llm-agents",
+      "metaclaw",
+      "multi-agent-debate",
+      "openclaw",
+      "paper-generation",
+      "scientific-discovery",
+      "self-evolving"
+    ]
   }
 ]
