@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 56 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 62 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [aiming-lab/autoresearchclaw](https://github.com/aiming-lab/autoresearchclaw) ⭐ | AI/LLM Tooling | `llm-agents` `research-automation` `scientific-discovery` `multi-agent` `developer-tools` | An advanced autonomous research agent framework that orchestrates multi-agent workflows to generate scientific papers, featuring human-in-the-loop controls and domain-specific execution agents. | 14118 | 2026-08-24 |
+| [itsfatduck/optimizerduck](https://github.com/itsfatduck/optimizerduck) ⭐ | System Utilities | `windows` `optimization` `privacy` `debloat` `csharp` | A popular, open-source Windows utility designed to improve system performance and privacy by automating common registry and system setting tweaks. | 8577 | 2026-08-24 |
+| [nasa-gibs/worldview](https://github.com/nasa-gibs/worldview) ⭐ | data-visualization | `nasa` `satellite-imagery` `gis` `web-mapping` `earth-science` | An interactive web-based interface for browsing global, full-resolution satellite imagery provided by NASA's Global Imagery Browse Services (GIBS). | 1282 | 2026-08-24 |
+| [pixlcore/xyops](https://github.com/pixlcore/xyops) ⭐ | automation | `automation` `monitoring` `devops` `self-hosted` `workflow` | A comprehensive, self-hosted workflow automation and server monitoring platform that integrates job scheduling, incident response, and real-time system observability. | 4870 | 2026-08-24 |
+| [ndolestudio/httpsms](https://github.com/ndolestudio/httpsms) ⭐ | Automation | `sms` `android` `api` `self-hosting` `automation` `go` | A robust SMS gateway solution that turns an Android device into an API-accessible SMS server, supporting webhooks and end-to-end encryption. | 4055 | 2026-08-24 |
+| [plannotator/effective-html](https://github.com/plannotator/effective-html) ⭐ | AI/LLM Tooling | `agent-skills` `llm` `prototyping` `html` `developer-tools` | A collection of agent skills designed to help LLMs generate high-quality, self-contained HTML artifacts like wireframes, prototypes, and diagrams. | 1708 | 2026-08-24 |
 | [denislupookov/altersend](https://github.com/denislupookov/altersend) ⭐ | Privacy & Utility | `p2p` `privacy` `file-transfer` `encryption` `cross-platform` | A cross-platform, P2P file transfer utility that uses Hyperswarm DHT for direct, end-to-end encrypted transfers without cloud storage. | 1414 | 2026-08-23 |
 | [cmu-perceptual-computing-lab/openpose](https://github.com/cmu-perceptual-computing-lab/openpose) ⭐ | Computer Vision | `computer-vision` `pose-estimation` `deep-learning` `cpp` `ai` | OpenPose is a industry-standard, real-time multi-person system for detecting human body, hand, facial, and foot keypoints. | 34385 | 2026-08-23 |
 | [open-gsd/gsd-pi](https://github.com/open-gsd/gsd-pi) ⭐ | Developer Tools | `cli` `ai-agent` `automation` `git` `workflow` | A sophisticated terminal-based coding agent that integrates Git worktrees, project planning, and multi-LLM routing to automate software development lifecycles. | 1128 | 2026-08-23 |
