@@ -2646,5 +2646,162 @@
       "scientific-discovery",
       "self-evolving"
     ]
+  },
+  {
+    "id": "github:mtdvio/every-programmer-should-know",
+    "url": "https://github.com/mtdvio/every-programmer-should-know",
+    "title": "mtdvio/every-programmer-should-know",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091783631865856033",
+    "fetched_at": "2026-08-24T08:51:19.879700Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, community-curated list of essential technical resources, concepts, and reading materials for software developers.",
+    "category": "educational",
+    "tags": [
+      "computer-science",
+      "learning",
+      "reference",
+      "development",
+      "curated-list"
+    ],
+    "risk_notes": "This is a documentation-only repository. There is no code to execute, install, or run, and it requires no system permissions or API keys. It is safe to browse.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 26,
+      "created_at": "2017-08-24T13:18:26Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-24T08:51:25.982177Z",
+    "stars": 100287,
+    "language": null,
+    "pushed_at": "2025-12-29T19:37:02Z",
+    "license": "CC-BY-4.0",
+    "topics": [
+      "cc-by",
+      "collection",
+      "computer-science",
+      "educational",
+      "novice"
+    ]
+  },
+  {
+    "id": "github:gimanh/taskview-community",
+    "url": "https://github.com/gimanh/taskview-community",
+    "title": "gimanh/taskview-community",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091755620194025919",
+    "fetched_at": "2026-08-24T08:51:19.879871Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "TaskView is a self-hosted, source-available project management platform designed for software teams, featuring Kanban boards, sprint planning, and AI-ready integrations via MCP.",
+    "category": "self-hosting",
+    "tags": [
+      "self-hosted",
+      "productivity",
+      "kanban",
+      "mcp",
+      "project-management"
+    ],
+    "risk_notes": "Distributed as a Docker container, which is the standard and secure way to self-host. Requires persistent storage for database and file assets. As a central management tool, it will hold sensitive project data and requires careful network exposure (e.g., behind a reverse proxy with authentication). The project is actively maintained with frequent releases.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-12-29T21:09:59Z",
+      "homepage": "https://taskview.tech/"
+    },
+    "added_at": "2026-08-24T08:51:32.601705Z",
+    "stars": 490,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-23T15:56:19Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "graphview",
+      "kanban-board",
+      "nodejs",
+      "productivity",
+      "project-management",
+      "self-hosted",
+      "task",
+      "task-management",
+      "task-manager",
+      "todoapp"
+    ]
+  },
+  {
+    "id": "github:piratuks/invoice-builder",
+    "url": "https://github.com/piratuks/invoice-builder",
+    "title": "piratuks/invoice-builder",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091729720303874220",
+    "fetched_at": "2026-08-24T08:51:19.880057Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An offline-first, Electron-based desktop application for managing invoices and quotes with support for UBL/Peppol e-invoicing standards.",
+    "category": "productivity",
+    "tags": [
+      "invoicing",
+      "desktop",
+      "privacy",
+      "finance",
+      "electron"
+    ],
+    "risk_notes": "Distributed as standard OS installers (.deb, .dmg, .exe) or Docker containers. As an Electron app, it runs with user-level permissions and requires read/write access to the local filesystem for database storage. It is offline-first, minimizing network exposure, though it checks for updates via GitHub releases.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 23,
+      "created_at": "2025-11-13T15:01:53Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-24T08:51:39.017110Z",
+    "stars": 556,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-17T07:49:16Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:917dhj/deeppapernote",
+    "url": "https://github.com/917dhj/deeppapernote",
+    "title": "917dhj/deeppapernote",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2091705334507229633",
+    "fetched_at": "2026-08-24T08:51:19.880187Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An agent-based skill for automating the extraction of academic papers into structured, Obsidian-compatible research notes.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "obsidian",
+      "research",
+      "llm-agents",
+      "automation",
+      "academic-tools"
+    ],
+    "risk_notes": "Installed via npx (npm) and pip (PyMuPDF). Requires access to local files (PDFs) and likely requires API keys for the underlying LLM agents (Claude/Gemini/etc.) to function. The project is actively maintained with recent releases.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-03-21T13:50:42Z",
+      "homepage": "https://917dhj.github.io/DeepPaperNote/"
+    },
+    "added_at": "2026-08-24T08:51:45.557015Z",
+    "stars": 692,
+    "language": "Python",
+    "pushed_at": "2026-08-22T03:09:41Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "copilot",
+      "cursor",
+      "gemini-cli",
+      "markdown",
+      "obsidian",
+      "paper-reading",
+      "research-notes",
+      "zotero"
+    ]
   }
 ]
