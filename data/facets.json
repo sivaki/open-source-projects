@@ -34343,5 +34343,78 @@
       "p2p file transfer",
       "encrypted file sharing"
     ]
+  },
+  "github:plannotator/effective-html": {
+    "capability_summary": "A collection of agent skills that enables LLMs to generate high-quality, self-contained HTML artifacts like wireframes and diagrams.",
+    "problem_solved": "LLMs struggling to produce functional or well-structured HTML prototypes.",
+    "use_cases": [
+      "html wireframing",
+      "llm prototyping",
+      "agent skill development"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skills",
+      "html-artifact-generator"
+    ]
+  },
+  "github:ndolestudio/httpsms": {
+    "capability_summary": "An SMS gateway that turns an Android device into an API-accessible server for sending and receiving messages.",
+    "problem_solved": "Need for a programmable SMS gateway without expensive third-party services.",
+    "use_cases": [
+      "sms automation",
+      "webhook integration",
+      "self-hosted sms gateway"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "android",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "sms-gateway",
+      "android-sms-api"
+    ]
+  },
+  "github:itsfatduck/optimizerduck": {
+    "capability_summary": "A Windows utility that automates system tweaks to improve performance, privacy, and debloat the OS.",
+    "problem_solved": "Windows system performance degradation and privacy concerns.",
+    "use_cases": [
+      "windows optimization",
+      "privacy hardening",
+      "system debloating"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "windows-tweaker",
+      "debloater"
+    ]
+  },
+  "github:aiming-lab/autoresearchclaw": {
+    "capability_summary": "An autonomous multi-agent framework designed to orchestrate research workflows and generate scientific papers.",
+    "problem_solved": "Automating complex scientific research and paper generation tasks.",
+    "use_cases": [
+      "research automation",
+      "multi-agent debate",
+      "scientific paper generation"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm-research-agent",
+      "autonomous-researcher"
+    ]
   }
 }
