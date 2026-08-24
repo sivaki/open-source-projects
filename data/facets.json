@@ -34416,5 +34416,89 @@
       "llm-research-agent",
       "autonomous-researcher"
     ]
+  },
+  "github:mtdvio/every-programmer-should-know": {
+    "capability_summary": "A curated collection of essential technical knowledge and resources for software developers. It serves as a comprehensive reference guide for learning and professional growth.",
+    "problem_solved": "Finding high-quality learning materials and foundational knowledge for software engineering.",
+    "use_cases": [
+      "skill development",
+      "technical reference",
+      "interview preparation",
+      "curriculum building"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "developer-roadmap"
+    ]
+  },
+  "github:gimanh/taskview-community": {
+    "capability_summary": "A self-hosted project management platform for software teams featuring Kanban boards and AI-ready integrations. It is designed for teams needing private, customizable task tracking.",
+    "problem_solved": "Managing complex software projects with a self-hosted, privacy-focused tool.",
+    "use_cases": [
+      "kanban boards",
+      "sprint planning",
+      "task management",
+      "ai-integrated workflows"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "jira-alternative",
+      "trello-alternative"
+    ]
+  },
+  "github:piratuks/invoice-builder": {
+    "capability_summary": "An offline-first desktop application for creating and managing invoices and quotes. It supports professional e-invoicing standards like UBL and Peppol.",
+    "problem_solved": "Generating compliant invoices locally without relying on cloud-based subscription services.",
+    "use_cases": [
+      "invoice generation",
+      "quote management",
+      "ubl-peppol compliance",
+      "financial record keeping"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "invoicing-software",
+      "accounting-tool"
+    ]
+  },
+  "github:917dhj/deeppapernote": {
+    "capability_summary": "An AI-agent tool that automates the extraction of information from academic papers into structured Obsidian notes. It is designed for researchers and academics.",
+    "problem_solved": "Manually summarizing and organizing academic research papers into a knowledge base.",
+    "use_cases": [
+      "academic research",
+      "note taking",
+      "llm automation",
+      "literature review"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "research-assistant",
+      "obsidian-plugin"
+    ]
   }
 }
