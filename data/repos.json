@@ -2803,5 +2803,43 @@
       "research-notes",
       "zotero"
     ]
+  },
+  {
+    "id": "github:truefoundry/trueforge",
+    "url": "https://github.com/truefoundry/trueforge",
+    "title": "truefoundry/trueforge",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2091998031491305720",
+    "fetched_at": "2026-08-25T01:23:22.659636Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "TrueForge is a robust, open-source agent runtime harness that provides a standardized execution layer for LLM agents, featuring support for MCP tools, sandboxed code execution, and session management.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "llm",
+      "mcp",
+      "automation",
+      "developer-tools"
+    ],
+    "risk_notes": "Installs via npm/npx, which is standard for Node.js projects. Requires external API keys for LLM providers and potentially sensitive credentials for MCP servers. Supports local SQLite or production Postgres/Redis deployments. Sandboxing (e.g., Daytona) is used for isolated execution, which is a positive security practice, but users should be cautious when granting agents access to local files or sensitive network resources.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 53,
+      "created_at": "2026-07-23T09:16:13Z",
+      "homepage": "https://trueforge.dev"
+    },
+    "added_at": "2026-08-25T01:23:32.728569Z",
+    "stars": 4069,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-24T20:15:16Z",
+    "license": "MIT",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "harness",
+      "harness-engineering"
+    ]
   }
 ]
