@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 66 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 67 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [truefoundry/trueforge](https://github.com/truefoundry/trueforge) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `mcp` `automation` `developer-tools` | TrueForge is a robust, open-source agent runtime harness that provides a standardized execution layer for LLM agents, featuring support for MCP tools, sandboxed code execution, and session management. | 4069 | 2026-08-25 |
 | [917dhj/deeppapernote](https://github.com/917dhj/deeppapernote) ⭐ | AI/LLM Tooling | `obsidian` `research` `llm-agents` `automation` `academic-tools` | An agent-based skill for automating the extraction of academic papers into structured, Obsidian-compatible research notes. | 692 | 2026-08-24 |
 | [piratuks/invoice-builder](https://github.com/piratuks/invoice-builder) ⭐ | productivity | `invoicing` `desktop` `privacy` `finance` `electron` | An offline-first, Electron-based desktop application for managing invoices and quotes with support for UBL/Peppol e-invoicing standards. | 556 | 2026-08-24 |
 | [gimanh/taskview-community](https://github.com/gimanh/taskview-community) ⭐ | self-hosting | `self-hosted` `productivity` `kanban` `mcp` `project-management` | TaskView is a self-hosted, source-available project management platform designed for software teams, featuring Kanban boards, sprint planning, and AI-ready integrations via MCP. | 490 | 2026-08-24 |
