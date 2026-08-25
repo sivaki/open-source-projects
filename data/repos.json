@@ -2841,5 +2841,56 @@
       "harness",
       "harness-engineering"
     ]
+  },
+  {
+    "id": "github:katanemo/plano",
+    "url": "https://github.com/katanemo/plano",
+    "title": "katanemo/plano",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2092171298034352621",
+    "fetched_at": "2026-08-25T08:46:35.314191Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Plano is an AI-native proxy server and data plane built on Envoy that provides centralized routing, observability, and guardrails for agentic applications.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "proxy",
+      "envoy",
+      "agentic",
+      "observability",
+      "gateway"
+    ],
+    "risk_notes": "Distributed primarily as a Docker container, which is a standard and secure deployment pattern. It acts as a middleware proxy, meaning it will handle sensitive API keys for LLM providers and intercept all traffic between your agents and the LLM endpoints. Requires careful configuration of environment variables for API keys and network access control.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 138,
+      "created_at": "2024-07-09T20:25:56Z",
+      "homepage": "https://planoai.dev"
+    },
+    "added_at": "2026-08-25T08:46:44.399225Z",
+    "stars": 7014,
+    "language": "Rust",
+    "pushed_at": "2026-08-19T19:29:08Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai-gateway",
+      "ai-gateway-support",
+      "envoy",
+      "envoyproxy",
+      "gateway",
+      "generative-ai",
+      "llm-gateway",
+      "llm-inference",
+      "llm-proxy",
+      "llm-routing",
+      "llmops",
+      "llms",
+      "openai",
+      "prompt",
+      "proxy",
+      "proxy-server",
+      "routing"
+    ]
   }
 ]
