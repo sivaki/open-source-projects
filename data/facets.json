@@ -34500,5 +34500,26 @@
       "research-assistant",
       "obsidian-plugin"
     ]
+  },
+  "github:truefoundry/trueforge": {
+    "capability_summary": "TrueForge is an open-source runtime harness for LLM agents that provides standardized execution, MCP tool support, and sandboxed code environments. It is designed for developers building and deploying agentic AI applications.",
+    "problem_solved": "Standardizing the execution environment and tool integration for LLM agents.",
+    "use_cases": [
+      "LLM agent orchestration",
+      "MCP tool integration",
+      "sandboxed code execution",
+      "agent session management"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "agent runtime",
+      "LLM agent harness"
+    ]
   }
 }
