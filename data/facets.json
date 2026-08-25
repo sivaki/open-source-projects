@@ -34521,5 +34521,180 @@
       "agent runtime",
       "LLM agent harness"
     ]
+  },
+  "github:copilotkit/openbot": {
+    "capability_summary": "A self-hosted platform providing isolated environments for AI agents to execute browser and file-based tasks with governance. It is designed for developers building secure, auditable agent workflows.",
+    "problem_solved": "Need for secure, governed, and isolated AI agent execution environments.",
+    "use_cases": [
+      "browser automation",
+      "agent governance",
+      "task auditing"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "agent-platform",
+      "ai-governance"
+    ]
+  },
+  "github:tt-a1i/archify": {
+    "capability_summary": "An agent-based tool that generates interactive system architecture and data-flow diagrams from codebases. It is intended for software architects and developers.",
+    "problem_solved": "Need to visualize complex system architecture from existing code.",
+    "use_cases": [
+      "architecture-as-code",
+      "system design",
+      "data flow visualization"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "diagram-as-code",
+      "mermaid-alternative"
+    ]
+  },
+  "github:voltagent/awesome-agent-skills": {
+    "capability_summary": "A curated directory of skills and plugins for popular AI coding agents. It is for developers looking to extend the capabilities of their AI coding assistants.",
+    "problem_solved": "Difficulty finding compatible plugins and skills for AI coding agents.",
+    "use_cases": [
+      "ai agent extension",
+      "claude-code skills",
+      "cursor-skills"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list",
+      "agent-skills-directory"
+    ]
+  },
+  "github:floci-io/floci": {
+    "capability_summary": "A high-performance, open-source AWS emulator that acts as a drop-in replacement for LocalStack. It is for developers needing local AWS service testing.",
+    "problem_solved": "Need for local, Docker-based AWS service emulation without feature gates.",
+    "use_cases": [
+      "aws emulation",
+      "local devops testing",
+      "docker-based infrastructure"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "localstack-alternative",
+      "aws-emulator"
+    ]
+  },
+  "github:simplifaisoul/osiris": {
+    "capability_summary": "A GPU-accelerated OSINT dashboard for real-time global data aggregation. It is designed for security researchers and reconnaissance teams.",
+    "problem_solved": "Need for a high-performance dashboard to track global reconnaissance data.",
+    "use_cases": [
+      "osint",
+      "security reconnaissance",
+      "real-time tracking"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "osint-dashboard",
+      "recon-tool"
+    ]
+  },
+  "github:ronitsingh10/finetune": {
+    "capability_summary": "A macOS menu bar utility for per-app volume control and system-wide EQ. It is for macOS users seeking granular audio management.",
+    "problem_solved": "Lack of per-app volume control and advanced audio routing on macOS.",
+    "use_cases": [
+      "audio routing",
+      "volume mixer",
+      "system-wide equalizer"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "soundsource-alternative",
+      "audio-utility"
+    ]
+  },
+  "github:coleam00/excalidraw-diagram-skill": {
+    "capability_summary": "A skill for AI coding agents to generate and render Excalidraw diagrams. It is for developers who want AI to produce visual documentation.",
+    "problem_solved": "Need for AI agents to create and validate visual diagrams.",
+    "use_cases": [
+      "diagram generation",
+      "visual documentation",
+      "ai-assisted design"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skill",
+      "excalidraw-automation"
+    ]
+  },
+  "github:echohive42/ai-reads-books-page-by-page": {
+    "capability_summary": "A Python utility that uses LLMs to analyze PDF documents page-by-page for knowledge extraction. It is for researchers and students.",
+    "problem_solved": "Need to summarize and extract knowledge from long PDF documents.",
+    "use_cases": [
+      "pdf analysis",
+      "knowledge management",
+      "automated summarization"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "pdf-summarizer",
+      "llm-knowledge-tool"
+    ]
+  },
+  "github:manavarya09/design-extract": {
+    "capability_summary": "A CLI tool that uses headless browsers to extract design systems and UI components from websites. It is for frontend developers and designers.",
+    "problem_solved": "Need to extract design tokens and components from existing websites.",
+    "use_cases": [
+      "design system extraction",
+      "web scraping",
+      "design-to-code"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "design-system-scraper",
+      "ui-component-extractor"
+    ]
   }
 }
