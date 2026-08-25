@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 67 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 68 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [katanemo/plano](https://github.com/katanemo/plano) ⭐ | AI/LLM Tooling | `llm` `proxy` `envoy` `agentic` `observability` `gateway` | Plano is an AI-native proxy server and data plane built on Envoy that provides centralized routing, observability, and guardrails for agentic applications. | 7014 | 2026-08-25 |
 | [truefoundry/trueforge](https://github.com/truefoundry/trueforge) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `mcp` `automation` `developer-tools` | TrueForge is a robust, open-source agent runtime harness that provides a standardized execution layer for LLM agents, featuring support for MCP tools, sandboxed code execution, and session management. | 4069 | 2026-08-25 |
 | [917dhj/deeppapernote](https://github.com/917dhj/deeppapernote) ⭐ | AI/LLM Tooling | `obsidian` `research` `llm-agents` `automation` `academic-tools` | An agent-based skill for automating the extraction of academic papers into structured, Obsidian-compatible research notes. | 692 | 2026-08-24 |
 | [piratuks/invoice-builder](https://github.com/piratuks/invoice-builder) ⭐ | productivity | `invoicing` `desktop` `privacy` `finance` `electron` | An offline-first, Electron-based desktop application for managing invoices and quotes with support for UBL/Peppol e-invoicing standards. | 556 | 2026-08-24 |
