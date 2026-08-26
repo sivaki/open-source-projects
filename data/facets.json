@@ -34696,5 +34696,164 @@
       "design-system-scraper",
       "ui-component-extractor"
     ]
+  },
+  "github:wilwaldon/claude-code-frontend-design-toolkit": {
+    "capability_summary": "A collection of MCP servers and patterns to improve frontend UI output for Claude Code.",
+    "problem_solved": "Improving aesthetic and functional quality of AI-generated frontend code.",
+    "use_cases": [
+      "frontend development",
+      "UI design automation",
+      "Claude Code optimization"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code toolkit"
+    ]
+  },
+  "github:jonaslejon/malicious-pdf": {
+    "capability_summary": "Generates malicious PDF files to test security vulnerabilities in document pipelines.",
+    "problem_solved": "Testing document processing pipelines for SSRF, XSS, and credential theft.",
+    "use_cases": [
+      "pentesting",
+      "security auditing",
+      "vulnerability scanning"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "PDF security scanner"
+    ]
+  },
+  "github:caramaschihg/awesome-ai-agents-2026": {
+    "capability_summary": "A curated list of AI agents, frameworks, and developer tools for 2026.",
+    "problem_solved": "Finding the latest AI agent frameworks and LLM tools.",
+    "use_cases": [
+      "AI research",
+      "developer tooling discovery"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "awesome-list"
+    ]
+  },
+  "github:paramchoudhary/resumeskills": {
+    "capability_summary": "Markdown-based skills for AI assistants to handle resume optimization and job searching.",
+    "problem_solved": "Automating career development tasks using AI coding assistants.",
+    "use_cases": [
+      "resume optimization",
+      "job search automation",
+      "interview prep"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "career-automation"
+    ]
+  },
+  "github:agricidaniel/claude-seo": {
+    "capability_summary": "An SEO automation plugin for Claude Code that performs technical audits and content analysis.",
+    "problem_solved": "Automating technical SEO audits and schema validation.",
+    "use_cases": [
+      "SEO auditing",
+      "marketing automation",
+      "content analysis"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "SEO agent"
+    ]
+  },
+  "github:jimmysadek/youtube-fetcher-to-markdown": {
+    "capability_summary": "Extracts YouTube transcripts and metadata into Obsidian-ready Markdown files.",
+    "problem_solved": "Converting YouTube video content into structured knowledge base notes.",
+    "use_cases": [
+      "knowledge management",
+      "transcript extraction",
+      "Obsidian integration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "YouTube to Markdown"
+    ]
+  },
+  "github:nutlope/hallmark": {
+    "capability_summary": "A design skill for AI assistants that enforces specific UI patterns to prevent generic AI aesthetics.",
+    "problem_solved": "Improving the visual quality and uniqueness of AI-generated UI.",
+    "use_cases": [
+      "UI design",
+      "frontend development",
+      "AI code generation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI design assistant"
+    ]
+  },
+  "github:tashfeenahmed/freellmapi": {
+    "capability_summary": "An API gateway that aggregates free LLM provider tiers into a single OpenAI-compatible endpoint.",
+    "problem_solved": "Managing multiple free LLM providers with automatic failover.",
+    "use_cases": [
+      "LLM API aggregation",
+      "self-hosting",
+      "cost optimization"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "LLM gateway"
+    ]
+  },
+  "github:img2threejs/img2threejs": {
+    "capability_summary": "Reconstructs images into procedural Three.js code for 3D animation.",
+    "problem_solved": "Generating 3D assets from images using token-efficient code.",
+    "use_cases": [
+      "3D modeling",
+      "generative AI",
+      "webgl development"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "image-to-3d"
+    ]
   }
 }
