@@ -4641,5 +4641,285 @@
       "postgresql",
       "redis"
     ]
+  },
+  {
+    "id": "github:tranvuongquocdat/sidescreen",
+    "url": "https://github.com/tranvuongquocdat/sidescreen",
+    "title": "tranvuongquocdat/sidescreen",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092637991709581782",
+    "fetched_at": "2026-08-26T16:49:52.580286Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An open-source utility that allows users to extend their macOS desktop to an Android tablet via USB-C or Wi-Fi, functioning as a cross-platform alternative to Apple's Sidecar.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "android",
+      "productivity",
+      "utility",
+      "hardware-acceleration"
+    ],
+    "risk_notes": "Requires downloading and running a .dmg on macOS and a .apk on Android. The macOS app requires accessibility permissions to handle touch input and screen recording permissions to stream the display. It uses ADB for USB connections, which requires enabling USB debugging on the Android device. The project is actively maintained and open-source, allowing for code review of the streaming pipeline.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 26,
+      "created_at": "2025-12-14T12:20:45Z",
+      "homepage": "https://www.sidescreen.dev/"
+    },
+    "added_at": "2026-08-26T16:49:58.937757Z",
+    "stars": 844,
+    "language": "Swift",
+    "pushed_at": "2026-08-17T13:04:46Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:tantara/openbrief",
+    "url": "https://github.com/tantara/openbrief",
+    "title": "tantara/openbrief",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092621092644848065",
+    "fetched_at": "2026-08-26T16:49:52.580646Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A privacy-focused, local-first desktop application built with Tauri that transcribes, summarizes, and enables chat interactions with audio and video content.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "tauri",
+      "transcription",
+      "llm",
+      "privacy",
+      "desktop-app"
+    ],
+    "risk_notes": "Requires Node.js, pnpm, and Rust/Cargo for local builds. As a desktop application, it requires filesystem access to process local media files and network access to fetch video URLs or communicate with LLM APIs (OpenAI, Anthropic, etc.). It is a complex monorepo with many dependencies, typical of modern TypeScript/Tauri projects.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-05-24T01:32:16Z",
+      "homepage": "https://openbrief-phi.vercel.app"
+    },
+    "added_at": "2026-08-26T16:50:05.762771Z",
+    "stars": 522,
+    "language": "TypeScript",
+    "pushed_at": "2026-05-30T21:54:06Z",
+    "license": "AGPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:nilbuild/design-patterns-for-humans",
+    "url": "https://github.com/nilbuild/design-patterns-for-humans",
+    "title": "nilbuild/design-patterns-for-humans",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092604092732293129",
+    "fetched_at": "2026-08-26T16:49:52.580974Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A highly popular, well-maintained educational repository providing simplified, real-world explanations and code examples for common software design patterns.",
+    "category": "Education",
+    "tags": [
+      "software-architecture",
+      "design-patterns",
+      "programming-principles",
+      "engineering-best-practices"
+    ],
+    "risk_notes": "This is a documentation-only repository. There is no code to execute, no installation required, and no security risk involved in accessing the content.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 16,
+      "created_at": "2017-02-16T21:24:39Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-26T16:50:12.394477Z",
+    "stars": 48499,
+    "language": null,
+    "pushed_at": "2024-12-02T04:54:48Z",
+    "license": null,
+    "topics": [
+      "architecture",
+      "computer-science",
+      "design-patterns",
+      "engineering",
+      "principles",
+      "software-engineering"
+    ]
+  },
+  {
+    "id": "github:nicolepcx/ai-agents-the-definitive-guide",
+    "url": "https://github.com/nicolepcx/ai-agents-the-definitive-guide",
+    "title": "nicolepcx/ai-agents-the-definitive-guide",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092588039730085974",
+    "fetched_at": "2026-08-26T16:49:52.581292Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive collection of Jupyter notebooks accompanying the O'Reilly book 'AI Agents: The Definitive Guide', covering agent architectures, evaluation, security, and production deployment.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "llm",
+      "langchain",
+      "langgraph",
+      "agentic-workflows",
+      "education"
+    ],
+    "risk_notes": "This is a collection of educational Jupyter notebooks. It does not require system-level installation (no sudo/curl). It is designed to be run in Google Colab or local Jupyter environments. Users will need to provide their own API keys (e.g., OpenAI, Anthropic) to execute the agentic code, which carries the standard risk of API key exposure if not handled securely in environment variables.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-08-22T14:53:40Z",
+      "homepage": "https://www.oreilly.com/library/view/ai-agents-the/0642572247775/"
+    },
+    "added_at": "2026-08-26T16:50:19.085668Z",
+    "stars": 952,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-08-01T12:14:30Z",
+    "license": null,
+    "topics": [
+      "agents",
+      "ai-agents",
+      "benchmarks",
+      "deployment",
+      "evaluation-framework",
+      "langchain",
+      "langgraph",
+      "llms",
+      "multi-agent-systems",
+      "production",
+      "security",
+      "test-time-compute"
+    ]
+  },
+  {
+    "id": "github:agricidaniel/on-page-seo",
+    "url": "https://github.com/agricidaniel/on-page-seo",
+    "title": "agricidaniel/on-page-seo",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092573078324736465",
+    "fetched_at": "2026-08-26T16:49:52.581597Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive on-page SEO analysis tool that uses Firecrawl and DataForSEO APIs to audit website performance, featuring a React frontend and Express backend with SQLite storage.",
+    "category": "Marketing Automation",
+    "tags": [
+      "seo",
+      "automation",
+      "react",
+      "nodejs",
+      "api"
+    ],
+    "risk_notes": "Requires Node.js environment; installation via standard npm scripts. The application requires external API keys (Firecrawl, DataForSEO) which are stored in environment variables. It performs network requests to external services and writes to a local SQLite database file.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-01-03T16:13:09Z",
+      "homepage": "https://agricidaniel.com/blog/free-seo-audit-tools"
+    },
+    "added_at": "2026-08-26T16:50:25.732206Z",
+    "stars": 138,
+    "language": "TypeScript",
+    "pushed_at": "2026-06-06T05:02:38Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "ai-seo",
+      "claude-code",
+      "claude-code-skill",
+      "marketing-automation",
+      "open-source",
+      "seo"
+    ]
+  },
+  {
+    "id": "github:nuver-labs/vps-audit",
+    "url": "https://github.com/nuver-labs/vps-audit",
+    "title": "nuver-labs/vps-audit",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092558438467309940",
+    "fetched_at": "2026-08-26T16:49:52.581898Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A lightweight, dependency-free Bash script designed to audit Linux server security configurations, resource usage, and system hardening status.",
+    "category": "Security Tooling",
+    "tags": [
+      "security",
+      "linux",
+      "sysadmin",
+      "bash",
+      "hardening",
+      "monitoring"
+    ],
+    "risk_notes": "Requires root/sudo privileges to inspect system configuration files (e.g., /etc/ssh/sshd_config) and logs. The installation method involves downloading a script via curl/wget and executing it directly with sudo, which carries inherent risks; users should inspect the script content before execution. It is dependency-free and does not require external network access to function.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 10,
+      "created_at": "2024-12-13T10:30:53Z",
+      "homepage": "https://nuverlabs.com/vps-audit?ref=github"
+    },
+    "added_at": "2026-08-26T16:50:32.397124Z",
+    "stars": 2626,
+    "language": "Shell",
+    "pushed_at": "2026-08-10T11:12:59Z",
+    "license": "MIT",
+    "topics": [
+      "auditi",
+      "bash",
+      "ci-cd",
+      "debian",
+      "devops",
+      "ec2",
+      "infrastructure",
+      "linux",
+      "monitoring",
+      "opensource",
+      "performance-monitoring",
+      "security",
+      "security-audit",
+      "security-tools",
+      "server",
+      "shell",
+      "system-administration",
+      "ubuntu",
+      "vps"
+    ]
+  },
+  {
+    "id": "github:sanshruthr/cctv_yolo",
+    "url": "https://github.com/sanshruthr/cctv_yolo",
+    "title": "sanshruthr/cctv_yolo",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092544130823913949",
+    "fetched_at": "2026-08-26T16:49:52.582190Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A real-time object detection pipeline using YOLOv5n6 that optimizes performance by running inference on low-resolution frames while mapping results to high-resolution output.",
+    "category": "AI/LLM tooling",
+    "tags": [
+      "yolo",
+      "computer-vision",
+      "gradio",
+      "cctv",
+      "automation"
+    ],
+    "risk_notes": "Standard Python pip installation via requirements.txt. The script requires access to video streams (network) and potentially GPU hardware (CUDA). No sensitive credentials are required by default, but it processes video data which may have privacy implications depending on the source feed.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2024-09-28T16:51:05Z",
+      "homepage": "https://huggingface.co/spaces/Sanshruth/CCTV_YOLO"
+    },
+    "added_at": "2026-08-26T16:50:38.965799Z",
+    "stars": 661,
+    "language": "Python",
+    "pushed_at": "2025-03-20T07:00:57Z",
+    "license": null,
+    "topics": [
+      "cctv",
+      "cctv-surveillance",
+      "gradio",
+      "realtime",
+      "yolo",
+      "yolov5"
+    ]
   }
 ]
