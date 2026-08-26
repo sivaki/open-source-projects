@@ -34855,5 +34855,109 @@
     "aliases": [
       "image-to-3d"
     ]
+  },
+  "github:crosspaste/crosspaste-desktop": {
+    "capability_summary": "A cross-platform clipboard manager featuring end-to-end encryption, local OCR, and AI integration via MCP.",
+    "problem_solved": "Securely syncing and managing clipboard history across multiple devices.",
+    "use_cases": [
+      "clipboard history",
+      "cross-device sync",
+      "local OCR",
+      "AI clipboard integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "clipboard manager",
+      "copy-paste tool"
+    ]
+  },
+  "github:ronaldo-avalos/maya": {
+    "capability_summary": "A native macOS app for post-processing screen recordings with device framing and cinematic effects.",
+    "problem_solved": "Professionalizing raw screen recordings for content creation.",
+    "use_cases": [
+      "screen recording",
+      "video editing",
+      "content creation",
+      "device framing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "screen recorder",
+      "video post-processor"
+    ]
+  },
+  "github:chenhg5/agencycli": {
+    "capability_summary": "A CLI tool for orchestrating teams of autonomous AI agents with task queues and Docker sandboxing.",
+    "problem_solved": "Managing complex multi-agent AI workflows and task execution.",
+    "use_cases": [
+      "AI agent orchestration",
+      "task automation",
+      "workflow management",
+      "docker sandboxing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "docker"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "AI agent framework",
+      "automation tool"
+    ]
+  },
+  "github:charlie947/social-media-skills": {
+    "capability_summary": "A collection of markdown-based skills for Claude Code to automate social media content creation and analytics.",
+    "problem_solved": "Standardizing AI-driven social media marketing workflows.",
+    "use_cases": [
+      "social media automation",
+      "content creation",
+      "marketing analytics",
+      "Claude Code integration"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI marketing tool",
+      "Claude skills"
+    ]
+  },
+  "github:vibheksoni/stealth-browser-mcp": {
+    "capability_summary": "An MCP server enabling AI agents to perform stealthy web automation and bypass anti-bot protections.",
+    "problem_solved": "Enabling AI agents to scrape or interact with websites that block automated traffic.",
+    "use_cases": [
+      "web scraping",
+      "browser automation",
+      "anti-bot bypass",
+      "AI agent tools"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cli",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "MCP server",
+      "stealth browser",
+      "web automation"
+    ]
   }
 }
