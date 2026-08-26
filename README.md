@@ -1,11 +1,18 @@
 # Curated Repos
 
-Auto-generated list of 109 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 116 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [sanshruthr/cctv_yolo](https://github.com/sanshruthr/cctv_yolo) ⭐ | AI/LLM tooling | `yolo` `computer-vision` `gradio` `cctv` `automation` | A real-time object detection pipeline using YOLOv5n6 that optimizes performance by running inference on low-resolution frames while mapping results to high-resolution output. | 661 | 2026-08-26 |
+| [nuver-labs/vps-audit](https://github.com/nuver-labs/vps-audit) ⭐ | Security Tooling | `security` `linux` `sysadmin` `bash` `hardening` `monitoring` | A lightweight, dependency-free Bash script designed to audit Linux server security configurations, resource usage, and system hardening status. | 2626 | 2026-08-26 |
+| [agricidaniel/on-page-seo](https://github.com/agricidaniel/on-page-seo) ⭐ | Marketing Automation | `seo` `automation` `react` `nodejs` `api` | A comprehensive on-page SEO analysis tool that uses Firecrawl and DataForSEO APIs to audit website performance, featuring a React frontend and Express backend with SQLite storage. | 138 | 2026-08-26 |
+| [nicolepcx/ai-agents-the-definitive-guide](https://github.com/nicolepcx/ai-agents-the-definitive-guide) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `langchain` `langgraph` `agentic-workflows` `education` | A comprehensive collection of Jupyter notebooks accompanying the O'Reilly book 'AI Agents: The Definitive Guide', covering agent architectures, evaluation, security, and production deployment. | 952 | 2026-08-26 |
+| [nilbuild/design-patterns-for-humans](https://github.com/nilbuild/design-patterns-for-humans) ⭐ | Education | `software-architecture` `design-patterns` `programming-principles` `engineering-best-practices` | A highly popular, well-maintained educational repository providing simplified, real-world explanations and code examples for common software design patterns. | 48499 | 2026-08-26 |
+| [tantara/openbrief](https://github.com/tantara/openbrief) ⭐ | AI/LLM Tooling | `tauri` `transcription` `llm` `privacy` `desktop-app` | A privacy-focused, local-first desktop application built with Tauri that transcribes, summarizes, and enables chat interactions with audio and video content. | 522 | 2026-08-26 |
+| [tranvuongquocdat/sidescreen](https://github.com/tranvuongquocdat/sidescreen) ⭐ | Developer Tools | `macos` `android` `productivity` `utility` `hardware-acceleration` | An open-source utility that allows users to extend their macOS desktop to an Android tablet via USB-C or Wi-Fi, functioning as a cross-platform alternative to Apple's Sidecar. | 844 | 2026-08-26 |
 | [gobackup/gobackup](https://github.com/gobackup/gobackup) ⭐ | automation | `backup` `cli` `database` `devops` `self-hosting` | A robust, dependency-free CLI tool for automating database and file backups to various cloud storage providers with built-in scheduling and web UI management. | 2813 | 2026-08-26 |
 | [vibheksoni/stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) ⭐ | AI/LLM Tooling | `mcp` `browser-automation` `ai-agents` `web-scraping` `python` | A powerful Model Context Protocol (MCP) server that enables AI agents to perform stealthy browser automation, bypassing anti-bot protections like Cloudflare using the nodriver library. | 1632 | 2026-08-26 |
 | [technitiumsoftware/dnsserver](https://github.com/technitiumsoftware/dnsserver) ⭐ | Networking | `dns` `self-hosting` `privacy` `homelab` `networking` | A robust, self-hosted DNS server that supports recursive and authoritative resolution, ad-blocking, and modern encrypted protocols like DNS-over-HTTPS and DNS-over-QUIC. | 9609 | 2026-08-26 |
