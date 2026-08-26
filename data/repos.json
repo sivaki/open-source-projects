@@ -3637,5 +3637,604 @@
       "sn1per",
       "sn1per-professional"
     ]
+  },
+  {
+    "id": "github:wilwaldon/claude-code-frontend-design-toolkit",
+    "url": "https://github.com/wilwaldon/claude-code-frontend-design-toolkit",
+    "title": "wilwaldon/claude-code-frontend-design-toolkit",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092416434529816792",
+    "fetched_at": "2026-08-26T01:26:31.436818Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, curated collection of skills, MCP servers, and configuration patterns designed to improve the aesthetic and functional output of Claude Code for frontend development.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "frontend",
+      "automation",
+      "mcp",
+      "web-development"
+    ],
+    "risk_notes": "This is a curated list of third-party plugins and skills. Installation typically involves adding plugins via the 'claude plugin add' command or manual file placement in '~/.claude/skills/'. These tools run within the Claude Code environment, meaning they have access to your local filesystem and the context you provide to the LLM. Users should review the source code of individual plugins before installation, as they can execute arbitrary code or interact with your local environment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-02-25T02:38:18Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-26T01:26:41.601651Z",
+    "stars": 671,
+    "language": null,
+    "pushed_at": "2026-04-11T11:57:59Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:jonaslejon/malicious-pdf",
+    "url": "https://github.com/jonaslejon/malicious-pdf",
+    "title": "jonaslejon/malicious-pdf",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092406912092352813",
+    "fetched_at": "2026-08-26T01:26:31.436991Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A specialized tool for generating a wide variety of malicious PDF test files to evaluate security vulnerabilities like SSRF, XSS, and NTLM credential theft in document processing pipelines.",
+    "category": "Security Tooling",
+    "tags": [
+      "pentesting",
+      "security",
+      "pdf",
+      "redteam",
+      "automation"
+    ],
+    "risk_notes": "The tool is a Python script that requires local execution via pip-installed dependencies. It does not require elevated privileges (root) but will write files to the local filesystem. It is designed to generate payloads for external callback services (like Burp Collaborator), so users should be aware of the network traffic generated during testing.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2021-08-17T10:10:12Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-26T01:26:48.130479Z",
+    "stars": 4145,
+    "language": "Python",
+    "pushed_at": "2026-06-04T11:56:10Z",
+    "license": "BSD-2-Clause",
+    "topics": [
+      "bugbounty",
+      "bugbounty-tool",
+      "pdf",
+      "pdf-generation",
+      "penetration-test",
+      "penetration-testing",
+      "penetrationtesting",
+      "pentesting",
+      "pentesting-tools",
+      "python",
+      "redteam",
+      "redteaming",
+      "scanner"
+    ]
+  },
+  {
+    "id": "github:caramaschihg/awesome-ai-agents-2026",
+    "url": "https://github.com/caramaschihg/awesome-ai-agents-2026",
+    "title": "caramaschihg/awesome-ai-agents-2026",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092397471632699717",
+    "fetched_at": "2026-08-26T01:26:31.437120Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, well-organized curated list of AI agents, frameworks, and developer tools for 2026, covering everything from IDE-native coding assistants to self-hosted LLM runners.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai-agents",
+      "llm",
+      "automation",
+      "awesome-list",
+      "developer-tools"
+    ],
+    "risk_notes": "This is a documentation-only repository (a curated list). It does not contain executable code itself, so there are no direct installation risks. However, the tools listed within the repository vary significantly in risk; many require API keys (OpenAI, Anthropic, etc.) or local filesystem access to function as coding agents. Always review individual project security postures before installing tools linked from this list.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 364,
+      "created_at": "2026-03-07T13:21:09Z",
+      "homepage": "https://github.com/caramaschiHG/awesome-ai-agents-2026"
+    },
+    "added_at": "2026-08-26T01:26:55.145552Z",
+    "stars": 1613,
+    "language": null,
+    "pushed_at": "2026-06-10T16:46:10Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "2026",
+      "ai-agents",
+      "artificial-intelligence",
+      "awesome-list",
+      "chatgpt",
+      "langchain",
+      "llm",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "github:paramchoudhary/resumeskills",
+    "url": "https://github.com/paramchoudhary/resumeskills",
+    "title": "paramchoudhary/resumeskills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092388408211427800",
+    "fetched_at": "2026-08-26T01:26:31.437244Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of markdown-based 'skills' designed to augment AI coding assistants like Claude Code and Cursor with specialized workflows for resume optimization, job searching, and interview preparation.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "career-development",
+      "automation",
+      "productivity",
+      "cli"
+    ],
+    "risk_notes": "Installs via npx, which executes remote code; requires trust in the repository's content as these skills are interpreted by your AI agent. The skills interact with your local files (resumes, job descriptions), so ensure you are comfortable with the AI agent having read/write access to your career documents.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-01-30T10:29:46Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-26T01:27:02.082014Z",
+    "stars": 1833,
+    "language": null,
+    "pushed_at": "2026-06-19T07:20:29Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:agricidaniel/claude-seo",
+    "url": "https://github.com/agricidaniel/claude-seo",
+    "title": "agricidaniel/claude-seo",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092379826980102434",
+    "fetched_at": "2026-08-26T01:26:31.437386Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful SEO automation plugin for Claude Code that uses parallel agents to perform technical audits, schema validation, and content analysis.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "seo",
+      "claude-code",
+      "automation",
+      "ai",
+      "marketing"
+    ],
+    "risk_notes": "Installs as a plugin within the Claude Code environment. Requires API keys for optional third-party services (DataForSEO, Firecrawl, etc.) and grants the agent access to your local codebase and filesystem for auditing purposes. The installation is handled via the Claude Code CLI plugin system, which is generally safer than arbitrary shell scripts.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 56,
+      "created_at": "2026-02-07T08:17:38Z",
+      "homepage": "https://claude-seo.md"
+    },
+    "added_at": "2026-08-26T01:27:08.562636Z",
+    "stars": 15127,
+    "language": "Python",
+    "pushed_at": "2026-08-25T20:20:09Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "ai-seo",
+      "claude-code",
+      "claude-code-skill",
+      "marketing-automation",
+      "open-source",
+      "seo"
+    ]
+  },
+  {
+    "id": "github:evoiz/agentic-design-patterns",
+    "url": "https://github.com/evoiz/agentic-design-patterns",
+    "title": "evoiz/agentic-design-patterns",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092370736744665163",
+    "fetched_at": "2026-08-26T01:26:31.437506Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive educational repository containing a full book and accompanying Jupyter notebooks on building intelligent AI agent systems, covering patterns from prompt chaining to multi-agent orchestration.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "agents",
+      "education",
+      "python"
+    ],
+    "risk_notes": "Standard Python project; installation via pip and virtual environments is safe. Requires external API keys (e.g., OpenAI) to run the agentic code examples. The code executes arbitrary LLM calls, so users should monitor token usage and ensure API keys are managed securely via environment variables.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-09-21T07:22:50Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-26T01:27:15.004009Z",
+    "stars": 2928,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-07-24T14:23:04Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:jimmysadek/youtube-fetcher-to-markdown",
+    "url": "https://github.com/jimmysadek/youtube-fetcher-to-markdown",
+    "title": "jimmysadek/youtube-fetcher-to-markdown",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092362385684074704",
+    "fetched_at": "2026-08-26T01:26:31.437624Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A versatile CLI tool and Claude Code skill that extracts YouTube transcripts, metadata, and chapters into structured, Obsidian-ready Markdown files without requiring API keys.",
+    "category": "automation",
+    "tags": [
+      "cli",
+      "obsidian",
+      "automation",
+      "youtube",
+      "knowledge-management"
+    ],
+    "risk_notes": "Requires Python 3.8+ and optional yt-dlp. It performs network requests to YouTube to fetch captions and metadata. It writes files to your local filesystem (defaulting to ~/yt_transcripts/ or a specified directory). The code is transparent and does not require API keys or elevated privileges, making it a low-risk utility.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-03-04T10:38:54Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-26T01:27:32.553252Z",
+    "stars": 233,
+    "language": "HTML",
+    "pushed_at": "2026-08-03T02:17:10Z",
+    "license": "MIT",
+    "topics": [
+      "claude-code",
+      "claude-code-skill",
+      "knowledge-base",
+      "markdown",
+      "obsidian",
+      "transcript",
+      "youtube",
+      "yt-dlp"
+    ]
+  },
+  {
+    "id": "github:nutlope/hallmark",
+    "url": "https://github.com/nutlope/hallmark",
+    "title": "nutlope/hallmark",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092354188504105243",
+    "fetched_at": "2026-08-26T01:26:31.437742Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized design skill for AI coding assistants (Claude Code, Cursor, Codex) that enforces design patterns to prevent generic 'AI-slop' aesthetics in generated UI.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "ui-design",
+      "developer-tools",
+      "automation",
+      "frontend"
+    ],
+    "risk_notes": "Installed via npx or by manually copying rule files into local configuration directories (~/.claude/skills or .cursor/rules). As a prompt-engineering/rule-based skill, it operates within the context of your AI coding agent, meaning it inherits the agent's access to your local filesystem and environment variables. It does not require root privileges, but it is designed to influence the output of your LLM-based coding tools.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 41,
+      "created_at": "2026-04-27T20:47:10Z",
+      "homepage": "https://www.usehallmark.com/"
+    },
+    "added_at": "2026-08-26T01:27:39.347665Z",
+    "stars": 27017,
+    "language": "CSS",
+    "pushed_at": "2026-08-06T16:19:18Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:tashfeenahmed/freellmapi",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "title": "tashfeenahmed/freellmapi",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092345947695034569",
+    "fetched_at": "2026-08-26T01:26:31.437857Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful API gateway that aggregates dozens of free LLM provider tiers into a single OpenAI-compatible endpoint with smart routing and automatic failover.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "api-gateway",
+      "self-hosting",
+      "automation",
+      "openai-compatible"
+    ],
+    "risk_notes": "Available via Docker Compose, which is the recommended secure installation method. Requires managing multiple third-party API keys; the application stores these encrypted locally. It performs outbound network requests to various LLM providers and periodically fetches a signed model catalog from the project's servers. Active maintenance is high.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 57,
+      "created_at": "2026-04-21T13:38:59Z",
+      "homepage": "https://freellmapi.co"
+    },
+    "added_at": "2026-08-26T01:27:46.011447Z",
+    "stars": 20279,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-25T20:40:24Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:boona13/mykonos-island-voxels",
+    "url": "https://github.com/boona13/mykonos-island-voxels",
+    "title": "boona13/mykonos-island-voxels",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092338140455272674",
+    "fetched_at": "2026-08-26T01:26:31.437971Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A browser-based isometric island-building toy built with vanilla JavaScript and no external dependencies.",
+    "category": "Game Development",
+    "tags": [
+      "html5",
+      "isometric",
+      "vanilla-js",
+      "web-game"
+    ],
+    "risk_notes": "The project is a static web application with no server-side components. It runs entirely in the browser using standard ES modules. It uses localStorage for persistence, which is scoped to the origin. No sensitive permissions or system access are required.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-05-14T05:35:33Z",
+      "homepage": "https://mykonos-island-voxels.netlify.app"
+    },
+    "added_at": "2026-08-26T01:27:52.483306Z",
+    "stars": 967,
+    "language": "JavaScript",
+    "pushed_at": "2026-05-14T05:39:00Z",
+    "license": "MIT",
+    "topics": [
+      "canvas2d",
+      "city-builder",
+      "html5-game",
+      "isometric-game",
+      "mobile-friendly",
+      "open-source",
+      "vanilla-js"
+    ]
+  },
+  {
+    "id": "github:haddock-development/claude-reflect-system",
+    "url": "https://github.com/haddock-development/claude-reflect-system",
+    "title": "haddock-development/claude-reflect-system",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092330231600194039",
+    "fetched_at": "2026-08-26T01:26:31.438083Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A persistent memory and learning system for Claude Code that captures user corrections and preferences into local skill files, ensuring the AI retains feedback across sessions.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude-code",
+      "llm",
+      "automation",
+      "developer-tools",
+      "self-improvement"
+    ],
+    "risk_notes": "Installs by copying files into the local ~/.claude/skills/ directory. It requires read/write access to your local project files and the Claude Code configuration directory. It runs as a plugin within the Claude Code environment, meaning it inherits the permissions granted to the Claude CLI. It is a new project (Jan 2026) but appears well-structured and transparent in its operation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-05T11:34:28Z",
+      "homepage": "https://huggingface.co/mindchain"
+    },
+    "added_at": "2026-08-26T01:27:59.138658Z",
+    "stars": 249,
+    "language": "Python",
+    "pushed_at": "2026-01-17T09:53:59Z",
+    "license": null,
+    "topics": [
+      "ai",
+      "claude-code",
+      "claude-code-skills",
+      "codex-skills",
+      "continuous-improvement",
+      "llm",
+      "python",
+      "reflection",
+      "self-learning",
+      "skill-system"
+    ]
+  },
+  {
+    "id": "github:img2threejs/img2threejs",
+    "url": "https://github.com/img2threejs/img2threejs",
+    "title": "img2threejs/img2threejs",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092322604778459514",
+    "fetched_at": "2026-08-26T01:26:31.438197Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized tool that reconstructs images into procedural, animation-ready Three.js code, focusing on token-efficient generation rather than traditional mesh extraction.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "threejs",
+      "generative-ai",
+      "procedural-generation",
+      "webgl",
+      "typescript"
+    ],
+    "risk_notes": "Standard Python project structure; requires local execution which grants access to the filesystem. It likely requires API keys for LLM integration. Maintenance is active, but users should review generated code before execution as it involves LLM-generated logic.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 67,
+      "created_at": "2026-07-15T02:58:39Z",
+      "homepage": "https://img2threejs.io"
+    },
+    "added_at": "2026-08-26T01:28:05.799592Z",
+    "stars": 13776,
+    "language": "Python",
+    "pushed_at": "2026-08-25T16:02:13Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "3d",
+      "ai-agents",
+      "claude-code",
+      "computer-graphics",
+      "generative",
+      "image-to-3d",
+      "procedural-generation",
+      "threejs",
+      "typescript",
+      "webgl"
+    ]
+  },
+  {
+    "id": "github:opendronemap/odm",
+    "url": "https://github.com/opendronemap/odm",
+    "title": "opendronemap/odm",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092315016783376849",
+    "fetched_at": "2026-08-26T01:26:31.438319Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful, industry-standard command-line toolkit for photogrammetry that converts aerial imagery into 3D models, point clouds, and orthophotos.",
+    "category": "Data Processing",
+    "tags": [
+      "photogrammetry",
+      "drone",
+      "automation",
+      "docker",
+      "3d-modeling"
+    ],
+    "risk_notes": "Distributed primarily as a Docker image, which is a secure and isolated way to run complex dependencies. Requires mounting local directories for data processing, meaning the container will have read/write access to the specific folders you provide. It is highly active and well-maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 113,
+      "created_at": "2014-09-25T18:29:10Z",
+      "homepage": "https://opendronemap.org"
+    },
+    "added_at": "2026-08-26T01:28:12.419209Z",
+    "stars": 6398,
+    "language": "Python",
+    "pushed_at": "2026-08-25T18:20:53Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "aerial-imagery",
+      "drone",
+      "photogrammetry",
+      "point-cloud",
+      "structure-from-motion",
+      "uas"
+    ]
+  },
+  {
+    "id": "github:atarity/deploy-your-own-saas",
+    "url": "https://github.com/atarity/deploy-your-own-saas",
+    "title": "atarity/deploy-your-own-saas",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092307728609792375",
+    "fetched_at": "2026-08-26T01:26:31.438438Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, curated list of self-hostable alternatives to popular SaaS platforms, perfect for home-lab enthusiasts.",
+    "category": "Awesome List",
+    "tags": [
+      "self-hosting",
+      "homelab",
+      "awesome",
+      "saas",
+      "automation"
+    ],
+    "risk_notes": "This is a curated list of links, not software itself. Each linked project has its own security profile; most are containerized (Docker), but users should audit individual projects for their specific installation methods (e.g., docker-compose, shell scripts) and data access requirements before deployment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2019-08-19T14:24:17Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-26T01:28:18.856227Z",
+    "stars": 9934,
+    "language": "Python",
+    "pushed_at": "2026-08-25T14:45:48Z",
+    "license": null,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "list",
+      "open-source",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github:open-finance-lab/agentictrading",
+    "url": "https://github.com/open-finance-lab/agentictrading",
+    "title": "open-finance-lab/agentictrading",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092300449449746433",
+    "fetched_at": "2026-08-26T01:26:31.438562Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An experimental platform for building, backtesting, and paper-trading with LLM-powered agents, featuring a FastAPI backend and React frontend.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "trading",
+      "llm",
+      "automation",
+      "finance",
+      "backtesting"
+    ],
+    "risk_notes": "Requires API keys for financial brokers (e.g., Robinhood, Alpaca) and LLM providers. The project includes a Dockerfile for containerized deployment, which is the recommended isolation method. Users should exercise caution with live trading features, as the software can execute real financial transactions if configured with credentials.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 80,
+      "created_at": "2025-05-21T01:19:12Z",
+      "homepage": "https://agentic-trading-lab.vercel.app/"
+    },
+    "added_at": "2026-08-26T01:28:25.485347Z",
+    "stars": 432,
+    "language": "Python",
+    "pushed_at": "2026-08-25T20:22:16Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:likec4/likec4",
+    "url": "https://github.com/likec4/likec4",
+    "title": "likec4/likec4",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092293439383544310",
+    "fetched_at": "2026-08-26T01:26:31.438675Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "LikeC4 is an architecture-as-code tool that allows developers to define software architecture using a DSL and generate interactive, live diagrams.",
+    "category": "Developer Tools",
+    "tags": [
+      "architecture",
+      "c4-model",
+      "diagrams",
+      "documentation",
+      "typescript"
+    ],
+    "risk_notes": "Installed via npm (npx likec4) or as a VSCode extension. It runs locally on your machine, requiring access to your codebase to parse architecture files. It does not require elevated privileges or external API keys for core functionality.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 190,
+      "created_at": "2023-03-24T09:30:34Z",
+      "homepage": "https://likec4.dev"
+    },
+    "added_at": "2026-08-26T01:28:31.809717Z",
+    "stars": 5500,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-23T22:03:58Z",
+    "license": "MIT",
+    "topics": [
+      "architecture",
+      "architecture-as-code",
+      "c4",
+      "diagrams"
+    ]
   }
 ]
