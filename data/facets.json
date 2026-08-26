@@ -34959,5 +34959,119 @@
       "stealth browser",
       "web automation"
     ]
+  },
+  "github:tantara/openbrief": {
+    "capability_summary": "A local-first desktop app for transcribing, summarizing, and chatting with audio and video files.",
+    "problem_solved": "Need to process media files locally without sending data to the cloud.",
+    "use_cases": [
+      "transcription",
+      "meeting summarization",
+      "local AI chat"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "local-first AI",
+      "privacy-focused transcription"
+    ]
+  },
+  "github:nilbuild/design-patterns-for-humans": {
+    "capability_summary": "An educational resource providing simplified explanations and code examples for software design patterns.",
+    "problem_solved": "Difficulty understanding complex software architecture concepts.",
+    "use_cases": [
+      "learning software architecture",
+      "interview preparation",
+      "code refactoring"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "design patterns guide",
+      "software engineering principles"
+    ]
+  },
+  "github:nicolepcx/ai-agents-the-definitive-guide": {
+    "capability_summary": "A collection of Jupyter notebooks covering the architecture, evaluation, and deployment of AI agents.",
+    "problem_solved": "Need for practical examples and best practices for building agentic workflows.",
+    "use_cases": [
+      "AI agent development",
+      "LLM evaluation",
+      "production deployment"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "langchain guide",
+      "AI agent tutorial"
+    ]
+  },
+  "github:agricidaniel/on-page-seo": {
+    "capability_summary": "An automated SEO auditing tool that analyzes website performance using external APIs.",
+    "problem_solved": "Manual website SEO auditing is time-consuming and error-prone.",
+    "use_cases": [
+      "SEO analysis",
+      "website auditing",
+      "marketing automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "SEO auditor",
+      "automated marketing tool"
+    ]
+  },
+  "github:nuver-labs/vps-audit": {
+    "capability_summary": "A lightweight Bash script for auditing Linux server security and system hardening.",
+    "problem_solved": "Need to quickly assess security vulnerabilities on a Linux server.",
+    "use_cases": [
+      "server hardening",
+      "security auditing",
+      "system administration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "security scanner",
+      "linux hardening script"
+    ]
+  },
+  "github:sanshruthr/cctv_yolo": {
+    "capability_summary": "A real-time object detection pipeline using YOLOv5 for CCTV surveillance.",
+    "problem_solved": "High computational cost of running object detection on high-resolution video streams.",
+    "use_cases": [
+      "CCTV surveillance",
+      "object detection",
+      "real-time monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "YOLO surveillance",
+      "computer vision pipeline"
+    ]
   }
 }
