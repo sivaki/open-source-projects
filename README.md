@@ -1,11 +1,20 @@
 # Curated Repos
 
-Auto-generated list of 100 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 109 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [gobackup/gobackup](https://github.com/gobackup/gobackup) ⭐ | automation | `backup` `cli` `database` `devops` `self-hosting` | A robust, dependency-free CLI tool for automating database and file backups to various cloud storage providers with built-in scheduling and web UI management. | 2813 | 2026-08-26 |
+| [vibheksoni/stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) ⭐ | AI/LLM Tooling | `mcp` `browser-automation` `ai-agents` `web-scraping` `python` | A powerful Model Context Protocol (MCP) server that enables AI agents to perform stealthy browser automation, bypassing anti-bot protections like Cloudflare using the nodriver library. | 1632 | 2026-08-26 |
+| [technitiumsoftware/dnsserver](https://github.com/technitiumsoftware/dnsserver) ⭐ | Networking | `dns` `self-hosting` `privacy` `homelab` `networking` | A robust, self-hosted DNS server that supports recursive and authoritative resolution, ad-blocking, and modern encrypted protocols like DNS-over-HTTPS and DNS-over-QUIC. | 9609 | 2026-08-26 |
+| [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) ⭐ | AI/LLM Tooling | `ai` `automation` `claude` `content-creation` `marketing` | A collection of structured markdown-based 'skills' designed to be used with Claude Code to automate social media content creation, voice consistency, and analytics. | 2311 | 2026-08-26 |
+| [chenhg5/agencycli](https://github.com/chenhg5/agencycli) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `cli` `docker` `workflow` | A powerful CLI tool for orchestrating autonomous AI agent teams with built-in task queues, inter-agent messaging, and Docker-based sandboxing. | 155 | 2026-08-26 |
+| [ronaldo-avalos/maya](https://github.com/ronaldo-avalos/maya) ⭐ | Developer Tools | `macos` `video-editing` `swift` `automation` `content-creation` | A native macOS application for professional-grade screen recording post-processing, including device framing, cinematic zoom effects, and tap visualizations. | 917 | 2026-08-26 |
+| [crosspaste/crosspaste-desktop](https://github.com/crosspaste/crosspaste-desktop) ⭐ | Developer Tools | `clipboard` `productivity` `mcp` `kotlin` `privacy` | A cross-platform, LAN-based clipboard manager with end-to-end encryption, local OCR, and integration with AI tools via the Model Context Protocol (MCP). | 2304 | 2026-08-26 |
+| [moltlaunch/cashclaw](https://github.com/moltlaunch/cashclaw) ⭐ | AI/LLM Tooling | `ai-agent` `automation` `llm` `typescript` `self-learning` | An autonomous agent framework designed for task execution, self-improvement, and marketplace integration, featuring a modular tool-use loop and local knowledge base. | 1098 | 2026-08-26 |
+| [techunrestricted/windiskwriter](https://github.com/techunrestricted/windiskwriter) ⭐ | System Utilities | `macos` `windows` `usb` `bootable` `utility` | A macOS utility for creating bootable Windows USB installers that supports UEFI/Legacy modes and includes automated patching for Windows 11 system requirements. | 4665 | 2026-08-26 |
 | [likec4/likec4](https://github.com/likec4/likec4) ⭐ | Developer Tools | `architecture` `c4-model` `diagrams` `documentation` `typescript` | LikeC4 is an architecture-as-code tool that allows developers to define software architecture using a DSL and generate interactive, live diagrams. | 5500 | 2026-08-26 |
 | [open-finance-lab/agentictrading](https://github.com/open-finance-lab/agentictrading) ⭐ | AI/LLM Tooling | `trading` `llm` `automation` `finance` `backtesting` | An experimental platform for building, backtesting, and paper-trading with LLM-powered agents, featuring a FastAPI backend and React frontend. | 432 | 2026-08-26 |
 | [atarity/deploy-your-own-saas](https://github.com/atarity/deploy-your-own-saas) ⭐ | Awesome List | `self-hosting` `homelab` `awesome` `saas` `automation` | A comprehensive, curated list of self-hostable alternatives to popular SaaS platforms, perfect for home-lab enthusiasts. | 9934 | 2026-08-26 |
