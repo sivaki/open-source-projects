@@ -35073,5 +35073,101 @@
       "YOLO surveillance",
       "computer vision pipeline"
     ]
+  },
+  "github:kyegomez/openmythos": {
+    "capability_summary": "A PyTorch implementation of a Recurrent-Depth Transformer architecture for AI research. It is intended for machine learning researchers and developers exploring advanced model architectures.",
+    "problem_solved": "Reconstructing and experimenting with complex transformer architectures like Claude Mythos.",
+    "use_cases": [
+      "AI research",
+      "model architecture prototyping",
+      "sparse MoE experimentation"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "RDT",
+      "Recurrent-Depth Transformer"
+    ]
+  },
+  "github:cinar/indicator": {
+    "capability_summary": "A Go library providing over 80 technical analysis indicators for financial markets. It is designed for quantitative traders and developers building trading systems.",
+    "problem_solved": "Calculating technical indicators and backtesting trading strategies in Go.",
+    "use_cases": [
+      "algorithmic trading",
+      "stock market analysis",
+      "quantitative finance",
+      "backtesting"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "technical analysis library",
+      "quant library"
+    ]
+  },
+  "github:katrielmoses/mailaccess": {
+    "capability_summary": "A self-hostable OSINT platform that aggregates data from thousands of sources for email reconnaissance and risk assessment. It is built for security professionals and researchers.",
+    "problem_solved": "Automating email-based OSINT and identity clustering for threat intelligence.",
+    "use_cases": [
+      "email reconnaissance",
+      "breach detection",
+      "risk scoring",
+      "OSINT"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "holehe",
+      "security tool"
+    ]
+  },
+  "github:cloudflare/security-audit-skill": {
+    "capability_summary": "A security auditing tool for AI coding agents that orchestrates parallel agents for vulnerability discovery and reporting. It is designed for developers integrating security into AI workflows.",
+    "problem_solved": "Automating vulnerability discovery and adversarial validation within AI coding agents.",
+    "use_cases": [
+      "vulnerability scanning",
+      "security auditing",
+      "AI agent automation"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI security agent",
+      "vulnerability scanner"
+    ]
+  },
+  "github:conorbronsdon/avoid-ai-writing": {
+    "capability_summary": "An agent skill that detects and rewrites AI-generated text by identifying common structural patterns and 'AI-isms'. It is intended for users of AI coding agents who want to humanize generated content.",
+    "problem_solved": "Removing AI-generated stylistic patterns from written prose.",
+    "use_cases": [
+      "AI writing detection",
+      "text humanization",
+      "content editing"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "AI detector",
+      "writing assistant"
+    ]
   }
 }
