@@ -5339,5 +5339,278 @@
       "skill",
       "writing"
     ]
+  },
+  {
+    "id": "github:hamed233/cybersecurity-mastery-roadmap",
+    "url": "https://github.com/hamed233/cybersecurity-mastery-roadmap",
+    "title": "hamed233/cybersecurity-mastery-roadmap",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2093135675402989877",
+    "fetched_at": "2026-08-28T00:47:19.626331Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A highly structured, comprehensive educational roadmap for cybersecurity, covering everything from foundational computer science and networking to advanced offensive/defensive specializations.",
+    "category": "Education",
+    "tags": [
+      "cybersecurity",
+      "roadmap",
+      "infosec",
+      "learning",
+      "career-development"
+    ],
+    "risk_notes": "This is a documentation-only repository (Markdown files). There is no code to execute, no installation scripts, and no risk of system compromise. It is purely informational and safe to browse.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2025-04-16T09:22:55Z",
+      "homepage": "https://hamedesam.info"
+    },
+    "added_at": "2026-08-28T00:47:25.655251Z",
+    "stars": 3376,
+    "language": null,
+    "pushed_at": "2026-07-23T14:16:26Z",
+    "license": null,
+    "topics": [
+      "cybersecurity",
+      "cybersecurity-education",
+      "cybersecurity-projects",
+      "cybersecurity-tools",
+      "cybersecurity-training",
+      "ethical-hacking"
+    ]
+  },
+  {
+    "id": "github:adrianhajdin/ai-resume-analyzer",
+    "url": "https://github.com/adrianhajdin/ai-resume-analyzer",
+    "title": "adrianhajdin/ai-resume-analyzer",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2093095777753063538",
+    "fetched_at": "2026-08-28T00:47:19.626492Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "An educational project repository designed to accompany a YouTube tutorial on building a resume analyzer using React and the Puter.js SDK.",
+    "category": "Educational",
+    "tags": [
+      "react",
+      "tutorial",
+      "ai",
+      "web-development",
+      "typescript"
+    ],
+    "risk_notes": "This is a boilerplate/tutorial project. It relies on Puter.js for backend services, which offloads authentication and data storage to a third-party platform. It is not a self-hosted solution in the traditional sense and lacks a production-ready security architecture.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2025-07-16T16:07:51Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-28T00:47:32.015054Z",
+    "stars": 567,
+    "language": "JavaScript",
+    "pushed_at": "2025-07-18T08:37:40Z",
+    "license": null,
+    "topics": [
+      "puter",
+      "puterjs",
+      "react",
+      "react19",
+      "reactjs",
+      "typescript",
+      "zustand"
+    ]
+  },
+  {
+    "id": "github:wisher567/portpal",
+    "url": "https://github.com/wisher567/portpal",
+    "title": "wisher567/portpal",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2093044064157360387",
+    "fetched_at": "2026-08-28T00:47:19.626618Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Tauri-based desktop dashboard that visualizes active network ports, identifies running development frameworks, and provides one-click process termination.",
+    "category": "Developer Tools",
+    "tags": [
+      "cli",
+      "developer-tools",
+      "tauri",
+      "networking",
+      "productivity"
+    ],
+    "risk_notes": "Distributed as native installers (.msi, .dmg, .deb). As a process manager, it requires elevated system permissions to inspect network sockets and terminate processes. Built with Tauri (Rust backend), which generally offers a smaller attack surface than Electron, but users should review the source code before running as it has full access to local process management.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-04-11T17:20:07Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-28T00:47:38.543470Z",
+    "stars": 343,
+    "language": "TypeScript",
+    "pushed_at": "2026-04-12T03:37:31Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:stablyai/orca",
+    "url": "https://github.com/stablyai/orca",
+    "title": "stablyai/orca",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092998393966522455",
+    "fetched_at": "2026-08-28T00:47:19.626738Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Orca is an AI-native IDE designed for orchestrating multiple parallel coding agents across isolated git worktrees, featuring deep integration with GitHub, Linear, and remote SSH environments.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai-agents",
+      "ide",
+      "cli",
+      "automation",
+      "git"
+    ],
+    "risk_notes": "Distributed as a desktop application (binary installer). Requires significant permissions to manage local files, execute shell commands, and access SSH keys for remote worktrees. It integrates with external AI providers and project management tools, requiring API keys or OAuth tokens. As an IDE, it has broad access to your codebase and environment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4718,
+      "created_at": "2026-03-17T03:28:57Z",
+      "homepage": "https://onOrca.dev"
+    },
+    "added_at": "2026-08-28T00:47:45.176919Z",
+    "stars": 55278,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-28T00:46:37Z",
+    "license": "MIT",
+    "topics": [
+      "ade",
+      "agent-ide",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "cursor-agent",
+      "devtools",
+      "ghostty",
+      "ide",
+      "mobile-app",
+      "opencode",
+      "orchestration",
+      "parallel-agents",
+      "pi",
+      "terminal",
+      "worktrees",
+      "yc-backed"
+    ]
+  },
+  {
+    "id": "github:hkuds/ai-trader",
+    "url": "https://github.com/hkuds/ai-trader",
+    "title": "hkuds/ai-trader",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092958001904648289",
+    "fetched_at": "2026-08-28T00:47:19.626854Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "AI-Trader is a platform designed to allow AI agents to trade, share signals, and participate in copy-trading communities.",
+    "category": "FinTech / AI Agents",
+    "tags": [
+      "trading",
+      "ai-agents",
+      "automation",
+      "finance"
+    ],
+    "risk_notes": "The project requires connecting AI agents to an external third-party service (ai4trade.ai) via prompt-based registration. It handles financial data and potentially connects to broker APIs (Binance, Coinbase, Interactive Brokers). Self-hosting involves database configuration (PostgreSQL/SQLite) and likely requires managing sensitive API keys for market data and broker access. The lack of a clear license and the high-risk nature of automated trading agents make this a significant security and financial risk.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 45,
+      "created_at": "2025-10-23T12:45:00Z",
+      "homepage": "https://ai4trade.ai"
+    },
+    "added_at": "2026-08-28T00:47:51.902005Z",
+    "stars": 21667,
+    "language": "Python",
+    "pushed_at": "2026-06-11T09:26:03Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:yifanfeng97/hyper-extract",
+    "url": "https://github.com/yifanfeng97/hyper-extract",
+    "title": "yifanfeng97/hyper-extract",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092922375520112886",
+    "fetched_at": "2026-08-28T00:47:19.626982Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful CLI and Python framework for transforming unstructured text into structured knowledge graphs and hypergraphs using LLMs.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "knowledge-graph",
+      "cli",
+      "rag",
+      "data-pipeline"
+    ],
+    "risk_notes": "Installed via pip. Requires API keys for LLM providers (OpenAI, Anthropic, etc.) or local vLLM endpoints. It performs file system operations to read documents and write knowledge bases/Obsidian vaults. The project is actively maintained with frequent updates.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2026-01-07T09:44:41Z",
+      "homepage": "https://yifanfeng97.github.io/Hyper-Extract/"
+    },
+    "added_at": "2026-08-28T00:47:58.332727Z",
+    "stars": 3515,
+    "language": "Python",
+    "pushed_at": "2026-08-12T02:08:38Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "cli",
+      "hypergraph",
+      "information-extraction",
+      "knowledge",
+      "knowledge-graph",
+      "llm",
+      "python",
+      "rag"
+    ]
+  },
+  {
+    "id": "github:clucraft/priceghost",
+    "url": "https://github.com/clucraft/priceghost",
+    "title": "clucraft/priceghost",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2092888981658624224",
+    "fetched_at": "2026-08-28T00:47:19.627098Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A self-hosted price tracking application that uses a multi-strategy extraction system, including AI-assisted verification, to reliably monitor product prices across various e-commerce sites.",
+    "category": "automation",
+    "tags": [
+      "self-hosted",
+      "automation",
+      "web-scraping",
+      "typescript",
+      "price-tracking"
+    ],
+    "risk_notes": "Requires API keys (Anthropic/OpenAI) or a local Ollama instance for optimal functionality. As a self-hosted TypeScript application, it likely runs via Docker or Node.js; users should review the Dockerfile/package.json for dependencies. It requires network access to scrape external websites, which may trigger anti-bot protections on target sites.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 28,
+      "created_at": "2026-01-20T18:21:51Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-28T00:48:04.930137Z",
+    "stars": 993,
+    "language": "TypeScript",
+    "pushed_at": "2026-02-03T00:32:34Z",
+    "license": null,
+    "topics": [
+      "price-monitor",
+      "price-track",
+      "price-tracker",
+      "stock-monitor"
+    ]
   }
 ]
