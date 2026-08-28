@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 125 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 130 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [clucraft/priceghost](https://github.com/clucraft/priceghost) ⭐ | automation | `self-hosted` `automation` `web-scraping` `typescript` `price-tracking` | A self-hosted price tracking application that uses a multi-strategy extraction system, including AI-assisted verification, to reliably monitor product prices across various e-commerce sites. | 993 | 2026-08-28 |
+| [yifanfeng97/hyper-extract](https://github.com/yifanfeng97/hyper-extract) ⭐ | AI/LLM Tooling | `llm` `knowledge-graph` `cli` `rag` `data-pipeline` | A powerful CLI and Python framework for transforming unstructured text into structured knowledge graphs and hypergraphs using LLMs. | 3515 | 2026-08-28 |
+| [stablyai/orca](https://github.com/stablyai/orca) ⭐ | Developer Tools | `ai-agents` `ide` `cli` `automation` `git` | Orca is an AI-native IDE designed for orchestrating multiple parallel coding agents across isolated git worktrees, featuring deep integration with GitHub, Linear, and remote SSH environments. | 55278 | 2026-08-28 |
+| [wisher567/portpal](https://github.com/wisher567/portpal) ⭐ | Developer Tools | `cli` `developer-tools` `tauri` `networking` `productivity` | A Tauri-based desktop dashboard that visualizes active network ports, identifies running development frameworks, and provides one-click process termination. | 343 | 2026-08-28 |
+| [hamed233/cybersecurity-mastery-roadmap](https://github.com/hamed233/cybersecurity-mastery-roadmap) ⭐ | Education | `cybersecurity` `roadmap` `infosec` `learning` `career-development` | A highly structured, comprehensive educational roadmap for cybersecurity, covering everything from foundational computer science and networking to advanced offensive/defensive specializations. | 3376 | 2026-08-28 |
 | [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) ⭐ | AI/LLM Tooling | `ai-writing` `llm` `agent-skills` `writing-tools` `automation` | A specialized agent skill designed to detect and rewrite AI-generated prose by identifying specific 'AI-isms' and structural patterns, compatible with various AI coding agents. | 3382 | 2026-08-27 |
 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) ⭐ | AI/LLM Tooling | `security` `ai-agents` `vulnerability-scanning` `automation` `dev-tools` | A sophisticated multi-phase security auditing skill for AI coding agents, designed to orchestrate parallel agents for vulnerability discovery, adversarial validation, and structured reporting. | 3103 | 2026-08-27 |
 | [katrielmoses/mailaccess](https://github.com/katrielmoses/mailaccess) ⭐ | Security Tooling | `osint` `cybersecurity` `automation` `privacy` `infosec` | A comprehensive, self-hostable OSINT and email reconnaissance platform that aggregates data from over 2,500 sources to provide identity clustering, breach detection, and risk scoring. | 851 | 2026-08-27 |
