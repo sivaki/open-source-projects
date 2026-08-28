@@ -35169,5 +35169,48 @@
       "AI detector",
       "writing assistant"
     ]
+  },
+  "github:stablyai/orca": {
+    "capability_summary": "An AI-native IDE that orchestrates multiple parallel coding agents across isolated git worktrees. It is designed for developers who need to manage complex coding tasks with deep integration into existing dev workflows.",
+    "problem_solved": "Managing complex, multi-agent coding workflows and context switching in large codebases.",
+    "use_cases": [
+      "automated coding tasks",
+      "multi-agent orchestration",
+      "git worktree management",
+      "remote SSH development"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "cursor-agent",
+      "claude-code"
+    ]
+  },
+  "github:yifanfeng97/hyper-extract": {
+    "capability_summary": "A CLI and Python framework that utilizes LLMs to convert unstructured text into structured knowledge graphs and hypergraphs. It is intended for data engineers and researchers building RAG pipelines.",
+    "problem_solved": "Extracting structured relational data from unstructured text for knowledge graph construction.",
+    "use_cases": [
+      "knowledge graph generation",
+      "unstructured data extraction",
+      "RAG pipeline development",
+      "hypergraph modeling"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "knowledge-graph-builder",
+      "LLM-data-pipeline"
+    ]
   }
 }
