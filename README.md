@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 130 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 136 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [danilo-znamerovszkij/draw-your-font](https://github.com/danilo-znamerovszkij/draw-your-font) ⭐ | Developer Tools | `cli` `fonts` `automation` `node` `local-first` | A local-first Node.js CLI tool that converts photos of handwriting into professional-grade TTF/WOFF2 fonts using potrace for vectorization and optional Claude Code integration for labeling. | 664 | 2026-08-28 |
+| [tabularisdb/tabularis](https://github.com/tabularisdb/tabularis) ⭐ | Database Tooling | `sql` `database` `mcp` `ai-agent` `tauri` `typescript` | A modern, open-source cross-platform SQL workspace that supports a wide range of databases and includes built-in MCP server capabilities for AI agent integration. | 4345 | 2026-08-28 |
+| [vectifyai/openkb](https://github.com/vectifyai/openkb) ⭐ | AI/LLM Tooling | `llm` `rag` `knowledge-base` `cli` `automation` | OpenKB is a CLI-based knowledge management system that compiles documents into a structured, interlinked wiki using LLMs, offering a vectorless alternative to traditional RAG. | 3954 | 2026-08-28 |
+| [martin-olivier/airgorah](https://github.com/martin-olivier/airgorah) ⭐ | security tooling | `wifi` `security` `rust` `linux` `networking` | A Rust-based GUI tool for WiFi security auditing that leverages the aircrack-ng suite for packet capture and network analysis. | 1339 | 2026-08-28 |
+| [smaug6739/alexandrie](https://github.com/smaug6739/alexandrie) ⭐ | Self-hosting | `knowledge-base` `self-hosted` `markdown` `docker` `productivity` | A robust, self-hosted knowledge management platform that serves as a privacy-focused alternative to Notion and Obsidian, featuring multi-tenancy, OIDC support, and S3-compatible storage. | 2435 | 2026-08-28 |
+| [agents365-ai/drawio-skill](https://github.com/agents365-ai/drawio-skill) ⭐ | Developer Tools | `automation` `diagramming` `llm-tooling` `architecture` `devops` | A powerful agent-based tool that converts natural language, codebases, and infrastructure configurations into professional, editable draw.io diagrams. | 8137 | 2026-08-28 |
 | [clucraft/priceghost](https://github.com/clucraft/priceghost) ⭐ | automation | `self-hosted` `automation` `web-scraping` `typescript` `price-tracking` | A self-hosted price tracking application that uses a multi-strategy extraction system, including AI-assisted verification, to reliably monitor product prices across various e-commerce sites. | 993 | 2026-08-28 |
 | [yifanfeng97/hyper-extract](https://github.com/yifanfeng97/hyper-extract) ⭐ | AI/LLM Tooling | `llm` `knowledge-graph` `cli` `rag` `data-pipeline` | A powerful CLI and Python framework for transforming unstructured text into structured knowledge graphs and hypergraphs using LLMs. | 3515 | 2026-08-28 |
 | [stablyai/orca](https://github.com/stablyai/orca) ⭐ | Developer Tools | `ai-agents` `ide` `cli` `automation` `git` | Orca is an AI-native IDE designed for orchestrating multiple parallel coding agents across isolated git worktrees, featuring deep integration with GitHub, Linear, and remote SSH environments. | 55278 | 2026-08-28 |
