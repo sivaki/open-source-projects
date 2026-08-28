@@ -35212,5 +35212,83 @@
       "knowledge-graph-builder",
       "LLM-data-pipeline"
     ]
+  },
+  "github:agents365-ai/drawio-skill": {
+    "capability_summary": "An agent-based tool that transforms natural language, code, or infrastructure configs into editable draw.io diagrams. Designed for developers and architects.",
+    "problem_solved": "Automating the creation of technical diagrams from text or code.",
+    "use_cases": [
+      "architecture-diagrams",
+      "flowcharts",
+      "uml-generation",
+      "network-topology"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "diagram-generator",
+      "llm-diagramming"
+    ]
+  },
+  "github:vectifyai/openkb": {
+    "capability_summary": "A CLI-based knowledge management system that uses LLMs to compile documents into a structured wiki. It provides a vectorless alternative to standard RAG systems.",
+    "problem_solved": "Managing and structuring large document collections into a searchable knowledge base.",
+    "use_cases": [
+      "knowledge-management",
+      "wiki-compilation",
+      "document-indexing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "rag-alternative",
+      "knowledge-base-builder"
+    ]
+  },
+  "github:tabularisdb/tabularis": {
+    "capability_summary": "A cross-platform SQL workspace for managing multiple database types with built-in MCP server support for AI agents. Built for developers needing a modern GUI database client.",
+    "problem_solved": "Managing and querying multiple SQL databases within a single unified interface.",
+    "use_cases": [
+      "sql-editing",
+      "database-management",
+      "visual-query-building",
+      "ai-database-integration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "sql-client",
+      "database-gui"
+    ]
+  },
+  "github:danilo-znamerovszkij/draw-your-font": {
+    "capability_summary": "A Node.js CLI tool that converts handwriting photos into professional TTF or WOFF2 font files. It uses potrace for vectorization and supports AI-assisted labeling.",
+    "problem_solved": "Creating custom digital fonts from handwritten samples.",
+    "use_cases": [
+      "font-creation",
+      "handwriting-digitization",
+      "vector-graphics"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "font-generator",
+      "handwriting-to-font"
+    ]
   }
 }
