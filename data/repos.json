@@ -5990,5 +5990,57 @@
     "pushed_at": "2026-05-06T12:57:45Z",
     "license": null,
     "topics": []
+  },
+  {
+    "id": "github:ministackorg/ministack",
+    "url": "https://github.com/ministackorg/ministack",
+    "title": "ministackorg/ministack",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2093625454712291443",
+    "fetched_at": "2026-08-29T13:41:46.449763Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A lightweight, MIT-licensed alternative to LocalStack that provides a local AWS emulator for development and CI/CD pipelines.",
+    "category": "Developer Tools",
+    "tags": [
+      "aws",
+      "emulator",
+      "devops",
+      "testing",
+      "docker"
+    ],
+    "risk_notes": "Can be installed via pip or Docker. Running via Docker with -v /var/run/docker.sock allows the container to manage other containers on the host, which is a significant privilege. It is designed for local development and testing environments, not production exposure.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2026-03-24T22:27:58Z",
+      "homepage": "https://ministack.org"
+    },
+    "added_at": "2026-08-29T13:41:54.724981Z",
+    "stars": 4170,
+    "language": "Python",
+    "pushed_at": "2026-08-28T21:47:01Z",
+    "license": "MIT",
+    "topics": [
+      "aws",
+      "aws-emulator",
+      "aws-local",
+      "aws-sdk",
+      "devtools",
+      "docker",
+      "dynamodb",
+      "ec2",
+      "emulator",
+      "lambda",
+      "localstack",
+      "localstack-alternative",
+      "ministack",
+      "mock-aws",
+      "open-source",
+      "python",
+      "s3",
+      "sqs",
+      "terraform"
+    ]
   }
 ]
