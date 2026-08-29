@@ -5926,5 +5926,69 @@
     "pushed_at": "2026-08-15T17:17:40Z",
     "license": "GPL-3.0",
     "topics": []
+  },
+  {
+    "id": "github:zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "title": "zhaoxuya520/reverse-skill",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2093534691345183018",
+    "fetched_at": "2026-08-29T06:16:15.577382Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A structured framework for AI agents to perform reverse engineering and penetration testing tasks by providing standardized routing, toolchain bootstrapping, and workflow playbooks.",
+    "category": "Security Tooling",
+    "tags": [
+      "security",
+      "ai-agents",
+      "reverse-engineering",
+      "automation",
+      "pentesting"
+    ],
+    "risk_notes": "Requires cloning the repository and executing local PowerShell or Bash scripts to index tools. The project acts as a wrapper for powerful security tools (IDA, Frida, Ghidra, etc.) and will execute commands on your system based on AI agent instructions. It requires Java, Node.js, and Python environments. Users should exercise caution when allowing AI agents to execute automated scripts against binaries or network targets.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 18,
+      "created_at": "2026-05-13T14:37:57Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-29T06:16:21.839173Z",
+    "stars": 30186,
+    "language": "PowerShell",
+    "pushed_at": "2026-08-26T16:10:43Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:gregorojstersek/resources-to-become-a-great-engineering-leader",
+    "url": "https://github.com/gregorojstersek/resources-to-become-a-great-engineering-leader",
+    "title": "gregorojstersek/resources-to-become-a-great-engineering-leader",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2093461890932363755",
+    "fetched_at": "2026-08-29T06:16:15.577559Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A curated list of books, blogs, and newsletters focused on engineering leadership and system design.",
+    "category": "Learning Resources",
+    "tags": [
+      "career",
+      "leadership",
+      "engineering",
+      "system-design",
+      "management"
+    ],
+    "risk_notes": "This is a static documentation repository containing only links. There is no code to execute, install, or run, so there are no security risks associated with the repository itself.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2024-01-16T09:59:06Z",
+      "homepage": ""
+    },
+    "added_at": "2026-08-29T06:16:28.320322Z",
+    "stars": 7413,
+    "language": null,
+    "pushed_at": "2026-05-06T12:57:45Z",
+    "license": null,
+    "topics": []
   }
 ]
