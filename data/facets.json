@@ -35290,5 +35290,26 @@
       "font-generator",
       "handwriting-to-font"
     ]
+  },
+  "github:zhaoxuya520/reverse-skill": {
+    "capability_summary": "A framework for AI agents to automate reverse engineering and penetration testing workflows. It provides standardized toolchain bootstrapping and task routing for security professionals.",
+    "problem_solved": "Automating complex reverse engineering and pentesting tasks using AI agents.",
+    "use_cases": [
+      "automated penetration testing",
+      "reverse engineering workflows",
+      "AI agent toolchain management"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "linux",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "security automation framework",
+      "AI pentesting agent"
+    ]
   }
 }
