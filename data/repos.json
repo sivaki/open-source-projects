@@ -6042,5 +6042,37 @@
       "sqs",
       "terraform"
     ]
+  },
+  {
+    "id": "github:zubair-trabzada/geo-seo-claude",
+    "url": "https://github.com/zubair-trabzada/geo-seo-claude",
+    "title": "zubair-trabzada/geo-seo-claude",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2093746435300765901",
+    "fetched_at": "2026-08-29T19:17:09.693133Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized skill set for the Claude Code CLI that automates Generative Engine Optimization (GEO) and SEO audits, helping websites optimize for AI-powered search results.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "seo",
+      "claude",
+      "automation",
+      "ai-search",
+      "developer-tools"
+    ],
+    "risk_notes": "Uses a 'curl | bash' installation method which is inherently risky; users should inspect the install script before execution. It requires the Claude Code CLI and operates by scanning websites, which involves network access. It installs dependencies into a local virtual environment (~/.claude/skills/geo/.venv/), which is a good practice for isolation, but it does not require root privileges.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 24,
+      "created_at": "2026-02-18T09:01:07Z",
+      "homepage": "https://www.skool.com/aiworkshop"
+    },
+    "added_at": "2026-08-29T19:17:16.446453Z",
+    "stars": 9549,
+    "language": "Python",
+    "pushed_at": "2026-08-29T06:35:10Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
