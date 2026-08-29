@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 138 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 139 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) ⭐ | AI/LLM Tooling | `seo` `claude` `automation` `ai-search` `developer-tools` | A specialized skill set for the Claude Code CLI that automates Generative Engine Optimization (GEO) and SEO audits, helping websites optimize for AI-powered search results. | 9549 | 2026-08-29 |
 | [ministackorg/ministack](https://github.com/ministackorg/ministack) ⭐ | Developer Tools | `aws` `emulator` `devops` `testing` `docker` | A lightweight, MIT-licensed alternative to LocalStack that provides a local AWS emulator for development and CI/CD pipelines. | 4170 | 2026-08-29 |
 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) ⭐ | Security Tooling | `security` `ai-agents` `reverse-engineering` `automation` `pentesting` | A structured framework for AI agents to perform reverse engineering and penetration testing tasks by providing standardized routing, toolchain bootstrapping, and workflow playbooks. | 30186 | 2026-08-29 |
 | [danilo-znamerovszkij/draw-your-font](https://github.com/danilo-znamerovszkij/draw-your-font) ⭐ | Developer Tools | `cli` `fonts` `automation` `node` `local-first` | A local-first Node.js CLI tool that converts photos of handwriting into professional-grade TTF/WOFF2 fonts using potrace for vectorization and optional Claude Code integration for labeling. | 664 | 2026-08-28 |
