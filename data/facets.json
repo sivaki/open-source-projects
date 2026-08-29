@@ -35311,5 +35311,25 @@
       "security automation framework",
       "AI pentesting agent"
     ]
+  },
+  "github:zubair-trabzada/geo-seo-claude": {
+    "capability_summary": "An automation tool for Claude Code CLI that performs SEO and Generative Engine Optimization audits. It helps developers and marketers improve website visibility in AI-driven search results.",
+    "problem_solved": "Optimizing websites for AI-powered search engines and automated SEO auditing.",
+    "use_cases": [
+      "SEO auditing",
+      "Generative Engine Optimization",
+      "AI search visibility",
+      "Automated website analysis"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code plugin",
+      "AI SEO tool"
+    ]
   }
 }
