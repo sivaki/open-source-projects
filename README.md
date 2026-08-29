@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 136 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 137 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) ⭐ | Security Tooling | `security` `ai-agents` `reverse-engineering` `automation` `pentesting` | A structured framework for AI agents to perform reverse engineering and penetration testing tasks by providing standardized routing, toolchain bootstrapping, and workflow playbooks. | 30186 | 2026-08-29 |
 | [danilo-znamerovszkij/draw-your-font](https://github.com/danilo-znamerovszkij/draw-your-font) ⭐ | Developer Tools | `cli` `fonts` `automation` `node` `local-first` | A local-first Node.js CLI tool that converts photos of handwriting into professional-grade TTF/WOFF2 fonts using potrace for vectorization and optional Claude Code integration for labeling. | 664 | 2026-08-28 |
 | [tabularisdb/tabularis](https://github.com/tabularisdb/tabularis) ⭐ | Database Tooling | `sql` `database` `mcp` `ai-agent` `tauri` `typescript` | A modern, open-source cross-platform SQL workspace that supports a wide range of databases and includes built-in MCP server capabilities for AI agent integration. | 4345 | 2026-08-28 |
 | [vectifyai/openkb](https://github.com/vectifyai/openkb) ⭐ | AI/LLM Tooling | `llm` `rag` `knowledge-base` `cli` `automation` | OpenKB is a CLI-based knowledge management system that compiles documents into a structured, interlinked wiki using LLMs, offering a vectorless alternative to traditional RAG. | 3954 | 2026-08-28 |
