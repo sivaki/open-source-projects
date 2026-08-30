@@ -35331,5 +35331,83 @@
       "Claude Code plugin",
       "AI SEO tool"
     ]
+  },
+  "github:francescopace/espectre": {
+    "capability_summary": "A privacy-focused motion detection system using Wi-Fi CSI on ESP32 hardware. It integrates with Home Assistant for non-visual movement tracking.",
+    "problem_solved": "Detecting motion without using cameras or microphones.",
+    "use_cases": [
+      "home automation",
+      "privacy-focused security",
+      "iot sensing"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "esphome",
+      "home-assistant-plugin"
+    ]
+  },
+  "github:makazhanalpamys/soup": {
+    "capability_summary": "A CLI tool for fine-tuning LLMs locally on consumer hardware. It uses layer streaming to optimize VRAM usage during training.",
+    "problem_solved": "Fine-tuning large language models on hardware with limited VRAM.",
+    "use_cases": [
+      "llm fine-tuning",
+      "local ai training",
+      "machine learning"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llm-trainer",
+      "local-llm-ops"
+    ]
+  },
+  "github:apurvsinghgautam/robin": {
+    "capability_summary": "An AI-powered OSINT tool that automates dark web investigation workflows. It combines LLMs with scraping and search capabilities via a web interface.",
+    "problem_solved": "Automating the investigation and analysis of dark web content.",
+    "use_cases": [
+      "osint investigation",
+      "dark web monitoring",
+      "security research"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "osint-tool",
+      "darkweb-scanner"
+    ]
+  },
+  "github:bhimrazy/receipt-ocr": {
+    "capability_summary": "A Python-based OCR engine that extracts text from receipts using Tesseract and parses structured data using LLMs.",
+    "problem_solved": "Automating the extraction of structured data from receipt images.",
+    "use_cases": [
+      "invoice processing",
+      "data extraction",
+      "ocr automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "invoice-parser",
+      "ocr-engine"
+    ]
   }
 }
