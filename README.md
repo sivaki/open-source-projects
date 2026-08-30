@@ -1,11 +1,18 @@
 # Curated Repos
 
-Auto-generated list of 139 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 146 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [gridex/gridex](https://github.com/gridex/gridex) ⭐ | Developer Tools | `database` `ide` `mcp` `ai` `sql` `nosql` | A high-performance, native database IDE that supports multiple SQL and NoSQL engines with built-in AI integration and an MCP server for LLM-assisted database management. | 974 | 2026-08-30 |
+| [k-dense-ai/claude-scientific-skills](https://github.com/k-dense-ai/claude-scientific-skills) ⭐ | AI/LLM Tooling | `ai-agents` `bioinformatics` `cheminformatics` `scientific-computing` `automation` | A comprehensive library of 160+ specialized scientific skills and database connectors designed to augment AI agents for complex research workflows in biology, chemistry, and medicine. | 38050 | 2026-08-30 |
+| [bhimrazy/receipt-ocr](https://github.com/bhimrazy/receipt-ocr) ⭐ | automation | `ocr` `llm` `automation` `data-extraction` `python` | A Python-based OCR engine that provides both local Tesseract-based text extraction and LLM-powered structured data parsing for receipts. | 460 | 2026-08-30 |
+| [apurvsinghgautam/robin](https://github.com/apurvsinghgautam/robin) ⭐ | Security/OSINT | `osint` `ai` `llm` `darkweb` `automation` `security` | Robin is an AI-powered OSINT tool designed for investigating dark web content by integrating LLMs with search and scraping workflows, featuring a Streamlit-based UI. | 6628 | 2026-08-30 |
+| [khazp/vibe-coding-prompt-template](https://github.com/khazp/vibe-coding-prompt-template) ⭐ | AI/LLM Tooling | `ai-agents` `prompt-engineering` `developer-tools` `workflow-automation` `mvp` | A structured framework and CLI tool for AI-assisted software development, providing standardized prompts and workflows for generating PRDs, technical designs, and project scaffolding. | 2894 | 2026-08-30 |
+| [makazhanalpamys/soup](https://github.com/makazhanalpamys/soup) ⭐ | AI/LLM Tooling | `llm` `fine-tuning` `cli` `machine-learning` `pytorch` | Soup is a high-performance CLI tool for fine-tuning LLMs locally, featuring innovative layer streaming that allows training large models on consumer-grade hardware with low VRAM. | 3629 | 2026-08-30 |
+| [francescopace/espectre](https://github.com/francescopace/espectre) ⭐ | Home Automation | `home-assistant` `esphome` `esp32` `privacy` `iot` `automation` | ESPectre is a privacy-focused motion detection system that leverages Wi-Fi Channel State Information (CSI) on ESP32 hardware to detect movement without cameras or microphones, integrating natively with Home Assistant via ESPHome. | 9184 | 2026-08-30 |
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) ⭐ | AI/LLM Tooling | `seo` `claude` `automation` `ai-search` `developer-tools` | A specialized skill set for the Claude Code CLI that automates Generative Engine Optimization (GEO) and SEO audits, helping websites optimize for AI-powered search results. | 9549 | 2026-08-29 |
 | [ministackorg/ministack](https://github.com/ministackorg/ministack) ⭐ | Developer Tools | `aws` `emulator` `devops` `testing` `docker` | A lightweight, MIT-licensed alternative to LocalStack that provides a local AWS emulator for development and CI/CD pipelines. | 4170 | 2026-08-29 |
 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) ⭐ | Security Tooling | `security` `ai-agents` `reverse-engineering` `automation` `pentesting` | A structured framework for AI agents to perform reverse engineering and penetration testing tasks by providing standardized routing, toolchain bootstrapping, and workflow playbooks. | 30186 | 2026-08-29 |
