@@ -35409,5 +35409,48 @@
       "invoice-parser",
       "ocr-engine"
     ]
+  },
+  "github:mco-org/squad": {
+    "capability_summary": "A Rust-based CLI tool that facilitates multi-AI agent collaboration using a local SQLite database as a message bus.",
+    "problem_solved": "Enables communication and coordination between multiple AI agents across terminal sessions.",
+    "use_cases": [
+      "multi-agent orchestration",
+      "ai automation",
+      "terminal-based agent workflows"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "multi-agent framework",
+      "ai agent bus"
+    ]
+  },
+  "github:inkeep/open-knowledge": {
+    "capability_summary": "An AI-native markdown IDE designed as a local-first knowledge base with support for MCP and agentic workflows.",
+    "problem_solved": "Provides a structured, AI-integrated environment for managing personal knowledge and documentation.",
+    "use_cases": [
+      "knowledge management",
+      "markdown editing",
+      "second brain",
+      "agentic documentation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "pkm tool",
+      "ai markdown editor",
+      "obsidian alternative"
+    ]
   }
 }
