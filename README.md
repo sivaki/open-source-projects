@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 146 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 152 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [fareedkhan-dev/all-agentic-architectures](https://github.com/fareedkhan-dev/all-agentic-architectures) ⭐ | AI/LLM Tooling | `ai-agents` `langgraph` `llm` `automation` `python` | A comprehensive library and educational resource providing 35 production-grade agentic AI architectures, implemented with a uniform interface for easy experimentation and benchmarking. | 4172 | 2026-08-30 |
+| [drivebase/drivebase](https://github.com/drivebase/drivebase) ⭐ | self-hosting | `self-hosted` `file-management` `storage` `docker` `cloud-storage` | A self-hosted, cloud-agnostic file management platform that unifies multiple storage providers like S3, Google Drive, and local files under a desktop-like web interface. | 461 | 2026-08-30 |
+| [caamer20/telegram-drive](https://github.com/caamer20/telegram-drive) ⭐ | Developer Tools | `telegram` `tauri` `rust` `cloud-storage` `productivity` | A cross-platform desktop application that leverages Telegram's infrastructure to provide a local-first file management and cloud storage interface. | 4881 | 2026-08-30 |
+| [inkeep/open-knowledge](https://github.com/inkeep/open-knowledge) ⭐ | Developer Tools | `markdown` `llm` `knowledge-management` `agentic` `pkm` `mcp` | A powerful, AI-native markdown IDE that functions as a local-first knowledge base, supporting MCP and agentic workflows for managing documentation and second brains. | 3711 | 2026-08-30 |
+| [certimate-go/certimate](https://github.com/certimate-go/certimate) ⭐ | DevOps / Security | `ssl` `acme` `automation` `self-hosted` `devops` `security` | A self-hosted, lightweight ACME client that automates the issuance, renewal, and deployment of SSL certificates across a wide variety of cloud providers and infrastructure. | 9104 | 2026-08-30 |
+| [mco-org/squad](https://github.com/mco-org/squad) ⭐ | AI/LLM Tooling | `ai` `cli` `automation` `rust` `multi-agent` | A Rust-based CLI tool that enables multi-AI agent collaboration by using a local SQLite database as a message bus between terminal sessions. | 651 | 2026-08-30 |
 | [gridex/gridex](https://github.com/gridex/gridex) ⭐ | Developer Tools | `database` `ide` `mcp` `ai` `sql` `nosql` | A high-performance, native database IDE that supports multiple SQL and NoSQL engines with built-in AI integration and an MCP server for LLM-assisted database management. | 974 | 2026-08-30 |
 | [k-dense-ai/claude-scientific-skills](https://github.com/k-dense-ai/claude-scientific-skills) ⭐ | AI/LLM Tooling | `ai-agents` `bioinformatics` `cheminformatics` `scientific-computing` `automation` | A comprehensive library of 160+ specialized scientific skills and database connectors designed to augment AI agents for complex research workflows in biology, chemistry, and medicine. | 38050 | 2026-08-30 |
 | [bhimrazy/receipt-ocr](https://github.com/bhimrazy/receipt-ocr) ⭐ | automation | `ocr` `llm` `automation` `data-extraction` `python` | A Python-based OCR engine that provides both local Tesseract-based text extraction and LLM-powered structured data parsing for receipts. | 460 | 2026-08-30 |
