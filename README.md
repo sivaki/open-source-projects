@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 152 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 154 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [david-crty/databasement](https://github.com/david-crty/databasement) ⭐ | self-hosting | `backup` `database` `automation` `self-hosted` `devops` | A comprehensive, self-hosted database backup management platform with a web UI, supporting multiple database engines, remote agents, and various storage backends. | 2058 | 2026-08-30 |
+| [omkarcloud/google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper) ⭐ | automation | `scraping` `automation` `lead-generation` `data-pipeline` `api` | A popular desktop-based Google Maps scraping and lead generation tool that provides a GUI and API for extracting business data, including contact information and social profiles. | 3170 | 2026-08-30 |
 | [fareedkhan-dev/all-agentic-architectures](https://github.com/fareedkhan-dev/all-agentic-architectures) ⭐ | AI/LLM Tooling | `ai-agents` `langgraph` `llm` `automation` `python` | A comprehensive library and educational resource providing 35 production-grade agentic AI architectures, implemented with a uniform interface for easy experimentation and benchmarking. | 4172 | 2026-08-30 |
 | [drivebase/drivebase](https://github.com/drivebase/drivebase) ⭐ | self-hosting | `self-hosted` `file-management` `storage` `docker` `cloud-storage` | A self-hosted, cloud-agnostic file management platform that unifies multiple storage providers like S3, Google Drive, and local files under a desktop-like web interface. | 461 | 2026-08-30 |
 | [caamer20/telegram-drive](https://github.com/caamer20/telegram-drive) ⭐ | Developer Tools | `telegram` `tauri` `rust` `cloud-storage` `productivity` | A cross-platform desktop application that leverages Telegram's infrastructure to provide a local-first file management and cloud storage interface. | 4881 | 2026-08-30 |
