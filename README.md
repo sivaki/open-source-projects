@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 154 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 157 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [debpalash/voicestudio](https://github.com/debpalash/voicestudio) ⭐ | AI/LLM Tooling | `ai` `tts` `voice-cloning` `local-first` `automation` | A powerful, local-first desktop application for voice cloning, text-to-speech, and video dubbing that serves as an open-source alternative to ElevenLabs. | 12185 | 2026-08-31 |
+| [mukul975/anthropic-cybersecurity-skills](https://github.com/mukul975/anthropic-cybersecurity-skills) ⭐ | AI/Security Tooling | `ai-agents` `cybersecurity` `devsecops` `llm` `threat-intelligence` | A comprehensive, structured library of 800+ cybersecurity skills mapped to major industry frameworks (MITRE ATT&CK, NIST CSF, etc.) designed to be ingested by AI agents for security automation and analysis. | 31738 | 2026-08-31 |
+| [tableproapp/tablepro](https://github.com/tableproapp/tablepro) ⭐ | Developer Tools | `database` `macos` `swift` `sql` `gui` `productivity` | A high-performance, native database client for macOS that supports multiple SQL and NoSQL engines without the overhead of Electron or JVM. | 5613 | 2026-08-31 |
 | [david-crty/databasement](https://github.com/david-crty/databasement) ⭐ | self-hosting | `backup` `database` `automation` `self-hosted` `devops` | A comprehensive, self-hosted database backup management platform with a web UI, supporting multiple database engines, remote agents, and various storage backends. | 2058 | 2026-08-30 |
 | [omkarcloud/google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper) ⭐ | automation | `scraping` `automation` `lead-generation` `data-pipeline` `api` | A popular desktop-based Google Maps scraping and lead generation tool that provides a GUI and API for extracting business data, including contact information and social profiles. | 3170 | 2026-08-30 |
 | [fareedkhan-dev/all-agentic-architectures](https://github.com/fareedkhan-dev/all-agentic-architectures) ⭐ | AI/LLM Tooling | `ai-agents` `langgraph` `llm` `automation` `python` | A comprehensive library and educational resource providing 35 production-grade agentic AI architectures, implemented with a uniform interface for easy experimentation and benchmarking. | 4172 | 2026-08-30 |
