@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 157 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 160 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [fujiapple852/trippy](https://github.com/fujiapple852/trippy) ⭐ | Networking | `networking` `cli` `tui` `rust` `diagnostics` | Trippy is a high-performance, TUI-based network diagnostic tool that combines the functionality of traceroute and ping into a single, interactive interface. | 7652 | 2026-08-31 |
+| [kernalix7/winpodx](https://github.com/kernalix7/winpodx) ⭐ | Developer Tools | `linux` `windows` `virtualization` `automation` `containers` | WinPodX provides a seamless way to run Windows applications as native-feeling Linux windows by leveraging KVM-backed containers and FreeRDP RemoteApp. | 1863 | 2026-08-31 |
+| [elementalsouls/claude-osint](https://github.com/elementalsouls/claude-osint) ⭐ | Security Tooling | `osint` `claude` `red-teaming` `automation` `security` | A comprehensive library of structured 'skills' for Claude Code, providing expert-level methodology and automation for offensive OSINT, attack surface mapping, and risk quantification. | 2377 | 2026-08-31 |
 | [debpalash/voicestudio](https://github.com/debpalash/voicestudio) ⭐ | AI/LLM Tooling | `ai` `tts` `voice-cloning` `local-first` `automation` | A powerful, local-first desktop application for voice cloning, text-to-speech, and video dubbing that serves as an open-source alternative to ElevenLabs. | 12185 | 2026-08-31 |
 | [mukul975/anthropic-cybersecurity-skills](https://github.com/mukul975/anthropic-cybersecurity-skills) ⭐ | AI/Security Tooling | `ai-agents` `cybersecurity` `devsecops` `llm` `threat-intelligence` | A comprehensive, structured library of 800+ cybersecurity skills mapped to major industry frameworks (MITRE ATT&CK, NIST CSF, etc.) designed to be ingested by AI agents for security automation and analysis. | 31738 | 2026-08-31 |
 | [tableproapp/tablepro](https://github.com/tableproapp/tablepro) ⭐ | Developer Tools | `database` `macos` `swift` `sql` `gui` `productivity` | A high-performance, native database client for macOS that supports multiple SQL and NoSQL engines without the overhead of Electron or JVM. | 5613 | 2026-08-31 |
