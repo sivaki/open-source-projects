@@ -35511,5 +35511,47 @@
       "ElevenLabs alternative",
       "voice AI"
     ]
+  },
+  "github:elementalsouls/claude-osint": {
+    "capability_summary": "A library of automated skills for Claude Code designed for offensive OSINT, attack surface mapping, and risk assessment. It is intended for security professionals and red teamers.",
+    "problem_solved": "Automating complex security reconnaissance and OSINT workflows using AI agents.",
+    "use_cases": [
+      "offensive osint",
+      "attack surface mapping",
+      "risk quantification",
+      "red teaming automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skills",
+      "security-automation"
+    ]
+  },
+  "github:kernalix7/winpodx": {
+    "capability_summary": "A tool that enables running Windows applications as native windows on Linux by using KVM-backed containers and FreeRDP. It is built for Linux users who need to run Windows software.",
+    "problem_solved": "Running Windows applications on Linux without a full virtual machine desktop environment.",
+    "use_cases": [
+      "windows app compatibility",
+      "linux virtualization",
+      "containerized desktop apps"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "remoteapp-linux",
+      "wine-alternative"
+    ]
   }
 }
