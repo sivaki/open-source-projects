@@ -35452,5 +35452,64 @@
       "ai markdown editor",
       "obsidian alternative"
     ]
+  },
+  "github:tableproapp/tablepro": {
+    "capability_summary": "A native macOS database client for managing SQL and NoSQL databases with high performance. It is designed for developers who prefer native apps over Electron-based tools.",
+    "problem_solved": "Managing multiple database types on macOS without heavy resource overhead.",
+    "use_cases": [
+      "database management",
+      "sql query execution",
+      "nosql data browsing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "TablePlus alternative",
+      "database GUI"
+    ]
+  },
+  "github:mukul975/anthropic-cybersecurity-skills": {
+    "capability_summary": "A structured library of cybersecurity skills mapped to industry frameworks for use by AI agents. It helps developers build security-focused AI automation tools.",
+    "problem_solved": "Standardizing cybersecurity knowledge for AI agent integration.",
+    "use_cases": [
+      "security automation",
+      "threat intelligence",
+      "incident response",
+      "penetration testing"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cybersecurity dataset",
+      "AI security agent framework"
+    ]
+  },
+  "github:debpalash/voicestudio": {
+    "capability_summary": "A local-first desktop application for voice cloning, text-to-speech, and video dubbing. It provides an open-source alternative to cloud-based voice services.",
+    "problem_solved": "Performing voice synthesis and dubbing locally without relying on paid cloud APIs.",
+    "use_cases": [
+      "voice cloning",
+      "text-to-speech",
+      "video dubbing",
+      "transcription"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ElevenLabs alternative",
+      "voice AI"
+    ]
   }
 }
