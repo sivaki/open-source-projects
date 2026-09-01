@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 161 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 162 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [sentrux/sentrux](https://github.com/sentrux/sentrux) ⭐ | AI/LLM Tooling | `rust` `mcp` `developer-tools` `static-analysis` `ai-agents` | A Rust-based architectural sensor that provides real-time feedback for AI agents, helping prevent codebase degradation by monitoring structural health and dependency graphs via MCP. | 2946 | 2026-09-01 |
 | [ed1s0nz/cyberstrikeai](https://github.com/ed1s0nz/cyberstrikeai) ⭐ | Security Tooling | `ai` `cybersecurity` `pentesting` `mcp` `automation` | An AI-native cybersecurity orchestration platform built in Go that integrates agentic workflows, MCP tools, and attack-chain modeling for authorized security operations. | 6080 | 2026-08-31 |
 | [fujiapple852/trippy](https://github.com/fujiapple852/trippy) ⭐ | Networking | `networking` `cli` `tui` `rust` `diagnostics` | Trippy is a high-performance, TUI-based network diagnostic tool that combines the functionality of traceroute and ping into a single, interactive interface. | 7652 | 2026-08-31 |
 | [kernalix7/winpodx](https://github.com/kernalix7/winpodx) ⭐ | Developer Tools | `linux` `windows` `virtualization` `automation` `containers` | WinPodX provides a seamless way to run Windows applications as native-feeling Linux windows by leveraging KVM-backed containers and FreeRDP RemoteApp. | 1863 | 2026-08-31 |
