@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 164 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 165 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [maxmiksa/auto-company](https://github.com/maxmiksa/auto-company) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `llm` `dev-tools` `autonomous-agents` | An autonomous multi-agent framework that orchestrates 14 specialized AI personas to perform end-to-end product development, coding, and marketing tasks via CLI-based LLM tools. | 2717 | 2026-09-01 |
 | [rahulnyk/knowledge_graph](https://github.com/rahulnyk/knowledge_graph) ⭐ | AI/LLM Tooling | `llm` `knowledge-graph` `rag` `ollama` `data-pipeline` | A practical implementation for building knowledge graphs from text corpora using local LLMs via Ollama, enabling Graph RAG workflows without external API costs. | 3741 | 2026-09-01 |
 | [superlinked/sie](https://github.com/superlinked/sie) ⭐ | AI/LLM Tooling | `llm` `inference` `self-hosted` `mlops` `rag` `agentic` | An open-source, self-hosted inference engine designed to serve a wide variety of models for agentic workflows, including embedding, reranking, OCR, and LLM generation via an OpenAI-compatible API. | 2903 | 2026-09-01 |
 | [sentrux/sentrux](https://github.com/sentrux/sentrux) ⭐ | AI/LLM Tooling | `rust` `mcp` `developer-tools` `static-analysis` `ai-agents` | A Rust-based architectural sensor that provides real-time feedback for AI agents, helping prevent codebase degradation by monitoring structural health and dependency graphs via MCP. | 2946 | 2026-09-01 |
