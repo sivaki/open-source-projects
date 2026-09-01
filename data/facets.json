@@ -35553,5 +35553,51 @@
       "remoteapp-linux",
       "wine-alternative"
     ]
+  },
+  "github:ed1s0nz/cyberstrikeai": {
+    "capability_summary": "An AI-native orchestration platform for security operations that automates attack-chain modeling and pentesting workflows. Designed for security professionals and penetration testers.",
+    "problem_solved": "Automating complex cybersecurity attack chains and security testing.",
+    "use_cases": [
+      "automated pentesting",
+      "security orchestration",
+      "attack chain modeling",
+      "AI-driven security operations"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "cybersecurity AI agent",
+      "pentesting automation tool"
+    ]
+  },
+  "github:sentrux/sentrux": {
+    "capability_summary": "A Rust-based architectural sensor that monitors codebase health and dependency graphs to provide real-time feedback for AI agents. Built for developers maintaining large or legacy codebases.",
+    "problem_solved": "Preventing codebase degradation and structural decay during AI-assisted development.",
+    "use_cases": [
+      "static analysis",
+      "codebase health monitoring",
+      "dependency graph visualization",
+      "AI agent feedback loop"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "codebase structural sensor",
+      "AI developer tool"
+    ]
   }
 }
