@@ -7084,5 +7084,50 @@
       "mcp",
       "pentesting-tools"
     ]
+  },
+  {
+    "id": "github:sentrux/sentrux",
+    "url": "https://github.com/sentrux/sentrux",
+    "title": "sentrux/sentrux",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2094630422810366406",
+    "fetched_at": "2026-09-01T04:13:07.024013Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A Rust-based architectural sensor that provides real-time feedback for AI agents, helping prevent codebase degradation by monitoring structural health and dependency graphs via MCP.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "rust",
+      "mcp",
+      "developer-tools",
+      "static-analysis",
+      "ai-agents"
+    ],
+    "risk_notes": "Installs via brew or a curl-to-shell script. It requires read access to your local filesystem to analyze code structure. As an MCP server, it exposes your project's architectural metadata to your AI agent, which is a standard security trade-off for this type of integration. The project is actively maintained and written in memory-safe Rust.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 34,
+      "created_at": "2026-03-11T20:01:43Z",
+      "homepage": "https://sentrux.dev"
+    },
+    "added_at": "2026-09-01T04:13:18.164062Z",
+    "stars": 2946,
+    "language": "Rust",
+    "pushed_at": "2026-03-19T02:23:12Z",
+    "license": "MIT",
+    "topics": [
+      "agentharness",
+      "architecture",
+      "cobol",
+      "cobol-language",
+      "code-quality",
+      "developer-tools",
+      "harnessengineering",
+      "mcp",
+      "rust",
+      "static-analysis",
+      "treemap",
+      "visualization"
+    ]
   }
 ]
