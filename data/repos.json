@@ -7215,5 +7215,37 @@
     "pushed_at": "2026-08-15T04:41:44Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:maxmiksa/auto-company",
+    "url": "https://github.com/maxmiksa/auto-company",
+    "title": "maxmiksa/auto-company",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2094842101276066225",
+    "fetched_at": "2026-09-01T19:16:24.744534Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An autonomous multi-agent framework that orchestrates 14 specialized AI personas to perform end-to-end product development, coding, and marketing tasks via CLI-based LLM tools.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "llm",
+      "dev-tools",
+      "autonomous-agents"
+    ],
+    "risk_notes": "Requires significant API access (Claude Code/Codex CLI) and executes arbitrary code on the host machine. It operates as a daemon (systemd/launchd) with full filesystem access to the project directory. Users should strictly sandbox this environment, as the agents have the capability to write and execute code autonomously.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2026-02-12T22:13:37Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-01T19:16:31.383392Z",
+    "stars": 2717,
+    "language": "Python",
+    "pushed_at": "2026-05-20T15:53:06Z",
+    "license": null,
+    "topics": []
   }
 ]
