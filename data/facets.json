@@ -35699,5 +35699,47 @@
       "claude-code-skills",
       "security-automation"
     ]
+  },
+  "github:vincentwei1021/video-shotcraft": {
+    "capability_summary": "An AI agent skill for Claude Code that automates cinematic product video generation using Remotion templates. Designed for motion designers and developers.",
+    "problem_solved": "Automating the creation of professional motion graphics and product videos via AI.",
+    "use_cases": [
+      "automated video production",
+      "motion design",
+      "product promo videos",
+      "AI agent video generation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "remotion-ai",
+      "claude-code-skills"
+    ]
+  },
+  "github:aprilnea/openlogi": {
+    "capability_summary": "A high-performance, local-first configuration tool for Logitech peripherals. It replaces Logitech Options+ for users who prioritize privacy and offline control.",
+    "problem_solved": "Managing Logitech mouse settings without telemetry or mandatory cloud accounts.",
+    "use_cases": [
+      "mouse remapping",
+      "dpi configuration",
+      "peripheral customization",
+      "privacy-focused hardware control"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "logitech-options-alternative",
+      "mx-master-config"
+    ]
   }
 }
