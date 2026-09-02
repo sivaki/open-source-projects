@@ -35599,5 +35599,45 @@
       "codebase structural sensor",
       "AI developer tool"
     ]
+  },
+  "github:nirdiamant/agent_memory_techniques": {
+    "capability_summary": "A collection of Jupyter notebooks demonstrating memory architectures for LLM agents. It is designed for developers building stateful AI agents.",
+    "problem_solved": "Implementing long-term memory and context retention in LLM applications.",
+    "use_cases": [
+      "vector database integration",
+      "knowledge graph implementation",
+      "episodic memory design",
+      "semantic memory prototyping"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mem0",
+      "memgpt",
+      "zep",
+      "langchain memory"
+    ]
+  },
+  "github:wesammustafa/claude-code-everything-you-need-to-know": {
+    "capability_summary": "A comprehensive documentation and tutorial repository for Anthropic's Claude Code CLI. It helps developers master agentic coding workflows and MCP integration.",
+    "problem_solved": "Learning how to effectively use and configure the Claude Code CLI for automation.",
+    "use_cases": [
+      "agentic coding workflows",
+      "mcp server setup",
+      "prompt engineering",
+      "cli automation"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code guide",
+      "mcp tutorial"
+    ]
   }
 }
