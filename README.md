@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 172 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 175 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [aprilnea/openlogi](https://github.com/aprilnea/openlogi) ⭐ | Developer Tools | `rust` `hid` `automation` `privacy` `peripherals` | A high-performance, local-first alternative to Logitech Options+ written in Rust, offering granular control over Logitech peripherals without telemetry or account requirements. | 18573 | 2026-09-02 |
+| [0xsojalsec/llms-local](https://github.com/0xsojalsec/llms-local) ⭐ | AI/LLM Tooling | `llm` `ai` `self-hosting` `inference` `awesome-list` | A comprehensive, curated list of platforms, inference engines, and tools for running Large Language Models locally. | 1103 | 2026-09-02 |
+| [vincentwei1021/video-shotcraft](https://github.com/vincentwei1021/video-shotcraft) ⭐ | AI/LLM Tooling | `ai-agents` `remotion` `video-production` `automation` `typescript` | A specialized AI agent skill for Claude Code and Codex that automates the creation of cinematic product videos using Remotion, featuring a library of 150+ motion recipe cards and production-ready templates. | 7106 | 2026-09-02 |
 | [elementalsouls/claude-bughunter](https://github.com/elementalsouls/claude-bughunter) ⭐ | AI/LLM Tooling | `ai-security` `bug-bounty` `red-team` `claude-code` `pentesting` | A comprehensive skill bundle for Claude Code that automates bug hunting and red-team workflows using curated vulnerability patterns and attack matrices. | 4068 | 2026-09-02 |
 | [sooryathejas/metatron](https://github.com/sooryathejas/metatron) ⭐ | Security Tooling | `pentesting` `llm` `automation` `security` `cli` | A CLI-based penetration testing assistant that automates reconnaissance using standard tools and analyzes results locally via an Ollama-hosted LLM. | 3747 | 2026-09-02 |
 | [faceplugin-ltd/open-source-face-recognition-sdk](https://github.com/faceplugin-ltd/open-source-face-recognition-sdk) ⭐ | AI/Computer Vision | `ai` `computer-vision` `biometrics` `python` `privacy` | A Python-based, on-premise face recognition SDK that provides tools for face detection, landmark extraction, and similarity comparison. | 2023 | 2026-09-02 |
