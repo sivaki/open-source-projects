@@ -35639,5 +35639,65 @@
       "claude-code guide",
       "mcp tutorial"
     ]
+  },
+  "github:osmantic/ods": {
+    "capability_summary": "A self-hosted AI orchestration platform that integrates LLM inference, RAG, voice processing, and workflow automation.",
+    "problem_solved": "Simplifies deploying and managing a full-stack local AI infrastructure.",
+    "use_cases": [
+      "workflow automation",
+      "speech-to-text",
+      "text-to-speech",
+      "rag pipelines"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "local-ai",
+      "n8n alternative"
+    ]
+  },
+  "github:faceplugin-ltd/open-source-face-recognition-sdk": {
+    "capability_summary": "A Python SDK for on-premise face detection, landmark extraction, and identity verification.",
+    "problem_solved": "Enables private, local face recognition without relying on cloud APIs.",
+    "use_cases": [
+      "biometrics",
+      "identity verification",
+      "face detection"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "computer vision sdk",
+      "face recognition"
+    ]
+  },
+  "github:elementalsouls/claude-bughunter": {
+    "capability_summary": "A skill bundle for Claude Code designed to automate bug hunting and red-team security assessments.",
+    "problem_solved": "Automates the identification of vulnerabilities for bug bounty and penetration testing.",
+    "use_cases": [
+      "bug bounty",
+      "red-teaming",
+      "web security testing",
+      "ethical hacking"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-skills",
+      "security-automation"
+    ]
   }
 }
