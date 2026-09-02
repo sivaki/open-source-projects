@@ -7561,5 +7561,130 @@
       "security-tools",
       "web-security"
     ]
+  },
+  {
+    "id": "github:vincentwei1021/video-shotcraft",
+    "url": "https://github.com/vincentwei1021/video-shotcraft",
+    "title": "vincentwei1021/video-shotcraft",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095204640690147487",
+    "fetched_at": "2026-09-02T19:16:49.461488Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A specialized AI agent skill for Claude Code and Codex that automates the creation of cinematic product videos using Remotion, featuring a library of 150+ motion recipe cards and production-ready templates.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "remotion",
+      "video-production",
+      "automation",
+      "typescript"
+    ],
+    "risk_notes": "Installs via npx or manual symlinking into local agent configuration directories (~/.claude/skills). Requires local Node.js environment and Remotion dependencies. As an agent skill, it executes code to generate video assets; it requires access to your local filesystem and likely API keys for the LLM provider (Claude/Codex) to function.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-07-19T11:44:41Z",
+      "homepage": "https://vincentwei1021.github.io/video-shotcraft/"
+    },
+    "added_at": "2026-09-02T19:16:57.463626Z",
+    "stars": 7106,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-01T18:08:49Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-video",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "motion-design",
+      "motion-graphics",
+      "product-video",
+      "promo-video",
+      "remotion",
+      "video-generation",
+      "video-production"
+    ]
+  },
+  {
+    "id": "github:0xsojalsec/llms-local",
+    "url": "https://github.com/0xsojalsec/llms-local",
+    "title": "0xsojalsec/llms-local",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095174328102892011",
+    "fetched_at": "2026-09-02T19:16:49.461905Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, curated list of platforms, inference engines, and tools for running Large Language Models locally.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "ai",
+      "self-hosting",
+      "inference",
+      "awesome-list"
+    ],
+    "risk_notes": "This is a curated list of links, not software itself. The individual projects listed vary significantly in risk; many require local execution of binaries, access to GPU hardware, and potential network access for model downloads. Users should evaluate each linked project's security posture individually.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2025-12-17T10:04:18Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-02T19:17:05.469025Z",
+    "stars": 1103,
+    "language": null,
+    "pushed_at": "2026-06-10T20:19:16Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:aprilnea/openlogi",
+    "url": "https://github.com/aprilnea/openlogi",
+    "title": "aprilnea/openlogi",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095146405908103263",
+    "fetched_at": "2026-09-02T19:16:49.462260Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, local-first alternative to Logitech Options+ written in Rust, offering granular control over Logitech peripherals without telemetry or account requirements.",
+    "category": "Developer Tools",
+    "tags": [
+      "rust",
+      "hid",
+      "automation",
+      "privacy",
+      "peripherals"
+    ],
+    "risk_notes": "Requires low-level access to HID devices and OS input hooks to function. Installation is via standard package managers (Homebrew) or signed binaries. It does not require network access or cloud accounts, significantly reducing the privacy risk compared to the official software. It is under active development and requires disabling the official Logitech software to avoid conflicts.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 453,
+      "created_at": "2026-05-24T10:10:36Z",
+      "homepage": "https://openlogi.org"
+    },
+    "added_at": "2026-09-02T19:17:13.927400Z",
+    "stars": 18573,
+    "language": "Rust",
+    "pushed_at": "2026-09-01T08:51:46Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "dpi",
+      "gpui",
+      "hid",
+      "hidpp",
+      "local-first",
+      "logitech",
+      "logitech-mouse",
+      "logitech-options",
+      "mouse-remapping",
+      "mx-master",
+      "privacy",
+      "rust",
+      "smartshift"
+    ]
   }
 ]
