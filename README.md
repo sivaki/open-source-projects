@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 168 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 172 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [elementalsouls/claude-bughunter](https://github.com/elementalsouls/claude-bughunter) ⭐ | AI/LLM Tooling | `ai-security` `bug-bounty` `red-team` `claude-code` `pentesting` | A comprehensive skill bundle for Claude Code that automates bug hunting and red-team workflows using curated vulnerability patterns and attack matrices. | 4068 | 2026-09-02 |
+| [sooryathejas/metatron](https://github.com/sooryathejas/metatron) ⭐ | Security Tooling | `pentesting` `llm` `automation` `security` `cli` | A CLI-based penetration testing assistant that automates reconnaissance using standard tools and analyzes results locally via an Ollama-hosted LLM. | 3747 | 2026-09-02 |
+| [faceplugin-ltd/open-source-face-recognition-sdk](https://github.com/faceplugin-ltd/open-source-face-recognition-sdk) ⭐ | AI/Computer Vision | `ai` `computer-vision` `biometrics` `python` `privacy` | A Python-based, on-premise face recognition SDK that provides tools for face detection, landmark extraction, and similarity comparison. | 2023 | 2026-09-02 |
+| [osmantic/ods](https://github.com/osmantic/ods) ⭐ | AI/LLM Tooling | `ai-agents` `self-hosted` `llm` `automation` `docker` `rag` | ODS is a comprehensive, self-hosted AI orchestration platform that bundles LLM inference, RAG, voice, and workflow automation into a single, manageable stack. | 5846 | 2026-09-02 |
 | [eleven-trading/tradenote](https://github.com/eleven-trading/tradenote) ⭐ | Self-hosting | `trading` `finance` `docker` `dashboard` `self-hosted` | TradeNote is an open-source, self-hosted trading journal designed for privacy-conscious traders to track and analyze their trade performance. | 926 | 2026-09-02 |
 | [wesammustafa/claude-code-everything-you-need-to-know](https://github.com/wesammustafa/claude-code-everything-you-need-to-know) ⭐ | Developer Tools | `ai` `cli` `automation` `llm` `documentation` | A comprehensive, high-quality documentation repository for Anthropic's Claude Code CLI, covering setup, agentic workflows, MCP integration, and advanced automation techniques. | 2725 | 2026-09-02 |
 | [nirdiamant/agent_memory_techniques](https://github.com/nirdiamant/agent_memory_techniques) ⭐ | AI/LLM Tooling | `llm` `ai-agents` `rag` `knowledge-graph` `vector-database` | A comprehensive collection of 30 runnable Jupyter notebooks demonstrating various memory architectures for LLM agents, including vector stores, knowledge graphs, and specialized frameworks like MemGPT and Zep. | 950 | 2026-09-02 |
