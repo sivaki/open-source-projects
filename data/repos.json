@@ -7389,5 +7389,177 @@
       "journal",
       "trading"
     ]
+  },
+  {
+    "id": "github:osmantic/ods",
+    "url": "https://github.com/osmantic/ods",
+    "title": "osmantic/ods",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095110200759824694",
+    "fetched_at": "2026-09-02T12:38:28.841937Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "ODS is a comprehensive, self-hosted AI orchestration platform that bundles LLM inference, RAG, voice, and workflow automation into a single, manageable stack.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "self-hosted",
+      "llm",
+      "automation",
+      "docker",
+      "rag"
+    ],
+    "risk_notes": "Installs via curl-to-bash or PowerShell script, which requires careful inspection of the script content before execution. It runs as a Docker-based stack, meaning it requires Docker/WSL2 permissions and will have access to local network ports and potentially mounted filesystem directories for RAG/data processing. It is actively maintained with a focus on release validation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1573,
+      "created_at": "2026-02-09T13:14:58Z",
+      "homepage": "https://discord.gg/qGVygYada3"
+    },
+    "added_at": "2026-09-02T12:38:37.126354Z",
+    "stars": 5846,
+    "language": "Python",
+    "pushed_at": "2026-09-02T12:17:26Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai-agents",
+      "amd",
+      "comfyui",
+      "docker",
+      "llama-cpp",
+      "llm",
+      "local-ai",
+      "n8n",
+      "nvidia",
+      "open-webui",
+      "rag",
+      "self-hosted",
+      "speech-to-text",
+      "strix-halo",
+      "text-to-speech",
+      "workflow-automation"
+    ]
+  },
+  {
+    "id": "github:faceplugin-ltd/open-source-face-recognition-sdk",
+    "url": "https://github.com/faceplugin-ltd/open-source-face-recognition-sdk",
+    "title": "faceplugin-ltd/open-source-face-recognition-sdk",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095077116593295673",
+    "fetched_at": "2026-09-02T12:38:28.842109Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Python-based, on-premise face recognition SDK that provides tools for face detection, landmark extraction, and similarity comparison.",
+    "category": "AI/Computer Vision",
+    "tags": [
+      "ai",
+      "computer-vision",
+      "biometrics",
+      "python",
+      "privacy"
+    ],
+    "risk_notes": "The project requires local installation via pip and Anaconda. It processes images locally, which is good for privacy, but requires access to the filesystem to read image data. The license is not explicitly stated in the repository (marked as 'None'), which is a significant legal risk for enterprise or production use despite the 'Open Source' claim.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2025-01-17T02:26:21Z",
+      "homepage": "https://faceplugin.com/"
+    },
+    "added_at": "2026-09-02T12:38:45.223860Z",
+    "stars": 2023,
+    "language": "Python",
+    "pushed_at": "2026-08-10T13:25:13Z",
+    "license": null,
+    "topics": [
+      "deep-learning",
+      "face-detection",
+      "face-landmark-detection",
+      "face-recognition",
+      "identity-verification",
+      "machine-learning",
+      "open-source",
+      "python"
+    ]
+  },
+  {
+    "id": "github:sooryathejas/metatron",
+    "url": "https://github.com/sooryathejas/metatron",
+    "title": "sooryathejas/metatron",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095044008812630089",
+    "fetched_at": "2026-09-02T12:38:28.842234Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A CLI-based penetration testing assistant that automates reconnaissance using standard tools and analyzes results locally via an Ollama-hosted LLM.",
+    "category": "Security Tooling",
+    "tags": [
+      "pentesting",
+      "llm",
+      "automation",
+      "security",
+      "cli"
+    ],
+    "risk_notes": "Requires local installation of MariaDB and Ollama. Installation involves running shell scripts from the internet (Ollama) and executing system-level commands (nmap, nikto). The tool performs active network scanning and requires database credentials stored locally. It is designed for Linux environments and requires significant system resources (RAM) for the local LLM.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 16,
+      "created_at": "2026-04-02T06:06:43Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-02T12:38:52.696226Z",
+    "stars": 3747,
+    "language": "Python",
+    "pushed_at": "2026-04-11T07:16:57Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:elementalsouls/claude-bughunter",
+    "url": "https://github.com/elementalsouls/claude-bughunter",
+    "title": "elementalsouls/claude-bughunter",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095013685810938264",
+    "fetched_at": "2026-09-02T12:38:28.842357Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive skill bundle for Claude Code that automates bug hunting and red-team workflows using curated vulnerability patterns and attack matrices.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-security",
+      "bug-bounty",
+      "red-team",
+      "claude-code",
+      "pentesting"
+    ],
+    "risk_notes": "Installs via Claude Code plugin marketplace or shell scripts that copy files into local configuration directories (~/.claude/). It requires active Claude Code access and potentially interacts with sensitive target infrastructure; users should review the skill definitions before execution to ensure they do not perform unauthorized actions. The scripts perform file system writes to user-specific config paths.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-05-05T11:22:32Z",
+      "homepage": "https://elementalsouls.github.io/Claude-BugHunter"
+    },
+    "added_at": "2026-09-02T12:38:59.583803Z",
+    "stars": 4068,
+    "language": "Python",
+    "pushed_at": "2026-09-02T08:49:05Z",
+    "license": "MIT",
+    "topics": [
+      "ai-security",
+      "anthropic",
+      "application-security",
+      "bug-bounty",
+      "bugbounty",
+      "bugcrowd",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "ethical-hacking",
+      "hackerone",
+      "offensive-security",
+      "pentesting",
+      "red-team",
+      "security-tools",
+      "web-security"
+    ]
   }
 ]
