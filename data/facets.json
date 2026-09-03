@@ -35798,5 +35798,81 @@
     "aliases": [
       "ai-cad-agent"
     ]
+  },
+  "github:cobusgreyling/loop-engineering": {
+    "capability_summary": "A CLI tool and pattern library for orchestrating autonomous AI agents to handle software development tasks. It is designed for developers and DevOps engineers looking to automate codebase maintenance.",
+    "problem_solved": "Automating repetitive software development and DevOps tasks using AI agents.",
+    "use_cases": [
+      "issue triage",
+      "PR management",
+      "codebase maintenance",
+      "devops automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "coding-agents",
+      "ai-coding"
+    ]
+  },
+  "github:hyacinthe-primus/file_converter_pro": {
+    "capability_summary": "An offline-first Windows desktop application for batch converting documents, images, audio, and video files. It is built for users needing secure, local file processing with automation.",
+    "problem_solved": "Batch converting various file formats locally without needing an internet connection.",
+    "use_cases": [
+      "batch file conversion",
+      "pdf conversion",
+      "document processing",
+      "media conversion"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "file-converter",
+      "document-converter"
+    ]
+  },
+  "github:firecrawl/anydoc": {
+    "capability_summary": "A high-performance Rust library and CLI tool that converts office documents into clean Markdown. It is designed for developers preparing data for LLM ingestion.",
+    "problem_solved": "Converting complex office documents into LLM-ready text formats.",
+    "use_cases": [
+      "data processing",
+      "llm data preparation",
+      "document parsing"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "document-to-markdown",
+      "data-extraction"
+    ]
+  },
+  "github:sumanth077/hands-on-ai-engineering": {
+    "capability_summary": "A collection of production-ready templates for building AI agents and RAG applications. It is intended for AI engineers using frameworks like LangGraph and Agno.",
+    "problem_solved": "Providing boilerplate and architectural patterns for building production AI agents and RAG systems.",
+    "use_cases": [
+      "ai agent development",
+      "rag implementation",
+      "generative ai projects"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-templates",
+      "rag-starter-kit"
+    ]
   }
 }
