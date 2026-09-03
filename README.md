@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 175 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 178 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) ⭐ | AI/LLM Tooling | `ai-agents` `cad` `robotics` `automation` `engineering` | A comprehensive library of agent-based skills for automating CAD, CAE, and CAM workflows, including robot description generation and manufacturing file validation. | 14175 | 2026-09-03 |
+| [nahuel990/ministack](https://github.com/nahuel990/ministack) ⭐ | Developer Tools | `aws` `emulator` `devops` `docker` `automation` `testing` | A lightweight, open-source alternative to LocalStack that provides a local AWS emulator for development and CI/CD pipelines. | 4369 | 2026-09-03 |
+| [kruszoneq/macusb](https://github.com/kruszoneq/macusb) ⭐ | Developer Tools | `macos` `usb-boot` `automation` `utility` `system-tools` | A modern, GUI-based utility for macOS that simplifies the creation of bootable USB drives for macOS, Linux, and Windows, including a built-in downloader for official macOS installers. | 2683 | 2026-09-03 |
 | [aprilnea/openlogi](https://github.com/aprilnea/openlogi) ⭐ | Developer Tools | `rust` `hid` `automation` `privacy` `peripherals` | A high-performance, local-first alternative to Logitech Options+ written in Rust, offering granular control over Logitech peripherals without telemetry or account requirements. | 18573 | 2026-09-02 |
 | [0xsojalsec/llms-local](https://github.com/0xsojalsec/llms-local) ⭐ | AI/LLM Tooling | `llm` `ai` `self-hosting` `inference` `awesome-list` | A comprehensive, curated list of platforms, inference engines, and tools for running Large Language Models locally. | 1103 | 2026-09-02 |
 | [vincentwei1021/video-shotcraft](https://github.com/vincentwei1021/video-shotcraft) ⭐ | AI/LLM Tooling | `ai-agents` `remotion` `video-production` `automation` `typescript` | A specialized AI agent skill for Claude Code and Codex that automates the creation of cinematic product videos using Remotion, featuring a library of 150+ motion recipe cards and production-ready templates. | 7106 | 2026-09-02 |
