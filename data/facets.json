@@ -35874,5 +35874,48 @@
       "ai-agent-templates",
       "rag-starter-kit"
     ]
+  },
+  "github:royalbhati/sqltoerdiagram": {
+    "capability_summary": "A browser-based tool that converts SQL code into visual Entity-Relationship Diagrams. It is designed for database developers and architects.",
+    "problem_solved": "Visualizing complex database schemas from SQL code without uploading data to a server.",
+    "use_cases": [
+      "database schema visualization",
+      "data modeling",
+      "sql documentation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dbdiagram",
+      "sql-to-erd"
+    ]
+  },
+  "github:baairon/torlink": {
+    "capability_summary": "A terminal-based torrent client and search aggregator for managing P2P downloads. It is built for power users who prefer CLI workflows.",
+    "problem_solved": "Searching and managing torrent downloads directly from the terminal.",
+    "use_cases": [
+      "torrent downloading",
+      "p2p file sharing",
+      "headless automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "torrent-client",
+      "p2p-downloader"
+    ]
   }
 }
