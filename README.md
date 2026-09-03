@@ -1,11 +1,19 @@
 # Curated Repos
 
-Auto-generated list of 178 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 186 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) ⭐ | Productivity | `ai` `office` `productivity` `electron` `byok` | A comprehensive, open-source AI-integrated office suite that supports native Microsoft Office formats and local PDF editing with BYOK AI capabilities. | 4708 | 2026-09-03 |
+| [swarm-subnet/langostino](https://github.com/swarm-subnet/langostino) ⭐ | robotics | `ros2` `raspberry-pi` `robotics` `ai` `autonomous-flight` | An open-source autonomous drone platform leveraging ROS2 and Raspberry Pi for AI-powered flight control and robotics experimentation. | 193 | 2026-09-03 |
+| [sumanth077/hands-on-ai-engineering](https://github.com/sumanth077/hands-on-ai-engineering) ⭐ | AI/LLM Tooling | `ai-agents` `rag` `mcp` `python` `automation` | A comprehensive collection of production-ready AI agent and RAG project templates using modern frameworks like LangGraph, Agno, and MCP. | 3055 | 2026-09-03 |
+| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) ⭐ | Developer Tools | `rust` `cli` `llm` `automation` `data-processing` | A high-performance Rust-based library and CLI tool for converting various office document formats into clean, LLM-ready Markdown. | 20157 | 2026-09-03 |
+| [hyacinthe-primus/file_converter_pro](https://github.com/hyacinthe-primus/file_converter_pro) ⭐ | Developer Tools | `automation` `windows` `file-conversion` `offline` `pyside6` | A polished, offline-first Windows desktop application for batch file conversion of documents, images, audio, and video, featuring automation capabilities and a local SQLite-backed dashboard. | 439 | 2026-09-03 |
+| [matthart1983/netwatch](https://github.com/matthart1983/netwatch) ⭐ | Network Diagnostics | `rust` `networking` `security` `cli` `tui` `observability` | A high-performance, Rust-based terminal network monitor that provides real-time process attribution, TLS decryption, and egress policy monitoring. | 2767 | 2026-09-03 |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `cli` `devops` `llm` | A pattern library and CLI tool for orchestrating AI coding agents to perform autonomous tasks like issue triage, PR management, and codebase maintenance. | 10866 | 2026-09-03 |
+| [robert-mcdermott/ai-knowledge-graph](https://github.com/robert-mcdermott/ai-knowledge-graph) ⭐ | AI/LLM Tooling | `llm` `knowledge-graph` `cli` `data-visualization` `python` | A Python-based CLI tool that converts unstructured text into interactive knowledge graphs using LLMs, supporting local models via Ollama or OpenAI-compatible APIs. | 2882 | 2026-09-03 |
 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) ⭐ | AI/LLM Tooling | `ai-agents` `cad` `robotics` `automation` `engineering` | A comprehensive library of agent-based skills for automating CAD, CAE, and CAM workflows, including robot description generation and manufacturing file validation. | 14175 | 2026-09-03 |
 | [nahuel990/ministack](https://github.com/nahuel990/ministack) ⭐ | Developer Tools | `aws` `emulator` `devops` `docker` `automation` `testing` | A lightweight, open-source alternative to LocalStack that provides a local AWS emulator for development and CI/CD pipelines. | 4369 | 2026-09-03 |
 | [kruszoneq/macusb](https://github.com/kruszoneq/macusb) ⭐ | Developer Tools | `macos` `usb-boot` `automation` `utility` `system-tools` | A modern, GUI-based utility for macOS that simplifies the creation of bootable USB drives for macOS, Linux, and Windows, including a built-in downloader for official macOS installers. | 2683 | 2026-09-03 |
