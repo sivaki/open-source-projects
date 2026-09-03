@@ -35741,5 +35741,62 @@
       "logitech-options-alternative",
       "mx-master-config"
     ]
+  },
+  "github:kruszoneq/macusb": {
+    "capability_summary": "A GUI utility for macOS that creates bootable USB drives for macOS, Linux, and Windows. It includes a built-in downloader for official macOS installers.",
+    "problem_solved": "Simplifies creating bootable USB installers on macOS.",
+    "use_cases": [
+      "create bootable usb",
+      "macos installer downloader",
+      "linux installer creation",
+      "windows installer creation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "rufus-alternative"
+    ]
+  },
+  "github:nahuel990/ministack": {
+    "capability_summary": "A lightweight local AWS emulator for development and CI/CD pipelines. It provides mock services for AWS infrastructure.",
+    "problem_solved": "Need to test AWS-dependent code locally without incurring cloud costs.",
+    "use_cases": [
+      "local aws development",
+      "ci/cd testing",
+      "mocking aws services"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "localstack-alternative"
+    ]
+  },
+  "github:earthtojake/text-to-cad": {
+    "capability_summary": "A library of AI agent skills designed to automate CAD, CAE, and CAM engineering workflows. It supports file generation and validation for manufacturing.",
+    "problem_solved": "Automating complex mechanical engineering and CAD design tasks using AI agents.",
+    "use_cases": [
+      "cad automation",
+      "robotics design",
+      "manufacturing file validation",
+      "ai-driven engineering"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-cad-agent"
+    ]
   }
 }
