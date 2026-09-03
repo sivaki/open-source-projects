@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 186 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 190 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [duy-phamduc68/trafficlab-3d](https://github.com/duy-phamduc68/trafficlab-3d) ⭐ | Computer Vision | `computer-vision` `yolo` `digital-twin` `traffic-analysis` `geospatial` | A computer vision toolkit for creating digital-twin style traffic visualizations by mapping CCTV footage to satellite imagery using homography and object detection. | 403 | 2026-09-03 |
+| [baairon/torlink](https://github.com/baairon/torlink) ⭐ | CLI Tools | `cli` `torrent` `p2p` `automation` `tui` | A terminal-based torrent client and search tool that aggregates multiple trusted sources into a clean TUI, supporting both interactive use and headless automation. | 5539 | 2026-09-03 |
+| [royalbhati/sqltoerdiagram](https://github.com/royalbhati/sqltoerdiagram) ⭐ | Developer Tools | `sql` `erd` `visualization` `database` `data-modeling` | A high-performance, browser-based SQL-to-ERD generator that runs entirely locally without server-side processing or data uploads. | 594 | 2026-09-03 |
+| [zeropointrepo/youtube-skills](https://github.com/zeropointrepo/youtube-skills) ⭐ | AI/LLM Tooling | `ai-agents` `youtube` `automation` `mcp` `developer-tools` | A collection of modular agent skills that provide AI agents with direct access to YouTube transcripts, search, and channel data via a managed API, bypassing common scraping limitations. | 610 | 2026-09-03 |
 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) ⭐ | Productivity | `ai` `office` `productivity` `electron` `byok` | A comprehensive, open-source AI-integrated office suite that supports native Microsoft Office formats and local PDF editing with BYOK AI capabilities. | 4708 | 2026-09-03 |
 | [swarm-subnet/langostino](https://github.com/swarm-subnet/langostino) ⭐ | robotics | `ros2` `raspberry-pi` `robotics` `ai` `autonomous-flight` | An open-source autonomous drone platform leveraging ROS2 and Raspberry Pi for AI-powered flight control and robotics experimentation. | 193 | 2026-09-03 |
 | [sumanth077/hands-on-ai-engineering](https://github.com/sumanth077/hands-on-ai-engineering) ⭐ | AI/LLM Tooling | `ai-agents` `rag` `mcp` `python` `automation` | A comprehensive collection of production-ready AI agent and RAG project templates using modern frameworks like LangGraph, Agno, and MCP. | 3055 | 2026-09-03 |
