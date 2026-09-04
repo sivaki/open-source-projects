@@ -8692,5 +8692,50 @@
       "rust",
       "vue"
     ]
+  },
+  {
+    "id": "github:voltagent/awesome-moltbot-skills",
+    "url": "https://github.com/voltagent/awesome-moltbot-skills",
+    "title": "voltagent/awesome-moltbot-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095903652313551182",
+    "fetched_at": "2026-09-04T18:53:17.362869Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A curated, high-quality directory of community-built skills for the OpenClaw AI agent framework, providing filtered and categorized extensions for automation and data tasks.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "llm",
+      "openclaw",
+      "productivity"
+    ],
+    "risk_notes": "Installation involves running 'openclaw skills install' or 'npx clawhub install', which executes third-party code within your local AI agent environment. These skills often require filesystem access and may interact with external APIs; users should audit individual skill code before execution. The repository itself is a documentation/curation list and is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-01-25T09:22:32Z",
+      "homepage": "https://clawskills.sh/"
+    },
+    "added_at": "2026-09-04T18:53:25.755475Z",
+    "stars": 52379,
+    "language": null,
+    "pushed_at": "2026-09-02T11:50:41Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skills",
+      "awesome",
+      "awesome-list",
+      "awesome-lists",
+      "clawd",
+      "clawdbot",
+      "clawdbot-skill",
+      "clawdhub",
+      "moltbot",
+      "moltbot-skills",
+      "openclaw",
+      "openclaw-skills"
+    ]
   }
 ]
