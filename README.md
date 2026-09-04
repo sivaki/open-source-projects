@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 195 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 198 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [7ritn/vaultls](https://github.com/7ritn/vaultls) ⭐ | Security Tooling | `mtls` `homelab` `security` `rust` `certificate-management` | A self-hosted web application for managing mTLS and SSH certificates, designed to replace manual OpenSSL workflows with a modern UI and API. | 902 | 2026-09-04 |
+| [makerspet/oomwoo](https://github.com/makerspet/oomwoo) ⭐ | home-lab | `robotics` `ros2` `home-assistant` `raspberry-pi` `diy-electronics` | An ambitious open-source project to build a fully hackable, local-first robot vacuum using Raspberry Pi, ROS2, and 3D-printed components. | 10187 | 2026-09-04 |
+| [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) ⭐ | AI/LLM Tooling | `ai` `automation` `claude-code` `autonomous-agents` `productivity` | An autonomous iteration framework for Claude Code and other LLM agents that automates goal-directed tasks through a modify-verify-revert loop. | 6009 | 2026-09-04 |
 | [xiaopu-ai/web-design](https://github.com/xiaopu-ai/web-design) ⭐ | AI/LLM Tooling | `claude-code` `web-design` `ai-agent` `automation` `frontend` | A Claude Code skill that enforces a 'spec-first' design workflow by generating a structured DESIGN.md file before producing web code, ensuring consistency and maintainability. | 734 | 2026-09-04 |
 | [k2-fsa/omnivoice](https://github.com/k2-fsa/omnivoice) ⭐ | AI/LLM Tooling | `tts` `voice-cloning` `ai` `python` `audio` | A state-of-the-art, massively multilingual zero-shot text-to-speech (TTS) engine that supports voice cloning and fine-grained audio control with high inference speeds. | 9691 | 2026-09-04 |
 | [julyx10/lap](https://github.com/julyx10/lap) ⭐ | Digital Asset Management | `photo-management` `privacy` `local-ai` `desktop-app` `offline-first` | An offline-first, privacy-focused desktop photo manager that uses local AI for search, face recognition, and duplicate detection without requiring cloud uploads. | 2081 | 2026-09-04 |
