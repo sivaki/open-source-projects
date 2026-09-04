@@ -8566,5 +8566,131 @@
       "webdesign",
       "xiaopu"
     ]
+  },
+  {
+    "id": "github:uditgoenka/autoresearch",
+    "url": "https://github.com/uditgoenka/autoresearch",
+    "title": "uditgoenka/autoresearch",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095843050421444923",
+    "fetched_at": "2026-09-04T12:35:06.481179Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An autonomous iteration framework for Claude Code and other LLM agents that automates goal-directed tasks through a modify-verify-revert loop.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "automation",
+      "claude-code",
+      "autonomous-agents",
+      "productivity"
+    ],
+    "risk_notes": "Requires integration with Claude Code or similar LLM CLI tools. It operates by modifying local files and executing shell commands, which poses significant security risks if the agent is given broad filesystem access. It requires active API keys for the underlying LLM provider and should be run in a sandboxed or containerized environment to prevent accidental data loss or unauthorized system changes.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-03-13T14:51:54Z",
+      "homepage": "https://udit.co/projects/autoresearch"
+    },
+    "added_at": "2026-09-04T12:35:21.748480Z",
+    "stars": 6009,
+    "language": "Shell",
+    "pushed_at": "2026-08-12T22:28:18Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "autonomous-agent",
+      "autoresearch",
+      "claude",
+      "claude-code",
+      "iteration",
+      "karpathy",
+      "productivity",
+      "skill"
+    ]
+  },
+  {
+    "id": "github:makerspet/oomwoo",
+    "url": "https://github.com/makerspet/oomwoo",
+    "title": "makerspet/oomwoo",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095791202356326861",
+    "fetched_at": "2026-09-04T12:35:06.481327Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An ambitious open-source project to build a fully hackable, local-first robot vacuum using Raspberry Pi, ROS2, and 3D-printed components.",
+    "category": "home-lab",
+    "tags": [
+      "robotics",
+      "ros2",
+      "home-assistant",
+      "raspberry-pi",
+      "diy-electronics"
+    ],
+    "risk_notes": "The project is in early development. It involves custom hardware (PCBs, motors, sensors) and requires running ROS2 software on a Raspberry Pi. Security risks include standard Linux system exposure; since it is designed for local-first operation, it avoids cloud dependencies, but users must manage their own network security for the device.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-06-10T06:03:33Z",
+      "homepage": "https://oomwoo.com"
+    },
+    "added_at": "2026-09-04T12:35:33.255342Z",
+    "stars": 10187,
+    "language": "Python",
+    "pushed_at": "2026-09-03T20:47:12Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "3d-printing",
+      "arduino",
+      "diy-electronics",
+      "diy-project",
+      "esp32",
+      "esp32-arduino",
+      "home-assistant",
+      "lidar",
+      "lidar-slam",
+      "raspberry-pi",
+      "ros2",
+      "slam",
+      "vacuum-cleaner",
+      "vacuum-robot"
+    ]
+  },
+  {
+    "id": "github:7ritn/vaultls",
+    "url": "https://github.com/7ritn/vaultls",
+    "title": "7ritn/vaultls",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095745749925371924",
+    "fetched_at": "2026-09-04T12:35:06.481457Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted web application for managing mTLS and SSH certificates, designed to replace manual OpenSSL workflows with a modern UI and API.",
+    "category": "Security Tooling",
+    "tags": [
+      "mtls",
+      "homelab",
+      "security",
+      "rust",
+      "certificate-management"
+    ],
+    "risk_notes": "Deployed as a Docker/Podman container. Requires persistent volume access for data storage. Handles sensitive cryptographic material (private keys, CA certificates), so it should be isolated behind a secure reverse proxy. Supports secret injection via /run/secrets, which is a good security practice. Actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 11,
+      "created_at": "2025-01-22T08:14:38Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-04T12:35:40.986672Z",
+    "stars": 902,
+    "language": "Rust",
+    "pushed_at": "2026-09-02T18:18:37Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "mtls",
+      "oidc",
+      "rust",
+      "vue"
+    ]
   }
 ]
