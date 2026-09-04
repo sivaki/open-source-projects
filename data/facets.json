@@ -35917,5 +35917,84 @@
       "torrent-client",
       "p2p-downloader"
     ]
+  },
+  "github:finsys/dockhand": {
+    "capability_summary": "A Docker management UI for orchestrating containers and automating deployments. Designed for developers and self-hosters.",
+    "problem_solved": "Simplifies complex Docker container management and deployment workflows.",
+    "use_cases": [
+      "container orchestration",
+      "git-based deployments",
+      "vulnerability scanning",
+      "docker management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Portainer alternative",
+      "Docker UI"
+    ]
+  },
+  "github:vorssaintapp/vorssaint-utils": {
+    "capability_summary": "A modular macOS menu bar toolkit providing system monitoring, volume control, and window management. Built for privacy-conscious Mac users.",
+    "problem_solved": "Consolidates fragmented system utilities into a single, efficient menu bar app.",
+    "use_cases": [
+      "system monitoring",
+      "volume mixing",
+      "window management",
+      "productivity"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "macOS utility suite",
+      "system monitor"
+    ]
+  },
+  "github:k2-fsa/omnivoice": {
+    "capability_summary": "A high-performance, multilingual zero-shot text-to-speech engine. Designed for developers building voice-enabled AI applications.",
+    "problem_solved": "Provides fast, high-quality voice cloning and speech synthesis across many languages.",
+    "use_cases": [
+      "text-to-speech",
+      "voice cloning",
+      "audio synthesis"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "multilingual"
+    ],
+    "aliases": [
+      "TTS engine",
+      "voice cloning AI"
+    ]
+  },
+  "github:xiaopu-ai/web-design": {
+    "capability_summary": "A Claude Code skill that enforces spec-first design workflows for web development. Targeted at frontend developers using AI agents.",
+    "problem_solved": "Ensures design consistency and maintainability by generating design specs before writing code.",
+    "use_cases": [
+      "web design automation",
+      "frontend development",
+      "ai-assisted coding"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code skill",
+      "AI design agent"
+    ]
   }
 }
