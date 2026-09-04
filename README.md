@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 190 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 195 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [xiaopu-ai/web-design](https://github.com/xiaopu-ai/web-design) ⭐ | AI/LLM Tooling | `claude-code` `web-design` `ai-agent` `automation` `frontend` | A Claude Code skill that enforces a 'spec-first' design workflow by generating a structured DESIGN.md file before producing web code, ensuring consistency and maintainability. | 734 | 2026-09-04 |
+| [k2-fsa/omnivoice](https://github.com/k2-fsa/omnivoice) ⭐ | AI/LLM Tooling | `tts` `voice-cloning` `ai` `python` `audio` | A state-of-the-art, massively multilingual zero-shot text-to-speech (TTS) engine that supports voice cloning and fine-grained audio control with high inference speeds. | 9691 | 2026-09-04 |
+| [julyx10/lap](https://github.com/julyx10/lap) ⭐ | Digital Asset Management | `photo-management` `privacy` `local-ai` `desktop-app` `offline-first` | An offline-first, privacy-focused desktop photo manager that uses local AI for search, face recognition, and duplicate detection without requiring cloud uploads. | 2081 | 2026-09-04 |
+| [vorssaintapp/vorssaint-utils](https://github.com/vorssaintapp/vorssaint-utils) ⭐ | Developer Tools | `macos` `productivity` `system-monitor` `utility` `open-source` | A comprehensive, modular macOS menu bar toolkit that consolidates various system utilities like volume mixing, system monitoring, and window management into a single, privacy-focused application. | 15050 | 2026-09-04 |
+| [finsys/dockhand](https://github.com/finsys/dockhand) ⭐ | DevOps/Self-hosting | `docker` `self-hosting` `devops` `automation` `containers` | A modern, feature-rich Docker management UI built with SvelteKit and Bun, offering container orchestration, Git-based deployments, and vulnerability scanning. | 5877 | 2026-09-04 |
 | [duy-phamduc68/trafficlab-3d](https://github.com/duy-phamduc68/trafficlab-3d) ⭐ | Computer Vision | `computer-vision` `yolo` `digital-twin` `traffic-analysis` `geospatial` | A computer vision toolkit for creating digital-twin style traffic visualizations by mapping CCTV footage to satellite imagery using homography and object detection. | 403 | 2026-09-03 |
 | [baairon/torlink](https://github.com/baairon/torlink) ⭐ | CLI Tools | `cli` `torrent` `p2p` `automation` `tui` | A terminal-based torrent client and search tool that aggregates multiple trusted sources into a clean TUI, supporting both interactive use and headless automation. | 5539 | 2026-09-03 |
 | [royalbhati/sqltoerdiagram](https://github.com/royalbhati/sqltoerdiagram) ⭐ | Developer Tools | `sql` `erd` `visualization` `database` `data-modeling` | A high-performance, browser-based SQL-to-ERD generator that runs entirely locally without server-side processing or data uploads. | 594 | 2026-09-03 |
