@@ -8356,5 +8356,215 @@
       "urban-analytics",
       "yolo"
     ]
+  },
+  {
+    "id": "github:finsys/dockhand",
+    "url": "https://github.com/finsys/dockhand",
+    "title": "finsys/dockhand",
+    "source_name": "twitter",
+    "source_url": "https://x.com/GithubProjects/status/2095659362668949645",
+    "fetched_at": "2026-09-04T03:35:05.380032Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A modern, feature-rich Docker management UI built with SvelteKit and Bun, offering container orchestration, Git-based deployments, and vulnerability scanning.",
+    "category": "DevOps/Self-hosting",
+    "tags": [
+      "docker",
+      "self-hosting",
+      "devops",
+      "automation",
+      "containers"
+    ],
+    "risk_notes": "Requires access to the Docker socket (/var/run/docker.sock) to manage containers, which grants the application root-level control over the host. It is designed for self-hosting and supports OIDC/RBAC, but should be exposed behind a secure reverse proxy. The project uses Wolfi-based images for a smaller attack surface.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 357,
+      "created_at": "2025-12-28T20:12:44Z",
+      "homepage": "https://dockhand.pro"
+    },
+    "added_at": "2026-09-04T03:35:22.995983Z",
+    "stars": 5877,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-03T09:21:21Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "docker",
+      "docker-compose",
+      "docker-management",
+      "docker-management-tool",
+      "dockerfile",
+      "dockerfiles"
+    ]
+  },
+  {
+    "id": "github:vorssaintapp/vorssaint-utils",
+    "url": "https://github.com/vorssaintapp/vorssaint-utils",
+    "title": "vorssaintapp/vorssaint-utils",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095705215496253930",
+    "fetched_at": "2026-09-04T03:35:13.912730Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, modular macOS menu bar toolkit that consolidates various system utilities like volume mixing, system monitoring, and window management into a single, privacy-focused application.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "productivity",
+      "system-monitor",
+      "utility",
+      "open-source"
+    ],
+    "risk_notes": "Distributed as a macOS application; requires Accessibility and System Events permissions to control windows, audio, and system settings. The modular design allows users to enable/disable features, which limits the attack surface to only the active components. No telemetry or account required, but it is a high-privilege application that interacts with system-level processes.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 331,
+      "created_at": "2026-06-12T15:25:43Z",
+      "homepage": "https://vorssaint.com"
+    },
+    "added_at": "2026-09-04T03:35:33.540341Z",
+    "stars": 15050,
+    "language": "Swift",
+    "pushed_at": "2026-09-03T18:44:10Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "alt-tab",
+      "app-uninstaller",
+      "appkit",
+      "finder",
+      "free",
+      "keep-awake",
+      "mac-os",
+      "menu-bar",
+      "menubar",
+      "open-source",
+      "swift",
+      "swift-ui",
+      "system-monitor",
+      "uninstaller",
+      "volume-mixer",
+      "window-switcher"
+    ]
+  },
+  {
+    "id": "github:julyx10/lap",
+    "url": "https://github.com/julyx10/lap",
+    "title": "julyx10/lap",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095668845256032735",
+    "fetched_at": "2026-09-04T03:35:13.912889Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An offline-first, privacy-focused desktop photo manager that uses local AI for search, face recognition, and duplicate detection without requiring cloud uploads.",
+    "category": "Digital Asset Management",
+    "tags": [
+      "photo-management",
+      "privacy",
+      "local-ai",
+      "desktop-app",
+      "offline-first"
+    ],
+    "risk_notes": "Distributed as native binaries (DMG, MSI, DEB) or via Homebrew. It requires read/write access to your local photo directories to manage files. As an offline-first application, it does not require network access for core functionality, though it performs local AI processing which is resource-intensive. The project is actively maintained.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 46,
+      "created_at": "2024-08-11T16:24:28Z",
+      "homepage": "https://julyx10.github.io/lap/"
+    },
+    "added_at": "2026-09-04T03:35:42.865639Z",
+    "stars": 2081,
+    "language": "Vue",
+    "pushed_at": "2026-09-03T12:24:44Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "desktop-app",
+      "digital-asset-manager",
+      "duplicate-detection",
+      "face-recognition",
+      "family-photos",
+      "image-search",
+      "large-photo-collections",
+      "linux-app",
+      "local-first",
+      "macos-app",
+      "offline",
+      "open-source",
+      "photo-library",
+      "photo-management",
+      "photo-organizer",
+      "privacy",
+      "windows-app"
+    ]
+  },
+  {
+    "id": "github:k2-fsa/omnivoice",
+    "url": "https://github.com/k2-fsa/omnivoice",
+    "title": "k2-fsa/omnivoice",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095635715002392794",
+    "fetched_at": "2026-09-04T03:35:13.913021Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A state-of-the-art, massively multilingual zero-shot text-to-speech (TTS) engine that supports voice cloning and fine-grained audio control with high inference speeds.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "tts",
+      "voice-cloning",
+      "ai",
+      "python",
+      "audio"
+    ],
+    "risk_notes": "Installs via standard pip or uv. Requires significant GPU resources (NVIDIA, Apple Silicon, or Intel Arc) and downloads pre-trained model weights from Hugging Face. Runs locally, but requires network access to fetch models on first run. Standard Python dependency risks apply.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 56,
+      "created_at": "2026-03-31T12:00:45Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-04T03:35:52.642641Z",
+    "stars": 9691,
+    "language": "Python",
+    "pushed_at": "2026-08-31T22:28:49Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:xiaopu-ai/web-design",
+    "url": "https://github.com/xiaopu-ai/web-design",
+    "title": "xiaopu-ai/web-design",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2095605534225265075",
+    "fetched_at": "2026-09-04T03:35:13.913142Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A Claude Code skill that enforces a 'spec-first' design workflow by generating a structured DESIGN.md file before producing web code, ensuring consistency and maintainability.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude-code",
+      "web-design",
+      "ai-agent",
+      "automation",
+      "frontend"
+    ],
+    "risk_notes": "Installed by cloning into the local ~/.claude/skills directory. As a Claude Code skill, it operates within the context of your LLM agent, meaning it has access to the files and directories you provide to the agent. It requires no elevated privileges, but users should review the generated code before deployment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-04-16T19:24:52Z",
+      "homepage": "https://xiaopu-ai.github.io/web-design/"
+    },
+    "added_at": "2026-09-04T03:36:00.258801Z",
+    "stars": 734,
+    "language": "Python",
+    "pushed_at": "2026-06-24T16:39:29Z",
+    "license": "MIT",
+    "topics": [
+      "claude-code",
+      "claude-skill",
+      "design-system",
+      "we-b",
+      "web-design",
+      "webdesign",
+      "xiaopu"
+    ]
   }
 ]
