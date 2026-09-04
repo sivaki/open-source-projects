@@ -36016,5 +36016,24 @@
       "DIY robot vacuum",
       "ROS2 robotics project"
     ]
+  },
+  "github:voltagent/awesome-moltbot-skills": {
+    "capability_summary": "A curated directory of community-built skills and extensions for the OpenClaw AI agent framework. It helps users find and implement automation tasks for their AI agents.",
+    "problem_solved": "Finding pre-built capabilities and integrations for OpenClaw AI agents.",
+    "use_cases": [
+      "AI agent automation",
+      "extending LLM functionality",
+      "data processing tasks",
+      "agent skill discovery"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "OpenClaw skills",
+      "AI agent plugins",
+      "awesome-list"
+    ]
   }
 }
