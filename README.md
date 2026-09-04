@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 198 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 199 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [voltagent/awesome-moltbot-skills](https://github.com/voltagent/awesome-moltbot-skills) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `llm` `openclaw` `productivity` | A curated, high-quality directory of community-built skills for the OpenClaw AI agent framework, providing filtered and categorized extensions for automation and data tasks. | 52379 | 2026-09-04 |
 | [7ritn/vaultls](https://github.com/7ritn/vaultls) ⭐ | Security Tooling | `mtls` `homelab` `security` `rust` `certificate-management` | A self-hosted web application for managing mTLS and SSH certificates, designed to replace manual OpenSSL workflows with a modern UI and API. | 902 | 2026-09-04 |
 | [makerspet/oomwoo](https://github.com/makerspet/oomwoo) ⭐ | home-lab | `robotics` `ros2` `home-assistant` `raspberry-pi` `diy-electronics` | An ambitious open-source project to build a fully hackable, local-first robot vacuum using Raspberry Pi, ROS2, and 3D-printed components. | 10187 | 2026-09-04 |
 | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) ⭐ | AI/LLM Tooling | `ai` `automation` `claude-code` `autonomous-agents` `productivity` | An autonomous iteration framework for Claude Code and other LLM agents that automates goal-directed tasks through a modify-verify-revert loop. | 6009 | 2026-09-04 |
