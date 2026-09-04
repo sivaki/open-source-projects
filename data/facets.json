@@ -35996,5 +35996,25 @@
       "Claude Code skill",
       "AI design agent"
     ]
+  },
+  "github:makerspet/oomwoo": {
+    "capability_summary": "A DIY open-source robot vacuum project that integrates ROS2, Raspberry Pi, and 3D-printed parts. It is designed for hobbyists and makers interested in robotics and home automation.",
+    "problem_solved": "Building a fully customizable, local-first robot vacuum from scratch.",
+    "use_cases": [
+      "robotics development",
+      "home automation integration",
+      "SLAM navigation",
+      "DIY electronics"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "raspberry-pi"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "DIY robot vacuum",
+      "ROS2 robotics project"
+    ]
   }
 }
