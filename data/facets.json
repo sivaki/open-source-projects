@@ -36094,5 +36094,45 @@
       "LLM task completion",
       "AI agent tool"
     ]
+  },
+  "github:hkuds/vibe-trading": {
+    "capability_summary": "An AI-driven framework for building and backtesting algorithmic trading agents. It is designed for quantitative finance developers and traders.",
+    "problem_solved": "Automating complex trading strategies using multi-agent LLM workflows.",
+    "use_cases": [
+      "algorithmic trading",
+      "financial backtesting",
+      "multi-agent orchestration",
+      "quantitative finance"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading-bot",
+      "quant-framework"
+    ]
+  },
+  "github:browser-act/skills": {
+    "capability_summary": "A browser automation CLI tool for AI agents that handles stealth, proxy rotation, and web interaction. It is built for developers creating autonomous web-scraping or task-automation agents.",
+    "problem_solved": "Reliably automating web interactions and data extraction for AI agents while avoiding bot detection.",
+    "use_cases": [
+      "web scraping",
+      "browser automation",
+      "data extraction",
+      "agent infrastructure"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-skills",
+      "web-automation-agent"
+    ]
   }
 }
