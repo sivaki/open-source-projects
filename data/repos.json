@@ -9127,5 +9127,147 @@
       "web-scraping",
       "web-scraping-api"
     ]
+  },
+  {
+    "id": "github:adventdevinc/kudu",
+    "url": "https://github.com/adventdevinc/kudu",
+    "title": "adventdevinc/kudu",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096285249181257973",
+    "fetched_at": "2026-09-05T17:59:38.994471Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A cross-platform, open-source system maintenance and security utility that provides disk cleaning, privacy hardening, and performance monitoring with a CLI interface.",
+    "category": "System Utilities",
+    "tags": [
+      "system-maintenance",
+      "privacy",
+      "cli",
+      "optimization",
+      "security"
+    ],
+    "risk_notes": "Requires high-level system permissions (root/administrator) to perform disk cleaning, registry modification, and service management. Distributed via binary installers (.exe, .dmg, .deb, .AppImage), which requires trusting the maintainer's build pipeline. The project is actively maintained and open-source, allowing for code audits of the cleaning rules and logic.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-03-14T17:38:51Z",
+      "homepage": "https://usekudu.com"
+    },
+    "added_at": "2026-09-05T17:59:46.443726Z",
+    "stars": 2455,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-05T13:37:14Z",
+    "license": "MIT",
+    "topics": [
+      "ccleaner-alternative",
+      "cleaner",
+      "free",
+      "hardening",
+      "kudu",
+      "linux-cleaner",
+      "mac-cleaner",
+      "malware-detection",
+      "open-source",
+      "pc-optimization",
+      "performance",
+      "privacy",
+      "scanner",
+      "security",
+      "startup-manager",
+      "system-cleaner",
+      "system-maintenance",
+      "windows-cleaner"
+    ]
+  },
+  {
+    "id": "github:mauriceboe/nomad",
+    "url": "https://github.com/mauriceboe/nomad",
+    "title": "mauriceboe/nomad",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096248884443889849",
+    "fetched_at": "2026-09-05T17:59:38.994893Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive, self-hosted travel planning platform featuring real-time collaboration, interactive maps, budget tracking, and AI-powered itinerary parsing.",
+    "category": "Self-hosted Productivity",
+    "tags": [
+      "self-hosted",
+      "travel",
+      "automation",
+      "productivity",
+      "docker"
+    ],
+    "risk_notes": "Distributed via Docker, which is the recommended and safest deployment method. Requires persistent storage for database and user uploads. Optional integrations with third-party APIs (Google Places, Mapbox) may require API keys, though it supports open alternatives like OpenStreetMap and OSRM. The project is actively maintained with regular commits and a clear roadmap.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 23,
+      "created_at": "2026-03-19T11:51:54Z",
+      "homepage": "https://demo.liketrek.com"
+    },
+    "added_at": "2026-09-05T17:59:55.267428Z",
+    "stars": 13223,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-05T11:22:58Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "budget-tracker",
+      "collaborative",
+      "open-source",
+      "opensource",
+      "packing-list",
+      "poi",
+      "real-time",
+      "routes",
+      "self-hosted",
+      "travel",
+      "travel-app",
+      "travel-planner",
+      "traveling",
+      "trip",
+      "trip-planner",
+      "tripit",
+      "wanderlog",
+      "wanderlust",
+      "webapplication"
+    ]
+  },
+  {
+    "id": "github:dstotijn/hetty",
+    "url": "https://github.com/dstotijn/hetty",
+    "title": "dstotijn/hetty",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096215775975448663",
+    "fetched_at": "2026-09-05T17:59:38.995269Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Hetty is an open-source HTTP toolkit designed for security research and bug bounty hunting, acting as a powerful alternative to Burp Suite.",
+    "category": "Security Tooling",
+    "tags": [
+      "infosec",
+      "proxy",
+      "pentesting",
+      "http",
+      "bugbounty"
+    ],
+    "risk_notes": "As a MITM proxy, this tool has full visibility into all intercepted HTTP/HTTPS traffic. It requires installing a root CA certificate on your system to decrypt TLS traffic, which is a significant security consideration. Installation is available via standard package managers (brew, snap, scoop) or Docker, which is generally safer than script-based installs. It requires local filesystem access to store logs and the database.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 48,
+      "created_at": "2019-11-17T14:16:23Z",
+      "homepage": "https://hetty.xyz"
+    },
+    "added_at": "2026-09-05T18:00:03.644695Z",
+    "stars": 12041,
+    "language": "Go",
+    "pushed_at": "2026-07-21T20:10:42Z",
+    "license": "MIT",
+    "topics": [
+      "bugbounty",
+      "http",
+      "infosec",
+      "mitm",
+      "pentesting",
+      "proxy"
+    ]
   }
 ]
