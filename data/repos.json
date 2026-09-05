@@ -8923,5 +8923,209 @@
       "prompt-engineering",
       "skill"
     ]
+  },
+  {
+    "id": "github:hkuds/vibe-trading",
+    "url": "https://github.com/hkuds/vibe-trading",
+    "title": "hkuds/vibe-trading",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096185393192259633",
+    "fetched_at": "2026-09-05T11:43:20.146741Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An advanced AI-driven algorithmic trading agent framework that supports backtesting, multi-agent workflows, and MCP integration.",
+    "category": "AI/Fintech",
+    "tags": [
+      "ai-agent",
+      "algorithmic-trading",
+      "llm",
+      "python",
+      "fintech"
+    ],
+    "risk_notes": "Installed via pip. Requires sensitive financial API keys and potentially exchange credentials. The project involves automated trading, which carries inherent financial risk. It includes a sandbox for backtesting, but users should be cautious with real-money execution. The project is highly active and security-conscious, explicitly warning against impersonation scams.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 27,
+      "created_at": "2026-04-01T09:52:20Z",
+      "homepage": "https://vibetrading.wiki/"
+    },
+    "added_at": "2026-09-05T11:43:29.370337Z",
+    "stars": 32483,
+    "language": "Python",
+    "pushed_at": "2026-09-05T08:11:45Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agent",
+      "algorithmic-trading",
+      "backtesting",
+      "fintech",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "python",
+      "quantitative-finance",
+      "trading"
+    ]
+  },
+  {
+    "id": "github:danilobatson/ai-trading-agent-gemini",
+    "url": "https://github.com/danilobatson/ai-trading-agent-gemini",
+    "title": "danilobatson/ai-trading-agent-gemini",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096157293624611025",
+    "fetched_at": "2026-09-05T11:43:20.146907Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A modern Next.js application that integrates LunarCrush social sentiment data with Google Gemini AI to generate cryptocurrency trading signals, utilizing Inngest for background workflows and Supabase for real-time updates.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "cryptocurrency",
+      "nextjs",
+      "automation",
+      "supabase"
+    ],
+    "risk_notes": "Requires multiple third-party API keys (LunarCrush, Gemini, Supabase, Inngest) which must be stored in a local .env file. The project uses standard npm installation and does not require elevated system privileges (sudo), but it does involve external data processing and potential financial decision-making logic.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-06-12T08:20:09Z",
+      "homepage": "https://ai-trading-agent-gemini.vercel.app/"
+    },
+    "added_at": "2026-09-05T11:43:37.679465Z",
+    "stars": 330,
+    "language": "TypeScript",
+    "pushed_at": "2026-01-05T18:09:39Z",
+    "license": null,
+    "topics": [
+      "ai",
+      "cryptocurrency",
+      "google-gemini",
+      "supabase",
+      "trading",
+      "web3"
+    ]
+  },
+  {
+    "id": "github:rkiding/awesome-finance-skills",
+    "url": "https://github.com/rkiding/awesome-finance-skills",
+    "title": "rkiding/awesome-finance-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096131240667537751",
+    "fetched_at": "2026-09-05T11:43:20.147037Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of modular, plug-and-play skills designed to equip AI agents with financial analysis capabilities, including real-time news aggregation, stock data retrieval, sentiment analysis, and market forecasting.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "fintech",
+      "automation",
+      "llm",
+      "data-pipelines"
+    ],
+    "risk_notes": "Installation involves using 'npx' to fetch and add skills, which executes remote code. Manual installation involves copying files into agent-specific configuration directories (~/.config/opencode/skills/). These skills require network access to fetch financial data and potentially sensitive API keys for news/market sources. Users should audit the contents of the skill folders before execution to ensure no malicious scripts are present.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2026-01-31T06:04:45Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-05T11:43:47.186866Z",
+    "stars": 2877,
+    "language": "Python",
+    "pushed_at": "2026-03-29T05:03:47Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "finances",
+      "fintech"
+    ]
+  },
+  {
+    "id": "github:techjarves/openclaude-portable",
+    "url": "https://github.com/techjarves/openclaude-portable",
+    "title": "techjarves/openclaude-portable",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096106969505390979",
+    "fetched_at": "2026-09-05T11:43:20.147155Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A portable, zero-footprint AI coding agent that runs from a USB drive, supporting multiple AI providers and local models via Ollama or LM Studio.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai",
+      "cli",
+      "portable",
+      "coding-agent",
+      "ollama"
+    ],
+    "risk_notes": "Runs via shell scripts (START.bat/start.sh) which download Node.js and dependencies. It requires API keys for cloud providers and has a 'Limitless Mode' that allows autonomous file system and command execution, which poses a significant security risk if used with untrusted models or agents. It is self-contained and does not require system-wide installation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 18,
+      "created_at": "2026-04-30T01:34:22Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-05T11:43:53.678969Z",
+    "stars": 1199,
+    "language": "HTML",
+    "pushed_at": "2026-05-07T08:48:42Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:browser-act/skills",
+    "url": "https://github.com/browser-act/skills",
+    "title": "browser-act/skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096084074334937197",
+    "fetched_at": "2026-09-05T11:43:20.147270Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful browser automation CLI designed specifically for AI agents, featuring stealth fingerprinting, proxy rotation, and human-in-the-loop capabilities for complex web tasks.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "web-scraping",
+      "browser-automation",
+      "cli"
+    ],
+    "risk_notes": "Requires Python environment; interacts with local browser profiles and potentially sensitive web accounts. Includes 'confirmation gating' for sensitive operations, but as a tool designed to bypass anti-bot measures, it requires high trust in the underlying code. It connects to external proxy/cloud services which may involve API keys or subscription costs.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2026-02-06T10:35:35Z",
+      "homepage": "https://www.browseract.com/?co-from=github"
+    },
+    "added_at": "2026-09-05T11:44:02.155972Z",
+    "stars": 5616,
+    "language": "Python",
+    "pushed_at": "2026-08-24T14:56:52Z",
+    "license": "MIT",
+    "topics": [
+      "agent-infrastructure",
+      "ai-agents",
+      "automation",
+      "claude-cli",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "codex-skill",
+      "cursor",
+      "data-extraction",
+      "no-code",
+      "openclaw",
+      "openclaw-cli",
+      "openclaw-skill",
+      "openclaw-skills",
+      "web-data-extraction",
+      "web-scraping",
+      "web-scraping-api"
+    ]
   }
 ]
