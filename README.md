@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 203 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 208 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [browser-act/skills](https://github.com/browser-act/skills) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `web-scraping` `browser-automation` `cli` | A powerful browser automation CLI designed specifically for AI agents, featuring stealth fingerprinting, proxy rotation, and human-in-the-loop capabilities for complex web tasks. | 5616 | 2026-09-05 |
+| [techjarves/openclaude-portable](https://github.com/techjarves/openclaude-portable) ⭐ | Developer Tools | `ai` `cli` `portable` `coding-agent` `ollama` | A portable, zero-footprint AI coding agent that runs from a USB drive, supporting multiple AI providers and local models via Ollama or LM Studio. | 1199 | 2026-09-05 |
+| [rkiding/awesome-finance-skills](https://github.com/rkiding/awesome-finance-skills) ⭐ | AI/LLM Tooling | `ai-agents` `fintech` `automation` `llm` `data-pipelines` | A collection of modular, plug-and-play skills designed to equip AI agents with financial analysis capabilities, including real-time news aggregation, stock data retrieval, sentiment analysis, and market forecasting. | 2877 | 2026-09-05 |
+| [danilobatson/ai-trading-agent-gemini](https://github.com/danilobatson/ai-trading-agent-gemini) ⭐ | AI/LLM Tooling | `ai` `cryptocurrency` `nextjs` `automation` `supabase` | A modern Next.js application that integrates LunarCrush social sentiment data with Google Gemini AI to generate cryptocurrency trading signals, utilizing Inngest for background workflows and Supabase for real-time updates. | 330 | 2026-09-05 |
+| [hkuds/vibe-trading](https://github.com/hkuds/vibe-trading) ⭐ | AI/Fintech | `ai-agent` `algorithmic-trading` `llm` `python` `fintech` | An advanced AI-driven algorithmic trading agent framework that supports backtesting, multi-agent workflows, and MCP integration. | 32483 | 2026-09-05 |
 | [leonxlnx/unlazy](https://github.com/leonxlnx/unlazy) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `productivity` `automation` `cli` | A specialized tool for AI agents that enforces rigorous task completion through a 'Depth Tree' method and a gate-based verification system to prevent model laziness. | 3057 | 2026-09-05 |
 | [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) ⭐ | mobile-dev | `android` `root` `customization` `magisk` `kernelsu` | A comprehensive, well-maintained curated list of Android rooting tools, Magisk/KernelSU modules, and customization guides. | 4471 | 2026-09-05 |
 | [masterking32/masterdnsvpn](https://github.com/masterking32/masterdnsvpn) ⭐ | Networking | `dns` `tunneling` `vpn` `networking` `censorship-bypass` | A high-performance DNS tunneling tool written in Go, designed for bypassing restrictive network environments by encapsulating TCP traffic within DNS queries. | 6971 | 2026-09-05 |
