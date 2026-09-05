@@ -36134,5 +36134,71 @@
       "claude-skills",
       "web-automation-agent"
     ]
+  },
+  "github:adventdevinc/kudu": {
+    "capability_summary": "A cross-platform utility for system maintenance, disk cleaning, and privacy hardening.",
+    "problem_solved": "Need to optimize system performance and clean junk files securely.",
+    "use_cases": [
+      "disk cleaning",
+      "privacy hardening",
+      "performance monitoring",
+      "startup management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ccleaner-alternative"
+    ]
+  },
+  "github:mauriceboe/nomad": {
+    "capability_summary": "A self-hosted travel planning platform with real-time collaboration and budget tracking.",
+    "problem_solved": "Need to organize travel itineraries and budgets in a private, collaborative space.",
+    "use_cases": [
+      "trip planning",
+      "budget tracking",
+      "collaborative travel",
+      "itinerary management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "tripit",
+      "wanderlog"
+    ]
+  },
+  "github:dstotijn/hetty": {
+    "capability_summary": "An HTTP toolkit for security research and bug bounty hunting.",
+    "problem_solved": "Need to intercept and analyze HTTP traffic for security testing.",
+    "use_cases": [
+      "pentesting",
+      "bug bounty hunting",
+      "HTTP traffic analysis",
+      "MITM proxy"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "burp-suite-alternative"
+    ]
   }
 }
