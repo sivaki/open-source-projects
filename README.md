@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 208 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 211 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [dstotijn/hetty](https://github.com/dstotijn/hetty) ⭐ | Security Tooling | `infosec` `proxy` `pentesting` `http` `bugbounty` | Hetty is an open-source HTTP toolkit designed for security research and bug bounty hunting, acting as a powerful alternative to Burp Suite. | 12041 | 2026-09-05 |
+| [mauriceboe/nomad](https://github.com/mauriceboe/nomad) ⭐ | Self-hosted Productivity | `self-hosted` `travel` `automation` `productivity` `docker` | A comprehensive, self-hosted travel planning platform featuring real-time collaboration, interactive maps, budget tracking, and AI-powered itinerary parsing. | 13223 | 2026-09-05 |
+| [adventdevinc/kudu](https://github.com/adventdevinc/kudu) ⭐ | System Utilities | `system-maintenance` `privacy` `cli` `optimization` `security` | A cross-platform, open-source system maintenance and security utility that provides disk cleaning, privacy hardening, and performance monitoring with a CLI interface. | 2455 | 2026-09-05 |
 | [browser-act/skills](https://github.com/browser-act/skills) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `web-scraping` `browser-automation` `cli` | A powerful browser automation CLI designed specifically for AI agents, featuring stealth fingerprinting, proxy rotation, and human-in-the-loop capabilities for complex web tasks. | 5616 | 2026-09-05 |
 | [techjarves/openclaude-portable](https://github.com/techjarves/openclaude-portable) ⭐ | Developer Tools | `ai` `cli` `portable` `coding-agent` `ollama` | A portable, zero-footprint AI coding agent that runs from a USB drive, supporting multiple AI providers and local models via Ollama or LM Studio. | 1199 | 2026-09-05 |
 | [rkiding/awesome-finance-skills](https://github.com/rkiding/awesome-finance-skills) ⭐ | AI/LLM Tooling | `ai-agents` `fintech` `automation` `llm` `data-pipelines` | A collection of modular, plug-and-play skills designed to equip AI agents with financial analysis capabilities, including real-time news aggregation, stock data retrieval, sentiment analysis, and market forecasting. | 2877 | 2026-09-05 |
