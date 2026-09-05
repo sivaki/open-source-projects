@@ -36035,5 +36035,64 @@
       "AI agent plugins",
       "awesome-list"
     ]
+  },
+  "github:guillaumemeyer/watermarks-remover": {
+    "capability_summary": "A utility for removing AI-generated watermarks and provenance metadata from digital content. It is designed for developers and AI agents to ensure data hygiene.",
+    "problem_solved": "Removing AI-generated watermarks and provenance data from media.",
+    "use_cases": [
+      "data privacy",
+      "AI agent workflow integration",
+      "metadata stripping"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "watermark remover",
+      "provenance cleaner"
+    ]
+  },
+  "github:masterking32/masterdnsvpn": {
+    "capability_summary": "A high-performance DNS tunneling tool that encapsulates TCP traffic within DNS queries. It is intended for users needing to bypass restrictive network firewalls.",
+    "problem_solved": "Bypassing network censorship and firewalls via DNS tunneling.",
+    "use_cases": [
+      "censorship bypass",
+      "network tunneling",
+      "restricted network access"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "dns tunnel",
+      "vpn alternative"
+    ]
+  },
+  "github:leonxlnx/unlazy": {
+    "capability_summary": "A tool that forces AI agents to complete tasks thoroughly using a 'Depth Tree' verification system. It is designed for developers using LLMs for complex automation.",
+    "problem_solved": "Preventing AI model laziness and incomplete task execution.",
+    "use_cases": [
+      "AI agent productivity",
+      "prompt engineering",
+      "task verification"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LLM task completion",
+      "AI agent tool"
+    ]
   }
 }
