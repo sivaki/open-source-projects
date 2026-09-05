@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 199 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 203 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [leonxlnx/unlazy](https://github.com/leonxlnx/unlazy) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `productivity` `automation` `cli` | A specialized tool for AI agents that enforces rigorous task completion through a 'Depth Tree' method and a gate-based verification system to prevent model laziness. | 3057 | 2026-09-05 |
+| [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) ⭐ | mobile-dev | `android` `root` `customization` `magisk` `kernelsu` | A comprehensive, well-maintained curated list of Android rooting tools, Magisk/KernelSU modules, and customization guides. | 4471 | 2026-09-05 |
+| [masterking32/masterdnsvpn](https://github.com/masterking32/masterdnsvpn) ⭐ | Networking | `dns` `tunneling` `vpn` `networking` `censorship-bypass` | A high-performance DNS tunneling tool written in Go, designed for bypassing restrictive network environments by encapsulating TCP traffic within DNS queries. | 6971 | 2026-09-05 |
+| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) ⭐ | Privacy & AI Tooling | `ai` `privacy` `watermark` `agent-skill` `data-hygiene` | A privacy-focused utility for stripping AI-generated watermarks and provenance metadata from text, images, and documents, designed to integrate with AI agent workflows like Claude Code and Cursor. | 20618 | 2026-09-05 |
 | [voltagent/awesome-moltbot-skills](https://github.com/voltagent/awesome-moltbot-skills) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `llm` `openclaw` `productivity` | A curated, high-quality directory of community-built skills for the OpenClaw AI agent framework, providing filtered and categorized extensions for automation and data tasks. | 52379 | 2026-09-04 |
 | [7ritn/vaultls](https://github.com/7ritn/vaultls) ⭐ | Security Tooling | `mtls` `homelab` `security` `rust` `certificate-management` | A self-hosted web application for managing mTLS and SSH certificates, designed to replace manual OpenSSL workflows with a modern UI and API. | 902 | 2026-09-04 |
 | [makerspet/oomwoo](https://github.com/makerspet/oomwoo) ⭐ | home-lab | `robotics` `ros2` `home-assistant` `raspberry-pi` `diy-electronics` | An ambitious open-source project to build a fully hackable, local-first robot vacuum using Raspberry Pi, ROS2, and 3D-printed components. | 10187 | 2026-09-04 |
