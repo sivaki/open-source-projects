@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 216 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 217 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [scrapfly/antibot-detector](https://github.com/scrapfly/antibot-detector) ⭐ | Security Tooling | `web-scraping` `security` `browser-extension` `automation` `privacy` | A powerful Chrome extension for security researchers and developers to identify anti-bot systems, CAPTCHAs, and browser fingerprinting techniques in real-time. | 392 | 2026-09-06 |
 | [goposta/posta](https://github.com/goposta/posta) ⭐ | self-hosting | `email` `smtp` `api` `automation` `self-hosted` `dev-tools` | A comprehensive, self-hosted email infrastructure platform that provides a modern HTTP API for transactional email, inbound parsing, and SMTP relaying. | 305 | 2026-09-06 |
 | [mayukh4/linux-android](https://github.com/mayukh4/linux-android) ⭐ | home-lab | `android` `termux` `linux` `home-assistant` `automation` | A comprehensive automation suite for transforming Android devices into Linux desktops or Home Assistant servers using Termux and proot-distro. | 2404 | 2026-09-06 |
 | [666os/clashmac](https://github.com/666os/clashmac) ⭐ | Networking | `macos` `proxy` `networking` `swiftui` `automation` | A native macOS proxy client built in SwiftUI that provides system-wide traffic routing, real-time network monitoring, and browser fingerprinting tools. | 6185 | 2026-09-06 |
