@@ -9480,5 +9480,52 @@
       "transactional-email",
       "transactional-outbox"
     ]
+  },
+  {
+    "id": "github:scrapfly/antibot-detector",
+    "url": "https://github.com/scrapfly/antibot-detector",
+    "title": "scrapfly/antibot-detector",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096646955543728401",
+    "fetched_at": "2026-09-06T18:07:00.967665Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful Chrome extension for security researchers and developers to identify anti-bot systems, CAPTCHAs, and browser fingerprinting techniques in real-time.",
+    "category": "Security Tooling",
+    "tags": [
+      "web-scraping",
+      "security",
+      "browser-extension",
+      "automation",
+      "privacy"
+    ],
+    "risk_notes": "Installed via Chrome Web Store. As a browser extension, it requires broad 'read and change all your data on the websites you visit' permissions to perform DOM analysis and network monitoring. The project claims to be privacy-focused with no external data collection, but users should be aware that it hooks into browser APIs to perform its detection functions.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-09-03T13:37:11Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-06T18:07:08.827557Z",
+    "stars": 392,
+    "language": "JavaScript",
+    "pushed_at": "2026-06-18T19:49:06Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "anti-bot",
+      "antibot-detector",
+      "captcha",
+      "captcha-detector",
+      "crawler",
+      "detection",
+      "detector",
+      "scraper",
+      "scrapfly",
+      "scraping",
+      "web-scraping",
+      "web-security",
+      "web-security-research",
+      "webscraping"
+    ]
   }
 ]
