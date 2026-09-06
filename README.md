@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 211 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 214 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [666os/clashmac](https://github.com/666os/clashmac) ⭐ | Networking | `macos` `proxy` `networking` `swiftui` `automation` | A native macOS proxy client built in SwiftUI that provides system-wide traffic routing, real-time network monitoring, and browser fingerprinting tools. | 6185 | 2026-09-06 |
+| [shadowarcanist/netviz](https://github.com/shadowarcanist/netviz) ⭐ | Developer Tools | `networking` `diagramming` `visualization` `architecture` `documentation` | A browser-based visual network architecture designer that allows for creating animated data flow diagrams, ideal for documentation and presentations. | 839 | 2026-09-06 |
+| [shiaho777/web-to-app](https://github.com/shiaho777/web-to-app) ⭐ | Developer Tools | `android` `automation` `web-development` `mobile-dev` `self-hosting` | A powerful on-device Android APK workshop that allows building, signing, and running complex web-based applications, including local server runtimes like Node.js, PHP, and Python. | 6108 | 2026-09-06 |
 | [dstotijn/hetty](https://github.com/dstotijn/hetty) ⭐ | Security Tooling | `infosec` `proxy` `pentesting` `http` `bugbounty` | Hetty is an open-source HTTP toolkit designed for security research and bug bounty hunting, acting as a powerful alternative to Burp Suite. | 12041 | 2026-09-05 |
 | [mauriceboe/nomad](https://github.com/mauriceboe/nomad) ⭐ | Self-hosted Productivity | `self-hosted` `travel` `automation` `productivity` `docker` | A comprehensive, self-hosted travel planning platform featuring real-time collaboration, interactive maps, budget tracking, and AI-powered itinerary parsing. | 13223 | 2026-09-05 |
 | [adventdevinc/kudu](https://github.com/adventdevinc/kudu) ⭐ | System Utilities | `system-maintenance` `privacy` `cli` `optimization` `security` | A cross-platform, open-source system maintenance and security utility that provides disk cleaning, privacy hardening, and performance monitoring with a CLI interface. | 2455 | 2026-09-05 |
