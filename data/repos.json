@@ -9377,5 +9377,108 @@
       "proxy",
       "swiftui"
     ]
+  },
+  {
+    "id": "github:mayukh4/linux-android",
+    "url": "https://github.com/mayukh4/linux-android",
+    "title": "mayukh4/linux-android",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096556202914103582",
+    "fetched_at": "2026-09-06T12:01:06.309412Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive automation suite for transforming Android devices into Linux desktops or Home Assistant servers using Termux and proot-distro.",
+    "category": "home-lab",
+    "tags": [
+      "android",
+      "termux",
+      "linux",
+      "home-assistant",
+      "automation"
+    ],
+    "risk_notes": "Installs via curl piped to bash, which executes arbitrary code in the Termux environment. It requires broad access to the Android filesystem (via Termux storage permissions) and network access for downloading packages. It runs in a proot container, which provides isolation but does not provide full kernel-level security. Maintenance is active and the project is well-documented.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-03-01T20:26:26Z",
+      "homepage": "https://youtu.be/tYm2rQpkOcg"
+    },
+    "added_at": "2026-09-06T12:01:13.858678Z",
+    "stars": 2404,
+    "language": "Shell",
+    "pushed_at": "2026-08-26T22:54:39Z",
+    "license": "MIT",
+    "topics": [
+      "adreno",
+      "android",
+      "bash-script",
+      "desktop-environment",
+      "gpu-acceleration",
+      "home-assistant",
+      "kde-plasma",
+      "linux",
+      "linux-on-android",
+      "lxqt",
+      "mesa",
+      "no-root",
+      "proot-distro",
+      "self-hosted",
+      "smart-home",
+      "termux",
+      "termux-x11",
+      "turnip",
+      "vulkan",
+      "xfce"
+    ]
+  },
+  {
+    "id": "github:goposta/posta",
+    "url": "https://github.com/goposta/posta",
+    "title": "goposta/posta",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096483494360662467",
+    "fetched_at": "2026-09-06T12:01:06.309734Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, self-hosted email infrastructure platform that provides a modern HTTP API for transactional email, inbound parsing, and SMTP relaying.",
+    "category": "self-hosting",
+    "tags": [
+      "email",
+      "smtp",
+      "api",
+      "automation",
+      "self-hosted",
+      "dev-tools"
+    ],
+    "risk_notes": "Distributed primarily via Docker/Docker Compose, which is standard for self-hosting. Requires significant network exposure (SMTP ports 25/587/465) and persistent storage for mail queues and databases. As a mail server, it handles sensitive user data and credentials; requires careful configuration of SPF, DKIM, and DMARC to avoid being flagged as spam.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-03-22T08:17:18Z",
+      "homepage": "https://goposta.dev"
+    },
+    "added_at": "2026-09-06T12:01:20.630585Z",
+    "stars": 305,
+    "language": "Go",
+    "pushed_at": "2026-09-06T09:49:54Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "email-relay",
+      "email-routing",
+      "http-to-smtp",
+      "mail-delivery",
+      "mailchimp-alternative",
+      "mailgun-alternative",
+      "mailsender",
+      "mailserver",
+      "mailtemplate",
+      "mailtest",
+      "postmark-alternative",
+      "send-email",
+      "sendgrid-alternative",
+      "sendmail",
+      "transactional-email",
+      "transactional-outbox"
+    ]
   }
 ]
