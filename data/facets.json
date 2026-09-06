@@ -36200,5 +36200,43 @@
     "aliases": [
       "burp-suite-alternative"
     ]
+  },
+  "github:shiaho777/web-to-app": {
+    "capability_summary": "An on-device Android workshop for building, signing, and running web-based applications. It supports local server runtimes like Node.js, PHP, and Python.",
+    "problem_solved": "Converting web projects into standalone Android APKs directly on a mobile device.",
+    "use_cases": [
+      "mobile app development",
+      "web-to-app conversion",
+      "local server hosting on android"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "android"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "web-to-apk",
+      "mobile web runtime"
+    ]
+  },
+  "github:shadowarcanist/netviz": {
+    "capability_summary": "A browser-based tool for designing and visualizing network architectures with animated data flows. It is designed for technical documentation and presentations.",
+    "problem_solved": "Creating clear, animated diagrams for complex network architectures.",
+    "use_cases": [
+      "network diagramming",
+      "architecture documentation",
+      "technical presentations"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "network visualizer",
+      "diagramming tool"
+    ]
   }
 }
