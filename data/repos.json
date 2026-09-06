@@ -9269,5 +9269,113 @@
       "pentesting",
       "proxy"
     ]
+  },
+  {
+    "id": "github:shiaho777/web-to-app",
+    "url": "https://github.com/shiaho777/web-to-app",
+    "title": "shiaho777/web-to-app",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096422892560896181",
+    "fetched_at": "2026-09-06T03:37:13.632639Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful on-device Android APK workshop that allows building, signing, and running complex web-based applications, including local server runtimes like Node.js, PHP, and Python.",
+    "category": "Developer Tools",
+    "tags": [
+      "android",
+      "automation",
+      "web-development",
+      "mobile-dev",
+      "self-hosting"
+    ],
+    "risk_notes": "This is an Android application (APK) that requires extensive permissions, including storage access, network access, and the ability to execute binaries (Node.js, PHP, etc.) on the device. It performs on-device APK signing and modification, which is a high-privilege operation. Users should be aware that it can bypass standard web restrictions and run local servers, which could expose local ports if not configured correctly. It is actively maintained, but as with any tool that builds and executes code, it should be used with caution regarding the source of the web projects being converted.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2025-11-26T04:45:16Z",
+      "homepage": "https://shiaho777.github.io/web-to-app/"
+    },
+    "added_at": "2026-09-06T03:37:20.555027Z",
+    "stars": 6108,
+    "language": "Kotlin",
+    "pushed_at": "2026-09-06T02:59:02Z",
+    "license": "Unlicense",
+    "topics": [
+      "android",
+      "app",
+      "web"
+    ]
+  },
+  {
+    "id": "github:shadowarcanist/netviz",
+    "url": "https://github.com/shadowarcanist/netviz",
+    "title": "shadowarcanist/netviz",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096371138645385613",
+    "fetched_at": "2026-09-06T03:37:13.632801Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A browser-based visual network architecture designer that allows for creating animated data flow diagrams, ideal for documentation and presentations.",
+    "category": "Developer Tools",
+    "tags": [
+      "networking",
+      "diagramming",
+      "visualization",
+      "architecture",
+      "documentation"
+    ],
+    "risk_notes": "The project uses a non-standard package manager 'Aube' which may require additional setup. It runs entirely in the browser using IndexedDB for local storage, meaning it has no inherent access to your filesystem or network beyond what the browser allows. Maintenance is low as the author explicitly states they will not accept PRs.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-04-19T19:19:29Z",
+      "homepage": "https://netviz.shadowarcanist.com/"
+    },
+    "added_at": "2026-09-06T03:37:27.001612Z",
+    "stars": 839,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-04T19:26:30Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:666os/clashmac",
+    "url": "https://github.com/666os/clashmac",
+    "title": "666os/clashmac",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096325652345479398",
+    "fetched_at": "2026-09-06T03:37:13.632927Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A native macOS proxy client built in SwiftUI that provides system-wide traffic routing, real-time network monitoring, and browser fingerprinting tools.",
+    "category": "Networking",
+    "tags": [
+      "macos",
+      "proxy",
+      "networking",
+      "swiftui",
+      "automation"
+    ],
+    "risk_notes": "Distributed as a proprietary .dmg binary. Requires elevated privileges to install a system helper tool for network traffic interception (TUN mode). The app requires bypassing macOS Gatekeeper, which is a significant security trade-off. It has full access to all system network traffic.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 174,
+      "created_at": "2025-11-28T04:41:02Z",
+      "homepage": "https://clashmac.app"
+    },
+    "added_at": "2026-09-06T03:37:33.950370Z",
+    "stars": 6185,
+    "language": null,
+    "pushed_at": "2026-09-05T16:56:59Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "clash",
+      "clash-meta",
+      "macos",
+      "mihomo",
+      "network",
+      "proxy",
+      "swiftui"
+    ]
   }
 ]
