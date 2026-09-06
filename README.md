@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 214 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 216 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [goposta/posta](https://github.com/goposta/posta) ⭐ | self-hosting | `email` `smtp` `api` `automation` `self-hosted` `dev-tools` | A comprehensive, self-hosted email infrastructure platform that provides a modern HTTP API for transactional email, inbound parsing, and SMTP relaying. | 305 | 2026-09-06 |
+| [mayukh4/linux-android](https://github.com/mayukh4/linux-android) ⭐ | home-lab | `android` `termux` `linux` `home-assistant` `automation` | A comprehensive automation suite for transforming Android devices into Linux desktops or Home Assistant servers using Termux and proot-distro. | 2404 | 2026-09-06 |
 | [666os/clashmac](https://github.com/666os/clashmac) ⭐ | Networking | `macos` `proxy` `networking` `swiftui` `automation` | A native macOS proxy client built in SwiftUI that provides system-wide traffic routing, real-time network monitoring, and browser fingerprinting tools. | 6185 | 2026-09-06 |
 | [shadowarcanist/netviz](https://github.com/shadowarcanist/netviz) ⭐ | Developer Tools | `networking` `diagramming` `visualization` `architecture` `documentation` | A browser-based visual network architecture designer that allows for creating animated data flow diagrams, ideal for documentation and presentations. | 839 | 2026-09-06 |
 | [shiaho777/web-to-app](https://github.com/shiaho777/web-to-app) ⭐ | Developer Tools | `android` `automation` `web-development` `mobile-dev` `self-hosting` | A powerful on-device Android APK workshop that allows building, signing, and running complex web-based applications, including local server runtimes like Node.js, PHP, and Python. | 6108 | 2026-09-06 |
