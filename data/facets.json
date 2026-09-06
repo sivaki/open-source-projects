@@ -36238,5 +36238,26 @@
       "network visualizer",
       "diagramming tool"
     ]
+  },
+  "github:mayukh4/linux-android": {
+    "capability_summary": "An automation suite that transforms Android devices into Linux desktop environments or Home Assistant servers using Termux. It is designed for power users wanting to repurpose old hardware.",
+    "problem_solved": "Running full Linux desktop environments or home automation servers on Android devices without root access.",
+    "use_cases": [
+      "linux-on-android",
+      "home-assistant-server",
+      "desktop-environment-on-mobile",
+      "automation-scripts"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "android",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "termux-linux",
+      "proot-distro-automation"
+    ]
   }
 }
