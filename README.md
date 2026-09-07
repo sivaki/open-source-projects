@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 217 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 218 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [shpigford/chops](https://github.com/shpigford/chops) ⭐ | Developer Tools | `macos` `ai` `agents` `productivity` `swift` | A native macOS utility that centralizes the management, editing, and organization of AI agent skills and rules across multiple platforms like Claude Code, Cursor, and Windsurf. | 1580 | 2026-09-07 |
 | [scrapfly/antibot-detector](https://github.com/scrapfly/antibot-detector) ⭐ | Security Tooling | `web-scraping` `security` `browser-extension` `automation` `privacy` | A powerful Chrome extension for security researchers and developers to identify anti-bot systems, CAPTCHAs, and browser fingerprinting techniques in real-time. | 392 | 2026-09-06 |
 | [goposta/posta](https://github.com/goposta/posta) ⭐ | self-hosting | `email` `smtp` `api` `automation` `self-hosted` `dev-tools` | A comprehensive, self-hosted email infrastructure platform that provides a modern HTTP API for transactional email, inbound parsing, and SMTP relaying. | 305 | 2026-09-06 |
 | [mayukh4/linux-android](https://github.com/mayukh4/linux-android) ⭐ | home-lab | `android` `termux` `linux` `home-assistant` `automation` | A comprehensive automation suite for transforming Android devices into Linux desktops or Home Assistant servers using Termux and proot-distro. | 2404 | 2026-09-06 |
