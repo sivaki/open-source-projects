@@ -9580,5 +9580,43 @@
       "typescript",
       "windows"
     ]
+  },
+  {
+    "id": "github:shpigford/chops",
+    "url": "https://github.com/shpigford/chops",
+    "title": "shpigford/chops",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2096948824619073849",
+    "fetched_at": "2026-09-07T14:04:43.484021Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A native macOS utility that centralizes the management, editing, and organization of AI agent skills and rules across multiple platforms like Claude Code, Cursor, and Windsurf.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "ai",
+      "agents",
+      "productivity",
+      "swift"
+    ],
+    "risk_notes": "The application requires full filesystem access to read and write to hidden dotfiles in the user's home directory (~/.claude, ~/.cursor, etc.). It explicitly disables the macOS sandbox to function. It is installed via a DMG file or built from source using Xcode/xcodegen. It does not appear to require network permissions beyond standard updates, but it interacts with sensitive configuration files used by AI coding agents.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 11,
+      "created_at": "2026-03-18T17:17:12Z",
+      "homepage": "https://chops.md"
+    },
+    "added_at": "2026-09-07T14:04:50.095645Z",
+    "stars": 1580,
+    "language": "Swift",
+    "pushed_at": "2026-08-23T19:53:58Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "agents",
+      "ai",
+      "macos",
+      "skills",
+      "swiftui"
+    ]
   }
 ]
