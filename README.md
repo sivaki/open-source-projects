@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 218 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 220 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow) ⭐ | AI/LLM Tooling | `ai-agents` `developer-tools` `llm-workflow` `sqlite` `automation` | A powerful orchestration layer for AI coding agents that adds persistent SQLite-backed memory, self-correction rules, and automated knowledge wikis to tools like Claude Code and Cursor. | 2822 | 2026-09-07 |
+| [benmaster82/kwipu](https://github.com/benmaster82/kwipu) ⭐ | AI/LLM Tooling | `rag` `knowledge-graph` `obsidian` `ollama` `mcp` `local-first` | A local Graph RAG engine that indexes Markdown files (like Obsidian vaults) into a queryable knowledge graph using Ollama for LLM processing. | 293 | 2026-09-07 |
 | [shpigford/chops](https://github.com/shpigford/chops) ⭐ | Developer Tools | `macos` `ai` `agents` `productivity` `swift` | A native macOS utility that centralizes the management, editing, and organization of AI agent skills and rules across multiple platforms like Claude Code, Cursor, and Windsurf. | 1580 | 2026-09-07 |
 | [scrapfly/antibot-detector](https://github.com/scrapfly/antibot-detector) ⭐ | Security Tooling | `web-scraping` `security` `browser-extension` `automation` `privacy` | A powerful Chrome extension for security researchers and developers to identify anti-bot systems, CAPTCHAs, and browser fingerprinting techniques in real-time. | 392 | 2026-09-06 |
 | [goposta/posta](https://github.com/goposta/posta) ⭐ | self-hosting | `email` `smtp` `api` `automation` `self-hosted` `dev-tools` | A comprehensive, self-hosted email infrastructure platform that provides a modern HTTP API for transactional email, inbound parsing, and SMTP relaying. | 305 | 2026-09-06 |
