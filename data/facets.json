@@ -36259,5 +36259,29 @@
       "termux-linux",
       "proot-distro-automation"
     ]
+  },
+  "github:benmaster82/kwipu": {
+    "capability_summary": "A local Graph RAG engine that indexes Markdown files into a queryable knowledge graph using Ollama. It is designed for users who want to query their local notes offline.",
+    "problem_solved": "Enables semantic search and knowledge graph querying over local Markdown files without cloud dependencies.",
+    "use_cases": [
+      "obsidian vault analysis",
+      "local rag chatbot",
+      "knowledge graph visualization",
+      "offline document indexing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "graph-rag",
+      "obsidian-rag",
+      "local-llm-tool"
+    ]
   }
 }
