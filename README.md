@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 220 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 223 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [ix-infrastructure/ix](https://github.com/ix-infrastructure/ix) ⭐ | Developer Tools | `ai` `cli` `code-analysis` `mcp` `developer-tools` | Ix is a CLI tool that builds a persistent, queryable graph of your codebase using tree-sitter and ArangoDB, allowing AI agents to navigate and reason about complex systems with significantly reduced token usage. | 846 | 2026-09-08 |
+| [haxl0p4/l0p4map](https://github.com/haxl0p4/l0p4map) ⭐ | Network Security | `network-monitoring` `nmap` `security-tools` `visualization` `infosec` | A professional-grade network monitoring and visualization tool that integrates nmap with a PyQt6 GUI to provide real-time topology mapping, device fingerprinting, and vulnerability scanning. | 632 | 2026-09-08 |
+| [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) ⭐ | Developer Tools | `cli` `design-systems` `automation` `mcp` `frontend` `ci-cd` | A powerful CLI and MCP-compatible tool for extracting design systems, tokens, and accessibility data from any website, with built-in CI/CD drift detection. | 3355 | 2026-09-08 |
 | [rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow) ⭐ | AI/LLM Tooling | `ai-agents` `developer-tools` `llm-workflow` `sqlite` `automation` | A powerful orchestration layer for AI coding agents that adds persistent SQLite-backed memory, self-correction rules, and automated knowledge wikis to tools like Claude Code and Cursor. | 2822 | 2026-09-07 |
 | [benmaster82/kwipu](https://github.com/benmaster82/kwipu) ⭐ | AI/LLM Tooling | `rag` `knowledge-graph` `obsidian` `ollama` `mcp` `local-first` | A local Graph RAG engine that indexes Markdown files (like Obsidian vaults) into a queryable knowledge graph using Ollama for LLM processing. | 293 | 2026-09-07 |
 | [shpigford/chops](https://github.com/shpigford/chops) ⭐ | Developer Tools | `macos` `ai` `agents` `productivity` `swift` | A native macOS utility that centralizes the management, editing, and organization of AI agent skills and rules across multiple platforms like Claude Code, Cursor, and Windsurf. | 1580 | 2026-09-07 |
