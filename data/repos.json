@@ -9880,5 +9880,131 @@
       "system-intelligence",
       "system-mapping"
     ]
+  },
+  {
+    "id": "github:insforge/insforge",
+    "url": "https://github.com/insforge/insforge",
+    "title": "insforge/insforge",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2097242863964958760",
+    "fetched_at": "2026-09-08T12:41:52.454390Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "InsForge is a backend-as-a-service platform designed specifically for AI coding agents, providing an MCP server and CLI to manage databases, auth, and deployments programmatically.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "mcp",
+      "backend",
+      "developer-tools",
+      "postgresql"
+    ],
+    "risk_notes": "The platform offers both a cloud-hosted version and a self-hosted option. As an infrastructure-level tool, it requires significant access to your database, storage, and compute resources. It functions as a gateway for AI agents, meaning it will handle sensitive API keys and potentially execute code on your behalf, requiring careful management of permissions and environment variables.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 171,
+      "created_at": "2025-07-29T05:56:00Z",
+      "homepage": "https://insforge.dev"
+    },
+    "added_at": "2026-09-08T12:42:02.692460Z",
+    "stars": 12890,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-08T04:18:33Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "coding",
+      "deno",
+      "embeddings",
+      "insforge",
+      "nextjs",
+      "oauth2",
+      "pgvector",
+      "postgresql",
+      "realtime",
+      "vectors",
+      "websockets"
+    ]
+  },
+  {
+    "id": "github:nashsu/llm_wiki",
+    "url": "https://github.com/nashsu/llm_wiki",
+    "title": "nashsu/llm_wiki",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2097247042141601958",
+    "fetched_at": "2026-09-08T12:41:55.177857Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful cross-platform desktop application that implements the 'LLM Wiki' pattern, automatically transforming local documents into an interlinked, persistent knowledge base compatible with Obsidian.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "knowledge-management",
+      "rag",
+      "obsidian",
+      "automation"
+    ],
+    "risk_notes": "Distributed as a desktop application; requires local filesystem access to manage your documents and wiki vault. It relies on external LLM API keys (OpenAI-compatible) and potentially web search APIs (Tavily/SerpApi). It includes a local HTTP API and MCP server, which exposes local data to other AI agents, requiring careful configuration of access permissions.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 249,
+      "created_at": "2026-04-08T11:24:01Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-08T12:42:11.229068Z",
+    "stars": 17583,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-25T06:42:02Z",
+    "license": "NOASSERTION",
+    "topics": []
+  },
+  {
+    "id": "github:adminsyspro/proxcenter-ui",
+    "url": "https://github.com/adminsyspro/proxcenter-ui",
+    "title": "adminsyspro/proxcenter-ui",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2097186428811645048",
+    "fetched_at": "2026-09-08T12:41:55.178014Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "ProxCenter is a comprehensive management platform for Proxmox VE and Backup Server, providing a centralized dashboard for multi-cluster operations, migration, and monitoring.",
+    "category": "Infrastructure Management",
+    "tags": [
+      "proxmox",
+      "virtualization",
+      "self-hosted",
+      "sysadmin",
+      "cluster-management"
+    ],
+    "risk_notes": "Uses a 'curl | sudo bash' installation script which requires root privileges to set up Docker, PostgreSQL, and persistent volumes. It requires high-level access to your Proxmox clusters to perform management tasks, making it a critical security component that should be isolated on your network.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 19,
+      "created_at": "2026-02-04T17:01:01Z",
+      "homepage": "https://www.proxcenter.io"
+    },
+    "added_at": "2026-09-08T12:42:18.684437Z",
+    "stars": 1387,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-08T06:02:30Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "backup-management",
+      "ceph",
+      "cluster-management",
+      "datacenter",
+      "drs",
+      "high-availability",
+      "load-balancing",
+      "monitoring",
+      "pbs",
+      "proxmox",
+      "pve",
+      "pve-cluster",
+      "self-hosted",
+      "sysadmin",
+      "virtualization"
+    ]
   }
 ]
