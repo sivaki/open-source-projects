@@ -36283,5 +36283,29 @@
       "obsidian-rag",
       "local-llm-tool"
     ]
+  },
+  "github:nashsu/llm_wiki": {
+    "capability_summary": "A desktop application that uses LLMs to automatically link and organize local documents into a knowledge base. It is designed for users who want to maintain a structured Obsidian-compatible wiki.",
+    "problem_solved": "Manually organizing and interlinking large collections of local notes and documents.",
+    "use_cases": [
+      "knowledge management",
+      "automated note linking",
+      "Obsidian vault organization",
+      "local document indexing"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Obsidian plugin",
+      "RAG tool",
+      "knowledge base automation"
+    ]
   }
 }
