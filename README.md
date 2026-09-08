@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 226 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 227 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) ⭐ | AI/LLM Tooling | `diagrams` `ai-agents` `claude-code` `svg` `visualization` | A collection of high-quality, editorial-grade SVG diagram templates designed for use with AI coding agents like Claude Code, focusing on clean design without external dependencies. | 34440 | 2026-09-08 |
 | [adminsyspro/proxcenter-ui](https://github.com/adminsyspro/proxcenter-ui) ⭐ | Infrastructure Management | `proxmox` `virtualization` `self-hosted` `sysadmin` `cluster-management` | ProxCenter is a comprehensive management platform for Proxmox VE and Backup Server, providing a centralized dashboard for multi-cluster operations, migration, and monitoring. | 1387 | 2026-09-08 |
 | [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) ⭐ | AI/LLM Tooling | `ai` `knowledge-management` `rag` `obsidian` `automation` | A powerful cross-platform desktop application that implements the 'LLM Wiki' pattern, automatically transforming local documents into an interlinked, persistent knowledge base compatible with Obsidian. | 17583 | 2026-09-08 |
 | [insforge/insforge](https://github.com/insforge/insforge) ⭐ | AI/LLM Tooling | `ai-agents` `mcp` `backend` `developer-tools` `postgresql` | InsForge is a backend-as-a-service platform designed specifically for AI coding agents, providing an MCP server and CLI to manage databases, auth, and deployments programmatically. | 12890 | 2026-09-08 |
