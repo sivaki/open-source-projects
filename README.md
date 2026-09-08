@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 223 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 226 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [adminsyspro/proxcenter-ui](https://github.com/adminsyspro/proxcenter-ui) ⭐ | Infrastructure Management | `proxmox` `virtualization` `self-hosted` `sysadmin` `cluster-management` | ProxCenter is a comprehensive management platform for Proxmox VE and Backup Server, providing a centralized dashboard for multi-cluster operations, migration, and monitoring. | 1387 | 2026-09-08 |
+| [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) ⭐ | AI/LLM Tooling | `ai` `knowledge-management` `rag` `obsidian` `automation` | A powerful cross-platform desktop application that implements the 'LLM Wiki' pattern, automatically transforming local documents into an interlinked, persistent knowledge base compatible with Obsidian. | 17583 | 2026-09-08 |
+| [insforge/insforge](https://github.com/insforge/insforge) ⭐ | AI/LLM Tooling | `ai-agents` `mcp` `backend` `developer-tools` `postgresql` | InsForge is a backend-as-a-service platform designed specifically for AI coding agents, providing an MCP server and CLI to manage databases, auth, and deployments programmatically. | 12890 | 2026-09-08 |
 | [ix-infrastructure/ix](https://github.com/ix-infrastructure/ix) ⭐ | Developer Tools | `ai` `cli` `code-analysis` `mcp` `developer-tools` | Ix is a CLI tool that builds a persistent, queryable graph of your codebase using tree-sitter and ArangoDB, allowing AI agents to navigate and reason about complex systems with significantly reduced token usage. | 846 | 2026-09-08 |
 | [haxl0p4/l0p4map](https://github.com/haxl0p4/l0p4map) ⭐ | Network Security | `network-monitoring` `nmap` `security-tools` `visualization` `infosec` | A professional-grade network monitoring and visualization tool that integrates nmap with a PyQt6 GUI to provide real-time topology mapping, device fingerprinting, and vulnerability scanning. | 632 | 2026-09-08 |
 | [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) ⭐ | Developer Tools | `cli` `design-systems` `automation` `mcp` `frontend` `ci-cd` | A powerful CLI and MCP-compatible tool for extracting design systems, tokens, and accessibility data from any website, with built-in CI/CD drift detection. | 3355 | 2026-09-08 |
