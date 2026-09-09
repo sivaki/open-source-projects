@@ -10047,5 +10047,117 @@
       "mermaid",
       "svg"
     ]
+  },
+  {
+    "id": "github:experientiallabs/experiential",
+    "url": "https://github.com/experientiallabs/experiential",
+    "title": "experientiallabs/experiential",
+    "source_name": "twitter",
+    "source_url": "https://x.com/GithubProjects/status/2097448664096817433",
+    "fetched_at": "2026-09-09T03:46:40.469057Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An open-source LLM gateway and router that provides an OpenAI-compatible API to manage multiple model providers, track costs, and optimize agent workflows through traffic analysis and fine-tuning.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "gateway",
+      "automation",
+      "proxy",
+      "agent-framework"
+    ],
+    "risk_notes": "Installed via pip. Requires API keys for various LLM providers (BYOK) which are stored locally. It acts as a proxy/gateway, meaning it intercepts and processes all LLM traffic. It includes anonymous PostHog telemetry by default, which can be disabled via CLI. The project is actively maintained and uses standard Python packaging.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 37,
+      "created_at": "2026-06-24T22:40:57Z",
+      "homepage": "https://experientiallabs.ai"
+    },
+    "added_at": "2026-09-09T03:46:58.719350Z",
+    "stars": 3184,
+    "language": "Python",
+    "pushed_at": "2026-09-09T00:49:09Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:0xranx/opencontext",
+    "url": "https://github.com/0xranx/opencontext",
+    "title": "0xranx/opencontext",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2097531261673705726",
+    "fetched_at": "2026-09-09T03:46:49.294500Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A personal knowledge management tool that provides a persistent context layer for AI coding agents like Cursor, Claude Code, and Codex via MCP and CLI-based skills.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "cli",
+      "mcp",
+      "knowledge-management",
+      "developer-tools"
+    ],
+    "risk_notes": "Installed via npm globally. It requires read/write access to your local project directories and configuration folders (~/.cursor, ~/.claude, etc.) to inject slash commands and MCP configurations. It runs locally, but users should be aware that it facilitates AI agents accessing your local knowledge base, which may contain sensitive project data.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2025-12-17T09:05:19Z",
+      "homepage": "https://0xranx.github.io/OpenContext/"
+    },
+    "added_at": "2026-09-09T03:47:06.235454Z",
+    "stars": 757,
+    "language": "JavaScript",
+    "pushed_at": "2026-06-16T01:43:12Z",
+    "license": "MIT",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "context",
+      "context-management",
+      "cursor",
+      "desktop-app",
+      "developer-tools",
+      "knowledge-base",
+      "mcp",
+      "opencode",
+      "tauri"
+    ]
+  },
+  {
+    "id": "github:emilkowalski/skills",
+    "url": "https://github.com/emilkowalski/skills",
+    "title": "emilkowalski/skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2097410378510582017",
+    "fetched_at": "2026-09-09T03:46:49.294659Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of specialized prompt-engineering 'skills' designed to guide AI agents in producing high-quality UI/UX animations and design code, based on expert industry standards.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "ui-design",
+      "prompt-engineering",
+      "frontend",
+      "automation"
+    ],
+    "risk_notes": "Installed via 'npx skills@latest', which executes code from the npm registry. As these are prompt-based skill definitions, they primarily interact with your LLM provider's API and your local codebase. Ensure you review the prompt files before running them against sensitive production codebases.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-03-16T13:52:31Z",
+      "homepage": "https://emilkowal.ski/skill"
+    },
+    "added_at": "2026-09-09T03:47:13.893236Z",
+    "stars": 36292,
+    "language": "Markdown",
+    "pushed_at": "2026-08-21T09:32:33Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
