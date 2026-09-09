@@ -36307,5 +36307,46 @@
       "RAG tool",
       "knowledge base automation"
     ]
+  },
+  "github:experientiallabs/experiential": {
+    "capability_summary": "An open-source LLM gateway and router that provides an OpenAI-compatible API to manage multiple model providers and track costs. It is designed for developers building agent-based applications.",
+    "problem_solved": "Managing multiple LLM providers and monitoring API costs in one place.",
+    "use_cases": [
+      "LLM traffic routing",
+      "cost tracking",
+      "agent workflow optimization",
+      "API proxying"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LLM gateway",
+      "AI proxy",
+      "like LiteLLM"
+    ]
+  },
+  "github:emilkowalski/skills": {
+    "capability_summary": "A curated collection of prompt-engineering techniques and instructions for AI agents. It helps developers generate high-quality UI/UX animations and frontend code.",
+    "problem_solved": "Ensuring AI agents produce professional-grade UI/UX design code and animations.",
+    "use_cases": [
+      "prompt engineering",
+      "UI/UX design automation",
+      "frontend code generation"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "prompt library",
+      "AI design prompts"
+    ]
   }
 }
