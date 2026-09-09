@@ -36348,5 +36348,44 @@
       "prompt library",
       "AI design prompts"
     ]
+  },
+  "github:harnessrouter/harnessrouter": {
+    "capability_summary": "A unified API and protocol for running and testing various AI agent harnesses. It is designed for developers building or benchmarking AI agent infrastructure.",
+    "problem_solved": "Standardizing the interface for diverse AI agent frameworks and harnesses.",
+    "use_cases": [
+      "conformance testing",
+      "agent benchmarking",
+      "unified agent orchestration"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "UHP",
+      "Unified Harness Protocol"
+    ]
+  },
+  "github:cocoon-ai/architecture-diagram-generator": {
+    "capability_summary": "An AI-powered tool that converts text descriptions into professional system architecture diagrams. It outputs standalone HTML/SVG files.",
+    "problem_solved": "Automating the creation of technical architecture diagrams from text prompts.",
+    "use_cases": [
+      "system design documentation",
+      "technical visualization",
+      "architecture diagramming"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude AI skill",
+      "diagram generator"
+    ]
   }
 }
