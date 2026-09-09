@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 230 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 234 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [circuitproapp/circuitpro](https://github.com/circuitproapp/circuitpro) ⭐ | Hardware Engineering | `pcb` `macos` `eda` `swift` `hardware-design` | Circuit Pro is a native macOS PCB design tool built with SwiftUI and AppKit, aiming to provide a modern, performant EDA experience for Apple hardware designers. | 522 | 2026-09-09 |
+| [cocoon-ai/architecture-diagram-generator](https://github.com/cocoon-ai/architecture-diagram-generator) ⭐ | AI/LLM Tooling | `ai` `diagrams` `claude` `architecture` `visualization` | A Claude AI skill that generates professional, dark-themed system architecture diagrams as standalone HTML/SVG files from text descriptions. | 7188 | 2026-09-09 |
+| [itskovacs/trip](https://github.com/itskovacs/trip) ⭐ | self-hosting | `self-hosted` `travel` `maps` `docker` `productivity` | A minimalist, self-hostable map tracker and trip planner designed for organizing points of interest and travel itineraries without telemetry. | 1894 | 2026-09-09 |
+| [harnessrouter/harnessrouter](https://github.com/harnessrouter/harnessrouter) ⭐ | AI/LLM Tooling | `ai-agents` `self-hosted` `llm` `automation` `docker` | A self-hosted, unified interface for running various AI agent harnesses through a single API, implementing the open Unified Harness Protocol (UHP). | 813 | 2026-09-09 |
 | [emilkowalski/skills](https://github.com/emilkowalski/skills) ⭐ | AI/LLM Tooling | `ai` `ui-design` `prompt-engineering` `frontend` `automation` | A collection of specialized prompt-engineering 'skills' designed to guide AI agents in producing high-quality UI/UX animations and design code, based on expert industry standards. | 36292 | 2026-09-09 |
 | [0xranx/opencontext](https://github.com/0xranx/opencontext) ⭐ | AI/LLM Tooling | `ai` `cli` `mcp` `knowledge-management` `developer-tools` | A personal knowledge management tool that provides a persistent context layer for AI coding agents like Cursor, Claude Code, and Codex via MCP and CLI-based skills. | 757 | 2026-09-09 |
 | [experientiallabs/experiential](https://github.com/experientiallabs/experiential) ⭐ | AI/LLM Tooling | `llm` `gateway` `automation` `proxy` `agent-framework` | An open-source LLM gateway and router that provides an OpenAI-compatible API to manage multiple model providers, track costs, and optimize agent workflows through traffic analysis and fine-tuning. | 3184 | 2026-09-09 |
