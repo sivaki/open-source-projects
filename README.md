@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 227 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 230 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [emilkowalski/skills](https://github.com/emilkowalski/skills) ⭐ | AI/LLM Tooling | `ai` `ui-design` `prompt-engineering` `frontend` `automation` | A collection of specialized prompt-engineering 'skills' designed to guide AI agents in producing high-quality UI/UX animations and design code, based on expert industry standards. | 36292 | 2026-09-09 |
+| [0xranx/opencontext](https://github.com/0xranx/opencontext) ⭐ | AI/LLM Tooling | `ai` `cli` `mcp` `knowledge-management` `developer-tools` | A personal knowledge management tool that provides a persistent context layer for AI coding agents like Cursor, Claude Code, and Codex via MCP and CLI-based skills. | 757 | 2026-09-09 |
+| [experientiallabs/experiential](https://github.com/experientiallabs/experiential) ⭐ | AI/LLM Tooling | `llm` `gateway` `automation` `proxy` `agent-framework` | An open-source LLM gateway and router that provides an OpenAI-compatible API to manage multiple model providers, track costs, and optimize agent workflows through traffic analysis and fine-tuning. | 3184 | 2026-09-09 |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) ⭐ | AI/LLM Tooling | `diagrams` `ai-agents` `claude-code` `svg` `visualization` | A collection of high-quality, editorial-grade SVG diagram templates designed for use with AI coding agents like Claude Code, focusing on clean design without external dependencies. | 34440 | 2026-09-08 |
 | [adminsyspro/proxcenter-ui](https://github.com/adminsyspro/proxcenter-ui) ⭐ | Infrastructure Management | `proxmox` `virtualization` `self-hosted` `sysadmin` `cluster-management` | ProxCenter is a comprehensive management platform for Proxmox VE and Backup Server, providing a centralized dashboard for multi-cluster operations, migration, and monitoring. | 1387 | 2026-09-08 |
 | [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) ⭐ | AI/LLM Tooling | `ai` `knowledge-management` `rag` `obsidian` `automation` | A powerful cross-platform desktop application that implements the 'LLM Wiki' pattern, automatically transforming local documents into an interlinked, persistent knowledge base compatible with Obsidian. | 17583 | 2026-09-08 |
