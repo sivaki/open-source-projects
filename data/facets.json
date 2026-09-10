@@ -36540,5 +36540,101 @@
       "3d-reconstruction-model",
       "geometric-transformer"
     ]
+  },
+  "github:nolangz/pixel2motion": {
+    "capability_summary": "An AI-assisted workflow that converts raster logos into SVG animations and HTML demos for motion designers.",
+    "problem_solved": "Automating the conversion of static logos into animated vector assets.",
+    "use_cases": [
+      "logo animation",
+      "svg generation",
+      "motion design",
+      "creative coding"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "raster-to-svg",
+      "ai-animation"
+    ]
+  },
+  "github:alsk1992/cloddsbot": {
+    "capability_summary": "An autonomous AI trading agent for crypto and prediction markets that operates via CLI and web interface.",
+    "problem_solved": "Automating complex trading strategies across multiple crypto and prediction platforms.",
+    "use_cases": [
+      "crypto trading",
+      "prediction markets",
+      "arbitrage",
+      "defi automation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "trading-bot",
+      "ai-agent"
+    ]
+  },
+  "github:sharpdeveye/maestro": {
+    "capability_summary": "A workflow orchestration toolkit providing standardized commands and context management for AI coding agents.",
+    "problem_solved": "Improving output quality and error handling in AI-assisted coding workflows.",
+    "use_cases": [
+      "prompt engineering",
+      "agent orchestration",
+      "developer tools"
+    ],
+    "project_type": "library",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp",
+      "agent-orchestration"
+    ]
+  },
+  "github:snailsploit/claude-red": {
+    "capability_summary": "A library of structured skill files that prime Claude for offensive security and red teaming tasks.",
+    "problem_solved": "Enhancing AI performance in specialized security and vulnerability research domains.",
+    "use_cases": [
+      "red teaming",
+      "vulnerability research",
+      "infosec automation"
+    ],
+    "project_type": "dataset",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "redteam-tools",
+      "claude-skills"
+    ]
+  },
+  "github:untrivial-ai/agent-orchestrator": {
+    "capability_summary": "A desktop workspace for managing multiple AI coding agents with Git worktree integration and Kanban task tracking.",
+    "problem_solved": "Managing complex multi-agent development workflows and isolated coding environments.",
+    "use_cases": [
+      "multi-agent coding",
+      "git workflow management",
+      "agent swarm orchestration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "agent-ide",
+      "agent-swarm"
+    ]
   }
 }
