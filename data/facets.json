@@ -36387,5 +36387,62 @@
       "Claude AI skill",
       "diagram generator"
     ]
+  },
+  "github:mukul975/cve-mcp-server": {
+    "capability_summary": "An MCP server that integrates multiple security intelligence APIs to provide vulnerability data directly to AI models like Claude. It is designed for security researchers and DevSecOps engineers.",
+    "problem_solved": "Automating CVE triage and threat intelligence gathering within AI workflows.",
+    "use_cases": [
+      "vulnerability management",
+      "threat intelligence",
+      "automated security triage"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server",
+      "security-intelligence-api"
+    ]
+  },
+  "github:jakubkrehel/skills": {
+    "capability_summary": "A library of specialized agent skills for LLMs to evaluate and improve UI, typography, and accessibility in web projects. It is intended for developers building AI-assisted design tools.",
+    "problem_solved": "Automating the review and refinement of frontend UI/UX design.",
+    "use_cases": [
+      "ui design review",
+      "accessibility auditing",
+      "frontend automation"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent-skills",
+      "frontend-automation"
+    ]
+  },
+  "github:ryancodrai/turbovec": {
+    "capability_summary": "A high-performance, memory-efficient vector search index implemented in Rust with Python bindings. It is designed for developers building fast, local RAG applications.",
+    "problem_solved": "High-latency and high-memory usage in local vector search operations.",
+    "use_cases": [
+      "rag",
+      "vector search",
+      "embedding indexing"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vector-database",
+      "turboquant"
+    ]
   }
 }
