@@ -36444,5 +36444,101 @@
       "vector-database",
       "turboquant"
     ]
+  },
+  "github:llmquant/quant-mind": {
+    "capability_summary": "An agent-native framework for quantitative finance that processes raw data into structured knowledge for RAG and agentic workflows.",
+    "problem_solved": "Automating data pipelines and knowledge engineering for quantitative finance.",
+    "use_cases": [
+      "quantitative finance",
+      "RAG pipelines",
+      "agentic workflows",
+      "data engineering"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "quant-mind",
+      "finance-agents"
+    ]
+  },
+  "github:cartesiancs/map3d": {
+    "capability_summary": "A React-Three-Fiber tool that generates 3D city maps from OpenStreetMap data with GLB export support.",
+    "problem_solved": "Converting GIS data into 3D web visualizations.",
+    "use_cases": [
+      "3d mapping",
+      "GIS visualization",
+      "city modeling",
+      "web graphics"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "react-three-fiber-maps",
+      "osm-to-3d"
+    ]
+  },
+  "github:rohitg00/ai-engineering-from-scratch": {
+    "capability_summary": "A comprehensive open-source curriculum for learning AI engineering, from math foundations to building LLM agents.",
+    "problem_solved": "Learning how to build AI systems and LLM agents from the ground up.",
+    "use_cases": [
+      "ai education",
+      "llm agent development",
+      "mcp server building",
+      "machine learning course"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "ai-course",
+      "llm-tutorial"
+    ]
+  },
+  "github:zohaibbashir/google-maps-scrapper": {
+    "capability_summary": "A Python-based automation tool using Playwright to extract business data from Google Maps.",
+    "problem_solved": "Automated extraction of business contact info and reviews from Google Maps.",
+    "use_cases": [
+      "web scraping",
+      "lead generation",
+      "data extraction",
+      "automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "google-maps-scraper",
+      "web-scraper"
+    ]
+  },
+  "github:robbyant/lingbot-map": {
+    "capability_summary": "A high-performance 3D foundation model for real-time streaming 3D reconstruction using a Geometric Context Transformer.",
+    "problem_solved": "Real-time 3D scene reconstruction from streaming data.",
+    "use_cases": [
+      "3d reconstruction",
+      "computer vision",
+      "real-time streaming",
+      "ai models"
+    ],
+    "project_type": "model",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "3d-reconstruction-model",
+      "geometric-transformer"
+    ]
   }
 }
