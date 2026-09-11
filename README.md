@@ -1,11 +1,18 @@
 # Curated Repos
 
-Auto-generated list of 277 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 284 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [raidowl/homelab-hub](https://github.com/raidowl/homelab-hub) ⭐ | homelab | `homelab` `inventory` `dashboard` `self-hosted` `visualization` | A self-hosted dashboard and inventory management system for tracking home lab hardware, virtual machines, network shares, and infrastructure relationships. | 732 | 2026-09-11 |
+| [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) ⭐ | Developer Tools | `ai` `agent` `cli` `visualization` `productivity` | An agent skill that transforms complex terminal output, diffs, and plans into clean, interactive HTML pages and diagrams, improving readability for AI-assisted workflows. | 9728 | 2026-09-11 |
+| [makalin/keyforge3d](https://github.com/makalin/keyforge3d) ⭐ | security-research | `3d-printing` `computer-vision` `security-research` `python` `hardware-hacking` | A Python-based tool that uses computer vision and OpenCV to extract key bitting patterns from photos and generate 3D-printable STL files. | 636 | 2026-09-11 |
+| [tonhowtf/omniget](https://github.com/tonhowtf/omniget) ⭐ | automation | `downloader` `yt-dlp` `media-management` `rust` `tauri` `productivity` | A comprehensive, GUI-based media downloader and management suite built on Rust and Tauri that wraps yt-dlp and FFmpeg to support over 1,800 sites. | 9820 | 2026-09-11 |
+| [nduckmink/arkon](https://github.com/nduckmink/arkon) ⭐ | AI/LLM Tooling | `mcp` `rag` `self-hosted` `knowledge-management` `enterprise-ai` | Arkon is a robust, self-hosted enterprise knowledge management platform that functions as an MCP server, allowing LLMs to securely access, search, and manage organizational documentation via a structured RAG pipeline. | 1275 | 2026-09-11 |
+| [denissergeevitch/agents-best-practices](https://github.com/denissergeevitch/agents-best-practices) ⭐ | AI/LLM Tooling | `ai-agents` `mcp` `agentic-workflows` `prompt-engineering` `automation` | A provider-neutral 'Agent Skill' that provides structured blueprints, audit frameworks, and design patterns for building production-safe agentic harnesses. | 2287 | 2026-09-11 |
+| [fleetbase/fleetbase](https://github.com/fleetbase/fleetbase) ⭐ | Logistics/Automation | `logistics` `supply-chain` `automation` `api` `fleet-management` | Fleetbase is a modular, open-source logistics and supply chain operating system designed for managing fleets, deliveries, and order workflows. | 2564 | 2026-09-11 |
 | [pranshuparmar/witr](https://github.com/pranshuparmar/witr) ⭐ | Developer Tools | `cli` `observability` `sysadmin` `troubleshooting` `linux` | A powerful CLI and TUI tool that traces processes, ports, and containers back to their origin, providing clear visibility into system causality. | 22162 | 2026-09-11 |
 | [jaredthecoder/awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) ⭐ | Security Research | `cybersecurity` `automotive` `hacking` `hardware` `canbus` | A comprehensive, well-maintained curated list of resources, hardware, and software tools for vehicle security research and car hacking. | 4564 | 2026-09-11 |
 | [dungngminh/simutil](https://github.com/dungngminh/simutil) ⭐ | Developer Tools | `cli` `tui` `android` `ios` `automation` `developer-tools` | A cross-platform terminal UI for managing Android emulators and iOS simulators, featuring plugin support for external tools like scrcpy and Maestro. | 1087 | 2026-09-11 |
