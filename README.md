@@ -1,11 +1,19 @@
 # Curated Repos
 
-Auto-generated list of 269 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 277 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [pranshuparmar/witr](https://github.com/pranshuparmar/witr) ⭐ | Developer Tools | `cli` `observability` `sysadmin` `troubleshooting` `linux` | A powerful CLI and TUI tool that traces processes, ports, and containers back to their origin, providing clear visibility into system causality. | 22162 | 2026-09-11 |
+| [jaredthecoder/awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) ⭐ | Security Research | `cybersecurity` `automotive` `hacking` `hardware` `canbus` | A comprehensive, well-maintained curated list of resources, hardware, and software tools for vehicle security research and car hacking. | 4564 | 2026-09-11 |
+| [dungngminh/simutil](https://github.com/dungngminh/simutil) ⭐ | Developer Tools | `cli` `tui` `android` `ios` `automation` `developer-tools` | A cross-platform terminal UI for managing Android emulators and iOS simulators, featuring plugin support for external tools like scrcpy and Maestro. | 1087 | 2026-09-11 |
+| [6551team/opennews-mcp](https://github.com/6551team/opennews-mcp) ⭐ | AI/LLM Tooling | `mcp` `ai` `finance` `automation` `crypto` | An MCP (Model Context Protocol) server that aggregates real-time financial, crypto, and geopolitical news with AI-driven sentiment analysis and trading signals. | 2155 | 2026-09-11 |
+| [roboparty/roboto_origin](https://github.com/roboparty/roboto_origin) ⭐ | robotics | `robotics` `ros2` `hardware` `reinforcement-learning` `diy` | A comprehensive, fully open-source project providing hardware designs, firmware, and ROS2-based software for building a DIY humanoid robot. | 2418 | 2026-09-11 |
+| [ysharma3501/luxtts](https://github.com/ysharma3501/luxtts) ⭐ | AI/LLM Tooling | `tts` `voice-cloning` `machine-learning` `audio-processing` `python` | A high-performance, lightweight text-to-speech and voice cloning model that offers 48kHz audio generation and extreme inference speeds, suitable for local deployment on GPUs or CPUs. | 5350 | 2026-09-11 |
+| [amaancoderx/npxskillui](https://github.com/amaancoderx/npxskillui) ⭐ | Developer Tools | `cli` `ai` `frontend` `automation` `web-scraping` | A powerful CLI tool that reverse-engineers design systems from websites or codebases into structured documentation and context files optimized for Claude Code. | 1801 | 2026-09-11 |
+| [mubeng/mubeng](https://github.com/mubeng/mubeng) ⭐ | Developer Tools | `proxy` `networking` `automation` `golang` `security` | A high-performance Go-based proxy checker and IP rotator that simplifies proxy management for bypassing rate limits and WAF protections. | 2555 | 2026-09-11 |
 | [dyneteq/reconya](https://github.com/dyneteq/reconya) ⭐ | Network Security | `networking` `security` `self-hosted` `golang` `homelab` | A self-hosted network reconnaissance and asset discovery tool written in Go that provides real-time monitoring, port scanning, and device identification with a focus on local-first operation. | 1810 | 2026-09-10 |
 | [untrivial-ai/agent-orchestrator](https://github.com/untrivial-ai/agent-orchestrator) ⭐ | AI/LLM Tooling | `ai-agents` `developer-tools` `automation` `git` `workflow` | A desktop-based orchestration workspace that manages multiple AI coding agents, providing isolated environments, Git worktree management, and a unified Kanban-style interface for complex development tasks. | 11257 | 2026-09-10 |
 | [snailsploit/claude-red](https://github.com/snailsploit/claude-red) ⭐ | AI/LLM Tooling | `redteam` `security` `claude` `automation` `infosec` | A comprehensive library of structured SKILL.md files designed to prime Claude with expert-level offensive security methodologies for red teaming and vulnerability research. | 3091 | 2026-09-10 |
