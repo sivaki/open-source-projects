@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 284 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 287 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [llmquant/awesome-trading-agents](https://github.com/llmquant/awesome-trading-agents) ⭐ | AI/LLM Tooling | `ai-agents` `fintech` `mcp` `trading` `automation` | A curated, high-quality collection of LLM-driven trading agents, MCP servers, and agentic skills for financial research and automated trading. | 487 | 2026-09-11 |
+| [zubair-trabzada/ai-sales-team-claude](https://github.com/zubair-trabzada/ai-sales-team-claude) ⭐ | AI/LLM Tooling | `cli` `automation` `sales` `claude` `agents` | An AI-powered sales automation suite designed to run as a set of skills within the Claude Code CLI environment, enabling automated lead qualification, research, and outreach. | 1119 | 2026-09-11 |
+| [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) ⭐ | Developer Tools | `rust` `email` `automation` `cli` `networking` | A high-performance Rust-based tool for verifying email address deliverability without sending actual emails, available as a CLI, library, or Dockerized HTTP backend. | 9587 | 2026-09-11 |
 | [raidowl/homelab-hub](https://github.com/raidowl/homelab-hub) ⭐ | homelab | `homelab` `inventory` `dashboard` `self-hosted` `visualization` | A self-hosted dashboard and inventory management system for tracking home lab hardware, virtual machines, network shares, and infrastructure relationships. | 732 | 2026-09-11 |
 | [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) ⭐ | Developer Tools | `ai` `agent` `cli` `visualization` `productivity` | An agent skill that transforms complex terminal output, diffs, and plans into clean, interactive HTML pages and diagrams, improving readability for AI-assisted workflows. | 9728 | 2026-09-11 |
 | [makalin/keyforge3d](https://github.com/makalin/keyforge3d) ⭐ | security-research | `3d-printing` `computer-vision` `security-research` `python` `hardware-hacking` | A Python-based tool that uses computer vision and OpenCV to extract key bitting patterns from photos and generate 3D-printable STL files. | 636 | 2026-09-11 |
