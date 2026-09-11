@@ -36636,5 +36636,70 @@
       "agent-ide",
       "agent-swarm"
     ]
+  },
+  "github:6551team/opennews-mcp": {
+    "capability_summary": "An MCP server that provides real-time financial, crypto, and geopolitical news with sentiment analysis. Designed for AI agents and LLM applications.",
+    "problem_solved": "Integrating real-time financial news and sentiment data into AI agents.",
+    "use_cases": [
+      "financial market analysis",
+      "crypto sentiment tracking",
+      "automated trading signals",
+      "AI news aggregation"
+    ],
+    "project_type": "service",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "Model Context Protocol server",
+      "AI news feed"
+    ]
+  },
+  "github:dungngminh/simutil": {
+    "capability_summary": "A cross-platform terminal UI for managing mobile emulators and simulators. It helps developers control Android and iOS environments efficiently.",
+    "problem_solved": "Managing multiple mobile emulators and simulators from the command line.",
+    "use_cases": [
+      "android emulator management",
+      "ios simulator control",
+      "mobile development automation",
+      "scrcpy integration"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "android",
+      "ios",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mobile emulator manager",
+      "TUI simulator tool"
+    ]
+  },
+  "github:pranshuparmar/witr": {
+    "capability_summary": "A CLI and TUI tool for system observability that traces processes, ports, and containers to their origin. Built for sysadmins and DevOps engineers.",
+    "problem_solved": "Identifying the origin of system processes, network ports, and container activities.",
+    "use_cases": [
+      "system troubleshooting",
+      "incident response",
+      "container monitoring",
+      "process causality tracing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "system observability tool",
+      "process tracer"
+    ]
   }
 }
