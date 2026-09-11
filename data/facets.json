@@ -36777,5 +36777,24 @@
       "terminal-visualizer",
       "agent-tool"
     ]
+  },
+  "github:llmquant/awesome-trading-agents": {
+    "capability_summary": "A curated list of LLM-powered agents and tools designed for financial research and automated trading. It provides resources for developers building agentic systems in the fintech space.",
+    "problem_solved": "Finding high-quality tools and frameworks for building AI-driven financial trading agents.",
+    "use_cases": [
+      "automated trading",
+      "financial market research",
+      "MCP server development",
+      "agentic AI workflows"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "fintech AI agents",
+      "trading bot resources",
+      "awesome-list"
+    ]
   }
 }
