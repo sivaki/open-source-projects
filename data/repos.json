@@ -12540,5 +12540,123 @@
     "pushed_at": "2026-03-14T17:12:02Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:reacherhq/check-if-email-exists",
+    "url": "https://github.com/reacherhq/check-if-email-exists",
+    "title": "reacherhq/check-if-email-exists",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2098469377116922367",
+    "fetched_at": "2026-09-11T19:02:10.988207Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance Rust-based tool for verifying email address deliverability without sending actual emails, available as a CLI, library, or Dockerized HTTP backend.",
+    "category": "Developer Tools",
+    "tags": [
+      "rust",
+      "email",
+      "automation",
+      "cli",
+      "networking"
+    ],
+    "risk_notes": "The tool requires outbound access to port 25 (SMTP) to function, which may be blocked by many cloud providers or ISPs. It can be run via Docker or as a standalone binary. It does not require root access, but it performs network-level SMTP handshakes, which could potentially be flagged by security systems or result in IP reputation issues if used for bulk verification.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 88,
+      "created_at": "2017-04-25T12:47:51Z",
+      "homepage": "https://reacher.email"
+    },
+    "added_at": "2026-09-11T19:02:20.380631Z",
+    "stars": 9587,
+    "language": "Rust",
+    "pushed_at": "2026-03-17T15:14:47Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "email",
+      "email-validation",
+      "email-validation-api",
+      "email-verification",
+      "email-verification-api",
+      "email-verifier",
+      "hacktoberfest"
+    ]
+  },
+  {
+    "id": "github:zubair-trabzada/ai-sales-team-claude",
+    "url": "https://github.com/zubair-trabzada/ai-sales-team-claude",
+    "title": "zubair-trabzada/ai-sales-team-claude",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2098439025149243621",
+    "fetched_at": "2026-09-11T19:02:10.988639Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An AI-powered sales automation suite designed to run as a set of skills within the Claude Code CLI environment, enabling automated lead qualification, research, and outreach.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "cli",
+      "automation",
+      "sales",
+      "claude",
+      "agents"
+    ],
+    "risk_notes": "Uses a curl-to-bash installation script which is a security anti-pattern. Requires integration with Claude Code, meaning it will likely inherit the API key permissions and filesystem access granted to the Claude CLI. It performs network requests to external URLs for research and lead generation, which should be monitored.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-03-10T00:18:25Z",
+      "homepage": "https://www.skool.com/aiworkshop"
+    },
+    "added_at": "2026-09-11T19:02:27.461987Z",
+    "stars": 1119,
+    "language": "Python",
+    "pushed_at": "2026-03-27T02:55:21Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:llmquant/awesome-trading-agents",
+    "url": "https://github.com/llmquant/awesome-trading-agents",
+    "title": "llmquant/awesome-trading-agents",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2098410941104677108",
+    "fetched_at": "2026-09-11T19:02:10.989004Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A curated, high-quality collection of LLM-driven trading agents, MCP servers, and agentic skills for financial research and automated trading.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "fintech",
+      "mcp",
+      "trading",
+      "automation"
+    ],
+    "risk_notes": "This is a curated list, not a single tool. Risks depend entirely on the individual repositories linked. Many listed projects require sensitive API keys (brokerage, exchange, LLM providers) and may execute real-money trades. Users should audit individual project code for network access and permission scopes before execution.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 11,
+      "created_at": "2026-04-22T23:52:32Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-11T19:02:36.822114Z",
+    "stars": 487,
+    "language": null,
+    "pushed_at": "2026-08-13T03:30:06Z",
+    "license": "CC0-1.0",
+    "topics": [
+      "agent-skills",
+      "agentic-ai",
+      "ai-trading",
+      "awesome",
+      "awesome-list",
+      "claude-skills",
+      "financial-ai",
+      "fintech",
+      "llm-agents",
+      "mcp",
+      "mcp-servers",
+      "prediction-markets",
+      "trading-agents"
+    ]
   }
 ]
