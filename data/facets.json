@@ -36701,5 +36701,81 @@
       "system observability tool",
       "process tracer"
     ]
+  },
+  "github:denissergeevitch/agents-best-practices": {
+    "capability_summary": "Provides blueprints, audit frameworks, and design patterns for building production-safe AI agentic harnesses.",
+    "problem_solved": "Lack of standardized design patterns for production-grade AI agents.",
+    "use_cases": [
+      "agentic workflow design",
+      "prompt engineering",
+      "AI agent auditing"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "agent-skills",
+      "mcp-blueprints"
+    ]
+  },
+  "github:nduckmink/arkon": {
+    "capability_summary": "A self-hosted enterprise knowledge management platform that acts as an MCP server for LLM RAG pipelines.",
+    "problem_solved": "Securely connecting LLMs to organizational documentation for RAG.",
+    "use_cases": [
+      "enterprise knowledge management",
+      "RAG pipeline",
+      "personal knowledge base"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server",
+      "enterprise-rag"
+    ]
+  },
+  "github:tonhowtf/omniget": {
+    "capability_summary": "A GUI-based media downloader suite built on Rust and Tauri that supports over 1,800 websites.",
+    "problem_solved": "Downloading media from various platforms without complex command-line usage.",
+    "use_cases": [
+      "video downloading",
+      "media management",
+      "subtitle extraction"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "yt-dlp-gui",
+      "download-manager"
+    ]
+  },
+  "github:nicobailon/visual-explainer": {
+    "capability_summary": "An agent skill that converts complex terminal output and diffs into interactive HTML diagrams.",
+    "problem_solved": "Difficulty reading raw terminal output and diffs in AI-assisted workflows.",
+    "use_cases": [
+      "terminal visualization",
+      "AI workflow enhancement",
+      "diff readability"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "terminal-visualizer",
+      "agent-tool"
+    ]
   }
 }
