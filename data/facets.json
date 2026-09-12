@@ -36796,5 +36796,24 @@
       "trading bot resources",
       "awesome-list"
     ]
+  },
+  "github:thesysdev/openui": {
+    "capability_summary": "A framework that generates structured UI components from LLM streams using a token-efficient language. It is designed for developers building AI-driven interfaces.",
+    "problem_solved": "Reduces token usage and complexity when rendering UI components from LLM responses.",
+    "use_cases": [
+      "generative UI",
+      "LLM-powered interfaces",
+      "dynamic component rendering"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "generative-ui",
+      "AI UI framework"
+    ]
   }
 }
