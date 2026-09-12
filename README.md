@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 289 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 292 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [thesysdev/openui](https://github.com/thesysdev/openui) ⭐ | AI/LLM Tooling | `llm` `generative-ui` `typescript` `react` `agent` | A framework for generating structured UI components from LLM streams using a compact, token-efficient language called OpenUI Lang. | 8824 | 2026-09-12 |
+| [lum1104/understand-anything](https://github.com/lum1104/understand-anything) ⭐ | Developer Tools | `ai-agent` `code-analysis` `knowledge-graph` `developer-tools` `visualization` | An interactive knowledge graph tool that maps codebases and documentation into navigable, AI-analyzed visual structures to help developers understand complex systems. | 82120 | 2026-09-12 |
+| [operacle/checkcle](https://github.com/operacle/checkcle) ⭐ | monitoring | `monitoring` `uptime` `self-hosted` `infrastructure` `devops` `docker` | CheckCle is a comprehensive, self-hosted monitoring platform that tracks uptime, infrastructure metrics, and SSL status with a modern, user-friendly interface. | 2949 | 2026-09-12 |
 | [giovannipasq/agentic-rag-for-dummies](https://github.com/giovannipasq/agentic-rag-for-dummies) ⭐ | AI/LLM Tooling | `rag` `langgraph` `ai-agents` `ollama` `llm` | A highly modular, educational, and production-ready framework for building Agentic RAG systems using LangGraph, featuring hierarchical indexing, query clarification, and multi-agent orchestration. | 4053 | 2026-09-12 |
 | [bugbasesecurity/pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) ⭐ | Security Tooling | `pentesting` `ai` `automation` `cybersecurity` `llm` | An AI-powered autonomous penetration testing agent that integrates with Burp Suite, browser automation, and various LLM backends to perform security testing workflows. | 1359 | 2026-09-12 |
 | [llmquant/awesome-trading-agents](https://github.com/llmquant/awesome-trading-agents) ⭐ | AI/LLM Tooling | `ai-agents` `fintech` `mcp` `trading` `automation` | A curated, high-quality collection of LLM-driven trading agents, MCP servers, and agentic skills for financial research and automated trading. | 487 | 2026-09-11 |
