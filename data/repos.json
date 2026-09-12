@@ -12922,5 +12922,50 @@
       "llm",
       "looking-for-contributors"
     ]
+  },
+  {
+    "id": "github:peetzweg/opendisplay",
+    "url": "https://github.com/peetzweg/opendisplay",
+    "title": "peetzweg/opendisplay",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2098809741279445342",
+    "fetched_at": "2026-09-12T18:12:46.945710Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An open-source, high-performance alternative to Apple Sidecar that turns iPhones, iPads, or spare Macs into secondary displays for macOS via USB or WiFi.",
+    "category": "Developer Tools",
+    "tags": [
+      "macos",
+      "ios",
+      "utility",
+      "display",
+      "self-hosted"
+    ],
+    "risk_notes": "Requires installing native macOS and iOS applications. The app uses ScreenCaptureKit to stream display data and requires Local Network permissions for WiFi connectivity. It is a self-hosted, local-only solution with no external server dependencies, which is a strong privacy posture. Maintenance is active and the project is open-source.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 136,
+      "created_at": "2026-06-10T09:08:00Z",
+      "homepage": "https://opendisplay.app"
+    },
+    "added_at": "2026-09-12T18:12:53.650445Z",
+    "stars": 2902,
+    "language": "Swift",
+    "pushed_at": "2026-09-06T16:50:54Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "duet-display",
+      "external-display",
+      "ipad",
+      "iphone",
+      "macos",
+      "screen-extension",
+      "screencapturekit",
+      "second-monitor",
+      "sidecar",
+      "swift",
+      "videotoolbox",
+      "virtual-display"
+    ]
   }
 ]
