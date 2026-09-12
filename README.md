@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 287 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 289 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [giovannipasq/agentic-rag-for-dummies](https://github.com/giovannipasq/agentic-rag-for-dummies) ⭐ | AI/LLM Tooling | `rag` `langgraph` `ai-agents` `ollama` `llm` | A highly modular, educational, and production-ready framework for building Agentic RAG systems using LangGraph, featuring hierarchical indexing, query clarification, and multi-agent orchestration. | 4053 | 2026-09-12 |
+| [bugbasesecurity/pentest-copilot](https://github.com/bugbasesecurity/pentest-copilot) ⭐ | Security Tooling | `pentesting` `ai` `automation` `cybersecurity` `llm` | An AI-powered autonomous penetration testing agent that integrates with Burp Suite, browser automation, and various LLM backends to perform security testing workflows. | 1359 | 2026-09-12 |
 | [llmquant/awesome-trading-agents](https://github.com/llmquant/awesome-trading-agents) ⭐ | AI/LLM Tooling | `ai-agents` `fintech` `mcp` `trading` `automation` | A curated, high-quality collection of LLM-driven trading agents, MCP servers, and agentic skills for financial research and automated trading. | 487 | 2026-09-11 |
 | [zubair-trabzada/ai-sales-team-claude](https://github.com/zubair-trabzada/ai-sales-team-claude) ⭐ | AI/LLM Tooling | `cli` `automation` `sales` `claude` `agents` | An AI-powered sales automation suite designed to run as a set of skills within the Claude Code CLI environment, enabling automated lead qualification, research, and outreach. | 1119 | 2026-09-11 |
 | [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) ⭐ | Developer Tools | `rust` `email` `automation` `cli` `networking` | A high-performance Rust-based tool for verifying email address deliverability without sending actual emails, available as a CLI, library, or Dockerized HTTP backend. | 9587 | 2026-09-11 |
