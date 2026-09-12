@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 292 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 293 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [peetzweg/opendisplay](https://github.com/peetzweg/opendisplay) ⭐ | Developer Tools | `macos` `ios` `utility` `display` `self-hosted` | An open-source, high-performance alternative to Apple Sidecar that turns iPhones, iPads, or spare Macs into secondary displays for macOS via USB or WiFi. | 2902 | 2026-09-12 |
 | [thesysdev/openui](https://github.com/thesysdev/openui) ⭐ | AI/LLM Tooling | `llm` `generative-ui` `typescript` `react` `agent` | A framework for generating structured UI components from LLM streams using a compact, token-efficient language called OpenUI Lang. | 8824 | 2026-09-12 |
 | [lum1104/understand-anything](https://github.com/lum1104/understand-anything) ⭐ | Developer Tools | `ai-agent` `code-analysis` `knowledge-graph` `developer-tools` `visualization` | An interactive knowledge graph tool that maps codebases and documentation into navigable, AI-analyzed visual structures to help developers understand complex systems. | 82120 | 2026-09-12 |
 | [operacle/checkcle](https://github.com/operacle/checkcle) ⭐ | monitoring | `monitoring` `uptime` `self-hosted` `infrastructure` `devops` `docker` | CheckCle is a comprehensive, self-hosted monitoring platform that tracks uptime, infrastructure metrics, and SSL status with a modern, user-friendly interface. | 2949 | 2026-09-12 |
