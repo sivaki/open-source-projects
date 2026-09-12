@@ -12658,5 +12658,127 @@
       "prediction-markets",
       "trading-agents"
     ]
+  },
+  {
+    "id": "github:bugbasesecurity/pentest-copilot",
+    "url": "https://github.com/bugbasesecurity/pentest-copilot",
+    "title": "bugbasesecurity/pentest-copilot",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2098579460828139934",
+    "fetched_at": "2026-09-12T03:45:59.385912Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An AI-powered autonomous penetration testing agent that integrates with Burp Suite, browser automation, and various LLM backends to perform security testing workflows.",
+    "category": "Security Tooling",
+    "tags": [
+      "pentesting",
+      "ai",
+      "automation",
+      "cybersecurity",
+      "llm"
+    ],
+    "risk_notes": "Requires Docker/Docker Compose for installation. The tool is designed to execute arbitrary commands on an attack box, which poses significant security risks if misconfigured or if the AI is prompted to perform malicious actions. It requires API keys for LLM providers (OpenAI, Anthropic, etc.) and potentially mounts sensitive local credential files (e.g., ~/.codex/auth.json) into the container. It is intended for use in isolated lab environments.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 29,
+      "created_at": "2025-03-08T14:04:31Z",
+      "homepage": "https://pentest.bugbase.ai"
+    },
+    "added_at": "2026-09-12T03:46:05.762533Z",
+    "stars": 1359,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-14T21:59:26Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "cybersecurity",
+      "cybersecurity-tools",
+      "llms",
+      "pentesting"
+    ]
+  },
+  {
+    "id": "github:giovannipasq/agentic-rag-for-dummies",
+    "url": "https://github.com/giovannipasq/agentic-rag-for-dummies",
+    "title": "giovannipasq/agentic-rag-for-dummies",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2098538996464808137",
+    "fetched_at": "2026-09-12T03:45:59.386308Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A highly modular, educational, and production-ready framework for building Agentic RAG systems using LangGraph, featuring hierarchical indexing, query clarification, and multi-agent orchestration.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "rag",
+      "langgraph",
+      "ai-agents",
+      "ollama",
+      "llm"
+    ],
+    "risk_notes": "Standard Python project installation via pip/poetry. Requires API keys for LLM providers (OpenAI, Anthropic, etc.) or local access to Ollama. The code executes LLM-driven logic, which can lead to unexpected tool usage if not properly sandboxed. No root permissions required; runs in user space.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-10-13T18:51:41Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-12T03:46:12.454318Z",
+    "stars": 4053,
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-08-30T10:19:02Z",
+    "license": "MIT",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agentic-rag",
+      "agents",
+      "ai-agents",
+      "bm25",
+      "generative-ai",
+      "gradio",
+      "langchain",
+      "langgraph",
+      "llm",
+      "ollama",
+      "qdrant",
+      "rag",
+      "rag-agents",
+      "rag-chatbot",
+      "rag-pipeline",
+      "retrieval-augmented-generation",
+      "retrieval-augmented-generation-rag"
+    ]
+  },
+  {
+    "id": "github:kinghacker0/whatsapp-osint",
+    "url": "https://github.com/kinghacker0/whatsapp-osint",
+    "title": "kinghacker0/whatsapp-osint",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2098502538534310315",
+    "fetched_at": "2026-09-12T03:45:59.386675Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Python-based CLI tool that acts as a wrapper for a third-party RapidAPI service to perform OSINT lookups on WhatsApp phone numbers.",
+    "category": "OSINT",
+    "tags": [
+      "osint",
+      "whatsapp",
+      "cli",
+      "privacy",
+      "security"
+    ],
+    "risk_notes": "Requires an external API key from RapidAPI, which involves sharing data with a third-party service. The tool is a simple wrapper; it requires standard Python environment setup (pip install). The repository is very new and lacks a long-term maintenance history, and the underlying API's data collection practices are opaque.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 21,
+      "created_at": "2025-10-16T10:24:41Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-12T03:46:18.760147Z",
+    "stars": 971,
+    "language": "Python",
+    "pushed_at": "2025-10-16T11:21:30Z",
+    "license": null,
+    "topics": []
   }
 ]
