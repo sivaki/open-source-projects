@@ -36815,5 +36815,26 @@
       "generative-ui",
       "AI UI framework"
     ]
+  },
+  "github:peetzweg/opendisplay": {
+    "capability_summary": "An open-source tool that turns iPhones, iPads, or Macs into secondary displays for macOS. It is designed for users needing a high-performance alternative to Apple Sidecar.",
+    "problem_solved": "Extending a macOS desktop to secondary Apple devices via USB or WiFi.",
+    "use_cases": [
+      "second monitor",
+      "screen extension",
+      "virtual display",
+      "multi-monitor setup"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "duet-display",
+      "sidecar"
+    ]
   }
 }
