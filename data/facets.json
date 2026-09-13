@@ -36878,5 +36878,25 @@
       "ai agent framework",
       "llm skill manager"
     ]
+  },
+  "github:lnkiai/m3e-canvas": {
+    "capability_summary": "A browser-based design tool for Material 3 Expressive interfaces that generates natural-language prompts for AI coding assistants. It helps developers and designers quickly prototype UI components.",
+    "problem_solved": "Bridging the gap between visual UI design and AI-generated code implementation.",
+    "use_cases": [
+      "UI prototyping",
+      "AI prompt generation",
+      "Material Design implementation",
+      "vibe-coding"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Material 3 design tool",
+      "AI UI generator"
+    ]
   }
 }
