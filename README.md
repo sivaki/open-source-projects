@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 296 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 298 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [hkuds/openspace](https://github.com/hkuds/openspace) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `automation` `workflow-management` `developer-tools` | OpenSpace is a skill management layer for AI agents that enables the retrieval, evaluation, and evolution of agent capabilities across different frameworks. | 7606 | 2026-09-13 |
+| [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) ⭐ | AI/LLM Tooling | `mcp` `freecad` `cad` `automation` `llm` | A Model Context Protocol (MCP) server that enables LLMs like Claude to programmatically control FreeCAD, allowing for automated 3D modeling, script execution, and FEM analysis. | 2206 | 2026-09-13 |
 | [bitwire-it/ipblocklist](https://github.com/bitwire-it/ipblocklist) ⭐ | security | `firewall` `security` `networking` `threat-intelligence` `homelab` | An actively maintained aggregator of multiple threat intelligence feeds providing clean, ready-to-use IP blocklists for firewalls and network security tools. | 764 | 2026-09-13 |
 | [mathieu2301/tradingview-api](https://github.com/mathieu2301/tradingview-api) ⭐ | automation | `trading` `api` `nodejs` `automation` `finance` | A Node.js library for interacting with TradingView's internal APIs to fetch real-time market data, technical analysis, and indicator values. | 4372 | 2026-09-13 |
 | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) ⭐ | AI/LLM Tooling | `writing` `llm` `productivity` `editing` `automation` | A specialized tool designed to identify and remove common AI-generated writing patterns ('slop') while preserving the user's unique voice. | 8702 | 2026-09-13 |
