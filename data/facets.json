@@ -36836,5 +36836,28 @@
       "duet-display",
       "sidecar"
     ]
+  },
+  "github:petergyang/no-ai-slop": {
+    "capability_summary": "A tool that detects and removes common AI-generated writing patterns to restore a human-like voice in text. It is designed for writers and editors who want to refine AI-assisted drafts.",
+    "problem_solved": "Removing generic AI-generated writing style from text.",
+    "use_cases": [
+      "editing AI-generated drafts",
+      "improving writing authenticity",
+      "removing LLM-specific phrasing"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "AI detector",
+      "writing assistant",
+      "text cleaner"
+    ]
   }
 }
