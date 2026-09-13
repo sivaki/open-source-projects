@@ -13102,5 +13102,126 @@
       "pfsense-firewall",
       "security"
     ]
+  },
+  {
+    "id": "github:greedeks/gtweak",
+    "url": "https://github.com/greedeks/gtweak",
+    "title": "greedeks/gtweak",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099086935184576568",
+    "fetched_at": "2026-09-13T13:11:00.111285Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Windows system optimization and debloating tool that includes features for disabling security components like Windows Defender and performing system activation.",
+    "category": "System Utility",
+    "tags": [
+      "windows",
+      "debloat",
+      "privacy",
+      "optimization",
+      "system-tools"
+    ],
+    "risk_notes": "The tool requires administrative privileges to modify system registry keys, disable security services (Defender/UAC), and perform system-level modifications. It includes functionality for bypassing Windows activation (KMS/HWID), which is legally and ethically grey and often flagged by security software. It is distributed as a standalone executable, which lacks transparency compared to open-source projects that can be audited and built from source.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2024-05-21T11:16:47Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-13T13:11:07.005196Z",
+    "stars": 1687,
+    "language": "C#",
+    "pushed_at": "2026-09-13T04:52:22Z",
+    "license": "BSD-3-Clause",
+    "topics": [
+      "activator",
+      "debloat",
+      "disable-services",
+      "disable-windows-defender",
+      "disable-windows-services",
+      "hwid",
+      "kms",
+      "monitoring-system",
+      "optimazation",
+      "registry-tweaks",
+      "system-utility",
+      "telemetry-disabling",
+      "tweaker",
+      "windows-10",
+      "windows-11",
+      "windows-debloat",
+      "windows-optimization",
+      "windows-optimization-tool",
+      "windows-optimizer",
+      "windows-tweaks"
+    ]
+  },
+  {
+    "id": "github:neka-nat/freecad-mcp",
+    "url": "https://github.com/neka-nat/freecad-mcp",
+    "title": "neka-nat/freecad-mcp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099046354982936642",
+    "fetched_at": "2026-09-13T13:11:00.111453Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A Model Context Protocol (MCP) server that enables LLMs like Claude to programmatically control FreeCAD, allowing for automated 3D modeling, script execution, and FEM analysis.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "freecad",
+      "cad",
+      "automation",
+      "llm"
+    ],
+    "risk_notes": "Requires installing a FreeCAD addon and running an MCP server via uvx. The server executes Python code within the FreeCAD environment, which grants it full access to the local filesystem and the ability to modify CAD documents. It is intended for local use; ensure you trust the prompts sent to the LLM as they can trigger arbitrary code execution within the FreeCAD process.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 38,
+      "created_at": "2023-11-25T08:46:42Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-13T13:11:16.677986Z",
+    "stars": 2206,
+    "language": "Python",
+    "pushed_at": "2026-09-10T13:58:26Z",
+    "license": "MIT",
+    "topics": [
+      "claude",
+      "freecad",
+      "mcp"
+    ]
+  },
+  {
+    "id": "github:hkuds/openspace",
+    "url": "https://github.com/hkuds/openspace",
+    "title": "hkuds/openspace",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099009967760044179",
+    "fetched_at": "2026-09-13T13:11:00.111576Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "OpenSpace is a skill management layer for AI agents that enables the retrieval, evaluation, and evolution of agent capabilities across different frameworks.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "llm",
+      "automation",
+      "workflow-management",
+      "developer-tools"
+    ],
+    "risk_notes": "The project is actively maintained and supports private self-hosting. It requires Python 3.12+ and likely interacts with local filesystems and agent-specific API keys. Users should review the sandbox implementation details when deploying to ensure proper isolation of agent-executed code.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 53,
+      "created_at": "2026-03-24T08:01:49Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-13T13:11:24.734277Z",
+    "stars": 7606,
+    "language": "Python",
+    "pushed_at": "2026-08-12T15:21:07Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
