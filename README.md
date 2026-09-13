@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 293 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 296 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [bitwire-it/ipblocklist](https://github.com/bitwire-it/ipblocklist) ⭐ | security | `firewall` `security` `networking` `threat-intelligence` `homelab` | An actively maintained aggregator of multiple threat intelligence feeds providing clean, ready-to-use IP blocklists for firewalls and network security tools. | 764 | 2026-09-13 |
+| [mathieu2301/tradingview-api](https://github.com/mathieu2301/tradingview-api) ⭐ | automation | `trading` `api` `nodejs` `automation` `finance` | A Node.js library for interacting with TradingView's internal APIs to fetch real-time market data, technical analysis, and indicator values. | 4372 | 2026-09-13 |
+| [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) ⭐ | AI/LLM Tooling | `writing` `llm` `productivity` `editing` `automation` | A specialized tool designed to identify and remove common AI-generated writing patterns ('slop') while preserving the user's unique voice. | 8702 | 2026-09-13 |
 | [peetzweg/opendisplay](https://github.com/peetzweg/opendisplay) ⭐ | Developer Tools | `macos` `ios` `utility` `display` `self-hosted` | An open-source, high-performance alternative to Apple Sidecar that turns iPhones, iPads, or spare Macs into secondary displays for macOS via USB or WiFi. | 2902 | 2026-09-12 |
 | [thesysdev/openui](https://github.com/thesysdev/openui) ⭐ | AI/LLM Tooling | `llm` `generative-ui` `typescript` `react` `agent` | A framework for generating structured UI components from LLM streams using a compact, token-efficient language called OpenUI Lang. | 8824 | 2026-09-12 |
 | [lum1104/understand-anything](https://github.com/lum1104/understand-anything) ⭐ | Developer Tools | `ai-agent` `code-analysis` `knowledge-graph` `developer-tools` `visualization` | An interactive knowledge graph tool that maps codebases and documentation into navigable, AI-analyzed visual structures to help developers understand complex systems. | 82120 | 2026-09-12 |
