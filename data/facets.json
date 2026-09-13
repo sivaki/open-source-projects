@@ -36859,5 +36859,24 @@
       "writing assistant",
       "text cleaner"
     ]
+  },
+  "github:hkuds/openspace": {
+    "capability_summary": "OpenSpace provides a management layer for AI agents to retrieve, evaluate, and evolve their skills across various frameworks. It is designed for developers building complex agentic workflows.",
+    "problem_solved": "Managing and evolving skill sets for autonomous AI agents.",
+    "use_cases": [
+      "ai agent orchestration",
+      "llm workflow automation",
+      "agent capability management"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai agent framework",
+      "llm skill manager"
+    ]
   }
 }
