@@ -13223,5 +13223,89 @@
     "pushed_at": "2026-08-12T15:21:07Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:rightnow-ai/picolm",
+    "url": "https://github.com/rightnow-ai/picolm",
+    "title": "rightnow-ai/picolm",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099184080927474147",
+    "fetched_at": "2026-09-13T18:36:41.333588Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A minimal, zero-dependency C11 inference engine designed to run 1B parameter LLMs on low-power hardware like Raspberry Pi and RISC-V boards with extremely low memory overhead.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "embedded",
+      "raspberry-pi",
+      "c",
+      "inference",
+      "offline"
+    ],
+    "risk_notes": "The project provides a curl-to-bash install script, which is a security risk; manual compilation from source is recommended. It requires local filesystem access to read model files and operates entirely offline, which is a strong privacy positive. The project is very new and actively maintained, but lacks a long-term security audit history.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 25,
+      "created_at": "2026-02-19T01:07:10Z",
+      "homepage": "https://www.rightnowai.co/forge"
+    },
+    "added_at": "2026-09-13T18:36:48.116159Z",
+    "stars": 1945,
+    "language": "C",
+    "pushed_at": "2026-02-22T22:05:30Z",
+    "license": "MIT",
+    "topics": [
+      "arm",
+      "embedded",
+      "inference",
+      "llm",
+      "openclaw",
+      "picoclaw",
+      "quantization",
+      "raspberry-pi",
+      "risc-v"
+    ]
+  },
+  {
+    "id": "github:lnkiai/m3e-canvas",
+    "url": "https://github.com/lnkiai/m3e-canvas",
+    "title": "lnkiai/m3e-canvas",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099132179569689024",
+    "fetched_at": "2026-09-13T18:36:41.333970Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A browser-based design tool for Material 3 Expressive interfaces that generates natural-language prompts for AI coding assistants to build functional apps.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ui-design",
+      "ai-coding",
+      "material-design",
+      "prototyping",
+      "vibe-coding"
+    ],
+    "risk_notes": "This is a client-side web application that runs entirely in the browser. It uses localStorage for data persistence and does not require a backend. If you choose to use the optional AI helper feature, you must provide your own API keys (OpenAI, Claude, Gemini, or DeepSeek), which are stored locally in your browser and sent directly to the provider. No sensitive system-level access is required.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-09-02T04:36:34Z",
+      "homepage": "https://lnkiai.github.io/m3e-canvas/"
+    },
+    "added_at": "2026-09-13T18:36:54.767877Z",
+    "stars": 6466,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-12T02:16:51Z",
+    "license": "MIT",
+    "topics": [
+      "design-tool",
+      "material-3-expressive",
+      "material-design",
+      "material3",
+      "nextjs",
+      "prompt",
+      "react",
+      "vibe-coding"
+    ]
   }
 ]
