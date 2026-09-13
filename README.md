@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 298 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 300 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) ⭐ | AI/LLM Tooling | `ui-design` `ai-coding` `material-design` `prototyping` `vibe-coding` | A browser-based design tool for Material 3 Expressive interfaces that generates natural-language prompts for AI coding assistants to build functional apps. | 6466 | 2026-09-13 |
+| [rightnow-ai/picolm](https://github.com/rightnow-ai/picolm) ⭐ | AI/LLM Tooling | `llm` `embedded` `raspberry-pi` `c` `inference` `offline` | A minimal, zero-dependency C11 inference engine designed to run 1B parameter LLMs on low-power hardware like Raspberry Pi and RISC-V boards with extremely low memory overhead. | 1945 | 2026-09-13 |
 | [hkuds/openspace](https://github.com/hkuds/openspace) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `automation` `workflow-management` `developer-tools` | OpenSpace is a skill management layer for AI agents that enables the retrieval, evaluation, and evolution of agent capabilities across different frameworks. | 7606 | 2026-09-13 |
 | [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) ⭐ | AI/LLM Tooling | `mcp` `freecad` `cad` `automation` `llm` | A Model Context Protocol (MCP) server that enables LLMs like Claude to programmatically control FreeCAD, allowing for automated 3D modeling, script execution, and FEM analysis. | 2206 | 2026-09-13 |
 | [bitwire-it/ipblocklist](https://github.com/bitwire-it/ipblocklist) ⭐ | security | `firewall` `security` `networking` `threat-intelligence` `homelab` | An actively maintained aggregator of multiple threat intelligence feeds providing clean, ready-to-use IP blocklists for firewalls and network security tools. | 764 | 2026-09-13 |
