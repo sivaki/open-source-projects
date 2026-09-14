@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 302 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 303 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [extv/podroid](https://github.com/extv/podroid) ⭐ | Developer Tools | `android` `linux` `containers` `virtualization` `docker` `homelab` | Podroid is a powerful Android application that runs a full Alpine Linux VM using QEMU or AVF, enabling native-like Docker, Podman, and LXC container support without requiring root access. | 2374 | 2026-09-14 |
 | [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `developer-tools` `orchestration` `cli` | A multi-agent orchestration harness that visualizes and manages multiple terminal-based AI coding agents, allowing them to collaborate and share memory. | 7047 | 2026-09-14 |
 | [sysadminsmedia/homebox](https://github.com/sysadminsmedia/homebox) ⭐ | self-hosting | `inventory` `homelab` `selfhosted` `organization` `docker` | A lightweight, Go-based inventory and asset management system designed for home labs and personal organization. | 7168 | 2026-09-14 |
 | [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) ⭐ | AI/LLM Tooling | `ui-design` `ai-coding` `material-design` `prototyping` `vibe-coding` | A browser-based design tool for Material 3 Expressive interfaces that generates natural-language prompts for AI coding assistants to build functional apps. | 6466 | 2026-09-13 |
