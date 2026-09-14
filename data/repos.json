@@ -13395,5 +13395,44 @@
       "orchestration",
       "typescript"
     ]
+  },
+  {
+    "id": "github:extv/podroid",
+    "url": "https://github.com/extv/podroid",
+    "title": "extv/podroid",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099407980777128343",
+    "fetched_at": "2026-09-14T14:50:22.205404Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "Podroid is a powerful Android application that runs a full Alpine Linux VM using QEMU or AVF, enabling native-like Docker, Podman, and LXC container support without requiring root access.",
+    "category": "Developer Tools",
+    "tags": [
+      "android",
+      "linux",
+      "containers",
+      "virtualization",
+      "docker",
+      "homelab"
+    ],
+    "risk_notes": "Installed via APK; requires standard Android permissions for storage and network access. It runs a virtualized environment which isolates the guest OS from the host, but it provides full shell access and network capabilities within the VM. The project is actively maintained and uses standard open-source virtualization components.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 21,
+      "created_at": "2026-03-16T01:04:26Z",
+      "homepage": "https://extv.github.io/Podroid/"
+    },
+    "added_at": "2026-09-14T14:50:30.560362Z",
+    "stars": 2374,
+    "language": "Kotlin",
+    "pushed_at": "2026-09-03T18:51:59Z",
+    "license": "GPL-2.0",
+    "topics": [
+      "android-app",
+      "android-virtualization-framework",
+      "linux",
+      "shell",
+      "virtual-machine"
+    ]
   }
 ]
