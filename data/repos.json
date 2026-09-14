@@ -13307,5 +13307,93 @@
       "react",
       "vibe-coding"
     ]
+  },
+  {
+    "id": "github:sysadminsmedia/homebox",
+    "url": "https://github.com/sysadminsmedia/homebox",
+    "title": "sysadminsmedia/homebox",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099317439938924707",
+    "fetched_at": "2026-09-14T04:01:03.674861Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A lightweight, Go-based inventory and asset management system designed for home labs and personal organization.",
+    "category": "self-hosting",
+    "tags": [
+      "inventory",
+      "homelab",
+      "selfhosted",
+      "organization",
+      "docker"
+    ],
+    "risk_notes": "Distributed via Docker/GHCR. Requires persistent volume access for SQLite data and a pepper file for authentication security. Offers rootless and hardened container images, which is a positive security signal. Actively maintained with frequent updates.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 131,
+      "created_at": "2024-06-17T18:07:09Z",
+      "homepage": "https://homebox.software"
+    },
+    "added_at": "2026-09-14T04:01:10.965325Z",
+    "stars": 7168,
+    "language": "Go",
+    "pushed_at": "2026-09-11T02:24:30Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "hacktoberfest",
+      "homebox",
+      "inventory",
+      "selfhosted"
+    ]
+  },
+  {
+    "id": "github:chaitanyagiri/munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "title": "chaitanyagiri/munder-difflin",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099244700741800091",
+    "fetched_at": "2026-09-14T04:01:03.675026Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A multi-agent orchestration harness that visualizes and manages multiple terminal-based AI coding agents, allowing them to collaborate and share memory.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "developer-tools",
+      "orchestration",
+      "cli"
+    ],
+    "risk_notes": "Distributed as a desktop application (Electron). It requires access to your local filesystem and environment variables to interface with various CLI tools and API keys. It acts as a wrapper for existing terminal agents, meaning it inherits the security posture and network access of the underlying tools you connect to it. It is a pre-release project, so expect potential bugs.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 161,
+      "created_at": "2026-05-31T15:25:05Z",
+      "homepage": "https://munderdiffl.in"
+    },
+    "added_at": "2026-09-14T04:01:21.453719Z",
+    "stars": 7047,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-11T07:49:52Z",
+    "license": "MIT",
+    "topics": [
+      "agent-orchestration",
+      "agents",
+      "ai-agents",
+      "autonomous-agents",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "electron",
+      "free",
+      "gemini-cli",
+      "harness",
+      "harness-engineering",
+      "local-first",
+      "memory",
+      "multi-agent",
+      "opencode",
+      "orchestration",
+      "typescript"
+    ]
   }
 ]
