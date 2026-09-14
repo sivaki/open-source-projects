@@ -36898,5 +36898,29 @@
       "Material 3 design tool",
       "AI UI generator"
     ]
+  },
+  "github:chaitanyagiri/munder-difflin": {
+    "capability_summary": "A multi-agent orchestration harness that manages and visualizes terminal-based AI coding agents. It enables collaboration and shared memory between autonomous agents.",
+    "problem_solved": "Managing and coordinating multiple AI coding agents in a terminal environment.",
+    "use_cases": [
+      "ai agent orchestration",
+      "collaborative coding agents",
+      "terminal-based ai automation",
+      "shared memory for ai agents"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai agent harness",
+      "multi-agent orchestration",
+      "claude-code alternative"
+    ]
   }
 }
