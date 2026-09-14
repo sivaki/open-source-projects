@@ -36922,5 +36922,28 @@
       "multi-agent orchestration",
       "claude-code alternative"
     ]
+  },
+  "github:hypit-ai/hypit": {
+    "capability_summary": "A DSL and toolset for automating video production and editing workflows using AI agents. It is designed for developers who want to generate video content programmatically.",
+    "problem_solved": "Automating complex video editing and generation tasks via code.",
+    "use_cases": [
+      "programmatic video editing",
+      "ai-driven video generation",
+      "automated video production workflows"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "video automation framework",
+      "SVML",
+      "programmatic video editor"
+    ]
   }
 }
