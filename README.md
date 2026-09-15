@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 307 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 308 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [agricidaniel/claude-obsidian](https://github.com/agricidaniel/claude-obsidian) ⭐ | AI/LLM Tooling | `obsidian` `ai` `knowledge-management` `agentic` `local-first` | A local-first, agentic knowledge management system that integrates with Obsidian and Claude Code to automate note-taking, linking, and retrieval while maintaining user ownership of files. | 14920 | 2026-09-15 |
 | [cbrock84/headcount](https://github.com/cbrock84/headcount) ⭐ | AI/LLM Tooling | `claude-code` `mcp` `agents` `automation` `developer-tools` | A modular, department-based plugin system for Claude Code that organizes AI agent capabilities into specialized, installable skill sets. | 1399 | 2026-09-15 |
 | [nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) ⭐ | AI/LLM Tooling | `prompt-engineering` `claude` `automation` `llm` `productivity` | A specialized skill for Claude that acts as a meta-prompting engine, optimizing prompts for various AI tools to improve output quality and token efficiency. | 12908 | 2026-09-15 |
 | [okalachev/flix](https://github.com/okalachev/flix) ⭐ | robotics | `esp32` `drone` `mavlink` `robotics` `automation` | An open-source, ESP32-based quadcopter firmware and hardware project designed for education and research, featuring MAVLink support and Gazebo simulation. | 1256 | 2026-09-15 |
