@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 308 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 309 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [gnekt/my-brain-is-full-crew](https://github.com/gnekt/my-brain-is-full-crew) ⭐ | AI/LLM Tooling | `obsidian` `ai-agents` `automation` `productivity` `llm` | An AI-driven agentic framework that integrates with Obsidian to manage knowledge, tasks, and personal life through a conversational interface. | 3507 | 2026-09-15 |
 | [agricidaniel/claude-obsidian](https://github.com/agricidaniel/claude-obsidian) ⭐ | AI/LLM Tooling | `obsidian` `ai` `knowledge-management` `agentic` `local-first` | A local-first, agentic knowledge management system that integrates with Obsidian and Claude Code to automate note-taking, linking, and retrieval while maintaining user ownership of files. | 14920 | 2026-09-15 |
 | [cbrock84/headcount](https://github.com/cbrock84/headcount) ⭐ | AI/LLM Tooling | `claude-code` `mcp` `agents` `automation` `developer-tools` | A modular, department-based plugin system for Claude Code that organizes AI agent capabilities into specialized, installable skill sets. | 1399 | 2026-09-15 |
 | [nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) ⭐ | AI/LLM Tooling | `prompt-engineering` `claude` `automation` `llm` `productivity` | A specialized skill for Claude that acts as a meta-prompting engine, optimizing prompts for various AI tools to improve output quality and token efficiency. | 12908 | 2026-09-15 |
