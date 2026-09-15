@@ -36981,5 +36981,28 @@
       "Claude Code plugin",
       "MCP agent manager"
     ]
+  },
+  "github:agricidaniel/claude-obsidian": {
+    "capability_summary": "An agentic knowledge management system for Obsidian that uses Claude to automate note-taking, linking, and information retrieval. It is designed for users who want an AI-powered second brain while maintaining local file ownership.",
+    "problem_solved": "Automating the organization and retrieval of notes in Obsidian using AI.",
+    "use_cases": [
+      "automated note-taking",
+      "knowledge graph generation",
+      "AI-assisted research",
+      "personal knowledge management"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-ai",
+      "ai-second-brain",
+      "claude-plugin"
+    ]
   }
 }
