@@ -13533,5 +13533,125 @@
       "nrf24",
       "programming"
     ]
+  },
+  {
+    "id": "github:okalachev/flix",
+    "url": "https://github.com/okalachev/flix",
+    "title": "okalachev/flix",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099704408577581370",
+    "fetched_at": "2026-09-15T04:00:14.774766Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source, ESP32-based quadcopter firmware and hardware project designed for education and research, featuring MAVLink support and Gazebo simulation.",
+    "category": "robotics",
+    "tags": [
+      "esp32",
+      "drone",
+      "mavlink",
+      "robotics",
+      "automation"
+    ],
+    "risk_notes": "The project involves physical hardware assembly and firmware flashing via Arduino IDE or PlatformIO. It requires no sensitive system permissions, but users should exercise caution when handling Li-Po batteries and operating drones. The project is actively maintained and uses standard embedded development workflows.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2020-09-06T21:33:57Z",
+      "homepage": "https://t.me/opensourcequadcopter"
+    },
+    "added_at": "2026-09-15T04:00:21.427917Z",
+    "stars": 1256,
+    "language": "C++",
+    "pushed_at": "2026-09-01T14:35:18Z",
+    "license": null,
+    "topics": [
+      "arduino",
+      "autopilot",
+      "control-theory",
+      "drone",
+      "esp32",
+      "flight-control",
+      "flight-controller",
+      "mavlink",
+      "quadcopter",
+      "quadcopter-firmware",
+      "uav"
+    ]
+  },
+  {
+    "id": "github:nidhinjs/prompt-master",
+    "url": "https://github.com/nidhinjs/prompt-master",
+    "title": "nidhinjs/prompt-master",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099652259285979176",
+    "fetched_at": "2026-09-15T04:00:14.775185Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A specialized skill for Claude that acts as a meta-prompting engine, optimizing prompts for various AI tools to improve output quality and token efficiency.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "prompt-engineering",
+      "claude",
+      "automation",
+      "llm",
+      "productivity"
+    ],
+    "risk_notes": "The primary installation method is via the Claude.ai 'Skills' upload feature, which is a sandboxed environment within the Claude interface. The alternative installation involves cloning into a local ~/.claude/skills directory, which grants the skill access to the Claude Code environment. Users should review the skill's logic to ensure it does not leak sensitive context data to external endpoints.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 33,
+      "created_at": "2026-03-11T16:25:43Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-15T04:00:28.459049Z",
+    "stars": 12908,
+    "language": null,
+    "pushed_at": "2026-08-24T07:30:40Z",
+    "license": "MIT",
+    "topics": [
+      "claude-ai",
+      "claude-skills",
+      "llm",
+      "prompt-engineering"
+    ]
+  },
+  {
+    "id": "github:cbrock84/headcount",
+    "url": "https://github.com/cbrock84/headcount",
+    "title": "cbrock84/headcount",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099606693214658944",
+    "fetched_at": "2026-09-15T04:00:14.775546Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A modular, department-based plugin system for Claude Code that organizes AI agent capabilities into specialized, installable skill sets.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude-code",
+      "mcp",
+      "agents",
+      "automation",
+      "developer-tools"
+    ],
+    "risk_notes": "Installs via Claude Code's internal plugin marketplace command. As an agentic tool, it operates with the permissions granted to Claude Code, which typically includes read/write access to the local filesystem and execution of shell commands. Users should review the specific agent charters in .claude/agents/ before execution to understand the scope of the agent's capabilities.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2026-08-28T18:03:04Z",
+      "homepage": "https://cbrock84.github.io/headcount/"
+    },
+    "added_at": "2026-09-15T04:00:35.370830Z",
+    "stars": 1399,
+    "language": "Markdown",
+    "pushed_at": "2026-09-03T02:54:33Z",
+    "license": "MIT",
+    "topics": [
+      "agent-marketplace",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-plugin",
+      "claude-skills",
+      "mcp"
+    ]
   }
 ]
