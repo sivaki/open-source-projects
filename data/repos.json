@@ -13748,5 +13748,37 @@
       "scraper",
       "web-crawler"
     ]
+  },
+  {
+    "id": "github:gnekt/my-brain-is-full-crew",
+    "url": "https://github.com/gnekt/my-brain-is-full-crew",
+    "title": "gnekt/my-brain-is-full-crew",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099928503487517062",
+    "fetched_at": "2026-09-15T19:34:11.181124Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An AI-driven agentic framework that integrates with Obsidian to manage knowledge, tasks, and personal life through a conversational interface.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "obsidian",
+      "ai-agents",
+      "automation",
+      "productivity",
+      "llm"
+    ],
+    "risk_notes": "Requires significant API access to LLM providers (Claude/Gemini/OpenAI) and full read/write access to your local Obsidian vault. As an agentic system, it can perform file operations and potentially execute code based on LLM instructions; users should review the agent definitions and monitor local file changes. Installation typically involves cloning the repo and configuring environment variables for API keys.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 15,
+      "created_at": "2026-03-21T07:52:53Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-15T19:34:19.720595Z",
+    "stars": 3507,
+    "language": "Shell",
+    "pushed_at": "2026-06-27T09:38:17Z",
+    "license": "NOASSERTION",
+    "topics": []
   }
 ]
