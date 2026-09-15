@@ -36945,5 +36945,41 @@
       "SVML",
       "programmatic video editor"
     ]
+  },
+  "github:nidhinjs/prompt-master": {
+    "capability_summary": "A meta-prompting engine that optimizes prompts for AI models to enhance output quality and efficiency. Designed for prompt engineers and AI power users.",
+    "problem_solved": "Inefficient or low-quality AI model responses due to poor prompting.",
+    "use_cases": [
+      "prompt engineering",
+      "token optimization",
+      "AI output refinement"
+    ],
+    "project_type": "plugin",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "prompt optimizer",
+      "meta-prompting tool"
+    ]
+  },
+  "github:cbrock84/headcount": {
+    "capability_summary": "A modular plugin system for Claude Code that organizes AI agent capabilities into installable, department-specific skill sets. Built for developers using Claude Code.",
+    "problem_solved": "Managing and organizing complex agent capabilities within Claude Code.",
+    "use_cases": [
+      "agent management",
+      "Claude Code extensibility",
+      "modular AI workflows"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Claude Code plugin",
+      "MCP agent manager"
+    ]
   }
 }
