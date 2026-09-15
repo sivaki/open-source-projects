@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 304 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 307 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [cbrock84/headcount](https://github.com/cbrock84/headcount) ⭐ | AI/LLM Tooling | `claude-code` `mcp` `agents` `automation` `developer-tools` | A modular, department-based plugin system for Claude Code that organizes AI agent capabilities into specialized, installable skill sets. | 1399 | 2026-09-15 |
+| [nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) ⭐ | AI/LLM Tooling | `prompt-engineering` `claude` `automation` `llm` `productivity` | A specialized skill for Claude that acts as a meta-prompting engine, optimizing prompts for various AI tools to improve output quality and token efficiency. | 12908 | 2026-09-15 |
+| [okalachev/flix](https://github.com/okalachev/flix) ⭐ | robotics | `esp32` `drone` `mavlink` `robotics` `automation` | An open-source, ESP32-based quadcopter firmware and hardware project designed for education and research, featuring MAVLink support and Gazebo simulation. | 1256 | 2026-09-15 |
 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) ⭐ | Automation | `ai-agents` `video-automation` `cli` `typescript` `generative-ai` | A specialized tool and DSL (SVML) for automating video production workflows using AI agents, allowing for programmatic video editing and generation. | 587 | 2026-09-14 |
 | [extv/podroid](https://github.com/extv/podroid) ⭐ | Developer Tools | `android` `linux` `containers` `virtualization` `docker` `homelab` | Podroid is a powerful Android application that runs a full Alpine Linux VM using QEMU or AVF, enabling native-like Docker, Podman, and LXC container support without requiring root access. | 2374 | 2026-09-14 |
 | [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `developer-tools` `orchestration` `cli` | A multi-agent orchestration harness that visualizes and manages multiple terminal-based AI coding agents, allowing them to collaborate and share memory. | 7047 | 2026-09-14 |
