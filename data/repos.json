@@ -13653,5 +13653,100 @@
       "claude-skills",
       "mcp"
     ]
+  },
+  {
+    "id": "github:agricidaniel/claude-obsidian",
+    "url": "https://github.com/agricidaniel/claude-obsidian",
+    "title": "agricidaniel/claude-obsidian",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099837681559601508",
+    "fetched_at": "2026-09-15T13:17:07.770063Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A local-first, agentic knowledge management system that integrates with Obsidian and Claude Code to automate note-taking, linking, and retrieval while maintaining user ownership of files.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "obsidian",
+      "ai",
+      "knowledge-management",
+      "agentic",
+      "local-first"
+    ],
+    "risk_notes": "Requires Python 3 and local execution. It operates on your local filesystem (Obsidian vault) and requires an active Claude Code environment or compatible agent host. It uses an explicit 'plan-then-apply' workflow for file mutations, which is a strong security practice. It does not require root/sudo access, but it will read/write to your specified vault directory.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 21,
+      "created_at": "2026-04-07T08:59:37Z",
+      "homepage": "skool.com/ai-marketing-hub-pro"
+    },
+    "added_at": "2026-09-15T13:17:17.697574Z",
+    "stars": 14920,
+    "language": "Python",
+    "pushed_at": "2026-09-10T17:44:23Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skills",
+      "ai-note-taking",
+      "ai-second-brain",
+      "claude-code",
+      "claude-code-skill",
+      "claude-memory",
+      "claude-plugin",
+      "karpathy-llm-wiki",
+      "knowledge-graph",
+      "knowledge-management",
+      "note-taking",
+      "notion-alternative",
+      "obsidian",
+      "obsidian-ai",
+      "obsidian-plugin",
+      "obsidian-second-brain",
+      "open-source",
+      "personal-knowledge-management",
+      "pkm",
+      "second-brain"
+    ]
+  },
+  {
+    "id": "github:madi-s/lead-generation",
+    "url": "https://github.com/madi-s/lead-generation",
+    "title": "madi-s/lead-generation",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2099765040807080229",
+    "fetched_at": "2026-09-15T13:17:07.770428Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A Python library for scraping business contact data from Google Maps and Yelp, currently undergoing a transition from a collection of scripts to a structured package.",
+    "category": "automation",
+    "tags": [
+      "scraping",
+      "automation",
+      "python",
+      "lead-generation",
+      "web-crawler"
+    ],
+    "risk_notes": "Installs via pip. The tool performs web scraping which may violate the Terms of Service of platforms like Google Maps and Yelp. It requires network access and potentially credentials if extended with the planned SMTP/SMS features. The project is currently in a state of active refactoring, which may lead to breaking changes.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2020-12-14T11:41:39Z",
+      "homepage": "https://pypi.org/project/py-lead-generation/"
+    },
+    "added_at": "2026-09-15T13:17:27.013288Z",
+    "stars": 365,
+    "language": "Python",
+    "pushed_at": "2026-08-26T08:52:20Z",
+    "license": "MIT",
+    "topics": [
+      "chromedriver",
+      "lead-generation",
+      "leads",
+      "leadscanner",
+      "parser",
+      "playwright",
+      "python",
+      "scraper",
+      "web-crawler"
+    ]
   }
 ]
