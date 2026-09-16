@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 314 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 316 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [yetone/cumora](https://github.com/yetone/cumora) ⭐ | AI Agent Orchestration | `ai-agents` `collaboration` `typescript` `self-hosting` `automation` | A cross-platform team collaboration platform that integrates AI agents as first-class participants, supporting both cloud-managed pods and local BYOA (Bring Your Own Agent) execution. | 3636 | 2026-09-16 |
+| [gsync/jobsync](https://github.com/gsync/jobsync) ⭐ | Automation | `self-hosted` `ai-agent` `docker` `productivity` `mcp` | A self-hosted, Docker-based job application tracker and AI assistant that supports local LLM integration via Ollama and MCP for agentic workflows. | 1049 | 2026-09-16 |
 | [foru17/neko-master](https://github.com/foru17/neko-master) ⭐ | network-monitoring | `dashboard` `network` `docker` `visualization` `homelab` | Neko Master is a modern, Docker-based dashboard for visualizing and analyzing network traffic from OpenClash or similar gateway backends. | 3993 | 2026-09-16 |
 | [bayramannakov/claude-reflect](https://github.com/bayramannakov/claude-reflect) ⭐ | AI/LLM Tooling | `claude-code` `automation` `productivity` `llm` `developer-tools` | A plugin for Claude Code that automatically captures corrections and workflow patterns from your sessions, syncing them to CLAUDE.md to improve future AI performance. | 1451 | 2026-09-16 |
 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) ⭐ | AI/LLM Tooling | `ai` `graph-rag` `knowledge-graph` `llm` `data-engineering` | Semantica is a graph-native infrastructure tool designed to provide context, knowledge modeling, and deterministic reasoning for AI agents, serving as a structured alternative to standard vector-only RAG approaches. | 12968 | 2026-09-16 |
