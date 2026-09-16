@@ -13780,5 +13780,57 @@
     "pushed_at": "2026-06-27T09:38:17Z",
     "license": "NOASSERTION",
     "topics": []
+  },
+  {
+    "id": "github:rt-bishop/look4sat",
+    "url": "https://github.com/rt-bishop/look4sat",
+    "title": "rt-bishop/look4sat",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100049500463116503",
+    "fetched_at": "2026-09-16T03:58:18.303283Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An open-source, ad-free Android application for tracking satellites and predicting passes using TLE data, ideal for amateur radio enthusiasts and satellite hobbyists.",
+    "category": "ham-radio",
+    "tags": [
+      "ham-radio",
+      "satellite",
+      "android",
+      "kotlin",
+      "gps"
+    ],
+    "risk_notes": "Installed via Google Play or F-Droid. Requires location permissions to calculate satellite passes relative to the user's position and network access to fetch updated TLE data. The project is actively maintained and open-source.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 38,
+      "created_at": "2019-10-13T20:04:01Z",
+      "homepage": "https://play.google.com/store/apps/details?id=com.rtbishop.look4sat"
+    },
+    "added_at": "2026-09-16T03:58:24.686390Z",
+    "stars": 1318,
+    "language": "Kotlin",
+    "pushed_at": "2026-09-13T19:28:07Z",
+    "license": "GPL-3.0",
+    "topics": [
+      "amsat",
+      "celestrak",
+      "gps",
+      "ham-radio",
+      "hamlib",
+      "hamradio",
+      "kotlin",
+      "nasa",
+      "radio",
+      "satellite",
+      "satellite-data",
+      "satellite-position",
+      "satellite-prediction",
+      "satellites",
+      "satnogs",
+      "sdr",
+      "space",
+      "spacex",
+      "starlink"
+    ]
   }
 ]
