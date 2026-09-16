@@ -14009,5 +14009,90 @@
       "traffic-monitor",
       "visualization"
     ]
+  },
+  {
+    "id": "github:gsync/jobsync",
+    "url": "https://github.com/gsync/jobsync",
+    "title": "gsync/jobsync",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100273023009907084",
+    "fetched_at": "2026-09-16T19:25:55.023048Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted, Docker-based job application tracker and AI assistant that supports local LLM integration via Ollama and MCP for agentic workflows.",
+    "category": "Automation",
+    "tags": [
+      "self-hosted",
+      "ai-agent",
+      "docker",
+      "productivity",
+      "mcp"
+    ],
+    "risk_notes": "Installed via Docker Compose. Requires local network access and persistent storage. Users must provide their own API keys (stored encrypted) or connect to a local Ollama instance. The application handles sensitive personal data (resumes, job history), so proper security of the host and encryption keys is required.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 26,
+      "created_at": "2024-05-21T22:30:01Z",
+      "homepage": "https://jobsync.ca"
+    },
+    "added_at": "2026-09-16T19:26:02.974598Z",
+    "stars": 1049,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-16T13:48:46Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agent",
+      "ai-resume-analyzer",
+      "application-tracker",
+      "application-tracking-system",
+      "ats",
+      "career",
+      "job-application",
+      "job-automation",
+      "job-hunting",
+      "job-search",
+      "job-seeker-tools",
+      "job-tracker",
+      "job-tracking",
+      "jobsearch",
+      "jobseekers",
+      "mcp",
+      "ollama",
+      "resume",
+      "resume-review",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github:yetone/cumora",
+    "url": "https://github.com/yetone/cumora",
+    "title": "yetone/cumora",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100232755212599389",
+    "fetched_at": "2026-09-16T19:25:55.023221Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A cross-platform team collaboration platform that integrates AI agents as first-class participants, supporting both cloud-managed pods and local BYOA (Bring Your Own Agent) execution.",
+    "category": "AI Agent Orchestration",
+    "tags": [
+      "ai-agents",
+      "collaboration",
+      "typescript",
+      "self-hosting",
+      "automation"
+    ],
+    "risk_notes": "Requires local Postgres and Redis instances. BYOA agents can be run locally via CLI, which may grant them filesystem and network access depending on the agent configuration. The server requires an OpenAI API key and optional cloud service keys (Resend, Cloudflare). The project is actively maintained and provides clear documentation for local development and deployment.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 10,
+      "created_at": "2026-08-17T09:13:52Z",
+      "homepage": "https://cumora.ai"
+    },
+    "added_at": "2026-09-16T19:26:11.825594Z",
+    "stars": 3636,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-16T13:39:28Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
