@@ -37004,5 +37004,26 @@
       "ai-second-brain",
       "claude-plugin"
     ]
+  },
+  "github:yetone/cumora": {
+    "capability_summary": "A team collaboration platform that integrates AI agents as active participants in workflows. It supports both cloud-managed and self-hosted agent execution.",
+    "problem_solved": "Managing and collaborating with multiple AI agents in a team environment.",
+    "use_cases": [
+      "ai agent orchestration",
+      "team collaboration",
+      "automated workflows",
+      "self-hosted ai agents"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cross-platform",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai agent platform",
+      "ai collaboration tool"
+    ]
   }
 }
