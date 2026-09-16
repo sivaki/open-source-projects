@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 310 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 314 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [foru17/neko-master](https://github.com/foru17/neko-master) ⭐ | network-monitoring | `dashboard` `network` `docker` `visualization` `homelab` | Neko Master is a modern, Docker-based dashboard for visualizing and analyzing network traffic from OpenClash or similar gateway backends. | 3993 | 2026-09-16 |
+| [bayramannakov/claude-reflect](https://github.com/bayramannakov/claude-reflect) ⭐ | AI/LLM Tooling | `claude-code` `automation` `productivity` `llm` `developer-tools` | A plugin for Claude Code that automatically captures corrections and workflow patterns from your sessions, syncing them to CLAUDE.md to improve future AI performance. | 1451 | 2026-09-16 |
+| [semantica-agi/semantica](https://github.com/semantica-agi/semantica) ⭐ | AI/LLM Tooling | `ai` `graph-rag` `knowledge-graph` `llm` `data-engineering` | Semantica is a graph-native infrastructure tool designed to provide context, knowledge modeling, and deterministic reasoning for AI agents, serving as a structured alternative to standard vector-only RAG approaches. | 12968 | 2026-09-16 |
+| [comet-ml/opik](https://github.com/comet-ml/opik) ⭐ | AI/LLM Tooling | `llm` `observability` `evaluation` `tracing` `rag` `ai-agents` | Opik is a comprehensive open-source platform for LLM observability, evaluation, and tracing, designed to help developers monitor and improve AI agent workflows and RAG systems. | 22061 | 2026-09-16 |
 | [rt-bishop/look4sat](https://github.com/rt-bishop/look4sat) ⭐ | ham-radio | `ham-radio` `satellite` `android` `kotlin` `gps` | An open-source, ad-free Android application for tracking satellites and predicting passes using TLE data, ideal for amateur radio enthusiasts and satellite hobbyists. | 1318 | 2026-09-16 |
 | [gnekt/my-brain-is-full-crew](https://github.com/gnekt/my-brain-is-full-crew) ⭐ | AI/LLM Tooling | `obsidian` `ai-agents` `automation` `productivity` `llm` | An AI-driven agentic framework that integrates with Obsidian to manage knowledge, tasks, and personal life through a conversational interface. | 3507 | 2026-09-15 |
 | [agricidaniel/claude-obsidian](https://github.com/agricidaniel/claude-obsidian) ⭐ | AI/LLM Tooling | `obsidian` `ai` `knowledge-management` `agentic` `local-first` | A local-first, agentic knowledge management system that integrates with Obsidian and Claude Code to automate note-taking, linking, and retrieval while maintaining user ownership of files. | 14920 | 2026-09-15 |
