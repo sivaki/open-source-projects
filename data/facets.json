@@ -37046,5 +37046,27 @@
       "OSINT visualization tool",
       "Cesium globe viewer"
     ]
+  },
+  "github:open-dev-society/openstock": {
+    "capability_summary": "OpenStock is an open-source platform for tracking stock market data, providing real-time monitoring, alerts, and financial visualizations. It is designed for individual investors who want a self-hosted dashboard.",
+    "problem_solved": "Need for a private, self-hosted dashboard to monitor stock market performance and alerts.",
+    "use_cases": [
+      "stock market tracking",
+      "financial data visualization",
+      "price alerts",
+      "self-hosted dashboards"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "stock tracker",
+      "finance dashboard",
+      "open source stock monitor"
+    ]
   }
 }
