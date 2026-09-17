@@ -14257,5 +14257,37 @@
       "stock-market",
       "tailwindcss"
     ]
+  },
+  {
+    "id": "github:circuit-digest/esp-drone",
+    "url": "https://github.com/circuit-digest/esp-drone",
+    "title": "circuit-digest/esp-drone",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100594320290029844",
+    "fetched_at": "2026-09-17T19:36:38.641476Z",
+    "verdict": "skip",
+    "score": 2,
+    "summary": "A DIY drone project based on the ESP32 microcontroller, now largely superseded by the author's more advanced 'LiteWing' platform.",
+    "category": "robotics",
+    "tags": [
+      "esp32",
+      "robotics",
+      "drone",
+      "embedded",
+      "diy"
+    ],
+    "risk_notes": "Requires manual flashing of binary files to hardware using the ESP32 Flash Download Tool. No specific software security risks as it is firmware for a microcontroller, but it is effectively a legacy project pointing to external tutorials rather than a maintained software library.",
+    "recommended": false,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2023-09-11T05:28:48Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-17T19:36:49.532768Z",
+    "stars": 2380,
+    "language": "C",
+    "pushed_at": "2026-03-30T12:47:00Z",
+    "license": null,
+    "topics": []
   }
 ]
