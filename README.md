@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 319 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 320 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [open-dev-society/openstock](https://github.com/open-dev-society/openstock) ⭐ | Finance / Self-hosted | `finance` `nextjs` `self-hosting` `dashboard` `stocks` | OpenStock is a comprehensive, open-source stock market tracking platform built with a modern Next.js stack, offering real-time price monitoring, alerts, and financial data visualization. | 14336 | 2026-09-17 |
 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) ⭐ | Geospatial Intelligence | `geospatial` `osint` `visualization` `cesium` `webgl` | A sophisticated, browser-based geospatial intelligence dashboard that visualizes real-time global data like flight paths, ship locations, and satellite telemetry on a 3D globe. | 36133 | 2026-09-17 |
 | [railly/agentfiles](https://github.com/railly/agentfiles) ⭐ | Developer Tools | `obsidian` `ai-agents` `developer-tools` `automation` `productivity` | An Obsidian plugin that acts as a centralized management dashboard for AI coding agent skills, rules, and configurations across 17 different tools like Claude Code, Cursor, and Windsurf. | 751 | 2026-09-17 |
 | [murtaza-nasir/speakr](https://github.com/murtaza-nasir/speakr) ⭐ | Self-hosted AI | `ai` `transcription` `self-hosted` `automation` `productivity` | A comprehensive self-hosted platform for AI-powered audio transcription, diarization, and intelligent note-taking with support for multiple ASR engines and LLM-based analysis. | 3751 | 2026-09-17 |
