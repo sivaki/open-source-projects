@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 316 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 319 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) ⭐ | Geospatial Intelligence | `geospatial` `osint` `visualization` `cesium` `webgl` | A sophisticated, browser-based geospatial intelligence dashboard that visualizes real-time global data like flight paths, ship locations, and satellite telemetry on a 3D globe. | 36133 | 2026-09-17 |
+| [railly/agentfiles](https://github.com/railly/agentfiles) ⭐ | Developer Tools | `obsidian` `ai-agents` `developer-tools` `automation` `productivity` | An Obsidian plugin that acts as a centralized management dashboard for AI coding agent skills, rules, and configurations across 17 different tools like Claude Code, Cursor, and Windsurf. | 751 | 2026-09-17 |
+| [murtaza-nasir/speakr](https://github.com/murtaza-nasir/speakr) ⭐ | Self-hosted AI | `ai` `transcription` `self-hosted` `automation` `productivity` | A comprehensive self-hosted platform for AI-powered audio transcription, diarization, and intelligent note-taking with support for multiple ASR engines and LLM-based analysis. | 3751 | 2026-09-17 |
 | [yetone/cumora](https://github.com/yetone/cumora) ⭐ | AI Agent Orchestration | `ai-agents` `collaboration` `typescript` `self-hosting` `automation` | A cross-platform team collaboration platform that integrates AI agents as first-class participants, supporting both cloud-managed pods and local BYOA (Bring Your Own Agent) execution. | 3636 | 2026-09-16 |
 | [gsync/jobsync](https://github.com/gsync/jobsync) ⭐ | Automation | `self-hosted` `ai-agent` `docker` `productivity` `mcp` | A self-hosted, Docker-based job application tracker and AI assistant that supports local LLM integration via Ollama and MCP for agentic workflows. | 1049 | 2026-09-16 |
 | [foru17/neko-master](https://github.com/foru17/neko-master) ⭐ | network-monitoring | `dashboard` `network` `docker` `visualization` `homelab` | Neko Master is a modern, Docker-based dashboard for visualizing and analyzing network traffic from OpenClash or similar gateway backends. | 3993 | 2026-09-16 |
