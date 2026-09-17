@@ -14094,5 +14094,129 @@
     "pushed_at": "2026-09-16T13:39:28Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:murtaza-nasir/speakr",
+    "url": "https://github.com/murtaza-nasir/speakr",
+    "title": "murtaza-nasir/speakr",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100430920742293802",
+    "fetched_at": "2026-09-17T04:04:07.768821Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive self-hosted platform for AI-powered audio transcription, diarization, and intelligent note-taking with support for multiple ASR engines and LLM-based analysis.",
+    "category": "Self-hosted AI",
+    "tags": [
+      "ai",
+      "transcription",
+      "self-hosted",
+      "automation",
+      "productivity"
+    ],
+    "risk_notes": "Distributed via Docker, which is a standard and secure deployment method. Requires configuration of external ASR/LLM API keys or local model resources. Accesses local filesystem for audio storage and requires network access for OIDC authentication and API integrations. Active maintenance is indicated by recent commits and release activity.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 15,
+      "created_at": "2025-05-05T07:22:51Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-17T04:04:16.434275Z",
+    "stars": 3751,
+    "language": "Python",
+    "pushed_at": "2026-09-01T03:54:44Z",
+    "license": "AGPL-3.0",
+    "topics": []
+  },
+  {
+    "id": "github:railly/agentfiles",
+    "url": "https://github.com/railly/agentfiles",
+    "title": "railly/agentfiles",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100370358876479771",
+    "fetched_at": "2026-09-17T04:04:07.768981Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An Obsidian plugin that acts as a centralized management dashboard for AI coding agent skills, rules, and configurations across 17 different tools like Claude Code, Cursor, and Windsurf.",
+    "category": "Developer Tools",
+    "tags": [
+      "obsidian",
+      "ai-agents",
+      "developer-tools",
+      "automation",
+      "productivity"
+    ],
+    "risk_notes": "Installed via Obsidian Community Plugins (standard plugin sandbox). It requires broad filesystem access to read/write configuration files in your home directory (e.g., ~/.cursor, ~/.claude) to manage agent skills. It does not execute shell commands directly, but it does perform network requests to GitHub and skills.sh for marketplace functionality. The optional analytics tool (skillkit) is a separate CLI that requires Bun/Node.js.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 13,
+      "created_at": "2026-03-28T13:17:02Z",
+      "homepage": "https://agentfiles.crafter.run"
+    },
+    "added_at": "2026-09-17T04:04:23.207510Z",
+    "stars": 751,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-31T19:17:26Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "copilot",
+      "cursor",
+      "developer-tools",
+      "dotfiles",
+      "obsidian",
+      "obsidian-plugin",
+      "skills",
+      "windsurf"
+    ]
+  },
+  {
+    "id": "github:bilawalsidhu/gods-eye-view",
+    "url": "https://github.com/bilawalsidhu/gods-eye-view",
+    "title": "bilawalsidhu/gods-eye-view",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100318486756991274",
+    "fetched_at": "2026-09-17T04:04:07.769110Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A sophisticated, browser-based geospatial intelligence dashboard that visualizes real-time global data like flight paths, ship locations, and satellite telemetry on a 3D globe.",
+    "category": "Geospatial Intelligence",
+    "tags": [
+      "geospatial",
+      "osint",
+      "visualization",
+      "cesium",
+      "webgl"
+    ],
+    "risk_notes": "The project can be installed via Pinokio (a browser-based app launcher) or run locally from the terminal. It requires network access to fetch live data feeds. While it functions without API keys, it supports optional integration with Cesium ion or Google Maps, which would require managing external credentials. The codebase is inspectable, but users should be aware that it processes and displays live, potentially sensitive public tracking data.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 189,
+      "created_at": "2026-06-22T23:37:22Z",
+      "homepage": "https://maptheworld.ai/"
+    },
+    "added_at": "2026-09-17T04:04:30.820365Z",
+    "stars": 36133,
+    "language": "JavaScript",
+    "pushed_at": "2026-09-17T00:37:30Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "3d-globe",
+      "cesium",
+      "flight-tracking",
+      "geospatial",
+      "geospatial-intelligence",
+      "gis",
+      "osint",
+      "photogrammetry",
+      "satellite-tracking",
+      "spatial-intelligence",
+      "webgl",
+      "worldview"
+    ]
   }
 ]
