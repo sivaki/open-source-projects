@@ -37025,5 +37025,26 @@
       "ai agent platform",
       "ai collaboration tool"
     ]
+  },
+  "github:bilawalsidhu/gods-eye-view": {
+    "capability_summary": "A browser-based dashboard for visualizing real-time global geospatial data like flight paths and satellite telemetry on a 3D globe. It is designed for researchers and OSINT analysts.",
+    "problem_solved": "Visualizing complex, real-time global geospatial data in a 3D environment.",
+    "use_cases": [
+      "flight tracking",
+      "satellite telemetry visualization",
+      "maritime vessel tracking",
+      "geospatial intelligence analysis"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "geospatial dashboard",
+      "OSINT visualization tool",
+      "Cesium globe viewer"
+    ]
   }
 }
