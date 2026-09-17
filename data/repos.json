@@ -14218,5 +14218,44 @@
       "webgl",
       "worldview"
     ]
+  },
+  {
+    "id": "github:open-dev-society/openstock",
+    "url": "https://github.com/open-dev-society/openstock",
+    "title": "open-dev-society/openstock",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100503552988696849",
+    "fetched_at": "2026-09-17T13:10:29.781815Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "OpenStock is a comprehensive, open-source stock market tracking platform built with a modern Next.js stack, offering real-time price monitoring, alerts, and financial data visualization.",
+    "category": "Finance / Self-hosted",
+    "tags": [
+      "finance",
+      "nextjs",
+      "self-hosting",
+      "dashboard",
+      "stocks"
+    ],
+    "risk_notes": "The project is containerized via Docker, which is a standard and safe deployment method. It requires external API keys (Finnhub, etc.) for market data and a MongoDB instance for persistence. The AGPL-3.0 license requires that any modifications or deployments as a web service must be open-sourced.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 30,
+      "created_at": "2025-09-28T18:16:32Z",
+      "homepage": "https://openstock-ods.vercel.app"
+    },
+    "added_at": "2026-09-17T13:10:38.006724Z",
+    "stars": 14336,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-21T12:10:26Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "coderabbit",
+      "inngest",
+      "nextjs",
+      "shadcn-ui",
+      "stock-market",
+      "tailwindcss"
+    ]
   }
 ]
