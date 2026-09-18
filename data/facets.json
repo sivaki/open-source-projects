@@ -37068,5 +37068,26 @@
       "finance dashboard",
       "open source stock monitor"
     ]
+  },
+  "github:kajisho5/ffmpeg-skill": {
+    "capability_summary": "A collection of 42 specialized FFmpeg tools designed as an agent skill for AI coding assistants. It enables AI agents to perform complex video and audio processing tasks via CLI or MCP.",
+    "problem_solved": "Automating video and audio processing tasks through AI agents.",
+    "use_cases": [
+      "video transcoding",
+      "audio extraction",
+      "automated video editing",
+      "media format conversion"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-ffmpeg",
+      "ai-video-automation"
+    ]
   }
 }
