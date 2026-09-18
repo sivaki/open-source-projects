@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 321 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 324 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [arxhr007/aliens_eye](https://github.com/arxhr007/aliens_eye) ⭐ | OSINT / Security Tooling | `osint` `automation` `ai` `cli` `security` `python` | A sophisticated, AI-powered OSINT tool for username enumeration across 840+ platforms, featuring ML-based verification, profile correlation, and MCP support for LLM integration. | 3971 | 2026-09-18 |
+| [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) ⭐ | AI/LLM Tooling | `ffmpeg` `automation` `mcp` `video-editing` `ai-agents` | A powerful local FFmpeg wrapper designed as an Agent Skill for AI coding assistants like Claude Code and Cursor, providing 42 specialized video/audio processing tools via CLI or MCP. | 1105 | 2026-09-18 |
+| [ferdinandobons/startup-skill](https://github.com/ferdinandobons/startup-skill) ⭐ | AI/LLM Tooling | `ai-agents` `claude-code` `startup` `automation` `market-research` | A collection of specialized AI agent skills designed for startup validation, competitive intelligence, and pitch preparation, specifically optimized for integration with Claude Code and other agentic frameworks. | 920 | 2026-09-18 |
 | [lumen-labs/brainapi2](https://github.com/lumen-labs/brainapi2) ⭐ | AI/LLM Tooling | `ai-agents` `knowledge-graph` `llm` `self-hosting` `automation` | BrainAPI is a knowledge-graph-powered memory layer for AI agents that automatically extracts structured facts from unstructured text to provide traceable, context-aware retrieval. | 335 | 2026-09-18 |
 | [open-dev-society/openstock](https://github.com/open-dev-society/openstock) ⭐ | Finance / Self-hosted | `finance` `nextjs` `self-hosting` `dashboard` `stocks` | OpenStock is a comprehensive, open-source stock market tracking platform built with a modern Next.js stack, offering real-time price monitoring, alerts, and financial data visualization. | 14336 | 2026-09-17 |
 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) ⭐ | Geospatial Intelligence | `geospatial` `osint` `visualization` `cesium` `webgl` | A sophisticated, browser-based geospatial intelligence dashboard that visualizes real-time global data like flight paths, ship locations, and satellite telemetry on a 3D globe. | 36133 | 2026-09-17 |
