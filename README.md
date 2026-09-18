@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 324 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 329 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [jhd3197/serverkit](https://github.com/jhd3197/serverkit) ⭐ | self-hosting | `server-management` `docker` `automation` `web-hosting` `self-hosting` | ServerKit is a modern, lightweight server control panel that simplifies the management of web applications, databases, and Docker containers on VPS or dedicated servers. | 1395 | 2026-09-18 |
+| [mobai-app/simslim](https://github.com/mobai-app/simslim) ⭐ | Developer Tools | `ios` `macos` `cli` `performance` `automation` `developer-tools` | A powerful CLI and macOS utility that optimizes iOS simulator performance by disabling unnecessary background daemons, significantly reducing memory usage and enabling higher density simulator testing. | 1947 | 2026-09-18 |
+| [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) ⭐ | AI/LLM Tooling | `obsidian` `ai-agents` `pkm` `automation` `llm-memory` | A powerful automation framework that connects CLI-based AI agents (like Claude Code and Grok) to an Obsidian vault, enabling persistent memory, cross-linked note synthesis, and autonomous vault maintenance. | 4499 | 2026-09-18 |
+| [startrail-org/pixelrag](https://github.com/startrail-org/pixelrag) ⭐ | AI/LLM Tooling | `rag` `multimodal` `vlm` `automation` `developer-tools` | PixelRAG is a novel RAG framework that retrieves information from documents by rendering them as screenshots rather than parsing raw text, preserving visual layout, charts, and tables for better LLM comprehension. | 9993 | 2026-09-18 |
+| [rmyndharis/openwa](https://github.com/rmyndharis/openwa) ⭐ | Automation/Communication | `whatsapp` `automation` `api` `self-hosted` `docker` `messaging` | A robust, self-hosted WhatsApp API gateway that provides a pluggable architecture for managing multiple WhatsApp sessions via REST API and webhooks. | 14289 | 2026-09-18 |
 | [arxhr007/aliens_eye](https://github.com/arxhr007/aliens_eye) ⭐ | OSINT / Security Tooling | `osint` `automation` `ai` `cli` `security` `python` | A sophisticated, AI-powered OSINT tool for username enumeration across 840+ platforms, featuring ML-based verification, profile correlation, and MCP support for LLM integration. | 3971 | 2026-09-18 |
 | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) ⭐ | AI/LLM Tooling | `ffmpeg` `automation` `mcp` `video-editing` `ai-agents` | A powerful local FFmpeg wrapper designed as an Agent Skill for AI coding assistants like Claude Code and Cursor, providing 42 specialized video/audio processing tools via CLI or MCP. | 1105 | 2026-09-18 |
 | [ferdinandobons/startup-skill](https://github.com/ferdinandobons/startup-skill) ⭐ | AI/LLM Tooling | `ai-agents` `claude-code` `startup` `automation` `market-research` | A collection of specialized AI agent skills designed for startup validation, competitive intelligence, and pitch preparation, specifically optimized for integration with Claude Code and other agentic frameworks. | 920 | 2026-09-18 |
