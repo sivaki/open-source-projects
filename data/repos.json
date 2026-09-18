@@ -14328,5 +14328,133 @@
       "knowledge-representation",
       "reccomendation-system"
     ]
+  },
+  {
+    "id": "github:ferdinandobons/startup-skill",
+    "url": "https://github.com/ferdinandobons/startup-skill",
+    "title": "ferdinandobons/startup-skill",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100925842981286356",
+    "fetched_at": "2026-09-18T12:47:51.240810Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of specialized AI agent skills designed for startup validation, competitive intelligence, and pitch preparation, specifically optimized for integration with Claude Code and other agentic frameworks.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "startup",
+      "automation",
+      "market-research"
+    ],
+    "risk_notes": "Installs via Claude CLI or npx, which executes remote code. Requires significant token usage and access to your agent's environment; since it performs research, it will likely trigger network requests to external sites. Ensure you monitor your API usage costs.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-03-06T18:09:35Z",
+      "homepage": "https://startupskill.me"
+    },
+    "added_at": "2026-09-18T12:47:59.977851Z",
+    "stars": 920,
+    "language": null,
+    "pushed_at": "2026-07-01T07:03:04Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "battle-cards",
+      "claude-code",
+      "claude-skills",
+      "competitive-analysis",
+      "competitive-intelligence",
+      "market-research",
+      "pricing-analysis",
+      "startup",
+      "startup-validation"
+    ]
+  },
+  {
+    "id": "github:kajisho5/ffmpeg-skill",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "title": "kajisho5/ffmpeg-skill",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100909207239184767",
+    "fetched_at": "2026-09-18T12:47:51.240970Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful local FFmpeg wrapper designed as an Agent Skill for AI coding assistants like Claude Code and Cursor, providing 42 specialized video/audio processing tools via CLI or MCP.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ffmpeg",
+      "automation",
+      "mcp",
+      "video-editing",
+      "ai-agents"
+    ],
+    "risk_notes": "Installs via npx (Node Package Executor), which executes code from the npm registry. Requires local ffmpeg and python3 installed on the system path. It operates locally on your filesystem, meaning it has read/write access to any media files you point it at, but it does not require API keys or cloud connectivity.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 8,
+      "created_at": "2026-09-03T14:33:38Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-18T12:48:07.938326Z",
+    "stars": 1105,
+    "language": "Python",
+    "pushed_at": "2026-09-18T11:57:13Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:arxhr007/aliens_eye",
+    "url": "https://github.com/arxhr007/aliens_eye",
+    "title": "arxhr007/aliens_eye",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100893454137974815",
+    "fetched_at": "2026-09-18T12:47:51.241099Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A sophisticated, AI-powered OSINT tool for username enumeration across 840+ platforms, featuring ML-based verification, profile correlation, and MCP support for LLM integration.",
+    "category": "OSINT / Security Tooling",
+    "tags": [
+      "osint",
+      "automation",
+      "ai",
+      "cli",
+      "security",
+      "python"
+    ],
+    "risk_notes": "Installed via pip or Docker. Requires network access to perform external scans. The tool can be configured to use proxies or Tor for anonymity. It handles potentially sensitive data (user profiles) and supports webhooks for notifications. It is actively maintained and follows standard Python packaging practices.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1,
+      "created_at": "2021-09-22T05:15:32Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-18T12:48:14.567495Z",
+    "stars": 3971,
+    "language": "Python",
+    "pushed_at": "2026-09-06T12:17:18Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "debain",
+      "hack",
+      "hacker",
+      "hacking",
+      "hackingtools",
+      "information",
+      "information-gathering",
+      "linux",
+      "linux-desktop",
+      "osint",
+      "python",
+      "python-script",
+      "python3",
+      "social-media",
+      "socialmediahacking",
+      "termux",
+      "termux-tool"
+    ]
   }
 ]
