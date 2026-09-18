@@ -37089,5 +37089,80 @@
       "mcp-ffmpeg",
       "ai-video-automation"
     ]
+  },
+  "github:rmyndharis/openwa": {
+    "capability_summary": "A self-hosted WhatsApp API gateway for managing multiple sessions via REST and webhooks.",
+    "problem_solved": "Automating WhatsApp messaging and bot interactions.",
+    "use_cases": [
+      "whatsapp automation",
+      "bot development",
+      "messaging gateway"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "whatsapp-api",
+      "whatsapp-bot"
+    ]
+  },
+  "github:startrail-org/pixelrag": {
+    "capability_summary": "A RAG framework that retrieves document information by rendering screenshots to preserve visual layout.",
+    "problem_solved": "Poor LLM comprehension of complex document layouts, charts, and tables.",
+    "use_cases": [
+      "multimodal rag",
+      "document analysis",
+      "visual information retrieval"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "multimodal-rag",
+      "vlm-search"
+    ]
+  },
+  "github:eugeniughelbur/obsidian-second-brain": {
+    "capability_summary": "An automation framework connecting CLI AI agents to Obsidian vaults for persistent memory and note management.",
+    "problem_solved": "Lack of persistent memory and autonomous organization in personal knowledge management.",
+    "use_cases": [
+      "ai note-taking",
+      "pkm automation",
+      "knowledge graph maintenance"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "obsidian-ai",
+      "second-brain-automation"
+    ]
+  },
+  "github:mobai-app/simslim": {
+    "capability_summary": "A utility to optimize iOS simulator performance by disabling background daemons.",
+    "problem_solved": "High memory usage and slow performance during iOS simulator testing.",
+    "use_cases": [
+      "ios development",
+      "simulator optimization",
+      "performance tuning"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "ios",
+      "macos",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ios-simulator-optimizer"
+    ]
   }
 }
