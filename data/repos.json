@@ -14289,5 +14289,44 @@
     "pushed_at": "2026-03-30T12:47:00Z",
     "license": null,
     "topics": []
+  },
+  {
+    "id": "github:lumen-labs/brainapi2",
+    "url": "https://github.com/lumen-labs/brainapi2",
+    "title": "lumen-labs/brainapi2",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2100715302430339299",
+    "fetched_at": "2026-09-18T03:50:25.273594Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "BrainAPI is a knowledge-graph-powered memory layer for AI agents that automatically extracts structured facts from unstructured text to provide traceable, context-aware retrieval.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "knowledge-graph",
+      "llm",
+      "self-hosting",
+      "automation"
+    ],
+    "risk_notes": "Installs via npm (brainapi-tui) and manages a local environment in ~/.brainapi/. It requires Docker for backing services and API keys for LLM providers. The project uses a BUSL-1.1 license, which is source-available but not strictly open-source. It requires network access for LLM calls and local filesystem access for data storage.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2025-10-19T08:13:08Z",
+      "homepage": "https://brainapi.lumen-labs.ai/docs/v2"
+    },
+    "added_at": "2026-09-18T03:50:33.114838Z",
+    "stars": 335,
+    "language": "Python",
+    "pushed_at": "2026-09-06T12:29:37Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai-agents",
+      "ai-memory",
+      "knowledge-graph",
+      "knowledge-management",
+      "knowledge-representation",
+      "reccomendation-system"
+    ]
   }
 ]
