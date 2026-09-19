@@ -14676,5 +14676,203 @@
       "ubuntu-web-panel",
       "webserver"
     ]
+  },
+  {
+    "id": "github:confident-ai/deepteam",
+    "url": "https://github.com/confident-ai/deepteam",
+    "title": "confident-ai/deepteam",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101153887780491604",
+    "fetched_at": "2026-09-19T03:47:09.844337Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "DeepTeam is an open-source red teaming framework designed to test LLM systems for vulnerabilities like prompt injection, PII leakage, and various security exploits using local LLM-as-a-Judge metrics.",
+    "category": "AI Security",
+    "tags": [
+      "llm",
+      "red-teaming",
+      "security",
+      "ai-safety",
+      "python"
+    ],
+    "risk_notes": "Installed via pip. It requires API keys for the LLMs used to perform the red teaming (e.g., OpenAI, Anthropic) and executes prompts against your target AI agents, which could lead to unintended data exposure if not configured carefully. It is actively maintained and runs locally, which is a positive security posture.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 70,
+      "created_at": "2025-03-05T06:34:21Z",
+      "homepage": "https://trydeepteam.com"
+    },
+    "added_at": "2026-09-19T03:47:18.343798Z",
+    "stars": 2833,
+    "language": "Python",
+    "pushed_at": "2026-08-21T03:45:15Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "llm-guardrails",
+      "llm-red-teaming",
+      "llm-safety",
+      "llm-seecurity",
+      "python"
+    ]
+  },
+  {
+    "id": "github:securo-finance/securo",
+    "url": "https://github.com/securo-finance/securo",
+    "title": "securo-finance/securo",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101123539650699625",
+    "fetched_at": "2026-09-19T03:47:09.844716Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted, privacy-focused personal finance manager that supports multi-bank synchronization, OIDC authentication, and optional self-hosted AI agents for data analysis.",
+    "category": "Self-hosting",
+    "tags": [
+      "finance",
+      "self-hosted",
+      "docker",
+      "automation",
+      "privacy"
+    ],
+    "risk_notes": "Installation uses a curl-to-bash script which is a security anti-pattern; manual Docker Compose deployment is recommended instead. The application requires sensitive financial credentials (API keys for bank aggregators) and has broad access to your financial data. It is actively maintained, but users should be cautious when exposing financial management tools to the internet.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 233,
+      "created_at": "2026-03-08T19:58:11Z",
+      "homepage": "https://usesecuro.com/"
+    },
+    "added_at": "2026-09-19T03:47:26.188589Z",
+    "stars": 3596,
+    "language": "Python",
+    "pushed_at": "2026-09-18T20:30:50Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "expense-tracker",
+      "finance-management",
+      "python"
+    ]
+  },
+  {
+    "id": "github:shadcn-labs/pdfcn",
+    "url": "https://github.com/shadcn-labs/pdfcn",
+    "title": "shadcn-labs/pdfcn",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101095603136856378",
+    "fetched_at": "2026-09-19T03:47:09.845094Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of customizable, shadcn/ui-compatible React components for generating PDFs using Takumi or Forme rendering engines.",
+    "category": "Developer Tools",
+    "tags": [
+      "react",
+      "pdf",
+      "typescript",
+      "shadcn",
+      "frontend"
+    ],
+    "risk_notes": "Installed via standard npm/pnpm/yarn packages within a React project. It runs as a build-time or runtime dependency in your application code. It does not require root access or system-level installation, but it will process data passed to it, so ensure sensitive data is handled according to your application's security policies.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 31,
+      "created_at": "2026-08-11T11:55:41Z",
+      "homepage": "https://pdfcn.dev"
+    },
+    "added_at": "2026-09-19T03:47:34.420269Z",
+    "stars": 1849,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-15T10:24:39Z",
+    "license": "MIT",
+    "topics": [
+      "forme",
+      "html-to-pdf",
+      "jsx",
+      "pdf",
+      "pdf-generation",
+      "pdf-generator",
+      "react",
+      "rust",
+      "shadcn",
+      "takumi",
+      "typescript",
+      "wasm"
+    ]
+  },
+  {
+    "id": "github:builderio/skills",
+    "url": "https://github.com/builderio/skills",
+    "title": "builderio/skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101069479509905472",
+    "fetched_at": "2026-09-19T03:47:09.845451Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A collection of composable 'skills' for AI agents, enabling them to interact with local apps, browser surfaces, and visual planning tools via the Model Context Protocol (MCP).",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "mcp",
+      "automation",
+      "developer-tools",
+      "llm"
+    ],
+    "risk_notes": "Installed via npx, which executes remote code in your environment. These skills require deep integration with your local environment, including screen access (via Clips Desktop), filesystem access for visual plans, and network access to interact with browser-based MCP tools. It is designed for power users who are comfortable granting LLMs control over local browser sessions and UI automation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-06-10T16:04:20Z",
+      "homepage": "https://www.agent-native.com/"
+    },
+    "added_at": "2026-09-19T03:47:41.811100Z",
+    "stars": 4297,
+    "language": "JavaScript",
+    "pushed_at": "2026-09-18T17:19:10Z",
+    "license": "MIT",
+    "topics": [
+      "skills"
+    ]
+  },
+  {
+    "id": "github:crbnos/carbon",
+    "url": "https://github.com/crbnos/carbon",
+    "title": "crbnos/carbon",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101045156774379813",
+    "fetched_at": "2026-09-19T03:47:09.845836Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Carbon is an open-core, API-first ERP, MES, and QMS platform designed for manufacturing, featuring a modern tech stack including Supabase, TypeScript, and Rust for CAD processing.",
+    "category": "Business Automation",
+    "tags": [
+      "erp",
+      "manufacturing",
+      "supabase",
+      "typescript",
+      "mcp"
+    ],
+    "risk_notes": "Requires a complex self-hosted setup involving Supabase, Redis, and Inngest. It is a heavy-duty enterprise application that will require significant infrastructure management and database security configuration (RLS). Not a simple 'run-and-forget' tool.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 138,
+      "created_at": "2024-06-03T10:43:24Z",
+      "homepage": "https://carbon.ms"
+    },
+    "added_at": "2026-09-19T03:47:50.207139Z",
+    "stars": 2457,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-18T20:12:24Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "business",
+      "erp",
+      "lean",
+      "management",
+      "manufacturing",
+      "mcp-server",
+      "mes",
+      "postgresql",
+      "qms",
+      "react-router",
+      "supabase",
+      "typescript"
+    ]
   }
 ]
