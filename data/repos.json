@@ -15021,5 +15021,76 @@
       "redteaming",
       "threat-intelligence"
     ]
+  },
+  {
+    "id": "github:fareedkhan-dev/train-llm-from-scratch",
+    "url": "https://github.com/fareedkhan-dev/train-llm-from-scratch",
+    "title": "fareedkhan-dev/train-llm-from-scratch",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101361890148417638",
+    "fetched_at": "2026-09-19T18:28:52.755840Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, educational implementation of a transformer-based LLM pipeline from scratch using only PyTorch, covering everything from tokenization to advanced alignment techniques like GRPO and DPO.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "pytorch",
+      "transformers",
+      "machine-learning",
+      "education"
+    ],
+    "risk_notes": "The project is a Python codebase requiring standard dependencies (PyTorch). It does not use dangerous install scripts, but it requires a GPU environment and will perform heavy compute tasks. It processes local datasets and generates model checkpoints, so standard security practices for handling data and model weights apply.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 7,
+      "created_at": "2025-01-12T04:03:05Z",
+      "homepage": "https://fareedkhan-dev.github.io/train-llm-from-scratch/"
+    },
+    "added_at": "2026-09-19T18:29:01.148143Z",
+    "stars": 9876,
+    "language": "Python",
+    "pushed_at": "2026-08-17T05:07:26Z",
+    "license": "MIT",
+    "topics": [
+      "gemini",
+      "large-language-models",
+      "llm",
+      "openai",
+      "training",
+      "transformers"
+    ]
+  },
+  {
+    "id": "github:arman-bd/guppylm",
+    "url": "https://github.com/arman-bd/guppylm",
+    "title": "arman-bd/guppylm",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101309376803799391",
+    "fetched_at": "2026-09-19T18:28:52.756056Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An educational project demonstrating the end-to-end training and inference process of a tiny 9M parameter transformer model, designed to demystify LLM architecture.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "education",
+      "transformer",
+      "machine-learning",
+      "python"
+    ],
+    "risk_notes": "The project is primarily educational and runs via Python (pip install torch tokenizers) or browser-based WebAssembly. It requires no external API keys or sensitive permissions. The code is simple and transparent, making it safe for local experimentation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-03-29T14:32:37Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-19T18:29:09.198947Z",
+    "stars": 3496,
+    "language": "Python",
+    "pushed_at": "2026-04-15T21:23:03Z",
+    "license": null,
+    "topics": []
   }
 ]
