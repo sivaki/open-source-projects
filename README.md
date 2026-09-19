@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 337 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 339 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [arman-bd/guppylm](https://github.com/arman-bd/guppylm) ⭐ | AI/LLM Tooling | `llm` `education` `transformer` `machine-learning` `python` | An educational project demonstrating the end-to-end training and inference process of a tiny 9M parameter transformer model, designed to demystify LLM architecture. | 3496 | 2026-09-19 |
+| [fareedkhan-dev/train-llm-from-scratch](https://github.com/fareedkhan-dev/train-llm-from-scratch) ⭐ | AI/LLM Tooling | `llm` `pytorch` `transformers` `machine-learning` `education` | A comprehensive, educational implementation of a transformer-based LLM pipeline from scratch using only PyTorch, covering everything from tokenization to advanced alignment techniques like GRPO and DPO. | 9876 | 2026-09-19 |
 | [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) ⭐ | Security Tooling | `osint` `cybersecurity` `automation` `python` `mcp` `infosec` | A comprehensive OSINT suite for email and username intelligence that features native MCP support for AI agent integration and high-concurrency scanning. | 4857 | 2026-09-19 |
 | [deeplethe/utopia](https://github.com/deeplethe/utopia) ⭐ | AI/LLM Tooling | `rag` `knowledge-graph` `rust` `self-hosted` `postgresql` `agentic-ai` | Utopia is a self-hosted, bitemporal knowledge graph and agentic RAG platform built in Rust, designed to provide an enterprise-grade 'world model' with auditability and offline capabilities. | 8952 | 2026-09-19 |
 | [0xnyk/council-of-high-intelligence](https://github.com/0xnyk/council-of-high-intelligence) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `decision-making` `cli` `productivity` | A structured multi-agent deliberation framework that forces LLMs to debate, cross-examine, and synthesize complex decisions using specific analytical personas. | 4257 | 2026-09-19 |
