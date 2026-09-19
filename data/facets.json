@@ -37164,5 +37164,25 @@
     "aliases": [
       "ios-simulator-optimizer"
     ]
+  },
+  "github:shadcn-labs/pdfcn": {
+    "capability_summary": "A collection of React components for generating PDFs from HTML or JSX, designed to integrate with shadcn/ui. It is intended for developers building document generation features in React applications.",
+    "problem_solved": "Simplifies the process of converting React components and HTML into downloadable PDF documents.",
+    "use_cases": [
+      "invoice generation",
+      "report exporting",
+      "document printing",
+      "html-to-pdf conversion"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "react-pdf-generator",
+      "shadcn-pdf"
+    ]
   }
 }
