@@ -1,11 +1,16 @@
 # Curated Repos
 
-Auto-generated list of 329 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 334 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [crbnos/carbon](https://github.com/crbnos/carbon) ⭐ | Business Automation | `erp` `manufacturing` `supabase` `typescript` `mcp` | Carbon is an open-core, API-first ERP, MES, and QMS platform designed for manufacturing, featuring a modern tech stack including Supabase, TypeScript, and Rust for CAD processing. | 2457 | 2026-09-19 |
+| [builderio/skills](https://github.com/builderio/skills) ⭐ | AI/LLM Tooling | `ai-agents` `mcp` `automation` `developer-tools` `llm` | A collection of composable 'skills' for AI agents, enabling them to interact with local apps, browser surfaces, and visual planning tools via the Model Context Protocol (MCP). | 4297 | 2026-09-19 |
+| [shadcn-labs/pdfcn](https://github.com/shadcn-labs/pdfcn) ⭐ | Developer Tools | `react` `pdf` `typescript` `shadcn` `frontend` | A collection of customizable, shadcn/ui-compatible React components for generating PDFs using Takumi or Forme rendering engines. | 1849 | 2026-09-19 |
+| [securo-finance/securo](https://github.com/securo-finance/securo) ⭐ | Self-hosting | `finance` `self-hosted` `docker` `automation` `privacy` | A self-hosted, privacy-focused personal finance manager that supports multi-bank synchronization, OIDC authentication, and optional self-hosted AI agents for data analysis. | 3596 | 2026-09-19 |
+| [confident-ai/deepteam](https://github.com/confident-ai/deepteam) ⭐ | AI Security | `llm` `red-teaming` `security` `ai-safety` `python` | DeepTeam is an open-source red teaming framework designed to test LLM systems for vulnerabilities like prompt injection, PII leakage, and various security exploits using local LLM-as-a-Judge metrics. | 2833 | 2026-09-19 |
 | [jhd3197/serverkit](https://github.com/jhd3197/serverkit) ⭐ | self-hosting | `server-management` `docker` `automation` `web-hosting` `self-hosting` | ServerKit is a modern, lightweight server control panel that simplifies the management of web applications, databases, and Docker containers on VPS or dedicated servers. | 1395 | 2026-09-18 |
 | [mobai-app/simslim](https://github.com/mobai-app/simslim) ⭐ | Developer Tools | `ios` `macos` `cli` `performance` `automation` `developer-tools` | A powerful CLI and macOS utility that optimizes iOS simulator performance by disabling unnecessary background daemons, significantly reducing memory usage and enabling higher density simulator testing. | 1947 | 2026-09-18 |
 | [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) ⭐ | AI/LLM Tooling | `obsidian` `ai-agents` `pkm` `automation` `llm-memory` | A powerful automation framework that connects CLI-based AI agents (like Claude Code and Grok) to an Obsidian vault, enabling persistent memory, cross-linked note synthesis, and autonomous vault maintenance. | 4499 | 2026-09-18 |
