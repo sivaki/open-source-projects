@@ -37206,5 +37206,25 @@
       "ai memory",
       "bitemporal database"
     ]
+  },
+  "github:fareedkhan-dev/train-llm-from-scratch": {
+    "capability_summary": "An educational implementation of a transformer-based LLM pipeline using PyTorch. It is designed for developers and students learning how to build and train large language models from the ground up.",
+    "problem_solved": "Understanding the end-to-end mechanics of training transformer models.",
+    "use_cases": [
+      "learning LLM architecture",
+      "transformer model training",
+      "implementing DPO and GRPO",
+      "custom tokenization pipelines"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LLM training tutorial",
+      "PyTorch transformer implementation"
+    ]
   }
 }
