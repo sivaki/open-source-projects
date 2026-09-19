@@ -37184,5 +37184,27 @@
       "react-pdf-generator",
       "shadcn-pdf"
     ]
+  },
+  "github:deeplethe/utopia": {
+    "capability_summary": "A self-hosted, bitemporal knowledge graph and agentic RAG platform for building enterprise-grade world models. It is designed for developers needing auditable, offline-capable AI memory systems.",
+    "problem_solved": "Managing complex, auditable, and temporal knowledge for AI agents and RAG applications.",
+    "use_cases": [
+      "agentic RAG",
+      "knowledge graph management",
+      "semantic search",
+      "temporal data auditing"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "graphrag",
+      "ai memory",
+      "bitemporal database"
+    ]
   }
 }
