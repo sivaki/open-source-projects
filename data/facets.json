@@ -37226,5 +37226,25 @@
       "LLM training tutorial",
       "PyTorch transformer implementation"
     ]
+  },
+  "github:donchitos/claude-code-game-studios": {
+    "capability_summary": "A framework for Claude Code that organizes AI agents into a structured game development studio hierarchy. It manages specialized roles and quality gates for game projects.",
+    "problem_solved": "Lack of structured, role-based AI agent workflows in game development.",
+    "use_cases": [
+      "automated game development",
+      "AI agent orchestration",
+      "workflow management",
+      "quality gate enforcement"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-agents",
+      "ai-gamedev-studio"
+    ]
   }
 }
