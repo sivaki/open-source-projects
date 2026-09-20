@@ -15092,5 +15092,90 @@
     "pushed_at": "2026-04-15T21:23:03Z",
     "license": null,
     "topics": []
+  },
+  {
+    "id": "github:dietrichmax/colota",
+    "url": "https://github.com/dietrichmax/colota",
+    "title": "dietrichmax/colota",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101495304998563998",
+    "fetched_at": "2026-09-20T04:03:20.301701Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A privacy-focused, self-hosted Android GPS tracker that supports multiple backends like Home Assistant and Traccar, featuring offline capabilities and encrypted backups.",
+    "category": "self-hosting",
+    "tags": [
+      "android",
+      "gps",
+      "privacy",
+      "self-hosted",
+      "home-lab"
+    ],
+    "risk_notes": "Installed as an Android APK (Google Play, F-Droid, or GitHub releases). Requires 'location: all the time' and battery optimization bypass permissions. It handles sensitive location data and credentials for your self-hosted backend, but is open-source and explicitly avoids third-party telemetry.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 41,
+      "created_at": "2026-01-20T16:12:32Z",
+      "homepage": "https://colota.app/"
+    },
+    "added_at": "2026-09-20T04:03:27.694194Z",
+    "stars": 613,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-19T22:07:07Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "android",
+      "google-timeline",
+      "gps-tracker",
+      "gps-tracking",
+      "location",
+      "location-tracker",
+      "react-native"
+    ]
+  },
+  {
+    "id": "github:donchitos/claude-code-game-studios",
+    "url": "https://github.com/donchitos/claude-code-game-studios",
+    "title": "donchitos/claude-code-game-studios",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101422526177989090",
+    "fetched_at": "2026-09-20T04:03:20.301871Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A sophisticated framework for Claude Code that organizes AI agents into a structured game development studio hierarchy with specialized roles, workflows, and quality gates.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "gamedev",
+      "automation",
+      "workflow"
+    ],
+    "risk_notes": "This is a configuration-based extension for the Anthropic Claude Code CLI. It requires an active Claude Code installation and Anthropic API keys. It operates by reading and writing files within your project directory, meaning it has full access to your source code and local environment. Users should review the agent definitions and hooks in the .claude directory before execution to ensure no unintended commands are triggered.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 59,
+      "created_at": "2026-02-12T05:21:38Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-20T04:03:35.731258Z",
+    "stars": 25240,
+    "language": "Shell",
+    "pushed_at": "2026-05-21T23:33:07Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "ai-assisted-development",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "game-design",
+      "game-development",
+      "gamedev",
+      "godot",
+      "indie-game-dev",
+      "unity",
+      "unreal-engine"
+    ]
   }
 ]
