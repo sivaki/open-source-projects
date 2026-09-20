@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 339 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 341 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [donchitos/claude-code-game-studios](https://github.com/donchitos/claude-code-game-studios) ⭐ | AI/LLM Tooling | `ai-agents` `claude-code` `gamedev` `automation` `workflow` | A sophisticated framework for Claude Code that organizes AI agents into a structured game development studio hierarchy with specialized roles, workflows, and quality gates. | 25240 | 2026-09-20 |
+| [dietrichmax/colota](https://github.com/dietrichmax/colota) ⭐ | self-hosting | `android` `gps` `privacy` `self-hosted` `home-lab` | A privacy-focused, self-hosted Android GPS tracker that supports multiple backends like Home Assistant and Traccar, featuring offline capabilities and encrypted backups. | 613 | 2026-09-20 |
 | [arman-bd/guppylm](https://github.com/arman-bd/guppylm) ⭐ | AI/LLM Tooling | `llm` `education` `transformer` `machine-learning` `python` | An educational project demonstrating the end-to-end training and inference process of a tiny 9M parameter transformer model, designed to demystify LLM architecture. | 3496 | 2026-09-19 |
 | [fareedkhan-dev/train-llm-from-scratch](https://github.com/fareedkhan-dev/train-llm-from-scratch) ⭐ | AI/LLM Tooling | `llm` `pytorch` `transformers` `machine-learning` `education` | A comprehensive, educational implementation of a transformer-based LLM pipeline from scratch using only PyTorch, covering everything from tokenization to advanced alignment techniques like GRPO and DPO. | 9876 | 2026-09-19 |
 | [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) ⭐ | Security Tooling | `osint` `cybersecurity` `automation` `python` `mcp` `infosec` | A comprehensive OSINT suite for email and username intelligence that features native MCP support for AI agent integration and high-concurrency scanning. | 4857 | 2026-09-19 |
