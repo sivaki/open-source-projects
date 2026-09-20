@@ -15177,5 +15177,50 @@
       "unity",
       "unreal-engine"
     ]
+  },
+  {
+    "id": "github:walkinglabs/learn-harness-engineering",
+    "url": "https://github.com/walkinglabs/learn-harness-engineering",
+    "title": "walkinglabs/learn-harness-engineering",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101586572416020607",
+    "fetched_at": "2026-09-20T12:55:55.172944Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, project-based educational repository focused on the architecture, state management, and control mechanisms required to build reliable AI coding agents.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "llm",
+      "agentic-ai",
+      "software-architecture",
+      "developer-tools"
+    ],
+    "risk_notes": "This is an educational repository containing documentation, tutorials, and code examples. It does not require installation via system-level scripts (no curl/sudo). As it focuses on agentic design, users implementing these patterns will eventually need to provide their own API keys (e.g., OpenAI, Anthropic) and manage local filesystem access for their own agent implementations.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 17,
+      "created_at": "2026-03-29T12:28:19Z",
+      "homepage": "https://walkinglabs.github.io/learn-harness-engineering/"
+    },
+    "added_at": "2026-09-20T12:56:03.936312Z",
+    "stars": 15438,
+    "language": "TypeScript",
+    "pushed_at": "2026-08-26T01:08:59Z",
+    "license": "MIT",
+    "topics": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "dsh",
+      "dsh-plugin",
+      "harness",
+      "harness-engineering",
+      "harness-framework",
+      "llm"
+    ]
   }
 ]
