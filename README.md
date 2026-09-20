@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 341 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 342 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `agentic-ai` `software-architecture` `developer-tools` | A comprehensive, project-based educational repository focused on the architecture, state management, and control mechanisms required to build reliable AI coding agents. | 15438 | 2026-09-20 |
 | [donchitos/claude-code-game-studios](https://github.com/donchitos/claude-code-game-studios) ⭐ | AI/LLM Tooling | `ai-agents` `claude-code` `gamedev` `automation` `workflow` | A sophisticated framework for Claude Code that organizes AI agents into a structured game development studio hierarchy with specialized roles, workflows, and quality gates. | 25240 | 2026-09-20 |
 | [dietrichmax/colota](https://github.com/dietrichmax/colota) ⭐ | self-hosting | `android` `gps` `privacy` `self-hosted` `home-lab` | A privacy-focused, self-hosted Android GPS tracker that supports multiple backends like Home Assistant and Traccar, featuring offline capabilities and encrypted backups. | 613 | 2026-09-20 |
 | [arman-bd/guppylm](https://github.com/arman-bd/guppylm) ⭐ | AI/LLM Tooling | `llm` `education` `transformer` `machine-learning` `python` | An educational project demonstrating the end-to-end training and inference process of a tiny 9M parameter transformer model, designed to demystify LLM architecture. | 3496 | 2026-09-19 |
