@@ -37266,5 +37266,82 @@
       "claude-code-plugins",
       "agent-skills"
     ]
+  },
+  "github:asymptote-labs/agent-beacon": {
+    "capability_summary": "Provides an observability and memory layer for AI coding agents to track session history and build reusable knowledge. Designed for developers using AI coding assistants.",
+    "problem_solved": "Lack of persistent memory and visibility across different AI coding tools.",
+    "use_cases": [
+      "ai agent observability",
+      "session history tracking",
+      "knowledge base management"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cli",
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "agent-observability",
+      "ai-memory-layer"
+    ]
+  },
+  "github:westpoint-io/mimik": {
+    "capability_summary": "A browser extension that records user workflows and converts them into annotated, step-by-step documentation. Built for privacy-conscious users needing automated tutorials.",
+    "problem_solved": "Tedious manual creation of software documentation and workflow guides.",
+    "use_cases": [
+      "automated documentation",
+      "tutorial generation",
+      "workflow recording"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "browser-extension"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "workflow-recorder",
+      "guide-generator"
+    ]
+  },
+  "github:latent-spaces/brag": {
+    "capability_summary": "An agent-based tool that automates the production of product launch videos for software projects. Targeted at developers and marketers.",
+    "problem_solved": "High effort required to create professional product launch videos.",
+    "use_cases": [
+      "video generation",
+      "product marketing",
+      "ai automation"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-video-generator",
+      "launch-automation"
+    ]
+  },
+  "github:anthonydavidadams/zero-employee-company-book": {
+    "capability_summary": "An open-source guide detailing strategies and practical steps for building businesses operated entirely by AI agents. For entrepreneurs and business strategists.",
+    "problem_solved": "Lack of a blueprint for building fully autonomous AI-driven companies.",
+    "use_cases": [
+      "business strategy",
+      "ai automation",
+      "entrepreneurship"
+    ],
+    "project_type": "other",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "ai-business-guide",
+      "autonomous-company-blueprint"
+    ]
   }
 }
