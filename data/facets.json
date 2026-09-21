@@ -37246,5 +37246,25 @@
       "claude-code-agents",
       "ai-gamedev-studio"
     ]
+  },
+  "github:phuryn/pm-skills": {
+    "capability_summary": "A repository of agentic skills and workflows for Claude Code and Cowork, focused on product management tasks. It provides structured frameworks for product discovery, strategy, and execution.",
+    "problem_solved": "Automating product management workflows using AI agents.",
+    "use_cases": [
+      "product discovery",
+      "strategy development",
+      "workflow automation",
+      "AI agent task execution"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "claude-code-plugins",
+      "agent-skills"
+    ]
   }
 }
