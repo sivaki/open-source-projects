@@ -37343,5 +37343,29 @@
       "ai-business-guide",
       "autonomous-company-blueprint"
     ]
+  },
+  "github:harry0703/mangodisk": {
+    "capability_summary": "A cross-platform system utility for cleaning disk space, analyzing storage, and managing system startup items. It is designed for desktop users looking to optimize performance and reclaim storage.",
+    "problem_solved": "Lack of visibility into large files and unnecessary system clutter.",
+    "use_cases": [
+      "disk space analysis",
+      "duplicate file removal",
+      "startup item management",
+      "system cache cleaning"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "disk-cleaner",
+      "storage-analyzer",
+      "system-optimizer"
+    ]
   }
 }
