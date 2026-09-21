@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 358 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 360 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [zzet/gortex](https://github.com/zzet/gortex) ⭐ | AI/LLM Tooling | `ai-agents` `mcp` `code-analysis` `developer-tools` `context-optimization` | A high-performance, local-first code intelligence engine that indexes repositories into a knowledge graph to optimize AI agent context windows and reduce token usage. | 1616 | 2026-09-21 |
+| [harry0703/mangodisk](https://github.com/harry0703/mangodisk) ⭐ | System Utilities | `rust` `tauri` `disk-cleanup` `system-optimization` `privacy` | A cross-platform, Rust-based system utility for disk cleanup, storage analysis, and system maintenance, built with Tauri. | 2963 | 2026-09-21 |
 | [imxv/pretty-mermaid-skills](https://github.com/imxv/pretty-mermaid-skills) ⭐ | Developer Tools | `ai-agents` `mermaid` `cli` `documentation` `automation` | A specialized AI agent skill for generating high-quality Mermaid diagrams in SVG, PNG, or ASCII formats locally without browser dependencies. | 1296 | 2026-09-21 |
 | [anthonydavidadams/zero-employee-company-book](https://github.com/anthonydavidadams/zero-employee-company-book) ⭐ | AI/LLM tooling | `ai-agents` `automation` `business-strategy` `llm` `productivity` | An open-source book providing a conceptual and practical guide to building companies operated entirely by AI agents using the Paperclip platform. | 607 | 2026-09-21 |
 | [lifecycle-innovations-limited/claude-ops](https://github.com/lifecycle-innovations-limited/claude-ops) ⭐ | AI/LLM Tooling | `ai-agent` `claude-code` `devops` `automation` `mcp` | A comprehensive business operating system plugin for Claude Code that integrates infrastructure monitoring, CI/CD, communication channels, and autonomous agents into a unified terminal-based dashboard. | 211 | 2026-09-21 |
