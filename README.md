@@ -1,11 +1,17 @@
 # Curated Repos
 
-Auto-generated list of 342 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 348 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [repowise-dev/repowise](https://github.com/repowise-dev/repowise) ⭐ | developer-tools | `ai` `code-intelligence` `static-analysis` `developer-tools` `mcp` | A local-first codebase intelligence tool that indexes git history, dependencies, and code structure to provide AI agents and developers with context, risk analysis, and code health metrics without requiring cloud API keys. | 6727 | 2026-09-21 |
+| [calesthio/crucix](https://github.com/calesthio/crucix) ⭐ | OSINT / Automation | `osint` `automation` `self-hosted` `dashboard` `llm` | A self-hosted OSINT intelligence dashboard that aggregates 27 global data sources into a 3D visualization, featuring LLM integration for automated analysis and alerts. | 11789 | 2026-09-21 |
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) ⭐ | AI/LLM Tooling | `ai-agents` `product-management` `claude-code` `automation` `workflow-automation` | A comprehensive collection of agentic skills and workflows designed for Claude Code and Cowork, providing structured PM frameworks for product discovery, strategy, and execution. | 26475 | 2026-09-21 |
+| [fjyktec/modernwms](https://github.com/fjyktec/modernwms) ⭐ | Self-hosting | `wms` `inventory` `erp` `dotnet` `vue` `self-hosted` | ModernWMS is a comprehensive, open-source warehouse management system designed for small and medium-sized enterprises, featuring support for multiple database backends and cross-platform deployment. | 1696 | 2026-09-21 |
+| [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) ⭐ | AI/LLM Tooling | `llm` `prompt-engineering` `writing-tools` `ai-safety` `productivity` | A prompt-engineering toolkit designed to identify and strip common 'AI-generated' stylistic patterns from prose using LLMs. | 17392 | 2026-09-21 |
+| [199-biotechnologies/claude-deep-research-skill](https://github.com/199-biotechnologies/claude-deep-research-skill) ⭐ | AI/LLM Tooling | `claude` `automation` `research` `llm` `productivity` | An advanced research automation skill for Claude Code that implements an 8-phase pipeline with citation verification, multi-persona red teaming, and automated report generation. | 1054 | 2026-09-21 |
 | [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `agentic-ai` `software-architecture` `developer-tools` | A comprehensive, project-based educational repository focused on the architecture, state management, and control mechanisms required to build reliable AI coding agents. | 15438 | 2026-09-20 |
 | [donchitos/claude-code-game-studios](https://github.com/donchitos/claude-code-game-studios) ⭐ | AI/LLM Tooling | `ai-agents` `claude-code` `gamedev` `automation` `workflow` | A sophisticated framework for Claude Code that organizes AI agents into a structured game development studio hierarchy with specialized roles, workflows, and quality gates. | 25240 | 2026-09-20 |
 | [dietrichmax/colota](https://github.com/dietrichmax/colota) ⭐ | self-hosting | `android` `gps` `privacy` `self-hosted` `home-lab` | A privacy-focused, self-hosted Android GPS tracker that supports multiple backends like Home Assistant and Traccar, featuring offline capabilities and encrypted backups. | 613 | 2026-09-20 |
