@@ -15222,5 +15222,232 @@
       "harness-framework",
       "llm"
     ]
+  },
+  {
+    "id": "github:199-biotechnologies/claude-deep-research-skill",
+    "url": "https://github.com/199-biotechnologies/claude-deep-research-skill",
+    "title": "199-biotechnologies/claude-deep-research-skill",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101879141217731021",
+    "fetched_at": "2026-09-21T04:00:54.561648Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An advanced research automation skill for Claude Code that implements an 8-phase pipeline with citation verification, multi-persona red teaming, and automated report generation.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "claude",
+      "automation",
+      "research",
+      "llm",
+      "productivity"
+    ],
+    "risk_notes": "Requires cloning into the Claude Code skills directory and installing a separate CLI tool via Homebrew. It requires multiple API keys for search providers (Brave, Serper, etc.) and has broad access to your filesystem to read/write research reports and execute Python scripts for validation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 9,
+      "created_at": "2025-11-04T15:45:07Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-21T04:01:02.409548Z",
+    "stars": 1054,
+    "language": "Python",
+    "pushed_at": "2026-04-11T22:18:08Z",
+    "license": null,
+    "topics": []
+  },
+  {
+    "id": "github:hardikpandya/stop-slop",
+    "url": "https://github.com/hardikpandya/stop-slop",
+    "title": "hardikpandya/stop-slop",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101867619422781739",
+    "fetched_at": "2026-09-21T04:00:54.561818Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A prompt-engineering toolkit designed to identify and strip common 'AI-generated' stylistic patterns from prose using LLMs.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "prompt-engineering",
+      "writing-tools",
+      "ai-safety",
+      "productivity"
+    ],
+    "risk_notes": "This is a collection of prompt instructions and reference files, not executable code. It carries zero security risk as it does not require installation, network access, or system permissions. It is intended to be integrated into LLM workflows (Claude Projects, API system prompts, etc.).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 55,
+      "created_at": "2026-01-11T12:00:59Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-21T04:01:09.767349Z",
+    "stars": 17392,
+    "language": null,
+    "pushed_at": "2026-03-17T18:50:39Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:fjyktec/modernwms",
+    "url": "https://github.com/fjyktec/modernwms",
+    "title": "fjyktec/modernwms",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101856504059982273",
+    "fetched_at": "2026-09-21T04:00:54.561945Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "ModernWMS is a comprehensive, open-source warehouse management system designed for small and medium-sized enterprises, featuring support for multiple database backends and cross-platform deployment.",
+    "category": "Self-hosting",
+    "tags": [
+      "wms",
+      "inventory",
+      "erp",
+      "dotnet",
+      "vue",
+      "self-hosted"
+    ],
+    "risk_notes": "Installation involves complex manual compilation steps including running scripts that fetch and execute remote content via curl/bash, and requires root/sudo privileges for system dependencies (.NET, Node.js, Nginx). It requires a database connection (MySQL/PostgreSQL/SQL Server) and exposes a web interface, necessitating careful firewall configuration and secure credential management.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 37,
+      "created_at": "2022-12-12T13:28:48Z",
+      "homepage": "https://modernwms.ikeyly.com/"
+    },
+    "added_at": "2026-09-21T04:01:16.508987Z",
+    "stars": 1696,
+    "language": "Vue",
+    "pushed_at": "2025-06-22T03:36:48Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "inventory",
+      "inventory-management",
+      "warehouse-management",
+      "warehouse-management-system",
+      "wms"
+    ]
+  },
+  {
+    "id": "github:phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "title": "phuryn/pm-skills",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101845643924840936",
+    "fetched_at": "2026-09-21T04:00:54.562074Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A comprehensive collection of agentic skills and workflows designed for Claude Code and Cowork, providing structured PM frameworks for product discovery, strategy, and execution.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "product-management",
+      "claude-code",
+      "automation",
+      "workflow-automation"
+    ],
+    "risk_notes": "Installs via official Claude/Codex CLI plugin managers, which limits execution to the scope of the AI agent's permissions. It requires an active Claude or OpenAI API subscription. The project is highly active and uses standard plugin registry patterns, reducing the risk of arbitrary script execution compared to manual shell scripts.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 41,
+      "created_at": "2026-03-01T23:33:44Z",
+      "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship"
+    },
+    "added_at": "2026-09-21T04:01:23.674091Z",
+    "stars": 26475,
+    "language": null,
+    "pushed_at": "2026-09-14T21:15:33Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skill-repository",
+      "agent-skills",
+      "agentic-skills",
+      "claude-code-marketplace",
+      "claude-code-plugins",
+      "claude-cowork-plugin",
+      "product-management"
+    ]
+  },
+  {
+    "id": "github:calesthio/crucix",
+    "url": "https://github.com/calesthio/crucix",
+    "title": "calesthio/crucix",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101835282332967263",
+    "fetched_at": "2026-09-21T04:00:54.562196Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted OSINT intelligence dashboard that aggregates 27 global data sources into a 3D visualization, featuring LLM integration for automated analysis and alerts.",
+    "category": "OSINT / Automation",
+    "tags": [
+      "osint",
+      "automation",
+      "self-hosted",
+      "dashboard",
+      "llm"
+    ],
+    "risk_notes": "Requires Node.js 22+ or Docker. Installation involves cloning the repo and running npm install/docker compose. The application requires multiple external API keys to function fully, which are stored in a local .env file. It performs frequent outbound network requests to 27 different data sources and requires persistent filesystem access for data storage in the ./runs/ directory.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 79,
+      "created_at": "2026-03-14T07:33:06Z",
+      "homepage": "https://crucix.live"
+    },
+    "added_at": "2026-09-21T04:01:31.364505Z",
+    "stars": 11789,
+    "language": "JavaScript",
+    "pushed_at": "2026-05-20T00:50:21Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai",
+      "intelligence",
+      "osint"
+    ]
+  },
+  {
+    "id": "github:repowise-dev/repowise",
+    "url": "https://github.com/repowise-dev/repowise",
+    "title": "repowise-dev/repowise",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2101817552582090920",
+    "fetched_at": "2026-09-21T04:00:54.562320Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A local-first codebase intelligence tool that indexes git history, dependencies, and code structure to provide AI agents and developers with context, risk analysis, and code health metrics without requiring cloud API keys.",
+    "category": "developer-tools",
+    "tags": [
+      "ai",
+      "code-intelligence",
+      "static-analysis",
+      "developer-tools",
+      "mcp"
+    ],
+    "risk_notes": "Installed via pip. It runs locally and performs static analysis on your codebase, meaning it requires read access to your local filesystem. It is designed to be privacy-focused with no mandatory cloud API keys, though it can integrate with LLM agents via MCP. The project is actively maintained and open-source (AGPL-3.0).",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 200,
+      "created_at": "2026-03-23T09:12:28Z",
+      "homepage": "https://repowise.dev"
+    },
+    "added_at": "2026-09-21T04:01:38.901036Z",
+    "stars": 6727,
+    "language": "Python",
+    "pushed_at": "2026-09-20T14:03:25Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "ai",
+      "code-complexity",
+      "code-health",
+      "code-intelligence",
+      "code-quality",
+      "dead-code",
+      "developer-tools",
+      "documentation",
+      "git-analytics",
+      "mcp",
+      "open-source",
+      "python",
+      "refactoring",
+      "static-analysis",
+      "technical-debt"
+    ]
   }
 ]
