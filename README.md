@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 366 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 367 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) ⭐ | AI Tooling | `ai-agent` `design-automation` `mascot-design` `cli` `generative-ai` | A specialized Agent Skill designed to generate consistent, high-quality, neo-skeuomorphic mascot logos for AI agents, focusing on simplified silhouettes and specific color palettes. | 5434 | 2026-09-22 |
 | [openinframap/openinframap](https://github.com/openinframap/openinframap) ⭐ | GIS / Data Visualization | `openstreetmap` `gis` `infrastructure` `mapping` `data-visualization` | A specialized mapping tool that visualizes global infrastructure data (power, telecoms, pipelines) sourced from OpenStreetMap. | 624 | 2026-09-22 |
 | [fareedkhan-dev/kimi-k3-in-c](https://github.com/fareedkhan-dev/kimi-k3-in-c) ⭐ | AI/LLM Tooling | `c` `llm` `inference` `optimization` `systems-programming` | A highly optimized, zero-dependency C99 inference engine capable of running a massive 2.78T parameter model on consumer hardware with minimal RAM usage by streaming weights from disk. | 8192 | 2026-09-22 |
 | [mikiarlo3/ai-copywriter](https://github.com/mikiarlo3/ai-copywriter) ⭐ | AI/LLM Tooling | `ai` `copywriting` `llm` `automation` `agent-skills` | A specialized AI agent skill designed to generate high-converting, human-sounding marketing copy by enforcing strict 'humanizer' patterns and iterative questioning. | 1038 | 2026-09-22 |
