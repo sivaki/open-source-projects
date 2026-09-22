@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 362 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 366 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [openinframap/openinframap](https://github.com/openinframap/openinframap) ⭐ | GIS / Data Visualization | `openstreetmap` `gis` `infrastructure` `mapping` `data-visualization` | A specialized mapping tool that visualizes global infrastructure data (power, telecoms, pipelines) sourced from OpenStreetMap. | 624 | 2026-09-22 |
+| [fareedkhan-dev/kimi-k3-in-c](https://github.com/fareedkhan-dev/kimi-k3-in-c) ⭐ | AI/LLM Tooling | `c` `llm` `inference` `optimization` `systems-programming` | A highly optimized, zero-dependency C99 inference engine capable of running a massive 2.78T parameter model on consumer hardware with minimal RAM usage by streaming weights from disk. | 8192 | 2026-09-22 |
+| [mikiarlo3/ai-copywriter](https://github.com/mikiarlo3/ai-copywriter) ⭐ | AI/LLM Tooling | `ai` `copywriting` `llm` `automation` `agent-skills` | A specialized AI agent skill designed to generate high-converting, human-sounding marketing copy by enforcing strict 'humanizer' patterns and iterative questioning. | 1038 | 2026-09-22 |
+| [momenbasel/puremac](https://github.com/momenbasel/puremac) ⭐ | Developer Tools | `macos` `utility` `privacy` `cli` `swift` `system-maintenance` | A native, open-source macOS utility for system cleanup, disk management, and app uninstallation that prioritizes privacy and transparency over telemetry. | 6611 | 2026-09-22 |
 | [deusdata/codebase-memory-mcp](https://github.com/deusdata/codebase-memory-mcp) ⭐ | AI/LLM Tooling | `mcp` `code-intelligence` `knowledge-graph` `developer-tools` `llm` | A high-performance, local-first MCP server that indexes codebases into a persistent knowledge graph to optimize LLM context usage and code intelligence. | 44047 | 2026-09-22 |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) ⭐ | AI/LLM Tooling | `ai-agents` `automation` `security` `desktop-app` `mcp` | An open-source, local-first AI agent desktop application designed to perform complex tasks across your files, terminal, and SaaS tools with a focus on security governance. | 18110 | 2026-09-22 |
 | [zzet/gortex](https://github.com/zzet/gortex) ⭐ | AI/LLM Tooling | `ai-agents` `mcp` `code-analysis` `developer-tools` `context-optimization` | A high-performance, local-first code intelligence engine that indexes repositories into a knowledge graph to optimize AI agent context windows and reduce token usage. | 1616 | 2026-09-21 |
