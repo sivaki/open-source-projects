@@ -15986,5 +15986,90 @@
       "tokens",
       "windsurf"
     ]
+  },
+  {
+    "id": "github:andrewyng/openworker",
+    "url": "https://github.com/andrewyng/openworker",
+    "title": "andrewyng/openworker",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2102187890205671808",
+    "fetched_at": "2026-09-22T03:58:23.821841Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An open-source, local-first AI agent desktop application designed to perform complex tasks across your files, terminal, and SaaS tools with a focus on security governance.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "security",
+      "desktop-app",
+      "mcp"
+    ],
+    "risk_notes": "Installs via downloadable binary (macOS/Windows). Requires user-provided API keys (OpenAI, Anthropic, etc.) or local Ollama integration. It has broad access to your local filesystem, terminal, and connected SaaS accounts (GitHub, Slack, etc.). The project implements 'governance by design' with explicit approval gates and audit logs, but granting an AI agent terminal and file access is inherently high-risk.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 506,
+      "created_at": "2026-07-20T01:52:32Z",
+      "homepage": "http://openworker.com"
+    },
+    "added_at": "2026-09-22T03:58:30.404097Z",
+    "stars": 18110,
+    "language": "Python",
+    "pushed_at": "2026-09-22T01:23:31Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:deusdata/codebase-memory-mcp",
+    "url": "https://github.com/deusdata/codebase-memory-mcp",
+    "title": "deusdata/codebase-memory-mcp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2102152236398760003",
+    "fetched_at": "2026-09-22T03:58:23.822259Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, local-first MCP server that indexes codebases into a persistent knowledge graph to optimize LLM context usage and code intelligence.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "code-intelligence",
+      "knowledge-graph",
+      "developer-tools",
+      "llm"
+    ],
+    "risk_notes": "Installs via a curl-to-bash script, which is a common but high-privilege pattern. The tool requires read access to your entire codebase and writes to agent configuration files. It operates entirely locally without external API calls, and the project demonstrates strong security practices including SLSA 3 compliance, OpenSSF Scorecard usage, and VirusTotal scanning for releases.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 590,
+      "created_at": "2026-02-24T22:01:00Z",
+      "homepage": "https://deusdata.github.io/codebase-memory-mcp/"
+    },
+    "added_at": "2026-09-22T03:58:37.641062Z",
+    "stars": 44047,
+    "language": "C",
+    "pushed_at": "2026-09-22T01:04:09Z",
+    "license": "MIT",
+    "topics": [
+      "aider",
+      "ast",
+      "claude-code",
+      "code-analysis",
+      "code-intelligence",
+      "codex",
+      "cursor",
+      "cypher",
+      "developer-tools",
+      "gemini-cli",
+      "graph-visualization",
+      "kilocode",
+      "knowledge-graph",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "opencode",
+      "sqlite",
+      "tree-sitter",
+      "windsurf"
+    ]
   }
 ]
