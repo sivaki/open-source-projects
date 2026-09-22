@@ -37411,5 +37411,29 @@
       "mcp-server",
       "code-analysis-tool"
     ]
+  },
+  "github:fareedkhan-dev/kimi-k3-in-c": {
+    "capability_summary": "A zero-dependency C99 inference engine designed to run massive LLMs on consumer hardware. It enables memory-efficient execution by streaming model weights directly from disk.",
+    "problem_solved": "Running massive parameter models on hardware with limited RAM.",
+    "use_cases": [
+      "local llm inference",
+      "memory-constrained ai",
+      "systems programming",
+      "model quantization"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows",
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llama.cpp",
+      "inference engine",
+      "llm runner"
+    ]
   }
 }
