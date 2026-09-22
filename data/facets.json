@@ -37367,5 +37367,49 @@
       "storage-analyzer",
       "system-optimizer"
     ]
+  },
+  "github:andrewyng/openworker": {
+    "capability_summary": "A local-first AI agent desktop application that automates tasks across files, terminals, and SaaS tools with built-in security governance.",
+    "problem_solved": "Automating complex workflows while maintaining local data security.",
+    "use_cases": [
+      "file system automation",
+      "terminal command execution",
+      "saas tool integration",
+      "secure ai agent orchestration"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "ai-agents",
+      "automation-tool"
+    ]
+  },
+  "github:deusdata/codebase-memory-mcp": {
+    "capability_summary": "A high-performance MCP server that indexes codebases into a persistent knowledge graph to improve LLM context and code intelligence.",
+    "problem_solved": "Inefficient LLM context usage when analyzing large codebases.",
+    "use_cases": [
+      "codebase indexing",
+      "knowledge graph generation",
+      "llm context optimization",
+      "code intelligence"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "mcp-server",
+      "code-analysis-tool"
+    ]
   }
 }
