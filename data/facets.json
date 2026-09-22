@@ -37435,5 +37435,25 @@
       "inference engine",
       "llm runner"
     ]
+  },
+  "github:s1dashu/ip-as-logo-skill": {
+    "capability_summary": "An AI agent skill that generates consistent, neo-skeuomorphic mascot logos for AI agents. It is designed for developers building AI agents who need automated branding assets.",
+    "problem_solved": "Automating the creation of consistent mascot logos for AI agents.",
+    "use_cases": [
+      "mascot design",
+      "logo generation",
+      "design automation",
+      "AI agent branding"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "codex-skill",
+      "ai-design-tool"
+    ]
   }
 }
