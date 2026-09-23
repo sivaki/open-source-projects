@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 369 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 372 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [plutonhq/pluton](https://github.com/plutonhq/pluton) ⭐ | Self-hosting | `backup` `restic` `rclone` `self-hosted` `automation` | A self-hosted backup management platform that provides a user-friendly web interface for Restic and Rclone, enabling automated, encrypted, and multi-destination backups. | 806 | 2026-09-23 |
+| [stackblitz/bolt-slides](https://github.com/stackblitz/bolt-slides) ⭐ | Developer Tools | `react` `ai-tooling` `presentation` `web-development` `automation` | A React-based presentation framework that treats slides as interactive web apps, designed to be easily generated or modified by AI agents. | 955 | 2026-09-23 |
+| [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) ⭐ | AI/LLM Tooling | `llm` `inference` `cli` `local-ai` `hardware-optimization` | An intelligent local inference engine that profiles hardware to recommend and tune open-source LLMs for optimal performance, featuring a desktop app and integrated CLI. | 4898 | 2026-09-23 |
 | [sentelabsai/openexecutive](https://github.com/sentelabsai/openexecutive) ⭐ | AI/LLM Tooling | `ai` `multi-agent` `rag` `fastapi` `automation` `llm` | A sophisticated multi-agent executive assistant framework that uses Anthropic Claude to orchestrate eight specialist agents, featuring RAG, episodic memory, and multi-platform integrations. | 5164 | 2026-09-23 |
 | [getarcaneapp/arcane](https://github.com/getarcaneapp/arcane) ⭐ | self-hosting | `docker` `self-hosted` `devops` `containers` `dashboard` | A modern, user-friendly web-based dashboard for managing Docker containers and services, built with Go and SvelteKit. | 7533 | 2026-09-23 |
 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) ⭐ | AI Tooling | `ai-agent` `design-automation` `mascot-design` `cli` `generative-ai` | A specialized Agent Skill designed to generate consistent, high-quality, neo-skeuomorphic mascot logos for AI agents, focusing on simplified silhouettes and specific color palettes. | 5434 | 2026-09-22 |
