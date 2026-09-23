@@ -16375,5 +16375,106 @@
       "rag",
       "typescript"
     ]
+  },
+  {
+    "id": "github:magnitudedev/magnitude",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "title": "magnitudedev/magnitude",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2102675327285965289",
+    "fetched_at": "2026-09-23T13:26:58.234667Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An intelligent local inference engine that profiles hardware to recommend and tune open-source LLMs for optimal performance, featuring a desktop app and integrated CLI.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "inference",
+      "cli",
+      "local-ai",
+      "hardware-optimization"
+    ],
+    "risk_notes": "Distributed as a desktop application (macOS, Windows, Linux) which typically requires standard installer permissions. It runs locally and claims to be fully private/offline, but as an inference engine, it will have read/write access to your local filesystem for model storage and potentially sensitive data if used with agents. It is actively maintained and open source under Apache 2.0.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2026-06-12T09:06:26Z",
+      "homepage": "https://magnitude.dev"
+    },
+    "added_at": "2026-09-23T13:27:22.756801Z",
+    "stars": 4898,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-23T08:34:24Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:stackblitz/bolt-slides",
+    "url": "https://github.com/stackblitz/bolt-slides",
+    "title": "stackblitz/bolt-slides",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2102675159068885244",
+    "fetched_at": "2026-09-23T13:27:01.044484Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A React-based presentation framework that treats slides as interactive web apps, designed to be easily generated or modified by AI agents.",
+    "category": "Developer Tools",
+    "tags": [
+      "react",
+      "ai-tooling",
+      "presentation",
+      "web-development",
+      "automation"
+    ],
+    "risk_notes": "Standard Node.js project; installed via 'npm install' and run via 'npm run dev'. It runs locally as a web server. No elevated privileges required, though it is intended to be used with AI agents which may require API keys (e.g., OpenAI/Anthropic) depending on the agent used to generate the content.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2026-07-14T18:23:27Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-23T13:27:40.094439Z",
+    "stars": 955,
+    "language": "TypeScript",
+    "pushed_at": "2026-07-30T17:58:10Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:plutonhq/pluton",
+    "url": "https://github.com/plutonhq/pluton",
+    "title": "plutonhq/pluton",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2102620728424067262",
+    "fetched_at": "2026-09-23T13:27:01.044647Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted backup management platform that provides a user-friendly web interface for Restic and Rclone, enabling automated, encrypted, and multi-destination backups.",
+    "category": "Self-hosting",
+    "tags": [
+      "backup",
+      "restic",
+      "rclone",
+      "self-hosted",
+      "automation"
+    ],
+    "risk_notes": "Distributed via Docker/Docker Compose, which is a standard and secure deployment method. Requires access to sensitive host directories for backup purposes and requires environment variables for encryption keys and admin credentials. As it manages backups, it inherently requires read access to your data and write access to your storage destinations.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2025-11-19T04:00:15Z",
+      "homepage": "https://usepluton.com"
+    },
+    "added_at": "2026-09-23T13:28:01.308336Z",
+    "stars": 806,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-09T13:50:51Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "3-2-1-backup",
+      "backup",
+      "restic",
+      "self-hosted"
+    ]
   }
 ]
