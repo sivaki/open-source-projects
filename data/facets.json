@@ -37455,5 +37455,45 @@
       "codex-skill",
       "ai-design-tool"
     ]
+  },
+  "github:getarcaneapp/arcane": {
+    "capability_summary": "A web-based dashboard for managing Docker containers and services. Designed for developers and sysadmins needing a visual interface for container orchestration.",
+    "problem_solved": "Simplifies Docker container management through a graphical interface.",
+    "use_cases": [
+      "container management",
+      "docker dashboard",
+      "self-hosted infrastructure",
+      "service monitoring"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "portainer alternative",
+      "docker-compose ui"
+    ]
+  },
+  "github:sentelabsai/openexecutive": {
+    "capability_summary": "A multi-agent framework that orchestrates specialized AI agents to perform complex tasks. It is intended for developers building automated executive assistant workflows.",
+    "problem_solved": "Automates complex workflows using coordinated AI agents and RAG.",
+    "use_cases": [
+      "ai automation",
+      "multi-agent orchestration",
+      "rag pipelines",
+      "executive assistant development"
+    ],
+    "project_type": "framework",
+    "platforms": [],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai agent framework",
+      "llm orchestration"
+    ]
   }
 }
