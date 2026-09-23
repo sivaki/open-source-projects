@@ -16287,5 +16287,93 @@
       "logo-design",
       "mascot-design"
     ]
+  },
+  {
+    "id": "github:getarcaneapp/arcane",
+    "url": "https://github.com/getarcaneapp/arcane",
+    "title": "getarcaneapp/arcane",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2102568793096511926",
+    "fetched_at": "2026-09-23T03:55:48.177269Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A modern, user-friendly web-based dashboard for managing Docker containers and services, built with Go and SvelteKit.",
+    "category": "self-hosting",
+    "tags": [
+      "docker",
+      "self-hosted",
+      "devops",
+      "containers",
+      "dashboard"
+    ],
+    "risk_notes": "Requires Docker access, typically via a socket mount (/var/run/docker.sock), which grants the container significant control over the host's Docker daemon. Installation is standard via Docker Compose. The project is actively maintained, provides an SBOM, and uses Snyk for vulnerability scanning.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 24,
+      "created_at": "2025-04-19T00:43:29Z",
+      "homepage": "https://getarcane.app"
+    },
+    "added_at": "2026-09-23T03:55:56.504090Z",
+    "stars": 7533,
+    "language": "Go",
+    "pushed_at": "2026-09-23T03:40:30Z",
+    "license": "BSD-3-Clause",
+    "topics": [
+      "compose",
+      "container-management",
+      "containers",
+      "docker",
+      "docker-compose",
+      "docker-management",
+      "go",
+      "self-hosted",
+      "sveltekit",
+      "typescript",
+      "web-ui"
+    ]
+  },
+  {
+    "id": "github:sentelabsai/openexecutive",
+    "url": "https://github.com/sentelabsai/openexecutive",
+    "title": "sentelabsai/openexecutive",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2102519293510377961",
+    "fetched_at": "2026-09-23T03:55:48.177434Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A sophisticated multi-agent executive assistant framework that uses Anthropic Claude to orchestrate eight specialist agents, featuring RAG, episodic memory, and multi-platform integrations.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "multi-agent",
+      "rag",
+      "fastapi",
+      "automation",
+      "llm"
+    ],
+    "risk_notes": "Requires Anthropic API keys and potentially sensitive company data for RAG. Deployment is handled via Docker/docker-compose, which is a standard and secure practice. The system requires persistent access to local storage for ChromaDB and SQLite. As it integrates with Slack, Email, and Google Workspace, it requires significant OAuth/API permissions to act on behalf of the user.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-06-11T21:41:54Z",
+      "homepage": "https://openexecutive.ai"
+    },
+    "added_at": "2026-09-23T03:56:05.826156Z",
+    "stars": 5164,
+    "language": "Python",
+    "pushed_at": "2026-09-23T02:53:15Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai",
+      "anthropic",
+      "claude",
+      "fastapi",
+      "llm",
+      "multi-agent",
+      "nextjs",
+      "python",
+      "rag",
+      "typescript"
+    ]
   }
 ]
