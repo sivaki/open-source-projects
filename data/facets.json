@@ -37495,5 +37495,46 @@
       "ai agent framework",
       "llm orchestration"
     ]
+  },
+  "github:magnitudedev/magnitude": {
+    "capability_summary": "A local inference engine that profiles hardware to optimize and run open-source LLMs. It is designed for developers and users wanting to run AI models locally with high performance.",
+    "problem_solved": "Optimizing and running LLMs on local hardware.",
+    "use_cases": [
+      "local LLM inference",
+      "hardware performance tuning",
+      "AI model optimization"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "local-ai",
+      "llm-inference-engine"
+    ]
+  },
+  "github:stackblitz/bolt-slides": {
+    "capability_summary": "A React-based framework for creating interactive, web-based presentations. It is built to be easily generated or modified by AI agents.",
+    "problem_solved": "Creating interactive presentations that can be automated by AI.",
+    "use_cases": [
+      "interactive presentations",
+      "AI-generated slides",
+      "web-based slide decks"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "react-presentation-framework",
+      "ai-slides"
+    ]
   }
 }
