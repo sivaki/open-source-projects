@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 372 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 373 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [amruth-sn/kong](https://github.com/amruth-sn/kong) ⭐ | Security Tooling | `reverse-engineering` `ghidra` `ai-agents` `binary-analysis` `security` | An agentic reverse engineering framework that automates binary analysis by orchestrating LLMs with Ghidra to recover symbols, types, and structure from obfuscated binaries. | 1136 | 2026-09-23 |
 | [plutonhq/pluton](https://github.com/plutonhq/pluton) ⭐ | Self-hosting | `backup` `restic` `rclone` `self-hosted` `automation` | A self-hosted backup management platform that provides a user-friendly web interface for Restic and Rclone, enabling automated, encrypted, and multi-destination backups. | 806 | 2026-09-23 |
 | [stackblitz/bolt-slides](https://github.com/stackblitz/bolt-slides) ⭐ | Developer Tools | `react` `ai-tooling` `presentation` `web-development` `automation` | A React-based presentation framework that treats slides as interactive web apps, designed to be easily generated or modified by AI agents. | 955 | 2026-09-23 |
 | [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) ⭐ | AI/LLM Tooling | `llm` `inference` `cli` `local-ai` `hardware-optimization` | An intelligent local inference engine that profiles hardware to recommend and tune open-source LLMs for optimal performance, featuring a desktop app and integrated CLI. | 4898 | 2026-09-23 |
