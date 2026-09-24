@@ -1,11 +1,15 @@
 # Curated Repos
 
-Auto-generated list of 375 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 379 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [291-group/lan-orangutan](https://github.com/291-group/lan-orangutan) ⭐ | network-tools | `homelab` `networking` `golang` `nmap` `self-hosted` `tailscale` | A lightweight, self-hosted network discovery and monitoring tool written in Go, featuring device labeling, Tailscale integration, and a clean web dashboard. | 976 | 2026-09-24 |
+| [madslorentzen/ai-job-search](https://github.com/madslorentzen/ai-job-search) ⭐ | Automation | `ai-agents` `automation` `productivity` `job-search` `cli` | An AI-powered job application framework that leverages Claude Code to automate job searching, CV tailoring, and cover letter generation. | 43843 | 2026-09-24 |
+| [ibrahimqureshae/mdflux](https://github.com/ibrahimqureshae/mdflux) ⭐ | AI/LLM Tooling | `markdown` `ocr` `llm` `productivity` `local-first` `automation` | A local-first desktop application that converts various document formats (PDF, DOCX, images, etc.) into clean, AI-ready Markdown, significantly reducing token usage for LLM workflows. | 445 | 2026-09-24 |
+| [yakhyo/uniface](https://github.com/yakhyo/uniface) ⭐ | AI/Computer Vision | `computer-vision` `python` `face-recognition` `deep-learning` `automation` | A comprehensive, unified Python library for computer vision tasks involving face analysis, including detection, recognition, landmarks, and gaze estimation. | 1801 | 2026-09-24 |
 | [video-db/call.md](https://github.com/video-db/call.md) ⭐ | AI/LLM Tooling | `ai` `mcp` `productivity` `electron` `automation` | An Electron-based desktop application that provides real-time AI transcription, meeting analytics, and MCP-integrated agentic workflows for video calls. | 1239 | 2026-09-24 |
 | [pipelex/pipelex](https://github.com/pipelex/pipelex) ⭐ | AI/LLM Tooling | `ai` `automation` `workflow` `llm` `cli` | Pipelex is a declarative framework for building, orchestrating, and sharing reusable AI workflows using a custom .mthds file format. | 862 | 2026-09-24 |
 | [amruth-sn/kong](https://github.com/amruth-sn/kong) ⭐ | Security Tooling | `reverse-engineering` `ghidra` `ai-agents` `binary-analysis` `security` | An agentic reverse engineering framework that automates binary analysis by orchestrating LLMs with Ghidra to recover symbols, types, and structure from obfuscated binaries. | 1136 | 2026-09-23 |
