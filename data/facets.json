@@ -37536,5 +37536,25 @@
       "react-presentation-framework",
       "ai-slides"
     ]
+  },
+  "github:pipelex/pipelex": {
+    "capability_summary": "Pipelex is a declarative framework for building and orchestrating reusable AI workflows. It is designed for developers who need to define complex LLM processes using a custom DSL.",
+    "problem_solved": "Simplifies the creation and sharing of complex, multi-step AI automation pipelines.",
+    "use_cases": [
+      "AI workflow orchestration",
+      "LLM pipeline automation",
+      "declarative AI agent building"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI workflow engine",
+      "LLM orchestration tool"
+    ]
   }
 }
