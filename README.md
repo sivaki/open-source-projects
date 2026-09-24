@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 373 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 375 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [video-db/call.md](https://github.com/video-db/call.md) ⭐ | AI/LLM Tooling | `ai` `mcp` `productivity` `electron` `automation` | An Electron-based desktop application that provides real-time AI transcription, meeting analytics, and MCP-integrated agentic workflows for video calls. | 1239 | 2026-09-24 |
+| [pipelex/pipelex](https://github.com/pipelex/pipelex) ⭐ | AI/LLM Tooling | `ai` `automation` `workflow` `llm` `cli` | Pipelex is a declarative framework for building, orchestrating, and sharing reusable AI workflows using a custom .mthds file format. | 862 | 2026-09-24 |
 | [amruth-sn/kong](https://github.com/amruth-sn/kong) ⭐ | Security Tooling | `reverse-engineering` `ghidra` `ai-agents` `binary-analysis` `security` | An agentic reverse engineering framework that automates binary analysis by orchestrating LLMs with Ghidra to recover symbols, types, and structure from obfuscated binaries. | 1136 | 2026-09-23 |
 | [plutonhq/pluton](https://github.com/plutonhq/pluton) ⭐ | Self-hosting | `backup` `restic` `rclone` `self-hosted` `automation` | A self-hosted backup management platform that provides a user-friendly web interface for Restic and Rclone, enabling automated, encrypted, and multi-destination backups. | 806 | 2026-09-23 |
 | [stackblitz/bolt-slides](https://github.com/stackblitz/bolt-slides) ⭐ | Developer Tools | `react` `ai-tooling` `presentation` `web-development` `automation` | A React-based presentation framework that treats slides as interactive web apps, designed to be easily generated or modified by AI agents. | 955 | 2026-09-23 |
