@@ -37578,5 +37578,47 @@
       "AI agent search",
       "coding assistant history"
     ]
+  },
+  "github:nokia-applied-research/anyjev": {
+    "capability_summary": "A framework that turns open-source LLMs into reliable, calibrated decision models using closed-form heads. It is designed for developers needing high-confidence automated decision-making without fine-tuning.",
+    "problem_solved": "Lack of reliability and calibration in LLM-based decision systems.",
+    "use_cases": [
+      "automated decision-making",
+      "LLM calibration",
+      "reliable AI agents"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vllm-extension",
+      "decision-model-framework"
+    ]
+  },
+  "github:browser-use/jev-ultrafast": {
+    "capability_summary": "A high-performance web automation agent that utilizes indexed element tables for browser interaction. It is intended for developers building efficient, structured web-scraping or automation workflows.",
+    "problem_solved": "Slow and inefficient browser automation caused by reliance on raw screenshots.",
+    "use_cases": [
+      "web automation",
+      "browser agent",
+      "web scraping"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "web-agent",
+      "browser-automation-tool"
+    ]
   }
 }
