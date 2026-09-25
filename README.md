@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 382 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 385 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [cloudflare/agentic-inbox](https://github.com/cloudflare/agentic-inbox) ⭐ | Self-hosting / AI Tooling | `email` `cloudflare` `ai-agent` `serverless` `productivity` | A fully serverless, self-hosted email client built on Cloudflare Workers, featuring an AI agent for drafting and managing emails with per-mailbox isolation via Durable Objects. | 8049 | 2026-09-25 |
+| [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ⭐ | AI/LLM Tooling | `automation` `llm` `web-agent` `python` `browser-automation` | A high-performance, structured web automation agent that uses indexed element tables instead of raw screenshots to drive browser interactions efficiently. | 20058 | 2026-09-25 |
+| [nokia-applied-research/anyjev](https://github.com/nokia-applied-research/anyjev) ⭐ | AI/LLM Tooling | `llm` `vllm` `decision-models` `calibration` `automation` | AnyJev provides a framework to convert open-source LLMs into reliable, calibrated decision models by using closed-form heads on internal hidden states, enabling high-confidence automated decision-making without fine-tuning. | 599 | 2026-09-25 |
 | [iamcorey/wake](https://github.com/iamcorey/wake) ⭐ | AI/LLM Tooling | `ai-agents` `productivity` `rust` `search` `developer-tools` | A high-performance Rust desktop application that aggregates, indexes, and provides full-text search for AI coding agent sessions across multiple CLI tools. | 1324 | 2026-09-25 |
 | [vercel-labs/knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template) ⭐ | AI/LLM Tooling | `ai-agent` `typescript` `nuxt` `automation` `knowledge-base` | A powerful, deterministic AI agent template that uses file-system operations (grep/cat) instead of vector databases for RAG, featuring multi-platform support and a built-in admin panel. | 1027 | 2026-09-25 |
 | [zjunlp/skillnet](https://github.com/zjunlp/skillnet) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `automation` `python` `developer-tools` | SkillNet is an infrastructure project for managing, evaluating, and routing reusable AI agent skills, providing both a Python SDK and a local browser interface for managing agent capabilities. | 1267 | 2026-09-25 |
