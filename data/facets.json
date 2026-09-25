@@ -37556,5 +37556,27 @@
       "AI workflow engine",
       "LLM orchestration tool"
     ]
+  },
+  "github:iamcorey/wake": {
+    "capability_summary": "A high-performance desktop application that indexes and provides full-text search for AI coding agent sessions. It is designed for developers who use multiple CLI-based AI tools.",
+    "problem_solved": "Difficulty finding historical context and logs from various AI coding agent sessions.",
+    "use_cases": [
+      "AI session indexing",
+      "full-text search for logs",
+      "developer productivity",
+      "AI agent history management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "AI agent search",
+      "coding assistant history"
+    ]
   }
 }
