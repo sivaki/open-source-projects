@@ -16909,5 +16909,110 @@
     "pushed_at": "2026-09-25T03:57:05Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:nokia-applied-research/anyjev",
+    "url": "https://github.com/nokia-applied-research/anyjev",
+    "title": "nokia-applied-research/anyjev",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2103393403207901217",
+    "fetched_at": "2026-09-25T13:23:26.409400Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "AnyJev provides a framework to convert open-source LLMs into reliable, calibrated decision models by using closed-form heads on internal hidden states, enabling high-confidence automated decision-making without fine-tuning.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "vllm",
+      "decision-models",
+      "calibration",
+      "automation"
+    ],
+    "risk_notes": "Installed via standard pip. Requires vLLM as a backend, which necessitates GPU resources and network access to download model weights from Hugging Face. The tool runs locally and does not inherently require external API keys, but it processes data through the loaded LLM, which may contain sensitive information.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-09-21T05:55:40Z",
+      "homepage": "https://pypi.org/project/anyjev/"
+    },
+    "added_at": "2026-09-25T13:23:38.451493Z",
+    "stars": 599,
+    "language": "Python",
+    "pushed_at": "2026-09-25T00:32:27Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "calibration",
+      "decision-model",
+      "jev",
+      "jev-model",
+      "llm",
+      "system-one",
+      "transformers",
+      "vllm"
+    ]
+  },
+  {
+    "id": "github:browser-use/jev-ultrafast",
+    "url": "https://github.com/browser-use/jev-ultrafast",
+    "title": "browser-use/jev-ultrafast",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2103447700859445680",
+    "fetched_at": "2026-09-25T13:23:29.220139Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, structured web automation agent that uses indexed element tables instead of raw screenshots to drive browser interactions efficiently.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "automation",
+      "llm",
+      "web-agent",
+      "python",
+      "browser-automation"
+    ],
+    "risk_notes": "Requires Python and the 'uv' package manager. It necessitates API keys (OpenRouter/OpenAI-compatible) and requires a local Chrome instance with remote debugging enabled. The agent has full control over the browser session it is attached to, meaning it can interact with any site you navigate to, potentially exposing sensitive data if not used carefully.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 137,
+      "created_at": "2026-09-16T21:30:12Z",
+      "homepage": "https://browser-use.com"
+    },
+    "added_at": "2026-09-25T13:23:49.183405Z",
+    "stars": 20058,
+    "language": "Python",
+    "pushed_at": "2026-09-25T04:06:12Z",
+    "license": "MIT",
+    "topics": []
+  },
+  {
+    "id": "github:cloudflare/agentic-inbox",
+    "url": "https://github.com/cloudflare/agentic-inbox",
+    "title": "cloudflare/agentic-inbox",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2103401996887666760",
+    "fetched_at": "2026-09-25T13:23:29.220307Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A fully serverless, self-hosted email client built on Cloudflare Workers, featuring an AI agent for drafting and managing emails with per-mailbox isolation via Durable Objects.",
+    "category": "Self-hosting / AI Tooling",
+    "tags": [
+      "email",
+      "cloudflare",
+      "ai-agent",
+      "serverless",
+      "productivity"
+    ],
+    "risk_notes": "Requires a Cloudflare account and domain. Deployment is handled via Wrangler CLI or a 'Deploy to Cloudflare' button. Security relies entirely on Cloudflare Access (JWT validation) for authentication. The application has full access to your email stream and uses Workers AI; it is critical to configure Cloudflare Access correctly as the README notes that the Access policy is the single trust boundary for all mailboxes.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 49,
+      "created_at": "2026-04-10T00:26:27Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-25T13:23:57.606872Z",
+    "stars": 8049,
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T21:04:17Z",
+    "license": "Apache-2.0",
+    "topics": []
   }
 ]
