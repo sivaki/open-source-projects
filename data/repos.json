@@ -16793,5 +16793,121 @@
       "tailscale-network",
       "web-dashboard"
     ]
+  },
+  {
+    "id": "github:zjunlp/skillnet",
+    "url": "https://github.com/zjunlp/skillnet",
+    "title": "zjunlp/skillnet",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2103316522584232055",
+    "fetched_at": "2026-09-25T04:04:07.743523Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "SkillNet is an infrastructure project for managing, evaluating, and routing reusable AI agent skills, providing both a Python SDK and a local browser interface for managing agent capabilities.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "llm",
+      "automation",
+      "python",
+      "developer-tools"
+    ],
+    "risk_notes": "Installed via standard pip (skillnet-ai). The tool requires local filesystem access to manage skill directories and may require API keys (e.g., Claude) for advanced analysis and routing features. It is actively maintained with regular updates and clear documentation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 0,
+      "created_at": "2026-01-10T12:08:37Z",
+      "homepage": "http://skillnet.openkg.cn/"
+    },
+    "added_at": "2026-09-25T04:04:16.231879Z",
+    "stars": 1267,
+    "language": "Python",
+    "pushed_at": "2026-09-25T01:54:29Z",
+    "license": "MIT",
+    "topics": [
+      "ai-agents",
+      "ai-skills",
+      "artificial-intelligence",
+      "knowledge-graph",
+      "large-language-models",
+      "natural-language-processing",
+      "openkg",
+      "skillnet",
+      "skills"
+    ]
+  },
+  {
+    "id": "github:vercel-labs/knowledge-agent-template",
+    "url": "https://github.com/vercel-labs/knowledge-agent-template",
+    "title": "vercel-labs/knowledge-agent-template",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2103276140479615272",
+    "fetched_at": "2026-09-25T04:04:07.743693Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful, deterministic AI agent template that uses file-system operations (grep/cat) instead of vector databases for RAG, featuring multi-platform support and a built-in admin panel.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agent",
+      "typescript",
+      "nuxt",
+      "automation",
+      "knowledge-base"
+    ],
+    "risk_notes": "Designed for deployment on Vercel; requires environment variables for authentication (GitHub OAuth) and AI provider keys. Uses isolated sandboxes for command execution, which mitigates some risks, but requires careful management of the provided API keys and OAuth secrets.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-01-20T15:02:20Z",
+      "homepage": "https://chatsdk-knowledge-agent.vercel.app"
+    },
+    "added_at": "2026-09-25T04:04:30.439935Z",
+    "stars": 1027,
+    "language": "TypeScript",
+    "pushed_at": "2026-09-15T08:10:36Z",
+    "license": "MIT",
+    "topics": [
+      "agents",
+      "ai-agent",
+      "chatbot",
+      "file-system",
+      "knowledge-base",
+      "nuxt",
+      "sandbox",
+      "typescript",
+      "vue"
+    ]
+  },
+  {
+    "id": "github:iamcorey/wake",
+    "url": "https://github.com/iamcorey/wake",
+    "title": "iamcorey/wake",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2103237129220370793",
+    "fetched_at": "2026-09-25T04:04:07.743823Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance Rust desktop application that aggregates, indexes, and provides full-text search for AI coding agent sessions across multiple CLI tools.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "productivity",
+      "rust",
+      "search",
+      "developer-tools"
+    ],
+    "risk_notes": "The application is distributed via GitHub releases (binaries). It requires read-only access to various hidden configuration directories in the user's home folder (~/.claude, ~/.codex, etc.) to index agent history. It includes an MCP server for local agent communication and makes network requests only for update checks. It is actively maintained and follows a local-first privacy model.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-08-18T09:46:23Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-25T04:04:37.920946Z",
+    "stars": 1324,
+    "language": "Rust",
+    "pushed_at": "2026-09-25T03:57:05Z",
+    "license": "MIT",
+    "topics": []
   }
 ]
