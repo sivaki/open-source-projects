@@ -1,11 +1,14 @@
 # Curated Repos
 
-Auto-generated list of 379 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 382 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [iamcorey/wake](https://github.com/iamcorey/wake) ⭐ | AI/LLM Tooling | `ai-agents` `productivity` `rust` `search` `developer-tools` | A high-performance Rust desktop application that aggregates, indexes, and provides full-text search for AI coding agent sessions across multiple CLI tools. | 1324 | 2026-09-25 |
+| [vercel-labs/knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template) ⭐ | AI/LLM Tooling | `ai-agent` `typescript` `nuxt` `automation` `knowledge-base` | A powerful, deterministic AI agent template that uses file-system operations (grep/cat) instead of vector databases for RAG, featuring multi-platform support and a built-in admin panel. | 1027 | 2026-09-25 |
+| [zjunlp/skillnet](https://github.com/zjunlp/skillnet) ⭐ | AI/LLM Tooling | `ai-agents` `llm` `automation` `python` `developer-tools` | SkillNet is an infrastructure project for managing, evaluating, and routing reusable AI agent skills, providing both a Python SDK and a local browser interface for managing agent capabilities. | 1267 | 2026-09-25 |
 | [291-group/lan-orangutan](https://github.com/291-group/lan-orangutan) ⭐ | network-tools | `homelab` `networking` `golang` `nmap` `self-hosted` `tailscale` | A lightweight, self-hosted network discovery and monitoring tool written in Go, featuring device labeling, Tailscale integration, and a clean web dashboard. | 976 | 2026-09-24 |
 | [madslorentzen/ai-job-search](https://github.com/madslorentzen/ai-job-search) ⭐ | Automation | `ai-agents` `automation` `productivity` `job-search` `cli` | An AI-powered job application framework that leverages Claude Code to automate job searching, CV tailoring, and cover letter generation. | 43843 | 2026-09-24 |
 | [ibrahimqureshae/mdflux](https://github.com/ibrahimqureshae/mdflux) ⭐ | AI/LLM Tooling | `markdown` `ocr` `llm` `productivity` `local-first` `automation` | A local-first desktop application that converts various document formats (PDF, DOCX, images, etc.) into clean, AI-ready Markdown, significantly reducing token usage for LLM workflows. | 445 | 2026-09-24 |
