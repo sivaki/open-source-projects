@@ -17014,5 +17014,92 @@
     "pushed_at": "2026-04-23T21:04:17Z",
     "license": "Apache-2.0",
     "topics": []
+  },
+  {
+    "id": "github:atilaahmettaner/tradingview-mcp",
+    "url": "https://github.com/atilaahmettaner/tradingview-mcp",
+    "title": "atilaahmettaner/tradingview-mcp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2104683159803634050",
+    "fetched_at": "2026-09-29T04:54:48.495278Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A robust Model Context Protocol (MCP) server providing real-time market data, technical analysis, and backtesting capabilities to AI assistants like Claude and Cursor.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "mcp",
+      "trading",
+      "finance",
+      "automation",
+      "python"
+    ],
+    "risk_notes": "Installs via pip or uv; runs as a local MCP server. It requires network access to fetch public market data but does not require TradingView credentials or browser automation, significantly reducing the security surface area compared to UI-scraping alternatives.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 17,
+      "created_at": "2025-08-08T22:34:03Z",
+      "homepage": "https://pro.cryptosieve.com"
+    },
+    "added_at": "2026-09-29T04:54:57.787358Z",
+    "stars": 4756,
+    "language": "Python",
+    "pushed_at": "2026-09-01T15:15:48Z",
+    "license": "MIT",
+    "topics": [
+      "claude-desktop",
+      "cryptocurrency",
+      "futures",
+      "market-data",
+      "mcp-server",
+      "mcp-tools",
+      "model-context-protocol",
+      "openclaw",
+      "stock-market",
+      "technical-analysis",
+      "trading-mcp",
+      "trading-strategies",
+      "tradingview"
+    ]
+  },
+  {
+    "id": "github:imthenachoman/how-to-secure-a-linux-server",
+    "url": "https://github.com/imthenachoman/how-to-secure-a-linux-server",
+    "title": "imthenachoman/how-to-secure-a-linux-server",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2104571480403001808",
+    "fetched_at": "2026-09-29T04:54:48.496016Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, community-driven guide for hardening Linux servers, covering everything from SSH configuration and firewall management to intrusion detection and auditing.",
+    "category": "Security & Hardening",
+    "tags": [
+      "linux",
+      "security",
+      "hardening",
+      "sysadmin",
+      "server-management"
+    ],
+    "risk_notes": "This is a documentation-only repository. It does not contain executable code that requires installation. However, following the guide involves executing commands with root/sudo privileges on your production servers. Users should review all configuration changes before applying them to avoid locking themselves out or misconfiguring security policies.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 33,
+      "created_at": "2019-02-09T06:44:37Z",
+      "homepage": ""
+    },
+    "added_at": "2026-09-29T04:55:05.971537Z",
+    "stars": 31627,
+    "language": null,
+    "pushed_at": "2026-09-07T20:43:13Z",
+    "license": "CC-BY-SA-4.0",
+    "topics": [
+      "cc-by-sa",
+      "hardening",
+      "hardening-steps",
+      "linux",
+      "linux-server",
+      "security",
+      "security-hardening",
+      "server"
+    ]
   }
 ]
