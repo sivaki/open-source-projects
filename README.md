@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 385 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 387 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [imthenachoman/how-to-secure-a-linux-server](https://github.com/imthenachoman/how-to-secure-a-linux-server) ⭐ | Security & Hardening | `linux` `security` `hardening` `sysadmin` `server-management` | A comprehensive, community-driven guide for hardening Linux servers, covering everything from SSH configuration and firewall management to intrusion detection and auditing. | 31627 | 2026-09-29 |
+| [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) ⭐ | AI/LLM Tooling | `mcp` `trading` `finance` `automation` `python` | A robust Model Context Protocol (MCP) server providing real-time market data, technical analysis, and backtesting capabilities to AI assistants like Claude and Cursor. | 4756 | 2026-09-29 |
 | [cloudflare/agentic-inbox](https://github.com/cloudflare/agentic-inbox) ⭐ | Self-hosting / AI Tooling | `email` `cloudflare` `ai-agent` `serverless` `productivity` | A fully serverless, self-hosted email client built on Cloudflare Workers, featuring an AI agent for drafting and managing emails with per-mailbox isolation via Durable Objects. | 8049 | 2026-09-25 |
 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) ⭐ | AI/LLM Tooling | `automation` `llm` `web-agent` `python` `browser-automation` | A high-performance, structured web automation agent that uses indexed element tables instead of raw screenshots to drive browser interactions efficiently. | 20058 | 2026-09-25 |
 | [nokia-applied-research/anyjev](https://github.com/nokia-applied-research/anyjev) ⭐ | AI/LLM Tooling | `llm` `vllm` `decision-models` `calibration` `automation` | AnyJev provides a framework to convert open-source LLMs into reliable, calibrated decision models by using closed-form heads on internal hidden states, enabling high-confidence automated decision-making without fine-tuning. | 599 | 2026-09-25 |
