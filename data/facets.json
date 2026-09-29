@@ -37620,5 +37620,25 @@
       "web-agent",
       "browser-automation-tool"
     ]
+  },
+  "github:imthenachoman/how-to-secure-a-linux-server": {
+    "capability_summary": "A comprehensive guide for hardening Linux servers against security threats. It is designed for system administrators and server operators.",
+    "problem_solved": "Securing a Linux server from unauthorized access and common vulnerabilities.",
+    "use_cases": [
+      "SSH configuration",
+      "firewall management",
+      "intrusion detection",
+      "server auditing"
+    ],
+    "project_type": "other",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "linux hardening guide",
+      "server security checklist"
+    ]
   }
 }
