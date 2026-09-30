@@ -17186,5 +17186,91 @@
       "twitter",
       "whatsapp"
     ]
+  },
+  {
+    "id": "github:smythos/smythos-studio",
+    "url": "https://github.com/smythos/smythos-studio",
+    "title": "smythos/smythos-studio",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2105271155066032248",
+    "fetched_at": "2026-09-30T14:44:01.844952Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "SmythOS Studio is a visual, drag-and-drop platform for building and orchestrating AI agent workflows, designed for both no-code users and developers.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "orchestration",
+      "no-code",
+      "devtools",
+      "typescript"
+    ],
+    "risk_notes": "Installation is via Docker Compose or pnpm, which is standard and safe. It requires a MySQL database and likely various LLM API keys to function. As an agent orchestration platform, it will have network access to external APIs and potentially local system access depending on how custom code components are configured.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 10,
+      "created_at": "2025-07-07T12:29:34Z",
+      "homepage": "https://smythos.com"
+    },
+    "added_at": "2026-09-30T14:44:10.304071Z",
+    "stars": 315,
+    "language": "TypeScript",
+    "pushed_at": "2026-04-03T05:20:55Z",
+    "license": "MIT",
+    "topics": [
+      "a2a",
+      "agentic-ai",
+      "ai-agents",
+      "devtools",
+      "mcp-client",
+      "n8n-alternative",
+      "no-code",
+      "open-source",
+      "orchestration",
+      "smythos",
+      "visual-builder"
+    ]
+  },
+  {
+    "id": "github:flashml-org/freetoken",
+    "url": "https://github.com/flashml-org/freetoken",
+    "title": "flashml-org/freetoken",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2105200361216586211",
+    "fetched_at": "2026-09-30T14:44:01.845158Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance inference engine for running large Mixture-of-Experts (MoE) models on consumer hardware, featuring advanced memory management and OpenAI-compatible API support.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "inference",
+      "moe",
+      "edge-computing",
+      "gpu",
+      "local-ai"
+    ],
+    "risk_notes": "Installs via pip/uv, which is standard for Python projects. Requires access to local GPU resources and potentially network access if using the API server features. As a high-performance inference engine, it executes complex model weights; users should verify the source of any downloaded model files to avoid malicious model injections.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 368,
+      "created_at": "2026-07-20T20:44:11Z",
+      "homepage": "flashml.ai"
+    },
+    "added_at": "2026-09-30T14:44:18.584280Z",
+    "stars": 14011,
+    "language": "Python",
+    "pushed_at": "2026-09-30T11:09:59Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "deepseek-v4",
+      "edge",
+      "glm",
+      "inference",
+      "minimax",
+      "moe",
+      "qwen",
+      "transformer"
+    ]
   }
 ]
