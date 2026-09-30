@@ -17144,5 +17144,47 @@
       "second-brain",
       "template"
     ]
+  },
+  {
+    "id": "github:gorvgoyl/clone-wars",
+    "url": "https://github.com/gorvgoyl/clone-wars",
+    "title": "gorvgoyl/clone-wars",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2105109772953362602",
+    "fetched_at": "2026-09-30T04:41:14.727397Z",
+    "verdict": "keep",
+    "score": 3,
+    "summary": "A curated list of over 100 open-source clones and alternatives to popular web applications, serving as a valuable educational resource for developers.",
+    "category": "Learning Resources",
+    "tags": [
+      "education",
+      "web-development",
+      "tutorials",
+      "fullstack",
+      "reference"
+    ],
+    "risk_notes": "This is a documentation-only repository containing links to external projects. There is no code to install or execute directly from this repo, posing no security risk to your local machine. Users should exercise caution when cloning and running the third-party repositories linked within the list.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 41,
+      "created_at": "2020-12-02T11:10:16Z",
+      "homepage": "https://gourav.io/clone-wars"
+    },
+    "added_at": "2026-09-30T04:41:21.988711Z",
+    "stars": 36857,
+    "language": null,
+    "pushed_at": "2024-08-06T12:31:36Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "airbnb",
+      "clone",
+      "instagram",
+      "netflix",
+      "reddit",
+      "spotify",
+      "tiktok",
+      "twitter",
+      "whatsapp"
+    ]
   }
 ]
