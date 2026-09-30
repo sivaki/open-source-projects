@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 388 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 389 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [gorvgoyl/clone-wars](https://github.com/gorvgoyl/clone-wars) ⭐ | Learning Resources | `education` `web-development` `tutorials` `fullstack` `reference` | A curated list of over 100 open-source clones and alternatives to popular web applications, serving as a valuable educational resource for developers. | 36857 | 2026-09-30 |
 | [breferrari/obsidian-mind](https://github.com/breferrari/obsidian-mind) ⭐ | AI/LLM Tooling | `obsidian` `ai-agents` `knowledge-management` `automation` `developer-tools` | A structured Obsidian vault template that provides persistent memory and context for AI coding agents like Claude Code, Codex, and Gemini, enabling automated note-taking and knowledge management. | 4680 | 2026-09-29 |
 | [imthenachoman/how-to-secure-a-linux-server](https://github.com/imthenachoman/how-to-secure-a-linux-server) ⭐ | Security & Hardening | `linux` `security` `hardening` `sysadmin` `server-management` | A comprehensive, community-driven guide for hardening Linux servers, covering everything from SSH configuration and firewall management to intrusion detection and auditing. | 31627 | 2026-09-29 |
 | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) ⭐ | AI/LLM Tooling | `mcp` `trading` `finance` `automation` `python` | A robust Model Context Protocol (MCP) server providing real-time market data, technical analysis, and backtesting capabilities to AI assistants like Claude and Cursor. | 4756 | 2026-09-29 |
