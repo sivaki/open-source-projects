@@ -37640,5 +37640,29 @@
       "linux hardening guide",
       "server security checklist"
     ]
+  },
+  "github:flashml-org/freetoken": {
+    "capability_summary": "A high-performance inference engine designed to run large Mixture-of-Experts (MoE) models on consumer-grade hardware. It provides an OpenAI-compatible API for developers integrating local LLMs.",
+    "problem_solved": "Running large MoE models on hardware with limited VRAM.",
+    "use_cases": [
+      "local llm inference",
+      "edge computing",
+      "moe model deployment",
+      "openai api replacement"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "vllm alternative",
+      "local-ai",
+      "llm-inference-engine"
+    ]
   }
 }
