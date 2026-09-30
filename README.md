@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 389 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 391 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [flashml-org/freetoken](https://github.com/flashml-org/freetoken) ⭐ | AI/LLM Tooling | `llm` `inference` `moe` `edge-computing` `gpu` `local-ai` | A high-performance inference engine for running large Mixture-of-Experts (MoE) models on consumer hardware, featuring advanced memory management and OpenAI-compatible API support. | 14011 | 2026-09-30 |
+| [smythos/smythos-studio](https://github.com/smythos/smythos-studio) ⭐ | AI/LLM Tooling | `ai-agents` `orchestration` `no-code` `devtools` `typescript` | SmythOS Studio is a visual, drag-and-drop platform for building and orchestrating AI agent workflows, designed for both no-code users and developers. | 315 | 2026-09-30 |
 | [gorvgoyl/clone-wars](https://github.com/gorvgoyl/clone-wars) ⭐ | Learning Resources | `education` `web-development` `tutorials` `fullstack` `reference` | A curated list of over 100 open-source clones and alternatives to popular web applications, serving as a valuable educational resource for developers. | 36857 | 2026-09-30 |
 | [breferrari/obsidian-mind](https://github.com/breferrari/obsidian-mind) ⭐ | AI/LLM Tooling | `obsidian` `ai-agents` `knowledge-management` `automation` `developer-tools` | A structured Obsidian vault template that provides persistent memory and context for AI coding agents like Claude Code, Codex, and Gemini, enabling automated note-taking and knowledge management. | 4680 | 2026-09-29 |
 | [imthenachoman/how-to-secure-a-linux-server](https://github.com/imthenachoman/how-to-secure-a-linux-server) ⭐ | Security & Hardening | `linux` `security` `hardening` `sysadmin` `server-management` | A comprehensive, community-driven guide for hardening Linux servers, covering everything from SSH configuration and firewall management to intrusion detection and auditing. | 31627 | 2026-09-29 |
