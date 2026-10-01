@@ -17304,5 +17304,48 @@
     "pushed_at": "2026-07-09T17:49:44Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:overmind-core/overmind",
+    "url": "https://github.com/overmind-core/overmind",
+    "title": "overmind-core/overmind",
+    "source_name": "twitter",
+    "source_url": "https://x.com/GithubProjects/status/2105679460272164915",
+    "fetched_at": "2026-10-01T20:52:28.341150Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "An LLMOps platform for continuously improving AI agents by turning production traces into fine-tuning datasets and evaluation benchmarks.",
+    "category": "LLM/AI Tooling",
+    "tags": [
+      "llmops",
+      "ai-agents",
+      "observability",
+      "fine-tuning",
+      "self-hosting"
+    ],
+    "risk_notes": "Self-hosted via Docker Compose; requires multiple sensitive API keys (OpenRouter, Modal) to function. The platform handles production traces and agent data, meaning it requires access to your application's telemetry and potentially sensitive codebase context. The project is actively maintained but uses an AGPL-3.0 license, which may impact commercial usage.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 5,
+      "created_at": "2026-03-27T14:59:56Z",
+      "homepage": "https://overmindlab.ai"
+    },
+    "added_at": "2026-10-01T20:52:48.329202Z",
+    "stars": 123,
+    "language": "Python",
+    "pushed_at": "2026-10-01T14:22:34Z",
+    "license": "NOASSERTION",
+    "topics": [
+      "ai-agents",
+      "evals",
+      "fine-tuning",
+      "llm",
+      "llm-evaluation",
+      "llmops",
+      "lora",
+      "mcp",
+      "observability",
+      "python"
+    ]
   }
 ]
