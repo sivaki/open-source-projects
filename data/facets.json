@@ -37664,5 +37664,26 @@
       "local-ai",
       "llm-inference-engine"
     ]
+  },
+  "github:overmind-core/overmind": {
+    "capability_summary": "An LLMOps platform that converts production traces into fine-tuning datasets and evaluation benchmarks for AI agents. It is designed for developers and AI engineers focused on agent performance and reliability.",
+    "problem_solved": "Automating the improvement of AI agents using real-world production data.",
+    "use_cases": [
+      "fine-tuning llms",
+      "ai agent evaluation",
+      "llm observability",
+      "dataset generation"
+    ],
+    "project_type": "service",
+    "platforms": [
+      "docker",
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "llmops platform",
+      "ai agent observability"
+    ]
   }
 }
