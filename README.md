@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 392 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 393 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [overmind-core/overmind](https://github.com/overmind-core/overmind) ⭐ | LLM/AI Tooling | `llmops` `ai-agents` `observability` `fine-tuning` `self-hosting` | An LLMOps platform for continuously improving AI agents by turning production traces into fine-tuning datasets and evaluation benchmarks. | 123 | 2026-10-01 |
 | [averygan/reclip](https://github.com/averygan/reclip) ⭐ | automation | `self-hosting` `media` `automation` `python` `downloader` | A lightweight, self-hosted media downloader that provides a clean web UI for yt-dlp, supporting over 1000 video platforms. | 10569 | 2026-10-01 |
 | [flashml-org/freetoken](https://github.com/flashml-org/freetoken) ⭐ | AI/LLM Tooling | `llm` `inference` `moe` `edge-computing` `gpu` `local-ai` | A high-performance inference engine for running large Mixture-of-Experts (MoE) models on consumer hardware, featuring advanced memory management and OpenAI-compatible API support. | 14011 | 2026-09-30 |
 | [smythos/smythos-studio](https://github.com/smythos/smythos-studio) ⭐ | AI/LLM Tooling | `ai-agents` `orchestration` `no-code` `devtools` `typescript` | SmythOS Studio is a visual, drag-and-drop platform for building and orchestrating AI agent workflows, designed for both no-code users and developers. | 315 | 2026-09-30 |
