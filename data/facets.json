@@ -37685,5 +37685,25 @@
       "llmops platform",
       "ai agent observability"
     ]
+  },
+  "github:emilianopp/kv-streams": {
+    "capability_summary": "A specialized vLLM fork that implements KV cache compaction to manage memory usage during long-form LLM generation. It is designed for developers and researchers optimizing LLM inference performance.",
+    "problem_solved": "High memory consumption during long-context LLM inference.",
+    "use_cases": [
+      "long-form text generation",
+      "LLM memory optimization",
+      "inference throughput improvement"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "vLLM fork",
+      "KV cache optimization"
+    ]
   }
 }
