@@ -17379,5 +17379,37 @@
     "pushed_at": "2026-09-28T16:53:19Z",
     "license": null,
     "topics": []
+  },
+  {
+    "id": "github:realzachi/pg-jev",
+    "url": "https://github.com/realzachi/pg-jev",
+    "title": "realzachi/pg-jev",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2106328920211800165",
+    "fetched_at": "2026-10-03T13:09:02.338117Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A PostgreSQL extension that allows querying table data using natural language via the TypeSafe Jev model, enabling semantic filtering and classification directly within SQL.",
+    "category": "Database Tooling",
+    "tags": [
+      "postgresql",
+      "ai",
+      "llm",
+      "data-pipeline",
+      "sql"
+    ],
+    "risk_notes": "Requires superuser privileges and plpython3u to install, which is a significant security consideration for database extensions. It requires an external API key for TypeSafe, and the extension makes network requests to their service for every query batch. Installation via pgxn or make install is standard for Postgres extensions, but requires careful environment configuration.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 4,
+      "created_at": "2026-09-17T20:04:00Z",
+      "homepage": "https://pgjev.com"
+    },
+    "added_at": "2026-10-03T13:09:13.423620Z",
+    "stars": 446,
+    "language": "Shell",
+    "pushed_at": "2026-09-18T19:23:51Z",
+    "license": "NOASSERTION",
+    "topics": []
   }
 ]
