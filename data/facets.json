@@ -37705,5 +37705,27 @@
       "vLLM fork",
       "KV cache optimization"
     ]
+  },
+  "github:realzachi/pg-jev": {
+    "capability_summary": "A PostgreSQL extension that enables natural language querying and semantic classification of table data directly within SQL using the Jev model. It is designed for database administrators and developers looking to integrate AI-driven insights into their database workflows.",
+    "problem_solved": "Enables natural language querying and semantic analysis directly inside PostgreSQL.",
+    "use_cases": [
+      "natural language sql querying",
+      "semantic data filtering",
+      "ai-powered data classification",
+      "database-integrated llm workflows"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "linux"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [
+      "english"
+    ],
+    "aliases": [
+      "pg-ai",
+      "postgresql-llm-extension"
+    ]
   }
 }
