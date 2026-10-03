@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 394 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 395 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [realzachi/pg-jev](https://github.com/realzachi/pg-jev) ⭐ | Database Tooling | `postgresql` `ai` `llm` `data-pipeline` `sql` | A PostgreSQL extension that allows querying table data using natural language via the TypeSafe Jev model, enabling semantic filtering and classification directly within SQL. | 446 | 2026-10-03 |
 | [emilianopp/kv-streams](https://github.com/emilianopp/kv-streams) ⭐ | AI/LLM Tooling | `llm` `vllm` `inference` `optimization` `gpu` | A specialized fork of vLLM that implements KV cache compaction, allowing for bounded memory usage during long-form LLM generation by evicting older tokens. | 4 | 2026-10-02 |
 | [overmind-core/overmind](https://github.com/overmind-core/overmind) ⭐ | LLM/AI Tooling | `llmops` `ai-agents` `observability` `fine-tuning` `self-hosting` | An LLMOps platform for continuously improving AI agents by turning production traces into fine-tuning datasets and evaluation benchmarks. | 123 | 2026-10-01 |
 | [averygan/reclip](https://github.com/averygan/reclip) ⭐ | automation | `self-hosting` `media` `automation` `python` `downloader` | A lightweight, self-hosted media downloader that provides a clean web UI for yt-dlp, supporting over 1000 video platforms. | 10569 | 2026-10-01 |
