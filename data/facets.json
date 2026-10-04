@@ -37727,5 +37727,27 @@
       "pg-ai",
       "postgresql-llm-extension"
     ]
+  },
+  "github:duartesantos8/opengym": {
+    "capability_summary": "A privacy-focused, self-hosted workout tracker for individuals to log gym sessions and bodyweight exercises. It supports offline access and secure authentication via passkeys.",
+    "problem_solved": "Tracking fitness progress without relying on third-party cloud services or data harvesting.",
+    "use_cases": [
+      "workout tracking",
+      "gym progress logging",
+      "self-hosted health data",
+      "offline fitness management"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "web",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "like Strong",
+      "like Hevy",
+      "privacy-focused fitness tracker"
+    ]
   }
 }
