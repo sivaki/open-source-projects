@@ -17411,5 +17411,56 @@
     "pushed_at": "2026-09-18T19:23:51Z",
     "license": "NOASSERTION",
     "topics": []
+  },
+  {
+    "id": "github:duartesantos8/opengym",
+    "url": "https://github.com/duartesantos8/opengym",
+    "title": "duartesantos8/opengym",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2106627744427639118",
+    "fetched_at": "2026-10-04T13:48:32.904015Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A self-hosted, privacy-focused gym and workout tracker that supports passkey authentication, offline usage, and data ownership.",
+    "category": "Self-hosting",
+    "tags": [
+      "self-hosted",
+      "fitness",
+      "docker",
+      "pwa",
+      "privacy"
+    ],
+    "risk_notes": "The application is deployed via Docker Compose, which is a standard and safe practice. It requires persistent storage access for data files. It uses WebAuthn/Passkeys for authentication, which is a secure modern standard. The project is actively maintained with frequent commits and clear documentation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 122,
+      "created_at": "2026-07-18T20:41:24Z",
+      "homepage": "https://opengym.duarte-santos.ch"
+    },
+    "added_at": "2026-10-04T13:48:39.376167Z",
+    "stars": 2154,
+    "language": "JavaScript",
+    "pushed_at": "2026-10-04T10:11:01Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "bodyweight",
+      "docker",
+      "fitness",
+      "fitness-tracker",
+      "gym",
+      "health",
+      "mcp",
+      "nodejs",
+      "passkeys",
+      "progressive-web-applications",
+      "pwa",
+      "react",
+      "self-hosted",
+      "self-hosting",
+      "vite",
+      "webauthn",
+      "weightlifting",
+      "workout-tracker"
+    ]
   }
 ]
