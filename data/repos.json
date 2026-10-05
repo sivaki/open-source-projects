@@ -17462,5 +17462,42 @@
       "weightlifting",
       "workout-tracker"
     ]
+  },
+  {
+    "id": "github:reconurge/flowsint",
+    "url": "https://github.com/reconurge/flowsint",
+    "title": "reconurge/flowsint",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2106956521733025855",
+    "fetched_at": "2026-10-05T04:44:32.073369Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A powerful, self-hosted OSINT platform that uses graph-based visualization and automated enrichers to map relationships between digital entities.",
+    "category": "Security/OSINT",
+    "tags": [
+      "osint",
+      "security",
+      "graph",
+      "docker",
+      "investigation"
+    ],
+    "risk_notes": "Installs via Docker Compose, which is a standard and safe practice. It requires manual configuration of environment variables for security (secrets, database passwords). It is designed to be self-hosted, meaning it stores data locally, but users should be aware that it performs external network requests to various OSINT APIs and services during investigation workflows.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 64,
+      "created_at": "2025-01-31T15:10:41Z",
+      "homepage": "https://flowsint.io"
+    },
+    "added_at": "2026-10-05T04:44:39.933427Z",
+    "stars": 9125,
+    "language": "TypeScript",
+    "pushed_at": "2026-10-03T07:23:52Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "investigation",
+      "osint",
+      "python",
+      "recon"
+    ]
   }
 ]
