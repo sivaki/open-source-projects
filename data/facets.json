@@ -37749,5 +37749,26 @@
       "like Hevy",
       "privacy-focused fitness tracker"
     ]
+  },
+  "github:reconurge/flowsint": {
+    "capability_summary": "A self-hosted OSINT platform that visualizes relationships between digital entities using graph-based analysis and automated data enrichment. It is designed for security researchers and investigators.",
+    "problem_solved": "Visualizing complex relationships and automating data collection for OSINT investigations.",
+    "use_cases": [
+      "threat intelligence",
+      "digital entity mapping",
+      "automated data enrichment",
+      "security investigation"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "docker",
+      "web"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "Maltego alternative",
+      "OSINT graph tool"
+    ]
   }
 }
