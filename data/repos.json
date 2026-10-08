@@ -17499,5 +17499,80 @@
       "python",
       "recon"
     ]
+  },
+  {
+    "id": "github:datalab-to/marker",
+    "url": "https://github.com/datalab-to/marker",
+    "title": "datalab-to/marker",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2108136819040878706",
+    "fetched_at": "2026-10-08T15:21:19.463410Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance tool for converting PDFs and various document formats into structured Markdown and JSON, suitable for RAG pipelines and data extraction.",
+    "category": "Data Processing",
+    "tags": [
+      "ai",
+      "llm",
+      "pdf",
+      "data-pipeline",
+      "ocr"
+    ],
+    "risk_notes": "Installed via pip. Requires PyTorch and significant local compute resources (GPU recommended). Can be configured to use external LLM APIs (OpenAI, Anthropic, etc.), which requires managing API keys. The model weights have a specific OpenRAIL-M license that restricts commercial use for larger entities.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 478,
+      "created_at": "2023-10-30T20:14:08Z",
+      "homepage": "https://www.datalab.to"
+    },
+    "added_at": "2026-10-08T15:22:10.604934Z",
+    "stars": 40267,
+    "language": "Python",
+    "pushed_at": "2026-10-02T09:53:02Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  {
+    "id": "github:oh-my-mermaid/oh-my-mermaid",
+    "url": "https://github.com/oh-my-mermaid/oh-my-mermaid",
+    "title": "oh-my-mermaid/oh-my-mermaid",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2108146789975011616",
+    "fetched_at": "2026-10-08T15:21:22.296499Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A CLI tool that integrates with AI coding assistants to automatically generate and visualize codebase architecture diagrams using Mermaid syntax.",
+    "category": "Developer Tools",
+    "tags": [
+      "ai",
+      "cli",
+      "architecture",
+      "mermaid",
+      "documentation"
+    ],
+    "risk_notes": "Installed via npm globally. Requires read access to your entire codebase to generate documentation. It integrates with AI coding tools (Claude Code, Cursor, etc.), which may involve sending codebase context to external LLM providers. Includes an optional cloud sync feature that requires authentication and pushing data to their servers.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 11,
+      "created_at": "2026-03-22T12:24:32Z",
+      "homepage": ""
+    },
+    "added_at": "2026-10-08T15:22:33.612145Z",
+    "stars": 2352,
+    "language": "TypeScript",
+    "pushed_at": "2026-04-07T05:23:24Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "architecture",
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "codebase-visualization",
+      "developer-tools",
+      "diagrams",
+      "documentation",
+      "mermaid"
+    ]
   }
 ]
