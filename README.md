@@ -1,11 +1,13 @@
 # Curated Repos
 
-Auto-generated list of 397 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 399 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [oh-my-mermaid/oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) ⭐ | Developer Tools | `ai` `cli` `architecture` `mermaid` `documentation` | A CLI tool that integrates with AI coding assistants to automatically generate and visualize codebase architecture diagrams using Mermaid syntax. | 2352 | 2026-10-08 |
+| [datalab-to/marker](https://github.com/datalab-to/marker) ⭐ | Data Processing | `ai` `llm` `pdf` `data-pipeline` `ocr` | A high-performance tool for converting PDFs and various document formats into structured Markdown and JSON, suitable for RAG pipelines and data extraction. | 40267 | 2026-10-08 |
 | [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐ | Security/OSINT | `osint` `security` `graph` `docker` `investigation` | A powerful, self-hosted OSINT platform that uses graph-based visualization and automated enrichers to map relationships between digital entities. | 9125 | 2026-10-05 |
 | [duartesantos8/opengym](https://github.com/duartesantos8/opengym) ⭐ | Self-hosting | `self-hosted` `fitness` `docker` `pwa` `privacy` | A self-hosted, privacy-focused gym and workout tracker that supports passkey authentication, offline usage, and data ownership. | 2154 | 2026-10-04 |
 | [realzachi/pg-jev](https://github.com/realzachi/pg-jev) ⭐ | Database Tooling | `postgresql` `ai` `llm` `data-pipeline` `sql` | A PostgreSQL extension that allows querying table data using natural language via the TypeSafe Jev model, enabling semantic filtering and classification directly within SQL. | 446 | 2026-10-03 |
