@@ -37792,5 +37792,26 @@
       "PDF to Markdown converter",
       "RAG pipeline tool"
     ]
+  },
+  "github:microsoft/mxc": {
+    "capability_summary": "A policy-driven sandboxing SDK for executing untrusted code securely across multiple environments. It is designed for developers building secure isolation layers in their applications.",
+    "problem_solved": "Securely running untrusted code with isolated resource access.",
+    "use_cases": [
+      "code execution environments",
+      "secure containerization",
+      "sandboxing untrusted plugins"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "windows",
+      "cross-platform"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "sandbox sdk",
+      "isolation framework"
+    ]
   }
 }
