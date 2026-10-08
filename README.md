@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 399 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 400 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [microsoft/mxc](https://github.com/microsoft/mxc) ⭐ | Security Tooling | `sandboxing` `security` `rust` `containers` `isolation` | A cross-platform, policy-driven sandboxing SDK for running untrusted code, supporting various backends like Bubblewrap, Windows Sandbox, and MicroVMs. | 1728 | 2026-10-08 |
 | [oh-my-mermaid/oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) ⭐ | Developer Tools | `ai` `cli` `architecture` `mermaid` `documentation` | A CLI tool that integrates with AI coding assistants to automatically generate and visualize codebase architecture diagrams using Mermaid syntax. | 2352 | 2026-10-08 |
 | [datalab-to/marker](https://github.com/datalab-to/marker) ⭐ | Data Processing | `ai` `llm` `pdf` `data-pipeline` `ocr` | A high-performance tool for converting PDFs and various document formats into structured Markdown and JSON, suitable for RAG pipelines and data extraction. | 40267 | 2026-10-08 |
 | [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐ | Security/OSINT | `osint` `security` `graph` `docker` `investigation` | A powerful, self-hosted OSINT platform that uses graph-based visualization and automated enrichers to map relationships between digital entities. | 9125 | 2026-10-05 |
