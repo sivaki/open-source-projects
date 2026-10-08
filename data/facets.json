@@ -37770,5 +37770,27 @@
       "Maltego alternative",
       "OSINT graph tool"
     ]
+  },
+  "github:datalab-to/marker": {
+    "capability_summary": "Marker converts PDFs and various document formats into structured Markdown and JSON. It is designed for developers building RAG pipelines and data extraction workflows.",
+    "problem_solved": "Converting complex PDF documents into machine-readable structured data.",
+    "use_cases": [
+      "RAG data preparation",
+      "PDF to Markdown conversion",
+      "Automated data extraction",
+      "OCR processing"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "PDF to Markdown converter",
+      "RAG pipeline tool"
+    ]
   }
 }
