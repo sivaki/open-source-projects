@@ -37813,5 +37813,23 @@
       "sandbox sdk",
       "isolation framework"
     ]
+  },
+  "github:miqdadbadjuber/anti-slop": {
+    "capability_summary": "A collection of system prompts and rules to filter out generic or low-quality output from AI coding agents. It helps developers maintain higher standards for code, UI, and copy generation.",
+    "problem_solved": "Reduces generic, low-quality, or 'slop' output from AI coding assistants.",
+    "use_cases": [
+      "prompt engineering",
+      "AI agent configuration",
+      "improving AI code quality",
+      "standardizing AI-generated UI"
+    ],
+    "project_type": "config",
+    "platforms": [],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "prompt-library",
+      "AI-system-prompts"
+    ]
   }
 }
