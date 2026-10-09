@@ -17606,5 +17606,48 @@
     "pushed_at": "2026-10-08T20:07:05Z",
     "license": "MIT",
     "topics": []
+  },
+  {
+    "id": "github:miqdadbadjuber/anti-slop",
+    "url": "https://github.com/miqdadbadjuber/anti-slop",
+    "title": "miqdadbadjuber/anti-slop",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2108404495306694915",
+    "fetched_at": "2026-10-09T05:14:03.800364Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A collection of system prompts and rules designed to filter out generic, 'slop' output from AI coding agents, ensuring cleaner code, UI, and copy.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai-agents",
+      "prompt-engineering",
+      "developer-tools",
+      "automation",
+      "productivity"
+    ],
+    "risk_notes": "Installs via npx or plugin managers which execute code in your environment. Since it functions as a set of rules/prompts for AI agents, it requires access to your agent's configuration and potentially your codebase. It is a configuration-based tool rather than a binary, which reduces the risk of malicious execution compared to compiled binaries, but it should be reviewed as it influences the behavior of your coding assistant.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 3,
+      "created_at": "2026-08-07T10:29:56Z",
+      "homepage": ""
+    },
+    "added_at": "2026-10-09T05:14:10.339837Z",
+    "stars": 5136,
+    "language": "JavaScript",
+    "pushed_at": "2026-10-04T19:32:36Z",
+    "license": "MIT",
+    "topics": [
+      "accessibility",
+      "agent-skills",
+      "ai-agents",
+      "ai-coding-agent",
+      "ai-slop",
+      "anti-slop",
+      "claude-code",
+      "copywriting",
+      "design-rules",
+      "ui-design"
+    ]
   }
 ]
