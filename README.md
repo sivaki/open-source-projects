@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 400 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 401 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) ⭐ | AI/LLM Tooling | `ai-agents` `prompt-engineering` `developer-tools` `automation` `productivity` | A collection of system prompts and rules designed to filter out generic, 'slop' output from AI coding agents, ensuring cleaner code, UI, and copy. | 5136 | 2026-10-09 |
 | [microsoft/mxc](https://github.com/microsoft/mxc) ⭐ | Security Tooling | `sandboxing` `security` `rust` `containers` `isolation` | A cross-platform, policy-driven sandboxing SDK for running untrusted code, supporting various backends like Bubblewrap, Windows Sandbox, and MicroVMs. | 1728 | 2026-10-08 |
 | [oh-my-mermaid/oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) ⭐ | Developer Tools | `ai` `cli` `architecture` `mermaid` `documentation` | A CLI tool that integrates with AI coding assistants to automatically generate and visualize codebase architecture diagrams using Mermaid syntax. | 2352 | 2026-10-08 |
 | [datalab-to/marker](https://github.com/datalab-to/marker) ⭐ | Data Processing | `ai` `llm` `pdf` `data-pipeline` `ocr` | A high-performance tool for converting PDFs and various document formats into structured Markdown and JSON, suitable for RAG pipelines and data extraction. | 40267 | 2026-10-08 |
