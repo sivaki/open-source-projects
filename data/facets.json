@@ -37831,5 +37831,28 @@
       "prompt-library",
       "AI-system-prompts"
     ]
+  },
+  "github:t8y2/dbx": {
+    "capability_summary": "A high-performance database management tool for developers that supports over 100 database types via CLI and GUI. It integrates AI and MCP capabilities for enhanced database interaction.",
+    "problem_solved": "Managing multiple heterogeneous database types through a single unified interface.",
+    "use_cases": [
+      "database administration",
+      "sql query execution",
+      "ai-assisted database management",
+      "cross-platform database client"
+    ],
+    "project_type": "app",
+    "platforms": [
+      "cli",
+      "cross-platform",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "database client",
+      "db manager",
+      "sql tool"
+    ]
   }
 }
