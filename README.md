@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 401 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 402 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [t8y2/dbx](https://github.com/t8y2/dbx) ⭐ | Developer Tools | `database` `cli` `rust` `ai` `mcp` `docker` | A high-performance, cross-platform database management tool written in Rust that supports over 100 database types, featuring a CLI, Docker support, and built-in AI/MCP capabilities. | 25561 | 2026-10-10 |
 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) ⭐ | AI/LLM Tooling | `ai-agents` `prompt-engineering` `developer-tools` `automation` `productivity` | A collection of system prompts and rules designed to filter out generic, 'slop' output from AI coding agents, ensuring cleaner code, UI, and copy. | 5136 | 2026-10-09 |
 | [microsoft/mxc](https://github.com/microsoft/mxc) ⭐ | Security Tooling | `sandboxing` `security` `rust` `containers` `isolation` | A cross-platform, policy-driven sandboxing SDK for running untrusted code, supporting various backends like Bubblewrap, Windows Sandbox, and MicroVMs. | 1728 | 2026-10-08 |
 | [oh-my-mermaid/oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) ⭐ | Developer Tools | `ai` `cli` `architecture` `mermaid` `documentation` | A CLI tool that integrates with AI coding assistants to automatically generate and visualize codebase architecture diagrams using Mermaid syntax. | 2352 | 2026-10-08 |
