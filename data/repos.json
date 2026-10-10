@@ -17649,5 +17649,57 @@
       "design-rules",
       "ui-design"
     ]
+  },
+  {
+    "id": "github:t8y2/dbx",
+    "url": "https://github.com/t8y2/dbx",
+    "title": "t8y2/dbx",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2108786527790666187",
+    "fetched_at": "2026-10-10T14:19:45.125319Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "A high-performance, cross-platform database management tool written in Rust that supports over 100 database types, featuring a CLI, Docker support, and built-in AI/MCP capabilities.",
+    "category": "Developer Tools",
+    "tags": [
+      "database",
+      "cli",
+      "rust",
+      "ai",
+      "mcp",
+      "docker"
+    ],
+    "risk_notes": "Distributed as pre-compiled binaries or Docker images. As a database client, it requires network access to your database instances and will store connection credentials (passwords/keys) locally. Users should review the configuration storage location and ensure the binary is sourced from official releases. The project is highly active, though the large number of open issues suggests it is still in a rapid development phase.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 1093,
+      "created_at": "2026-04-29T03:00:36Z",
+      "homepage": "https://dbxio.com"
+    },
+    "added_at": "2026-10-10T14:19:59.019419Z",
+    "stars": 25561,
+    "language": "Rust",
+    "pushed_at": "2026-10-10T13:10:59Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "ai",
+      "cli",
+      "clickhouse",
+      "database",
+      "database-client",
+      "database-management",
+      "docker",
+      "gui",
+      "mcp",
+      "mongodb",
+      "mysql",
+      "postgresql",
+      "redis",
+      "rust",
+      "sql-server",
+      "sqlite",
+      "tauri",
+      "vue"
+    ]
   }
 ]
