@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 402 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 403 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [getzep/graphiti](https://github.com/getzep/graphiti) ⭐ | AI/LLM Tooling | `llm` `knowledge-graph` `agents` `rag` `python` | Graphiti is a powerful Python framework for building temporal knowledge graphs that track how facts and relationships evolve over time, specifically designed for AI agents. | 31639 | 2026-10-11 |
 | [t8y2/dbx](https://github.com/t8y2/dbx) ⭐ | Developer Tools | `database` `cli` `rust` `ai` `mcp` `docker` | A high-performance, cross-platform database management tool written in Rust that supports over 100 database types, featuring a CLI, Docker support, and built-in AI/MCP capabilities. | 25561 | 2026-10-10 |
 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) ⭐ | AI/LLM Tooling | `ai-agents` `prompt-engineering` `developer-tools` `automation` `productivity` | A collection of system prompts and rules designed to filter out generic, 'slop' output from AI coding agents, ensuring cleaner code, UI, and copy. | 5136 | 2026-10-09 |
 | [microsoft/mxc](https://github.com/microsoft/mxc) ⭐ | Security Tooling | `sandboxing` `security` `rust` `containers` `isolation` | A cross-platform, policy-driven sandboxing SDK for running untrusted code, supporting various backends like Bubblewrap, Windows Sandbox, and MicroVMs. | 1728 | 2026-10-08 |
