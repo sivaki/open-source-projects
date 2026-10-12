@@ -37854,5 +37854,26 @@
       "db manager",
       "sql tool"
     ]
+  },
+  "github:morluto/rea": {
+    "capability_summary": "REA is an MCP-based tool that allows AI agents to perform reverse engineering on binaries, Electron apps, and web applications. It is designed for developers and security researchers using AI-assisted analysis.",
+    "problem_solved": "Enables AI agents to analyze and reverse engineer complex software binaries and web apps.",
+    "use_cases": [
+      "binary analysis",
+      "reverse engineering",
+      "AI-assisted security research",
+      "Electron app inspection"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "Ghidra",
+      "Hopper",
+      "MCP agent tools"
+    ]
   }
 }
