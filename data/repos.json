@@ -17791,5 +17791,37 @@
       "reverse-engineering",
       "static-analysis"
     ]
+  },
+  {
+    "id": "github:justvugg/colibri",
+    "url": "https://github.com/justvugg/colibri",
+    "title": "justvugg/colibri",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2109954808618557869",
+    "fetched_at": "2026-10-13T15:40:54.625310Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, zero-dependency C engine for running large Mixture-of-Experts (MoE) LLMs on consumer hardware by streaming experts from disk.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "llm",
+      "moe",
+      "c",
+      "local-ai",
+      "inference"
+    ],
+    "risk_notes": "Requires running a shell script (start-here.sh) or batch file which performs system checks and builds binaries locally. It accesses the local filesystem to store large model weights and opens a local web server (default port 8000) for the dashboard and API. It does not require root privileges, but users should review the script before execution as it manages dependencies and compilation.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 119,
+      "created_at": "2026-07-01T12:27:49Z",
+      "homepage": "https://justvugg.github.io/colibri"
+    },
+    "added_at": "2026-10-13T15:41:11.010725Z",
+    "stars": 41679,
+    "language": "C",
+    "pushed_at": "2026-10-13T10:48:17Z",
+    "license": "Apache-2.0",
+    "topics": []
   }
 ]
