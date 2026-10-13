@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 404 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 405 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [justvugg/colibri](https://github.com/justvugg/colibri) ⭐ | AI/LLM Tooling | `llm` `moe` `c` `local-ai` `inference` | A high-performance, zero-dependency C engine for running large Mixture-of-Experts (MoE) LLMs on consumer hardware by streaming experts from disk. | 41679 | 2026-10-13 |
 | [morluto/rea](https://github.com/morluto/rea) ⭐ | Developer Tools | `ai-agents` `reverse-engineering` `mcp` `cli` `static-analysis` | REA is a powerful MCP-based tool that enables AI agents to perform reverse engineering on native binaries, Electron apps, and web applications by providing structured analysis and evidence. | 114641 | 2026-10-12 |
 | [getzep/graphiti](https://github.com/getzep/graphiti) ⭐ | AI/LLM Tooling | `llm` `knowledge-graph` `agents` `rag` `python` | Graphiti is a powerful Python framework for building temporal knowledge graphs that track how facts and relationships evolve over time, specifically designed for AI agents. | 31639 | 2026-10-11 |
 | [t8y2/dbx](https://github.com/t8y2/dbx) ⭐ | Developer Tools | `database` `cli` `rust` `ai` `mcp` `docker` | A high-performance, cross-platform database management tool written in Rust that supports over 100 database types, featuring a CLI, Docker support, and built-in AI/MCP capabilities. | 25561 | 2026-10-10 |
