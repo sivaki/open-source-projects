@@ -17823,5 +17823,50 @@
     "pushed_at": "2026-10-13T10:48:17Z",
     "license": "Apache-2.0",
     "topics": []
+  },
+  {
+    "id": "github:tracewayapp/traceway",
+    "url": "https://github.com/tracewayapp/traceway",
+    "title": "tracewayapp/traceway",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2110246254420639985",
+    "fetched_at": "2026-10-14T13:25:34.927098Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An OpenTelemetry-native, all-in-one observability platform that provides logs, traces, metrics, session replay, and AI-specific monitoring with a focus on self-hosting and agent-based workflows.",
+    "category": "Observability",
+    "tags": [
+      "opentelemetry",
+      "monitoring",
+      "self-hosted",
+      "observability",
+      "ai-tooling"
+    ],
+    "risk_notes": "Self-hosted via Docker Compose, which requires standard container permissions. It acts as a central telemetry sink, meaning it will process and store potentially sensitive application logs, traces, and user session data. It requires network access to receive OTLP data from your services and to send alerts (Slack, email, etc.). The project is actively maintained and uses standard Go/Docker patterns.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 31,
+      "created_at": "2025-12-18T03:35:02Z",
+      "homepage": "https://tracewayapp.com"
+    },
+    "added_at": "2026-10-14T13:25:42.932820Z",
+    "stars": 1646,
+    "language": "Go",
+    "pushed_at": "2026-10-13T23:36:41Z",
+    "license": "MIT",
+    "topics": [
+      "alerting",
+      "exception-tracker",
+      "issue-tracking",
+      "logs",
+      "metrics",
+      "monitoring",
+      "observability-platform",
+      "open-telemetry",
+      "otel",
+      "session-replay",
+      "telemetry",
+      "traces"
+    ]
   }
 ]
