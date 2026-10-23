@@ -37875,5 +37875,30 @@
       "Hopper",
       "MCP agent tools"
     ]
+  },
+  "github:cosmicstack-labs/mercury-agent": {
+    "capability_summary": "A persistent, permission-hardened AI agent framework designed for secure automation and background task execution. It is intended for developers and power users who need a self-hosted AI assistant with granular control.",
+    "problem_solved": "Automating tasks with an AI agent that requires strict security and persistent memory.",
+    "use_cases": [
+      "automated background tasks",
+      "secure AI tool execution",
+      "cross-platform agent communication",
+      "local AI memory management"
+    ],
+    "project_type": "framework",
+    "platforms": [
+      "cli",
+      "linux",
+      "macos",
+      "windows",
+      "docker"
+    ],
+    "cost": "free-selfhost",
+    "human_languages": [],
+    "aliases": [
+      "ai-agent",
+      "ai-assistant",
+      "llm-automation"
+    ]
   }
 }
