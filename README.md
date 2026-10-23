@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 406 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 407 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent) ⭐ | AI Agent / Automation | `ai-agent` `automation` `self-hosting` `llm` `cli` | A persistent, permission-hardened AI agent framework that runs as a background daemon, featuring local SQLite memory, multi-channel communication (Telegram/Discord/CLI), and granular tool-use security. | 3442 | 2026-10-23 |
 | [tracewayapp/traceway](https://github.com/tracewayapp/traceway) ⭐ | Observability | `opentelemetry` `monitoring` `self-hosted` `observability` `ai-tooling` | An OpenTelemetry-native, all-in-one observability platform that provides logs, traces, metrics, session replay, and AI-specific monitoring with a focus on self-hosting and agent-based workflows. | 1646 | 2026-10-14 |
 | [justvugg/colibri](https://github.com/justvugg/colibri) ⭐ | AI/LLM Tooling | `llm` `moe` `c` `local-ai` `inference` | A high-performance, zero-dependency C engine for running large Mixture-of-Experts (MoE) LLMs on consumer hardware by streaming experts from disk. | 41679 | 2026-10-13 |
 | [morluto/rea](https://github.com/morluto/rea) ⭐ | Developer Tools | `ai-agents` `reverse-engineering` `mcp` `cli` `static-analysis` | REA is a powerful MCP-based tool that enables AI agents to perform reverse engineering on native binaries, Electron apps, and web applications by providing structured analysis and evidence. | 114641 | 2026-10-12 |
