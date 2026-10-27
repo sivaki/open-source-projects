@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 407 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 408 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [trymirai/uzu](https://github.com/trymirai/uzu) ⭐ | AI/LLM Tooling | `ai` `inference` `rust` `llm` `local-first` | A high-performance, cross-platform AI inference engine written in Rust, designed for local execution with support for Python, Swift, and Rust bindings. | 2680 | 2026-10-27 |
 | [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent) ⭐ | AI Agent / Automation | `ai-agent` `automation` `self-hosting` `llm` `cli` | A persistent, permission-hardened AI agent framework that runs as a background daemon, featuring local SQLite memory, multi-channel communication (Telegram/Discord/CLI), and granular tool-use security. | 3442 | 2026-10-23 |
 | [tracewayapp/traceway](https://github.com/tracewayapp/traceway) ⭐ | Observability | `opentelemetry` `monitoring` `self-hosted` `observability` `ai-tooling` | An OpenTelemetry-native, all-in-one observability platform that provides logs, traces, metrics, session replay, and AI-specific monitoring with a focus on self-hosting and agent-based workflows. | 1646 | 2026-10-14 |
 | [justvugg/colibri](https://github.com/justvugg/colibri) ⭐ | AI/LLM Tooling | `llm` `moe` `c` `local-ai` `inference` | A high-performance, zero-dependency C engine for running large Mixture-of-Experts (MoE) LLMs on consumer hardware by streaming experts from disk. | 41679 | 2026-10-13 |
