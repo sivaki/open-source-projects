@@ -17904,5 +17904,45 @@
       "ai-assistant",
       "llm"
     ]
+  },
+  {
+    "id": "github:trymirai/uzu",
+    "url": "https://github.com/trymirai/uzu",
+    "title": "trymirai/uzu",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2115010493899502058",
+    "fetched_at": "2026-10-27T14:08:48.908290Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, cross-platform AI inference engine written in Rust, designed for local execution with support for Python, Swift, and Rust bindings.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "inference",
+      "rust",
+      "llm",
+      "local-first"
+    ],
+    "risk_notes": "Installed via standard package managers (pip/uv, Swift Package Manager, or Rust crates). It requires network access to download model weights and local filesystem access to store them. As an inference engine, it runs locally, which is privacy-friendly, but users should be aware of the resource usage (CPU/GPU/RAM) when running large models.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 26,
+      "created_at": "2025-06-23T21:55:11Z",
+      "homepage": "https://trymirai.com"
+    },
+    "added_at": "2026-10-27T14:09:05.996011Z",
+    "stars": 2680,
+    "language": "Rust",
+    "pushed_at": "2026-10-27T13:35:06Z",
+    "license": "MIT",
+    "topics": [
+      "ai",
+      "high-performance",
+      "inference",
+      "llm",
+      "metal",
+      "rust",
+      "tts"
+    ]
   }
 ]
