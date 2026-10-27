@@ -37900,5 +37900,27 @@
       "ai-assistant",
       "llm-automation"
     ]
+  },
+  "github:trymirai/uzu": {
+    "capability_summary": "A high-performance AI inference engine for running LLMs locally. It provides bindings for Python, Swift, and Rust for developers building AI-powered applications.",
+    "problem_solved": "Running large language models locally with high performance.",
+    "use_cases": [
+      "local llm inference",
+      "ai application development",
+      "cross-platform ai integration"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "cross-platform",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "llama.cpp",
+      "ai inference engine"
+    ]
   }
 }
