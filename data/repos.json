@@ -17944,5 +17944,48 @@
       "rust",
       "tts"
     ]
+  },
+  {
+    "id": "github:nvidia-nemo/labs-molt",
+    "url": "https://github.com/nvidia-nemo/labs-molt",
+    "title": "nvidia-nemo/labs-molt",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2119731861786341835",
+    "fetched_at": "2026-11-10T16:13:46.937057Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A scalable, HuggingFace-native reinforcement learning framework designed for training large-scale agentic models using Ray and vLLM.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "reinforcement-learning",
+      "llm",
+      "agentic-ai",
+      "distributed-training",
+      "pytorch"
+    ],
+    "risk_notes": "Requires significant hardware resources (NVIDIA GPUs, CUDA 13 stack) and typically runs within a provided Docker container. It involves complex distributed systems (Ray, vLLM) and requires careful management of training data and model checkpoints. As an NVIDIA-maintained project, it is generally well-supported, but it is a research-focused tool with a large dependency footprint.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 22,
+      "created_at": "2026-06-23T02:27:05Z",
+      "homepage": ""
+    },
+    "added_at": "2026-11-10T16:14:29.242678Z",
+    "stars": 1265,
+    "language": "Python",
+    "pushed_at": "2026-11-10T11:43:24Z",
+    "license": "Apache-2.0",
+    "topics": [
+      "agentic-rl",
+      "context-parallelism",
+      "expert-parallelism",
+      "fsdp",
+      "huggingface",
+      "llm",
+      "rl-framework",
+      "rlhf",
+      "rlvr",
+      "tensor-parallelism"
+    ]
   }
 ]
