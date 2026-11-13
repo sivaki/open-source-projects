@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 409 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 410 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [modernrelay/omnigraph](https://github.com/modernrelay/omnigraph) ⭐ | AI/LLM Tooling | `rust` `graph-database` `agentic-memory` `data-pipeline` `knowledge-graph` | A high-performance, object-storage native graph database designed for AI agent memory, featuring Git-style branching, typed ontologies, and multimodal retrieval. | 2159 | 2026-11-13 |
 | [nvidia-nemo/labs-molt](https://github.com/nvidia-nemo/labs-molt) ⭐ | AI/LLM Tooling | `reinforcement-learning` `llm` `agentic-ai` `distributed-training` `pytorch` | A scalable, HuggingFace-native reinforcement learning framework designed for training large-scale agentic models using Ray and vLLM. | 1265 | 2026-11-10 |
 | [trymirai/uzu](https://github.com/trymirai/uzu) ⭐ | AI/LLM Tooling | `ai` `inference` `rust` `llm` `local-first` | A high-performance, cross-platform AI inference engine written in Rust, designed for local execution with support for Python, Swift, and Rust bindings. | 2680 | 2026-10-27 |
 | [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent) ⭐ | AI Agent / Automation | `ai-agent` `automation` `self-hosting` `llm` `cli` | A persistent, permission-hardened AI agent framework that runs as a background daemon, featuring local SQLite memory, multi-channel communication (Telegram/Discord/CLI), and granular tool-use security. | 3442 | 2026-10-23 |
