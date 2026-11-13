@@ -17987,5 +17987,49 @@
       "rlvr",
       "tensor-parallelism"
     ]
+  },
+  {
+    "id": "github:modernrelay/omnigraph",
+    "url": "https://github.com/modernrelay/omnigraph",
+    "title": "modernrelay/omnigraph",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2121008480291295394",
+    "fetched_at": "2026-11-13T15:58:39.859577Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A high-performance, object-storage native graph database designed for AI agent memory, featuring Git-style branching, typed ontologies, and multimodal retrieval.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "rust",
+      "graph-database",
+      "agentic-memory",
+      "data-pipeline",
+      "knowledge-graph"
+    ],
+    "risk_notes": "Installs via shell script or Homebrew. Requires network access for S3-compatible storage and potential API keys for embedding providers. Implements server-side Cedar policy enforcement for security, but requires careful configuration of access controls when self-hosting.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 186,
+      "created_at": "2026-04-10T17:50:30Z",
+      "homepage": "https://omnigraph.dev"
+    },
+    "added_at": "2026-11-13T15:58:51.034715Z",
+    "stars": 2159,
+    "language": "Rust",
+    "pushed_at": "2026-11-13T15:25:17Z",
+    "license": "MIT",
+    "topics": [
+      "apache-arrow",
+      "context-graph",
+      "datafusion",
+      "graph-database",
+      "knowledge-graph",
+      "lakehouse",
+      "lance",
+      "mcp",
+      "rust",
+      "s3",
+      "versioning"
+    ]
   }
 ]
