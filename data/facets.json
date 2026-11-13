@@ -37922,5 +37922,28 @@
       "llama.cpp",
       "ai inference engine"
     ]
+  },
+  "github:modernrelay/omnigraph": {
+    "capability_summary": "A high-performance, object-storage native graph database built for AI agent memory. It provides versioning and multimodal retrieval for complex data structures.",
+    "problem_solved": "Managing persistent, versioned memory for AI agents at scale.",
+    "use_cases": [
+      "ai agent memory",
+      "knowledge graph management",
+      "multimodal data retrieval",
+      "data versioning"
+    ],
+    "project_type": "library",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "graph database",
+      "vector database alternative",
+      "agentic memory"
+    ]
   }
 }
