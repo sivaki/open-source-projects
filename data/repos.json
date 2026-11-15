@@ -18031,5 +18031,41 @@
       "s3",
       "versioning"
     ]
+  },
+  {
+    "id": "github:hieunc229/mailflare",
+    "url": "https://github.com/hieunc229/mailflare",
+    "title": "hieunc229/mailflare",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2121689503521702142",
+    "fetched_at": "2026-11-15T11:12:39.755298Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "A comprehensive, self-hosted alternative to Google Workspace that integrates email, calendar, drive, and AI agents, deployable via Cloudflare Workers or Docker.",
+    "category": "Self-hosting",
+    "tags": [
+      "email",
+      "cloudflare",
+      "self-hosted",
+      "productivity",
+      "typescript"
+    ],
+    "risk_notes": "Requires significant Cloudflare permissions (DNS, Email Routing, Zone settings) via API tokens. Self-hosting via Docker is straightforward but requires managing database and storage secrets. The project is actively maintained and provides clear documentation for both cloud-native and containerized deployments.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 30,
+      "created_at": "2026-05-26T01:06:12Z",
+      "homepage": "https://mailflare.co"
+    },
+    "added_at": "2026-11-15T11:13:03.934795Z",
+    "stars": 6324,
+    "language": "TypeScript",
+    "pushed_at": "2026-11-13T17:47:37Z",
+    "license": "AGPL-3.0",
+    "topics": [
+      "cloudflare",
+      "cloudflare-workers",
+      "email"
+    ]
   }
 ]
