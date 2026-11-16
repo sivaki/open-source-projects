@@ -37945,5 +37945,24 @@
       "vector database alternative",
       "agentic memory"
     ]
+  },
+  "github:swamp-club/swamp": {
+    "capability_summary": "Swamp is a CLI tool for orchestrating AI-driven automation workflows. It allows developers to build reusable behaviors and manage credentials securely.",
+    "problem_solved": "Automating complex tasks and workflows using AI models.",
+    "use_cases": [
+      "ai-driven automation",
+      "devops workflow orchestration",
+      "secure credential management"
+    ],
+    "project_type": "cli",
+    "platforms": [
+      "cli"
+    ],
+    "cost": "unknown",
+    "human_languages": [],
+    "aliases": [
+      "ai automation tool",
+      "workflow engine"
+    ]
   }
 }
