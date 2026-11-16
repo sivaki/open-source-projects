@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 411 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 412 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [swamp-club/swamp](https://github.com/swamp-club/swamp) ⭐ | AI/LLM Tooling | `ai` `automation` `cli` `workflow` `devops` | Swamp is a CLI tool for building AI-driven automation workflows using reusable behaviors, versioned data, and secure credential management. | 766 | 2026-11-16 |
 | [hieunc229/mailflare](https://github.com/hieunc229/mailflare) ⭐ | Self-hosting | `email` `cloudflare` `self-hosted` `productivity` `typescript` | A comprehensive, self-hosted alternative to Google Workspace that integrates email, calendar, drive, and AI agents, deployable via Cloudflare Workers or Docker. | 6324 | 2026-11-15 |
 | [modernrelay/omnigraph](https://github.com/modernrelay/omnigraph) ⭐ | AI/LLM Tooling | `rust` `graph-database` `agentic-memory` `data-pipeline` `knowledge-graph` | A high-performance, object-storage native graph database designed for AI agent memory, featuring Git-style branching, typed ontologies, and multimodal retrieval. | 2159 | 2026-11-13 |
 | [nvidia-nemo/labs-molt](https://github.com/nvidia-nemo/labs-molt) ⭐ | AI/LLM Tooling | `reinforcement-learning` `llm` `agentic-ai` `distributed-training` `pytorch` | A scalable, HuggingFace-native reinforcement learning framework designed for training large-scale agentic models using Ray and vLLM. | 1265 | 2026-11-10 |
