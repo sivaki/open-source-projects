@@ -18067,5 +18067,37 @@
       "cloudflare-workers",
       "email"
     ]
+  },
+  {
+    "id": "github:swamp-club/swamp",
+    "url": "https://github.com/swamp-club/swamp",
+    "title": "swamp-club/swamp",
+    "source_name": "twitter",
+    "source_url": "https://x.com/_avichawla/status/2122244582675296558",
+    "fetched_at": "2026-11-16T18:05:45.378223Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "Swamp is a CLI tool for building AI-driven automation workflows using reusable behaviors, versioned data, and secure credential management.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "automation",
+      "cli",
+      "workflow",
+      "devops"
+    ],
+    "risk_notes": "Installs via curl/powershell script which is a common but high-privilege pattern. Requires a mandatory account with swamp-club.com to function. It operates by wrapping local AI agents (like Claude Code or Cursor) and requires access to your local environment variables, SSH keys, and cloud credentials to perform tasks. It stores data locally in .swamp/ directories.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 2,
+      "created_at": "2026-01-28T17:27:17Z",
+      "homepage": ""
+    },
+    "added_at": "2026-11-16T18:06:05.522346Z",
+    "stars": 766,
+    "language": "TypeScript",
+    "pushed_at": "2026-11-16T18:01:54Z",
+    "license": "NOASSERTION",
+    "topics": []
   }
 ]
