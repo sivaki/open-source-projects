@@ -37964,5 +37964,25 @@
       "ai automation tool",
       "workflow engine"
     ]
+  },
+  "github:wheresryan22/anatomy": {
+    "capability_summary": "An agent skill for LLMs that generates interactive isometric SVG and WebGL technical illustrations. It helps developers and AI agents visualize complex concepts.",
+    "problem_solved": "Need to programmatically generate technical diagrams for LLM-based explanations.",
+    "use_cases": [
+      "technical documentation",
+      "AI agent visualization",
+      "interactive diagrams",
+      "concept explanation"
+    ],
+    "project_type": "plugin",
+    "platforms": [
+      "web"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "LLM visualization tool",
+      "AI diagram generator"
+    ]
   }
 }
