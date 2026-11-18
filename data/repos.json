@@ -18099,5 +18099,43 @@
     "pushed_at": "2026-11-16T18:01:54Z",
     "license": "NOASSERTION",
     "topics": []
+  },
+  {
+    "id": "github:wheresryan22/anatomy",
+    "url": "https://github.com/wheresryan22/anatomy",
+    "title": "wheresryan22/anatomy",
+    "source_name": "twitter",
+    "source_url": "https://x.com/tom_doerr/status/2122867711667482942",
+    "fetched_at": "2026-11-18T06:32:07.785146Z",
+    "verdict": "keep",
+    "score": 5,
+    "summary": "An agent skill for Claude Code and other LLM interfaces that generates interactive, isometric SVG and WebGL technical illustrations to explain complex concepts.",
+    "category": "AI/LLM Tooling",
+    "tags": [
+      "ai",
+      "llm",
+      "visualization",
+      "agent-skill",
+      "svg",
+      "webgl"
+    ],
+    "risk_notes": "Installed via 'npx skills add', which executes code from the registry. It runs as a plugin for LLM agents, meaning it operates within the context of your agent's environment. It claims to have zero external dependencies and uses only Node built-in modules, which reduces supply chain risk. It does not require external API keys as it relies on the host agent's capabilities.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 78,
+      "created_at": "2026-10-08T10:12:49Z",
+      "homepage": "https://skills.wheresryan.sh/anatomy"
+    },
+    "added_at": "2026-11-18T06:32:14.749431Z",
+    "stars": 27961,
+    "language": "JavaScript",
+    "pushed_at": "2026-10-18T20:20:24Z",
+    "license": "MIT",
+    "topics": [
+      "agent-skill",
+      "open-source",
+      "svg",
+      "vizualization"
+    ]
   }
 ]
