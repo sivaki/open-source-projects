@@ -1,11 +1,12 @@
 # Curated Repos
 
-Auto-generated list of 413 repositories. Source of truth: `data/repos.json`.
+Auto-generated list of 414 repositories. Source of truth: `data/repos.json`.
 
 ⭐ = recommended. Use your browser's find (Ctrl/⌘-F) to search a tag.
 
 | Repo | Category | Tags | Summary | Stars | Added |
 | --- | --- | --- | --- | ---: | --- |
+| [opensensenova/sensenova-loop](https://github.com/opensensenova/sensenova-loop) ⭐ | AI/LLM | `llm` `multimodal` `agentic` `inference` `machine-learning` | SenseNova-Loop-9B is a parameter-efficient 9B multimodal LLM that uses a looped architecture to achieve performance comparable to much larger models, specifically optimized for agentic, coding, and data analysis tasks. | 248 | 2026-11-20 |
 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) ⭐ | AI/LLM Tooling | `ai` `llm` `visualization` `agent-skill` `svg` `webgl` | An agent skill for Claude Code and other LLM interfaces that generates interactive, isometric SVG and WebGL technical illustrations to explain complex concepts. | 27961 | 2026-11-18 |
 | [swamp-club/swamp](https://github.com/swamp-club/swamp) ⭐ | AI/LLM Tooling | `ai` `automation` `cli` `workflow` `devops` | Swamp is a CLI tool for building AI-driven automation workflows using reusable behaviors, versioned data, and secure credential management. | 766 | 2026-11-16 |
 | [hieunc229/mailflare](https://github.com/hieunc229/mailflare) ⭐ | Self-hosting | `email` `cloudflare` `self-hosted` `productivity` `typescript` | A comprehensive, self-hosted alternative to Google Workspace that integrates email, calendar, drive, and AI agents, deployable via Cloudflare Workers or Docker. | 6324 | 2026-11-15 |
