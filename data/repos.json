@@ -18137,5 +18137,37 @@
       "svg",
       "vizualization"
     ]
+  },
+  {
+    "id": "github:opensensenova/sensenova-loop",
+    "url": "https://github.com/opensensenova/sensenova-loop",
+    "title": "opensensenova/sensenova-loop",
+    "source_name": "twitter",
+    "source_url": "https://x.com/GithubProjects/status/2123649420969562268",
+    "fetched_at": "2026-11-20T06:20:43.745633Z",
+    "verdict": "keep",
+    "score": 4,
+    "summary": "SenseNova-Loop-9B is a parameter-efficient 9B multimodal LLM that uses a looped architecture to achieve performance comparable to much larger models, specifically optimized for agentic, coding, and data analysis tasks.",
+    "category": "AI/LLM",
+    "tags": [
+      "llm",
+      "multimodal",
+      "agentic",
+      "inference",
+      "machine-learning"
+    ],
+    "risk_notes": "This is a model weight repository and associated inference code. It requires significant GPU resources (approx 15 GiB VRAM for 4-bit quantization). Standard Python dependencies (pip) are required; users should run this in a virtual environment or container to isolate dependencies. It does not inherently require root access, but like any LLM, it should be treated as untrusted input when processing external data.",
+    "recommended": true,
+    "fields": {
+      "open_issues_count": 6,
+      "created_at": "2026-10-29T03:12:37Z",
+      "homepage": ""
+    },
+    "added_at": "2026-11-20T06:21:01.694451Z",
+    "stars": 248,
+    "language": "Python",
+    "pushed_at": "2026-11-18T10:03:54Z",
+    "license": "Apache-2.0",
+    "topics": []
   }
 ]
