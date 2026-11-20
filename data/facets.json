@@ -37984,5 +37984,27 @@
       "LLM visualization tool",
       "AI diagram generator"
     ]
+  },
+  "github:opensensenova/sensenova-loop": {
+    "capability_summary": "A parameter-efficient 9B multimodal LLM using a looped architecture for high-performance reasoning. It is designed for developers and researchers working on agentic workflows, coding assistance, and data analysis.",
+    "problem_solved": "Achieving large-model performance on resource-constrained hardware.",
+    "use_cases": [
+      "agentic workflows",
+      "automated coding",
+      "data analysis",
+      "multimodal inference"
+    ],
+    "project_type": "model",
+    "platforms": [
+      "linux",
+      "docker"
+    ],
+    "cost": "free",
+    "human_languages": [],
+    "aliases": [
+      "SenseNova",
+      "multimodal LLM",
+      "looped architecture model"
+    ]
   }
 }
